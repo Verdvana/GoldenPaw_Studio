@@ -1,5 +1,32 @@
 # 女主角表情与动作
 
+## female-lead-micro-expressions-v1.png
+
+- 状态：微表情扩展母版 v1
+- 身份基准：`assets/female-lead/key-art/female-lead-key-art-fresh-v1.png`
+- 脸部结构基准：`assets/female-lead/identity/face-identity-master-v1.png`
+- 当前服装基准：`assets/female-lead/outfits/female-lead-homewear-anchor-fresh-v1.png`
+- 内容：12 种自然微表情，按从左到右、从上到下排列。
+- 对应提示词：`prompts/female-lead/micro-expressions-v1.md`
+- 生成方式：Codex 内置图像生成。
+
+### 十二种微表情
+
+1. 平静专注。
+2. 温柔闭口微笑。
+3. 明亮自然大笑。
+4. 忍笑、略带调皮。
+5. 好奇挑眉。
+6. 轻度困惑。
+7. 专注思考。
+8. 吸气惊讶。
+9. 担忧关切。
+10. 尴尬害羞。
+11. 温柔共情。
+12. 困倦疲惫。
+
+用于视频时，可把相邻强度的状态作为过渡参考，不要逐帧机械复刻；脸型、眼睛大小和年龄感仍以身份母版为最高优先级。
+
 ## female-lead-expressions-actions-v1.png
 
 - 状态：首套表情与日常动作锚点

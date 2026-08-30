@@ -119,3 +119,6 @@
 3. 已完成首套表情和日常动作锚点。
 4. 已完成女主角与赛博金渐层的身高比例图。
 5. 已完成双角色正式定妆候选 v1，等待最终确认。
+6. 已完成 12 种微表情扩展母版：`assets/female-lead/expressions/female-lead-micro-expressions-v1.png`。
+7. 已完成 9 种头部与机位角度扩展母版：`assets/female-lead/identity/female-lead-head-angles-v1.png`。
+8. 当前运动场景资源统一归档于 `assets/female-lead/sports/`，包括晨间拉伸、瑜伽／普拉提、居家力量训练、羽毛球、网球、有氧操／轻舞蹈、运动后恢复、室内游泳和户外公路骑行；具体使用关系见该目录的 `README.md`。
