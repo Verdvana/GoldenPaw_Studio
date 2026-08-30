@@ -122,3 +122,4 @@
 6. 已完成 12 种微表情扩展母版：`assets/female-lead/expressions/female-lead-micro-expressions-v1.png`。
 7. 已完成 9 种头部与机位角度扩展母版：`assets/female-lead/identity/female-lead-head-angles-v1.png`。
 8. 当前运动场景资源统一归档于 `assets/female-lead/sports/`，包括晨间拉伸、瑜伽／普拉提、居家力量训练、羽毛球、网球、有氧操／轻舞蹈、运动后恢复、室内游泳和户外公路骑行；具体使用关系见该目录的 `README.md`。
+9. 女主职位为财务主管。当前职场场景资源统一归档于 `assets/female-lead/workplace/`，包括日常审核报表、财务部晨会、月度经营分析、高层预算汇报、指导下属复核和月末结账加班；具体使用关系见该目录的 `README.md`。
