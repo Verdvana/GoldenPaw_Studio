@@ -12,8 +12,8 @@ Primary request:
 
 Critical hosiery construction at the open toes:
 - The pantyhose is one continuous, closed full-foot garment covering the entire foot and every toe.
-- A single very fine, continuous, gently taut horizontal hosiery toe-seam/tension line follows the frontmost contour across the tips of all toes on each foot.
-- Above and behind that line, translucent matte nylon fabric visibly spans over every toe and bridges the toe gaps; the gaps must not look open or bare.
+- The frontmost contour across the toe tips is seamless and uniform, with no visible toe seam, horizontal stitching, darker transverse line, reinforced band, piping, cord or raised ridge.
+- Translucent matte nylon spans all five toes as one laterally tensioned elastic sheet. It bridges each toe gap in a smooth, shallow, gently concave tension arc instead of sinking into the cleft or clinging around each toe separately; no gap may look open or bare.
 - The stretched fabric slightly compresses and softens individual toe outlines. Skin texture and nail edges appear diffused beneath a uniform misty veil.
 - Deep red toenail polish remains visible only as muted crimson shapes beneath the pantyhose, never as crisp uncovered nails.
 - Show fine velvet-matte micro-weave and subtle tension gradients over the top and front of the foot; almost no glossy highlight.
@@ -28,7 +28,7 @@ Scene/style:
 
 Constraints:
 - No bare toes, no toe-less pantyhose, no separate socks, no opaque reinforced toe cap.
-- Exactly one coherent fine tension line per foot, anatomically correct feet and five toes.
+- Seamless hosiery across the front of each foot, anatomically correct feet and five toes, with no glove-like individual toe wrapping.
 - The woman remains fully clothed in tasteful homewear; no sexualized pose or framing.
 - No cat, extra people, painterly/smeared color, beauty-filter blur, plastic skin, glow haze, malformed feet, text, logo or watermark.
 
@@ -36,4 +36,4 @@ Generation method: Codex built-in image generation.
 
 ## Final targeted correction pass
 
-Edit only the pantyhose-covered toe areas in both the main image and the footwear-detail inset. Keep the woman, sleep dress, pose, room, lighting, slippers, framing and inset unchanged. Strengthen the three-layer construction evidence: one fine continuous taut line across the front toe tips; translucent nylon continuously bridging the toe gaps; softened toe and red-nail shapes beneath a uniform velvet-matte misty veil. The red pedicure must read as muted crimson below the fabric, never as crisp bare nails. Do not introduce painterly smearing.
+Edit only the pantyhose-covered toe areas in both the main image and the footwear-detail inset. Keep the woman, sleep dress, pose, room, lighting, slippers, framing and inset unchanged. Strengthen the seamless elastic construction evidence: a uniform front edge with no visible toe seam or darker transverse line; one continuous laterally tensioned nylon sheet bridging each toe gap in a smooth shallow concave arc without sinking into the cleft or wrapping each toe separately; softened toe and red-nail shapes beneath a uniform velvet-matte misty veil. The red pedicure must read as muted crimson below the fabric, never as crisp bare nails. Do not introduce painterly smearing.
