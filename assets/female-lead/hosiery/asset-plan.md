@@ -1,6 +1,6 @@
-# 露趾鞋 × 完整包脚丝袜资产生成计划
+# 丝袜视觉模板与露趾鞋适配计划
 
-本文件是露趾鞋适配资产的逐项生成清单。后续按编号顺序生成；每完成一项，只有在通过 `assets/female-lead/hosiery/qa/README.md` 验收并登记后，才能把状态从 `[ ]` 改为 `[x]`。
+本文件集中管理后续丝袜视觉模板与露趾鞋适配清单。当前尚未生成视觉模板；每完成一项，只有通过 `qa.md` 验收并在 `README.md` 的正式资产索引登记后，才能把状态改为 `[x]`。视觉文件稍后统一放入 `visuals/`。
 
 ## 固定生成基准
 
@@ -28,6 +28,25 @@
 - `[!]`：暂停或存在结构冲突，必须先解决说明中的问题。
 
 ---
+
+## 已有视觉模板
+
+- [x] `MAT-N15-L01`｜`visuals/hosiery-nude-15d-velvet-matte-plain-none-front-standing-neutral-v01.png`｜肉色 15D 天鹅绒哑光全腿正面模板；用于透肤度、颜色、织物感和腿脚整体连续性。绿色泳装、泳池背景与上肢伸展动作不作为参考职责；脚部较小，不能替代袜头结构特写。
+
+## A0｜前置视觉模板
+
+鞋履适配开始前，先完成以下肉色 30D 天鹅绒哑光无花纹基准。所有脚部均已穿完整包脚丝袜；不使用裸脚图作为模型正向参考。
+
+- [ ] `BASE-L01`｜下半身正面站立｜检查大腿—膝—小腿—脚踝—脚趾的材质连续性。
+- [ ] `BASE-L02`｜下半身高位三分之四站立｜作为后续服装生成的主要全腿材质参考。
+- [ ] `BASE-C01`｜脚趾正面结构特写｜检查无袜头横线和连续趾间浅弧。
+- [ ] `BASE-C02`｜脚背高位三分之四结构特写｜检查脚踝—脚背—趾尖连续性。
+- [ ] `BASE-C03`｜脚部外侧结构特写｜检查小脚趾侧和袜头前缘。
+- [ ] `BASE-C04`｜足底结构图｜检查足底、前掌和趾腹连续覆盖。
+- [ ] `BASE-P01`｜侧面半蹲｜检查脚踝、膝前和膝窝褶皱。
+- [ ] `BASE-P02`｜侧面提踵｜检查脚背伸展和前掌受力。
+
+前置模板全部通过后才开始 S01。其他颜色、厚度、光泽和花纹按实际服装需求逐项增加；硬锁改为材质中性版本前，不启动非肉色、非天鹅绒哑光的露趾模板。
 
 ## P0｜当前项目核心鞋型
 
@@ -158,22 +177,22 @@ P0–P2 的站立结构通过后，再补以下鞋型专属姿势：
 
 建议首批兼容性测试：
 
-- [ ] `FW-MAT-01`｜`hosiery-white-15d-pearl-plain-ankle-strap-flat-sandal-top-three-quarter-standing-neutral-v01.png`｜S04 踝带平底凉鞋 × 白色 15D 珠光。
-- [ ] `FW-MAT-02`｜`hosiery-gray-30d-satin-plain-open-toe-flat-mule-top-three-quarter-standing-neutral-v01.png`｜S05 露趾平底穆勒鞋 × 灰色 30D 缎光。
-- [ ] `FW-MAT-03`｜`hosiery-nude-15d-oil-gloss-plain-open-toe-block-heel-sandal-top-three-quarter-standing-neutral-v01.png`｜S07 粗跟凉鞋 × 肉色 15D 油亮。
-- [ ] `FW-MAT-04`｜`hosiery-black-50d-velvet-matte-plain-strappy-high-heel-sandal-top-three-quarter-standing-neutral-v01.png`｜S08 多细带高跟凉鞋 × 黑色 50D 天鹅绒哑光。
-- [ ] `FW-MAT-05`｜`hosiery-black-80d-wool-plain-peep-toe-mid-heel-pump-top-three-quarter-standing-neutral-v01.png`｜S06 鱼嘴中跟鞋 × 黑色 80D 羊毛；仅在鱼嘴开口足以验收且造型合理时保留。
+- [!] `FW-MAT-01`｜`hosiery-white-15d-pearl-plain-ankle-strap-flat-sandal-top-three-quarter-standing-neutral-v01.png`｜S04 踝带平底凉鞋 × 白色 15D 珠光；等待材质中性硬锁。
+- [!] `FW-MAT-02`｜`hosiery-gray-30d-satin-plain-open-toe-flat-mule-top-three-quarter-standing-neutral-v01.png`｜S05 露趾平底穆勒鞋 × 灰色 30D 缎光；等待材质中性硬锁。
+- [!] `FW-MAT-03`｜`hosiery-nude-15d-oil-gloss-plain-open-toe-block-heel-sandal-top-three-quarter-standing-neutral-v01.png`｜S07 粗跟凉鞋 × 肉色 15D 油亮；等待材质中性硬锁。
+- [!] `FW-MAT-04`｜`hosiery-black-50d-velvet-matte-plain-strappy-high-heel-sandal-top-three-quarter-standing-neutral-v01.png`｜S08 多细带高跟凉鞋 × 黑色 50D 天鹅绒哑光；等待材质与甲油可见性规则。
+- [!] `FW-MAT-05`｜`hosiery-black-80d-wool-plain-peep-toe-mid-heel-pump-top-three-quarter-standing-neutral-v01.png`｜当前露趾规则下不生成；原则上改配闭趾鞋。
 
 每项兼容性测试至少生成高位三分之四视角；通过后再按实际镜头补正面、侧面或姿势图。
 
 ## 单项生成流程
 
 1. 确认前置鞋型母版和丝袜结构母版已为正式资产。
-2. 在目标图片所在的丝袜素材类型目录中建立同名 `.md` 提示词。
+2. 在本文件对应条目下记录提示词版本、输入参考和生成参数；不再为每张图建立同名说明文件。
 3. 只提交女主身份、当前鞋型母版、目标丝袜材质和最接近的结构/姿势参考。
 4. 生成后按丝袜 QA、鞋脚解剖和鞋型一致性逐项验收。
 5. 失败结果记录失败类别，不覆盖已有正式版本。
-6. 通过后保存 PNG、更新本文件状态，并在 `catalog/` 登记。
+6. 通过后保存到 `visuals/`、更新本文件状态，并在 `README.md` 的正式资产索引登记。
 
 ## 单项完成定义
 
@@ -186,4 +205,4 @@ P0–P2 的站立结构通过后，再补以下鞋型专属姿势：
 - 暗红甲油只隔着袜面朦胧透出。
 - 脚踝、脚背、脚趾及可见足底的丝袜密度和材质一致。
 - 对应姿势中的褶皱和高光符合 30D 天鹅绒哑光材质。
-- 文件名、提示词、版本和 catalog 登记完整。
+- 文件名、提示词版本、输入参考、版本号和 README 正式索引登记完整。

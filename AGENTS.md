@@ -6,17 +6,18 @@
 - 处理具体视频时，先读该 `products/<视频工程>/README.md`；工程 README 会列出本片必需的本地文件和全局角色资产。
 - 不要从文件名猜测工作流，也不要绕过工程 README 直接批量生成。
 
-本项目生成或修改任何图片、分镜、关键帧、视频提示词或视频成片前，必须先阅读：
-
-- `assets/female-lead/hosiery/media-generation-guardrails.md`
-- `assets/female-lead/hosiery/closed-foot-pantyhose-toe-lock.md`
-
-生成、修改或调用丝袜参考资产时，还必须读取：
+生成或修改含女主丝袜的图片、分镜、关键帧、视频提示词或视频成片前，必须读取：
 
 - `assets/female-lead/hosiery/README.md`
-- 对应子目录的 `README.md`
-- `assets/female-lead/hosiery/qa/README.md`
-- `assets/female-lead/hosiery/prompt-guide.md`
+- `assets/female-lead/hosiery/qa.md`
+
+规划或生成丝袜视觉模板时，还必须读取：
+
+- `assets/female-lead/hosiery/asset-plan.md`
+
+女主脚趾通过露趾鞋或拖鞋可见时，还必须逐字加载：
+
+- `assets/female-lead/hosiery/closed-foot-pantyhose-toe-lock.md`
 
 ## 女主丝袜不可省略
 

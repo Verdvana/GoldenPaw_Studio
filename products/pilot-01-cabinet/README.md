@@ -24,7 +24,7 @@
 
 若当前镜头包含女主可见脚部，还必须完整读取：
 
-- `assets/female-lead/hosiery/media-generation-guardrails.md`
+- `assets/female-lead/hosiery/qa.md`
 - `assets/female-lead/hosiery/closed-foot-pantyhose-toe-lock.md`
 
 ## 工程目录
