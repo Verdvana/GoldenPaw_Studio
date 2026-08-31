@@ -8,3 +8,4 @@
 
 该固定段落不能缩写或仅以“脚趾被丝袜包裹”替代。生成结果不满足四项脚部验收时，不得登记为正式候选。
 
+需要选择或生成丝袜参考资产时，从 `assets/female-lead/hosiery/README.md` 进入，并按 `prompts/female-lead/hosiery/README.md` 组合身份、材质、结构视角和姿势参考。不要把整个资产总览或互相冲突的多张参考一次性提交给模型。

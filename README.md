@@ -7,6 +7,7 @@
 - 项目级媒体硬规则：`AGENTS.md`
 - 图片与视频验收规范：`docs/media-generation-guardrails.md`
 - 露趾包脚丝袜固定提示词：`prompts/_shared/closed-foot-pantyhose-toe-lock.md`
+- 女主丝袜资产选择入口：`assets/female-lead/hosiery/README.md`
 
 ## 当前阶段
 
@@ -21,6 +22,8 @@
 - `assets/character/turnaround/`：后续角色三视图
 - `assets/character/expressions/`：后续表情与动作设定
 - `assets/female-lead/`：女主角定妆照与角色视觉资产
+- `assets/female-lead/hosiery/`：完整包脚丝袜的身份、结构、材质、花纹、鞋履、姿势与验收资产库
 - `prompts/female-lead/`：女主角可复用生成提示词
+- `prompts/female-lead/hosiery/`：丝袜资产生成提示词入口与参考图调用规则
 - `assets/duo/key-art/`、`assets/duo/scale/`：所有视频共用的双角色定妆与比例母版
 - `productions/<项目名>/`：单条视频的剧本、分镜、首尾帧、专属提示词、视频与验收文件；不得散放进全局角色资产目录

@@ -5,6 +5,13 @@
 - `docs/media-generation-guardrails.md`
 - `prompts/_shared/closed-foot-pantyhose-toe-lock.md`
 
+生成、修改或调用丝袜参考资产时，还必须读取：
+
+- `assets/female-lead/hosiery/README.md`
+- 对应子目录的 `README.md`
+- `assets/female-lead/hosiery/qa/README.md`
+- `prompts/female-lead/hosiery/README.md`
+
 ## 女主丝袜不可省略
 
 - 女主穿裙装或设定中要求连裤丝袜时，丝袜必须在所有适用画面和视频帧中连续存在，不得因远景、动作、光照或肉色材质而变成裸腿。
