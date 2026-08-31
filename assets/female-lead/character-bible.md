@@ -30,7 +30,7 @@
 
 动作原则：动作轻快自然，不使用偶像式夸张手势，不幼态化，不靠大幅度五官变形制造情绪。
 
-表情与动作锚点图：`assets/female-lead/expressions/female-lead-expressions-actions-v1.png`
+表情与动作锚点图：`assets/female-lead/core/female-lead-expressions-actions-v1.png`
 
 ## 外貌与身材
 
@@ -53,11 +53,11 @@
 
 ## 核心定妆基准
 
-- 已锁定：`assets/female-lead/key-art/female-lead-key-art-fresh-v1.png`
+- 已锁定：`assets/female-lead/core/female-lead-key-art-fresh-v1.png`
 - 该图是人物身份、脸型、五官、身材比例、发型、年龄感和基础写实质感的唯一主基准。
 - 后续换装、换场景和动作设计可以改变服饰与姿态，但不得让人物身份、身材比例或年龄感漂移。
-- 脸部身份母版：`assets/female-lead/identity/face-identity-master-v1.png`
-- 标准全身多视角：`assets/female-lead/turnaround/female-lead-body-turnaround-v1.png`
+- 脸部身份母版：`assets/female-lead/core/face-identity-master-v1.png`
+- 标准全身多视角：`assets/female-lead/core/female-lead-body-turnaround-v1.png`
 
 ## 穿衣风格规范
 
@@ -91,21 +91,16 @@
 - 常用科技配饰：Apple Watch、AirPods Pro。
 - 项链和耳环按造型需要搭配，避免所有配饰同时堆叠。
 
-## 首批服装锚点
+## 服装与场景资产策略
 
-1. 运动：白色长袖短款瑜伽上衣、粉色紧身瑜伽裤、耐克跑鞋；脚踝处可见内穿的微光泽连裤丝袜。
-2. 冬装：米色羊绒修身连衣短裙、黑色微透肉哑光连裤袜、敞开穿的棕色风衣、棕色短靴。
-3. 都市甜酷：黑色修身短袖短款上衣、白色波点包臀短裙、灰色透肉丝袜、黑色绒面露脚背圆头猫跟鞋，搭配项链和耳环。
-4. 明亮日常：玫红色修身短袖、白色短裤、白色透肉连裤丝袜、与整体配色协调的露脚背中跟鞋。
-5. 居家：浅色短款睡裙、肉色天鹅绒哑光透肉连裤丝袜、浅粉色露趾居家拖鞋；丝袜以无可见袜头缝线的一整片高弹哑光纱层连续覆盖脚趾，并在趾间跨接成柔和浅弧，不得陷入趾缝或逐根紧贴；暗红色甲油只能隔着丝袜朦胧透出。
-
-首批锚点图：`assets/female-lead/outfits/female-lead-outfit-anchor-sheet-v1.png`
-
-居家服单套锚点：`assets/female-lead/outfits/female-lead-homewear-anchor-fresh-v1.png`
+- 不保留全局服装、运动、职场或外出场景图片。
+- 每条视频的服装、鞋履、配饰、场景和动作连续性由对应 `products/<视频工程>/README.md`、连续性文档和本片关键帧共同定义。
+- 新生成的场景图默认属于具体产品；只有经明确确认并需要跨多个视频复用时，才可升级为新的全局资产。
+- 涉及丝袜的造型始终从 `assets/female-lead/hosiery/README.md` 进入，并执行生成硬锁与 QA。
 
 ## 首张定妆照
 
-已锁定：`assets/female-lead/key-art/female-lead-key-art-fresh-v1.png`
+已锁定：`assets/female-lead/core/female-lead-key-art-fresh-v1.png`
 
 - 单人全身三分之四角色肖像。
 - 干净、温暖的中性室内背景。
@@ -113,15 +108,10 @@
 - 完整显示头发、脸、身材比例、服装、丝袜和鞋子。
 - 身份与真实比例优先于戏剧性姿势和环境装饰。
 
-## 后续流程
+## 当前资产状态
 
-1. 已完成首批四套服装锚点图。
-2. 已完成脸部身份母版与标准全身多视角。
-3. 已完成首套表情和日常动作锚点。
-4. 已完成女主角与赛博金渐层的身高比例图。
-5. 已完成双角色正式定妆候选 v1，等待最终确认。
-6. 已完成 12 种微表情扩展母版：`assets/female-lead/expressions/female-lead-micro-expressions-v1.png`。
-7. 已完成 9 种头部与机位角度扩展母版：`assets/female-lead/identity/female-lead-head-angles-v1.png`。
-8. 当前运动场景资源统一归档于 `assets/female-lead/sports/`，包括晨间拉伸、瑜伽／普拉提、居家力量训练、羽毛球、网球、有氧操／轻舞蹈、运动后恢复、室内游泳和户外公路骑行；具体使用关系见该目录的 `README.md`。
-9. 女主职位为财务主管。当前职场场景资源统一归档于 `assets/female-lead/workplace/`，包括日常审核报表、财务部晨会、月度经营分析、高层预算汇报、指导下属复核和月末结账加班；具体使用关系见该目录的 `README.md`。
-10. 当前外出游玩、逛街、旅行、露营与圣诞主题资源统一归档于 `assets/female-lead/outings/`，包含夏季、春秋和冬季共 13 套造型；完整索引与使用规则见该目录的 `README.md`。
+- 核心定妆、脸部身份、头部角度、身体多视角、表情动作和微表情共 6 张基础图片，统一归档于 `assets/female-lead/core/`。
+- 核心资产的选择、优先级和提示词索引见 `assets/female-lead/core/README.md`。
+- 丝袜专项结构、材质、鞋履适配、硬锁与 QA 路径保留在 `assets/female-lead/hosiery/`。
+- 原服装、运动、职场和外出图片不再作为有效全局资产。
+- 双角色比例与互动资产仍由 `assets/female-lead-and-cyber-golden-shaded/` 单独管理。

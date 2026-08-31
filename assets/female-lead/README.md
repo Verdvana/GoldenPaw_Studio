@@ -1,23 +1,21 @@
 # 女主角资产
 
-本目录保存女主角可跨视频复用的角色资产。
+女主角全局资产只保留“核心基础资产”和“丝袜专项资产”。服装造型、运动、职场、外出和其他剧情场景不再作为全局女主资产保存。
 
-## 权威入口
+## 路径
 
-- 角色设定：`character-bible.md`
-- 唯一身份母版：`key-art/female-lead-key-art-fresh-v1.png`
-- 脸部身份：`identity/face-identity-master-v1.png`
-- 身体多视角：`turnaround/female-lead-body-turnaround-v1.png`
-- 当前居家造型：`outfits/female-lead-homewear-anchor-fresh-v1.png`
+- `core/`：唯一的基础资产入口，集中保存核心定妆、脸部与头部身份、身体多视角、表情与动作，共 6 张图片及其对应提示词。
+- `hosiery/`：丝袜结构、材质、鞋履适配、生成硬锁与 QA 规范。
+- `character-bible.md`：女主长期角色设定；不充当图片参考。
 
-## 素材类型
+## 使用顺序
 
-- `key-art/`：定妆与关键视觉。
-- `identity/`：脸部、头部角度与身份结构。
-- `turnaround/`：身体比例和多视角。
-- `expressions/`：表情与动作。
-- `outfits/`：可复用服装锚点。
-- `hosiery/`：丝袜结构、材质、鞋履适配、硬锁与 QA。
-- `sports/`、`workplace/`、`outings/`：可复用场景造型资产及对应提示词。
+1. 先读取本文件与 `core/README.md`。
+2. 始终以 `core/female-lead-key-art-fresh-v1.png` 作为人物身份最高基准。
+3. 根据任务从 `core/` 最多补充一至两张脸部、身体或表情参考，不要默认加载全部 6 张。
+4. 服装、场景和镜头连续性由具体 `products/<视频工程>/README.md`、本片文档和本片关键帧决定。
+5. 涉及丝袜时，额外从 `hosiery/README.md` 进入并执行其硬锁与验收规则。
 
-生成或修改任何素材前先读 `AGENTS.md`。涉及丝袜时还必须从 `hosiery/README.md` 进入。
+## 资产边界
+
+当前不设全局 `outfits/`、`sports/`、`workplace/` 或 `outings/`。今后只有经过明确确认、确实需要跨多个视频复用的图片，才能重新加入女主全局资产。

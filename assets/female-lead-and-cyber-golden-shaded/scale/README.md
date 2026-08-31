@@ -3,7 +3,7 @@
 ## female-lead-cat-height-scale-v1.png
 
 - 状态：已确认尺寸参数后的首张双角色比例母版
-- 女主身份基准：`assets/female-lead/key-art/female-lead-key-art-fresh-v1.png`
+- 女主身份基准：`assets/female-lead/core/female-lead-key-art-fresh-v1.png`
 - 猫咪身份基准：`assets/cyber-golden-shaded/key-art/cyber-golden-shaded-key-art-reference-v1.png`
 - 对应提示词：`assets/female-lead-and-cyber-golden-shaded/scale/height-scale-reference-v1.md`
 - 生成方式：Codex 内置图像生成

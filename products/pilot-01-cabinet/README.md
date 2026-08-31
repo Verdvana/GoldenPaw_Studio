@@ -39,13 +39,14 @@
 
 ## 本片引用的全局角色资产
 
-以下文件只引用、不复制。身份或比例发生冲突时，按此顺序处理：单角色身份母版优先，双角色资产只补充相对比例与互动关系。
+以下文件只引用、不复制。单角色核心身份优先；双角色资产只补充相对比例与互动关系。
 
 - 猫咪身份：`assets/cyber-golden-shaded/key-art/cyber-golden-shaded-key-art-reference-v1.png`
-- 女主身份：`assets/female-lead/key-art/female-lead-key-art-fresh-v1.png`
-- 女主居家造型：`assets/female-lead/outfits/female-lead-homewear-anchor-fresh-v1.png`
+- 女主身份：`assets/female-lead/core/female-lead-key-art-fresh-v1.png`
 - 双角色比例：`assets/female-lead-and-cyber-golden-shaded/scale/female-lead-cat-height-scale-v1.png`
 - 双角色互动气质：`assets/female-lead-and-cyber-golden-shaded/key-art/female-lead-cat-official-key-art-v1.png`
+
+女主居家造型不再引用全局服装图片。本片服装、丝袜、拖鞋和配饰以 `brief/continuity.md` 的文字要求及当前镜头的本地首尾帧为准。
 
 ## 每个镜头的执行方式
 

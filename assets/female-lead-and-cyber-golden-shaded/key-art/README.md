@@ -3,7 +3,7 @@
 ## female-lead-cat-official-key-art-v1.png
 
 - 状态：双角色正式定妆候选 v1，等待最终确认
-- 女主身份基准：`assets/female-lead/key-art/female-lead-key-art-fresh-v1.png`
+- 女主身份基准：`assets/female-lead/core/female-lead-key-art-fresh-v1.png`
 - 猫咪身份基准：`assets/cyber-golden-shaded/key-art/cyber-golden-shaded-key-art-reference-v1.png`
 - 比例基准：`assets/female-lead-and-cyber-golden-shaded/scale/female-lead-cat-height-scale-v1.png`
 - 对应提示词：`assets/female-lead-and-cyber-golden-shaded/key-art/official-key-art-v1.md`
