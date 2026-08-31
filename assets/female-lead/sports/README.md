@@ -6,16 +6,16 @@
 
 | 场景 | 图片 | 提示词 |
 | --- | --- | --- |
-| 晨间拉伸 | `female-lead-morning-stretch.png` | `prompts/female-lead/sports/morning-stretch.md` |
-| 瑜伽／普拉提 | `female-lead-yoga-pilates.png` | `prompts/female-lead/sports/yoga-pilates.md` |
-| 居家力量训练 | `female-lead-home-strength.png` | `prompts/female-lead/sports/home-strength.md` |
-| 羽毛球 | `female-lead-badminton.png` | `prompts/female-lead/sports/badminton.md` |
-| 网球 | `female-lead-tennis.png` | `prompts/female-lead/sports/tennis.md` |
-| 有氧操／轻舞蹈 | `female-lead-aerobics-dance.png` | `prompts/female-lead/sports/aerobics-dance.md` |
-| 运动后恢复 | `female-lead-post-workout-recovery.png` | `prompts/female-lead/sports/post-workout-recovery.md` |
-| 室内游泳主图 | `female-lead-indoor-swimming-main.png` | `prompts/female-lead/sports/indoor-swimming.md` |
-| 室内游泳动作图 | `female-lead-indoor-swimming-actions.png` | `prompts/female-lead/sports/indoor-swimming.md` |
-| 户外公路骑行 | `female-lead-road-cycling.png` | `prompts/female-lead/sports/road-cycling.md` |
+| 晨间拉伸 | `female-lead-morning-stretch.png` | `assets/female-lead/sports/morning-stretch.md` |
+| 瑜伽／普拉提 | `female-lead-yoga-pilates.png` | `assets/female-lead/sports/yoga-pilates.md` |
+| 居家力量训练 | `female-lead-home-strength.png` | `assets/female-lead/sports/home-strength.md` |
+| 羽毛球 | `female-lead-badminton.png` | `assets/female-lead/sports/badminton.md` |
+| 网球 | `female-lead-tennis.png` | `assets/female-lead/sports/tennis.md` |
+| 有氧操／轻舞蹈 | `female-lead-aerobics-dance.png` | `assets/female-lead/sports/aerobics-dance.md` |
+| 运动后恢复 | `female-lead-post-workout-recovery.png` | `assets/female-lead/sports/post-workout-recovery.md` |
+| 室内游泳主图 | `female-lead-indoor-swimming-main.png` | `assets/female-lead/sports/indoor-swimming.md` |
+| 室内游泳动作图 | `female-lead-indoor-swimming-actions.png` | `assets/female-lead/sports/indoor-swimming.md` |
+| 户外公路骑行 | `female-lead-road-cycling.png` | `assets/female-lead/sports/road-cycling.md` |
 
 ## 晨间拉伸
 
@@ -74,5 +74,5 @@
 
 - 多联图用于服装、场景和代表动作参考，不应直接当作连续视频的相邻帧。
 - 视频制作时应结合具体动作重新设计首尾帧，并保持脸、身体比例、发型、服装颜色和材质稳定。
-- 只要完整包脚丝袜覆盖的脚趾可见，图片与视频提示词都必须完整加入 `prompts/_shared/closed-foot-pantyhose-toe-lock.md`。
+- 只要完整包脚丝袜覆盖的脚趾可见，图片与视频提示词都必须完整加入 `assets/female-lead/hosiery/closed-foot-pantyhose-toe-lock.md`。
 - 任何脚趾看似裸露、出现袜头缝线或逐趾包裹的结果必须拒绝。

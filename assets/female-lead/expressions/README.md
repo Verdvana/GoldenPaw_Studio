@@ -7,7 +7,7 @@
 - 脸部结构基准：`assets/female-lead/identity/face-identity-master-v1.png`
 - 当前服装基准：`assets/female-lead/outfits/female-lead-homewear-anchor-fresh-v1.png`
 - 内容：12 种自然微表情，按从左到右、从上到下排列。
-- 对应提示词：`prompts/female-lead/micro-expressions-v1.md`
+- 对应提示词：`assets/female-lead/expressions/micro-expressions-v1.md`
 - 生成方式：Codex 内置图像生成。
 
 ### 十二种微表情
@@ -32,7 +32,7 @@
 - 状态：首套表情与日常动作锚点
 - 身份基准：`assets/female-lead/key-art/female-lead-key-art-fresh-v1.png`
 - 脸部结构基准：`assets/female-lead/identity/face-identity-master-v1.png`
-- 对应提示词：`prompts/female-lead/expressions-actions-v1.md`
+- 对应提示词：`assets/female-lead/expressions/expressions-actions-v1.md`
 - 生成方式：Codex 内置图像生成
 
 ### 六种反应

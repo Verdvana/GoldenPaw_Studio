@@ -1,29 +1,33 @@
 # GoldenPaw Studio
 
-“赛博金渐层”IP的角色设计、视觉资产与短视频制作项目。
+“赛博金渐层”IP 的可复用角色资产库与独立视频工程仓库。
 
-## 生成前必读
+## 一级目录
 
-- 项目级媒体硬规则：`AGENTS.md`
-- 图片与视频验收规范：`docs/media-generation-guardrails.md`
-- 露趾包脚丝袜固定提示词：`prompts/_shared/closed-foot-pantyhose-toe-lock.md`
-- 女主丝袜资产选择入口：`assets/female-lead/hosiery/README.md`
+项目内容只沿两条主线组织：
 
-## 当前阶段
+- `assets/`：跨视频复用的角色资产。二级目录是角色，三级目录是该角色的素材类型。
+- `products/`：独立视频工程。二级目录是一条视频工程，工程内只保存该视频专属的策划、分镜、关键帧、提示词、输出与验收记录。
 
-第一阶段聚焦角色视觉定型：先固定赛博金渐层的脸型、体型、毛色、绿眼睛与核心科技装备，再扩展表情、动作、场景和故事。
+根目录只保留仓库入口文件，例如本 README、`AGENTS.md`、许可证和版本控制配置，不承载媒体素材。
 
-## 目录
+## 开始工作
 
-- `docs/`：角色与视觉规范
-- `prompts/`：可复用的图像和视频生成提示词
-- `assets/character/key-art/`：角色定妆照与关键视觉
-- `assets/character/references/`：后续选定的造型参考
-- `assets/character/turnaround/`：后续角色三视图
-- `assets/character/expressions/`：后续表情与动作设定
-- `assets/female-lead/`：女主角定妆照与角色视觉资产
-- `assets/female-lead/hosiery/`：完整包脚丝袜的身份、结构、材质、花纹、鞋履、姿势与验收资产库
-- `prompts/female-lead/`：女主角可复用生成提示词
-- `prompts/female-lead/hosiery/`：丝袜资产生成提示词入口与参考图调用规则
-- `assets/duo/key-art/`、`assets/duo/scale/`：所有视频共用的双角色定妆与比例母版
-- `productions/<项目名>/`：单条视频的剧本、分镜、首尾帧、专属提示词、视频与验收文件；不得散放进全局角色资产目录
+- 创建或维护通用角色素材：先读 `assets/README.md`，再读对应角色及素材类型的 README。
+- 生成或维护某条视频：先读 `products/<视频工程>/README.md`。该文件是视频生成类 AI 的工程入口与执行清单。
+- 任何媒体生成或修改：同时遵守 `AGENTS.md`。
+
+## 当前入口
+
+- 赛博金渐层：`assets/cyber-golden-shaded/README.md`
+- 女主角：`assets/female-lead/README.md`
+- 双角色组合：`assets/female-lead-and-cyber-golden-shaded/README.md`
+- 视频工程索引：`products/README.md`
+- 当前视频：`products/pilot-01-cabinet/README.md`
+
+## 归档边界
+
+- 能被多个视频复用、用于锁定角色身份或长期视觉设定的内容，归入 `assets/`。
+- 只服务于一个视频的剧本、镜头、场景图、关键帧、生成提示词、成片和 QA 记录，归入该 `products/<视频工程>/`。
+- 产品可以引用全局资产，但不得把通用母版复制进产品目录。
+- 资产目录不得收纳某条视频的剧情镜头或成片。

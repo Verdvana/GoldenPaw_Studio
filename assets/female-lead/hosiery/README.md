@@ -9,9 +9,9 @@
 生成或修改本目录任何资产前，必须同时读取：
 
 - `AGENTS.md`
-- `docs/media-generation-guardrails.md`
-- `prompts/_shared/closed-foot-pantyhose-toe-lock.md`
-- `prompts/female-lead/hosiery/README.md`
+- `assets/female-lead/hosiery/media-generation-guardrails.md`
+- `assets/female-lead/hosiery/closed-foot-pantyhose-toe-lock.md`
+- `assets/female-lead/hosiery/prompt-guide.md`
 
 脚趾入镜时必须完整加入袜头英文硬锁。没有通过 `qa/README.md` 验收的图片不得登记为正式参考。
 

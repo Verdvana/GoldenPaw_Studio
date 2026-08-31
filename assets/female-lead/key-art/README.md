@@ -7,7 +7,7 @@
 - 格式：PNG
 - 生成方式：Codex内置图像生成
 - 身份与身材参考：`ref/female_lead/`中的授权照片
-- 对应提示词：`prompts/female-lead/key-art-fresh-v1.md`
+- 对应提示词：`assets/female-lead/key-art/key-art-fresh-v1.md`
 - 未使用任何旧版生成图作为输入
 - 后续换装图必须以此图锁定人物身份、身材比例、发型与写实质感
 

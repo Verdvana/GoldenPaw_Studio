@@ -20,12 +20,12 @@
 | 12 | 冬季森林露营 | `female-lead-winter-forest-camping.png` |
 | 13 | 圣诞集市 | `female-lead-christmas-market.png` |
 
-完整服装、鞋履、动作、表情和生成约束统一记录在 `prompts/female-lead/outings/outings.md`。
+完整服装、鞋履、动作、表情和生成约束统一记录在 `assets/female-lead/outings/outings.md`。
 
 ## 使用规则
 
 - 所有场景均从核心身份参考全新生成，不得用既有成片进行整套换装。
-- 1、2、3号使用露趾鞋，必须完整应用 `prompts/_shared/closed-foot-pantyhose-toe-lock.md` 中的袜头结构硬锁和暗红色甲油可辨识硬锁；正式图必须从核心身份参考全新生成，不使用既有成片做局部覆盖。
+- 1、2、3号使用露趾鞋，必须完整应用 `assets/female-lead/hosiery/closed-foot-pantyhose-toe-lock.md` 中的袜头结构硬锁和暗红色甲油可辨识硬锁；正式图必须从核心身份参考全新生成，不使用既有成片做局部覆盖。
 - 其余场景使用闭趾鞋，丝袜仍须从下装边缘连续存在至鞋内，不得在脚踝或脚背处消失。
 - 户外露营造型以实际保暖、防风和防滑能力为前提；不得把徒步鞋改成时装高跟鞋。
 - 圣诞造型的白色裤袜应保持白色织纹与轻微肤色层次，不能变成纯白不透明打底裤。
