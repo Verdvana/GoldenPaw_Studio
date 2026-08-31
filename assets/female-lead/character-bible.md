@@ -81,7 +81,7 @@
 - 冬季丝袜可以更厚，但仍需保留轻微透肉感。
 - 丝袜颜色必须与衣服、鞋履和季节协调。
 - 搭配露趾凉鞋或拖鞋时，丝袜必须连续包裹全部脚趾。脚趾前方不得出现可见缝合线或加深横线；画面必须能辨认一整片高弹哑光袜面跨过趾间空隙形成柔和浅弧，而不是陷入趾缝或逐根紧贴，并能看出被袜面柔化的脚趾轮廓及丝袜下方朦胧透出的暗红色甲油；不能像裸脚。
-- 每次图片或视频生成必须完整加入 `assets/female-lead/hosiery/closed-foot-pantyhose-toe-lock.md`，并按 `assets/female-lead/hosiery/qa.md` 验收。视频中该结构必须逐帧稳定。
+- 每次图片或视频生成必须完整加入 `assets/female-lead/hosiery/closed-foot-pantyhose-toe-lock.md`，并按 `assets/female-lead/hosiery/media-generation-guardrails.md` 验收。视频中该结构必须逐帧稳定。
 - 丝袜的厚度、颜色、材质、花纹、标准视角、鞋履适配和蹲姿褶皱参考统一从 `assets/female-lead/hosiery/README.md` 选择；该资产库补充丝袜表现，不覆盖本角色基准或单片连续性文档指定的造型。
 
 ### 鞋履与配饰
@@ -113,5 +113,4 @@
 - 核心定妆、脸部身份、头部角度、身体多视角、表情动作和微表情共 6 张基础图片，统一归档于 `assets/female-lead/core/`。
 - 核心资产的选择、优先级和提示词索引见 `assets/female-lead/core/README.md`。
 - 丝袜专项结构、材质、鞋履适配、硬锁与 QA 路径保留在 `assets/female-lead/hosiery/`。
-- 原服装、运动、职场和外出图片不再作为有效全局资产。
 - 双角色比例与互动资产仍由 `assets/female-lead-and-cyber-golden-shaded/` 单独管理。
