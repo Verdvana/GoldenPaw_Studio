@@ -12,7 +12,7 @@
 - 袜面从脚踝连续覆盖脚背、全部脚趾和足底。
 - 趾间为一整片受横向张力的连续曲面，不陷入趾缝，不逐趾包裹。
 - 袜头前缘无可见缝合线、横线、补强带或任何连接线。
-- 褶皱按关节受力分区：提踵/跖屈时脚踝前后侧、脚背与跟腱全部贴体张紧且无可见褶皱；下蹲/背屈时只允许脚踝前侧压缩区出现少量细浅横褶，后踝保持拉伸平顺；屈膝时只允许膝窝压缩区出现少量细软褶皱，膝前保持拉伸平顺；禁止任何堆叠、袋状松弛或袜面离体。
+- 褶皱按姿势深度与 30D 轻薄尺度控制：站立、提踵/跖屈和半蹲时脚踝前后侧、脚背、膝窝与膝前均贴体平顺，不出现可辨认的织物褶皱组；全蹲时脚踝前侧只允许 2–3 条极细浅低对比纹，膝窝至多一条柔和浅线，跟腱—后踝与膝前保持平顺；禁止厚重横纹、堆叠褶、深沟槽、袋状松弛、袜面离体或近似 150D 的体积感。
 - 中性浅灰背景、标准白平衡、柔和主光加轻微侧光。
 - 脚部清晰对焦，长边不低于 2048 px；不使用景深、阴影或鞋面遮挡掩盖袜头结构。
 - 脚趾可见时逐字加入 `assets/female-lead/hosiery/closed-foot-pantyhose-toe-lock.md`。
@@ -66,11 +66,11 @@
   - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-none-lateral-side-standing-neutral-foot-closeup-v01.png`（初始比例与材质参考）；修复阶段以各前一版候选为单一编辑目标。
   - 生成与 QA：2026-09-01；原生输出 899 × 1750 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；足跟、足弓、前掌、五枚趾腹与趾端织纹连续，纯足底视角无任何甲油色块，趾间为浅弧跨接。
   - 尝试记录：`P1`、`P2` 存在深趾缝或逐趾包裹感；`P3` 虽修正趾间结构，却把甲油错误生成在趾腹，后由用户指出并按 `plantar-polish`、`anatomy`、`reference-conflict` 判定失效。`P4` 修复请求被安全过滤器拒绝；`P5` 清除甲油但重新出现深趾缝；`P6` 同时满足纯足底无甲油和连续浅弧袜面后通过。失效 `P3` 已移至 `rejected/` 隔离。
-- [x] `BASE-P01`｜`visuals/hosiery-nude-30d-velvet-matte-plain-none-lateral-side-half-squat-v01.png`｜侧面半蹲｜检查脚踝、膝前和膝窝褶皱。
-  - 提示词版本：`BASE-P01-P2`；内置 ImageGen 精确编辑；采用严格侧视、近侧单腿完整可见且远侧腿自然完全遮挡的职责单一构图；完整逐字加入更新后的 closed-foot toe lock、deep-red toenail visibility lock 与 plantar-view anatomy lock。
-  - 输入参考：`core/female-lead-body-turnaround-v1.png`（只锁定女主自然身体比例）与 `visuals/hosiery-nude-30d-velvet-matte-plain-none-top-three-quarter-standing-neutral-v01.png`（只锁定肉色 30D 天鹅绒哑光材质）；`P2` 以 `P1` 为唯一编辑目标。
-  - 生成与 QA：2026-09-01；原生输出 1024 × 1536 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；大腿—膝—小腿—脚踝—足部比例自然，近侧脚跟完整落地，膝前为张力平滑区、膝窝轻压缩、脚踝只有符合 30D 的细浅褶皱；背侧甲油仅隔袜朦胧可见，足底无甲油色块。
-  - 尝试记录：`P1` 的半蹲比例、材质和落跟基本正确，但远侧脚从近侧腿后孤立露出，且袜头趾间分隔偏强，按 `anatomy` 与 `toe-glove` 判定不入库；首次双腿分离修复在输出阶段被安全过滤器拒绝，未产生图片；`P2` 收敛为严格侧视遮挡并修正连续袜面后通过。
+- [x] `BASE-P01`｜`visuals/hosiery-nude-30d-velvet-matte-plain-none-lateral-side-half-squat-v01.png`｜侧面半蹲｜检查 30D 袜面在中等屈膝下仍贴体平顺、无可辨认褶皱组。
+  - 提示词版本：`BASE-P01-P4`；内置 ImageGen 精确编辑；以原 P2 为编辑目标，只移除前踝与膝窝的可见织物横纹，保持严格侧视半蹲、自然比例、落跟受力和袜头结构；完整逐字加入三段脚趾/足底硬锁。
+  - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-none-lateral-side-half-squat-v01.png` 的原 P2 正式版（唯一编辑目标）。
+  - 生成与 QA：2026-09-01；原生输出 1024 × 1536 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；大腿—膝—小腿—脚踝—足部比例与落跟姿势保持，半蹲脚踝、脚背、膝窝和膝前不再形成可数织物褶皱组，只保留自然关节曲面明暗；五趾与连续袜面通过。
+  - 尝试记录：原 `P1`、`P2` 的姿势与结构记录保留；用户进一步指出原 P2 褶皱量偏厚。`P3` 首次减量后前踝仍残留三条明显横纹，未入库；`P4` 再次局部弱化后通过。原 P2 已移入 `rejected/`。
 - [x] `BASE-P02`｜`visuals/hosiery-nude-30d-velvet-matte-plain-none-lateral-side-heel-lift-v02.png`｜侧面提踵｜检查脚背伸展、前掌受力及后踝贴合张力。
   - 提示词版本：`BASE-P02-P5`；内置 ImageGen 精确编辑；采用严格侧视、近侧单腿完整可见且远侧腿自然完全遮挡的温和日常提踵构图；完整逐字加入更新后的 closed-foot toe lock、deep-red toenail visibility lock、plantar-view anatomy lock 与后踝防松垮约束。
   - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-none-lateral-side-half-squat-v01.png`（锁定女主自然腿脚比例、肉色 30D 材质与摄影语言）和 `visuals/hosiery-nude-30d-velvet-matte-plain-none-lateral-side-standing-neutral-foot-closeup-v01.png`（仅辅助初始侧面脚型与袜头结构）；最终 `P5` 以 `P4` 为唯一编辑目标，只重建跟腱—后踝袜面。
@@ -105,16 +105,16 @@
   - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-none-lateral-side-standing-neutral-foot-closeup-v01.png`（编辑目标，锁定单脚外侧三分之四比例、中性承重、肉色 30D 材质、光照和背景）；由 `visuals/shoe-wide-band-flat-home-slide-multiview-v01.png` 裁出的严格外侧单视角临时图（只锁定浅粉宽鞋面、开放后跟和 5–6 mm 水平薄底，未作为正式资产保存）；P2 以 P1 为唯一编辑目标。
   - 生成与 QA：2026-09-01；原生输出 901 × 1746 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；脚跟居中落在后掌，鞋底全长贴地且保持零跟薄底，外踝—脚背—袜头纯色微织纹连续；趾间袜面跨接为浅张力弧，可见背侧甲板均有隔袜酒红甲油，趾腹与足底无甲油色块；中性站立脚踝、跟腱和脚背无松垮褶皱。
   - 尝试记录：`P1` 完成鞋履适配，鞋型、脚跟落位和脚踝贴合正确，但趾间凹陷偏深，按逐趾包裹风险不入库；`P2` 仅修复趾间连续薄膜、浅弧张力和薄底边缘后通过，未改变腿脚比例与站立物理。
-- [x] `FW-S01-Q`｜`visuals/hosiery-nude-30d-velvet-matte-plain-wide-band-flat-home-slide-lateral-side-half-squat-v01.png`｜侧面半蹲，检查脚踝、脚背、膝前和膝窝褶皱。
-  - 提示词版本：`FW-S01-Q-P1`；内置 ImageGen 精确编辑；以已批准 BASE-P01 为编辑目标，只为严格侧视的近侧脚穿上 S01 宽面薄底零跟居家拖鞋；完整逐字加入 closed-foot toe lock、deep-red toenail visibility lock、plantar-view anatomy lock，并明确半蹲时脚踝前侧与膝窝为少量细浅压缩褶皱区、膝前与跟腱—后踝为平顺张力区。
-  - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-none-lateral-side-half-squat-v01.png`（编辑目标，唯一锁定女主自然腿脚比例、半蹲关节角度、严格侧视遮挡、肉色 30D 材质、光照和背景）；`visuals/hosiery-nude-30d-velvet-matte-plain-wide-band-flat-home-slide-lateral-side-standing-neutral-v01.png`（辅助参考，只锁定 S01 浅粉宽鞋面、开放后跟、5–6 mm 零跟薄底、正确入鞋位置和已批准袜头结构，不覆盖目标姿势）。
-  - 生成与 QA：2026-09-01；原生输出 1024 × 1536 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；半蹲深度、腿脚比例与落跟受力自然，脚跟完整居中于鞋床且鞋底全长贴地；脚踝前侧保留少量细浅横褶，跟腱—后踝平顺无松垮横褶，膝窝轻压缩而膝前平滑；可见趾端由连续袜面覆盖，隔袜酒红甲油只位于真实可见背侧甲板。
-  - 尝试记录：`P1` 首轮通过，无失败候选。
-- [x] `FW-S01-D`｜`visuals/hosiery-nude-30d-velvet-matte-plain-wide-band-flat-home-slide-lateral-side-deep-squat-v01.png`｜侧面全蹲，检查深度屈膝与踝背屈时的受力、脚踝前侧细浅压缩褶皱、膝窝细软压缩褶皱，以及膝前和跟腱—后踝的平顺张力；禁止堆叠褶、袋状松弛或鞋脚错位。
-  - 提示词版本：`FW-S01-D-P2`；内置 ImageGen 精确编辑；以已批准 FW-S01-Q 为唯一编辑目标，将半蹲推进为严格侧视、脚跟完全落地的全蹲，并把构图收紧为非叙事性的下肢服装材质技术参考；完整逐字加入 closed-foot toe lock、deep-red toenail visibility lock、plantar-view anatomy lock 和全蹲褶皱分区规则。
-  - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-wide-band-flat-home-slide-lateral-side-half-squat-v01.png`（编辑目标，锁定女主腿脚比例、肉色 30D 材质、S01 鞋型、袜头结构、光照和背景）；首轮曾加入 `core/female-lead-body-turnaround-v1.png` 只辅助自然身体比例，但输出被安全系统拦截且未产生图片；最终 P2 不再提交该辅助图。
-  - 生成与 QA：2026-09-01；原生输出 1024 × 1536 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；全蹲深度清楚，近侧大腿与小腿自然接近，膝关节与踝背屈处于同一受力链；脚跟完整居中落在鞋床，鞋底全长贴地；前踝有少量细浅压缩纹、膝窝有柔和压缩线，膝前与跟腱—后踝平顺无松垮堆褶；可见趾端连续包袜，甲油只在真实可见背侧甲板下方朦胧透出。
-  - 尝试记录：`P1` 在输出阶段被安全系统误判拦截，未产生图片；`P2` 改为大腿中段至完整脚部的中性下肢技术构图并移除多余躯干描述后通过。
+- [x] `FW-S01-Q`｜`visuals/hosiery-nude-30d-velvet-matte-plain-wide-band-flat-home-slide-lateral-side-half-squat-v01.png`｜侧面半蹲，检查宽带拖鞋下 30D 袜面整体贴体平顺。
+  - 提示词版本：`FW-S01-Q-P2`；内置 ImageGen 精确编辑；以原 P1 为唯一编辑目标，只移除前踝与膝窝可见横纹，保持 S01 宽带鞋型、半蹲姿势、自然比例和袜头结构；完整逐字加入三段脚趾/足底硬锁。
+  - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-wide-band-flat-home-slide-lateral-side-half-squat-v01.png` 的原 P1 正式版（唯一编辑目标）。
+  - 生成与 QA：2026-09-01；原生输出 1024 × 1536 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；脚跟完整居中且鞋底全长贴地，半蹲前踝、后踝、膝窝与膝前无可数织物褶皱组；S01 宽带、五趾和连续袜面保持。
+  - 尝试记录：原 P1 因用户指出褶皱量偏厚而被替换，已移入 `rejected/`；`P2` 首轮减量通过。
+- [x] `FW-S01-D`｜`visuals/hosiery-nude-30d-velvet-matte-plain-wide-band-flat-home-slide-lateral-side-deep-squat-v01.png`｜侧面全蹲，检查落跟受力和不超过旧半蹲尺度的极轻量压缩纹。
+  - 提示词版本：`FW-S01-D-P3`；内置 ImageGen 精确编辑；以原 P2 为唯一编辑目标，只把前踝褶皱栈缩减为 2–3 条极细浅低对比纹并把膝窝压缩减至至多一条浅线；完整逐字加入三段脚趾/足底硬锁。
+  - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-wide-band-flat-home-slide-lateral-side-deep-squat-v01.png` 的原 P2 正式版（唯一编辑目标，锁定全蹲几何、自然比例、S01 鞋型、袜头、光照和背景）。
+  - 生成与 QA：2026-09-01；原生输出 1024 × 1536 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；全蹲姿势、自然比例、脚跟和鞋底接地保持；前踝仅余少量极细浅低对比纹，膝窝压缩极弱，膝前与跟腱—后踝平顺，无 150D 般体积感；五趾与连续袜面通过。
+  - 尝试记录：原 `P1`、`P2` 记录保留；用户指出 P2 褶皱偏厚后，P2 已移入 `rejected/`，`P3` 定向减量通过。
 
 ### S02｜窄面薄底零跟居家拖鞋
 
@@ -137,16 +137,16 @@
   - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-none-lateral-side-standing-neutral-foot-closeup-v01.png`（最终编辑目标，唯一锁定单脚五趾解剖、外侧三分之四比例、肉色 30D 材质、光照和背景）；由 `visuals/shoe-narrow-band-flat-home-slide-multiview-v01.png` 裁出的严格外侧单视角临时图（只锁定浅象牙粉窄带、开放后跟和薄底结构，未作为正式资产保存）。
   - 生成与 QA：2026-09-01；原生输出 899 × 1748 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；单脚恰好五趾且趾序、间距与甲板位置自然；袜面从小腿、脚踝、脚背到趾端保持连续均匀细密微织纹，无涂抹、融化、旋涡或局部皮肤化；脚跟居中且薄底全长贴地，中性站姿脚踝、跟腱和脚背平顺无褶皱。
   - 尝试记录：`P1` 从 FW-S01-L 改鞋后出现六趾且袜头偏裸，按 `anatomy` 与 `bare-toe` 不入库；`P2` 局部重建后仍为六趾，并产生明显袜面涂抹/融化感，用户判定不合格，已移入 `rejected/`；`P3` 从 BASE-C03 五趾基准重新开始后通过。
-- [x] `FW-S02-Q`｜`visuals/hosiery-nude-30d-velvet-matte-plain-narrow-band-flat-home-slide-lateral-side-half-squat-v01.png`｜侧面半蹲。
-  - 提示词版本：`FW-S02-Q-P3`；内置 ImageGen 精确编辑；以已批准 FW-S01-Q 为编辑目标，只把宽带鞋型改为 S02 浅象牙粉窄带，继承半蹲比例、关节角度、落跟受力和褶皱分区；后续分别校正窄带覆盖深度和可见背侧甲油；各轮均完整逐字加入三段脚趾/足底硬锁。
-  - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-wide-band-flat-home-slide-lateral-side-half-squat-v01.png`（编辑目标，唯一锁定半蹲腿脚比例、姿势、肉色 30D 材质、褶皱物理、光照和背景）；`visuals/hosiery-nude-30d-velvet-matte-plain-narrow-band-flat-home-slide-lateral-side-standing-neutral-v01.png`（辅助参考，只锁定 S02 窄带宽度、颜色、开放结构和袜头表现，不覆盖目标姿势）；P3 以 P2 为唯一编辑目标。
-  - 生成与 QA：2026-09-01；原生输出 1024 × 1536 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；半蹲比例与脚跟落地自然，S02 窄带保持 28–35 mm 受控覆盖深度；前踝只有少量细浅压缩纹，跟腱—后踝平顺无松垮横褶，膝窝轻压缩而膝前拉平；可见趾端由连续袜面覆盖，真实可见背侧甲板的酒红甲油隔袜可辨，趾腹与足底无甲油色块。
-  - 尝试记录：`P1` 姿势和褶皱正确，但鞋带过细、接近细条带，与 S02-L 不一致；`P2` 修正为 28–35 mm 窄带后，小趾侧可见甲油仍偏淡；`P3` 只增强趾端微织纹和真实可见背侧甲油后通过。
-- [x] `FW-S02-D`｜`visuals/hosiery-nude-30d-velvet-matte-plain-narrow-band-flat-home-slide-lateral-side-deep-squat-v01.png`｜侧面全蹲，检查深度屈膝与踝背屈时的落跟受力、前踝和膝窝压缩褶皱，以及膝前和跟腱—后踝的平顺张力。
-  - 提示词版本：`FW-S02-D-P2`；内置 ImageGen 精确编辑；以已批准 FW-S02-Q 为唯一编辑目标，将半蹲推进为严格侧视、脚跟完全落地的全蹲，并把构图收紧为膝上至完整脚部的中性下肢服装材质技术参考；完整逐字加入三段脚趾/足底硬锁、恰好五趾、窄带宽度和全蹲褶皱分区规则。
-  - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-narrow-band-flat-home-slide-lateral-side-half-squat-v01.png`（唯一编辑目标，锁定自然腿脚比例、肉色 30D 材质、S02 窄带鞋型、袜头结构、光照和背景）。
-  - 生成与 QA：2026-09-01；原生输出 1024 × 1536 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；全蹲深度清楚，膝深屈、胫骨前倾与踝背屈处于同一受力链；脚跟完整落在鞋床且鞋底全长贴地；前踝仅有少量细浅压缩褶皱、膝窝仅有柔和压缩线，膝前与跟腱—后踝平顺；可见单脚恰好五趾，袜面织理连续，隔袜甲油只在真实背侧甲板出现。
-  - 尝试记录：`P1` 在输出阶段被安全系统误判拦截，未产生图片；`P2` 去除躯干与髋部描述、收紧为膝上至足部的非叙事性技术构图后通过。
+- [x] `FW-S02-Q`｜`visuals/hosiery-nude-30d-velvet-matte-plain-narrow-band-flat-home-slide-lateral-side-half-squat-v01.png`｜侧面半蹲，检查窄带拖鞋下 30D 袜面整体贴体平顺。
+  - 提示词版本：`FW-S02-Q-P4`；内置 ImageGen 精确编辑；以原 P3 为唯一编辑目标，只移除前踝与膝窝可见横纹，保持 S02 窄带宽度、姿势、比例和袜头结构；完整逐字加入三段脚趾/足底硬锁。
+  - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-narrow-band-flat-home-slide-lateral-side-half-squat-v01.png` 的原 P3 正式版（唯一编辑目标，锁定半蹲比例、S02 窄带、袜头、光照和背景）。
+  - 生成与 QA：2026-09-01；原生输出 1024 × 1536 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；半蹲比例、脚跟接地和 28–35 mm S02 窄带保持；前后踝、膝窝和膝前无可数织物褶皱组；五趾、连续袜面与隔袜甲油通过。
+  - 尝试记录：原 `P1`–`P3` 记录保留；用户指出 P3 褶皱量偏厚后，P3 已移入 `rejected/`，`P4` 定向减量通过。
+- [x] `FW-S02-D`｜`visuals/hosiery-nude-30d-velvet-matte-plain-narrow-band-flat-home-slide-lateral-side-deep-squat-v01.png`｜侧面全蹲，检查落跟受力和不超过旧半蹲尺度的极轻量压缩纹。
+  - 提示词版本：`FW-S02-D-P3`；内置 ImageGen 精确编辑；以原 P2 为唯一编辑目标，只把前踝褶皱栈缩减为 2–3 条极细浅低对比纹并把膝窝压缩减至至多一条浅线；完整逐字加入三段脚趾/足底硬锁、恰好五趾与窄带宽度约束。
+  - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-narrow-band-flat-home-slide-lateral-side-deep-squat-v01.png` 的原 P2 正式版（唯一编辑目标，锁定全蹲几何、自然比例、S02 窄带、袜头、光照和背景）。
+  - 生成与 QA：2026-09-01；原生输出 1024 × 1536 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；全蹲姿势、自然比例、脚跟和鞋底接地、28–35 mm 窄带保持；前踝仅余少量极细浅低对比纹，膝窝压缩极弱，膝前与跟腱—后踝平顺，无 150D 般体积感；五趾、连续袜面与隔袜甲油通过。
+  - 尝试记录：原 `P1`、`P2` 记录保留；用户指出 P2 褶皱偏厚后，P2 已移入 `rejected/`，`P3` 定向减量通过。
 
 ### S03｜双带薄底平底拖鞋
 
