@@ -169,7 +169,11 @@
   - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-none-front-standing-neutral-toe-closeup-v01.png`（编辑目标，唯一锁定膝下比例、正面中性站姿、双脚十趾解剖、肉色 30D 材质、光照和背景）；由 `visuals/shoe-single-band-ankle-strap-15mm-low-block-heel-sandal-multiview-v01.png` 裁出的低位正面单视角临时图（只锁定方圆头、一字带、细踝带与两侧斜向支撑，未作为正式资产保存）。
   - 生成与 QA：2026-09-02；原生输出 900 × 1748 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；双脚各五趾且十枚隔袜酒红甲油清楚可辨，趾间为连续柔和浅弧，袜头无横线；30D 微织纹从小腿经踝带上下、脚背到趾端保持连续，踝带未形成材质分界或松垮褶皱；双脚居中入鞋，方圆头、一字带、踝带、斜向支撑与低跟站姿成立。
   - 尝试记录：`P1` 首轮通过，无失败候选。
-- [ ] `FW-S04-T`｜`hosiery-nude-30d-velvet-matte-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-top-three-quarter-standing-neutral-v01.png`｜高位三分之四。
+- [x] `FW-S04-T`｜`visuals/hosiery-nude-30d-velvet-matte-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-top-three-quarter-standing-neutral-v01.png`｜高位三分之四。
+  - 提示词版本：`FW-S04-T-P8`；内置 ImageGen 精确编辑；在 P2 的低跟鞋型与高位构图基础上重新构建暴露趾端，消除逐趾纵向深沟，把五趾收束在同一片横向受力袜膜下，并将四处趾间限制为短、浅、柔和凹弧；完整逐字加入 closed-foot toe lock、deep-red toenail visibility lock 与 plantar-view anatomy lock。
+  - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-none-top-three-quarter-standing-neutral-v01.png`（初始站姿与材质参考）；`visuals/shoe-single-band-ankle-strap-15mm-low-block-heel-sandal-multiview-v01.png` 的高位三分之四裁图（鞋型参考）；`visuals/hosiery-nude-30d-velvet-matte-plain-none-front-standing-neutral-toe-closeup-v01.png`（P8 的连续包趾袜膜与十趾解剖参考）；P8 以 P5 构图为编辑目标，仅重建暴露趾端。
+  - 生成与 QA：2026-09-02；原生输出 902 × 1743 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；前脚五枚隔袜酒红甲油完整可辨，后脚可见甲板正确；脚踝—脚背—趾端 30D 微织纹连续，袜头无横线，四处趾间不再形成向后延伸的深沟，而由同一片袜面跨接为短浅凹弧；两脚居中入鞋，一字带、踝带、斜向支撑、收腰鞋床和低位独立微方跟成立。
+  - 尝试记录：`P1` 方跟接近 3 cm，未保存；`P2` 修正为 15 mm 低跟后曾入库，但用户复检指出脚趾处袜面张力曲线不足，现移入 `rejected/hosiery-nude-30d-velvet-matte-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-top-three-quarter-standing-neutral-missing-toe-tension-rejected-v01.png`；`P3` 局部修复仍无可读跨接弧，`P4` 放大脚部后仍有深趾缝，`P5`–`P7` 分别因仅淡化趾缝、仍呈逐趾纵沟或趾部遮挡而未入库；`P8` 改用统一袜膜包覆逻辑，消除长纵沟并形成四处短浅张力过渡后替换正式图。
 - [ ] `FW-S04-L`｜`hosiery-nude-30d-velvet-matte-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-lateral-side-standing-neutral-v01.png`｜外侧站立。
 - [ ] `FW-S04-Q`｜`hosiery-nude-30d-velvet-matte-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-lateral-side-half-squat-v01.png`｜侧面半蹲。
 
