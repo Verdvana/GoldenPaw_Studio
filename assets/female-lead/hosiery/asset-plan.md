@@ -133,7 +133,11 @@
   - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-none-front-standing-neutral-toe-closeup-v01.png`（最终编辑目标，唯一锁定膝下比例、正面中性站姿、肉色 30D 材质、十趾结构、光照和背景）；由 `visuals/shoe-narrow-band-flat-home-slide-multiview-v01.png` 裁出的低位正面单视角临时图（只锁定浅象牙粉窄带、露趾口和薄底结构，未作为正式资产保存）。
   - 生成与 QA：2026-09-01；原生输出 901 × 1746 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；双脚完整居中入鞋并平整承重，十趾由连续袜面覆盖，趾间为柔和浅弧，十枚隔袜酒红甲油均清楚可辨且足底无甲油色块；窄带位于跖骨区域并留出更多脚背与趾根袜面，正面鞋底保持薄底零跟。
   - 尝试记录：`P1` 使用全腿正面模板时在输出阶段被安全系统误判拦截，未产生图片；`P2` 改用已批准的膝下正面结构特写作为编辑目标后首轮通过。
-- [ ] `FW-S02-T`｜`hosiery-nude-30d-velvet-matte-plain-narrow-band-flat-home-slide-top-three-quarter-standing-neutral-v01.png`｜高位三分之四。
+- [x] `FW-S02-T`｜`visuals/hosiery-nude-30d-velvet-matte-plain-narrow-band-flat-home-slide-top-three-quarter-standing-neutral-v01.png`｜高位三分之四。
+  - 提示词版本：`FW-S02-T-P1`；内置 ImageGen 精确编辑；以已批准 BASE-L02 为编辑目标，只为双脚穿上 S02 浅象牙粉窄面薄底零跟居家拖鞋；完整逐字加入 closed-foot toe lock、deep-red toenail visibility lock、plantar-view anatomy lock，并明确中性站立无褶皱、恰好五趾、窄带覆盖深度和鞋底全长水平。
+  - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-none-top-three-quarter-standing-neutral-v01.png`（编辑目标，唯一锁定女主自然腿脚比例、高位三分之四中性站姿、肉色 30D 材质、前后脚轻微错位、光照和背景）；由 `visuals/shoe-narrow-band-flat-home-slide-multiview-v01.png` 裁出的高位三分之四单视角临时图（只锁定浅象牙粉窄带、开放前后结构和 5–6 mm 薄底零跟，未作为正式资产保存）。
+  - 生成与 QA：2026-09-02；原生输出 900 × 1748 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；前脚五枚隔袜酒红甲油完整可辨，后脚受自然三分之四透视但所有可见背侧甲板均正确；双脚完整居中入鞋，脚踝—脚背—趾端肉色 30D 微织纹连续，趾间保持柔和浅弧，袜头无横线；S02 单条窄带位于跖骨区域，脚背开放区充足，鞋底全长保持薄底零跟。
+  - 尝试记录：`P1` 首轮通过，无失败候选。
 - [x] `FW-S02-L`｜`visuals/hosiery-nude-30d-velvet-matte-plain-narrow-band-flat-home-slide-lateral-side-standing-neutral-v01.png`｜外侧站立。
   - 提示词版本：`FW-S02-L-P3`；内置 ImageGen 精确编辑；放弃从失败的穿鞋图继续修补，改以已批准 BASE-C03 五趾无鞋结构图为编辑目标，只增加 S02 浅象牙粉窄带拖鞋；完整逐字加入 closed-foot toe lock、deep-red toenail visibility lock、plantar-view anatomy lock，并额外硬锁恰好五趾、自然趾序、均匀细密微织纹和中性站立无褶皱。
   - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-none-lateral-side-standing-neutral-foot-closeup-v01.png`（最终编辑目标，唯一锁定单脚五趾解剖、外侧三分之四比例、肉色 30D 材质、光照和背景）；由 `visuals/shoe-narrow-band-flat-home-slide-multiview-v01.png` 裁出的严格外侧单视角临时图（只锁定浅象牙粉窄带、开放后跟和薄底结构，未作为正式资产保存）。
@@ -150,15 +154,24 @@
   - 生成与 QA：2026-09-01；原生输出 1024 × 1536 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；全蹲姿势、自然比例、脚跟和鞋底接地、28–35 mm 窄带保持；前踝仅余少量极细浅低对比纹，膝窝压缩极弱，膝前与跟腱—后踝平顺，无 150D 般体积感；五趾、连续袜面与隔袜甲油通过。
   - 尝试记录：原 `P1`、`P2` 记录保留；用户指出 P2 褶皱偏厚后，P2 已移入 `rejected/`，`P3` 定向减量通过。
 
-### S04｜踝带露趾平底凉鞋
+### S04｜一字带踝带 15 mm 微方跟露趾凉鞋
 
-低饱和裸粉色，前掌横带、细踝带、露趾、平底。用于锁定鞋带压迫、脚背连续性和踝带上下丝袜材质一致性。
+低饱和裸粉色，方圆头、单条前掌一字带、细踝带、两侧斜向后跟支撑带、露趾、开放后跟；前掌底约 4–5 mm，鞋床腰部收窄并自然上扬，后掌为独立 15 mm 微方跟。用于锁定鞋带压迫、脚背连续性、踝带上下丝袜材质一致性及低跟站姿受力；禁止回退为全长水平直板鞋底或居家拖鞋轮廓。
 
-- [ ] `FW-S04-M`｜`shoe-ankle-strap-flat-sandal-multiview-v01.png`｜无脚产品多视角鞋型母版。
-- [ ] `FW-S04-F`｜`hosiery-nude-30d-velvet-matte-plain-ankle-strap-flat-sandal-front-standing-neutral-v01.png`｜正面站立。
-- [ ] `FW-S04-T`｜`hosiery-nude-30d-velvet-matte-plain-ankle-strap-flat-sandal-top-three-quarter-standing-neutral-v01.png`｜高位三分之四。
-- [ ] `FW-S04-L`｜`hosiery-nude-30d-velvet-matte-plain-ankle-strap-flat-sandal-lateral-side-standing-neutral-v01.png`｜外侧站立。
-- [ ] `FW-S04-Q`｜`hosiery-nude-30d-velvet-matte-plain-ankle-strap-flat-sandal-lateral-side-half-squat-v01.png`｜侧面半蹲。
+- [x] `FW-S04-M`｜`visuals/shoe-single-band-ankle-strap-15mm-low-block-heel-sandal-multiview-v01.png`｜无脚产品多视角鞋型母版。
+  - 提示词版本：`FW-S04-M-P2`；内置 ImageGen 精确编辑；以旧 P1 四格图为编辑目标，保留四视角布局与摄影语言，统一重建为低饱和裸粉色、方圆头、单条前掌一字带、细踝带、两侧斜向后跟支撑、收腰鞋床和独立 15 mm 微方跟；本项无脚、无女主、无丝袜，因此不加入脚趾硬锁。
+  - 输入参考：原 `visuals/shoe-ankle-strap-flat-sandal-multiview-v01.png` P1（仅锁定 2 × 2 布局、高位三分之四、严格外侧、低位正面和大底四视角，以及中性浅灰背景与柔和布光；旧直板平底鞋型明确不具约束力，现已移入 `rejected/`）。
+  - 生成与 QA：2026-09-02；原生输出 1402 × 1122 PNG；鞋型 QA 通过但长边低于 2048 px 建议值；四格保持同一只右脚凉鞋，方圆头、前掌一字带、细踝带、斜向后跟支撑、外侧小扣具、收窄腰线、4–5 mm 前掌底和独立 15 mm 微方跟一致；外侧视角可清楚辨认前掌—足弓—后跟层次，大底视角显示独立前掌纹路与后跟落地片，无脚、人物、丝袜、品牌或文字。
+  - 尝试记录：`P1` 虽通过原平底规格，但用户指出全长水平直板鞋底过于接近拖鞋，现按鞋型风格不匹配移入 `rejected/shoe-ankle-strap-flat-sandal-multiview-slide-like-rejected-v01.png`，严禁作为正向参考；`P2` 按用户确认的新样式首轮通过。
+  - 使用边界：多格总览只供人工检查鞋型一致性；后续穿着适配生成前，应裁出与目标机位对应的单一视角，不直接提交整张多格图作为正向参考。
+- [x] `FW-S04-F`｜`visuals/hosiery-nude-30d-velvet-matte-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-front-standing-neutral-v01.png`｜正面站立。
+  - 提示词版本：`FW-S04-F-P1`；内置 ImageGen 精确编辑；以已批准 BASE-C01 为编辑目标，只为双脚穿上新版 S04 一字带踝带 15 mm 微方跟凉鞋，并允许脚踝做适配低跟所需的极轻微跖屈；完整逐字加入 closed-foot toe lock、deep-red toenail visibility lock 与 plantar-view anatomy lock。
+  - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-none-front-standing-neutral-toe-closeup-v01.png`（编辑目标，唯一锁定膝下比例、正面中性站姿、双脚十趾解剖、肉色 30D 材质、光照和背景）；由 `visuals/shoe-single-band-ankle-strap-15mm-low-block-heel-sandal-multiview-v01.png` 裁出的低位正面单视角临时图（只锁定方圆头、一字带、细踝带与两侧斜向支撑，未作为正式资产保存）。
+  - 生成与 QA：2026-09-02；原生输出 900 × 1748 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；双脚各五趾且十枚隔袜酒红甲油清楚可辨，趾间为连续柔和浅弧，袜头无横线；30D 微织纹从小腿经踝带上下、脚背到趾端保持连续，踝带未形成材质分界或松垮褶皱；双脚居中入鞋，方圆头、一字带、踝带、斜向支撑与低跟站姿成立。
+  - 尝试记录：`P1` 首轮通过，无失败候选。
+- [ ] `FW-S04-T`｜`hosiery-nude-30d-velvet-matte-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-top-three-quarter-standing-neutral-v01.png`｜高位三分之四。
+- [ ] `FW-S04-L`｜`hosiery-nude-30d-velvet-matte-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-lateral-side-standing-neutral-v01.png`｜外侧站立。
+- [ ] `FW-S04-Q`｜`hosiery-nude-30d-velvet-matte-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-lateral-side-half-squat-v01.png`｜侧面半蹲。
 
 P0 完成条件：现保留的 17 项全部通过后，才开始 P1。若同一鞋型连续三次无法通过袜头结构验收，应先修正参考和构图，不继续批量生成其他角度。
 
@@ -247,7 +260,7 @@ P0–P2 的站立结构通过后，再补以下鞋型专属姿势：
 
 建议首批兼容性测试：
 
-- [!] `FW-MAT-01`｜`hosiery-white-15d-pearl-plain-ankle-strap-flat-sandal-top-three-quarter-standing-neutral-v01.png`｜S04 踝带平底凉鞋 × 白色 15D 珠光；等待材质中性硬锁。
+- [!] `FW-MAT-01`｜`hosiery-white-15d-pearl-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-top-three-quarter-standing-neutral-v01.png`｜S04 一字带踝带 15 mm 微方跟凉鞋 × 白色 15D 珠光；等待材质中性硬锁。
 - [!] `FW-MAT-02`｜`hosiery-gray-30d-satin-plain-open-toe-flat-mule-top-three-quarter-standing-neutral-v01.png`｜S05 露趾平底穆勒鞋 × 灰色 30D 缎光；等待材质中性硬锁。
 - [!] `FW-MAT-03`｜`hosiery-nude-15d-oil-gloss-plain-single-band-high-heel-sandal-top-three-quarter-standing-neutral-v01.png`｜S07 一字带高跟凉鞋 × 肉色 15D 油亮；等待材质中性硬锁。
 - [!] `FW-MAT-04`｜`hosiery-black-50d-velvet-matte-plain-strappy-high-heel-sandal-top-three-quarter-standing-neutral-v01.png`｜S08 多细带高跟凉鞋 × 黑色 50D 天鹅绒哑光；等待材质与甲油可见性规则。
