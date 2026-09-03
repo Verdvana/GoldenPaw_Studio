@@ -6,7 +6,7 @@
 
 除单项另有说明外，所有穿着图统一使用：
 
-- 女主已锁定的脚部身份与自然身体比例。
+- 女主已锁定的脚部身份与自然身体比例；以 `../core/female-lead-body-turnaround-v1.png` 为比例基准，保持自然饱满大腿、正常膝位、适度饱满并向踝部收窄的小腿，以及与小腿和身高匹配的正常足长、足宽，禁止长腿模特化、过细小腿或小脚漂移。
 - 肉色 30D、天鹅绒哑光、无花纹、完整包脚连裤丝袜。
 - 暗红色甲油只存在于脚趾背侧甲板，并仅在该甲板实际可见时作为袜面下的朦胧酒红色块；足底、前掌、趾腹和脚趾下侧禁止出现甲油色块。
 - 袜面从脚踝连续覆盖脚背、全部脚趾和足底。
@@ -32,7 +32,26 @@
 
 ## 已有视觉模板
 
-- [x] `MAT-N15-L01`｜`visuals/hosiery-nude-15d-velvet-matte-plain-none-front-standing-neutral-v01.png`｜肉色 15D 天鹅绒哑光全腿正面模板；用于透肤度、颜色、织物感和腿脚整体连续性。绿色泳装、泳池背景与上肢伸展动作不作为参考职责；脚部较小，不能替代袜头结构特写。
+- [x] `MAT-N15-L01`｜`visuals/hosiery-nude-15d-velvet-matte-plain-none-front-standing-neutral-v01.png`｜肉色 15D 天鹅绒哑光全腿正面模板；用于透肤度、颜色、织物感和腿脚整体连续性。2026-09-03 按女主身体转面重做，修正旧版高挑纤细身型和脚部偏小问题；绿色泳装与泳池背景另经用户确认为 `LOOK-SWIM-GREEN-POOL-V1` 固定参考，上肢伸展动作不固定。
+  - 提示词版本：`MAT-N15-L01-P2`；内置 ImageGen 精确重生成；完整逐字加入三段脚趾/足底硬锁，并明确禁止长腿模特化、小脚和广角拉伸。
+  - 输入参考：旧正式图（只锁定泳池场景、绿色泳装、正面站姿与 15D 材质方向）、`../core/female-lead-body-turnaround-v1.png`（唯一身体比例基准）、`../core/female-lead-key-art-fresh-v1.png`（唯一身份基准）。
+  - 生成与 QA：2026-09-03；原生输出 899 × 1750 PNG；A–F 通过，G 的整体材质可读性通过但长边低于 2048 px 建议值；身型、腿长、腿围、膝位及脚相对小腿的比例已回归女主基准，15D 袜面从腰部连续覆盖至趾端，隔袜酒红甲油可辨。旧版按 `proportion-drift` 移入 `rejected/`。
+- [x] `MAT-N15-L02`｜`visuals/hosiery-nude-15d-velvet-matte-plain-none-front-three-quarter-standing-neutral-v01.png`｜前侧约 45°全身中性站立；补充女主正确比例和 15D 材质的斜向轮廓。
+  - 提示词版本：`MAT-N15-L02-P1`；内置 ImageGen；以身份保持方式改为前侧约 45°中性站立，完整逐字加入三段脚趾/足底硬锁。
+  - 输入参考：MAT-N15-L01（唯一材质、修正后身型、绿色泳装与泳池摄影基准）、`../core/female-lead-body-turnaround-v1.png`（比例）、`../core/female-lead-key-art-fresh-v1.png`（身份）。
+  - 生成与 QA：2026-09-03；原生输出 899 × 1749 PNG；A–F 通过，G 的整体可读性通过但长边低于 2048 px 建议值；躯干、腿围、膝位、足长与正面版一致，15D 袜面和隔袜甲油连续。
+- [x] `MAT-N15-L03`｜`visuals/hosiery-nude-15d-velvet-matte-plain-none-back-standing-neutral-v01.png`｜正背面全身中性站立；检查后腰—大腿—膝窝—小腿—跟腱—足跟比例与材质连续性。
+  - 提示词版本：`MAT-N15-L03-P1`；内置 ImageGen；严格正背面中性站立，完整逐字加入三段脚趾/足底硬锁。
+  - 输入参考：MAT-N15-L01（材质、身型与摄影）、MAT-N15-L02（跨视角一致性）、`../core/female-lead-body-turnaround-v1.png`（背部比例）。
+  - 生成与 QA：2026-09-03；原生输出 899 × 1748 PNG；A–F 通过，G 的整体可读性通过但长边低于 2048 px 建议值；背部、腿脚比例与前两图一致，后腿、跟腱和足跟处 15D 袜面连续；背侧甲板不可见，因此无甲油色块。
+- [!] `MAT-N15-P01`｜`visuals/hosiery-nude-15d-velvet-matte-plain-none-back-half-squat-v01.png`｜正背面半蹲；目标锁定同一女主比例、双脚全掌着地及 15D 袜面在屈髋屈膝下的连续性。
+  - 生成状态：2026-09-03 使用内置 ImageGen 连续三次在输出阶段被安全系统按 `sexual` 误判拦截，均未产生文件或候选；不得以不同人物、不同身型、不同服装或不同丝袜材质替代。
+  - 后续要求：若恢复生成，必须以 MAT-N15-L03 为唯一姿态编辑目标，并以身体转面锁定比例；采用中性运动生物力学／服装贴合技术图表达，保持正背面、适度半蹲、双脚平放、脚跟不抬和 15D 袜面轻薄平顺。
+- [x] `MAT-N15-P02`｜`visuals/hosiery-nude-15d-velvet-matte-plain-none-front-three-quarter-deep-squat-v01.png`｜前侧约 45°严格全蹲；检查女主固定身体比例、落跟受力与 15D 袜面在深度屈髋屈膝下的连续性。
+  - 提示词版本：`MAT-N15-P02-P6`；内置 ImageGen 从干净参考单次重生成；保持前侧约 45°、全深度蹲姿、双脚全掌着地与已确认身体比例，上肢为前臂自然搭在大腿、双手松弛交叠；同时一次性生成 15D 包趾袜膜、隔袜甲油与全身统一柔光，明确禁止斑驳光、泳池焦散投影、局部蒙版边界及重复重绘噪点；完整逐字加入三段脚趾/足底硬锁。
+  - 输入参考：MAT-N15-L02（唯一干净人物、15D 材质、绿色泳装、泳池摄影与均匀光照基准）、`../core/female-lead-body-turnaround-v1.png`（最高身体比例基准）、BASE-C01（只锁定统一包趾袜膜、趾间浅弧与隔袜酒红甲油）；不再以任何多次局部编辑结果作为输入。
+  - 生成与 QA：2026-09-03；原生输出 899 × 1748 PNG；A–F 通过，G 的整体可读性通过但长边低于 2048 px 建议值；骨段长度、腿围与足长保持，双脚全掌着地且脚跟未抬；前臂由大腿自然承托，肩、肘、腕与双手放松；全身由同一柔光照明，面部、手臂、躯干、双腿和袜面明暗连续，无块状光斑、局部曝光岛、泳池焦散或蒙版叠加痕迹；15D 袜面连续覆盖脚趾和足底，趾间为柔和浅过渡，无袜头横缝，暗红甲油仅隔袜朦胧位于可见背侧甲板。
+  - 尝试记录：原 `P1` 身体比例与全蹲几何合格，但用户指出脚趾呈裸脚感且双臂悬空不自然，已移入 `rejected/`；`P2` 修正上肢动作但趾缝仍过深；`P3` 统一袜膜后甲油过淡；`P4` 虽修正甲油，但用户复检发现多轮编辑累积出全图明暗光斑，已移入 `rejected/hosiery-nude-15d-velvet-matte-plain-none-front-three-quarter-deep-squat-mottled-lighting-cumulative-edit-rejected-v01.png`；首次干净重生成 `P5` 在输出阶段被安全系统误判拦截、未产生文件；`P6` 改用三张干净参考一次合成并通过 QA。
 
 ## A0｜前置视觉模板
 
@@ -174,8 +193,18 @@
   - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-none-top-three-quarter-standing-neutral-v01.png`（初始站姿与材质参考）；`visuals/shoe-single-band-ankle-strap-15mm-low-block-heel-sandal-multiview-v01.png` 的高位三分之四裁图（鞋型参考）；`visuals/hosiery-nude-30d-velvet-matte-plain-none-front-standing-neutral-toe-closeup-v01.png`（P8 的连续包趾袜膜与十趾解剖参考）；P8 以 P5 构图为编辑目标，仅重建暴露趾端。
   - 生成与 QA：2026-09-02；原生输出 902 × 1743 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；前脚五枚隔袜酒红甲油完整可辨，后脚可见甲板正确；脚踝—脚背—趾端 30D 微织纹连续，袜头无横线，四处趾间不再形成向后延伸的深沟，而由同一片袜面跨接为短浅凹弧；两脚居中入鞋，一字带、踝带、斜向支撑、收腰鞋床和低位独立微方跟成立。
   - 尝试记录：`P1` 方跟接近 3 cm，未保存；`P2` 修正为 15 mm 低跟后曾入库，但用户复检指出脚趾处袜面张力曲线不足，现移入 `rejected/hosiery-nude-30d-velvet-matte-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-top-three-quarter-standing-neutral-missing-toe-tension-rejected-v01.png`；`P3` 局部修复仍无可读跨接弧，`P4` 放大脚部后仍有深趾缝，`P5`–`P7` 分别因仅淡化趾缝、仍呈逐趾纵沟或趾部遮挡而未入库；`P8` 改用统一袜膜包覆逻辑，消除长纵沟并形成四处短浅张力过渡后替换正式图。
-- [ ] `FW-S04-L`｜`hosiery-nude-30d-velvet-matte-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-lateral-side-standing-neutral-v01.png`｜外侧站立。
-- [ ] `FW-S04-Q`｜`hosiery-nude-30d-velvet-matte-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-lateral-side-half-squat-v01.png`｜侧面半蹲。
+- [x] `FW-S04-L`｜`visuals/hosiery-nude-30d-velvet-matte-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-lateral-side-standing-neutral-v01.png`｜外侧站立。
+  - 提示词版本：`FW-S04-L-P2`；内置 ImageGen 精确编辑；以已批准 BASE-C03 单脚外侧无鞋结构图为编辑目标，只穿上 S04 一字带踝带 15 mm 微方跟凉鞋，并允许脚踝做适配低跟所需的极轻微跖屈；完整逐字加入 closed-foot toe lock、deep-red toenail visibility lock 与 plantar-view anatomy lock。
+  - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-none-lateral-side-standing-neutral-foot-closeup-v01.png`（编辑目标，锁定单脚外侧三分之四解剖、肉色 30D 材质、构图、光照和背景）；由 `visuals/shoe-single-band-ankle-strap-15mm-low-block-heel-sandal-multiview-v01.png` 裁出的严格外侧单视角临时图（只锁定方圆头、一字带、细踝带、外侧扣具、斜向后跟支撑、收腰鞋床和独立 15 mm 微方跟，未作为正式资产保存）。
+  - 生成与 QA：2026-09-02；原生输出 899 × 1748 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；单脚恰好五趾，五枚隔袜酒红甲油位于可见背侧甲板，趾端由连续 30D 微织袜膜覆盖，趾间仅保留短浅过渡且无袜头横线；小腿—踝带上下—脚背—趾端材质连续，站立脚踝平顺无可数褶皱；脚跟居中落于独立微方跟，前掌、一字带、踝带、外侧扣具、斜向支撑、收腰鞋床与低跟侧面层次成立。
+  - 尝试记录：`P1` 在输出阶段被安全系统误判拦截，未生成或保存候选；`P2` 改为非性感的服装工程与鞋履适配技术图表述后通过。
+  - 使用边界：单脚外侧三分之四结构特写，不承担双脚站姿、正面十趾或纯足底参考；脚趾背侧甲板因外侧透视存在自然遮挡。
+- [x] `FW-S04-Q`｜`visuals/hosiery-nude-30d-velvet-matte-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-lateral-side-half-squat-v01.png`｜侧面半蹲。
+  - 提示词版本：`FW-S04-Q-P1`；内置 ImageGen 精确编辑；以已批准 FW-S02-Q 为编辑目标，只把窄带平底拖鞋替换为 S04 一字带踝带 15 mm 微方跟凉鞋，并做适配低跟所需的极轻微足踝调整；完整逐字加入 closed-foot toe lock、deep-red toenail visibility lock 与 plantar-view anatomy lock。
+  - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-narrow-band-flat-home-slide-lateral-side-half-squat-v01.png`（编辑目标，锁定严格侧面半蹲、单侧腿完整可见、远侧腿遮挡、肉色 30D 材质、受力、构图、光照和背景）；`visuals/hosiery-nude-30d-velvet-matte-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-lateral-side-standing-neutral-v01.png`（只锁定 S04 方圆头、一字带、细踝带、外侧扣具、斜向后跟支撑、收腰鞋床、独立 15 mm 微方跟及穿鞋后的连续袜面）。
+  - 生成与 QA：2026-09-02；原生输出 1024 × 1536 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；近侧单腿严格侧面半蹲，远侧腿完全遮挡，膝前、膝窝、前后踝、跟腱与脚背均平顺，无可数织物横纹或厚重堆叠；单脚恰好五趾，五枚隔袜酒红甲油可辨，趾端 30D 微织袜膜连续且无袜头横线；脚跟居中落于独立微方跟，前掌底与跟块同时着地，一字带、踝带、外侧扣具、斜向支撑和收腰鞋床完整。
+  - 尝试记录：`P1` 首轮通过，无失败候选。
+  - 使用边界：侧面单腿半蹲受力模板，不承担双脚站姿、正面十趾或足底参考；脚趾背侧甲板受严格侧面透视自然压缩。
 
 P0 完成条件：现保留的 17 项全部通过后，才开始 P1。若同一鞋型连续三次无法通过袜头结构验收，应先修正参考和构图，不继续批量生成其他角度。
 
@@ -183,23 +212,29 @@ P0 完成条件：现保留的 17 项全部通过后，才开始 P1。若同一�
 
 ## P1｜常用外出鞋型
 
-### S05｜露趾平底穆勒鞋
+### S06｜圆润尖头单带露趾 5 cm 细跟穆勒鞋
 
-玫瑰裸色、较完整鞋面、前端露趾、后跟开放、平底。鞋面不得变成居家拖鞋宽带。
+浅粉色、圆润尖头式鞋床前端轮廓、露趾、前掌只有一根鞋面带；鞋面带中央较细、向左右两端逐渐变宽并连接鞋底。大面积露出脚背，后跟完全开放且没有后跟带或踝带，搭配约 5 cm 细跟。露趾口必须足够完整，使丝袜覆盖、趾间张力曲面和隔袜甲油能够验收。
 
-- [ ] `FW-S05-M`｜`shoe-open-toe-flat-mule-multiview-v01.png`｜无脚产品多视角鞋型母版。
-- [ ] `FW-S05-F`｜`hosiery-nude-30d-velvet-matte-plain-open-toe-flat-mule-front-standing-neutral-v01.png`｜正面站立。
-- [ ] `FW-S05-T`｜`hosiery-nude-30d-velvet-matte-plain-open-toe-flat-mule-top-three-quarter-standing-neutral-v01.png`｜高位三分之四。
-- [ ] `FW-S05-L`｜`hosiery-nude-30d-velvet-matte-plain-open-toe-flat-mule-lateral-side-standing-neutral-v01.png`｜外侧站立。
-
-### S06｜圆润尖头单带露趾 3 cm 细跟穆勒鞋
-
-浅粉色、圆润尖头式鞋床前端轮廓、露趾、前掌只有一根鞋面带；鞋面带中央较细、向左右两端逐渐变宽并连接鞋底。大面积露出脚背，后跟完全开放且没有后跟带或踝带，搭配 3 cm 细跟。露趾口必须足够完整，使丝袜覆盖、趾间张力曲面和隔袜甲油能够验收。
-
-- [ ] `FW-S06-M`｜`shoe-rounded-point-open-toe-single-band-3cm-slim-heel-mule-multiview-v01.png`｜无脚产品多视角鞋型母版。
-- [ ] `FW-S06-F`｜`hosiery-nude-30d-velvet-matte-plain-rounded-point-open-toe-single-band-3cm-slim-heel-mule-front-standing-neutral-v01.png`｜正面站立。
-- [ ] `FW-S06-T`｜`hosiery-nude-30d-velvet-matte-plain-rounded-point-open-toe-single-band-3cm-slim-heel-mule-top-three-quarter-standing-neutral-v01.png`｜高位三分之四。
-- [ ] `FW-S06-L`｜`hosiery-nude-30d-velvet-matte-plain-rounded-point-open-toe-single-band-3cm-slim-heel-mule-lateral-side-standing-neutral-v01.png`｜外侧站立。
+- [x] `FW-S06-M`｜`visuals/shoe-rounded-point-open-toe-single-band-5cm-slim-heel-mule-multiview-v01.png`｜无脚产品多视角鞋型母版。
+  - 提示词版本：`FW-S06-M-P1`；内置 ImageGen 生成；沿用既有 2 × 2 鞋型母版的高位三分之四、严格外侧、低位正面和大底四视角布局，重建为浅粉色圆润尖头式鞋床、前掌单带中央收窄并向两端加宽、开放脚背与后跟、4–5 mm 前掌底和约 5 cm 细跟；本项无脚、无女主、无丝袜，因此不加入脚趾硬锁。
+  - 输入参考：`visuals/shoe-single-band-ankle-strap-15mm-low-block-heel-sandal-multiview-v01.png`（只锁定 2 × 2 布局、四个机位、中性浅灰背景、柔和布光和同一只右脚鞋的跨视角一致性；其方圆头、一字带、踝带、后跟支撑和 15 mm 微方跟均不作为鞋型约束）。
+  - 生成与 QA：2026-09-03；原生输出 1402 × 1122 PNG；用户按整体视觉效果指定采用首轮 P1，鞋跟依据成图比例登记为约 5 cm；四格保持同一只右脚穆勒鞋，圆润收尖的前端轮廓、单条前掌带中央窄而两端渐宽、大面积开放脚背、完整露趾口、全开放后跟、薄前掌底、自然上扬鞋床与独立约 5 cm 细跟一致；大底视角显示连续前掌纹路、收腰轮廓与小型后跟落地片，无人物、脚、丝袜、品牌或文字。
+  - 尝试记录：`P1` 的整体比例与视觉效果由用户确认并设为正式版本；`P2` 曾将跟高压低至约 15–20 mm，`P3` 曾回调至约 30 mm，二者均不再采用且未入库。
+  - 使用边界：多格总览只供人工检查鞋型一致性；后续穿着适配生成前，应裁出与目标机位对应的单一视角，不直接提交整张多格图作为正向参考。
+- [x] `FW-S06-F`｜`visuals/hosiery-nude-30d-velvet-matte-plain-rounded-point-open-toe-single-band-5cm-slim-heel-mule-front-standing-neutral-v01.png`｜正面站立。
+  - 提示词版本：`FW-S06-F-P3`；内置 ImageGen 精确编辑；以已批准 BASE-C01 为编辑目标，为双脚穿上 S06 圆润尖头单带露趾约 5 cm 细跟穆勒鞋并调整为相应跖屈站姿；P2、P3 仅重建鞋带前方趾端，最终采用 P3 在保留十趾和十枚甲油的同时缩短深纵沟；完整逐字加入 closed-foot toe lock、deep-red toenail visibility lock 与 plantar-view anatomy lock。
+  - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-none-front-standing-neutral-toe-closeup-v01.png`（初始编辑目标，锁定正面膝下比例、双脚十趾解剖、肉色 30D 材质、光照和背景）；由 `visuals/shoe-rounded-point-open-toe-single-band-5cm-slim-heel-mule-multiview-v01.png` 裁出的低位正面单视角临时图（只锁定圆润收尖前端、中央窄两端宽的单带、完整露趾口、开放脚背与浅粉色，未作为正式资产保存）；P3 另引用 `visuals/hosiery-nude-30d-velvet-matte-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-front-standing-neutral-v01.png` 约束清楚五趾与统一跨接袜膜之间的平衡。
+  - 生成与 QA：2026-09-03；原生输出 902 × 1743 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；双脚各五趾且十枚隔袜酒红甲油清楚可数，四处趾间分界均止于趾蹼附近并缩短为局部浅过渡，袜头无横线；30D 微织纹从小腿经脚踝、脚背、鞋带下方到趾端连续，跖屈站姿无可数踝部褶皱；双脚居中入鞋，圆润收尖鞋头、单带、完整露趾口、大面积开放脚背、开放后跟、薄前掌底与约 5 cm 细跟成立。
+  - 尝试记录：`P1` 鞋型和十趾成立，但右脚前三趾及左脚局部出现向后延伸的深纵沟，未保存；`P2` 消除纵沟时融合过度，部分趾形和甲油不再稳定可数，未保存；`P3` 回到 P1 并只缩短软化八处趾间过渡后通过。
+  - 使用边界：正面膝下结构特写，不承担身份或严格侧面跟高参考；细跟在正面机位下自然部分重叠，应由鞋型母版与后续外侧模板补充。
+- [x] `FW-S06-T`｜`visuals/hosiery-nude-30d-velvet-matte-plain-rounded-point-open-toe-single-band-5cm-slim-heel-mule-top-three-quarter-standing-neutral-v01.png`｜高位三分之四。
+  - 提示词版本：`FW-S06-T-P1`；内置 ImageGen 精确编辑；以已批准 BASE-L02 为编辑目标，为双脚穿上 S06 圆润尖头单带露趾约 5 cm 细跟穆勒鞋并调整为相应跖屈站姿；完整逐字加入 closed-foot toe lock、deep-red toenail visibility lock 与 plantar-view anatomy lock。
+  - 输入参考：`visuals/hosiery-nude-30d-velvet-matte-plain-none-top-three-quarter-standing-neutral-v01.png`（编辑目标，锁定高位三分之四构图、下半身比例、双脚前后错位、肉色 30D 材质、光照和背景）；由 `visuals/shoe-rounded-point-open-toe-single-band-5cm-slim-heel-mule-multiview-v01.png` 裁出的高位三分之四单视角临时图（只锁定圆润收尖前端、中央窄两端宽的单带、开放脚背与后跟、薄前掌底、约 5 cm 细跟和浅粉色，未作为正式资产保存）；`visuals/hosiery-nude-30d-velvet-matte-plain-rounded-point-open-toe-single-band-5cm-slim-heel-mule-front-standing-neutral-v01.png`（只补充 S06 穿着后的袜面、甲油、鞋脚接触与颜色一致性）。
+  - 生成与 QA：2026-09-03；原生输出 899 × 1748 PNG；A–F 通过，G 的结构可读性通过但长边低于 2048 px 建议值；前后脚各五趾，前脚五枚与后脚五枚可见隔袜酒红甲油均可辨，趾间仅有止于趾蹼附近的短浅过渡且袜头无横线；30D 微织纹从腿部经脚踝、脚背、鞋带下方到趾端连续，跖屈站姿无可数踝部褶皱；双脚居中入鞋，圆润收尖鞋头、中央窄两端宽单带、开放脚背与后跟、薄前掌底和约 5 cm 细跟成立。
+  - 尝试记录：`P1` 首轮通过，无失败候选。
+  - 使用边界：高位三分之四下半身模板，不承担身份、正面十趾等距对比或严格侧面跟高参考；后脚受透视缩小但五枚背侧甲油仍可辨。
+- [ ] `FW-S06-L`｜`hosiery-nude-30d-velvet-matte-plain-rounded-point-open-toe-single-band-5cm-slim-heel-mule-lateral-side-standing-neutral-v01.png`｜外侧站立。
 
 ### S07｜一字带高跟凉鞋
 
@@ -249,8 +284,7 @@ S10 不得通过让丝袜陷入趾缝、开孔或变成五指袜来适配夹趾�
 
 P0–P2 的站立结构通过后，再补以下鞋型专属姿势：
 
-- [ ] `FW-S05-Q`｜`hosiery-nude-30d-velvet-matte-plain-open-toe-flat-mule-lateral-side-half-squat-v01.png`｜露趾平底穆勒鞋侧面半蹲。
-- [ ] `FW-S06-Q`｜`hosiery-nude-30d-velvet-matte-plain-rounded-point-open-toe-single-band-3cm-slim-heel-mule-lateral-side-half-squat-v01.png`｜圆润尖头单带露趾 3 cm 细跟穆勒鞋侧面半蹲。
+- [ ] `FW-S06-Q`｜`hosiery-nude-30d-velvet-matte-plain-rounded-point-open-toe-single-band-5cm-slim-heel-mule-lateral-side-half-squat-v01.png`｜圆润尖头单带露趾 5 cm 细跟穆勒鞋侧面半蹲。
 - [ ] `FW-S07-Q`｜`hosiery-nude-30d-velvet-matte-plain-single-band-high-heel-sandal-lateral-side-half-squat-v01.png`｜一字带高跟凉鞋侧面半蹲。
 - [ ] `FW-S07-H`｜`hosiery-nude-30d-velvet-matte-plain-single-band-high-heel-sandal-lateral-side-heel-lift-v01.png`｜一字带高跟凉鞋侧面提踵/前掌受力。
 - [ ] `FW-S08-Q`｜`hosiery-nude-30d-velvet-matte-plain-strappy-high-heel-sandal-lateral-side-half-squat-v01.png`｜多细带高跟凉鞋侧面半蹲。
@@ -265,10 +299,9 @@ P0–P2 的站立结构通过后，再补以下鞋型专属姿势：
 建议首批兼容性测试：
 
 - [!] `FW-MAT-01`｜`hosiery-white-15d-pearl-plain-single-band-ankle-strap-15mm-low-block-heel-sandal-top-three-quarter-standing-neutral-v01.png`｜S04 一字带踝带 15 mm 微方跟凉鞋 × 白色 15D 珠光；等待材质中性硬锁。
-- [!] `FW-MAT-02`｜`hosiery-gray-30d-satin-plain-open-toe-flat-mule-top-three-quarter-standing-neutral-v01.png`｜S05 露趾平底穆勒鞋 × 灰色 30D 缎光；等待材质中性硬锁。
 - [!] `FW-MAT-03`｜`hosiery-nude-15d-oil-gloss-plain-single-band-high-heel-sandal-top-three-quarter-standing-neutral-v01.png`｜S07 一字带高跟凉鞋 × 肉色 15D 油亮；等待材质中性硬锁。
 - [!] `FW-MAT-04`｜`hosiery-black-50d-velvet-matte-plain-strappy-high-heel-sandal-top-three-quarter-standing-neutral-v01.png`｜S08 多细带高跟凉鞋 × 黑色 50D 天鹅绒哑光；等待材质与甲油可见性规则。
-- [!] `FW-MAT-05`｜`hosiery-black-80d-wool-plain-rounded-point-open-toe-single-band-3cm-slim-heel-mule-top-three-quarter-standing-neutral-v01.png`｜当前露趾规则下不生成；原则上改配闭趾鞋。
+- [!] `FW-MAT-05`｜`hosiery-black-80d-wool-plain-rounded-point-open-toe-single-band-5cm-slim-heel-mule-top-three-quarter-standing-neutral-v01.png`｜当前露趾规则下不生成；原则上改配闭趾鞋。
 
 每项兼容性测试至少生成高位三分之四视角；通过后再按实际镜头补正面、侧面或姿势图。
 
