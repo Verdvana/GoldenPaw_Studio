@@ -1,23 +1,11 @@
 # 猫用设备视觉比例基准 v001
 
-当前 VP 配套角度见 [参考组合 v001](EQP_VISIONPRO_CAT_001/reference_set_v001.md)。本文件下列比例锚点不变，配套后面已更新至 v003、独立设备至 v004。
+## 当前锚点
 
-状态：USER_CONFIRMED_VISUAL_SCALE。
+| 设备 | 比例基准 | 说明 |
+|---|---|---|
+| MacBook | `../characters/CHR_CAT_001/poses/equipment_candidates/CHR_CAT_001_FIT_MACBOOK_TRACKPAD_v004.png` | 用户确认的当前操作全景；`v002` 仅补充原始比例核对 |
+| Vision Pro | `../characters/CHR_CAT_001/poses/equipment_candidates/CHR_CAT_001_FIT_VISIONPRO_3Q_v001.png` | 用户选择的大面罩比例 |
 
-用户先确认比例，后明确回选「第一张、VP 大一点的那个」。当前锚点如下，最新回选覆盖此前对小面罩 v002 的记录；不包含女主比例，不等于设备全部结构已批准。
+比例确认与设备结构、动态稳定性和真实尺寸批准分开。新镜头不得随构图任意缩放设备；完整选图分别见两类设备的 `reference_set_v001.md`。
 
-## 参考锚点
-
-- [电脑操作全景 v002](../characters/CHR_CAT_001/poses/equipment_candidates/CHR_CAT_001_FIT_MACBOOK_TRACKPAD_v002.png)
-- [头显佩戴三分之四 v001（用户选定的大面罩）](../characters/CHR_CAT_001/poses/equipment_candidates/CHR_CAT_001_FIT_VISIONPRO_3Q_v001.png)
-
-## 使用规则
-
-- 猫保持原身份、头身比和成年体积。设备固定为上述图中的猫用改装大小，不逐镜重新决定。
-- 电脑银色、M4 设定不变。头显不出现外挂电池或线缆，保留主机和头带。
-- 相机透视改变会改变屏幕上的像素比例，不能要求不同机位的二维像素比完全相等；需要对照同深度的部件和遮挡关系。
-- 早期电脑宽 25cm、头显宽 14cm 未经测量或用户确认，不写作实际尺寸。当前锚点是视觉参考，不是三维或物理标定。
-- 比例确认与结构批准分开：全景原有端口/键盘问题、头带后方结构和动态稳定性仍需检查。
-- 上述图保留原路径避免重复版本分叉；其他文档如仍写「比例未确认」，以本次确认记录为准，历史审核不回写。
-
-最新头显关联重制及停用清单见 [大面罩回选记录](visionpro_large_revision_v001.md)。小面罩 v002 不再作比例参考，MacBook 不变。
