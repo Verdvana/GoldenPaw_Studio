@@ -1,6 +1,6 @@
 # CHR_WOMAN_001
 
-当前暂停生成：等待用户准备连裤袜等造型参考，并明确继续。参考入口位于 `../../wardrobe/CHR_WOMAN_001/references/`；鞋袜验证增补后计划为 47 项＋1 项条件项，详见静态清单最新部分。
+当前已恢复生成。HB03 已获用户确认；最新候选为发型 B 轻俯视头顶 `hair/candidates/CHR_WOMAN_001_HB04_HAIR_B_v002.png`，等待用户审核。HB04 v001 未采用，HB02 仍待独立审核。参考入口位于 `../../wardrobe/CHR_WOMAN_001/references/`，完整顺序见静态清单。
 
 女主静态资产规划：[可编辑清单 v001](static_asset_plan_v001.md)。共 42 项候选任务，区分核心与按需扩展；目前仅规划，未生成女主母版。
 
