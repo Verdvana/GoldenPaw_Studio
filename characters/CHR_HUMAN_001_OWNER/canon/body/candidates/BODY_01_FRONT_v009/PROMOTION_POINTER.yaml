@@ -1,0 +1,48 @@
+asset_id: "BODY_01_FRONT_v009"
+asset_level: "RECORD_ONLY"
+asset_type: "canon_promotion_pointer"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: null
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_002.png"
+physical_file_role: "RECORD_ONLY"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.png"
+original_candidate_checksum_sha256: "cbb08e1799a6d6d3d9e00b600ceaab294a36a2b04a170ae1a367e28578cd0164"
+promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_002.png"
+promoted_asset_checksum_sha256: "cbb08e1799a6d6d3d9e00b600ceaab294a36a2b04a170ae1a367e28578cd0164"
+candidate_raster_retained: false
+source_images:
+  - "OWNER_FACE_01_FRONT_NEUTRAL_CANON_001"
+  - "L0_OWNER_002"
+  - "L0_OWNER_003"
+  - "OWNER_HAIRSTYLE_A_FACE_MASKED_001"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/generation_record.md"
+approval_status: "APPROVED"
+approval_record: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/approvals/APPROVAL_OWNER_BODY_01_FRONT_002.md"
+authoritative_for:
+  - "approved 168 cm / 60 kg owner proportions for other assets and shot/video-frame images"
+  - "approved visible face and HAIRSTYLE_A for other assets and shot/video-frame images"
+  - "approved owner neutral front standing geometry, limb proportions and waist/hip ratio"
+  - "15D matte nude hosiery appearance only"
+must_not_define:
+  - "calibration outfit design outside this component"
+  - "hosiery colors other than nude"
+  - "hosiery deniers other than 15D"
+  - "hosiery finishes or material behavior other than matte"
+  - "side or rear body geometry"
+  - "episode wardrobe"
+  - "lighting"
+  - "background"
+view:
+  framing: "full length, 3:4 portrait"
+  angle: "front neutral"
+  camera_height: "waist to lower chest"
+  lens: "70-85mm equivalent requested"
+physical_target:
+  height_cm: 168
+  weight_kg: 60
+  weight_jin: 120
+quality_status: "PASS_USER_APPROVED_PROMOTED"
+checksum_sha256: "cbb08e1799a6d6d3d9e00b600ceaab294a36a2b04a170ae1a367e28578cd0164"
+created_at: "2026-09-11"
+notes: "Record-only pointer. The candidate raster was moved to the approved path after explicit user approval. Full owner_v1.0 remains unlocked."

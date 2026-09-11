@@ -4,7 +4,7 @@
 document_id: OWNER_L1_GENERATION_SPEC
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-spec_revision: draft_1.37
+spec_revision: draft_1.40
 status: DRAFT
 authority: USER_APPROVAL_REQUIRED
 default_aspect_ratio: "3:4"
@@ -280,15 +280,19 @@ Gate 1 未完成时不得生成 Face Canon 候选。
 ### 6.3 Body 固定规则
 
 - 使用已批准 Face Canon，而不是某张全身 L0 的脸；
+- 用户确认的现实身体基准为身高 `168 cm`、体重约 `60 kg`（120 斤）。Body 候选必须呈现与 168 cm 成年女性相符的偏高身高感和自然 60 kg 体量，不能回落成约 160 cm 的较矮视觉比例，也不能通过广角、低机位、缩头或不自然拉伸伪造身高；
 - L0 全身照片只能提供身体上下文，最终比例由 `IDENTITY.md`、用户调整决定和当前 Body Candidate Brief 共同确定；
 - 锁定头身比、肩宽、胸腰胯关系、躯干长度、腰线、臀胯轮廓、臂长、腿长、大腿/小腿关系及足部比例；
 - 六张使用相同身体，不因转面改变胸围、腰围、臀围、腿粗和身高；
 - 手指和脚趾自然，不依赖鞋履遮挡错误；
+- 正面小腿须在自然肌肉体量下保持膝—胫骨—踝关节轴线竖直、左右对称；避免胫骨向外弯、腓肠肌外轮廓造成 O 形腿观感或脚踝向内/向外偏移；
 - 校准丝袜必须连续覆盖到脚趾，但丝袜精细材质最终由 Gate 7 决定。
 
 `BODY_01_FRONT_v001` 是 Gate 3 的首张基准候选。固定最小参考职责为：批准 FACE_01 只定义正面脸部身份；`OWNER_L0_BODY_FRONT_CONTEXT` 中的 `3.jpg` 与 `4.jpg` 只交叉提供真实身高感、头身比、肩宽、躯干/腰胯、四肢长度和自然体型范围；遮脸 Hairstyle A 只定义头发。15D nude velvet/matte sheer textile 本轮只由 `CALIBRATION_OUTFIT.md` 与 `docs/qa/hosiery_material_rules.md` 的文字合同定义，不附带带床景/广告文字的材质照片；精细丝袜权威仍留给 Gate 7。L0 衣服、鞋、走路姿势、手持物、背景、脸、腿部塑形和丝袜颜色偏差均不得进入候选。用户尚未指定主动身材改造，因此 v001 采用跨两张真人全身照的保守自然中间值，禁止瘦身、增高、拉腿、夸张胸腰臀或塑造成通用模特身材。画面必须明确为成年角色的非性感、技术性比例校准照。
 
-`BODY_01_FRONT_v008` 已由用户明确批准为当前正面 Body L1 Canon 组件 `OWNER_BODY_01_FRONT_CANON_001`。普通 L2/L3 正面身体引用使用 `OWNER_BODY_FRONT_CANON_L1`；如需重新制作该 L1 Master，必须使用 `OWNER_BODY_FRONT_RECOVERY_V1` 和 `canon/body/BODY_01_FRONT_METHOD.md`，从批准 FACE_01、两张 L0 身体上下文与遮脸 Hairstyle A 按固定顺序平行重建。不得使用 v001–v008、批准 Body Master 或任何其他生成身体图作为新 L1 像素输入。批准范围仅为正面身体几何和中性站姿；丝袜细节、脸、发型、服装、光照和背景仍由各自资产/规则负责。
+`BODY_01_FRONT_v009` 已由用户明确批准为当前活动正面 Body L1 Canon 组件 `OWNER_BODY_01_FRONT_CANON_002`，取代旧活动组件 001。普通 L2/L3 正面身体引用使用更新后的 `OWNER_BODY_FRONT_CANON_L1`；如需重新制作该 L1 Master，必须使用 `OWNER_BODY_FRONT_RECOVERY_V1` 和 `canon/body/BODY_01_FRONT_METHOD.md`，从批准 FACE_01、两张 L0 身体上下文与遮脸 Hairstyle A 按固定顺序平行重建。不得使用 v001–v009、任一批准 Body Master 或任何其他生成身体图作为新 L1 像素输入。批准范围包括用户确认的 168 cm / 60 kg 正面身体比例、四肢比例、腰臀比、腿脚几何与中性站姿，以及本资产中获确认的可见脸、发型和腿脚丝袜表现；独立 Face/Hair Canon 与可复用精细丝袜 Material Canon 仍由各自组件/Gate 负责。
+
+组件 002 的下游职责经用户进一步明确：生成其他角色资产和视频镜头所需图片时，可引用其中获批的 168 cm / 60 kg、可见长相、`HAIRSTYLE_A`、四肢比例及腰臀比；若任务需要不同脸部/发型视角或更精细权威，仍选择对应的专用 Face/Hair Canon。该图中的丝袜只可定义 `15D + 哑光 + 肉色` 三项组合外观；任何其他颜色、材质/光泽或厚度必须排除本图的丝袜职责并另选对应 Material Reference。
 
 六张分别批准后才能进入 Gate 4。
 
@@ -601,3 +605,6 @@ all required components APPROVED
 | draft_1.35 | 2026-09-11 | 用户复核 BODY_01 v007：除腰部过粗外其余方向均确认可保持，包括腿部占比、腿轴、丝袜光泽、足部朦胧覆盖与甲油透出；v008 只轻微收窄腰围并保持自然胸—腰—胯过渡，不制造夸张沙漏形，禁止使用 v007 像素 | user scoped review incorporated |
 | draft_1.36 | 2026-09-11 | 用户明确批准 BODY_01 v008 为正面 Body L1 Canon 组件；登记批准 Master、审批证据、下游引用集、源参考恢复集和稳定复现方法。完整 owner_v1.0 仍未锁定，丝袜细节仍不由 Body 组件定 Canon | user approved component |
 | draft_1.37 | 2026-09-11 | 用户将批准的 BODY_01 Master 从 PNG 转换为 JPG 并删除批准目录中的 PNG；更新当前下游路径、格式、校验值、元数据、审批记录、Body 索引和引用路由。候选 v008 PNG 继续作为生成与批准溯源，L1 恢复方法不变 | user format decision incorporated |
+| draft_1.38 | 2026-09-11 | 用户复核当前 BODY_01 Canon：确认本人真实基准为 168 cm、120 斤（约 60 kg），当前图视觉身高约 160 cm 且小腿仍不够直；授权从四项源参考独立生成 v009，保留已认可的脸、HAIRSTYLE_A 与丝袜质感，只修正偏高身高感/头身肢体比例和膝—胫—踝直轴；禁止使用当前 Body Master 或任何历史 Body 候选像素 | user correction and revision authorization incorporated |
+| draft_1.39 | 2026-09-11 | 用户明确批准 BODY_01 v009 的长相、发型、四肢比例、腰臀比、腿脚几何与腿脚丝袜质感；晋升为活动正面 Body 组件 `OWNER_BODY_01_FRONT_CANON_002`，将旧 001 保留为历史 superseded 组件，并更新下游路由与源恢复方法 | user approved component |
+| draft_1.40 | 2026-09-11 | 用户澄清 002 的跨资产/镜头职责：168 cm / 60 kg、长相、HAIRSTYLE_A、四肢比例与腰臀比均可供其他资产及视频镜头图片引用；丝袜外观只授权 15D 哑光肉色组合，禁止外推到其他颜色、材质/光泽或厚度 | user scope clarification incorporated |

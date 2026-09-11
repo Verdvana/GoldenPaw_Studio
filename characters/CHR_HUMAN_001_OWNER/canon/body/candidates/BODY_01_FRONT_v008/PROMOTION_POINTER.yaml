@@ -17,7 +17,7 @@ source_images:
   - "OWNER_HAIRSTYLE_A_FACE_MASKED_001"
 generated_or_real: "GENERATED"
 generation_record: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v008/generation_record.md"
-approval_status: "APPROVED"
+approval_status: "APPROVED_SUPERSEDED"
 approval_record: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/approvals/APPROVAL_OWNER_BODY_01_FRONT_001.md"
 authoritative_for:
   - "candidate front-view body proportions"
@@ -42,7 +42,7 @@ appearance:
   hairstyle: "HAIRSTYLE_A"
   outfit: "OWNER_L1_CALIBRATION_OUTFIT"
   hosiery: "MAT_HOSIERY_15D_VELVET_CAL"
-quality_status: "PASS_USER_APPROVED_PROMOTED"
+quality_status: "PASS_USER_APPROVED_PROMOTED_SUPERSEDED"
 checksum_sha256: "86455eafd8917022a45323835bf693d24dd86b618caac581f018063a17963a57"
 created_at: "2026-09-11"
-notes: "Record-only pointer. The candidate raster was removed after promotion and user transcode; the approved JPG is the single physical Master. Full owner_v1.0 remains unlocked."
+notes: "Record-only pointer. The candidate raster was removed after promotion and user transcode. Its approved JPG remains historical but was superseded for active routing by OWNER_BODY_01_FRONT_CANON_002. Full owner_v1.0 remains unlocked."

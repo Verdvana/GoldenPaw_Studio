@@ -9,6 +9,7 @@
 - approver: user
 - decision_date: 2026-09-11
 - lock_status: UNLOCKED_COMPONENT
+- current_status: APPROVED_SUPERSEDED_BY_OWNER_BODY_01_FRONT_CANON_002
 - source_candidate_png_checksum: `2f7f3828feb3a2e500482812a7a24f1284f87e71406b312ea579345293012a00`
 - current_jpg_checksum: `86455eafd8917022a45323835bf693d24dd86b618caac581f018063a17963a57`
 
@@ -44,3 +45,5 @@ The user stated: “ok,可以作为canon，并记录生成的方法，保证后�
 ## Promotion action
 
 The candidate was promoted to the approved Master path. The user later transcoded the approved Master to JPG; the original candidate PNG path/checksum remain textual provenance and its raster was removed. The JPG is the single physical Master. The component ID and approved scope are unchanged. The complete `owner_v1.0` release remains unlocked, and the other five Body views remain pending.
+
+On 2026-09-11 the user later approved `OWNER_BODY_01_FRONT_CANON_002`, which supersedes this component for active downstream routing. This historical approval record remains valid as provenance but no longer identifies the current Master.

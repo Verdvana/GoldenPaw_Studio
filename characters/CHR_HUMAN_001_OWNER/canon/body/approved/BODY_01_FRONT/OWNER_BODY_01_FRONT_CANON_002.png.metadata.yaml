@@ -1,0 +1,52 @@
+asset_id: "OWNER_BODY_01_FRONT_CANON_002"
+asset_level: "L1"
+asset_type: "body_canon"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_component"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_002.png"
+source_candidate: "BODY_01_FRONT_v009"
+source_images:
+  - "OWNER_FACE_01_FRONT_NEUTRAL_CANON_001"
+  - "L0_OWNER_002"
+  - "L0_OWNER_003"
+  - "OWNER_HAIRSTYLE_A_FACE_MASKED_001"
+generated_or_real: "GENERATED"
+file_format: "PNG"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/generation_record.md"
+approval_status: "APPROVED"
+approval_record: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/approvals/APPROVAL_OWNER_BODY_01_FRONT_002.md"
+lock_status: "UNLOCKED_COMPONENT"
+authoritative_for:
+  - "owner 168 cm / 60 kg physical target for other character assets and shot/video-frame image generation"
+  - "approved visible owner face appearance for other character assets and shot/video-frame image generation, subject to view-specific Face Canon priority"
+  - "approved visible HAIRSTYLE_A appearance for other character assets and shot/video-frame image generation, subject to dedicated Hairstyle-A Canon priority"
+  - "owner front shoulder-torso-waist-hip geometry and waist/hip ratio"
+  - "owner front arm, leg and foot proportions"
+  - "owner straight lower-leg alignment and neutral square front stance"
+  - "15D matte nude hosiery appearance only"
+must_not_define:
+  - "calibration outfit design outside this component"
+  - "hosiery colors other than nude"
+  - "hosiery deniers or thicknesses other than 15D"
+  - "hosiery finishes or material behavior other than matte"
+  - "gloss, soft-sheen, velvet-gloss, opaque, black, white or other hosiery variants"
+  - "side_or_rear_body_geometry"
+  - "episode_wardrobe"
+  - "lighting_or_background"
+view:
+  framing: "full length, exact 3:4"
+  angle: "front neutral"
+  camera_height: "waist to lower chest"
+  lens: "prompted 70-85mm equivalent"
+physical_target:
+  height_cm: 168
+  weight_kg: 60
+  weight_jin: 120
+appearance:
+  hairstyle: "HAIRSTYLE_A; user accepted in this asset and separately governed"
+  outfit: "OWNER_L1_CALIBRATION_OUTFIT"
+  hosiery: "scoped visual reference for 15D matte nude only; must not transfer to any other color, finish, material or denier"
+quality_status: "APPROVED_L1_COMPONENT"
+checksum_sha256: "cbb08e1799a6d6d3d9e00b600ceaab294a36a2b04a170ae1a367e28578cd0164"
+approved_at: "2026-09-11"
+notes: "Current active front Body Canon component. Its approved stature, visible face, Hairstyle A, limb proportions and waist/hip ratio may be referenced by other assets and shot/video-frame image generation. Hosiery scope is strictly 15D matte nude only. OWNER_BODY_01_FRONT_CANON_001 is superseded. Full owner_v1.0 remains unlocked."

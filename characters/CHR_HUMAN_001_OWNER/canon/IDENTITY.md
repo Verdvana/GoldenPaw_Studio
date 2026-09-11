@@ -4,10 +4,10 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.35
+revision: draft_0.38
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
-updated_at: "2026-09-10"
+updated_at: "2026-09-11"
 ```
 
 本文件是 L0 真人照片、用户指定的 L1 目标外观锚与 L1 Face Canon 候选之间的文字身份锚。当前版本尚未获得最终身份批准，可根据用户对候选图的明确反馈继续修订。
@@ -180,6 +180,15 @@ updated_at: "2026-09-10"
 - BODY_01 首次调用未产出图片；安全重试移除带床景/广告文字的丝袜照片，并将画面明确限定为成年、非性感的技术性身体比例校准照。该执行调整不改变身份或身体目标，丝袜连续性仍按文字合同检查。
 - BODY_01 安全重试仍在输出阶段被拦截且无图；当前不存在 BODY_01 候选。不得把失败调用当作身体反馈或新身份事实，等待用户明确决定是否修改 Body 校准服装合同后再生成。
 
+## BODY_01 当前批准结果
+
+- 用户确认本人现实身体基准为身高 `168 cm`、体重 `120 斤`（约 `60 kg`）。该数值是当前 Body 身份事实，优先于 L0 全身照因服装、镜头和姿态产生的矮化观感。
+- `BODY_01_FRONT_v009` 已由用户明确批准并晋升为当前活动正面 Body 组件 `OWNER_BODY_01_FRONT_CANON_002`；旧 `OWNER_BODY_01_FRONT_CANON_001` 保留为历史已批准但已被替代的组件，不再作为活动下游路由目标。
+- 当前活动组件呈现与 168 cm / 60 kg 相符的自然成年女性比例：整体偏高但不是夸张模特身材，保持真实肩胸腰胯和软组织体量；通过正确头身比、躯干与四肢长度关系表达身高，不得缩头、广角拉腿、低机位仰拍或机械纵向拉伸。
+- 小腿需进一步收直：双侧膝、胫骨中线与踝中心形成自然近竖直轴，胫骨不向外弯，左右小腿肌肉保留自然体量但外轮廓不制造 O 形腿观感，双脚仍平放且方向对称。
+- 用户明确批准 v009 的长相、HAIRSTYLE_A、四肢比例、腰臀比、腿脚几何和腿脚丝袜质感。普通下游可使用活动 Master 的批准范围；重新制作 L1 仍按批准 Face、两张 L0 身体上下文和遮脸发型 A 的四输入恢复方法平行生成，不使用 v008、v009 或任何 Body Master 像素。
+- 用户进一步明确：`OWNER_BODY_01_FRONT_CANON_002` 中的 168 cm / 60 kg、可见长相、`HAIRSTYLE_A`、四肢比例和腰臀比可用于生成其他角色资产及视频镜头所需图片；当存在更匹配视角的专用 Face/Hair Canon 时仍优先使用专用组件。该图的丝袜只可作为 `15D 哑光肉色` 外观参考，不得用于其他颜色、材质/光泽或厚度。
+
 ## FACE_01 必须保持
 
 - 正面、眼平、中性闭嘴表情；
@@ -232,3 +241,6 @@ updated_at: "2026-09-10"
 | draft_0.33 | 2026-09-11 | 用户确认 BODY_01 v007 除腰部过粗外其余方向均可保持；v008 仅轻微收窄腰围，保留自然体型、腿部比例/直轴、丝袜表现、脸与发型方向，并继续禁止候选图像串联 | user scoped review incorporated |
 | draft_0.34 | 2026-09-11 | 用户批准 BODY_01 v008 为当前正面 Body L1 Canon 组件 `OWNER_BODY_01_FRONT_CANON_001`；固化下游 Master 与四输入源参考恢复方法，禁止批准图或候选图参与新的 L1 串图 | user approved component |
 | draft_0.35 | 2026-09-11 | 用户将批准 BODY_01 Master 转换为 JPG 并删除批准 PNG；更新当前文件路径与指纹，候选 v008 PNG 保留溯源，批准范围和源参考恢复方法不变 | user format decision incorporated |
+| draft_0.36 | 2026-09-11 | 用户复核当前 BODY_01 Canon：登记本人真实身体基准 168 cm、120 斤（约 60 kg）；当前图视觉偏矮且小腿仍不够直。v009 只修正身高感/整体比例与小腿直轴，保留已认可的脸、发型和丝袜质感，并继续禁止使用任何 Body 生成图像作为 L1 输入 | user correction and revision authorization incorporated |
+| draft_0.37 | 2026-09-11 | 用户批准 BODY_01 v009 的长相、发型、四肢比例、腰臀比、腿脚几何及腿脚丝袜表现；晋升为活动组件 `OWNER_BODY_01_FRONT_CANON_002`，旧 001 标记为历史 superseded，四输入源恢复规则不变 | user approved component |
+| draft_0.38 | 2026-09-11 | 用户明确扩展 002 的下游职责：168 cm / 60 kg、长相、HAIRSTYLE_A、四肢比例与腰臀比可供其他资产及视频镜头图片引用；丝袜职责严格限定为 15D 哑光肉色，不外推至其他颜色、材质/光泽或厚度 | user scope clarification incorporated |
