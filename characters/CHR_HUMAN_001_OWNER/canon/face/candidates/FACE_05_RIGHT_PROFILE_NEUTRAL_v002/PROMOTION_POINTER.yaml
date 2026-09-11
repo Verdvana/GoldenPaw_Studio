@@ -1,0 +1,53 @@
+asset_id: "FACE_05_RIGHT_PROFILE_NEUTRAL_v002"
+asset_level: "RECORD_ONLY"
+proposed_level: null
+asset_type: "canon_promotion_pointer"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_candidate"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_05_RIGHT_PROFILE_NEUTRAL/OWNER_FACE_05_RIGHT_PROFILE_NEUTRAL_CANON_001.jpg"
+physical_file_role: "RECORD_ONLY"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_05_RIGHT_PROFILE_NEUTRAL_v002/FACE_05_RIGHT_PROFILE_NEUTRAL_v002.png"
+original_candidate_checksum_sha256: "7a92f8ffbf0d9a8b5baf28b8962e1ab76035800ca220c9cc4f82e9e5c904c9ea"
+promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_05_RIGHT_PROFILE_NEUTRAL/OWNER_FACE_05_RIGHT_PROFILE_NEUTRAL_CANON_001.jpg"
+promoted_asset_checksum_sha256: "de670f987d341e686f5239d6b5c7a920cd431050c2907c26de759a5cf37f6b97"
+candidate_raster_retained: false
+source_images:
+  - "OWNER_FACE_01_FRONT_NEUTRAL_CANON_001"
+  - "L0_OWNER_009"
+  - "OWNER_HAIRSTYLE_A_FACE_MASKED_001"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_05_RIGHT_PROFILE_NEUTRAL_v002/generation_record.md"
+approval_status: "APPROVED"
+approval_record: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_05_RIGHT_PROFILE_NEUTRAL/approvals/APPROVAL_OWNER_FACE_05_RIGHT_PROFILE_NEUTRAL_001.md"
+authoritative_for:
+  - "pixel provenance of OWNER_FACE_05_RIGHT_PROFILE_NEUTRAL_CANON_001 only"
+proposed_authoritative_for:
+  - "owner right-profile neutral face identity geometry"
+  - "anatomical right facial plane with face pointing image-left"
+  - "slightly reduced nasal tip bulk and forward projection"
+  - "forehead-nose-lips-chin profile silhouette"
+  - "profile orbital depth, ear placement and jaw-neck transition"
+  - "soft rounded chin and gentle neutral forward gaze"
+must_not_define:
+  - "body_geometry"
+  - "final outfit design"
+  - "HAIRSTYLE_A back_canon"
+  - "HAIRSTYLE_B"
+  - "episode lighting_or_background"
+  - "makeup_policy"
+  - "AI_rendering_artifacts"
+view:
+  framing: "head to upper chest"
+  angle: "full right profile neutral"
+  anatomical_side: "right facial plane visible"
+  face_points: "image-left"
+  camera_height: "visually eye-level"
+  lens: "prompted 85-105mm equivalent"
+appearance:
+  hairstyle: "HAIRSTYLE_A"
+  outfit: "pink Calibration Outfit upper portion; non-authoritative"
+  hosiery: null
+quality_status: "PASS_USER_APPROVED_PROMOTED"
+checksum_sha256: "de670f987d341e686f5239d6b5c7a920cd431050c2907c26de759a5cf37f6b97"
+created_at: "2026-09-10"
+notes: "Record-only pointer. The candidate raster was removed after promotion and user transcode; the approved JPG is the single physical Master. L1 recreation uses the documented three-source method."

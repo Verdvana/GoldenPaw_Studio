@@ -1,0 +1,257 @@
+schema_version: 1
+catalog_version: "2026-09-11"
+policy: "Select one set by shot need; never concatenate all sets. Locked scoped L1 Canon supersedes these L0 construction sets."
+
+reference_sets:
+  OWNER_L0_FACE_FRONT_NEUTRAL:
+    purpose: "Gate-2 neutral frontal identity construction or Canon recovery"
+    max_images: 2
+    assets:
+      - {asset_id: L0_OWNER_012, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/14.jpg"}
+      - {asset_id: L0_OWNER_010, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/12.jpg"}
+  OWNER_L0_FACE_HIGH_RES_3Q:
+    purpose: "high-resolution 3/4 face structure"
+    max_images: 2
+    assets:
+      - {asset_id: L0_OWNER_013, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/15.jpg"}
+      - {asset_id: L0_OWNER_014, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/16.jpg"}
+  OWNER_L0_FACE_RIGHT_3Q_LIMITED:
+    purpose: "limited real-source support for anatomical right facial plane with face pointing image-right; direction and natural asymmetry only, never fine or lens-neutral geometry alone"
+    max_images: 1
+    assets:
+      - {asset_id: L0_OWNER_012, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/14.jpg"}
+  OWNER_L0_FACE_PROFILE_IMAGE_LEFT:
+    purpose: "profile geometry, face points image-left"
+    max_images: 1
+    assets:
+      - {asset_id: L0_OWNER_009, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/11.jpg"}
+  OWNER_L0_EXPRESSION_SMILE_TEETH:
+    purpose: "smile and teeth soft-tissue behavior; identity remains separate"
+    max_images: 2
+    assets:
+      - {asset_id: L0_OWNER_008, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/10.jpg"}
+      - {asset_id: L0_OWNER_001, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/2.jpg"}
+  OWNER_L0_EXPRESSION_SURPRISED:
+    purpose: "surprised/open-mouth expression only"
+    max_images: 1
+    assets:
+      - {asset_id: L0_OWNER_006, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/8.jpg"}
+  OWNER_L0_EXPRESSION_LAUGH:
+    purpose: "natural laugh only"
+    max_images: 1
+    assets:
+      - {asset_id: L0_OWNER_016, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/DSC01015.JPG"}
+  OWNER_HAIRSTYLE_A_L0:
+    purpose: "HAIRSTYLE_A real-source hair design only: long straight loose hair, near-center part, face-framing panels and tapered ends"
+    max_images: 1
+    assets:
+      - {asset_id: L0_OWNER_017, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/DSC00847.jpg"}
+  OWNER_HAIRSTYLE_B_L0:
+    purpose: "HAIRSTYLE_B real-source hair design only: hairline, pulled-back front, face-framing strands and gathered updo relationship"
+    max_images: 1
+    assets:
+      - {asset_id: L0_OWNER_006, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/8.jpg"}
+  OWNER_L0_BODY_FRONT_CONTEXT:
+    purpose: "pre-Canon standing/walking proportion context; never final body authority"
+    max_images: 2
+    assets:
+      - {asset_id: L0_OWNER_002, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/3.jpg"}
+      - {asset_id: L0_OWNER_003, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/4.jpg"}
+  OWNER_L0_BODY_REAR_SIDE_CONTEXT:
+    purpose: "pre-Canon rear/side silhouette context only"
+    max_images: 1
+    assets:
+      - {asset_id: L0_OWNER_015, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/17.jpg"}
+  OWNER_BODY_FRONT_CANON_L1:
+    purpose: "approved L1 Master for downstream owner front-view body geometry and neutral stance; use only within metadata scope"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_BODY_01_FRONT_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_001.jpg"}
+  OWNER_BODY_FRONT_RECOVERY_V1:
+    purpose: "fixed ordered source/reference set for recreating the L1 front Body Master; follow BODY_01_FRONT_METHOD.md and never add any generated Body candidate or approved Body Master"
+    max_images: 4
+    approval_status: "APPROVED_METHOD"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_FACE_01_FRONT_NEUTRAL_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg"}
+      - {asset_id: L0_OWNER_002, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/3.jpg"}
+      - {asset_id: L0_OWNER_003, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/4.jpg"}
+      - {asset_id: OWNER_HAIRSTYLE_A_FACE_MASKED_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/DSC00847_HAIR_ONLY_MASKED.png"}
+  TECH_CAT_L0_FRONT_IDENTITY:
+    purpose: "current front face/coat/seated identity source; unseen angles remain undefined"
+    max_images: 1
+    assets:
+      - {asset_id: L0_CAT_001, path: "characters/CHR_CAT_001_TECH_CAT/source/identity/raw/1.jpg"}
+  OWNER_HAIRSTYLE_B_APPEARANCE_L1:
+    purpose: "approved L1 Hairstyle-B design plus owner front-face and skin-tone target; apply only the role requested by the task"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_HAIRSTYLE_B_APPEARANCE_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/CHR_WOMAN_001_HB04_HAIR_B.jpg"}
+  OWNER_FACE_APPEARANCE_L1:
+    purpose: "owner front-face target appearance and skin tone only; explicitly exclude Hairstyle B, clothing, high camera angle, lighting and background"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_HAIRSTYLE_B_APPEARANCE_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/CHR_WOMAN_001_HB04_HAIR_B.jpg"}
+
+  OWNER_FACE_FRONT_NEUTRAL_CANON_L1:
+    purpose: "approved L1 master for downstream front-neutral owner identity; may define only the scopes declared in its metadata"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_FACE_01_FRONT_NEUTRAL_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg"}
+
+  OWNER_FACE_FRONT_NEUTRAL_RECOVERY_V1:
+    purpose: "source-derived minimal set for recreating the L1 front-neutral master; never combine with an AI Face candidate"
+    max_images: 2
+    approval_status: "APPROVED_METHOD"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/B_FACE_SKIN_CONTEXT_NO_CROWN.png"}
+      - {asset_id: OWNER_HAIRSTYLE_A_FACE_MASKED_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/DSC00847_HAIR_ONLY_MASKED.png"}
+
+  OWNER_FACE_LEFT_3Q_NEUTRAL_CANON_L1:
+    purpose: "approved L1 master for downstream owner left-three-quarter neutral identity; anatomical left facial plane visible and face points image-left"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_FACE_02_LEFT_3Q_NEUTRAL_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_02_LEFT_3Q_NEUTRAL/OWNER_FACE_02_LEFT_3Q_NEUTRAL_CANON_001.jpg"}
+
+  OWNER_FACE_LEFT_3Q_NEUTRAL_RECOVERY_V1:
+    purpose: "fixed ordered parallel-source set for recreating the L1 left-three-quarter master; follow FACE_02_LEFT_3Q_NEUTRAL_METHOD.md and never add a FACE_02 candidate or approved FACE_02 image"
+    max_images: 3
+    approval_status: "APPROVED_METHOD"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_FACE_01_FRONT_NEUTRAL_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg"}
+      - {asset_id: L0_OWNER_013, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/15.jpg"}
+      - {asset_id: OWNER_HAIRSTYLE_A_FACE_MASKED_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/DSC00847_HAIR_ONLY_MASKED.png"}
+
+  OWNER_FACE_RIGHT_3Q_NEUTRAL_CANON_L1:
+    purpose: "approved L1 master for downstream owner right-three-quarter neutral identity; anatomical right facial plane visible and face points image-right"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_FACE_03_RIGHT_3Q_NEUTRAL_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_03_RIGHT_3Q_NEUTRAL/OWNER_FACE_03_RIGHT_3Q_NEUTRAL_CANON_001.jpg"}
+
+  OWNER_FACE_RIGHT_3Q_NEUTRAL_RECOVERY_V1:
+    purpose: "fixed ordered parallel-source set for recreating the L1 right-three-quarter master; follow FACE_03_RIGHT_3Q_NEUTRAL_METHOD.md and never add mirrored FACE_02 or any FACE_03 generated pixels"
+    max_images: 3
+    approval_status: "APPROVED_METHOD"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_FACE_01_FRONT_NEUTRAL_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg"}
+      - {asset_id: L0_OWNER_012, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/14.jpg"}
+      - {asset_id: OWNER_HAIRSTYLE_A_FACE_MASKED_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/DSC00847_HAIR_ONLY_MASKED.png"}
+
+  OWNER_FACE_LEFT_PROFILE_NEUTRAL_CANON_L1:
+    purpose: "approved L1 master for downstream owner left-profile neutral identity; anatomical left facial plane visible and face points image-right; fine silhouette is user-approved generated reconstruction without matching-direction true-profile L0 verification"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_FACE_04_LEFT_PROFILE_NEUTRAL_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_04_LEFT_PROFILE_NEUTRAL/OWNER_FACE_04_LEFT_PROFILE_NEUTRAL_CANON_001.jpg"}
+
+  OWNER_FACE_LEFT_PROFILE_NEUTRAL_RECOVERY_V1:
+    purpose: "fixed ordered parallel-source set for recreating the L1 left-profile master; follow FACE_04_LEFT_PROFILE_NEUTRAL_METHOD.md, disclose missing true-profile L0, and never add FACE_04/FACE_03/FACE_05 generated pixels or a mirror"
+    max_images: 3
+    approval_status: "APPROVED_METHOD"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_FACE_01_FRONT_NEUTRAL_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg"}
+      - {asset_id: L0_OWNER_012, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/14.jpg"}
+      - {asset_id: OWNER_HAIRSTYLE_A_FACE_MASKED_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/DSC00847_HAIR_ONLY_MASKED.png"}
+
+  OWNER_FACE_RIGHT_PROFILE_NEUTRAL_CANON_L1:
+    purpose: "approved L1 master for downstream owner right-profile neutral identity; anatomical right facial plane visible and face points image-left"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_FACE_05_RIGHT_PROFILE_NEUTRAL_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_05_RIGHT_PROFILE_NEUTRAL/OWNER_FACE_05_RIGHT_PROFILE_NEUTRAL_CANON_001.jpg"}
+
+  OWNER_FACE_RIGHT_PROFILE_NEUTRAL_RECOVERY_V1:
+    purpose: "fixed ordered parallel-source set for recreating the L1 right-profile master; follow FACE_05_RIGHT_PROFILE_NEUTRAL_METHOD.md and never add FACE_05 generated pixels, another generated angle or a mirror"
+    max_images: 3
+    approval_status: "APPROVED_METHOD"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_FACE_01_FRONT_NEUTRAL_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg"}
+      - {asset_id: L0_OWNER_009, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/11.jpg"}
+      - {asset_id: OWNER_HAIRSTYLE_A_FACE_MASKED_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/DSC00847_HAIR_ONLY_MASKED.png"}
+
+  HOS_15D_BLACK_HIGH_GLOSS_OVERALL:
+    purpose: "black high-gloss full-leg response with open-toe shoes"
+    max_images: 1
+    assets:
+      - {asset_id: L0_HOS_15_BHG_002, path: "materials/hosiery/source_library/raw/15d_black_high_gloss/IMG_2569.jpg"}
+  HOS_15D_NUDE_HIGH_GLOSS_LIMITED:
+    purpose: "nude high-gloss response; only one current source"
+    max_images: 1
+    assets:
+      - {asset_id: L0_HOS_15_NHG_001, path: "materials/hosiery/source_library/raw/15d_nude_high_gloss/IMG_2587.jpg"}
+  HOS_15D_NUDE_MATTE_BAREFOOT:
+    purpose: "15D nude matte sole, underside-foot, toe coverage and tension; use for sole/foot views"
+    max_images: 1
+    assets:
+      - {asset_id: L0_HOS_15_NM_001, path: "materials/hosiery/source_library/raw/15d_nude_matte/IMG_2562.jpg"}
+  HOS_15D_NUDE_MATTE_FOOT_CROP:
+    purpose: "source-derived crop for fine 15D nude matte ankle, heel, instep, toe coverage and textile tension only; no independent authority"
+    max_images: 1
+    assets:
+      - {asset_id: OWNER_HOS_15D_FOOT_MATERIAL_CROP_001, path: "materials/hosiery/reference_inputs/15d_nude_matte/IMG_2562_FOOT_MATERIAL_CROP.png"}
+  HOS_15D_NUDE_MATTE_CROUCHING:
+    purpose: "15D nude matte crouching response across bent knee, calf and ankle; oblique and side coverage"
+    max_images: 2
+    assets:
+      - {asset_id: L0_HOS_15_NM_007, path: "materials/hosiery/source_library/raw/15d_nude_matte/IMG_2579.jpg"}
+      - {asset_id: L0_HOS_15_NM_008, path: "materials/hosiery/source_library/raw/15d_nude_matte/IMG_2580.jpg"}
+  HOS_15D_NUDE_MATTE_STANDING:
+    purpose: "15D nude matte standing front full-leg color, opacity and vertical response"
+    max_images: 1
+    assets:
+      - {asset_id: L0_HOS_15_NM_009, path: "materials/hosiery/source_library/raw/15d_nude_matte/IMG_2581.jpg"}
+  HOS_15D_NUDE_SOFT_SHEEN_STANDING:
+    purpose: "outdoor full-leg soft sheen"
+    max_images: 1
+    assets:
+      - {asset_id: L0_HOS_15_NSS_002, path: "materials/hosiery/source_library/raw/15d_nude_soft_sheen/IMG_2589.jpg"}
+  HOS_15D_WHITE_SOFT_SHEEN_FRONT:
+    purpose: "white frontal coverage and soft sheen"
+    max_images: 1
+    assets:
+      - {asset_id: L0_HOS_15_WSS_002, path: "materials/hosiery/source_library/raw/15d_white_soft_sheen/IMG_2604.jpg"}
+  HOS_15D_WHITE_SOFT_SHEEN_REAR_HEEL:
+    purpose: "rear calf/heel/shoe interface"
+    max_images: 1
+    assets:
+      - {asset_id: L0_HOS_15_WSS_004, path: "materials/hosiery/source_library/raw/15d_white_soft_sheen/IMG_2606.jpg"}
+  HOS_30D_BLACK_MATTE_OVERALL:
+    purpose: "black matte full-leg and foot response"
+    max_images: 2
+    assets:
+      - {asset_id: L0_HOS_30_BM_003, path: "materials/hosiery/source_library/raw/30d_black_matte/IMG_2557.JPG"}
+      - {asset_id: L0_HOS_30_BM_005, path: "materials/hosiery/source_library/raw/30d_black_matte/IMG_2559.JPG"}
+  HOS_30D_NUDE_HIGH_GLOSS_STANDING:
+    purpose: "nude high-gloss full-leg response"
+    max_images: 1
+    assets:
+      - {asset_id: L0_HOS_30_NHG_002, path: "materials/hosiery/source_library/raw/30d_nude_high_gloss/IMG_2680.jpg"}
+  HOS_30D_NUDE_MATTE_BAREFOOT:
+    purpose: "bare foot, instep, heel, and toe coverage"
+    max_images: 1
+    assets:
+      - {asset_id: L0_HOS_30_NM_005, path: "materials/hosiery/source_library/raw/30d_nude_matte/unnamed.jpg"}
+  HOS_30D_NUDE_SOFT_SHEEN_LIMITED:
+    purpose: "30D nude soft sheen; only one current source"
+    max_images: 1
+    assets:
+      - {asset_id: L0_HOS_30_NSS_001, path: "materials/hosiery/source_library/raw/30d_nude_soft_sheen/IMG_2682.jpg"}

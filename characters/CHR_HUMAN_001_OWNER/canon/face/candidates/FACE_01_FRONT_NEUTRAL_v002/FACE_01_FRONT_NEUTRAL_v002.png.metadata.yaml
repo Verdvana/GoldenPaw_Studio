@@ -1,0 +1,30 @@
+asset_id: "FACE_01_FRONT_NEUTRAL_v002"
+asset_level: "L1_CANDIDATE"
+proposed_level: "L1"
+asset_type: "face_identity_canon_candidate"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_candidate"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_01_FRONT_NEUTRAL_v002/FACE_01_FRONT_NEUTRAL_v002.png"
+source_images:
+  - "OWNER_HAIRSTYLE_B_APPEARANCE_CANON_001"
+  - "L0_OWNER_017"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_01_FRONT_NEUTRAL_v002/generation_record.md"
+approval_status: "REJECTED"
+approval_record: null
+authoritative_for: []
+must_not_define:
+  - "anything"
+view:
+  framing: "head and upper chest"
+  angle: "front neutral"
+  camera_height: "eye level"
+  lens: "prompted 85-105mm equivalent"
+appearance:
+  hairstyle: "HAIRSTYLE_A_ATTEMPT"
+  outfit: "pink Calibration Outfit upper portion"
+  hosiery: null
+quality_status: "FAIL_REFERENCE_ROLE_LEAKAGE"
+checksum_sha256: "fc0534ddf622fcd1e0b2053c540a59c996c678ff72e28df6db4445f404dc75dd"
+created_at: "2026-09-09"
+notes: "Rejected before user review because the hairstyle reference's face/body appearance leaked into the output, violating Image 1-only face authority. Never use downstream."

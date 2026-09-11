@@ -1,3 +1,3 @@
-# 项目工具
+# Tools
 
-后续用于保存资产管理、元数据、连续性检查和质量控制脚本。当前不包含任何执行脚本。
+Run `python3 tools/validate_asset_records.py` to audit governance-critical Canon records and warn about unregistered L0 originals. The validator is read-only: it never promotes, approves, locks, moves, or edits assets.

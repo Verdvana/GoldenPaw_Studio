@@ -1,0 +1,40 @@
+asset_id: "FACE_01_FRONT_NEUTRAL_v010"
+asset_level: "L1_CANDIDATE"
+proposed_level: "L1"
+asset_type: "face_identity_canon_candidate"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_candidate"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_01_FRONT_NEUTRAL_v010/FACE_01_FRONT_NEUTRAL_v010.png"
+source_images:
+  - "OWNER_HAIRSTYLE_B_APPEARANCE_CANON_001"
+  - "L0_OWNER_017_FACE_MASKED_DERIVATIVE"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_01_FRONT_NEUTRAL_v010/generation_record.md"
+approval_status: "REJECTED"
+approval_record: null
+authoritative_for: []
+proposed_authoritative_for:
+  - "front neutral face identity geometry"
+  - "front neutral skin-tone appearance"
+must_not_define:
+  - "body_geometry"
+  - "outfit_design"
+  - "environment_or_lighting_style"
+  - "expression_variants"
+  - "hairstyle_B"
+view:
+  framing: "head to upper chest"
+  target_angle: "visually neutral frontal"
+  corrective_camera_height: "2-3 cm below pupil midpoint"
+  corrective_optical_pitch: "1-2 degrees upward"
+  lens: "prompted 100-105mm equivalent"
+appearance:
+  face_method: "v005 constraint block from original full B L1 anchor; no added face-width shaping"
+  hairstyle: "v006 Hairstyle A constraint block from face-masked L0_OWNER_017 derivative"
+  skin_tone: "original full B L1 anchor"
+  outfit: "pink Calibration Outfit upper portion"
+  hosiery: null
+quality_status: "PARTIAL_PASS_FACE_SKIN_FAIL_CROWN_ANGLE"
+checksum_sha256: "c36ad2ea1cf77df409c7763b890815ffe7e890407280863b2849e7d282fd5ac8"
+created_at: "2026-09-10"
+notes: "User confirmed facial features and skin tone are perfect; rejected only because the visible crown area remains too large for a true eye-level view. Superseded; never use as a pixel reference."

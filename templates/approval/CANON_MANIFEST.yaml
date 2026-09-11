@@ -1,0 +1,17 @@
+canon_id: ""
+owner_id: ""
+version: "v0.0"
+approval_status: "DRAFT"
+lock_status: "UNLOCKED"
+approval_records: []
+supersedes: null
+components: []
+# Each component:
+# - asset_id: ""
+#   path: ""
+#   checksum_sha256: ""
+#   authoritative_for: []
+#   must_not_define: []
+created_at: "YYYY-MM-DD"
+locked_at: null
+notes: ""

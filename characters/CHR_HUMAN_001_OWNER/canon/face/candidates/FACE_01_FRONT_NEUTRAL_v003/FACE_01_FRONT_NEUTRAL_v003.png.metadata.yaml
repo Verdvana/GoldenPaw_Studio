@@ -1,0 +1,38 @@
+asset_id: "FACE_01_FRONT_NEUTRAL_v003"
+asset_level: "L1_CANDIDATE"
+proposed_level: "L1"
+asset_type: "face_identity_canon_candidate"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_candidate"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_01_FRONT_NEUTRAL_v003/FACE_01_FRONT_NEUTRAL_v003.png"
+source_images:
+  - "OWNER_HAIRSTYLE_B_APPEARANCE_CANON_001"
+text_derived_design_sources:
+  - "L0_OWNER_017"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_01_FRONT_NEUTRAL_v003/generation_record.md"
+approval_status: "REJECTED"
+approval_record: null
+authoritative_for: []
+proposed_authoritative_for:
+  - "front neutral face identity geometry"
+  - "front neutral skin-tone appearance"
+must_not_define:
+  - "body_geometry"
+  - "outfit_design"
+  - "environment_or_lighting_style"
+  - "expression_variants"
+  - "hairstyle_B"
+view:
+  framing: "head and upper chest"
+  angle: "front neutral"
+  camera_height: "eye level"
+  lens: "prompted 85-105mm equivalent"
+appearance:
+  hairstyle: "HAIRSTYLE_A"
+  outfit: "pink Calibration Outfit upper portion"
+  hosiery: null
+quality_status: "PARTIAL_PASS_FACE_SKIN_CONFIRMED_CAMERA_FAILED"
+checksum_sha256: "b5ac623403acb6e64096e4eef8ab69520d1baca476a4f80f58f8a27bf8b1cda2"
+created_at: "2026-09-09"
+notes: "User confirmed face and skin direction, but requested revision because camera remains slightly high and subject slightly upturned. Superseded; do not use as a pixel reference. Only the user-confirmed method is recorded in IDENTITY.md."

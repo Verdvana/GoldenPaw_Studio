@@ -1,0 +1,38 @@
+asset_id: "FACE_01_FRONT_NEUTRAL_v001"
+asset_level: "L1_CANDIDATE"
+proposed_level: "L1"
+asset_type: "face_identity_canon_candidate"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_candidate"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_01_FRONT_NEUTRAL_v001/FACE_01_FRONT_NEUTRAL_v001.png"
+source_images:
+  - "L0_OWNER_012"
+  - "L0_OWNER_010"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_01_FRONT_NEUTRAL_v001/generation_record.md"
+approval_status: "REJECTED"
+approval_record: null
+authoritative_for: []
+proposed_authoritative_for:
+  - "front neutral face identity geometry"
+must_not_define:
+  - "hairstyle_A_or_B"
+  - "body_geometry"
+  - "skin_color_canon"
+  - "makeup_canon"
+  - "outfit_design"
+  - "background_style"
+  - "expression_variants"
+view:
+  framing: "head and upper chest"
+  angle: "front neutral"
+  camera_height: "eye level"
+  lens: "prompted 85-105mm equivalent"
+appearance:
+  hairstyle: "CALIBRATION_HAIR_NON_CANON"
+  outfit: "upper portion of pink Calibration Outfit"
+  hosiery: "not visible"
+quality_status: "REJECTED_BY_USER"
+checksum_sha256: "d18ca9e54d41460e0c6a3c3573e680496dd6c31ffb202a06a1e3578e0785907a"
+created_at: "2026-09-09"
+notes: "Rejected by user. Must never be used as a downstream reference. Reasons: wrong target face/skin approach and non-B L1 assets must use HAIRSTYLE_A."

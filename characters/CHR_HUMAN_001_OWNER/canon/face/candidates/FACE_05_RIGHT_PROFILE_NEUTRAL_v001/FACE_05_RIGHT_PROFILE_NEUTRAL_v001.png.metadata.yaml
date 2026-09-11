@@ -1,0 +1,47 @@
+asset_id: "FACE_05_RIGHT_PROFILE_NEUTRAL_v001"
+asset_level: "L1_CANDIDATE"
+proposed_level: "L1"
+asset_type: "face_identity_canon_candidate"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_candidate"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_05_RIGHT_PROFILE_NEUTRAL_v001/FACE_05_RIGHT_PROFILE_NEUTRAL_v001.png"
+source_images:
+  - "OWNER_FACE_01_FRONT_NEUTRAL_CANON_001"
+  - "L0_OWNER_009"
+  - "OWNER_HAIRSTYLE_A_FACE_MASKED_001"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_05_RIGHT_PROFILE_NEUTRAL_v001/generation_record.md"
+approval_status: "REVIEW_REQUIRED"
+approval_record: null
+authoritative_for: []
+proposed_authoritative_for:
+  - "owner right-profile neutral face identity geometry"
+  - "anatomical right facial plane with face pointing image-left"
+  - "forehead-nose-lips-chin profile silhouette"
+  - "profile orbital depth and visible-eye relationship"
+  - "profile ear placement and jaw-neck transition"
+  - "soft rounded chin profile contour"
+  - "gentle neutral forward gaze and closed-mouth expression"
+must_not_define:
+  - "body_geometry"
+  - "final outfit design"
+  - "HAIRSTYLE_A back_canon"
+  - "HAIRSTYLE_B"
+  - "episode lighting_or_background"
+  - "makeup_policy"
+  - "AI_rendering_artifacts"
+view:
+  framing: "head to upper chest"
+  angle: "full right profile neutral"
+  anatomical_side: "right facial plane visible"
+  face_points: "image-left"
+  camera_height: "visually eye-level"
+  lens: "prompted 85-105mm equivalent"
+appearance:
+  hairstyle: "HAIRSTYLE_A"
+  outfit: "pink Calibration Outfit upper portion; non-authoritative"
+  hosiery: null
+quality_status: "AI_TECHNICAL_PRECHECK_PASS_USER_REVIEW_REQUIRED"
+checksum_sha256: "18deb156703357175e46ce7d29acf6e7fb163b4955643eb0281785feb970d290"
+created_at: "2026-09-10"
+notes: "Fresh generation from the three scoped inputs; no prior profile candidate, FACE_02, FACE_03 or mirror was supplied. User review is required before promotion or downstream use."

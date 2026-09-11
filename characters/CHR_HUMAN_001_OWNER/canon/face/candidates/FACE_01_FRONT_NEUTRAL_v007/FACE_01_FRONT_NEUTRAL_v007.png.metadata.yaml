@@ -1,0 +1,40 @@
+asset_id: "FACE_01_FRONT_NEUTRAL_v007"
+asset_level: "L1_CANDIDATE"
+proposed_level: "L1"
+asset_type: "face_identity_canon_candidate"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_candidate"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_01_FRONT_NEUTRAL_v007/FACE_01_FRONT_NEUTRAL_v007.png"
+source_images:
+  - "OWNER_HAIRSTYLE_B_APPEARANCE_CANON_001_CROP_DERIVATIVE"
+  - "L0_OWNER_017_FACE_MASKED_DERIVATIVE"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_01_FRONT_NEUTRAL_v007/generation_record.md"
+approval_status: "REJECTED"
+approval_record: null
+authoritative_for: []
+proposed_authoritative_for:
+  - "front neutral face identity geometry"
+  - "front neutral skin-tone appearance"
+must_not_define:
+  - "body_geometry"
+  - "outfit_design"
+  - "environment_or_lighting_style"
+  - "expression_variants"
+  - "hairstyle_B"
+view:
+  framing: "head and upper torso"
+  target_angle: "visually neutral frontal"
+  corrective_camera_height: "2-3 cm below pupil midpoint"
+  corrective_optical_pitch: "1-2 degrees upward"
+  whole_head_projection: "single near-eye-level projection with minimal visible crown top surface"
+  lens: "prompted 100-105mm equivalent"
+appearance:
+  hairstyle: "HAIRSTYLE_A from face-masked L0_OWNER_017 derivative"
+  skin_tone: "B L1 crop is exclusive skin authority"
+  outfit: "pink Calibration Outfit upper portion"
+  hosiery: null
+quality_status: "PARTIAL_PASS_HAIR_CAMERA_FAIL_FACE"
+checksum_sha256: "3d60201cde8b5c40b93cb3342db532c5532dea0257a80b7866996723f391a758"
+created_at: "2026-09-10"
+notes: "User confirmed Hairstyle A and angle but rejected facial appearance, identifying v005 face appearance as correct. Superseded; never use as a pixel reference."

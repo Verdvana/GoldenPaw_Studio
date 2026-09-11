@@ -1,0 +1,40 @@
+asset_id: "OWNER_HAIRSTYLE_B_APPEARANCE_CANON_001"
+asset_level: "L1"
+proposed_level: null
+asset_type: "hairstyle_and_face_appearance_canon"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_component"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/CHR_WOMAN_001_HB04_HAIR_B.jpg"
+source_images: []
+generated_or_real: "GENERATED"
+approval_status: "APPROVED"
+approval_record: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/approvals/APPROVAL_OWNER_HAIR_B_APPEARANCE_001.md"
+authoritative_for:
+  - "HAIRSTYLE_B overall silhouette"
+  - "center parting"
+  - "smooth low updo/bun structure"
+  - "controlled crown volume"
+  - "face-framing side strands"
+  - "dark brown hair color and restrained highlights"
+  - "owner front-face target appearance"
+  - "owner skin-tone target appearance"
+must_not_define:
+  - "body_geometry"
+  - "makeup"
+  - "outfit"
+  - "lighting_or_shadows"
+  - "background"
+  - "AI_rendering_artifacts"
+view:
+  framing: "upper body"
+  angle: "high-angle near-front"
+  camera_height: "above eye level"
+  lens: "unknown"
+appearance:
+  hairstyle: "HAIRSTYLE_B"
+  outfit: "pink sleeveless top; non-authoritative"
+  hosiery: null
+quality_status: "APPROVED_FOR_SCOPED_REFERENCE"
+checksum_sha256: "e83de80864c158a299bc3e2042b198fe76bd9452b01a7d595a1cd0d973fd613f"
+created_at: "2026-09-09"
+notes: "User explicitly designated this as an L1 reference for front-face appearance and skin tone, in addition to Hairstyle B. For non-B assets, it must not transmit its hairstyle, camera angle, clothing, lighting, or background."

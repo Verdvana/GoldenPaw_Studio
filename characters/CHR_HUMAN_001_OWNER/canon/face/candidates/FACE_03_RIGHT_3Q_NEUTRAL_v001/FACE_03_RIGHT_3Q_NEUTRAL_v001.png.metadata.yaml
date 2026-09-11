@@ -1,0 +1,46 @@
+asset_id: "FACE_03_RIGHT_3Q_NEUTRAL_v001"
+asset_level: "L1_CANDIDATE"
+proposed_level: "L1"
+asset_type: "face_identity_canon_candidate"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_candidate"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_03_RIGHT_3Q_NEUTRAL_v001/FACE_03_RIGHT_3Q_NEUTRAL_v001.png"
+source_images:
+  - "OWNER_FACE_01_FRONT_NEUTRAL_CANON_001"
+  - "L0_OWNER_012"
+  - "OWNER_HAIRSTYLE_A_FACE_MASKED_001"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_03_RIGHT_3Q_NEUTRAL_v001/generation_record.md"
+approval_status: "REVIEW_REQUIRED"
+approval_record: null
+authoritative_for: []
+proposed_authoritative_for:
+  - "owner right-three-quarter neutral face identity geometry"
+  - "owner right-three-quarter facial-feature relationships"
+  - "anatomical right facial plane with face pointing image-right"
+  - "right-three-quarter orbital, nose, cheek, jaw and visible-ear relationship"
+  - "gentle neutral gaze and closed-mouth expression"
+  - "neutral-studio skin-tone appearance"
+must_not_define:
+  - "body_geometry"
+  - "final outfit design"
+  - "HAIRSTYLE_A side_or_back_canon"
+  - "HAIRSTYLE_B"
+  - "episode lighting_or_background"
+  - "makeup_policy"
+  - "AI_rendering_artifacts"
+view:
+  framing: "head to upper chest"
+  angle: "moderate right three-quarter neutral"
+  anatomical_side: "right facial plane principally visible"
+  face_points: "image-right"
+  camera_height: "visually eye-level"
+  lens: "prompted 85-105mm equivalent"
+appearance:
+  hairstyle: "HAIRSTYLE_A"
+  outfit: "pink Calibration Outfit upper portion; non-authoritative"
+  hosiery: null
+quality_status: "USER_REVISION_REQUESTED_CHIN_ONLY"
+checksum_sha256: "e9e53bd5f8d8965533979ec108640d8362d6fc73f74855f5f1c86bf541f4bbdc"
+created_at: "2026-09-10"
+notes: "User retained the overall right-three-quarter method but found the chin slightly too pointed. Candidate remains unapproved and cannot be used downstream or as a v002 image input."

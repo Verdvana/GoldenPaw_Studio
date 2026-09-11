@@ -1,0 +1,42 @@
+asset_id: "BODY_01_FRONT_v007"
+asset_level: "L1"
+asset_type: "body"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: null
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v007/BODY_01_FRONT_v007.png"
+source_images:
+  - "OWNER_FACE_01_FRONT_NEUTRAL_CANON_001"
+  - "L0_OWNER_002"
+  - "L0_OWNER_003"
+  - "OWNER_HAIRSTYLE_A_FACE_MASKED_001"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v007/generation_record.md"
+approval_status: "REJECTED"
+approval_record: null
+authoritative_for:
+  - "candidate front-view body proportions"
+  - "candidate neutral front standing geometry"
+must_not_define:
+  - "face identity"
+  - "hairstyle design"
+  - "calibration outfit design"
+  - "final hosiery material canon"
+  - "skin policy"
+  - "toenail color"
+  - "makeup"
+  - "episode wardrobe"
+  - "lighting"
+  - "background"
+view:
+  framing: "full length, 3:4 portrait"
+  angle: "front neutral"
+  camera_height: "waist to lower chest"
+  lens: "70-85mm equivalent requested"
+appearance:
+  hairstyle: "HAIRSTYLE_A"
+  outfit: "OWNER_L1_CALIBRATION_OUTFIT"
+  hosiery: "MAT_HOSIERY_15D_VELVET_CAL"
+quality_status: "FAIL"
+checksum_sha256: "76cb319c3d7f6dcaf75c84205d54c3bfe138f27b5c67427cc1d38f9f58849920"
+created_at: "2026-09-11"
+notes: "Rejected by the user on 2026-09-11 only for excessive waist width. All other directions are accepted as textual feedback, but the candidate is not Canon and remains prohibited as a downstream L1 pixel reference."

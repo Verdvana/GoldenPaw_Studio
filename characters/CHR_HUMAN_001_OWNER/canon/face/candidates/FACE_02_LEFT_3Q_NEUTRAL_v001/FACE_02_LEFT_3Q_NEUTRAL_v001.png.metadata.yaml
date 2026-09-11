@@ -1,0 +1,45 @@
+asset_id: "FACE_02_LEFT_3Q_NEUTRAL_v001"
+asset_level: "L1_CANDIDATE"
+proposed_level: "L1"
+asset_type: "face_identity_canon_candidate"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_candidate"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_02_LEFT_3Q_NEUTRAL_v001/FACE_02_LEFT_3Q_NEUTRAL_v001.png"
+source_images:
+  - "OWNER_FACE_01_FRONT_NEUTRAL_CANON_001"
+  - "L0_OWNER_013"
+  - "OWNER_HAIRSTYLE_A_FACE_MASKED_001"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_02_LEFT_3Q_NEUTRAL_v001/generation_record.md"
+approval_status: "REVIEW_REQUIRED"
+approval_record: null
+authoritative_for: []
+proposed_authoritative_for:
+  - "owner left-three-quarter neutral face identity geometry"
+  - "owner left-three-quarter facial-feature relationships"
+  - "owner neutral-studio skin-tone appearance at left three-quarter view"
+  - "neutral closed-mouth expression"
+  - "left-three-quarter eye-level head projection"
+must_not_define:
+  - "body_geometry"
+  - "final outfit design"
+  - "HAIRSTYLE_A side_or_back_canon"
+  - "HAIRSTYLE_B"
+  - "episode lighting_or_background"
+  - "makeup_policy"
+  - "AI_rendering_artifacts"
+view:
+  framing: "head to upper chest"
+  angle: "left three-quarter neutral"
+  anatomical_side: "left facial plane principally visible"
+  face_points: "image-left"
+  camera_height: "visually eye-level"
+  lens: "prompted 85-105mm equivalent"
+appearance:
+  hairstyle: "HAIRSTYLE_A"
+  outfit: "pink Calibration Outfit upper portion; non-authoritative"
+  hosiery: null
+quality_status: "USER_REVISION_REQUESTED"
+checksum_sha256: "57548285c19d91ffec89a66f0f6019c7ece64d5dfd23f0d8ac9893712b4dd768"
+created_at: "2026-09-10"
+notes: "User considered the overall result good but requested slightly lower-looking cheekbones, a slightly rounder chin, and a softer gaze. Candidate remains unapproved and must not be used as a downstream or v002 image reference."

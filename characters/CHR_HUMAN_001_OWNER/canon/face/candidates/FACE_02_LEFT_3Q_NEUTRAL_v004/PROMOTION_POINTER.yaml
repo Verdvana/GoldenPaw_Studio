@@ -1,0 +1,52 @@
+asset_id: "FACE_02_LEFT_3Q_NEUTRAL_v004"
+asset_level: "RECORD_ONLY"
+proposed_level: null
+asset_type: "canon_promotion_pointer"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_candidate"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_02_LEFT_3Q_NEUTRAL/OWNER_FACE_02_LEFT_3Q_NEUTRAL_CANON_001.jpg"
+physical_file_role: "RECORD_ONLY"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_02_LEFT_3Q_NEUTRAL_v004/FACE_02_LEFT_3Q_NEUTRAL_v004.png"
+original_candidate_checksum_sha256: "34f1a633d37434c8bb17ba28259ff76fa0ba495abb02816979d6b2b6e8a265c3"
+promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_02_LEFT_3Q_NEUTRAL/OWNER_FACE_02_LEFT_3Q_NEUTRAL_CANON_001.jpg"
+promoted_asset_checksum_sha256: "3f50c08e2993aa8dd406abd093d24f8a581b6e1475aa4dd57bda3884fed3b745"
+candidate_raster_retained: false
+source_images:
+  - "OWNER_FACE_01_FRONT_NEUTRAL_CANON_001"
+  - "L0_OWNER_013"
+  - "OWNER_HAIRSTYLE_A_FACE_MASKED_001"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_02_LEFT_3Q_NEUTRAL_v004/generation_record.md"
+approval_status: "APPROVED"
+approval_record: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_02_LEFT_3Q_NEUTRAL/approvals/APPROVAL_OWNER_FACE_02_LEFT_3Q_NEUTRAL_001.md"
+authoritative_for:
+  - "promoted OWNER_FACE_02_LEFT_3Q_NEUTRAL_CANON_001 source pixels"
+proposed_authoritative_for:
+  - "owner left-three-quarter neutral face identity geometry"
+  - "owner left-three-quarter facial-feature relationships"
+  - "owner neutral-studio skin-tone appearance at left three-quarter view"
+  - "neutral closed-mouth gentle gaze"
+  - "soft rounded chin and cheekbone contour"
+must_not_define:
+  - "body_geometry"
+  - "final outfit design"
+  - "HAIRSTYLE_A side_or_back_canon"
+  - "HAIRSTYLE_B"
+  - "episode lighting_or_background"
+  - "makeup_policy"
+  - "AI_rendering_artifacts"
+view:
+  framing: "head to upper chest"
+  angle: "moderate left three-quarter neutral"
+  anatomical_side: "left facial plane principally visible"
+  face_points: "image-left"
+  camera_height: "visually eye-level"
+  lens: "prompted 85-105mm equivalent"
+appearance:
+  hairstyle: "HAIRSTYLE_A"
+  outfit: "pink Calibration Outfit upper portion; non-authoritative"
+  hosiery: null
+quality_status: "PASS_USER_APPROVED_PROMOTED"
+checksum_sha256: "3f50c08e2993aa8dd406abd093d24f8a581b6e1475aa4dd57bda3884fed3b745"
+created_at: "2026-09-10"
+notes: "Record-only pointer. The candidate raster was removed after promotion and user transcode; the approved JPG is the single physical Master. Full owner_v1.0 remains unlocked."

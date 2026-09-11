@@ -1,0 +1,33 @@
+schema_version: 1
+project_id: goldenpaw_studio
+assets:
+  - asset_id: CHR_HUMAN_001_OWNER
+    type: character
+    path: characters/CHR_HUMAN_001_OWNER
+    current_canon_version: null
+    status: DRAFT
+  - asset_id: CHR_CAT_001_TECH_CAT
+    type: character
+    path: characters/CHR_CAT_001_TECH_CAT
+    current_canon_version: null
+    status: DRAFT
+  - asset_id: PROP_VISION_PRO_CAT
+    type: prop
+    path: props/vision_pro_cat
+    current_canon_version: null
+    status: DRAFT
+  - asset_id: PROP_MACBOOK_PRO_CAT
+    type: prop
+    path: props/macbook_pro_cat
+    current_canon_version: null
+    status: DRAFT
+  - asset_id: MAT_HOSIERY_15D_VELVET_CAL
+    type: material
+    path: materials/hosiery/calibration_15d_velvet
+    current_canon_version: null
+    status: DRAFT
+  - asset_id: ENV_HOME_001_OWNER_RESIDENCE
+    type: environment
+    path: environments/ENV_HOME_001_OWNER_RESIDENCE
+    current_canon_version: null
+    status: DRAFT

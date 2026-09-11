@@ -1,0 +1,58 @@
+asset_id: "FACE_04_LEFT_PROFILE_NEUTRAL_v001"
+asset_level: "RECORD_ONLY"
+proposed_level: null
+asset_type: "canon_promotion_pointer"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_candidate"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_04_LEFT_PROFILE_NEUTRAL/OWNER_FACE_04_LEFT_PROFILE_NEUTRAL_CANON_001.jpg"
+physical_file_role: "RECORD_ONLY"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_04_LEFT_PROFILE_NEUTRAL_v001/FACE_04_LEFT_PROFILE_NEUTRAL_v001.png"
+original_candidate_checksum_sha256: "8e98187213ae2ef2a9a135611b34c5d828ff99ce9c8c3efcd7e61ecb12699c83"
+promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_04_LEFT_PROFILE_NEUTRAL/OWNER_FACE_04_LEFT_PROFILE_NEUTRAL_CANON_001.jpg"
+promoted_asset_checksum_sha256: "b6c1d513a4ce8f32d70860de2dde2816ef5f1400c82e09f4550b96e9545798c4"
+candidate_raster_retained: false
+source_images:
+  - "OWNER_FACE_01_FRONT_NEUTRAL_CANON_001"
+  - "L0_OWNER_012"
+  - "OWNER_HAIRSTYLE_A_FACE_MASKED_001"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_04_LEFT_PROFILE_NEUTRAL_v001/generation_record.md"
+approval_status: "APPROVED_PROMOTION_SOURCE"
+approval_record: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_04_LEFT_PROFILE_NEUTRAL/approvals/APPROVAL_OWNER_FACE_04_LEFT_PROFILE_NEUTRAL_001.md"
+authoritative_for:
+  - "pixel provenance of OWNER_FACE_04_LEFT_PROFILE_NEUTRAL_CANON_001 only"
+proposed_authoritative_for:
+  - "owner left-profile neutral face identity geometry"
+  - "anatomical left facial plane with face pointing image-right"
+  - "forehead-nose-lips-chin profile silhouette"
+  - "profile orbital depth and visible-eye relationship"
+  - "profile ear placement and jaw-neck transition"
+  - "soft rounded chin profile contour"
+  - "gentle neutral forward gaze and closed-mouth expression"
+must_not_define:
+  - "body_geometry"
+  - "final outfit design"
+  - "HAIRSTYLE_A back_canon"
+  - "HAIRSTYLE_B"
+  - "episode lighting_or_background"
+  - "makeup_policy"
+  - "AI_rendering_artifacts"
+view:
+  framing: "head to upper chest"
+  angle: "full left profile neutral"
+  anatomical_side: "left facial plane visible"
+  face_points: "image-right"
+  camera_height: "visually eye-level"
+  lens: "prompted 85-105mm equivalent"
+appearance:
+  hairstyle: "HAIRSTYLE_A"
+  outfit: "pink Calibration Outfit upper portion; non-authoritative"
+  hosiery: null
+evidence_limitations:
+  - "no matching-direction true-profile L0"
+  - "L0_OWNER_012 supplies low-resolution three-quarter direction and coarse depth only"
+  - "fine pure-profile silhouette is a user-approved generated reconstruction, not independently true-profile-L0 verified"
+quality_status: "PASS_USER_APPROVED_PROMOTED"
+checksum_sha256: "b6c1d513a4ce8f32d70860de2dde2816ef5f1400c82e09f4550b96e9545798c4"
+created_at: "2026-09-10"
+notes: "Record-only pointer. The candidate raster was removed after promotion and user transcode; the approved JPG is the single physical Master. The missing matching-direction true-profile L0 limitation remains recorded."

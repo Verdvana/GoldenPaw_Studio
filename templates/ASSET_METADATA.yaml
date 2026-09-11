@@ -1,0 +1,31 @@
+asset_id: ""
+asset_level: "L0|L1|L2|L3|L4"
+asset_type: "identity|canon|body|appearance|hairstyle|material|prop|outfit|environment|shot|video"
+owner_id: ""
+canon_version: null
+file_path: ""
+physical_file_role: "UNIQUE_MASTER|UNIQUE_CANDIDATE|UNIQUE_DERIVATIVE|RECORD_ONLY"
+source_images: []
+generated_or_real: "REAL|GENERATED|DOCUMENT"
+generation_record: null
+approval_status: "DRAFT|REVIEW_REQUIRED|APPROVED|REJECTED|LOCKED|DEPRECATED"
+approval_record: null
+authoritative_for: []
+must_not_define: []
+view:
+  framing: ""
+  angle: ""
+  camera_height: ""
+  lens: ""
+appearance:
+  hairstyle: null
+  outfit: null
+  hosiery: null
+quality_status: "UNREVIEWED|PASS|FAIL"
+checksum_sha256: ""
+original_candidate_path: null
+original_candidate_checksum_sha256: null
+promoted_asset_path: null
+promoted_asset_checksum_sha256: null
+created_at: "YYYY-MM-DD"
+notes: ""

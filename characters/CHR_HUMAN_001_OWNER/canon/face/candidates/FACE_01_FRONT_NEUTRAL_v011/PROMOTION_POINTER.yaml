@@ -1,0 +1,46 @@
+asset_id: "FACE_01_FRONT_NEUTRAL_v011"
+asset_level: "RECORD_ONLY"
+proposed_level: null
+asset_type: "canon_promotion_pointer"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_candidate"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg"
+physical_file_role: "RECORD_ONLY"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_01_FRONT_NEUTRAL_v011/FACE_01_FRONT_NEUTRAL_v011.png"
+original_candidate_checksum_sha256: "efda86babb6caeac5991515979e77ddf61e5a2776cd8e0819c9215b125d9f374"
+promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg"
+promoted_asset_checksum_sha256: "4d657954098490fc39da6ae257a47d8275b6237962af6d98e3c8a715ac690fc4"
+candidate_raster_retained: false
+source_images:
+  - "OWNER_FACE_APPEARANCE_L1_CONTEXT_NO_CROWN_DERIVATIVE"
+  - "L0_OWNER_017_FACE_MASKED_DERIVATIVE"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/face/candidates/FACE_01_FRONT_NEUTRAL_v011/generation_record.md"
+approval_status: "APPROVED"
+approval_record: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/approvals/APPROVAL_OWNER_FACE_01_FRONT_NEUTRAL_001.md"
+authoritative_for:
+  - "promoted OWNER_FACE_01_FRONT_NEUTRAL_CANON_001 source pixels"
+proposed_authoritative_for:
+  - "front neutral face identity geometry"
+  - "front neutral skin-tone appearance"
+must_not_define:
+  - "body_geometry"
+  - "outfit_design"
+  - "environment_or_lighting_style"
+  - "expression_variants"
+  - "hairstyle_B"
+view:
+  framing: "head to upper chest"
+  target_angle: "visually neutral frontal with minimized crown top surface"
+  corrective_camera_height: "4-5 cm below pupil midpoint"
+  corrective_optical_pitch: "2.5-3 degrees upward"
+  lens: "prompted 105mm equivalent"
+appearance:
+  face_method: "v010-confirmed face/skin constraints from B context crop"
+  hairstyle: "HAIRSTYLE_A from face-masked L0_OWNER_017 derivative"
+  outfit: "pink Calibration Outfit upper portion"
+  hosiery: null
+quality_status: "PASS_USER_APPROVED_PROMOTED"
+checksum_sha256: "4d657954098490fc39da6ae257a47d8275b6237962af6d98e3c8a715ac690fc4"
+created_at: "2026-09-10"
+notes: "Record-only pointer. The candidate raster was removed after promotion and user transcode; the approved JPG is the single physical Master. Full owner_v1.0 remains unlocked."
