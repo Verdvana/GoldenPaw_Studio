@@ -4,7 +4,7 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.40
+revision: draft_0.44
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
 updated_at: "2026-09-11"
@@ -189,6 +189,10 @@ updated_at: "2026-09-11"
 - 用户明确批准 v009 的长相、HAIRSTYLE_A、四肢比例、腰臀比、腿脚几何和腿脚丝袜质感。普通下游可使用活动 Master 的批准范围；重新制作 L1 仍按批准 Face、两张 L0 身体上下文和遮脸发型 A 的四输入恢复方法平行生成，不使用 v008、v009 或任何 Body Master 像素。
 - 用户进一步明确：`OWNER_BODY_01_FRONT_CANON_002` 中的 168 cm / 60 kg、可见长相、`HAIRSTYLE_A`、四肢比例和腰臀比可用于生成其他角色资产及视频镜头所需图片；当存在更匹配视角的专用 Face/Hair Canon 时仍优先使用专用组件。该图的丝袜只可作为 `15D 哑光肉色` 外观参考，不得用于其他颜色、材质/光泽或厚度。
 - `BODY_02_LEFT_3Q_v001` 已由用户明确评价“完美”并晋升为 `OWNER_BODY_02_LEFT_3Q_CANON_001`；它在左 3/4 视角内批准身体轮廓、保守深度关系及 168 cm / 60 kg、四肢比例和腰臀比的保持，不重新定义脸、发型、正面比例、其他方向或 Gate-7 丝袜材质。
+- `BODY_03_RIGHT_3Q_v001` 因脚后跟悬空及脚趾—前脚掌处异常横线被用户拒绝。v002 仍从批准 FACE_03 与活动 BODY_01 Master 独立生成，不使用 v001；两脚必须完整自然贴地，15D丝袜从脚踝至脚趾无袜尖边界、色带或透明度突变。
+- `BODY_03_RIGHT_3Q_v002` 仍被拒绝：脚跟下出现肉色垫块/多余组织，且脚趾—前脚掌横线未消失。v003 不使用 v001/v002，双脚以足够间距分别呈现完整轮廓；每只脚只能有一个正常脚跟直接接地，不得增加任何支撑物或肉色形体，丝袜在脚趾根部不得出现线、折痕、色带或透明度边界。
+- 用户确认 `BODY_03_RIGHT_3Q_v003` 除丝袜质感外均完美；v004 只把新登记的 `L0_HOS_15_NM_011` 用于增强全腿至脚部的15D肉色哑光/天鹅绒织物存在感、透明度与柔化覆盖，不继承该素材的坐姿、身体/脚形、肤色、甲色、服装、背景或水印，也不输入 v003 像素。
+- `BODY_03_RIGHT_3Q_v005` 已由用户明确批准为 `OWNER_BODY_03_RIGHT_3Q_CANON_001`；批准范围包括右 3/4 身体轮廓与深度、168 cm / 60 kg 比例保持、正常双脚接地，以及本 Body 组件内由 `L0_HOS_15_NM_011` scoped derivative 指导的15D肉色哑光/天鹅绒丝袜呈现。Gate-7 最终丝袜材质权威仍独立建立。
 
 ## FACE_01 必须保持
 
@@ -247,3 +251,7 @@ updated_at: "2026-09-11"
 | draft_0.38 | 2026-09-11 | 用户明确扩展 002 的下游职责：168 cm / 60 kg、长相、HAIRSTYLE_A、四肢比例与腰臀比可供其他资产及视频镜头图片引用；丝袜职责严格限定为 15D 哑光肉色，不外推至其他颜色、材质/光泽或厚度 | user scope clarification incorporated |
 | draft_0.39 | 2026-09-12 | 用户将活动 BODY_01 组件 002 的批准 PNG 转换为 `OWNER_BODY_01_FRONT_CANON.jpg` 并删除 PNG；更新活动路径与 JPG 指纹，格式变化不改变资产 ID、批准范围或源恢复方法 | user format decision incorporated |
 | draft_0.40 | 2026-09-12 | 用户批准 BODY_02 左 3/4 v001 为 `OWNER_BODY_02_LEFT_3Q_CANON_001`；登记其左 3/4 身体轮廓、深度与既有 168 cm / 60 kg 比例保持范围，并继续推进 BODY_03 | user approved component |
+| draft_0.41 | 2026-09-12 | 用户拒绝 BODY_03 v001 的悬空脚跟与脚趾—前脚掌异常横线；v002 只修正两脚完整贴地及15D面料无缝连续性，保持既定右 3/4 身份、比例与构图方法，并禁止输入 v001 | user rejection and revision authorization incorporated |
+| draft_0.42 | 2026-09-12 | 用户指出 v002 用脚跟下肉色垫块/多余组织伪造接地且脚趾横线仍在；撤销此前技术 PASS，v003 要求双脚轮廓互不遮挡、单一正常脚跟直接接地、无任何支撑物，并彻底消除脚趾—前脚掌线条，禁止输入 v001/v002 | user rejection and QA correction incorporated |
+| draft_0.43 | 2026-09-12 | 用户确认 BODY_03 v003 其它方面完美，仅丝袜与脚部织物质感不足；v004 新增 `L0_HOS_15_NM_011` 作为严格 material-only 参考并保持 v003 成功属性的文字意图，禁止使用 v003 像素 | user scoped material feedback incorporated |
+| draft_0.44 | 2026-09-12 | 用户批准 BODY_03 右 3/4 v005 为 `OWNER_BODY_03_RIGHT_3Q_CANON_001`；登记右向身体轮廓、比例、接地脚部与本组件内15D肉色哑光/天鹅绒丝袜表现，完整 owner_v1.0 仍未锁定 | user approved component |

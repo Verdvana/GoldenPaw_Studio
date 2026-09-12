@@ -1,0 +1,41 @@
+asset_id: "BODY_03_RIGHT_3Q_v002"
+asset_level: "L1"
+asset_type: "body_canon_candidate"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_component_candidate"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_03_RIGHT_3Q_v002/BODY_03_RIGHT_3Q_v002.png"
+physical_file_role: "UNIQUE_CANDIDATE"
+source_images:
+  - "OWNER_FACE_03_RIGHT_3Q_NEUTRAL_CANON_001"
+  - "OWNER_BODY_01_FRONT_CANON_002"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_03_RIGHT_3Q_v002/generation_record.md"
+approval_status: "REJECTED"
+approval_record: null
+authoritative_for:
+  - "candidate owner right-three-quarter body silhouette and conservative depth relationship"
+  - "candidate BODY_03 neutral standing orientation with both feet fully planted"
+  - "candidate preservation of the approved 168 cm / 60 kg proportions and waist/hip ratio"
+must_not_define:
+  - "new owner face identity, age, skin tone or hairstyle"
+  - "new front-body proportions, weight, stature or waist/hip ratio"
+  - "left-three-quarter, pure side or rear body geometry"
+  - "final Hairstyle A or Gate-7 hosiery Canon"
+  - "episode wardrobe, expression, performance pose, lighting or background"
+view:
+  framing: "full length, exact 3:4"
+  angle: "anatomical right body plane principally visible; body and face point image-right; approximately 35–45 degree right three-quarter"
+  camera_height: "waist to lower chest"
+  lens: "prompted 70–85mm equivalent"
+appearance:
+  hairstyle: "HAIRSTYLE_A; inherited only from approved BODY_01 downstream scope"
+  outfit: "OWNER_L1_CALIBRATION_OUTFIT"
+  hosiery: "continuous 15D matte nude candidate presentation; no toe/forefoot boundary; Gate-7 authority excluded"
+quality_status: "FAIL_USER_REJECTED_EXTRA_HEEL_MASS_AND_FOREFOOT_LINE"
+checksum_sha256: "88c5bd49ace3b660051444fdede261e769e651a9e506c0bd62dd88a81c635d2d"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_03_RIGHT_3Q_v002/BODY_03_RIGHT_3Q_v002.png"
+original_candidate_checksum_sha256: "88c5bd49ace3b660051444fdede261e769e651a9e506c0bd62dd88a81c635d2d"
+promoted_asset_path: null
+promoted_asset_checksum_sha256: null
+created_at: "2026-09-12"
+notes: "Rejected by the user: a flesh-colored added form/pad appears beneath a heel and the unwanted toe-to-forefoot line remains. Must not be used downstream or as a v003 input."

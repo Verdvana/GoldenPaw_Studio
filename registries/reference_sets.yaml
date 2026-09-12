@@ -76,6 +76,13 @@ reference_sets:
     usable_for_generation: true
     assets:
       - {asset_id: OWNER_BODY_02_LEFT_3Q_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02_LEFT_3Q/OWNER_BODY_02_LEFT_3Q_CANON_001.png"}
+  OWNER_BODY_RIGHT_3Q_CANON_L1:
+    purpose: "approved L1 Master for owner anatomical-right three-quarter neutral standing geometry, conservative depth relationship, preservation of the 168 cm / 60 kg target, normal flat-foot contact and visible 15D nude matte/velvet presentation within this Body component"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_BODY_03_RIGHT_3Q_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_03_RIGHT_3Q/OWNER_BODY_03_RIGHT_3Q_CANON_001.png"}
   OWNER_BODY_FRONT_RECOVERY_V1:
     purpose: "fixed ordered source/reference set for recreating the active L1 front Body Master; follow BODY_01_FRONT_METHOD.md and never add any generated Body candidate or approved Body Master"
     max_images: 4
@@ -226,6 +233,11 @@ reference_sets:
     max_images: 1
     assets:
       - {asset_id: L0_HOS_15_NM_009, path: "materials/hosiery/source_library/raw/15d_nude_matte/IMG_2581.jpg"}
+  HOS_15D_NUDE_MATTE_FOOT_TEXTURE_USER_001:
+    purpose: "deterministic crop of the user-selected source for stronger visible 15D nude matte/velvet textile presence, opacity, smooth leg-to-foot coverage and muted toe visibility only; excludes pose, body/foot anatomy, skin pigmentation, nail color, clothing, shoes, background, watermark and floor contact"
+    max_images: 1
+    assets:
+      - {asset_id: OWNER_HOS_15D_NM_011_LOWER_FEET_CROP_001, path: "materials/hosiery/reference_inputs/15d_nude_matte/1_material_v1/1_LOWER_LEGS_FEET_MATERIAL_CROP.png"}
   HOS_15D_NUDE_SOFT_SHEEN_STANDING:
     purpose: "outdoor full-leg soft sheen"
     max_images: 1

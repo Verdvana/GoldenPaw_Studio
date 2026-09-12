@@ -10,6 +10,7 @@
 | L0_HOS_15_NM_007 | `15d_nude_matte/IMG_2579.jpg` | crouched oblique, open-toe shoes | bent-knee continuity | toes partly obscured |
 | L0_HOS_15_NM_008 | `15d_nude_matte/IMG_2580.jpg` | crouched side, open-toe shoes | side calf/ankle/shoe behavior | foot occlusion |
 | L0_HOS_15_NM_009 | `15d_nude_matte/IMG_2581.jpg` | standing front | full-leg frontal color/opacity | shoes hide toes |
+| L0_HOS_15_NM_011 | `15d_nude_matte/1.jpg` | seated lower-body/legs with feet visible | user-selected 15D nude matte/velvet textile presence, opacity, smooth leg-to-foot coverage and muted toe visibility | must not define pose, body/foot anatomy, skin pigmentation, nail color, clothing, shoes, background, watermark or floor contact |
 | L0_HOS_15_NSS_001 | `15d_nude_soft_sheen/IMG_2588.jpg` | crouched front | soft sheen across bent legs | open-toe shoes |
 | L0_HOS_15_NSS_002 | `15d_nude_soft_sheen/IMG_2589.jpg` | full-body standing | outdoor full-leg sheen | footwear/body not authoritative |
 | L0_HOS_15_NSS_003 | `15d_nude_soft_sheen/IMG_2590.jpg` | crouched side | side highlight and bend behavior | open-toe shoes |
@@ -40,4 +41,4 @@ Use the stable IDs listed above. One photograph may have a narrow responsibility
 
 ## Retired 15D nude matte source IDs
 
-The user pruned these files on 2026-09-11: `L0_HOS_15_NM_002` (`IMG_2563.jpg`), `L0_HOS_15_NM_003` (`IMG_2564.jpg`), `L0_HOS_15_NM_004` (`IMG_2565.jpg`), `L0_HOS_15_NM_005` (`IMG_2566.jpg`), `L0_HOS_15_NM_006` (`IMG_2578.jpg`), and `L0_HOS_15_NM_010` (`IMG_2583.jpg`). They are no longer active references, and their stable IDs must not be reassigned to other files.
+The user pruned these files on 2026-09-11: `L0_HOS_15_NM_002` (`IMG_2563.jpg`), `L0_HOS_15_NM_003` (`IMG_2564.jpg`), `L0_HOS_15_NM_004` (`IMG_2565.jpg`), `L0_HOS_15_NM_005` (`IMG_2566.jpg`), `L0_HOS_15_NM_006` (`IMG_2578.jpg`), and `L0_HOS_15_NM_010` (`IMG_2583.jpg`). They are no longer active references, and their stable IDs must not be reassigned to other files. `L0_HOS_15_NM_011` is a newly ingested user-selected source and does not reuse any retired ID.

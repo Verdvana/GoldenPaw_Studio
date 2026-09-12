@@ -11,6 +11,7 @@ Always choose the material folder first, then choose the image that matches the 
 | 15D nude matte, sole/underside foot | `IMG_2562.jpg` | none |
 | 15D nude matte, crouched | `IMG_2579.jpg` for oblique bent-leg response | `IMG_2580.jpg` for side response |
 | 15D nude matte, standing | `IMG_2581.jpg` | none |
+| 15D nude matte, stronger visible leg-to-foot textile presence | `1.jpg` | use only for opacity/velvet-matte coverage and muted toe visibility; exclude its pose, anatomy, skin, nails, clothing, background and watermark |
 | 15D nude soft sheen, standing | `IMG_2589.jpg` | `IMG_2591.jpg` alternate stance |
 | 15D nude soft sheen, crouched | `IMG_2588.jpg` | `IMG_2590.jpg` side or `IMG_2592.jpg` complex turn |
 | 15D nude soft sheen, sunlight close-up | `IMG_2601.jpg` | one standing source for overall response |
@@ -40,6 +41,7 @@ The user reduced this material folder to four active files on 2026-09-11. Route 
 - `IMG_2562.jpg` — sole/underside-foot and toe coverage;
 - `IMG_2579.jpg` — crouching, oblique bent-knee/calf/ankle response;
 - `IMG_2580.jpg` — crouching, side bent-knee/calf/ankle response;
-- `IMG_2581.jpg` — standing frontal full-leg color, opacity and vertical response.
+- `IMG_2581.jpg` — standing frontal full-leg color, opacity and vertical response;
+- `1.jpg` — user-selected stronger 15D nude matte/velvet textile presence across legs and complete feet; it is material-only and cannot define pose, body/foot geometry, skin, nail color, clothing, background, watermark or floor contact.
 
 Deleted files are not fallback references. If an active view is insufficient, record a coverage gap instead of resolving a removed filename.

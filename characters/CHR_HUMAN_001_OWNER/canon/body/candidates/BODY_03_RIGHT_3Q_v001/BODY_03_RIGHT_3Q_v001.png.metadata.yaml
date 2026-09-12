@@ -1,0 +1,44 @@
+asset_id: "BODY_03_RIGHT_3Q_v001"
+asset_level: "L1"
+asset_type: "body_canon_candidate"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_component_candidate"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_03_RIGHT_3Q_v001/BODY_03_RIGHT_3Q_v001.png"
+physical_file_role: "UNIQUE_CANDIDATE"
+source_images:
+  - "OWNER_FACE_03_RIGHT_3Q_NEUTRAL_CANON_001"
+  - "OWNER_BODY_01_FRONT_CANON_002"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_03_RIGHT_3Q_v001/generation_record.md"
+approval_status: "REJECTED"
+approval_record: null
+authoritative_for:
+  - "candidate owner right-three-quarter body silhouette and conservative depth relationship"
+  - "candidate BODY_03 neutral standing orientation and anatomy"
+  - "preservation of the approved 168 cm / 60 kg target, limb proportions and waist/hip ratio through a right-three-quarter turn"
+must_not_define:
+  - "new owner face identity, age or skin tone"
+  - "new hairstyle design or hair color"
+  - "new front-body proportion, stature, weight or waist/hip ratio"
+  - "final reusable Hairstyle A Canon"
+  - "hosiery materials other than 15D matte nude"
+  - "final reusable Gate-7 hosiery material authority"
+  - "episode wardrobe, expression, performance pose, lighting or background"
+  - "left-three-quarter, pure side or rear body geometry"
+view:
+  framing: "full length, exact 3:4"
+  angle: "anatomical right body plane principally visible; body and face point image-right; approximately 35–45 degree right three-quarter"
+  camera_height: "waist to lower chest"
+  lens: "prompted 70–85mm equivalent"
+appearance:
+  hairstyle: "HAIRSTYLE_A; inherited only from approved BODY_01 downstream scope"
+  outfit: "OWNER_L1_CALIBRATION_OUTFIT"
+  hosiery: "15D matte nude candidate presentation only; Gate-7 authority excluded"
+quality_status: "FAIL_USER_REJECTED_HEEL_CONTACT_AND_HOSIERY_LINE"
+checksum_sha256: "27a4b287da1f7da044ce080502de4a72df3c92613524fa3497c5dc0451f50ead"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_03_RIGHT_3Q_v001/BODY_03_RIGHT_3Q_v001.png"
+original_candidate_checksum_sha256: "27a4b287da1f7da044ce080502de4a72df3c92613524fa3497c5dc0451f50ead"
+promoted_asset_path: null
+promoted_asset_checksum_sha256: null
+created_at: "2026-09-12"
+notes: "Rejected by the user: one heel floats above the floor and an unexplained transverse line appears at the toe-to-forefoot hosiery transition. Must not be used downstream or as a v002 image input."

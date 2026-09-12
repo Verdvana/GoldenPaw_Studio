@@ -4,7 +4,7 @@
 document_id: OWNER_L1_GENERATION_SPEC
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-spec_revision: draft_1.43
+spec_revision: draft_1.48
 status: DRAFT
 authority: USER_APPROVAL_REQUIRED
 default_aspect_ratio: "3:4"
@@ -630,3 +630,8 @@ all required components APPROVED
 | draft_1.41 | 2026-09-12 | 用户调整女主资产计划：决定不增加职责混淆的 Face 后脑视角，由 Body/Hair 背面覆盖；A 增加高机位仰视与低机位俯视，B 现有批准图履行高机位仰视并新增低机位俯视；Expression 增至 15 项；Pose 06/07 改为必需并新增伸腿坐姿与双臂/双膝支撑俯姿；Hosiery 新增 30D 微光肉色正面与 30D 灰色哑光正面，后者因缺少匹配 L0 暂阻塞 | user plan revision incorporated |
 | draft_1.42 | 2026-09-12 | 用户将活动 BODY_01 Canon 组件 002 从批准 PNG 转换为 `OWNER_BODY_01_FRONT_CANON.jpg` 并删除 PNG；更新唯一活动文件路径、JPEG 校验值、元数据、索引、批准记录、候选指针和引用集，批准范围与四输入源恢复方法保持不变 | user format decision incorporated |
 | draft_1.43 | 2026-09-12 | 用户批准 `BODY_02_LEFT_3Q_v001` 为 `OWNER_BODY_02_LEFT_3Q_CANON_001`；登记左 3/4 身体轮廓与深度、168 cm / 60 kg 比例保持、单文件晋升和下游引用范围，并开放 BODY_03 右 3/4 候选 | user approved component and requested next asset |
+| draft_1.44 | 2026-09-12 | 用户拒绝 BODY_03 右 3/4 v001：一只脚后跟悬空，脚趾—前脚掌连接处出现异常横线；v002 必须两只脚跟与承重脚掌自然贴在同一地面，并让15D面料从脚踝、脚背、前脚掌至脚趾无接缝、色带或透明度分割线连续过渡，同时禁止使用 v001 像素 | user rejection and revision authorization incorporated |
+| draft_1.45 | 2026-09-12 | 用户纠正 v002 QA：模型在脚跟下添加了肉色垫块/多余组织来伪造接地，脚趾—前脚掌横线仍存在；v003 必须采用左右脚错开但互不遮挡的清晰站距，每只脚仅有一个正常解剖脚跟直接接地，禁止肉色垫块、复制脚跟、组织延伸或隐形支撑，并完全消除脚趾根部至前脚掌的线、折痕、色差和材质边界；v001/v002 均不得输入 | user rejection and QA correction incorporated |
+| draft_1.46 | 2026-09-12 | 用户确认 BODY_03 v003 除丝袜质感外均完美，但脚部丝袜存在感不足；新登记用户指定 L0 素材 `L0_HOS_15_NM_011` (`15d_nude_matte/1.jpg`)，v004 仅用它定义更明显的15D肉色哑光/天鹅绒织物覆盖、透明度与脚部柔化，严格排除其坐姿、身体/足部几何、肤色、甲色、衣物、鞋、背景和水印；v003 像素不得输入 | user material-reference instruction incorporated |
+| draft_1.47 | 2026-09-12 | 用户明确批准 `BODY_03_RIGHT_3Q_v005` 为 `OWNER_BODY_03_RIGHT_3Q_CANON_001`；登记右 3/4 身体轮廓/深度、168 cm / 60 kg 比例保持、正常双脚接地及由 `L0_HOS_15_NM_011` scoped derivative 指导的可见15D肉色哑光/天鹅绒丝袜表现，执行单文件晋升并开放 BODY_04 | user approved component |
+| draft_1.48 | 2026-09-12 | 用户授权生成 `BODY_04_LEFT_SIDE_v001`；依次尝试四项及三项最小参考，三次均在输出阶段被安全系统拦截且无图片产生。BODY_04 保持 pending，禁止把失败调用视为候选或下游参考 | generation blocked; no output |

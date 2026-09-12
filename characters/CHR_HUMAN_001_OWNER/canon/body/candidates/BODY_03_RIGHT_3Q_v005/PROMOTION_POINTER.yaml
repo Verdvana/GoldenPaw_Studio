@@ -1,0 +1,33 @@
+asset_id: "BODY_03_RIGHT_3Q_v005"
+asset_level: "RECORD_ONLY"
+asset_type: "canon_promotion_pointer"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: null
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_03_RIGHT_3Q/OWNER_BODY_03_RIGHT_3Q_CANON_001.png"
+physical_file_role: "RECORD_ONLY"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_03_RIGHT_3Q_v005/BODY_03_RIGHT_3Q_v005.png"
+original_candidate_checksum_sha256: "32f87f0232bb087b434d1818ec22d2db1ba4311ec73b7e0fe2ebf380279412fd"
+promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_03_RIGHT_3Q/OWNER_BODY_03_RIGHT_3Q_CANON_001.png"
+promoted_asset_checksum_sha256: "32f87f0232bb087b434d1818ec22d2db1ba4311ec73b7e0fe2ebf380279412fd"
+candidate_raster_retained: false
+source_images:
+  - "OWNER_FACE_03_RIGHT_3Q_NEUTRAL_CANON_001"
+  - "OWNER_BODY_01_FRONT_CANON_002"
+  - "OWNER_HOS_15D_NM_011_LOWER_FEET_CROP_001"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_03_RIGHT_3Q_v005/generation_record.md"
+approval_status: "APPROVED"
+approval_record: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_03_RIGHT_3Q/approvals/APPROVAL_OWNER_BODY_03_RIGHT_3Q_001.md"
+authoritative_for:
+  - "approved owner neutral right-three-quarter standing geometry and conservative depth relationship"
+  - "approved preservation of 168 cm / 60 kg proportions and waist/hip ratio"
+  - "approved flat-foot stance and visible 15D nude matte/velvet presentation within this Body component"
+must_not_define:
+  - "new face identity or Hairstyle A design"
+  - "left-three-quarter, pure side or rear body geometry"
+  - "final Gate-7 hosiery material Canon"
+  - "episode wardrobe, lighting or background"
+quality_status: "PASS_USER_APPROVED_PROMOTED"
+checksum_sha256: "32f87f0232bb087b434d1818ec22d2db1ba4311ec73b7e0fe2ebf380279412fd"
+created_at: "2026-09-12"
+notes: "Record-only pointer; candidate raster moved unchanged to the single approved Master path. Full owner_v1.0 remains unlocked."
