@@ -4,7 +4,7 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.58
+revision: draft_0.63
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
 updated_at: "2026-09-12"
@@ -111,6 +111,8 @@ updated_at: "2026-09-12"
 - 上下唇比例自然，下唇略有柔和饱满感，唇峰不过度锐利；
 - 中性状态保留自然面部体积，不做过度瘦脸、磨皮或幼态化；
 - 微笑时面颊自然抬起，露齿笑保持同一眼睛、鼻子、下颌和头骨关系。
+- 用户明确指出并由 `L0_OWNER_001` (`2.jpg`) 核对：露齿笑时，人物解剖学右侧上排犬齿（正面画面左侧）呈轻微自然突出的“虎牙”特征；它仍属于正常成人牙列，不得夸张成细长尖牙、獠牙或额外牙齿。
+- 微笑时面颊抬起伴随自然酒窝/笑窝响应；`2.jpg` 中正面画面右侧更清楚。该特征只随笑容软组织运动出现，不应做成静态深孔、疤痕或两侧机械对称压痕。
 
 ## FACE_02 左 3/4 当前反馈
 
@@ -235,13 +237,23 @@ updated_at: "2026-09-12"
 - 使用批准 FACE_01、批准 HAIR_A_01 与真人 `L0_OWNER_007` 平行生成；真人图只负责自然笑的软组织联动，不定义牙齿、永久身份、近摄透视、服装、发型、灯光或背景。EXP_01、EXP_02、EXP_15 和任何候选图均不作为像素输入。
 - `EXP_03_NATURAL_SMILE_v001` 已按上述三项隔离职责生成，并于 2026-09-12 获用户明确批准、登记为 `OWNER_EXP_03_NATURAL_SMILE_CANON_001`。批准只覆盖闭嘴无露齿、自然平衡的嘴角上扬、适度面颊抬起与温和下眼睑笑意，不重新定义永久身份或其他可见属性。
 
+## EXP_04 当前候选目标
+
+- 用户于 2026-09-12 授权继续生成下一项 `EXP_04_SMILE_WITH_TEETH_v001`。
+- 目标为自然、中等强度的露齿笑：嘴角自然展开，面颊抬起，下眼睑温和响应，以上排牙齿自然可见为主；不露大量牙龈、不夸张张嘴、不升级为大笑。
+- 使用批准 FACE_01、批准 HAIR_A_01 与真人 `L0_OWNER_008` 平行生成；真人图只负责露齿笑软组织联动与牙齿显露方式，不定义永久牙齿 Canon、身份、头部倾斜、妆容、卷发、服装、灯光或背景。任何已生成 Expression 图均不作为像素输入。
+- `EXP_04_SMILE_WITH_TEETH_v001` 已按上述三项隔离职责生成；技术预检确认自然中等强度、以上排牙齿为主、无明显牙龈、下颌开启克制且未达到大笑。当前仅为 `REVIEW_REQUIRED` 候选，不得作为下游参考。
+- 用户随后拒绝 v001，指出它遗漏人物右侧虎牙和微笑酒窝。v001 状态改为 `USER_REJECTED`，不得用于下游或作为任何后续像素输入。
+- `EXP_04_SMILE_WITH_TEETH_v002` 改用批准 FACE_01、批准 HAIR_A_01 与用户点名的真人 `L0_OWNER_001` (`2.jpg`) 平行重建；`2.jpg` 仅定义人物右侧（正面画面左侧）自然突出虎牙、真实露齿方式和笑时酒窝/笑窝响应，排除婚纱妆容、精修、手部遮挡、另一人物、发型、服装、背景及永久身份几何。
+- v002 已独立生成，并于 2026-09-12 获用户明确批准、登记为 `OWNER_EXP_04_SMILE_WITH_TEETH_CANON_001`。批准只覆盖自然中等强度露齿笑、人物右侧虎牙在正面画面左侧的自然显露、上排牙齿显露方式、面颊抬起及笑时酒窝/笑窝响应；不重新定义静止牙列/酒窝、永久身份或其他可见属性。
+
 ## EXP_15 当前反馈
 
 - 用户拒绝 `EXP_15_MOUTH_SLIGHTLY_OPEN_v001` 的“平静微张嘴”定义；v001 不得成为下游参考或后续像素输入。
 - 第15项的用户指定表情为：皱眉、闭眼、嘴巴张开但不是大张。眉头通过自然肌肉张力向内下方收紧，双眼自然闭合，嘴部保持克制的中小幅度开启。
 - 该表情只允许眉间、眉头、眼睑、唇周和下颌产生瞬时软组织变化；不得改变头骨、眼睛永久形状、眉毛永久设计、鼻子、嘴唇永久几何、下颌/下巴比例、肤色或年龄。
 - 用户已于 2026-09-12 明确判定 v002 合格并登记为 `OWNER_EXP_15_MOUTH_SLIGHTLY_OPEN_CANON_001`。该组件只定义上述三项同时出现的瞬时表情动作；可见身份、Hair A 和校准服装不因本次 Expression 批准取得新权威。
-- Expression 十五项当前完成 4/15；其余十一项及完整 `owner_v1.0` 均未锁定。
+- Expression 十五项当前完成 5/15；其余十项及完整 `owner_v1.0` 均未锁定。
 
 ## 禁止写回规则
 
@@ -309,3 +321,8 @@ updated_at: "2026-09-12"
 | draft_0.56 | 2026-09-12 | 用户授权生成下一项 `EXP_03_NATURAL_SMILE_v001`；登记批准 Face、批准 Hair-A 与真人 `9.jpg` 的三项隔离职责，目标为强于 EXP_02 但仍自然克制的闭嘴无露齿微笑，并禁止输入任何已生成 Expression 图像 | user generation authorization incorporated |
 | draft_0.57 | 2026-09-12 | `EXP_03_NATURAL_SMILE_v001` 已从三项声明参考独立生成；技术预检确认闭嘴无露齿、自然嘴角/面颊抬起强于 EXP_02、下眼睑温和响应且未硬眯眼，身份/发型/机位/校准服装保持。候选继续为 `REVIEW_REQUIRED` | candidate generated; awaiting user review |
 | draft_0.58 | 2026-09-12 | 用户明确批准 `EXP_03_NATURAL_SMILE_v001` 并要求登记；晋升为 `OWNER_EXP_03_NATURAL_SMILE_CANON_001`，仅批准闭嘴无露齿、自然平衡嘴角上扬、适度面颊抬起与温和下眼睑笑意。Expression 完成 4/15，完整 owner_v1.0 仍未锁定 | user approved component |
+| draft_0.59 | 2026-09-12 | 用户授权生成下一项 `EXP_04_SMILE_WITH_TEETH_v001`；登记批准 Face、批准 Hair-A 与真人 `10.jpg` 的三项隔离职责，目标为自然中等强度露齿笑，限制牙龈显露和张嘴幅度，并禁止输入任何已生成 Expression 图像 | user generation authorization incorporated |
+| draft_0.60 | 2026-09-12 | `EXP_04_SMILE_WITH_TEETH_v001` 已从三项声明参考独立生成；技术预检确认自然中等强度露齿笑、以上排牙齿为主、无明显牙龈、下颌开启克制且未达到大笑，身份/发型/机位/校准服装保持。候选继续为 `REVIEW_REQUIRED` | candidate generated; awaiting user review |
+| draft_0.61 | 2026-09-12 | 用户拒绝 EXP_04 v001 并补充稳定笑容特征：人物解剖学右侧（正面画面左侧）有自然轻微突出的虎牙，笑时出现自然酒窝/笑窝，`2.jpg` 正面画面右侧更清楚。v002 只从批准 Face、批准 Hair-A 与真人 `2.jpg` 平行重建，禁止输入 v001；同时排除婚纱妆容/精修、手、另一人物、服装与背景 | user identity correction incorporated |
+| draft_0.62 | 2026-09-12 | EXP_04 v002 已按修正后的三项平行参考生成；技术预检确认右侧虎牙方向正确、突出度自然克制，并出现轻微笑窝响应。候选继续为 `REVIEW_REQUIRED`，不自动写回为已批准 Expression Canon | corrected candidate generated; awaiting user review |
+| draft_0.63 | 2026-09-12 | 用户明确批准 EXP_04 v002 并要求登记；晋升为 `OWNER_EXP_04_SMILE_WITH_TEETH_CANON_001`，仅批准自然中等强度露齿笑、人物右侧虎牙的正确方向/自然显露、上排牙齿显露方式与笑时酒窝响应。Expression 完成 5/15，完整 owner_v1.0 仍未锁定 | user approved component |

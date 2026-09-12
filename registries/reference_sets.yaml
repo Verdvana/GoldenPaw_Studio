@@ -79,6 +79,13 @@ reference_sets:
     usable_for_generation: true
     assets:
       - {asset_id: OWNER_EXP_03_NATURAL_SMILE_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/approved/EXP_03_NATURAL_SMILE/OWNER_EXP_03_NATURAL_SMILE_CANON_001.png"}
+  OWNER_EXPRESSION_04_SMILE_WITH_TEETH_CANON_L1:
+    purpose: "approved L1 Expression Master for EXP_04 natural medium tooth-showing smile only: subject anatomical-right upper tiger tooth visible on image-left, restrained upper-teeth display, natural cheek rise and smile-linked dimple response; must not define permanent face geometry, static dental anatomy/dimples, skin, age, hairstyle, outfit, lighting or background"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_EXP_04_SMILE_WITH_TEETH_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/approved/EXP_04_SMILE_WITH_TEETH/OWNER_EXP_04_SMILE_WITH_TEETH_CANON_001.png"}
   OWNER_EXPRESSION_15_MOUTH_SLIGHTLY_OPEN_CANON_L1:
     purpose: "approved L1 Expression Master for the compound EXP_15 action only: natural frown, both eyes naturally closed, and restrained non-wide mouth opening; must not define permanent face, brow, eye, lip, nose, jaw/chin, skin, age, hairstyle, outfit, lighting or background"
     max_images: 1
