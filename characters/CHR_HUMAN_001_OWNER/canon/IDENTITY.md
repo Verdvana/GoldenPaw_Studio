@@ -4,7 +4,7 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.38
+revision: draft_0.39
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
 updated_at: "2026-09-11"
@@ -244,3 +244,4 @@ updated_at: "2026-09-11"
 | draft_0.36 | 2026-09-11 | 用户复核当前 BODY_01 Canon：登记本人真实身体基准 168 cm、120 斤（约 60 kg）；当前图视觉偏矮且小腿仍不够直。v009 只修正身高感/整体比例与小腿直轴，保留已认可的脸、发型和丝袜质感，并继续禁止使用任何 Body 生成图像作为 L1 输入 | user correction and revision authorization incorporated |
 | draft_0.37 | 2026-09-11 | 用户批准 BODY_01 v009 的长相、发型、四肢比例、腰臀比、腿脚几何及腿脚丝袜表现；晋升为活动组件 `OWNER_BODY_01_FRONT_CANON_002`，旧 001 标记为历史 superseded，四输入源恢复规则不变 | user approved component |
 | draft_0.38 | 2026-09-11 | 用户明确扩展 002 的下游职责：168 cm / 60 kg、长相、HAIRSTYLE_A、四肢比例与腰臀比可供其他资产及视频镜头图片引用；丝袜职责严格限定为 15D 哑光肉色，不外推至其他颜色、材质/光泽或厚度 | user scope clarification incorporated |
+| draft_0.39 | 2026-09-12 | 用户将活动 BODY_01 组件 002 的批准 PNG 转换为 `OWNER_BODY_01_FRONT_CANON.jpg` 并删除 PNG；更新活动路径与 JPG 指纹，格式变化不改变资产 ID、批准范围或源恢复方法 | user format decision incorporated |

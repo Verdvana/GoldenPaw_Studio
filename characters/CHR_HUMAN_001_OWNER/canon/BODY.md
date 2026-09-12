@@ -4,7 +4,7 @@
 document_id: OWNER_BODY_CANON_WORKING
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.15
+revision: draft_0.16
 status: PARTIAL_APPROVED
 calibration_outfit: OWNER_L1_CALIBRATION_OUTFIT
 camera_setup: OWNER_BODY_NEUTRAL_STUDIO_V1
@@ -56,7 +56,7 @@ Component 002 has an explicit user-expanded scope: its 168 cm / 60 kg stature, v
 ## Approved front Master routing
 
 - downstream set: `OWNER_BODY_FRONT_CANON_L1`
-- approved Master: `canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_002.png`
+- approved Master: `canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg`
 - recovery set: `OWNER_BODY_FRONT_RECOVERY_V1`
 - reproduction method: `canon/body/BODY_01_FRONT_METHOD.md`
 - rule: ordinary downstream work may use the active approved Master within its scope; L1 recreation must use the recovery set and method, never v008/v009, either approved Body Master or another generated Body image as a pixel input

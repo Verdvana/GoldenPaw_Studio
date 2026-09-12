@@ -4,7 +4,7 @@
 document_id: OWNER_L1_GENERATION_SPEC
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-spec_revision: draft_1.40
+spec_revision: draft_1.42
 status: DRAFT
 authority: USER_APPROVAL_REQUIRED
 default_aspect_ratio: "3:4"
@@ -250,6 +250,8 @@ Gate 1 未完成时不得生成 Face Canon 候选。
 
 五张分别批准后才能进入 Gate 3。
 
+不新增 `FACE_06_BACK_OF_HEAD`。后脑视角不包含脸部几何，若放入 Face Canon 会混淆身份与发型职责；完整背面头部朝向和身体比例由 `BODY_06_BACK` 负责，后脑轮廓、后颈、发量和发型结构分别由 `HAIR_A_04_BACK` 与 `HAIR_B_04_BACK` 负责。若未来出现剃发、极短发或需要独立验证裸露后脑/耳后结构的新设计，再单独建立 scoped Head Anatomy 资产，而不是扩充当前 Face Canon。
+
 ---
 
 ## 6. Gate 3 — Body Canon
@@ -308,6 +310,8 @@ Gate 1 未完成时不得生成 Face Canon 候选。
 | HAIR_A_02_3Q | 最能说明轮廓和脸侧关系的 3/4 |
 | HAIR_A_03_SIDE | 标准侧面 |
 | HAIR_A_04_BACK | 完整背面结构 |
+| HAIR_A_05_HIGH_CAMERA_LOOK_UP | 镜头高于人物并向下拍摄、人物抬头看向镜头；验证发际线、头顶、分缝、脸侧发束和抬头时的发型投影 |
+| HAIR_A_06_LOW_CAMERA_LOOK_DOWN | 镜头低于人物并向上拍摄、人物低头看向镜头；验证下颌侧发束、耳侧、发尾遮挡和低机位下的头发投影 |
 
 HAIRSTYLE_A 的主 L0 参考固定为 `OWNER_HAIRSTYLE_A_L0`，即 `DSC00847.jpg`。它定义长直披发、中央附近分缝、自然贴顺的低至中等顶部体积、长脸侧发束、胸部以下长度及自然渐细发尾。户外色偏、高光、脸、身体、粉色外套和背景不得进入 Canon。缺失的侧面和背面依据文字定义 + 已批准 Face Canon 平行生成，不得使用上一张 A 候选连续繁殖。
 
@@ -321,6 +325,8 @@ HAIRSTYLE_B 的主 L0 真人参考固定为 `OWNER_HAIRSTYLE_B_L0`，即 `8.jpg`
 
 现有 AI 候选保持 3:4 原图，不覆盖。经用户明确批准后，仅作为 B 的最终设计补充，定义分缝、平顺收拢/发髻结构、头顶受控蓬松度、脸侧碎发、深棕色及克制高光。
 
+该现有批准图同时履行 `HAIR_B_05_HIGH_CAMERA_LOOK_UP` 专项视角槽位：镜头俯视、人物仰视。它不替代标准眼平正面 `HAIR_B_01_FRONT`，也不因此取得身体、服装、灯光或背景权威；不再为相同 B 高机位视角生成重复 Canon 文件。
+
 需要补齐：
 
 | Asset ID | 视角 |
@@ -329,6 +335,8 @@ HAIRSTYLE_B 的主 L0 真人参考固定为 `OWNER_HAIRSTYLE_B_L0`，即 `8.jpg`
 | HAIR_B_02_3Q | 3/4，说明脸侧碎发和发髻位置 |
 | HAIR_B_03_SIDE | 侧面，说明发际线、耳侧和发髻深度 |
 | HAIR_B_04_BACK | 背面，说明盘发完整结构 |
+| HAIR_B_05_HIGH_CAMERA_LOOK_UP | 已由 `OWNER_HAIRSTYLE_B_APPEARANCE_CANON_001` 履行；镜头俯视、人物仰视，不重复生成 |
+| HAIR_B_06_LOW_CAMERA_LOOK_DOWN | 镜头仰视、人物俯视；验证下颌/耳侧碎发、收拢方向及发髻在低机位下的结构 |
 
 所有新角度必须使用批准后的 Face Canon + B 的 L0 真人锚 + 经批准的 B 设计锚；不得仅以 B 的 AI 图片连续繁殖。参考图中的脸、身体、衣服、灯光和皮肤均不具发型以外的权威性。
 
@@ -337,7 +345,7 @@ HAIRSTYLE_B 的主 L0 真人参考固定为 `OWNER_HAIRSTYLE_B_L0`，即 `8.jpg`
 - 正式 Shot 只能选择 `HAIRSTYLE_A` 或 `HAIRSTYLE_B`；
 - 不融合 A/B，不自动创造第三种长期发型；
 - 每张 Hair Canon 只负责头发；
-- 四视角必须具有一致长度、体积、分缝、卷度、发际关系、耳侧关系、背面结构和高光行为。
+- 标准四视角与两个高低机位专项视角必须具有一致长度、体积、分缝、卷度、发际关系、耳侧关系、背面结构和高光行为；专项视角只验证透视/头部俯仰下的发型响应，不重新定义脸部身份。
 
 ---
 
@@ -355,12 +363,17 @@ HAIRSTYLE_B 的主 L0 真人参考固定为 `OWNER_HAIRSTYLE_B_L0`，即 `8.jpg`
 | EXP_08_MILDLY_ANNOYED | 轻微不悦 |
 | EXP_09_SAD_CONCERNED | 难过/担忧 |
 | EXP_10_FOCUSED_SERIOUS | 专注/认真 |
+| EXP_11_ANGRY | 明确愤怒；眉间、眼睑和口周产生自然张力，但不夸张成漫画式暴怒，不改变脸型 |
+| EXP_12_SHY | 害羞；目光轻微回避或下移、克制的小表情，可有自然轻微泛红但不得永久改变肤色 |
+| EXP_13_SLIGHT_FROWN | 轻微皱眉；眉间和眉头小幅收紧，保持嘴部与其他五官中性 |
+| EXP_14_EYES_CLOSED | 自然闭眼；双眼轻闭、不挤压面颊、不改变眉形或头骨关系 |
+| EXP_15_MOUTH_SLIGHTLY_OPEN | 嘴唇自然微张；下颌只做极小幅度开启，不夸张露齿、不改变嘴唇或下巴几何 |
 
 规则：
 
 - 使用批准后的 Face Canon；
 - 统一正面或轻微 3/4 的头肩构图；
-- 默认选择一个已批准发型并保持十张一致；
+- 默认选择一个已批准发型并保持十五张一致；
 - L0 表情照片只定义肌肉和软组织变化；
 - 允许眼睑、嘴角、面颊和眉毛自然运动；
 - 不允许头骨、鼻子、眼距、下颌、耳朵或年龄变化。
@@ -376,8 +389,10 @@ HAIRSTYLE_B 的主 L0 真人参考固定为 `OWNER_HAIRSTYLE_B_L0`，即 `8.jpg`
 | POSE_03_SEATED_UPRIGHT | 坐姿挺直 |
 | POSE_04_SEATED_RELAXED | 放松坐姿 |
 | POSE_05_SLIGHT_BODY_TURN | 轻微转身 |
-| POSE_06_BENDING_REACHING | 自然弯身/伸手 |
-| POSE_07_KNEELING_CROUCHING | 跪姿/蹲姿，仅确认高频需要后生成 |
+| POSE_06_BENDING_REACHING | 自然弯身/伸手；列为必需 |
+| POSE_07_KNEELING_CROUCHING | 跪姿/蹲姿；列为必需 |
+| POSE_08_SEATED_LEGS_EXTENDED | 坐姿、躯干自然稳定，双腿向前伸直；验证坐姿下髋膝踝长度、膝部伸展和脚部方向 |
+| POSE_09_PRONE_ARMS_KNEES_SUPPORTED | 身体俯向地面，双臂/手掌稳定按地支撑，双膝着地；技术性关节校准姿态，验证肩肘腕、脊柱、髋膝与小腿折叠关系，禁止性感化或夸张拱背 |
 
 规则：
 
@@ -385,7 +400,7 @@ HAIRSTYLE_B 的主 L0 真人参考固定为 `OWNER_HAIRSTYLE_B_L0`，即 `8.jpg`
 - 默认继续使用 Calibration Outfit；
 - 四肢长度、关节位置和头身比不得随动作变化；
 - 动作只验证铰接后的身体身份，不定义剧情表演风格；
-- 特殊动作留在 L3 Shot，不进入 L1。
+- 以上九项均列为 L1 Pose 计划；剧情特有表演、极端动作和未列姿态仍留在 L3 Shot，不自动进入 L1。
 
 ---
 
@@ -411,6 +426,8 @@ burgundy toenail polish visible naturally beneath the fabric when lighting permi
 | HOS_03_FEET_SIDE | 足部侧面，检查脚跟、足弓和袜尖 |
 | HOS_04_TOES_FRONT_DETAIL | 脚趾正面细节，检查织物位于指甲上方 |
 | HOS_05_HEEL_BACK_DETAIL | 脚跟后视，检查脚踝至脚跟连续性 |
+| HOS_06_30D_NUDE_SOFT_SHEEN_FRONT | 30D 微光肉色正面全腿/足部；定义肉色、30D 厚度、微光响应及连续闭趾覆盖，不引用 15D Body Canon 的丝袜质感 |
+| HOS_07_30D_GRAY_MATTE_FRONT | 30D 灰色哑光正面全腿/足部；定义灰色色相、30D 厚度、哑光响应及连续闭趾覆盖；当前缺少匹配的 L0 材质源，状态 `BLOCKED_BY_SOURCE_COVERAGE` |
 
 ### 10.3 Hosiery QA
 
@@ -423,6 +440,8 @@ burgundy toenail polish visible naturally beneath the fabric when lighting permi
 - 不出现重复/缺失脚趾、融合脚趾、断裂脚跟或左右足不一致。
 
 这一组既验证女主足部比例，也建立校准丝袜 L1 Material Canon；它不得重新定义脸部或整体身材。
+
+`HOS_06` 可优先使用已登记但单图覆盖有限的 `HOS_30D_NUDE_SOFT_SHEEN_LIMITED`，生成前须披露单一素材限制。`HOS_07` 在补入并登记真实 30D 灰色哑光材质照片或用户明确授权无 L0 的设计重建前不得生成。两个 30D 资产都不得让 `OWNER_BODY_01_FRONT_CANON_002` 中的 15D 哑光肉色丝袜定义其颜色、厚度或光泽；该 Body Master 仅负责人物身份与身体几何。
 
 ---
 
@@ -447,12 +466,12 @@ burgundy toenail polish visible naturally beneath the fabric when lighting permi
 |---|---:|---:|---:|
 | Face | 5 | 0 | 5 |
 | Body | 6 | 0 | 11 |
-| Hair A | 4 | 0 | 15 |
-| Hair B | 4 个标准角度；现有设计锚另计 | 0 | 19 + 现有 1 |
-| Expression | 10 | 0 | 29 + 现有 1 |
-| Pose | 6 | 1 | 35 + 现有 1 |
-| Hosiery/Feet | 5 | 0 | 40 + 现有 1 |
-| Appearance | 0 | 2 | 40–42 + 现有 1 |
+| Hair A | 6（四个标准角度 + 两个高低机位专项视角） | 0 | 17 |
+| Hair B | 5 张待制作；另有 1 张现有批准高机位设计锚 | 0 | 22 + 现有 1 |
+| Expression | 15 | 0 | 37 + 现有 1 |
+| Pose | 9 | 0 | 46 + 现有 1 |
+| Hosiery/Feet | 7（其中 HOS_07 暂受素材覆盖阻塞） | 0 | 53 + 现有 1 |
+| Appearance | 0 | 2 | 53–55 + 现有 1 |
 
 这些是资产计划数量，不是一次生成数量。默认一次只生成一个 Asset ID 的少量候选，先 QA、再由用户决定是否批准或修改。
 
@@ -608,3 +627,5 @@ all required components APPROVED
 | draft_1.38 | 2026-09-11 | 用户复核当前 BODY_01 Canon：确认本人真实基准为 168 cm、120 斤（约 60 kg），当前图视觉身高约 160 cm 且小腿仍不够直；授权从四项源参考独立生成 v009，保留已认可的脸、HAIRSTYLE_A 与丝袜质感，只修正偏高身高感/头身肢体比例和膝—胫—踝直轴；禁止使用当前 Body Master 或任何历史 Body 候选像素 | user correction and revision authorization incorporated |
 | draft_1.39 | 2026-09-11 | 用户明确批准 BODY_01 v009 的长相、发型、四肢比例、腰臀比、腿脚几何与腿脚丝袜质感；晋升为活动正面 Body 组件 `OWNER_BODY_01_FRONT_CANON_002`，将旧 001 保留为历史 superseded 组件，并更新下游路由与源恢复方法 | user approved component |
 | draft_1.40 | 2026-09-11 | 用户澄清 002 的跨资产/镜头职责：168 cm / 60 kg、长相、HAIRSTYLE_A、四肢比例与腰臀比均可供其他资产及视频镜头图片引用；丝袜外观只授权 15D 哑光肉色组合，禁止外推到其他颜色、材质/光泽或厚度 | user scope clarification incorporated |
+| draft_1.41 | 2026-09-12 | 用户调整女主资产计划：决定不增加职责混淆的 Face 后脑视角，由 Body/Hair 背面覆盖；A 增加高机位仰视与低机位俯视，B 现有批准图履行高机位仰视并新增低机位俯视；Expression 增至 15 项；Pose 06/07 改为必需并新增伸腿坐姿与双臂/双膝支撑俯姿；Hosiery 新增 30D 微光肉色正面与 30D 灰色哑光正面，后者因缺少匹配 L0 暂阻塞 | user plan revision incorporated |
+| draft_1.42 | 2026-09-12 | 用户将活动 BODY_01 Canon 组件 002 从批准 PNG 转换为 `OWNER_BODY_01_FRONT_CANON.jpg` 并删除 PNG；更新唯一活动文件路径、JPEG 校验值、元数据、索引、批准记录、候选指针和引用集，批准范围与四输入源恢复方法保持不变 | user format decision incorporated |

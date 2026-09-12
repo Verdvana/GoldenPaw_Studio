@@ -4,9 +4,9 @@
 method_id: OWNER_BODY_01_FRONT_METHOD_V2
 status: APPROVED_METHOD
 approved_component: OWNER_BODY_01_FRONT_CANON_002
-identity_revision: draft_0.38
-body_revision: draft_0.15
-spec_revision: draft_1.40
+identity_revision: draft_0.39
+body_revision: draft_0.16
+spec_revision: draft_1.42
 reference_set: OWNER_BODY_FRONT_RECOVERY_V1
 output_status: REVIEW_REQUIRED
 ```
@@ -16,10 +16,11 @@ This method records the source/reference construction and user-reviewed correcti
 ## Current approved Master
 
 - asset: `OWNER_BODY_01_FRONT_CANON_002`
-- path: `approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_002.png`
-- format/dimensions: PNG, 1086×1448, exact 3:4
-- current SHA-256: `cbb08e1799a6d6d3d9e00b600ceaab294a36a2b04a170ae1a367e28578cd0164`
-- source candidate: `BODY_01_FRONT_v009`, moved to the approved path after explicit approval
+- path: `approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg`
+- format/dimensions: user-transcoded JPEG, 1086×1448, exact 3:4
+- current JPG SHA-256: `964c3b9d72c6688881b8ebfa4c6fc1bcfea04c998351352fabfdc8f4951666f6`
+- pre-transcode approved PNG SHA-256: `cbb08e1799a6d6d3d9e00b600ceaab294a36a2b04a170ae1a367e28578cd0164` (textual provenance only; PNG deleted by user)
+- source candidate: `BODY_01_FRONT_v009`, moved to the approved path after explicit approval and later user-transcoded to the current JPG
 - superseded component: `OWNER_BODY_01_FRONT_CANON_001`; retain for history but do not route as current
 - lineage note: the L1 recovery method remains source-derived and never chains either approved Master or any candidate pixels
 - lock status: `UNLOCKED_COMPONENT`; complete `owner_v1.0` is not locked

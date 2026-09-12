@@ -24,7 +24,9 @@ previous_ai_candidate_count: 0
 seed_settings: "built-in image_gen; seed and detailed settings may not be returned"
 output_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v008/BODY_01_FRONT_v008.png"
 pixel_storage_status: "MOVED_TO_CANON_THEN_TRANSCODED; CANDIDATE_RASTER_REMOVED"
-current_promoted_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_001.jpg"
+current_promoted_path: null
+historical_promoted_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_001.jpg"
+promoted_raster_status: "REMOVED_BY_USER_AFTER_SUPERSESSION"
 qa_status: PASS
 checksum_sha256: "2f7f3828feb3a2e500482812a7a24f1284f87e71406b312ea579345293012a00"
 ```

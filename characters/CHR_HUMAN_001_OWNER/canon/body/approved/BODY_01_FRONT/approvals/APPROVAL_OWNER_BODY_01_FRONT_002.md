@@ -2,14 +2,15 @@
 
 - approval_id: APPROVAL_OWNER_BODY_01_FRONT_002
 - asset_id: OWNER_BODY_01_FRONT_CANON_002
-- asset_path: `../OWNER_BODY_01_FRONT_CANON_002.png`
+- asset_path: `../OWNER_BODY_01_FRONT_CANON.jpg`
 - source_candidate: BODY_01_FRONT_v009
 - approved_level: L1 component
 - decision: APPROVED
 - approver: user
 - decision_date: 2026-09-11
 - lock_status: UNLOCKED_COMPONENT
-- checksum_sha256: `cbb08e1799a6d6d3d9e00b600ceaab294a36a2b04a170ae1a367e28578cd0164`
+- source_candidate_png_checksum_sha256: `cbb08e1799a6d6d3d9e00b600ceaab294a36a2b04a170ae1a367e28578cd0164`
+- current_jpg_checksum_sha256: `964c3b9d72c6688881b8ebfa4c6fc1bcfea04c998351352fabfdc8f4951666f6`
 
 ## Approval evidence
 
@@ -42,3 +43,5 @@ For other character assets and shot/video-frame images, this asset may jointly c
 ## Promotion action
 
 The candidate image was moved to the approved Master path rather than copied. Its candidate directory retains only records and a promotion pointer. `OWNER_BODY_01_FRONT_CANON_002` becomes the active target of `OWNER_BODY_FRONT_CANON_L1`; `OWNER_BODY_01_FRONT_CANON_001` remains historical and superseded. The complete `owner_v1.0` release remains unlocked.
+
+On 2026-09-12 the user transcoded the active approved PNG to `OWNER_BODY_01_FRONT_CANON.jpg` and deleted the PNG. The JPG is the single physical Master. This format-only change does not alter the asset ID, approval scope or user decision; the former PNG checksum is retained only as textual provenance.

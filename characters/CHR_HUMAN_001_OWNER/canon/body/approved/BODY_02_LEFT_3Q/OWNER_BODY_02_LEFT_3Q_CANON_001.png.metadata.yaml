@@ -1,0 +1,44 @@
+asset_id: "BODY_02_LEFT_3Q_v001"
+asset_level: "L1"
+asset_type: "body_canon_candidate"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_component_candidate"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_02_LEFT_3Q_v001/BODY_02_LEFT_3Q_v001.png"
+physical_file_role: "UNIQUE_CANDIDATE"
+source_images:
+  - "OWNER_FACE_02_LEFT_3Q_NEUTRAL_CANON_001"
+  - "OWNER_BODY_01_FRONT_CANON_002"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_02_LEFT_3Q_v001/generation_record.md"
+approval_status: "REVIEW_REQUIRED"
+approval_record: null
+authoritative_for:
+  - "candidate owner left-three-quarter body silhouette and depth relationship"
+  - "candidate BODY_02 neutral standing orientation and anatomy"
+  - "preservation of the approved 168 cm / 60 kg target, limb proportions and waist/hip ratio through a left-three-quarter turn"
+must_not_define:
+  - "new owner face identity, age or skin tone"
+  - "new hairstyle design or hair color"
+  - "new front-body proportion, stature, weight or waist/hip ratio"
+  - "final reusable Hairstyle A Canon"
+  - "hosiery materials other than 15D matte nude"
+  - "final reusable Gate-7 hosiery material authority"
+  - "episode wardrobe, expression, performance pose, lighting or background"
+  - "right-three-quarter, side or rear body geometry"
+view:
+  framing: "full length, exact 3:4"
+  angle: "anatomical left body plane principally visible; body and face point image-left; approximately 35–45 degree left three-quarter"
+  camera_height: "waist to lower chest"
+  lens: "prompted 70–85mm equivalent"
+appearance:
+  hairstyle: "HAIRSTYLE_A; inherited only from approved BODY_01 downstream scope"
+  outfit: "OWNER_L1_CALIBRATION_OUTFIT"
+  hosiery: "15D matte nude candidate presentation only; Gate-7 authority excluded"
+quality_status: "AI_TECHNICAL_PRECHECK_PASS_USER_REVIEW_REQUIRED"
+checksum_sha256: "f364b5c9b398c0c786964ffb8932707c7d657f997b8344abdd31a47b4322f4aa"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_02_LEFT_3Q_v001/BODY_02_LEFT_3Q_v001.png"
+original_candidate_checksum_sha256: "f364b5c9b398c0c786964ffb8932707c7d657f997b8344abdd31a47b4322f4aa"
+promoted_asset_path: null
+promoted_asset_checksum_sha256: null
+created_at: "2026-09-12"
+notes: "One generated BODY_02 candidate. No previous Body candidate or previous shot was used. Explicit user approval is required before promotion."

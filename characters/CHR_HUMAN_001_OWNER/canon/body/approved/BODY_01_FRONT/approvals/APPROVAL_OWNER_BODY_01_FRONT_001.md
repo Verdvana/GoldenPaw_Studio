@@ -2,7 +2,9 @@
 
 - approval_id: APPROVAL_OWNER_BODY_01_FRONT_001
 - asset_id: OWNER_BODY_01_FRONT_CANON_001
-- asset_path: `../OWNER_BODY_01_FRONT_CANON_001.jpg`
+- asset_path: null
+- historical_asset_path: `../OWNER_BODY_01_FRONT_CANON_001.jpg`
+- raster_status: REMOVED_BY_USER_AFTER_SUPERSESSION
 - source_candidate: BODY_01_FRONT_v008
 - approved_level: L1 component
 - decision: APPROVED
@@ -47,3 +49,5 @@ The user stated: “ok,可以作为canon，并记录生成的方法，保证后�
 The candidate was promoted to the approved Master path. The user later transcoded the approved Master to JPG; the original candidate PNG path/checksum remain textual provenance and its raster was removed. The JPG is the single physical Master. The component ID and approved scope are unchanged. The complete `owner_v1.0` release remains unlocked, and the other five Body views remain pending.
 
 On 2026-09-11 the user later approved `OWNER_BODY_01_FRONT_CANON_002`, which supersedes this component for active downstream routing. This historical approval record remains valid as provenance but no longer identifies the current Master.
+
+On 2026-09-12 the user retained only the current component-002 JPG in the approved directory. The superseded component-001 JPG and its sidecar metadata are no longer present; this record must not be treated as a live file pointer.
