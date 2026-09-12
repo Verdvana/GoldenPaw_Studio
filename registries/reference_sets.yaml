@@ -46,6 +46,11 @@ reference_sets:
     max_images: 1
     assets:
       - {asset_id: L0_OWNER_017, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/DSC00847.jpg"}
+  OWNER_HAIRSTYLE_A_L0_SCOPED_DERIVATIVE:
+    purpose: "deterministic face-masked derivative of the Hairstyle-A L0 source for hair-only transfer; defines long straight loose dark-brown hair, near-center part, controlled volume, length and tapered ends, while excluding the mask, identity, body, clothing and background"
+    max_images: 1
+    assets:
+      - {asset_id: OWNER_HAIRSTYLE_A_FACE_MASKED_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/DSC00847_HAIR_ONLY_MASKED.png"}
   OWNER_HAIRSTYLE_B_L0:
     purpose: "HAIRSTYLE_B real-source hair design only: hairline, pulled-back front, face-framing strands and gathered updo relationship"
     max_images: 1
@@ -90,6 +95,20 @@ reference_sets:
     usable_for_generation: true
     assets:
       - {asset_id: OWNER_BODY_04_LEFT_SIDE_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_04_LEFT_SIDE/OWNER_BODY_04_LEFT_SIDE_CANON_001.png"}
+  OWNER_BODY_RIGHT_SIDE_CANON_L1:
+    purpose: "approved L1 Master for owner anatomical-right neutral side-standing geometry, conservative depth, preservation of the 168 cm / 60 kg target, natural exact-profile overlap, floor contact and visible 15D nude matte/velvet presentation within this Body component"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_BODY_05_RIGHT_SIDE_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_05_RIGHT_SIDE/OWNER_BODY_05_RIGHT_SIDE_CANON_001.png"}
+  OWNER_BODY_BACK_CANON_L1:
+    purpose: "approved L1 Master for owner exact 180-degree neutral back-standing geometry, conservative rear depth, preservation of the 168 cm / 60 kg target, aligned backward head/body orientation, direct heel contact, conservative Hairstyle-A rear fall and visible 15D nude matte/velvet presentation within this Body component"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_BODY_06_BACK_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/OWNER_BODY_06_BACK_CANON_001.png"}
   OWNER_BODY_FRONT_RECOVERY_V1:
     purpose: "fixed ordered source/reference set for recreating the active L1 front Body Master; follow BODY_01_FRONT_METHOD.md and never add any generated Body candidate or approved Body Master"
     max_images: 4

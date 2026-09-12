@@ -4,7 +4,7 @@
 document_id: OWNER_L1_GENERATION_SPEC
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-spec_revision: draft_1.50
+spec_revision: draft_1.54
 status: DRAFT
 authority: USER_APPROVAL_REQUIRED
 default_aspect_ratio: "3:4"
@@ -637,3 +637,7 @@ all required components APPROVED
 | draft_1.48 | 2026-09-12 | 用户授权生成 `BODY_04_LEFT_SIDE_v001`；依次尝试四项及三项最小参考，三次均在输出阶段被安全系统拦截且无图片产生。BODY_04 保持 pending，禁止把失败调用视为候选或下游参考 | generation blocked; no output |
 | draft_1.49 | 2026-09-12 | 用户要求按原计划重新生成 BODY_04；新建独立 `BODY_04_LEFT_SIDE_v002`，恢复左侧面 Face、正面 Body、`17.jpg` 侧后粗略轮廓和用户指定丝袜材质派生图四项职责。首次调用无输出，保持四参考仅精简提示后成功生成候选；状态 REVIEW_REQUIRED，未晋升 | user retry authorization incorporated |
 | draft_1.50 | 2026-09-12 | 用户明确批准 `BODY_04_LEFT_SIDE_v002` 并要求登记记录；晋升为 `OWNER_BODY_04_LEFT_SIDE_CANON_001`，批准左侧面轮廓/深度、168 cm / 60 kg 比例保持、中性接地站姿、自然侧面遮挡及本组件内15D肉色哑光/天鹅绒丝袜表现，执行单文件移动并开放 BODY_05 | user approved component |
+| draft_1.51 | 2026-09-12 | 用户授权生成下一项 `BODY_05_RIGHT_SIDE_v001`；以右侧面 Face、活动正面 Body、`17.jpg` 粗略侧深和用户指定丝袜材质派生图四项并行生成，未使用任何相邻 Body 候选。候选通过技术预检但保留远侧脚跟自然遮挡与足部15D材质存在感供用户复核，状态 `REVIEW_REQUIRED`，未晋升 | user generation authorization incorporated |
+| draft_1.52 | 2026-09-12 | 用户明确批准 `BODY_05_RIGHT_SIDE_v001` 并要求登记记录；晋升为 `OWNER_BODY_05_RIGHT_SIDE_CANON_001`，批准右侧面轮廓/深度、168 cm / 60 kg 比例保持、中性接地站姿、自然侧面遮挡及本组件内15D肉色哑光/天鹅绒丝袜表现，执行单文件移动并开放 BODY_06 | user approved component |
+| draft_1.53 | 2026-09-12 | 用户授权生成最后一个 Body 视角 `BODY_06_BACK_v001`；以活动正面 Body、`17.jpg` 粗略后侧深度、遮脸 Hairstyle-A 派生图和用户指定丝袜材质派生图四项并行生成，未使用 BODY_02–05。候选通过背面方向、对称、接地和连续材质技术预检，状态 `REVIEW_REQUIRED`，未晋升 | user generation authorization incorporated |
+| draft_1.54 | 2026-09-12 | 用户明确批准 `BODY_06_BACK_v001` 并要求登记；晋升为 `OWNER_BODY_06_BACK_CANON_001`，批准完整背面轮廓/深度、168 cm / 60 kg 比例保持、头身一致朝后、双脚接地、保守 Hairstyle-A 后落及本组件内15D肉色哑光/天鹅绒丝袜表现。Gate 3 六项完成并开放 Gate 4；完整 owner_v1.0 仍未锁定 | user approved component |

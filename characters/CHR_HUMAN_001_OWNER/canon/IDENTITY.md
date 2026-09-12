@@ -4,7 +4,7 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.45
+revision: draft_0.47
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
 updated_at: "2026-09-12"
@@ -194,6 +194,8 @@ updated_at: "2026-09-12"
 - 用户确认 `BODY_03_RIGHT_3Q_v003` 除丝袜质感外均完美；v004 只把新登记的 `L0_HOS_15_NM_011` 用于增强全腿至脚部的15D肉色哑光/天鹅绒织物存在感、透明度与柔化覆盖，不继承该素材的坐姿、身体/脚形、肤色、甲色、服装、背景或水印，也不输入 v003 像素。
 - `BODY_03_RIGHT_3Q_v005` 已由用户明确批准为 `OWNER_BODY_03_RIGHT_3Q_CANON_001`；批准范围包括右 3/4 身体轮廓与深度、168 cm / 60 kg 比例保持、正常双脚接地，以及本 Body 组件内由 `L0_HOS_15_NM_011` scoped derivative 指导的15D肉色哑光/天鹅绒丝袜呈现。Gate-7 最终丝袜材质权威仍独立建立。
 - `BODY_04_LEFT_SIDE_v002` 已由用户明确批准为 `OWNER_BODY_04_LEFT_SIDE_CANON_001`；批准范围包括完整左侧面身体轮廓与保守深度、168 cm / 60 kg 比例保持、中性双脚接地、自然侧面肢体遮挡，以及本 Body 组件内由用户指定丝袜素材派生图指导的15D肉色哑光/天鹅绒丝袜呈现。Gate-7 最终丝袜材质权威仍独立建立。
+- `BODY_05_RIGHT_SIDE_v001` 已由用户明确批准为 `OWNER_BODY_05_RIGHT_SIDE_CANON_001`；批准范围包括完整右侧面身体轮廓与保守深度、168 cm / 60 kg 比例保持、中性接地、自然侧面肢体/远侧脚跟遮挡，以及本 Body 组件内连续的15D肉色哑光/天鹅绒丝袜呈现。Gate-7 最终丝袜材质权威仍独立建立。
+- `BODY_06_BACK_v001` 已由用户明确批准为 `OWNER_BODY_06_BACK_CANON_001`；批准范围包括完整180度背面身体轮廓与保守后侧深度、168 cm / 60 kg 比例保持、头身一致朝后、双脚跟直接接地、该 Body 组件内保守的 HAIRSTYLE_A 后落及连续15D肉色哑光/天鹅绒丝袜呈现。它不替代 `HAIR_A_04_BACK` 或 Gate-7 材质权威。六个 Body 组件已全部批准，Gate 4 开放。
 
 ## FACE_01 必须保持
 
@@ -257,3 +259,5 @@ updated_at: "2026-09-12"
 | draft_0.43 | 2026-09-12 | 用户确认 BODY_03 v003 其它方面完美，仅丝袜与脚部织物质感不足；v004 新增 `L0_HOS_15_NM_011` 作为严格 material-only 参考并保持 v003 成功属性的文字意图，禁止使用 v003 像素 | user scoped material feedback incorporated |
 | draft_0.44 | 2026-09-12 | 用户批准 BODY_03 右 3/4 v005 为 `OWNER_BODY_03_RIGHT_3Q_CANON_001`；登记右向身体轮廓、比例、接地脚部与本组件内15D肉色哑光/天鹅绒丝袜表现，完整 owner_v1.0 仍未锁定 | user approved component |
 | draft_0.45 | 2026-09-12 | 用户批准 BODY_04 左侧面 v002 为 `OWNER_BODY_04_LEFT_SIDE_CANON_001`；登记左侧面轮廓/深度、比例、接地、自然遮挡及本组件内15D肉色哑光/天鹅绒丝袜表现，完整 owner_v1.0 仍未锁定 | user approved component |
+| draft_0.46 | 2026-09-12 | 用户批准 BODY_05 右侧面 v001 为 `OWNER_BODY_05_RIGHT_SIDE_CANON_001`；登记右侧面轮廓/深度、比例、接地、自然遮挡及本组件内15D肉色哑光/天鹅绒丝袜表现，BODY_06 成为剩余 Body 视角 | user approved component |
+| draft_0.47 | 2026-09-12 | 用户批准 BODY_06 背面 v001 为 `OWNER_BODY_06_BACK_CANON_001`；登记完整背面轮廓/深度、比例、头身朝向、接地、保守发型后落及本组件内丝袜表现。六个 Body 组件全部批准，Gate 4 开放，完整 owner_v1.0 仍未锁定 | user approved component |

@@ -4,14 +4,14 @@
 document_id: OWNER_BODY_CANON_WORKING
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.24
-status: PARTIAL_APPROVED
+revision: draft_0.28
+status: BODY_GATE_APPROVED
 calibration_outfit: OWNER_L1_CALIBRATION_OUTFIT
 camera_setup: OWNER_BODY_NEUTRAL_STUDIO_V1
 updated_at: "2026-09-12"
 ```
 
-`OWNER_BODY_01_FRONT_CANON_002`, `OWNER_BODY_02_LEFT_3Q_CANON_001`, `OWNER_BODY_03_RIGHT_3Q_CANON_001` and `OWNER_BODY_04_LEFT_SIDE_CANON_001` are the current active approved Body L1 components. The directional components preserve the approved 168 cm / 60 kg target, limb proportions and waist/hip ratio while adding their scoped silhouettes/depth relationships. Two Body views remain pending, and the complete `owner_v1.0` release remains unlocked.
+`OWNER_BODY_01_FRONT_CANON_002`, `OWNER_BODY_02_LEFT_3Q_CANON_001`, `OWNER_BODY_03_RIGHT_3Q_CANON_001`, `OWNER_BODY_04_LEFT_SIDE_CANON_001`, `OWNER_BODY_05_RIGHT_SIDE_CANON_001` and `OWNER_BODY_06_BACK_CANON_001` are the six current active approved Body L1 components. The directional components preserve the approved 168 cm / 60 kg target, limb proportions and waist/hip ratio while adding their scoped silhouettes/depth relationships. Gate 3 is complete and Gate 4 is open; the complete `owner_v1.0` release remains unlocked.
 
 For downstream character assets and shot/video-frame image generation, component 002 may define the approved 168 cm / 60 kg target, visible face appearance, `HAIRSTYLE_A`, limb proportions and waist/hip ratio. View-specific Face/Hair Canon remains the preferred precision reference when applicable. Its hosiery scope is narrower: it may define only `15D matte nude` appearance and must not define any other color, finish, material behavior or denier.
 
@@ -46,8 +46,8 @@ For downstream character assets and shot/video-frame image generation, component
 - BODY_02 left 3/4 — `OWNER_BODY_02_LEFT_3Q_CANON_001` APPROVED, component unlocked
 - BODY_03 right 3/4 — `OWNER_BODY_03_RIGHT_3Q_CANON_001` APPROVED, component unlocked
 - BODY_04 left side — `OWNER_BODY_04_LEFT_SIDE_CANON_001` APPROVED, component unlocked
-- BODY_05 right side — pending
-- BODY_06 back — pending
+- BODY_05 right side — `OWNER_BODY_05_RIGHT_SIDE_CANON_001` APPROVED, component unlocked
+- BODY_06 back — `OWNER_BODY_06_BACK_CANON_001` APPROVED, component unlocked
 
 ## Authority boundary
 
@@ -76,3 +76,15 @@ The user confirmed all non-hosiery aspects of `BODY_03_RIGHT_3Q_v003` as perfect
 The user then explicitly requested a new generation using the original plan. `BODY_04_LEFT_SIDE_v002` restores the four scoped references: approved left-profile Face, active front Body, `L0_OWNER_015` for coarse side-depth plausibility only, and the user-selected 15D material derivative. Its first call was blocked with no output; the second call kept all four references and changed only prompt brevity, producing one REVIEW_REQUIRED candidate. No prior Body candidate pixels were supplied.
 
 The user explicitly approved v002 with “好登记并记录”. It is promoted unchanged as `OWNER_BODY_04_LEFT_SIDE_CANON_001`, covering the anatomical-left full-body side silhouette, conservative side depth, approved proportion preservation, neutral standing geometry, accepted exact-profile overlap and visible continuous 15D nude matte/velvet presentation within this component. The full release remains unlocked.
+
+## BODY_05 execution status
+
+`BODY_05_RIGHT_SIDE_v001` was generated as a fresh parallel candidate from the approved right-profile Face Master, active front Body Master, `L0_OWNER_015` coarse side-depth context and the user-selected 15D material derivative. No earlier Body candidate or adjacent generated view was supplied. Technical precheck confirmed anatomical-right profile orientation toward image-left, coherent neutral alignment, direct floor contact for the visible heel and both forefeet, no artificial heel support, and no transverse toe-root line.
+
+The user explicitly approved v001 with “可以 登记并记录了”. It is promoted unchanged as `OWNER_BODY_05_RIGHT_SIDE_CANON_001`, covering the anatomical-right full-body side silhouette, conservative side depth, approved proportion preservation, neutral standing geometry, accepted exact-profile overlap and visible continuous 15D nude matte/velvet presentation within this component. The full release remains unlocked; BODY_06 is the remaining Body view.
+
+## BODY_06 execution status
+
+`BODY_06_BACK_v001` was generated as a fresh parallel candidate from the active front Body Master, `L0_OWNER_015` coarse rear/side context, the deterministic Hairstyle-A derivative and the user-selected 15D material derivative. No BODY_02–BODY_05 image or prior Body candidate was supplied. Technical precheck confirmed a complete untwisted 180-degree back view, coherent shoulder/pelvis/leg alignment, direct bilateral heel contact without added supports, a conservative centered Hairstyle-A rear fall and continuous subtle 15D nude matte/velvet coverage.
+
+The user explicitly approved v001 with “可以 登记吧”. It is promoted unchanged as `OWNER_BODY_06_BACK_CANON_001`, covering the complete rear Body silhouette, conservative rear depth, approved proportion preservation, aligned backward head/body orientation, neutral grounded stance, conservative Hairstyle-A rear fall within this component and visible continuous 15D nude matte/velvet presentation. This approval completes Gate 3 and opens Gate 4; the full release remains unlocked.
