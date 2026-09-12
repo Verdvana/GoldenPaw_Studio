@@ -1,0 +1,31 @@
+asset_id: "BODY_02_LEFT_3Q_v001"
+asset_level: "RECORD_ONLY"
+asset_type: "canon_promotion_pointer"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: null
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02_LEFT_3Q/OWNER_BODY_02_LEFT_3Q_CANON_001.png"
+physical_file_role: "RECORD_ONLY"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_02_LEFT_3Q_v001/BODY_02_LEFT_3Q_v001.png"
+original_candidate_checksum_sha256: "f364b5c9b398c0c786964ffb8932707c7d657f997b8344abdd31a47b4322f4aa"
+promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02_LEFT_3Q/OWNER_BODY_02_LEFT_3Q_CANON_001.png"
+promoted_asset_checksum_sha256: "f364b5c9b398c0c786964ffb8932707c7d657f997b8344abdd31a47b4322f4aa"
+candidate_raster_retained: false
+source_images:
+  - "OWNER_FACE_02_LEFT_3Q_NEUTRAL_CANON_001"
+  - "OWNER_BODY_01_FRONT_CANON_002"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_02_LEFT_3Q_v001/generation_record.md"
+approval_status: "APPROVED"
+approval_record: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02_LEFT_3Q/approvals/APPROVAL_OWNER_BODY_02_LEFT_3Q_001.md"
+authoritative_for:
+  - "approved owner neutral left-three-quarter standing geometry and conservative depth relationship"
+  - "approved preservation of 168 cm / 60 kg proportions and waist/hip ratio through the left-three-quarter turn"
+must_not_define:
+  - "new identity or Hairstyle A design"
+  - "right-three-quarter, pure side or rear body geometry"
+  - "final Gate-7 hosiery material Canon"
+  - "episode wardrobe, lighting or background"
+quality_status: "PASS_USER_APPROVED_PROMOTED"
+checksum_sha256: "f364b5c9b398c0c786964ffb8932707c7d657f997b8344abdd31a47b4322f4aa"
+created_at: "2026-09-12"
+notes: "Record-only pointer; candidate raster moved to the single approved Master path. Full owner_v1.0 remains unlocked."

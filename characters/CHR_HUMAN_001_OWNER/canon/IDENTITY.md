@@ -4,7 +4,7 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.39
+revision: draft_0.40
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
 updated_at: "2026-09-11"
@@ -188,6 +188,7 @@ updated_at: "2026-09-11"
 - 小腿需进一步收直：双侧膝、胫骨中线与踝中心形成自然近竖直轴，胫骨不向外弯，左右小腿肌肉保留自然体量但外轮廓不制造 O 形腿观感，双脚仍平放且方向对称。
 - 用户明确批准 v009 的长相、HAIRSTYLE_A、四肢比例、腰臀比、腿脚几何和腿脚丝袜质感。普通下游可使用活动 Master 的批准范围；重新制作 L1 仍按批准 Face、两张 L0 身体上下文和遮脸发型 A 的四输入恢复方法平行生成，不使用 v008、v009 或任何 Body Master 像素。
 - 用户进一步明确：`OWNER_BODY_01_FRONT_CANON_002` 中的 168 cm / 60 kg、可见长相、`HAIRSTYLE_A`、四肢比例和腰臀比可用于生成其他角色资产及视频镜头所需图片；当存在更匹配视角的专用 Face/Hair Canon 时仍优先使用专用组件。该图的丝袜只可作为 `15D 哑光肉色` 外观参考，不得用于其他颜色、材质/光泽或厚度。
+- `BODY_02_LEFT_3Q_v001` 已由用户明确评价“完美”并晋升为 `OWNER_BODY_02_LEFT_3Q_CANON_001`；它在左 3/4 视角内批准身体轮廓、保守深度关系及 168 cm / 60 kg、四肢比例和腰臀比的保持，不重新定义脸、发型、正面比例、其他方向或 Gate-7 丝袜材质。
 
 ## FACE_01 必须保持
 
@@ -245,3 +246,4 @@ updated_at: "2026-09-11"
 | draft_0.37 | 2026-09-11 | 用户批准 BODY_01 v009 的长相、发型、四肢比例、腰臀比、腿脚几何及腿脚丝袜表现；晋升为活动组件 `OWNER_BODY_01_FRONT_CANON_002`，旧 001 标记为历史 superseded，四输入源恢复规则不变 | user approved component |
 | draft_0.38 | 2026-09-11 | 用户明确扩展 002 的下游职责：168 cm / 60 kg、长相、HAIRSTYLE_A、四肢比例与腰臀比可供其他资产及视频镜头图片引用；丝袜职责严格限定为 15D 哑光肉色，不外推至其他颜色、材质/光泽或厚度 | user scope clarification incorporated |
 | draft_0.39 | 2026-09-12 | 用户将活动 BODY_01 组件 002 的批准 PNG 转换为 `OWNER_BODY_01_FRONT_CANON.jpg` 并删除 PNG；更新活动路径与 JPG 指纹，格式变化不改变资产 ID、批准范围或源恢复方法 | user format decision incorporated |
+| draft_0.40 | 2026-09-12 | 用户批准 BODY_02 左 3/4 v001 为 `OWNER_BODY_02_LEFT_3Q_CANON_001`；登记其左 3/4 身体轮廓、深度与既有 168 cm / 60 kg 比例保持范围，并继续推进 BODY_03 | user approved component |

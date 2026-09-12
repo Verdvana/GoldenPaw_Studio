@@ -10,8 +10,8 @@ asset_id: BODY_02_LEFT_3Q
 candidate_id: BODY_02_LEFT_3Q_v001
 gate: "Gate 3 — Body Canon"
 model_tool: "built-in image_gen"
-status: GENERATED_REVIEW_REQUIRED
-approval_status: REVIEW_REQUIRED
+status: APPROVED_PROMOTION_SOURCE
+approval_status: APPROVED
 aspect_ratio: "3:4"
 preferred_resolution: "1536x2048"
 actual_resolution: "1086x1448"
@@ -22,7 +22,10 @@ reference_count: 2
 previous_ai_body_candidate_count: 0
 seed_settings: "built-in image_gen; seed and detailed settings may not be returned"
 output_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_02_LEFT_3Q_v001/BODY_02_LEFT_3Q_v001.png"
-qa_status: AI_TECHNICAL_PRECHECK_PASS_USER_REVIEW_REQUIRED
+pixel_storage_status: "MOVED_TO_CANON; CANDIDATE_RASTER_NOT_RETAINED"
+current_promoted_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02_LEFT_3Q/OWNER_BODY_02_LEFT_3Q_CANON_001.png"
+current_promoted_checksum_sha256: "f364b5c9b398c0c786964ffb8932707c7d657f997b8344abdd31a47b4322f4aa"
+qa_status: PASS_USER_APPROVED
 checksum_sha256: "f364b5c9b398c0c786964ffb8932707c7d657f997b8344abdd31a47b4322f4aa"
 ```
 
@@ -79,3 +82,7 @@ Exact 3:4 portrait, complete head, hair, both hands, heels and toes with 5–8% 
 - built-in output: `/home/verdvana/.codex/generated_images/01a09467-3db0-70a2-bf86-1fb58ecbbfb6/exec-0bb3b1d1-fb26-4098-afec-c30c5045916f.png` (tool cache; project-authoritative candidate is saved at `output_path`)
 - result: one 1086×1448 exact-3:4 PNG generated and saved as the unique project candidate raster
 - QA: `AI_TECHNICAL_PRECHECK_PASS_USER_REVIEW_REQUIRED`; identity, view, body continuity, outfit and anatomy pass visual precheck. The very subtle 15D textile veil across insteps/toes remains a focused human-review item. No Canon promotion has occurred.
+
+## User approval
+
+On 2026-09-12, after reviewing this candidate, the user stated: “完美，下一项”. The candidate was moved unchanged to `OWNER_BODY_02_LEFT_3Q_CANON_001`. This approves the scoped left-three-quarter Body component but does not lock the complete `owner_v1.0` release.

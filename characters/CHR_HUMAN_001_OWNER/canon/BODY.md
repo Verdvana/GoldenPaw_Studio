@@ -4,14 +4,14 @@
 document_id: OWNER_BODY_CANON_WORKING
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.16
+revision: draft_0.17
 status: PARTIAL_APPROVED
 calibration_outfit: OWNER_L1_CALIBRATION_OUTFIT
 camera_setup: OWNER_BODY_NEUTRAL_STUDIO_V1
-updated_at: "2026-09-11"
+updated_at: "2026-09-12"
 ```
 
-`OWNER_BODY_01_FRONT_CANON_002`, promoted from `BODY_01_FRONT_v009`, is the current active approved front-view Body L1 component. The user approved its face, Hairstyle A, limb proportions, waist/hip ratio, leg/foot geometry and visible hosiery presentation. `OWNER_BODY_01_FRONT_CANON_001` remains a superseded historical component. The remaining five Body views are still pending, and the complete `owner_v1.0` release remains unlocked.
+`OWNER_BODY_01_FRONT_CANON_002` and `OWNER_BODY_02_LEFT_3Q_CANON_001` are the current active approved Body L1 components. The left-three-quarter component preserves the approved 168 cm / 60 kg target, limb proportions and waist/hip ratio while adding its scoped left-three-quarter silhouette/depth relationship. Four Body views remain pending, and the complete `owner_v1.0` release remains unlocked.
 
 For downstream character assets and shot/video-frame image generation, component 002 may define the approved 168 cm / 60 kg target, visible face appearance, `HAIRSTYLE_A`, limb proportions and waist/hip ratio. View-specific Face/Hair Canon remains the preferred precision reference when applicable. Its hosiery scope is narrower: it may define only `15D matte nude` appearance and must not define any other color, finish, material behavior or denier.
 
@@ -43,7 +43,7 @@ For downstream character assets and shot/video-frame image generation, component
 ## Required neutral views
 
 - BODY_01 front — `OWNER_BODY_01_FRONT_CANON_002` APPROVED and active, component unlocked (`OWNER_BODY_01_FRONT_CANON_001` superseded)
-- BODY_02 left 3/4 — pending
+- BODY_02 left 3/4 — `OWNER_BODY_02_LEFT_3Q_CANON_001` APPROVED, component unlocked
 - BODY_03 right 3/4 — pending
 - BODY_04 left side — pending
 - BODY_05 right side — pending

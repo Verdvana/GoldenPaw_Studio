@@ -1,5 +1,5 @@
 schema_version: 1
-catalog_version: "2026-09-11"
+catalog_version: "2026-09-12"
 policy: "Select one set by shot need; never concatenate all sets. Locked scoped L1 Canon supersedes these L0 construction sets."
 
 reference_sets:
@@ -69,6 +69,13 @@ reference_sets:
     usable_for_generation: true
     assets:
       - {asset_id: OWNER_BODY_01_FRONT_CANON_002, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg"}
+  OWNER_BODY_LEFT_3Q_CANON_L1:
+    purpose: "approved L1 Master for owner anatomical-left three-quarter neutral standing geometry, conservative depth relationship and preservation of the 168 cm / 60 kg target; scoped hosiery appearance is 15D matte nude only"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_BODY_02_LEFT_3Q_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02_LEFT_3Q/OWNER_BODY_02_LEFT_3Q_CANON_001.png"}
   OWNER_BODY_FRONT_RECOVERY_V1:
     purpose: "fixed ordered source/reference set for recreating the active L1 front Body Master; follow BODY_01_FRONT_METHOD.md and never add any generated Body candidate or approved Body Master"
     max_images: 4

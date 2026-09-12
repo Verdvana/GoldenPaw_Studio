@@ -4,9 +4,9 @@
 - asset_level: `L1 Candidate`
 - reviewer: `Codex visual pre-review`
 - review_date: `2026-09-12`
-- overall: **TECHNICAL PASS — USER REVIEW REQUIRED**
-- approval_status: `REVIEW_REQUIRED`
-- eligible_for_promotion: no, pending explicit user approval
+- overall: **PASS — USER APPROVED**
+- approval_status: `APPROVED`
+- eligible_for_promotion: completed
 
 ## Responsibility checks
 
@@ -29,5 +29,4 @@
 
 ## Promotion decision
 
-The candidate remains `REVIEW_REQUIRED`. Technical QA does not promote it. Explicit user approval is required before moving the raster to an approved Canon path, creating an approval record, or updating Body indexes/routing.
-
+The user explicitly approved the candidate by stating “完美，下一项”. It was promoted unchanged to `OWNER_BODY_02_LEFT_3Q_CANON_001`; the candidate directory retains records only. The full `owner_v1.0` release remains unlocked.
