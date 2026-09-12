@@ -4,10 +4,10 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.44
+revision: draft_0.45
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
-updated_at: "2026-09-11"
+updated_at: "2026-09-12"
 ```
 
 本文件是 L0 真人照片、用户指定的 L1 目标外观锚与 L1 Face Canon 候选之间的文字身份锚。当前版本尚未获得最终身份批准，可根据用户对候选图的明确反馈继续修订。
@@ -193,6 +193,7 @@ updated_at: "2026-09-11"
 - `BODY_03_RIGHT_3Q_v002` 仍被拒绝：脚跟下出现肉色垫块/多余组织，且脚趾—前脚掌横线未消失。v003 不使用 v001/v002，双脚以足够间距分别呈现完整轮廓；每只脚只能有一个正常脚跟直接接地，不得增加任何支撑物或肉色形体，丝袜在脚趾根部不得出现线、折痕、色带或透明度边界。
 - 用户确认 `BODY_03_RIGHT_3Q_v003` 除丝袜质感外均完美；v004 只把新登记的 `L0_HOS_15_NM_011` 用于增强全腿至脚部的15D肉色哑光/天鹅绒织物存在感、透明度与柔化覆盖，不继承该素材的坐姿、身体/脚形、肤色、甲色、服装、背景或水印，也不输入 v003 像素。
 - `BODY_03_RIGHT_3Q_v005` 已由用户明确批准为 `OWNER_BODY_03_RIGHT_3Q_CANON_001`；批准范围包括右 3/4 身体轮廓与深度、168 cm / 60 kg 比例保持、正常双脚接地，以及本 Body 组件内由 `L0_HOS_15_NM_011` scoped derivative 指导的15D肉色哑光/天鹅绒丝袜呈现。Gate-7 最终丝袜材质权威仍独立建立。
+- `BODY_04_LEFT_SIDE_v002` 已由用户明确批准为 `OWNER_BODY_04_LEFT_SIDE_CANON_001`；批准范围包括完整左侧面身体轮廓与保守深度、168 cm / 60 kg 比例保持、中性双脚接地、自然侧面肢体遮挡，以及本 Body 组件内由用户指定丝袜素材派生图指导的15D肉色哑光/天鹅绒丝袜呈现。Gate-7 最终丝袜材质权威仍独立建立。
 
 ## FACE_01 必须保持
 
@@ -255,3 +256,4 @@ updated_at: "2026-09-11"
 | draft_0.42 | 2026-09-12 | 用户指出 v002 用脚跟下肉色垫块/多余组织伪造接地且脚趾横线仍在；撤销此前技术 PASS，v003 要求双脚轮廓互不遮挡、单一正常脚跟直接接地、无任何支撑物，并彻底消除脚趾—前脚掌线条，禁止输入 v001/v002 | user rejection and QA correction incorporated |
 | draft_0.43 | 2026-09-12 | 用户确认 BODY_03 v003 其它方面完美，仅丝袜与脚部织物质感不足；v004 新增 `L0_HOS_15_NM_011` 作为严格 material-only 参考并保持 v003 成功属性的文字意图，禁止使用 v003 像素 | user scoped material feedback incorporated |
 | draft_0.44 | 2026-09-12 | 用户批准 BODY_03 右 3/4 v005 为 `OWNER_BODY_03_RIGHT_3Q_CANON_001`；登记右向身体轮廓、比例、接地脚部与本组件内15D肉色哑光/天鹅绒丝袜表现，完整 owner_v1.0 仍未锁定 | user approved component |
+| draft_0.45 | 2026-09-12 | 用户批准 BODY_04 左侧面 v002 为 `OWNER_BODY_04_LEFT_SIDE_CANON_001`；登记左侧面轮廓/深度、比例、接地、自然遮挡及本组件内15D肉色哑光/天鹅绒丝袜表现，完整 owner_v1.0 仍未锁定 | user approved component |
