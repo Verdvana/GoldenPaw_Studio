@@ -4,10 +4,10 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.63
+revision: draft_0.71
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
-updated_at: "2026-09-12"
+updated_at: "2026-09-13"
 ```
 
 本文件是 L0 真人照片、用户指定的 L1 目标外观锚与 L1 Face Canon 候选之间的文字身份锚。当前版本尚未获得最终身份批准，可根据用户对候选图的明确反馈继续修订。
@@ -247,13 +247,38 @@ updated_at: "2026-09-12"
 - `EXP_04_SMILE_WITH_TEETH_v002` 改用批准 FACE_01、批准 HAIR_A_01 与用户点名的真人 `L0_OWNER_001` (`2.jpg`) 平行重建；`2.jpg` 仅定义人物右侧（正面画面左侧）自然突出虎牙、真实露齿方式和笑时酒窝/笑窝响应，排除婚纱妆容、精修、手部遮挡、另一人物、发型、服装、背景及永久身份几何。
 - v002 已独立生成，并于 2026-09-12 获用户明确批准、登记为 `OWNER_EXP_04_SMILE_WITH_TEETH_CANON_001`。批准只覆盖自然中等强度露齿笑、人物右侧虎牙在正面画面左侧的自然显露、上排牙齿显露方式、面颊抬起及笑时酒窝/笑窝响应；不重新定义静止牙列/酒窝、永久身份或其他可见属性。
 
+## EXP_05 当前候选目标
+
+- 用户于 2026-09-13 授权继续生成 `EXP_05_HAPPY_LAUGHING_v001`。
+- 目标为自然、真诚、明显开心的大笑：嘴巴比 EXP_04 更充分地自然张开，嘴角与面颊明显抬起，下眼睑随笑意收窄但不硬挤，允许自然显示上排牙齿、少量下排牙齿与口腔暗部；不得转成尖叫、惊讶、哭笑、夸张狂笑或漫画变形。
+- 使用批准 FACE_01、批准 HAIR_A_01、真人 `L0_OWNER_016` (`DSC01015.JPG`) 与真人 `L0_OWNER_001` (`2.jpg`) 四项平行生成。`DSC01015.JPG` 只定义真实开心大笑的软组织联动和张嘴幅度；`2.jpg` 只补充人物右侧虎牙在正面画面左侧的方向及笑时酒窝响应；两者均不得定义永久身份、妆容、发型、服装、身体、光线或背景。
+- EXP_04 批准图及任何其他生成 Expression 图均不作为像素输入；EXP_05 必须从声明的批准 Master 与真人 L0 独立构建。
+- `EXP_05_HAPPY_LAUGHING_v001` 已按上述四项隔离职责生成，并于 2026-09-13 获用户追溯明确批准、登记为 `OWNER_EXP_05_HAPPY_LAUGHING_CANON_001`。批准只覆盖自然开心大笑、面颊/下眼睑联动、适中张嘴、人物右侧虎牙方向与笑时酒窝响应，不重新定义永久身份、静止牙列/酒窝或其他可见属性。
+
+## EXP_06 当前候选目标
+
+- 用户于 2026-09-13 要求继续生成下一项；EXP_05 保持 `REVIEW_REQUIRED`，不作为 EXP_06 像素输入。
+- `EXP_06_SURPRISED_v001` 目标为自然、清晰但不过度的惊讶：双眉适度抬起，眼睑比中性状态打开但不夸张瞪眼，嘴唇自然分开形成克制的小至中等开口，下颌仅随表情适度下降。
+- 使用批准 FACE_01、批准 HAIR_A_01 与真人 `L0_OWNER_006` (`8.jpg`) 三项平行生成。真人图只定义惊讶时眉眼与张嘴的软组织协调，不定义永久身份、盘发、双手托脸、针织衫、身体姿态、暖光或花园背景。
+- 禁止恐惧、尖叫、哭泣、开心大笑、喜悦笑容、极端圆眼、眉毛过高、嘴巴大张或漫画式变形；不得改变永久眼睛、眉毛、鼻子、嘴唇、下颌或下巴几何。
+- `EXP_06_SURPRISED_v001` 已按上述三项隔离职责生成，并于 2026-09-13 获用户明确审核通过、登记为 `OWNER_EXP_06_SURPRISED_CANON_001`。批准只覆盖自然适度抬眉、眼睑打开、克制微张嘴和警觉注视，不重新定义永久身份或其他可见属性。
+
+## EXP_07 当前候选目标
+
+- 用户于 2026-09-13 授权开始下一项 `EXP_07_CONFUSED_CURIOUS_v001`。
+- 已复核完整 L0 身份目录及 `registries/reference_sets.yaml`；现有真人素材覆盖中性、微笑、露齿笑、大笑、惊讶、闭眼/低头等状态，但没有一张可可靠定义困惑/好奇，因此本候选明确保留 L0 表情覆盖缺口，不挪用不匹配表情。
+- 只使用批准 FACE_01 与批准 HAIR_A_01 两项最小参考平行生成；前者负责永久正面身份，后者只负责 Hair A。EXP_05、EXP_06、其他批准/未批准 Expression、Body 和 Shot 图像均不得作为像素输入。
+- 目标为自然、克制、可读的困惑/好奇：一侧眉毛适度抬起，另一侧内眉轻微向内下方收紧，眼睛保持真实大小并呈专注疑问感；嘴唇自然闭合或只极轻微分开，嘴角不笑、不下垂。头部保持正直眼平，不通过歪头替代表情。
+- 禁止夸张高挑单眉、双眉大幅抬高、瞪眼、斗鸡眼、歪嘴、撇嘴、嘟嘴、明显皱鼻、深刻额纹、惊讶、恐惧、恼怒、悲伤、讥讽或漫画式困惑；不得改变永久眉形、眼形、鼻子、嘴唇、下颌、下巴、肤色或年龄。
+- `EXP_07_CONFUSED_CURIOUS_v001` 已按两项批准 Master 独立生成，并于 2026-09-13 获用户明确批准、登记为 `OWNER_EXP_07_CONFUSED_CURIOUS_CANON_001`。批准只覆盖克制眉部不对称、疑问专注眼神、中性闭嘴和正直头位，不重新定义永久身份或其他可见属性；无匹配困惑/好奇 L0 表情照片的来源覆盖限制永久保留。
+
 ## EXP_15 当前反馈
 
 - 用户拒绝 `EXP_15_MOUTH_SLIGHTLY_OPEN_v001` 的“平静微张嘴”定义；v001 不得成为下游参考或后续像素输入。
 - 第15项的用户指定表情为：皱眉、闭眼、嘴巴张开但不是大张。眉头通过自然肌肉张力向内下方收紧，双眼自然闭合，嘴部保持克制的中小幅度开启。
 - 该表情只允许眉间、眉头、眼睑、唇周和下颌产生瞬时软组织变化；不得改变头骨、眼睛永久形状、眉毛永久设计、鼻子、嘴唇永久几何、下颌/下巴比例、肤色或年龄。
 - 用户已于 2026-09-12 明确判定 v002 合格并登记为 `OWNER_EXP_15_MOUTH_SLIGHTLY_OPEN_CANON_001`。该组件只定义上述三项同时出现的瞬时表情动作；可见身份、Hair A 和校准服装不因本次 Expression 批准取得新权威。
-- Expression 十五项当前完成 5/15；其余十项及完整 `owner_v1.0` 均未锁定。
+- Expression 十五项当前完成 8/15；其余七项及完整 `owner_v1.0` 均未锁定。
 
 ## 禁止写回规则
 
@@ -326,3 +351,11 @@ updated_at: "2026-09-12"
 | draft_0.61 | 2026-09-12 | 用户拒绝 EXP_04 v001 并补充稳定笑容特征：人物解剖学右侧（正面画面左侧）有自然轻微突出的虎牙，笑时出现自然酒窝/笑窝，`2.jpg` 正面画面右侧更清楚。v002 只从批准 Face、批准 Hair-A 与真人 `2.jpg` 平行重建，禁止输入 v001；同时排除婚纱妆容/精修、手、另一人物、服装与背景 | user identity correction incorporated |
 | draft_0.62 | 2026-09-12 | EXP_04 v002 已按修正后的三项平行参考生成；技术预检确认右侧虎牙方向正确、突出度自然克制，并出现轻微笑窝响应。候选继续为 `REVIEW_REQUIRED`，不自动写回为已批准 Expression Canon | corrected candidate generated; awaiting user review |
 | draft_0.63 | 2026-09-12 | 用户明确批准 EXP_04 v002 并要求登记；晋升为 `OWNER_EXP_04_SMILE_WITH_TEETH_CANON_001`，仅批准自然中等强度露齿笑、人物右侧虎牙的正确方向/自然显露、上排牙齿显露方式与笑时酒窝响应。Expression 完成 5/15，完整 owner_v1.0 仍未锁定 | user approved component |
+| draft_0.64 | 2026-09-13 | 用户授权继续生成 EXP_05 开心大笑；登记批准 Face、批准 Hair-A、真人 `DSC01015.JPG` 大笑动作与真人 `2.jpg` 虎牙/酒窝补充的四项隔离职责，目标明显强于 EXP_04 但排除尖叫、惊讶与漫画式狂笑，并禁止输入任何生成 Expression 图 | user generation authorization incorporated |
+| draft_0.65 | 2026-09-13 | EXP_05 v001 已从四项声明参考独立生成；技术预检确认自然开心大笑、适中张嘴、面颊/下眼睑联动、人物右侧虎牙方向及轻微笑窝响应，身份/发型/机位/校准服装保持。候选继续为 `REVIEW_REQUIRED` | candidate generated; awaiting user review |
+| draft_0.66 | 2026-09-13 | 用户要求继续下一项，EXP_05 保持未批准且不输入后续；授权 EXP_06 自然惊讶，以批准 Face、批准 Hair-A 与真人 `8.jpg` 三项隔离职责生成，排除盘发、托脸双手、针织衫、暖光和背景，禁止恐惧/尖叫/大笑及漫画式变形 | user generation authorization incorporated |
+| draft_0.67 | 2026-09-13 | EXP_06 v001 已从批准 Face、批准 Hair-A 与真人 `8.jpg` 独立生成；技术预检确认适度抬眉、眼睑打开、克制微张嘴和中性嘴角成立，无恐惧/尖叫/笑意及 L0 场景残留。候选继续为 `REVIEW_REQUIRED` | candidate generated; awaiting user review |
+| draft_0.68 | 2026-09-13 | 用户明确表示 EXP_06 审核通过并要求开始下一项；晋升为 `OWNER_EXP_06_SURPRISED_CANON_001`，仅批准自然适度抬眉、眼睑打开、克制微张嘴和警觉注视。Expression 完成 6/15，EXP_05 仍未批准，完整 owner_v1.0 未锁定 | user approved component and requested next asset |
+| draft_0.69 | 2026-09-13 | 用户授权生成 EXP_07 困惑/好奇；完整复核 L0 后确认无匹配真人表情源，登记该覆盖缺口并仅以批准 Face、批准 Hair-A 两项最小参考独立生成。目标限定为克制眉部不对称、疑问专注眼神与中性嘴部，禁止歪头、夸张单眉及向惊讶/恼怒/悲伤漂移，也禁止输入任何 Expression 生成图 | user next-candidate authorization incorporated; source-coverage gap recorded |
+| draft_0.70 | 2026-09-13 | EXP_07 v001 已从批准 Face 与批准 Hair-A 两项 Master 独立生成；技术预检确认克制眉部不对称、疑问专注眼神、中性闭嘴和正直头位成立，身份/发型/机位/校准服装保持。候选继续为 `REVIEW_REQUIRED`，不自动取得 Canon 资格 | candidate generated; awaiting user review |
+| draft_0.71 | 2026-09-13 | 用户明确批准 EXP_07，并追溯批准此前待审的 EXP_05；分别晋升为 `OWNER_EXP_07_CONFUSED_CURIOUS_CANON_001` 与 `OWNER_EXP_05_HAPPY_LAUGHING_CANON_001`。EXP_07 保留无匹配 L0 的覆盖限制；两项批准均只作用于声明的瞬时表情，不重定义永久身份。Expression 完成 8/15，完整 owner_v1.0 未锁定 | user approved two components |
