@@ -1,16 +1,20 @@
 # Canon Approval Record
 
-- approval_id: `APPROVAL_OWNER_EXP_15_MOUTH_SLIGHTLY_OPEN_001`
-- asset_id: `OWNER_EXP_15_MOUTH_SLIGHTLY_OPEN_CANON_001`
-- asset_path: `../OWNER_EXP_15_MOUTH_SLIGHTLY_OPEN_CANON_001.png`
+- approval_id: `APPROVAL_OWNER_EXP_13_MOUTH_SLIGHTLY_OPEN_001`
+- asset_id: `OWNER_EXP_13_MOUTH_SLIGHTLY_OPEN_CANON_001`
+- asset_path: `../OWNER_EXP_13_MOUTH_SLIGHTLY_OPEN_CANON_001.png`
 - proposed_level: `L1`
 - proposed_version: `owner_v1.0 component`
 - decision: `APPROVED`
 - approver: `user`
 - decision_date: `2026-09-12`
 - evidence/user_statement: “合格，登记”
-- source_candidate: `EXP_15_MOUTH_SLIGHTLY_OPEN_v002`
+- source_candidate: `EXP_13_MOUTH_SLIGHTLY_OPEN_v002`
 - source_checksum: `3be4734a2e019d569e5fcae4eabd886a5bbe7a27c12059830de9424a65c78d36`
+
+## Sequence renumbering
+
+On 2026-09-13, the user permanently retired the former standalone slight-frown and natural-eyes-closed plan items and directed this already-approved final compound expression to become item 13. Its former asset ID was `OWNER_EXP_15_MOUTH_SLIGHTLY_OPEN_CANON_001`. No regeneration or transcode occurred; the checksum remains unchanged. All 13 currently planned Expression components are approved, while the complete `owner_v1.0` release remains unlocked.
 
 ## Approved authoritative scope
 
@@ -33,9 +37,9 @@ Technical precheck confirmed the three user-defined actions simultaneously, with
 ## Promotion action
 
 - physical operation: `MOVE`, never `COPY`
-- original candidate path/checksum: `characters/CHR_HUMAN_001_OWNER/canon/expressions/candidates/EXP_15_MOUTH_SLIGHTLY_OPEN_v002/EXP_15_MOUTH_SLIGHTLY_OPEN_v002.png` / `3be4734a2e019d569e5fcae4eabd886a5bbe7a27c12059830de9424a65c78d36`
-- current approved path/checksum: `characters/CHR_HUMAN_001_OWNER/canon/expressions/approved/EXP_15_MOUTH_SLIGHTLY_OPEN/OWNER_EXP_15_MOUTH_SLIGHTLY_OPEN_CANON_001.png` / `3be4734a2e019d569e5fcae4eabd886a5bbe7a27c12059830de9424a65c78d36`
+- original candidate path/checksum: `characters/CHR_HUMAN_001_OWNER/canon/expressions/candidates/EXP_13_MOUTH_SLIGHTLY_OPEN_v002/EXP_13_MOUTH_SLIGHTLY_OPEN_v002.png` / `3be4734a2e019d569e5fcae4eabd886a5bbe7a27c12059830de9424a65c78d36`
+- current approved path/checksum: `characters/CHR_HUMAN_001_OWNER/canon/expressions/approved/EXP_13_MOUTH_SLIGHTLY_OPEN/OWNER_EXP_13_MOUTH_SLIGHTLY_OPEN_CANON_001.png` / `3be4734a2e019d569e5fcae4eabd886a5bbe7a27c12059830de9424a65c78d36`
 - candidate raster retained: `NO`
 - transcode: `none`
 
-This approval promotes only EXP_15. Fourteen Expression components remain pending, and the full `owner_v1.0` remains unlocked.
+This approval promotes only EXP_13. Fourteen Expression components remain pending, and the full `owner_v1.0` remains unlocked.

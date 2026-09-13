@@ -1,0 +1,18 @@
+asset_id: "EXP_12_SHY_v002"
+record_type: "PROMOTION_POINTER"
+approval_status: "APPROVED"
+pixel_storage_status: "MOVED_TO_CANON; CANDIDATE_RASTER_NOT_RETAINED"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/approved/EXP_12_SHY/OWNER_EXP_12_SHY_CANON_001.png"
+checksum_sha256: "73f46af06f851b92810d9e77013f23c2b96517f783714a9e8f43d924b943ab7b"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/candidates/EXP_12_SHY_v002/EXP_12_SHY_v002.png"
+original_candidate_checksum_sha256: "73f46af06f851b92810d9e77013f23c2b96517f783714a9e8f43d924b943ab7b"
+promoted_asset_id: "OWNER_EXP_12_SHY_CANON_001"
+promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/approved/EXP_12_SHY/OWNER_EXP_12_SHY_CANON_001.png"
+promoted_asset_checksum_sha256: "73f46af06f851b92810d9e77013f23c2b96517f783714a9e8f43d924b943ab7b"
+source_images: ["OWNER_FACE_01_FRONT_NEUTRAL_CANON_001", "OWNER_HAIR_A_01_FRONT_CANON_001", "L0_OWNER_011"]
+prohibited_pixel_inputs: ["EXP_12_SHY_v001"]
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/expressions/candidates/EXP_12_SHY_v002/generation_record.md"
+qa_record: "characters/CHR_HUMAN_001_OWNER/canon/expressions/candidates/EXP_12_SHY_v002/QA.md"
+approval_record: "characters/CHR_HUMAN_001_OWNER/canon/expressions/approved/EXP_12_SHY/approvals/APPROVAL_OWNER_EXP_12_SHY_001.md"
+promoted_at: "2026-09-13"
+notes: "v002 raster moved unchanged to its single approved Canon path after explicit user approval; v001 remains USER_REJECTED."

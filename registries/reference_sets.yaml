@@ -41,6 +41,11 @@ reference_sets:
     max_images: 1
     assets:
       - {asset_id: L0_OWNER_016, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/DSC01015.JPG"}
+  OWNER_L0_EXPRESSION_SHY_LIMITED:
+    purpose: "limited real-source support for shy transient motion only: slight downward/averted gaze, restrained closed-mouth small smile and natural soft-tissue direction; must not define identity, head angle, hand pose, wedding makeup, hairstyle, veil, clothing, skin tone, body, lighting or background"
+    max_images: 1
+    assets:
+      - {asset_id: L0_OWNER_011, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/13.jpg"}
   OWNER_HAIRSTYLE_A_L0:
     purpose: "HAIRSTYLE_A real-source hair design only: long straight loose hair, near-center part, face-framing panels and tapered ends"
     max_images: 1
@@ -124,13 +129,37 @@ reference_sets:
     source_coverage_limitation: "No matching sad/concerned L0 expression photograph; user-approved conservative design reconstruction."
     assets:
       - {asset_id: OWNER_EXP_09_SAD_CONCERNED_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/approved/EXP_09_SAD_CONCERNED/OWNER_EXP_09_SAD_CONCERNED_CANON_001.png"}
-  OWNER_EXPRESSION_15_MOUTH_SLIGHTLY_OPEN_CANON_L1:
-    purpose: "approved L1 Expression Master for the compound EXP_15 action only: natural frown, both eyes naturally closed, and restrained non-wide mouth opening; must not define permanent face, brow, eye, lip, nose, jaw/chin, skin, age, hairstyle, outfit, lighting or background"
+  OWNER_EXPRESSION_10_FOCUSED_SERIOUS_CANON_L1:
+    purpose: "approved L1 Expression Master for EXP_10 calm task-oriented focused/serious action only: steady direct gaze, extremely slight eyelid engagement, nearly neutral brows, naturally closed unpressed lips and relaxed jaw; generated without a matching L0 focused/serious photograph, and must not define permanent face/eye/brow/lip geometry, annoyance, anger, skin, age, hairstyle, outfit, lighting or background"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    source_coverage_limitation: "No matching focused/serious L0 expression photograph; user-approved conservative design reconstruction."
+    assets:
+      - {asset_id: OWNER_EXP_10_FOCUSED_SERIOUS_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/approved/EXP_10_FOCUSED_SERIOUS/OWNER_EXP_10_FOCUSED_SERIOUS_CANON_001.png"}
+  OWNER_EXPRESSION_11_ANGRY_CANON_L1:
+    purpose: "approved L1 Expression Master for EXP_11 clear but controlled angry action only: bilateral inward-downward inner brows, natural glabellar tension, moderately narrowed direct angry gaze, firmly closed pressed lips and mild jaw tension; generated without a matching L0 angry photograph, and must not define permanent face/eye/brow/lip/nose/jaw geometry, rage, violence, threat, skin, age, hairstyle, outfit, lighting or background"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    source_coverage_limitation: "No matching angry L0 expression photograph; user-approved conservative design reconstruction."
+    assets:
+      - {asset_id: OWNER_EXP_11_ANGRY_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/approved/EXP_11_ANGRY/OWNER_EXP_11_ANGRY_CANON_001.png"}
+  OWNER_EXPRESSION_12_SHY_CANON_L1:
+    purpose: "approved L1 Expression Master for EXP_12 restrained adult shy/bashful action only: modest downward head pitch, coherent downward side-averted gaze, subtle symmetric localized temporary cheek flush, slightly clearer closed-mouth small smile and gentle eyelid/cheek response; real L0 support was motion-scoped and must not define identity, permanent blush/skin tone, hairstyle, outfit, lighting or background"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    source_scope_limitation: "L0_OWNER_011 supplied only shy motion direction; its identity, pose, hand, wedding makeup, hairstyle, veil, clothing, background and lighting were excluded."
+    assets:
+      - {asset_id: OWNER_EXP_12_SHY_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/approved/EXP_12_SHY/OWNER_EXP_12_SHY_CANON_001.png"}
+  OWNER_EXPRESSION_13_MOUTH_SLIGHTLY_OPEN_CANON_L1:
+    purpose: "approved L1 Expression Master for the compound EXP_13 action only: natural frown, both eyes naturally closed, and restrained non-wide mouth opening; must not define permanent face, brow, eye, lip, nose, jaw/chin, skin, age, hairstyle, outfit, lighting or background"
     max_images: 1
     approval_status: "APPROVED"
     usable_for_generation: true
     assets:
-      - {asset_id: OWNER_EXP_15_MOUTH_SLIGHTLY_OPEN_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/approved/EXP_15_MOUTH_SLIGHTLY_OPEN/OWNER_EXP_15_MOUTH_SLIGHTLY_OPEN_CANON_001.png"}
+      - {asset_id: OWNER_EXP_13_MOUTH_SLIGHTLY_OPEN_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/approved/EXP_13_MOUTH_SLIGHTLY_OPEN/OWNER_EXP_13_MOUTH_SLIGHTLY_OPEN_CANON_001.png"}
   OWNER_HAIRSTYLE_B_L0:
     purpose: "HAIRSTYLE_B real-source hair design only: hairline, pulled-back front, face-framing strands and gathered updo relationship"
     max_images: 1

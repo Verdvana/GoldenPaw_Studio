@@ -4,7 +4,7 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.77
+revision: draft_0.90
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
 updated_at: "2026-09-13"
@@ -227,14 +227,14 @@ updated_at: "2026-09-13"
 
 - 用户于 2026-09-12 授权继续生成下一项 `EXP_02_SUBTLE_SMILE_v001`。
 - 目标只是在中性基线上让双侧嘴角轻微、自然地上扬，嘴唇保持闭合，不露齿，不升级为完整自然微笑。
-- 使用批准 FACE_01、批准 HAIR_A_01 与真人 `L0_OWNER_007` 平行生成；真人图只负责轻微笑意的软组织方向，不定义身份、牙齿、近摄透视、服装、发型、灯光或背景。EXP_01、EXP_15 和任何候选图均不作为像素输入。
+- 使用批准 FACE_01、批准 HAIR_A_01 与真人 `L0_OWNER_007` 平行生成；真人图只负责轻微笑意的软组织方向，不定义身份、牙齿、近摄透视、服装、发型、灯光或背景。EXP_01、EXP_13 和任何候选图均不作为像素输入。
 - `EXP_02_SUBTLE_SMILE_v001` 已按上述三项隔离职责生成，并于 2026-09-12 获用户明确批准、登记为 `OWNER_EXP_02_SUBTLE_SMILE_CANON_001`。批准只覆盖闭嘴无露齿、双侧嘴角轻微平衡上扬及最小自然面颊/下眼睑响应，不重新定义永久身份或其他可见属性。
 
 ## EXP_03 当前候选目标
 
 - 用户于 2026-09-12 授权继续生成下一项 `EXP_03_NATURAL_SMILE_v001`。
 - 目标为清晰自然、比 EXP_02 更明显但不过度的闭嘴微笑：双侧嘴角自然上扬，面颊适度抬起，下眼睑出现温和真实响应；不露齿、不张嘴，不升级成露齿笑或大笑。
-- 使用批准 FACE_01、批准 HAIR_A_01 与真人 `L0_OWNER_007` 平行生成；真人图只负责自然笑的软组织联动，不定义牙齿、永久身份、近摄透视、服装、发型、灯光或背景。EXP_01、EXP_02、EXP_15 和任何候选图均不作为像素输入。
+- 使用批准 FACE_01、批准 HAIR_A_01 与真人 `L0_OWNER_007` 平行生成；真人图只负责自然笑的软组织联动，不定义牙齿、永久身份、近摄透视、服装、发型、灯光或背景。EXP_01、EXP_02、EXP_13 和任何候选图均不作为像素输入。
 - `EXP_03_NATURAL_SMILE_v001` 已按上述三项隔离职责生成，并于 2026-09-12 获用户明确批准、登记为 `OWNER_EXP_03_NATURAL_SMILE_CANON_001`。批准只覆盖闭嘴无露齿、自然平衡的嘴角上扬、适度面颊抬起与温和下眼睑笑意，不重新定义永久身份或其他可见属性。
 
 ## EXP_04 当前候选目标
@@ -276,9 +276,9 @@ updated_at: "2026-09-13"
 
 - 用户于 2026-09-13 授权生成下一项 `EXP_08_MILDLY_ANNOYED_v001`。
 - 参考指南、完整 L0 清单与 `registries/reference_sets.yaml` 没有可靠的轻微不悦真人表情源；本候选保留该覆盖缺口，不用惊讶、笑容、闭眼或其他不匹配照片代替。
-- 只使用批准 FACE_01 与批准 HAIR_A_01 两项最小参考；前者负责永久正面身份，后者只负责 Hair A。EXP_01–07、EXP_15、任何其他生成 Expression、Body 与 Shot 图像均不得作为像素输入。
+- 只使用批准 FACE_01 与批准 HAIR_A_01 两项最小参考；前者负责永久正面身份，后者只负责 Hair A。EXP_01–07、EXP_13、任何其他生成 Expression、Body 与 Shot 图像均不得作为像素输入。
 - 目标为轻微、克制、日常可读的不悦：双侧内眉只小幅向内下方收紧，眼睑轻度收窄但不眯眼，视线直接且略显不耐；嘴唇自然闭合并轻微压紧，嘴角接近水平或仅极轻微下压。头部正直眼平。
-- 必须弱于明确愤怒；禁止明显怒视、强烈眉间沟、鼻翼扩张、皱鼻、咬牙、露齿、明显撇嘴、歪嘴、翻白眼、讥讽/轻蔑、厌恶、悲伤、专注用力或漫画式不悦。与 EXP_13 的区别是本项包含轻度眼睑收窄和压唇不耐感，而不是只有轻微眉间收紧。
+- 必须弱于明确愤怒；禁止明显怒视、强烈眉间沟、鼻翼扩张、皱鼻、咬牙、露齿、明显撇嘴、歪嘴、翻白眼、讥讽/轻蔑、厌恶、悲伤、专注用力或漫画式不悦。与已撤销的“轻微皱眉”设计相比，本项包含轻度眼睑收窄和压唇不耐感。
 - `EXP_08_MILDLY_ANNOYED_v001` 已按两项批准 Master 独立生成，并于 2026-09-13 获用户明确批准、登记为 `OWNER_EXP_08_MILDLY_ANNOYED_CANON_001`。批准只覆盖内眉小幅收紧、眼睑轻度收窄、克制不耐注视与轻微压唇，不重新定义永久身份；无匹配轻微不悦 L0 表情照片的覆盖限制永久保留。
 
 ## EXP_09 当前候选目标
@@ -290,22 +290,31 @@ updated_at: "2026-09-13"
 - 禁止眼泪、湿眼高光刻意强化、哭泣、抽泣、痛苦扭曲、眉毛高拱、额头深纹、嘴巴大张、噘嘴、儿童式委屈、惊讶、恐惧、恼怒、愤怒、专注、讥讽或漫画式悲伤；不得改变永久眉眼、嘴唇、下颌/下巴、肤色或年龄。
 - `EXP_09_SAD_CONCERNED_v001` 已按两项批准 Master 独立生成，并于 2026-09-13 获用户明确批准、登记为 `OWNER_EXP_09_SAD_CONCERNED_CANON_001`。批准只覆盖轻微内眉上提靠拢、柔和担忧注视、闭嘴嘴角轻微下垂及极小下巴张力，不重新定义永久身份；无匹配难过/担忧 L0 表情照片的覆盖限制永久保留。
 
-## EXP_10 当前候选目标
+## EXP_10 当前批准范围
 
 - 用户于 2026-09-13 在批准 EXP_09 后授权生成下一项 `EXP_10_FOCUSED_SERIOUS_v001`。
 - 当前 Reference Guide、完整 L0 清单与注册表没有专门、可靠的专注/认真真人表情源；本候选保留该覆盖缺口，不挪用不悦、惊讶、低头或笑容图。
 - 只使用批准 FACE_01 与批准 HAIR_A_01 两项最小参考；任何批准/未批准 Expression、Body 和 Shot 图像均不得作为像素输入。
 - 目标为平静、稳定、任务导向的专注认真：视线直接、稳定并聚焦；眼睑只极轻微收束但不眯眼；眉毛接近中性，仅允许极小幅度内聚或降低松弛度；嘴唇自然闭合而不压紧，嘴角和下颌保持放松中性。
-- 必须没有情绪性不悦：禁止内眉明显下压、怒视、压唇、嘴角下垂、鼻翼张力、皱鼻、咬牙、悲伤、担忧、惊讶、困惑、讥讽或漫画式“严肃脸”。与 EXP_08 的区别是本项没有不耐或压唇，与 EXP_13 的区别是本项不以明显皱眉为核心。
-- `EXP_10_FOCUSED_SERIOUS_v001` 已按两项批准 Master 独立生成；技术预检确认稳定直接注视、极轻眼睑收束、近中性眉毛、自然闭嘴与放松下颌成立，并与 EXP_08 的不耐压唇和 EXP_13 的明显皱眉区分。当前仍为 `REVIEW_REQUIRED`，不得作为下游参考。
+- 必须没有情绪性不悦：禁止内眉明显下压、怒视、压唇、嘴角下垂、鼻翼张力、皱鼻、咬牙、悲伤、担忧、惊讶、困惑、讥讽或漫画式“严肃脸”。与 EXP_08 的区别是本项没有不耐或压唇，与已撤销的“轻微皱眉”设计相比，本项不以明显皱眉为核心。
+- `EXP_10_FOCUSED_SERIOUS_v001` 已按两项批准 Master 独立生成，并于 2026-09-13 获用户明确批准、登记为 `OWNER_EXP_10_FOCUSED_SERIOUS_CANON_001`。批准仅覆盖稳定直接注视、极轻眼睑收束、近中性眉毛、自然闭嘴与放松下颌，并与 EXP_08 的不耐压唇及现已撤销的轻微皱眉设计区分。
 
-## EXP_15 当前反馈
+## EXP_13 当前批准范围
 
-- 用户拒绝 `EXP_15_MOUTH_SLIGHTLY_OPEN_v001` 的“平静微张嘴”定义；v001 不得成为下游参考或后续像素输入。
-- 第15项的用户指定表情为：皱眉、闭眼、嘴巴张开但不是大张。眉头通过自然肌肉张力向内下方收紧，双眼自然闭合，嘴部保持克制的中小幅度开启。
+- 用户拒绝 `EXP_13_MOUTH_SLIGHTLY_OPEN_v001` 的“平静微张嘴”定义；v001 不得成为下游参考或后续像素输入。
+- 当前第 13 项（原列表第 15 项）的用户指定表情为：皱眉、闭眼、嘴巴张开但不是大张。眉头通过自然肌肉张力向内下方收紧，双眼自然闭合，嘴部保持克制的中小幅度开启。
 - 该表情只允许眉间、眉头、眼睑、唇周和下颌产生瞬时软组织变化；不得改变头骨、眼睛永久形状、眉毛永久设计、鼻子、嘴唇永久几何、下颌/下巴比例、肤色或年龄。
-- 用户已于 2026-09-12 明确判定 v002 合格并登记为 `OWNER_EXP_15_MOUTH_SLIGHTLY_OPEN_CANON_001`。该组件只定义上述三项同时出现的瞬时表情动作；可见身份、Hair A 和校准服装不因本次 Expression 批准取得新权威。
-- Expression 十五项当前完成 10/15；EXP_10 为 `REVIEW_REQUIRED` 生成目标，其余四项与完整 `owner_v1.0` 均未锁定。
+- 用户已于 2026-09-12 明确判定 v002 合格并登记为 `OWNER_EXP_13_MOUTH_SLIGHTLY_OPEN_CANON_001`。该组件只定义上述三项同时出现的瞬时表情动作；可见身份、Hair A 和校准服装不因本次 Expression 批准取得新权威。
+- Expression 当前计划为十三项并已完成 13/13；原计划中的独立轻微皱眉和自然闭眼已由用户永久移除，原列表第 15 项复合表情现改编号为第 13 项。完整 `owner_v1.0` 仍未锁定。
+
+## POSE_01 当前候选目标
+
+- 用户于 2026-09-13 在 Expression 13/13 完成后授权生成下一项 `POSE_01_RELAXED_STANDING_v001`。
+- 候选只使用批准正面 Face、活动正面 Body 与批准正面 Hair-A 三项 Master 平行生成；不得输入任何 Expression、历史 Pose/Body 候选或 Shot 图像。
+- 目标为成年角色正面放松站立的技术性关节校准姿态：头颈中立、肩膀自然下沉、双臂沿身体两侧放松且肘部不锁死、手掌和手指自然松弛、骨盆中立、双腿自然承重、膝盖不过伸、双脚完整接地且不交叉。
+- 保持已批准的 168 cm / 60 kg、头身比、四肢长度、腰臀比、正面脸部身份与 Hairstyle-A；完整使用粉色高叉连体泳衣、连续覆盖至脚趾的 15D 肉色哑光/天鹅绒连裤丝袜并无鞋。
+- 本项只允许定义 Pose 铰接后的放松站姿，不重新定义永久脸部、身体比例、发型、Expression、校准服装设计、丝袜材质、灯光或背景；候选状态必须保持 `REVIEW_REQUIRED`。
+- 首次调用与一次压缩后的成年、非性感技术校准安全重试均在输出阶段被安全系统拦截，未产生任何图片；当前 `POSE_01` 状态为 `NO_OUTPUT_MODERATION_BLOCKED`，未批准且无可审核候选。停止继续改词重试，也不把现有 BODY_01 自动提升为 Pose Canon。
 
 ## 禁止写回规则
 
@@ -364,10 +373,10 @@ updated_at: "2026-09-13"
 | draft_0.47 | 2026-09-12 | 用户批准 BODY_06 背面 v001 为 `OWNER_BODY_06_BACK_CANON_001`；登记完整背面轮廓/深度、比例、头身朝向、接地、保守发型后落及本组件内丝袜表现。六个 Body 组件全部批准，Gate 4 开放，完整 owner_v1.0 仍未锁定 | user approved component |
 | draft_0.48 | 2026-09-12 | 用户确认 HAIR_A_01 正面 v001 除鼻部略大外其余方向可保持；将鼻部判定为候选漂移而非新身份事实，v002 必须回归批准 FACE_01 鼻部比例并修正发尾裁切，禁止使用 v001 像素 | user scoped review incorporated |
 | draft_0.49 | 2026-09-12 | 用户明确批准 `HAIR_A_01_FRONT_v002`；按单文件规则晋升为 `OWNER_HAIR_A_01_FRONT_CANON_001`，仅批准眼平标准正面 Hairstyle-A 的分缝、体积、长直披散发束、色调/高光、完整长度与渐细发尾，不取得脸部或其他发型角度权威。Hair A 完成 1/6，完整 owner_v1.0 仍未锁定 | user approved component |
-| draft_0.50 | 2026-09-12 | 用户拒绝 EXP_15 v001 并重定义第15项为皱眉、闭眼、嘴巴克制张开；登记瞬时眉间/眼睑/唇周/下颌运动范围，明确 v001 禁止作为 v002 像素输入且表情不得重定义永久脸部身份 | user correction incorporated |
-| draft_0.51 | 2026-09-12 | 用户判定 EXP_15 v002 合格并要求登记；晋升为 `OWNER_EXP_15_MOUTH_SLIGHTLY_OPEN_CANON_001`，仅批准皱眉、双眼闭合和嘴巴克制张开的复合瞬时表情，Expression 完成 1/15，完整 owner_v1.0 仍未锁定 | user approved component |
+| draft_0.50 | 2026-09-12 | 用户拒绝当时编号为 EXP_15 的 v001，并重定义第 15 项为皱眉、闭眼、嘴巴克制张开；登记瞬时眉间/眼睑/唇周/下颌运动范围，明确 v001 禁止作为 v002 像素输入且表情不得重定义永久脸部身份。该组件后来于 draft_0.88 改编号为 EXP_13 | user correction incorporated; later renumbered |
+| draft_0.51 | 2026-09-12 | 用户判定当时编号为 EXP_15 的 v002 合格并要求登记；仅批准皱眉、双眼闭合和嘴巴克制张开的复合瞬时表情，Expression 当时完成 1/15，完整 owner_v1.0 仍未锁定。该批准组件后来于 draft_0.88 无像素变更改编号为 `OWNER_EXP_13_MOUTH_SLIGHTLY_OPEN_CANON_001` | user approved component; later renumbered |
 | draft_0.52 | 2026-09-12 | 用户将 JPG 直接放入批准目录并要求登记为第一项 Expression；规范命名为 `OWNER_EXP_01_NEUTRAL_CANON_001`，仅批准放松眉眼、平静直视与自然闭嘴的中性表情，明确排除永久身份、Hair-A、服装、灯光和背景职责，并如实记录生成溯源未声明。Expression 完成 2/15 | user supplied and approved component |
-| draft_0.53 | 2026-09-12 | 用户授权生成下一项 `EXP_02_SUBTLE_SMILE_v001`；登记批准 Face、批准 Hair-A 和真人 `9.jpg` 的三项隔离职责，目标限定为闭嘴无露齿的双侧嘴角轻微上扬，并禁止使用 EXP_01、EXP_15 或任何候选图像串联 | user generation authorization incorporated |
+| draft_0.53 | 2026-09-12 | 用户授权生成下一项 `EXP_02_SUBTLE_SMILE_v001`；登记批准 Face、批准 Hair-A 和真人 `9.jpg` 的三项隔离职责，目标限定为闭嘴无露齿的双侧嘴角轻微上扬，并禁止使用 EXP_01、EXP_13 或任何候选图像串联 | user generation authorization incorporated |
 | draft_0.54 | 2026-09-12 | `EXP_02_SUBTLE_SMILE_v001` 已从三项声明参考独立生成；技术预检确认双侧嘴角轻微上扬、嘴唇闭合无露齿、笑意强度低于普通微笑，身份/发型/机位/校准服装保持。候选继续为 `REVIEW_REQUIRED`，不取得 Canon 或下游参考资格 | candidate generated; awaiting user review |
 | draft_0.55 | 2026-09-12 | 用户明确批准 `EXP_02_SUBTLE_SMILE_v001` 并要求登记；晋升为 `OWNER_EXP_02_SUBTLE_SMILE_CANON_001`，仅批准闭嘴无露齿、双侧嘴角轻微上扬及最小自然面颊/下眼睑响应。Expression 完成 3/15，完整 owner_v1.0 仍未锁定 | user approved component |
 | draft_0.56 | 2026-09-12 | 用户授权生成下一项 `EXP_03_NATURAL_SMILE_v001`；登记批准 Face、批准 Hair-A 与真人 `9.jpg` 的三项隔离职责，目标为强于 EXP_02 但仍自然克制的闭嘴无露齿微笑，并禁止输入任何已生成 Expression 图像 | user generation authorization incorporated |
@@ -386,9 +395,22 @@ updated_at: "2026-09-13"
 | draft_0.69 | 2026-09-13 | 用户授权生成 EXP_07 困惑/好奇；完整复核 L0 后确认无匹配真人表情源，登记该覆盖缺口并仅以批准 Face、批准 Hair-A 两项最小参考独立生成。目标限定为克制眉部不对称、疑问专注眼神与中性嘴部，禁止歪头、夸张单眉及向惊讶/恼怒/悲伤漂移，也禁止输入任何 Expression 生成图 | user next-candidate authorization incorporated; source-coverage gap recorded |
 | draft_0.70 | 2026-09-13 | EXP_07 v001 已从批准 Face 与批准 Hair-A 两项 Master 独立生成；技术预检确认克制眉部不对称、疑问专注眼神、中性闭嘴和正直头位成立，身份/发型/机位/校准服装保持。候选继续为 `REVIEW_REQUIRED`，不自动取得 Canon 资格 | candidate generated; awaiting user review |
 | draft_0.71 | 2026-09-13 | 用户明确批准 EXP_07，并追溯批准此前待审的 EXP_05；分别晋升为 `OWNER_EXP_07_CONFUSED_CURIOUS_CANON_001` 与 `OWNER_EXP_05_HAPPY_LAUGHING_CANON_001`。EXP_07 保留无匹配 L0 的覆盖限制；两项批准均只作用于声明的瞬时表情，不重定义永久身份。Expression 完成 8/15，完整 owner_v1.0 未锁定 | user approved two components |
-| draft_0.72 | 2026-09-13 | 用户授权生成 EXP_08 轻微不悦；登记无匹配 L0 表情源的覆盖缺口，仅用批准 Face 与批准 Hair-A 两项 Master 独立生成。目标限定为小幅内眉张力、轻度眼睑收窄、克制不耐注视和轻微压唇，明确弱于愤怒并与专注/轻微皱眉分离；禁止输入任何生成 Expression 图 | user next-candidate authorization incorporated; source-coverage gap recorded |
+| draft_0.72 | 2026-09-13 | 用户授权生成 EXP_08 轻微不悦；登记无匹配 L0 表情源的覆盖缺口，仅用批准 Face 与批准 Hair-A 两项 Master 独立生成。目标限定为小幅内眉张力、轻度眼睑收窄、克制不耐注视和轻微压唇，明确弱于愤怒，并与专注及后来撤销的独立轻微皱眉设计分离；禁止输入任何生成 Expression 图 | user next-candidate authorization incorporated; source-coverage gap recorded |
 | draft_0.73 | 2026-09-13 | EXP_08 v001 已从批准 Face 与批准 Hair-A 两项 Master 独立生成；技术预检确认轻微不悦的眉眼/压唇组合成立且强度克制，身份、Hair-A、机位与校准服装保持。候选继续为 `REVIEW_REQUIRED`，不自动取得 Canon 资格 | candidate generated; awaiting user review |
 | draft_0.74 | 2026-09-13 | 用户批准 EXP_08 并授权下一项；EXP_08 晋升为 `OWNER_EXP_08_MILDLY_ANNOYED_CANON_001`，批准范围限定为低强度轻微不悦并保留无匹配 L0 的来源限制。登记 EXP_09 难过/担忧目标与无匹配 L0 覆盖缺口，仅用批准 Face 与 Hair-A 独立生成，限定轻微内眉上提靠拢、柔和担忧注视、闭嘴嘴角轻微下垂和极小下巴张力 | user approved component and authorized next candidate |
 | draft_0.75 | 2026-09-13 | EXP_09 v001 已从批准 Face 与批准 Hair-A 两项 Master 独立生成；技术预检确认克制难过/担忧的眉眼、嘴角与下巴软组织响应成立，无哭泣或漫画夸张，身份、Hair-A、机位与校准服装保持。候选继续为 `REVIEW_REQUIRED`，不自动取得 Canon 资格 | candidate generated; awaiting user review |
-| draft_0.76 | 2026-09-13 | 用户批准 EXP_09 并授权下一项；EXP_09 晋升为 `OWNER_EXP_09_SAD_CONCERNED_CANON_001` 并保留无匹配 L0 的来源限制。登记 EXP_10 专注/认真目标与专门 L0 覆盖缺口，仅用批准 Face 与 Hair-A 独立生成；限定稳定直接注视、极轻眼睑收束、近中性眉毛和放松闭嘴，明确排除 EXP_08 式不耐压唇及 EXP_13 式明显皱眉 | user approved component and authorized next candidate |
+| draft_0.76 | 2026-09-13 | 用户批准 EXP_09 并授权下一项；EXP_09 晋升为 `OWNER_EXP_09_SAD_CONCERNED_CANON_001` 并保留无匹配 L0 的来源限制。登记 EXP_10 专注/认真目标与专门 L0 覆盖缺口，仅用批准 Face 与 Hair-A 独立生成；限定稳定直接注视、极轻眼睑收束、近中性眉毛和放松闭嘴，明确排除 EXP_08 式不耐压唇及后来撤销的独立轻微皱眉设计 | user approved component and authorized next candidate |
 | draft_0.77 | 2026-09-13 | EXP_10 v001 已从批准 Face 与 Hair-A 两项 Master 独立生成；技术预检确认稳定专注注视、极轻眼睑参与、近中性眉毛与放松闭嘴成立，无不悦压唇或明显皱眉。候选保持 `REVIEW_REQUIRED` | candidate generated; awaiting user review |
+| draft_0.78 | 2026-09-13 | 用户授权生成 EXP_11 明确愤怒；EXP_10 保持未批准且不输入后续。现有 L0 无可靠愤怒源，登记覆盖缺口并仅用批准 Face 与 Hair-A 两项 Master；瞬时动作限定为明确但受控的内眉内下收紧、自然眉间张力、收窄直接注视、闭嘴压唇及轻度下颌张力，排除暴怒、吼叫、露齿、仇恨威胁感和永久脸部几何改变 | user next-candidate authorization incorporated; source-coverage gap recorded |
+| draft_0.79 | 2026-09-13 | EXP_11 v001 已从批准 Face 与 Hair-A 两项 Master 独立生成；技术预检确认明确但受控的愤怒眉眼、闭嘴压唇和轻度下颌张力成立，强于轻微不悦且无暴怒/吼叫/威胁化。身份、发型、机位与校准服装保持，候选继续为 `REVIEW_REQUIRED` | candidate generated; awaiting user review |
+| draft_0.80 | 2026-09-13 | 用户明确确认 EXP_10 与 EXP_11 均合格并要求一起登记；分别晋升为 `OWNER_EXP_10_FOCUSED_SERIOUS_CANON_001` 与 `OWNER_EXP_11_ANGRY_CANON_001`。两项只取得各自瞬时表情动作权威并保留无匹配 L0 的来源限制，不重定义永久脸部或发型。Expression 完成 12/15，完整 `owner_v1.0` 未锁定 | user approved two components |
+| draft_0.81 | 2026-09-13 | 用户授权生成 EXP_12 害羞；登记真人 `13.jpg` 仅提供轻微下移/回避目光、克制闭嘴小笑与害羞软组织方向，排除其低头转面、手势、婚纱妆容、服装、发型、背景、肤色与永久身份。候选保持正直眼平头位，仅允许极轻暂时性面颊暖意，禁止明显腮红或永久肤色改变，并禁止输入任何生成 Expression 图 | user next-candidate authorization incorporated; limited L0 expression scope registered |
+| draft_0.82 | 2026-09-13 | EXP_12 v001 已从批准 Face、批准 Hair-A 与受限真人 `13.jpg` 独立生成；技术预检确认正直头位下的轻微侧下回避目光、克制闭嘴小笑与柔和眼睑/面颊响应成立，无手势、歪头、明显腮红或婚纱场景残留。永久身份、发型和肤色保持，候选为 `REVIEW_REQUIRED` | candidate generated; awaiting user review |
+| draft_0.83 | 2026-09-13 | 用户拒绝 EXP_12 v001 并要求 v002 头部适度低下一些、脸颊出现轻微自然局部泛红、闭嘴笑意略增强。v001 禁止作为像素输入或下游参考；v002 继续从批准 Face、Hair-A 与受限真人 `13.jpg` 平行重建，泛红只属于瞬时害羞反应，不改变永久肤色 | user scoped rejection and regeneration authorization incorporated |
+| draft_0.84 | 2026-09-13 | EXP_12 v002 已从批准 Face、Hair-A 与受限真人 `13.jpg` 独立生成，未输入 v001；技术预检确认适度低头、侧下回避目光、轻微对称局部泛红及略增强的闭嘴笑意同时成立，且基础肤色、永久身份与 Hair-A 保持。候选为 `REVIEW_REQUIRED` | corrected candidate generated; awaiting user review |
+| draft_0.85 | 2026-09-13 | 用户明确确认 EXP_12 v002 合格；晋升为 `OWNER_EXP_12_SHY_CANON_001`，仅批准适度低头、侧下回避目光、轻微局部暂时性泛红和克制闭嘴笑意等瞬时害羞动作，不定义永久肤色或脸部身份。v001 保持拒绝。Expression 完成 13/15，完整 `owner_v1.0` 未锁定 | user approved corrected component |
+| draft_0.86 | 2026-09-13 | 用户曾授权生成当时原第 13 项的独立轻微皱眉候选；现有 L0 无可靠匹配源，仅用批准 Face 与 Hair-A 独立生成。该计划项后来于 draft_0.88 被用户永久撤销 | historical generation authorization; later retired by user |
+| draft_0.87 | 2026-09-13 | 当时原第 13 项独立轻微皱眉候选曾通过技术预检但从未获批；其候选图与记录后来于 draft_0.88 按用户要求删除，始终不具备下游参考资格 | historical unapproved candidate; later deleted by user |
+| draft_0.88 | 2026-09-13 | 用户永久移除独立“轻微皱眉”和“自然闭眼”两项；轻微皱眉未批准候选及记录已删除，自然闭眼从未生成。原列表第 15 项已批准复合表情无重生成改编号为 `EXP_13_MOUTH_SLIGHTLY_OPEN` / `OWNER_EXP_13_MOUTH_SLIGHTLY_OPEN_CANON_001`，像素校验值不变。Expression 计划缩减并完成为 13/13，完整 `owner_v1.0` 未锁定 | user retired two assets and renumbered approved component |
+| draft_0.89 | 2026-09-13 | 用户授权开始 `POSE_01_RELAXED_STANDING_v001`；固定批准正面 Face、活动正面 Body 与批准正面 Hair-A 三项并行来源，目标为保持 168 cm / 60 kg、身份、发型、校准服装和连续 15D 丝袜的正面放松站姿。Pose 只定义自然承重与关节松弛，不重定义永久身体或其他属性，状态 `REVIEW_REQUIRED` | user next-asset authorization incorporated |
+| draft_0.90 | 2026-09-13 | POSE_01 首次调用及一次成年、非性感技术校准安全重试均在输出阶段被 sexual 类别拦截，无候选图片产生。停止继续改词重试；POSE_01 保持未生成、未批准，现有 BODY_01 不自动取得 Pose 权威 | generation blocked; no output |

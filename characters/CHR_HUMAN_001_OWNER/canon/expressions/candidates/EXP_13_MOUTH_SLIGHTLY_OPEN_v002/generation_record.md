@@ -1,12 +1,14 @@
-# EXP_15_MOUTH_SLIGHTLY_OPEN_v002 — Generation Record
+# EXP_13_MOUTH_SLIGHTLY_OPEN_v002 — Generation Record
 
 ```yaml
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
 spec_revision: draft_1.62
 identity_md_revision: draft_0.50
-asset_id: EXP_15_MOUTH_SLIGHTLY_OPEN
-candidate_id: EXP_15_MOUTH_SLIGHTLY_OPEN_v002
+asset_id: EXP_13_MOUTH_SLIGHTLY_OPEN
+candidate_id: EXP_13_MOUTH_SLIGHTLY_OPEN_v002
+former_candidate_id: EXP_15_MOUTH_SLIGHTLY_OPEN_v002
+renumbered_at: "2026-09-13"
 gate: "Gate 5 — Expression Canon (explicit user-authorized out-of-order candidate)"
 model_tool: "built-in image_gen"
 status: APPROVED_PROMOTION_SOURCE
@@ -20,17 +22,17 @@ reference_set_ids:
 reference_count: 2
 previous_ai_expression_candidate_count: 0
 seed_settings: "built-in image_gen; seed and detailed settings may not be returned"
-output_path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/candidates/EXP_15_MOUTH_SLIGHTLY_OPEN_v002/EXP_15_MOUTH_SLIGHTLY_OPEN_v002.png"
+output_path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/candidates/EXP_13_MOUTH_SLIGHTLY_OPEN_v002/EXP_13_MOUTH_SLIGHTLY_OPEN_v002.png"
 checksum_sha256: "3be4734a2e019d569e5fcae4eabd886a5bbe7a27c12059830de9424a65c78d36"
 pixel_storage_status: "MOVED_TO_CANON; CANDIDATE_RASTER_NOT_RETAINED"
-current_promoted_path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/approved/EXP_15_MOUTH_SLIGHTLY_OPEN/OWNER_EXP_15_MOUTH_SLIGHTLY_OPEN_CANON_001.png"
+current_promoted_path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/approved/EXP_13_MOUTH_SLIGHTLY_OPEN/OWNER_EXP_13_MOUTH_SLIGHTLY_OPEN_CANON_001.png"
 current_promoted_checksum_sha256: "3be4734a2e019d569e5fcae4eabd886a5bbe7a27c12059830de9424a65c78d36"
 qa_status: PASS_USER_APPROVED
 ```
 
 ## Authorization and lineage
 
-The user rejected v001 and explicitly corrected the EXP_15 design. v002 is a fresh parallel generation from the two approved scoped Masters listed below. No v001 pixels, previous Expression candidate, failed image, shot image, Body image, Hairstyle-B image or L0 expression image is supplied. Only the user's corrected written expression definition carries forward.
+The user rejected v001 and explicitly corrected this final compound-expression design. It was originally numbered 15 and was later renumbered to 13 after two intervening plan items were retired; its pixels were not changed. v002 is a fresh parallel generation from the two approved scoped Masters listed below. No v001 pixels, previous Expression candidate, failed image, shot image, Body image, Hairstyle-B image or L0 expression image is supplied. Only the user's corrected written expression definition carries forward.
 
 ## Reference budget and responsibility plan
 
@@ -48,14 +50,14 @@ The user rejected v001 and explicitly corrected the EXP_15 design. v002 is a fre
 
 ## Candidate authority
 
-- authoritative_for: EXP_15 transient expression only—natural frown, naturally closed eyes, and a restrained non-wide mouth opening.
+- authoritative_for: EXP_13 transient expression only—natural frown, naturally closed eyes, and a restrained non-wide mouth opening.
 - must_not_define: permanent brow/eye/lip shape, teeth design, skull, nose, jaw/chin identity, skin tone, age, Hair-A design beyond its approved source, body, outfit, lighting or background.
 
 ## Prompt assembly
 
 ```text
 Use case: identity-preserve.
-Asset type: L1 character-expression calibration candidate `EXP_15_MOUTH_SLIGHTLY_OPEN_v002` for one adult woman; exactly one image; status REVIEW_REQUIRED. Generate independently from the two approved Masters and do not use any v001 pixels.
+Asset type: L1 character-expression calibration candidate `EXP_13_MOUTH_SLIGHTLY_OPEN_v002` for one adult woman; exactly one image; status REVIEW_REQUIRED. Generate independently from the two approved Masters and do not use any v001 pixels.
 
 Image 1 is the sole facial-identity authority. Preserve exactly the same recognizable adult person, frontal skull/face proportions, eye spacing and permanent eye shape, permanent brow design, nose bridge/tip/alar proportions, permanent upper/lower lip geometry and color, rounded jaw/chin relationship, skin tone and age. Image 2 is hair-only authority. Preserve its approved front Hairstyle A: short near-center part, controlled low-to-moderate crown, long straight loose dark-brown face-framing panels, restrained highlights, fine strands and tapered length. Image 2 must not influence face or expression.
 
@@ -77,4 +79,4 @@ Composition: squarely front-facing at true eye level, neutral upright head, leve
 
 ## User approval
 
-On 2026-09-12 the user stated: “合格，登记”. v002 was moved unchanged to the unique approved path and registered as `OWNER_EXP_15_MOUTH_SLIGHTLY_OPEN_CANON_001`. Approval covers only the compound transient expression—natural frown, both eyes naturally closed, and a restrained non-wide mouth opening. It does not grant permanent face, hair, outfit, lighting, background or full-release authority.
+On 2026-09-12 the user stated: “合格，登记”. v002 was moved unchanged to the unique approved path and registered as `OWNER_EXP_13_MOUTH_SLIGHTLY_OPEN_CANON_001`. Approval covers only the compound transient expression—natural frown, both eyes naturally closed, and a restrained non-wide mouth opening. It does not grant permanent face, hair, outfit, lighting, background or full-release authority.

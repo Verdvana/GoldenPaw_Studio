@@ -1,7 +1,7 @@
-# EXP_15_MOUTH_SLIGHTLY_OPEN_v002 — QA
+# EXP_13_MOUTH_SLIGHTLY_OPEN_v002 — QA
 
-- asset_id: `EXP_15_MOUTH_SLIGHTLY_OPEN`
-- candidate_id: `EXP_15_MOUTH_SLIGHTLY_OPEN_v002`
+- asset_id: `EXP_13_MOUTH_SLIGHTLY_OPEN`
+- candidate_id: `EXP_13_MOUTH_SLIGHTLY_OPEN_v002`
 - asset_level: L1 candidate
 - reviewer: AI technical precheck; user approval required
 - review_date: 2026-09-12

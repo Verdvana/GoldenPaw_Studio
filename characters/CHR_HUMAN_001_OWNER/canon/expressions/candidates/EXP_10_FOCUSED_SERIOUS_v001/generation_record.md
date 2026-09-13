@@ -9,8 +9,8 @@ asset_id: EXP_10_FOCUSED_SERIOUS
 candidate_id: EXP_10_FOCUSED_SERIOUS_v001
 gate: "Gate 5 — Expression Canon (explicit user-authorized next candidate)"
 model_tool: "built-in image_gen"
-status: REVIEW_REQUIRED
-approval_status: REVIEW_REQUIRED
+status: APPROVED_PROMOTION_SOURCE
+approval_status: APPROVED
 aspect_ratio: "3:4"
 preferred_resolution: "1536x2048"
 actual_resolution: "1086x1448"
@@ -23,7 +23,10 @@ previous_ai_expression_candidate_count: 0
 seed_settings: "built-in image_gen; seed and detailed settings may not be returned"
 output_path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/candidates/EXP_10_FOCUSED_SERIOUS_v001/EXP_10_FOCUSED_SERIOUS_v001.png"
 checksum_sha256: "6e4a34c690a856751b343710a144e8c60ede10bc0cf5819f398f2f2fb79930d4"
-qa_status: PASS_TECHNICAL_PRECHECK
+pixel_storage_status: "MOVED_TO_CANON; CANDIDATE_RASTER_NOT_RETAINED"
+current_promoted_path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/approved/EXP_10_FOCUSED_SERIOUS/OWNER_EXP_10_FOCUSED_SERIOUS_CANON_001.png"
+current_promoted_checksum_sha256: "6e4a34c690a856751b343710a144e8c60ede10bc0cf5819f398f2f2fb79930d4"
+qa_status: PASS_USER_APPROVED
 ```
 
 ## Authorization and lineage
@@ -78,4 +81,8 @@ Composition: squarely front-facing at true eye level, neutral upright head and l
 - built_in_output: `/home/verdvana/.codex/generated_images/01a095f8-d792-7540-92a2-d60cb9777c57/exec-90987e7d-4b55-4416-9176-f320c54ff935.png` (temporary default duplicate removed after checksum-verified project transfer)
 - project_candidate_checksum_sha256: `6e4a34c690a856751b343710a144e8c60ede10bc0cf5819f398f2f2fb79930d4`
 - technical_precheck: PASS. The gaze is direct, stable and attentive; approved almond-eye geometry is retained with only extremely slight lid engagement. Brows remain nearly neutral without a visible frown. Lips are naturally closed with soft contact, level corners and a relaxed jaw. The result reads as calm task-oriented seriousness without impatience, anger, sadness, worry, surprise, confusion, suspicion, scowl or sarcasm. It is distinct from EXP_08 because there is no annoyed lid tension or lip pressure, and distinct from EXP_13 because brow-frowning is not the core action. Approved front identity, Hair-A, upright eye-level composition, neutral studio and visible pink Calibration Outfit upper portion remain consistent. No hands, props, text, watermark or multiple views appear.
-- promotion_status: not promoted; explicit user approval required
+- promotion_status: promoted unchanged after explicit user approval
+
+## User approval
+
+On 2026-09-13 the user stated: “ok,11合格，10也合格，一起登记”. The candidate PNG was moved unchanged to the unique approved path and registered as `OWNER_EXP_10_FOCUSED_SERIOUS_CANON_001`. Approval covers only the transient calm focused/serious action: steady direct gaze, extremely slight eyelid engagement, nearly neutral brows, naturally closed unpressed lips and relaxed jaw. It does not grant permanent face, hair, outfit, lighting, background or full-release authority.

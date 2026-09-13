@@ -31,7 +31,7 @@ qa_status: PASS_USER_APPROVED
 
 ## Authorization and lineage
 
-The user requested generation of the next planned Expression component after EXP_01, which is `EXP_02_SUBTLE_SMILE`. This is one new candidate only. It is reconstructed in parallel from the scoped approved identity and hair Masters plus one real L0 soft-tissue reference. No EXP_01, EXP_15, prior Expression candidate, failed image, Body image or shot image is supplied.
+The user requested generation of the next planned Expression component after EXP_01, which is `EXP_02_SUBTLE_SMILE`. This is one new candidate only. It is reconstructed in parallel from the scoped approved identity and hair Masters plus one real L0 soft-tissue reference. No EXP_01, EXP_13, prior Expression candidate, failed image, Body image or shot image is supplied.
 
 ## Reference budget and responsibility plan
 

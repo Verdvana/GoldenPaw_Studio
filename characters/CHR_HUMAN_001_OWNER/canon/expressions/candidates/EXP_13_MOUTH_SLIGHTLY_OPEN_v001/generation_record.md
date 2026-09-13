@@ -1,12 +1,14 @@
-# EXP_15_MOUTH_SLIGHTLY_OPEN_v001 — Generation Record
+# EXP_13_MOUTH_SLIGHTLY_OPEN_v001 — Generation Record
 
 ```yaml
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
 spec_revision: draft_1.60
 identity_md_revision: draft_0.49
-asset_id: EXP_15_MOUTH_SLIGHTLY_OPEN
-candidate_id: EXP_15_MOUTH_SLIGHTLY_OPEN_v001
+asset_id: EXP_13_MOUTH_SLIGHTLY_OPEN
+candidate_id: EXP_13_MOUTH_SLIGHTLY_OPEN_v001
+former_candidate_id: EXP_15_MOUTH_SLIGHTLY_OPEN_v001
+renumbered_at: "2026-09-13"
 gate: "Gate 5 — Expression Canon (explicit user-authorized out-of-order candidate)"
 model_tool: "built-in image_gen"
 status: USER_REJECTED
@@ -20,14 +22,14 @@ reference_set_ids:
 reference_count: 2
 previous_ai_expression_candidate_count: 0
 seed_settings: "built-in image_gen; seed and detailed settings may not be returned"
-output_path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/candidates/EXP_15_MOUTH_SLIGHTLY_OPEN_v001/EXP_15_MOUTH_SLIGHTLY_OPEN_v001.png"
+output_path: "characters/CHR_HUMAN_001_OWNER/canon/expressions/candidates/EXP_13_MOUTH_SLIGHTLY_OPEN_v001/EXP_13_MOUTH_SLIGHTLY_OPEN_v001.png"
 checksum_sha256: "54b5c0fdd5e8aae89e1bb488914a21d3fd65b65fa5d42e154b747757bdddd6a4"
 qa_status: FAIL_USER_DEFINITION_MISMATCH
 ```
 
 ## Authorization and lineage
 
-The user explicitly requested that the final planned Expression asset be generated out of order. This does not mark Gate 4 complete or Gate 5 open as a whole. The candidate is constructed in parallel from two approved scoped L1 Masters; no previous Expression candidate, failed image, shot image, Body image, Hairstyle-B image or L0 expression image is supplied. The approved Face Master remains facial-identity authority; the approved Hair-A front Master supplies only the already approved front hairstyle attributes.
+The user explicitly requested that the final planned Expression asset be generated out of order. It was originally numbered 15 and was later renumbered to 13 after two intervening plan items were retired; its pixels were not changed. This does not mark Gate 4 complete or Gate 5 open as a whole. The candidate is constructed in parallel from two approved scoped L1 Masters; no previous Expression candidate, failed image, shot image, Body image, Hairstyle-B image or L0 expression image is supplied. The approved Face Master remains facial-identity authority; the approved Hair-A front Master supplies only the already approved front hairstyle attributes.
 
 ## Reference budget and responsibility plan
 
@@ -46,14 +48,14 @@ The user explicitly requested that the final planned Expression asset be generat
 
 ## Candidate authority
 
-- authoritative_for: `EXP_15_MOUTH_SLIGHTLY_OPEN` only — a subtle, relaxed natural lip separation with minimal jaw opening and anatomically plausible soft-tissue response.
+- authoritative_for: `EXP_13_MOUTH_SLIGHTLY_OPEN` only — a subtle, relaxed natural lip separation with minimal jaw opening and anatomically plausible soft-tissue response.
 - must_not_define: permanent lip shape, teeth design, skull, nose, eye geometry, brow design, jaw/chin identity, skin tone, age, Hairstyle-A design beyond the approved front scope, body, outfit, lighting or background.
 
 ## Prompt assembly
 
 ```text
 Use case: identity-preserve.
-Asset type: L1 character-expression calibration candidate `EXP_15_MOUTH_SLIGHTLY_OPEN_v001` for one adult woman; one image only; status REVIEW_REQUIRED.
+Asset type: L1 character-expression calibration candidate `EXP_13_MOUTH_SLIGHTLY_OPEN_v001` for one adult woman; one image only; status REVIEW_REQUIRED.
 
 Input images: Image 1 is the sole facial-identity authority: `OWNER_FACE_FRONT_NEUTRAL_CANON_L1`. Preserve exactly the same recognizable adult person, frontal skull and face proportions, natural eye shape and spacing, relaxed brow shape, nose bridge/tip/alar proportions, permanent lip shape and color, rounded jaw/chin relationship, skin tone and age. Image 2 is hair-only authority: `OWNER_HAIR_A_FRONT_CANON_L1`. Preserve its approved Hairstyle A front attributes—short near-center part, controlled low-to-moderate crown, long straight loose dark-brown face-framing panels, restrained highlights, believable fine strands, complete below-chest length and tapered ends. Image 2 must not influence face, nose, skin, expression, lips or jaw.
 
@@ -77,4 +79,4 @@ Constraints: expression alone may change from Image 1. Preserve identity, nose s
 
 ## User rejection
 
-On 2026-09-12 the user rejected v001 because the planned expression definition was wrong. The correct EXP_15 requirement is a compound expression: frowning, eyes closed, and mouth open without being wide open. v001 remains a rejected provenance artifact and must not be supplied as pixels to v002 or any downstream generation.
+On 2026-09-12 the user rejected v001 because the planned expression definition was wrong. The correct EXP_13 requirement is a compound expression: frowning, eyes closed, and mouth open without being wide open. v001 remains a rejected provenance artifact and must not be supplied as pixels to v002 or any downstream generation.
