@@ -19,6 +19,8 @@ format_derivation:
 generation_record: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/generation_record.md"
 approval_status: "APPROVED"
 approval_record: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/approvals/APPROVAL_OWNER_BODY_01_FRONT_002.md"
+additional_approval_records:
+  - "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_01_RELAXED_STANDING/approvals/APPROVAL_OWNER_POSE_01_RELAXED_STANDING_REUSE_001.md"
 lock_status: "UNLOCKED_COMPONENT"
 authoritative_for:
   - "owner 168 cm / 60 kg physical target for other character assets and shot/video-frame image generation"
@@ -27,6 +29,7 @@ authoritative_for:
   - "owner front shoulder-torso-waist-hip geometry and waist/hip ratio"
   - "owner front arm, leg and foot proportions"
   - "owner straight lower-leg alignment and neutral square front stance"
+  - "POSE_01_RELAXED_STANDING front-view neutral relaxed-standing articulation, by explicit user-approved reuse"
   - "15D matte nude hosiery appearance only"
 must_not_define:
   - "calibration outfit design outside this component"
@@ -53,4 +56,4 @@ appearance:
 quality_status: "APPROVED_L1_COMPONENT"
 checksum_sha256: "964c3b9d72c6688881b8ebfa4c6fc1bcfea04c998351352fabfdc8f4951666f6"
 approved_at: "2026-09-11"
-notes: "Current active front Body Canon component. User-transcoded from the approved PNG to this JPG; the PNG was deleted and only its checksum remains as provenance. Its approved scope is unchanged. OWNER_BODY_01_FRONT_CANON_001 is superseded. Full owner_v1.0 remains unlocked."
+notes: "Current active front Body Canon component. User-transcoded from the approved PNG to this JPG; the PNG was deleted and only its checksum remains as provenance. The same unique raster was later explicitly approved for the visible POSE_01_RELAXED_STANDING articulation without duplication. OWNER_BODY_01_FRONT_CANON_001 is superseded. Full owner_v1.0 remains unlocked."

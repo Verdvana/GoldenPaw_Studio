@@ -183,6 +183,32 @@ reference_sets:
     usable_for_generation: true
     assets:
       - {asset_id: OWNER_BODY_01_FRONT_CANON_002, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg"}
+  OWNER_POSE_01_RELAXED_STANDING_CANON_L1:
+    purpose: "explicitly approved Pose-01 reuse of the unique OWNER_BODY_01_FRONT_CANON_002 raster: front neutral relaxed-standing articulation only; must not define other poses, articulated side/rear geometry, episode performance, or broader material authority"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_BODY_01_FRONT_CANON_002, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg"}
+  OWNER_POSE_02_WALKING_NEUTRAL_STRIDE_CANON_L1:
+    purpose: "approved L1 Pose Master for neutral front-facing walking articulation, reciprocal arm-leg gait and dynamic floor contact only; must not define permanent identity/body geometry, other poses, garment/material authority, lighting or background"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_POSE_02_WALKING_NEUTRAL_STRIDE_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_02_WALKING_NEUTRAL_STRIDE/OWNER_POSE_02_WALKING_NEUTRAL_STRIDE_CANON_001.png"}
+  OWNER_POSE_03_SEATED_UPRIGHT_CANON_L1:
+    purpose: "approved L1 Pose Master for front upright seated articulation, centered pelvis/vertical torso, near-90-degree hip-knee flexion, vertical lower legs, flat feet and relaxed hands-on-thighs only; must not define permanent identity/body/hair, hosiery or nail-color Canon, stool/environment, other poses, lighting or background"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_POSE_03_SEATED_UPRIGHT_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_03_SEATED_UPRIGHT/OWNER_POSE_03_SEATED_UPRIGHT_CANON_001.png"}
+  OWNER_L0_WALKING_ARTICULATION:
+    purpose: "L0_OWNER_003 front walking stride and lower-limb alternation only; must not define owner identity, body proportions, hair, black dress, black tights, shoes, shopping bags, camera, lighting, parking-garage environment or material"
+    max_images: 1
+    assets:
+      - {asset_id: L0_OWNER_003, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/4.jpg"}
   OWNER_BODY_LEFT_3Q_CANON_L1:
     purpose: "approved L1 Master for owner anatomical-left three-quarter neutral standing geometry, conservative depth relationship and preservation of the 168 cm / 60 kg target; scoped hosiery appearance is 15D matte nude only"
     max_images: 1

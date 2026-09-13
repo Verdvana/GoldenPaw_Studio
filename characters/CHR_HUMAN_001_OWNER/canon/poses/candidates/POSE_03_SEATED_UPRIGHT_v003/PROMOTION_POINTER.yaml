@@ -1,0 +1,9 @@
+candidate_id: "POSE_03_SEATED_UPRIGHT_v003"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/poses/candidates/POSE_03_SEATED_UPRIGHT_v003/POSE_03_SEATED_UPRIGHT_v003.png"
+original_candidate_checksum_sha256: "7e6bbc031712a2831d3d4e473c69bd998c60438c870e46bea0812a00ab8dffb8"
+promoted_asset_id: "OWNER_POSE_03_SEATED_UPRIGHT_CANON_001"
+current_approved_path: "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_03_SEATED_UPRIGHT/OWNER_POSE_03_SEATED_UPRIGHT_CANON_001.png"
+current_approved_checksum_sha256: "7e6bbc031712a2831d3d4e473c69bd998c60438c870e46bea0812a00ab8dffb8"
+promotion_action: "MOVE"
+candidate_raster_retained: false
+approved_at: "2026-09-13"

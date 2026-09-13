@@ -4,7 +4,7 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.90
+revision: draft_0.103
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
 updated_at: "2026-09-13"
@@ -414,3 +414,16 @@ updated_at: "2026-09-13"
 | draft_0.88 | 2026-09-13 | 用户永久移除独立“轻微皱眉”和“自然闭眼”两项；轻微皱眉未批准候选及记录已删除，自然闭眼从未生成。原列表第 15 项已批准复合表情无重生成改编号为 `EXP_13_MOUTH_SLIGHTLY_OPEN` / `OWNER_EXP_13_MOUTH_SLIGHTLY_OPEN_CANON_001`，像素校验值不变。Expression 计划缩减并完成为 13/13，完整 `owner_v1.0` 未锁定 | user retired two assets and renumbered approved component |
 | draft_0.89 | 2026-09-13 | 用户授权开始 `POSE_01_RELAXED_STANDING_v001`；固定批准正面 Face、活动正面 Body 与批准正面 Hair-A 三项并行来源，目标为保持 168 cm / 60 kg、身份、发型、校准服装和连续 15D 丝袜的正面放松站姿。Pose 只定义自然承重与关节松弛，不重定义永久身体或其他属性，状态 `REVIEW_REQUIRED` | user next-asset authorization incorporated |
 | draft_0.90 | 2026-09-13 | POSE_01 首次调用及一次成年、非性感技术校准安全重试均在输出阶段被 sexual 类别拦截，无候选图片产生。停止继续改词重试；POSE_01 保持未生成、未批准，现有 BODY_01 不自动取得 Pose 权威 | generation blocked; no output |
+| draft_0.91 | 2026-09-13 | 用户再次要求生成下一项，重新授权 `POSE_01_RELAXED_STANDING_v002` 独立尝试。继续只使用批准正面 Face、活动正面 Body 与批准正面 Hair-A，v001 无输出且不参与；Pose 只定义自然放松站姿与关节松弛，保持既有身份、168 cm / 60 kg 身体比例、Calibration Outfit 和连续 15D 肉色哑光丝袜 | user retry authorization incorporated |
+| draft_0.92 | 2026-09-13 | `POSE_01_RELAXED_STANDING_v002` 的精简成年技术校准调用再次在输出阶段被 sexual 类别拦截，无图产生。该调用不提供任何身份或姿态证据，POSE_01 仍未生成、未批准；现有批准 Face、Body、Hair-A 状态不变 | generation blocked; no output |
+| draft_0.93 | 2026-09-13 | 用户明确批准将活动 `OWNER_BODY_01_FRONT_CANON_002` 的既有中性正面站姿复用为 `POSE_01_RELAXED_STANDING` 姿态 Canon，不产生第二份像素；批准范围只增加该图可见的正面站姿，不扩展身体身份或其他动作。用户同时授权 `POSE_02_WALKING_NEUTRAL_STRIDE_v001`，使用 BODY_01 Master 与真人 `4.jpg` 的受限步态职责平行生成 | user approved reuse and authorized next candidate |
+| draft_0.94 | 2026-09-13 | `POSE_02_WALKING_NEUTRAL_STRIDE_v001` 已从 BODY_01 Master 与真人 `4.jpg` 的步态职责独立生成，未输入 POSE_01。技术预检确认自然正面行走的腿部交替、动态承重和反向手臂摆动成立，批准身份、168 cm / 60 kg 身体基准、HAIRSTYLE_A 与 Calibration Outfit 基本保持；候选为 `REVIEW_REQUIRED` | candidate generated; awaiting user review |
+| draft_0.95 | 2026-09-13 | 用户明确批准 `POSE_02_WALKING_NEUTRAL_STRIDE_v001`，其范围只覆盖当前自然行走的腿部交替、动态承重和反向手臂摆动，不重新定义永久身体。用户同时授权 `POSE_03_SEATED_UPRIGHT_v001`；由于无登记真人坐姿源，候选只使用活动 BODY_01 Master 并以文字约束直立坐姿，禁止使用任何生成 Pose 作为输入 | user approved component and authorized next candidate; seated-source gap disclosed |
+| draft_0.96 | 2026-09-13 | `POSE_03_SEATED_UPRIGHT_v001` 已从活动 BODY_01 Master 独立生成；技术预检确认直立坐姿的骨盆/脊柱稳定、自然髋膝屈曲、竖直小腿、平放双脚和轻置大腿的双手成立，身份、168 cm / 60 kg 身体基准、HAIRSTYLE_A 与 Calibration Outfit 基本保持。无真人坐姿源限制继续保留，候选为 `REVIEW_REQUIRED` | candidate generated; awaiting user review |
+| draft_0.97 | 2026-09-13 | 用户拒绝 `POSE_03_SEATED_UPRIGHT_v001` 的脸部，指出脸部应直接由专用 L1 Face 资产约束，当前图有迭代污染与明显敏感斑块；坐姿及其他属性可保持。v001 禁止作为 v002 像素输入。v002 使用批准 FACE_01、活动 BODY_01 与批准 HAIR_A_01 三项职责隔离 Master 平行生成，脸部要求保持批准五官、中性肤色与自然均匀皮肤，禁止斑驳红块、脏污阴影及皮肤伪影 | user identity/skin correction incorporated |
+| draft_0.98 | 2026-09-13 | `POSE_03_SEATED_UPRIGHT_v002` 已从三个批准 L1 Master 独立生成，未使用 v001。技术预检确认脸部重新对齐批准 FACE_01 的五官、脸宽、下颌和中性肤色，皮肤自然均匀，未见明显敏感斑块、脏污阴影或不对称污染；坐姿与 Calibration Outfit 保持，候选为 `REVIEW_REQUIRED` | corrected candidate generated; awaiting user review |
+| draft_0.99 | 2026-09-13 | 用户确认 `POSE_03_SEATED_UPRIGHT_v002` 脸部合格，其余属性亦可保持，唯一修正为恢复稳定外观特征酒红色脚趾甲油。v003 不输入 v002，仍从批准 Face/Body/Hair-A 三项 L1 Master 独立生成；十枚脚趾甲的深酒红色须在连续 15D 肉色丝袜纤维下自然柔化透出，不得画在面料表面或改变足部/丝袜几何 | user appearance correction incorporated |
+| draft_0.100 | 2026-09-13 | `POSE_03_SEATED_UPRIGHT_v003` 已从三个批准 L1 Master 独立生成，未使用 v001/v002。技术预检确认已认可脸部与均匀中性皮肤保持，酒红色脚趾甲油在连续 15D 肉色丝袜下以柔和低饱和方式自然可见，未改变脚趾几何、丝袜连续性或手指甲；候选为 `REVIEW_REQUIRED` | corrected candidate generated; awaiting user review |
+| draft_0.101 | 2026-09-13 | 用户明确批准并要求登记 `POSE_03_SEATED_UPRIGHT_v003`，晋升为 `OWNER_POSE_03_SEATED_UPRIGHT_CANON_001`。该组件只批准直立坐姿关节关系和本图中合规的丝袜下酒红色脚趾甲表现，不重新定义永久身份、身体比例、HAIRSTYLE_A、丝袜 Material Canon 或指甲色 Canon；v001/v002 继续禁止使用 | user approved component |
+| draft_0.102 | 2026-09-13 | 用户授权生成 `POSE_04_SEATED_RELAXED_v001`。候选从批准 FACE_01、活动 BODY_01 与批准 HAIR_A_01 三项 L1 Master 平行生成，不使用 POSE_03 或其他生成 Pose；保持已确认的精确脸、均匀中性皮肤、168 cm / 60 kg 身体、HAIRSTYLE_A、Calibration Outfit、连续 15D 肉色丝袜及丝袜下酒红色脚趾甲，新增权威仅限自然轻靠的放松坐姿 | user next-candidate authorization incorporated |
+| draft_0.103 | 2026-09-13 | POSE_04 v001 在一次无输出安全拦截后，从同一三项批准 Master 独立生成成功；未使用 POSE_03 或其他 Pose 像素。技术预检确认专用 Face 约束下的五官与均匀皮肤、168 cm / 60 kg 身体、HAIRSTYLE_A、Calibration Outfit、连续 15D 丝袜及丝袜下酒红色脚趾甲保持；候选只申请放松坐姿权威且继续待用户审核 | candidate generated; awaiting user review |

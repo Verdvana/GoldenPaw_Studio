@@ -1,0 +1,38 @@
+asset_id: "POSE_03_SEATED_UPRIGHT_v001"
+asset_level: "L1"
+asset_type: "pose"
+owner_id: "CHR_HUMAN_001_OWNER"
+canon_version: "owner_v1.0_candidate"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/poses/candidates/POSE_03_SEATED_UPRIGHT_v001/POSE_03_SEATED_UPRIGHT_v001.png"
+physical_file_role: "UNIQUE_CANDIDATE"
+source_images:
+  - "OWNER_BODY_01_FRONT_CANON_002"
+generated_or_real: "GENERATED"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/poses/candidates/POSE_03_SEATED_UPRIGHT_v001/generation_record.md"
+approval_status: "REJECTED"
+approval_record: null
+authoritative_for:
+  - "candidate front-facing upright seated articulation"
+  - "candidate hip-knee-ankle flexion and seated floor contact"
+must_not_define:
+  - "permanent face or body identity"
+  - "height, weight, head-to-body ratio, limb length or waist/hip ratio"
+  - "Hairstyle A design or Expression Canon"
+  - "Calibration Outfit design or episode wardrobe"
+  - "reusable hosiery Material Canon"
+  - "stool, furniture or reusable environment design"
+  - "other Pose components"
+  - "lighting or background"
+view:
+  framing: "full body seated, exact 3:4"
+  angle: "straight-on upright seated"
+  camera_height: "seated torso to waist level"
+  lens: "prompted 70-85mm equivalent"
+appearance:
+  hairstyle: "HAIRSTYLE_A; inherited from approved BODY_01 Master, not redefined"
+  outfit: "OWNER_L1_CALIBRATION_OUTFIT"
+  hosiery: "visible 15D matte nude continuity only; not Material Canon"
+quality_status: "FAIL"
+checksum_sha256: "097c9b451ba6d53fa476be5664f2a6c9a7f3a9f9cbda41adb8c3069210382d05"
+created_at: "2026-09-13"
+notes: "User rejected the face for insufficient dedicated L1 Face authority, iterative pollution and visible sensitive/blotchy patches. Pose geometry was otherwise acceptable. This raster is prohibited as a v002 or downstream input."

@@ -1,0 +1,9 @@
+candidate_id: "POSE_02_WALKING_NEUTRAL_STRIDE_v001"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/poses/candidates/POSE_02_WALKING_NEUTRAL_STRIDE_v001/POSE_02_WALKING_NEUTRAL_STRIDE_v001.png"
+original_candidate_checksum_sha256: "b5ae6ab402a00249897a3458c8d931c32f0882c2f74d2869e570122c74b5f42a"
+promoted_asset_id: "OWNER_POSE_02_WALKING_NEUTRAL_STRIDE_CANON_001"
+current_approved_path: "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_02_WALKING_NEUTRAL_STRIDE/OWNER_POSE_02_WALKING_NEUTRAL_STRIDE_CANON_001.png"
+current_approved_checksum_sha256: "b5ae6ab402a00249897a3458c8d931c32f0882c2f74d2869e570122c74b5f42a"
+promotion_action: "MOVE"
+candidate_raster_retained: false
+approved_at: "2026-09-13"
