@@ -13,11 +13,14 @@ generated_or_real: "GENERATED"
 generation_record: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_02_LEFT_3Q_v001/generation_record.md"
 approval_status: "APPROVED"
 approval_record: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02_LEFT_3Q/approvals/APPROVAL_OWNER_BODY_02_LEFT_3Q_001.md"
+additional_approval_records:
+  - "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_05_SLIGHT_BODY_TURN/approvals/APPROVAL_OWNER_POSE_05_SLIGHT_BODY_TURN_REUSE_001.md"
 lock_status: "UNLOCKED_COMPONENT"
 authoritative_for:
   - "approved owner left-three-quarter body silhouette and conservative depth relationship"
   - "approved BODY_02 neutral standing orientation and anatomy"
   - "preservation of the approved 168 cm / 60 kg target, limb proportions and waist/hip ratio through a left-three-quarter turn"
+  - "POSE_05_SLIGHT_BODY_TURN approximately 35–45-degree left-three-quarter neutral standing articulation, by explicit user-approved reuse"
 must_not_define:
   - "new owner face identity, age or skin tone"
   - "new hairstyle design or hair color"
@@ -44,4 +47,4 @@ promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02
 promoted_asset_checksum_sha256: "f364b5c9b398c0c786964ffb8932707c7d657f997b8344abdd31a47b4322f4aa"
 created_at: "2026-09-12"
 approved_at: "2026-09-12"
-notes: "Approved unlocked BODY_02 L1 component. The candidate raster was moved here unchanged after explicit user approval; full owner_v1.0 remains unlocked."
+notes: "Approved unlocked BODY_02 L1 component. The candidate raster was moved here unchanged after explicit user approval. The same unique raster was later explicitly approved for POSE_05_SLIGHT_BODY_TURN without duplication. Full owner_v1.0 remains unlocked."
