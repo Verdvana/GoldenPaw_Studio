@@ -3,10 +3,10 @@
 ```yaml
 index_id: OWNER_EXPRESSION_CANON_INDEX
 character_id: CHR_HUMAN_001_OWNER
-index_revision: 8
+index_revision: 10
 updated_at: "2026-09-13"
 full_release_lock_status: UNLOCKED
-approved_expression_components: 8
+approved_expression_components: 10
 planned_expression_components: 15
 ```
 
@@ -21,6 +21,8 @@ planned_expression_components: 15
 | `OWNER_EXP_05_HAPPY_LAUGHING_CANON_001` | natural happy laugh with moderate open-mouth action, subject-right tiger tooth and smile-linked dimple response | `approved/EXP_05_HAPPY_LAUGHING/OWNER_EXP_05_HAPPY_LAUGHING_CANON_001.png` | `b3838ede4905401d442f1d3f90044bf15ef05a749c902db24f1c10bbc628dc99` | `OWNER_EXPRESSION_05_HAPPY_LAUGHING_CANON_L1` |
 | `OWNER_EXP_06_SURPRISED_CANON_001` | natural restrained surprise with moderate brow lift, wider eyelids and softly parted lips | `approved/EXP_06_SURPRISED/OWNER_EXP_06_SURPRISED_CANON_001.png` | `183a65e882785115e2b1b465bd564232386233346f42a3ea3c04e06854245b86` | `OWNER_EXPRESSION_06_SURPRISED_CANON_L1` |
 | `OWNER_EXP_07_CONFUSED_CURIOUS_CANON_001` | restrained confused/curious action with asymmetric brows, questioning gaze and neutral closed mouth | `approved/EXP_07_CONFUSED_CURIOUS/OWNER_EXP_07_CONFUSED_CURIOUS_CANON_001.png` | `4fa6efb6c9beb14769112db93576928e96856e06b54f31a73f2686170f7351e4` | `OWNER_EXPRESSION_07_CONFUSED_CURIOUS_CANON_L1` |
+| `OWNER_EXP_08_MILDLY_ANNOYED_CANON_001` | low-intensity mild annoyance with small inner-brow tension, subtle eyelid narrowing and gently pressed lips | `approved/EXP_08_MILDLY_ANNOYED/OWNER_EXP_08_MILDLY_ANNOYED_CANON_001.png` | `416b72c35284ccb9f02fc30c42e26bf407a03dadb8449f8c1231b0b3da09c2af` | `OWNER_EXPRESSION_08_MILDLY_ANNOYED_CANON_L1` |
+| `OWNER_EXP_09_SAD_CONCERNED_CANON_001` | restrained sad/concerned action with raised converged inner brows, worried gaze and mildly downturned closed lips | `approved/EXP_09_SAD_CONCERNED/OWNER_EXP_09_SAD_CONCERNED_CANON_001.png` | `af5b7eaa31e63be25f42a60ed62f4ff59eb8622090c334dc4540ca893c2e6037` | `OWNER_EXPRESSION_09_SAD_CONCERNED_CANON_L1` |
 | `OWNER_EXP_15_MOUTH_SLIGHTLY_OPEN_CANON_001` | natural frown + both eyes closed + restrained non-wide mouth opening | `approved/EXP_15_MOUTH_SLIGHTLY_OPEN/OWNER_EXP_15_MOUTH_SLIGHTLY_OPEN_CANON_001.png` | `3be4734a2e019d569e5fcae4eabd886a5bbe7a27c12059830de9424a65c78d36` | `OWNER_EXPRESSION_15_MOUTH_SLIGHTLY_OPEN_CANON_L1` |
 
-The current approved components have expression-action authority only. Visible identity, hair, outfit, lighting and background remain outside their scope. Seven Expression components remain pending, and the full `owner_v1.0` remains unlocked. EXP_07 retains its documented limitation that no matching confused/curious L0 expression photograph exists.
+The current approved components have expression-action authority only. Visible identity, hair, outfit, lighting and background remain outside their scope. Five Expression components remain pending, and the full `owner_v1.0` remains unlocked. EXP_07, EXP_08 and EXP_09 retain their documented L0 expression-coverage limitations.

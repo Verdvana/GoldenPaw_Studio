@@ -4,7 +4,7 @@
 document_id: OWNER_L1_GENERATION_SPEC
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-spec_revision: draft_1.83
+spec_revision: draft_1.89
 status: DRAFT
 authority: USER_APPROVAL_REQUIRED
 default_aspect_ratio: "3:4"
@@ -670,3 +670,9 @@ all required components APPROVED
 | draft_1.81 | 2026-09-13 | 用户授权开始下一项 `EXP_07_CONFUSED_CURIOUS_v001`。复核完整 L0 身份目录及已登记 Reference Set 后确认没有可可靠定义困惑/好奇的真人表情源，因此本候选只使用批准 FACE_01 与批准 HAIR_A_01 两项最小参考；表情以文字限定为克制的不对称眉部动作、专注疑问眼神与自然闭合或仅极轻微分开的中性嘴唇。禁止使用 EXP_05、EXP_06 或任何其他生成 Expression 图，禁止夸张单眉、歪嘴、歪头、惊讶、恼怒、悲伤及漫画式困惑。候选保持 `REVIEW_REQUIRED` | user next-candidate authorization incorporated; L0 expression coverage gap disclosed |
 | draft_1.82 | 2026-09-13 | `EXP_07_CONFUSED_CURIOUS_v001` 已从批准 FACE_01 与批准 HAIR_A_01 两项 Master 独立生成，未使用任何 Expression 图或不匹配 L0 表情源。输出为 1086×1448 精确 3:4 PNG；技术预检确认画面右侧眉毛适度抬起、对侧内眉轻微内下收紧、双眼保持真实大小并呈疑问专注，嘴唇自然闭合且嘴角中性；头部正直，无惊讶、恼怒、悲伤、歪嘴或漫画式夸张。身份、Hair-A、眼平机位、中性影棚及校准服装上半部保持。状态 `REVIEW_REQUIRED` | candidate generated; awaiting user review |
 | draft_1.83 | 2026-09-13 | 用户明确批准当前 EXP_07，并追溯批准此前保持待审的 EXP_05。按单文件规则分别移动并晋升为 `OWNER_EXP_07_CONFUSED_CURIOUS_CANON_001` 与 `OWNER_EXP_05_HAPPY_LAUGHING_CANON_001`；EXP_07 批准克制眉部不对称、疑问专注眼神、中性闭嘴与正直头位，并永久保留无匹配困惑/好奇 L0 照片的覆盖限制；EXP_05 批准自然开心大笑、面颊/眼睑联动、适中张嘴及正确方向的虎牙/酒窝响应。两项均不定义永久身份、Hair-A、服装、灯光或背景。Expression 完成 8/15，余七项及完整 owner_v1.0 未锁定 | user approved two components |
+| draft_1.84 | 2026-09-13 | 用户授权生成下一项 `EXP_08_MILDLY_ANNOYED_v001`。参考指南、完整 L0 清单及已登记 Reference Set 均无可靠轻微不悦表情源，因此候选只使用批准 FACE_01 与批准 HAIR_A_01 两项最小参考；以文字限定轻微内眉下压/靠拢、轻度眼睑收窄、直接但克制的不耐注视及自然闭嘴的轻微压唇。禁止使用任何生成 Expression 图，禁止向 EXP_10 专注、EXP_11 愤怒或 EXP_13 单纯轻微皱眉混淆，也禁止明显怒视、深眉间纹、歪嘴、讥讽、厌恶或漫画式不悦。状态 `REVIEW_REQUIRED` | user next-candidate authorization incorporated; L0 expression coverage gap disclosed |
+| draft_1.85 | 2026-09-13 | `EXP_08_MILDLY_ANNOYED_v001` 已从批准 FACE_01 与批准 HAIR_A_01 两项 Master 独立生成，未使用任何 Expression 图或不匹配 L0 表情源。输出为 1086×1448 精确 3:4 PNG；技术预检确认双侧内眉小幅内下收紧、眼睑轻度收窄、直接克制的不耐注视与自然闭嘴轻微压唇协同成立，强度明显低于愤怒，也不呈单纯专注、悲伤、讥讽或漫画式不悦。身份、Hair-A、正直眼平头位、中性影棚及校准服装上半部保持。状态 `REVIEW_REQUIRED` | candidate generated; awaiting user review |
+| draft_1.86 | 2026-09-13 | 用户明确批准 `EXP_08_MILDLY_ANNOYED_v001` 并要求开始下一项；按单文件规则晋升为 `OWNER_EXP_08_MILDLY_ANNOYED_CANON_001`，批准范围仅覆盖低强度内眉张力、轻度眼睑收窄、克制不耐注视和轻微压唇，并保留无匹配 L0 的覆盖限制。Expression 完成 9/15。同时授权生成 `EXP_09_SAD_CONCERNED_v001`：现有 L0 无可靠难过/担忧源，只用批准 FACE_01 与批准 HAIR_A_01 两项 Master，文字限定内眉轻微抬起并靠拢、柔和担忧注视、轻微下垂闭嘴嘴角及极小下巴张力；禁止泪水、哭泣、痛苦夸张、恼怒/愤怒、噘嘴或输入任何生成 Expression 图 | user approved component and authorized next candidate; source gap disclosed |
+| draft_1.87 | 2026-09-13 | `EXP_09_SAD_CONCERNED_v001` 已从批准 FACE_01 与批准 HAIR_A_01 两项 Master 独立生成，未使用任何 Expression 图或不匹配 L0 表情源。输出为 1086×1448 精确 3:4 PNG；技术预检确认双侧内眉轻微抬起靠拢、眼睑与直接注视柔和担忧、闭嘴嘴角轻微对称下垂及极小下巴张力成立；无泪水、哭泣、噘嘴、痛苦夸张、惊讶、恐惧、恼怒或漫画式悲伤。身份、Hair-A、正直眼平头位、中性影棚及校准服装上半部保持。状态 `REVIEW_REQUIRED` | candidate generated; awaiting user review |
+| draft_1.88 | 2026-09-13 | 用户明确批准 `EXP_09_SAD_CONCERNED_v001` 并要求开始下一项；按单文件规则晋升为 `OWNER_EXP_09_SAD_CONCERNED_CANON_001`，批准范围仅覆盖轻微内眉上提靠拢、柔和担忧注视、闭嘴嘴角轻微下垂与极小下巴张力，并保留无匹配 L0 的覆盖限制。Expression 完成 10/15。同时授权生成 `EXP_10_FOCUSED_SERIOUS_v001`：现有 L0 无专门专注/认真表情源，只用批准 FACE_01 与批准 HAIR_A_01 两项 Master；文字限定稳定直接注视、轻微眼睑收束、眉毛近中性仅极小内聚、自然闭嘴与放松嘴角/下颌，禁止不悦、愤怒、悲伤、皱眉过度、压唇或输入任何生成 Expression 图 | user approved component and authorized next candidate; source gap disclosed |
+| draft_1.89 | 2026-09-13 | `EXP_10_FOCUSED_SERIOUS_v001` 已从批准 FACE_01 与批准 HAIR_A_01 两项 Master 独立生成，未使用任何 Expression 图或不匹配 L0 表情源。输出为 1086×1448 精确 3:4 PNG；技术预检确认稳定直接注视、极轻眼睑收束、近中性眉毛、自然闭嘴与放松下颌成立，无不悦压唇、怒视、悲伤、担忧或明显皱眉。身份、Hair-A、正直眼平头位、中性影棚及校准服装上半部保持。状态 `REVIEW_REQUIRED` | candidate generated; awaiting user review |
