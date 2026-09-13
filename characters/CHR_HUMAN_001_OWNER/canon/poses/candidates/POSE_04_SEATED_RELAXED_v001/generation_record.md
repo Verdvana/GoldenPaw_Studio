@@ -9,8 +9,8 @@ asset_id: POSE_04_SEATED_RELAXED
 candidate_id: POSE_04_SEATED_RELAXED_v001
 gate: "Gate 6 — Body / Pose Canon"
 model_tool: "built-in image_gen"
-status: GENERATED_REVIEW_REQUIRED
-approval_status: REVIEW_REQUIRED
+status: APPROVED_PROMOTION_SOURCE
+approval_status: APPROVED
 aspect_ratio: "3:4"
 preferred_resolution: "1536x2048"
 actual_resolution: "1086x1448"
@@ -22,6 +22,9 @@ reference_count: 3
 previous_ai_pose_candidate_count: 0
 seed_settings: "built-in image_gen; seed and detailed settings may not be returned"
 output_path: "characters/CHR_HUMAN_001_OWNER/canon/poses/candidates/POSE_04_SEATED_RELAXED_v001/POSE_04_SEATED_RELAXED_v001.png"
+pixel_storage_status: "MOVED_TO_CANON"
+current_promoted_path: "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_04_SEATED_RELAXED/OWNER_POSE_04_SEATED_RELAXED_CANON_001.png"
+current_promoted_checksum_sha256: "5c890e3c7abf3ad5e1b05f2bae5b61c1df079ea6eddf9869681db47a0440feff"
 checksum_sha256: "5c890e3c7abf3ad5e1b05f2bae5b61c1df079ea6eddf9869681db47a0440feff"
 qa_status: PASS_TECHNICAL_REVIEW_REQUIRED
 ```
@@ -103,4 +106,8 @@ Neutral catalog lighting, plain light-gray background, eye-level 70–85 mm pers
 
 ## QA status
 
-Technical preflight passed. The supported backward ease is subtle and near the minimum of the intended relaxed range, so final distinction from POSE_03 remains a user-review item. See `QA.md`. Candidate remains `REVIEW_REQUIRED` and has not been promoted.
+Technical preflight passed. The supported backward ease is subtle and near the minimum of the intended relaxed range; the user explicitly accepted the candidate on 2026-09-13.
+
+## User approval and promotion
+
+On 2026-09-13 the user stated “批准”. The exact candidate raster and sidecar metadata were moved, not copied, to `characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_04_SEATED_RELAXED/OWNER_POSE_04_SEATED_RELAXED_CANON_001.png`. The checksum remains unchanged. Approval is scoped to the visible relaxed-seated articulation and does not authorize chair/environment, permanent identity/body/hair, hosiery/nail-color Canon, other poses or the full `owner_v1.0` release.

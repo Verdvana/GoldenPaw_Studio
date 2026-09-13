@@ -4,7 +4,7 @@
 document_id: OWNER_L1_GENERATION_SPEC
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-spec_revision: draft_1.115
+spec_revision: draft_1.118
 status: DRAFT
 authority: USER_APPROVAL_REQUIRED
 default_aspect_ratio: "3:4"
@@ -700,3 +700,6 @@ all required components APPROVED
 | draft_1.113 | 2026-09-13 | 用户明确批准并要求登记 `POSE_03_SEATED_UPRIGHT_v003`；按单文件规则将候选 PNG 与 metadata 移动并晋升为 `OWNER_POSE_03_SEATED_UPRIGHT_CANON_001`。批准范围只覆盖直立坐姿的骨盆/脊柱稳定、约 90° 髋膝屈曲、竖直小腿、平放双脚、轻置大腿的双手，以及本图中合规可见的丝袜下酒红色脚趾甲；不定义永久身份、Body/Hair/Material/Nail Color Canon、灰凳或其他 Pose。v001/v002 保持拒绝，完整 `owner_v1.0` 未锁定 | user approved component |
 | draft_1.114 | 2026-09-13 | 用户要求生成下一项 `POSE_04_SEATED_RELAXED_v001`。当前仍无登记真人坐姿源，候选使用批准 FACE_01、活动 BODY_01 与批准 HAIR_A_01 三项职责隔离 L1 Master，禁止输入已批准 POSE_03 或任何生成 Pose。目标区别于直立坐姿：在简单中性靠背椅上自然轻靠、肩肘腕松弛、双手分别轻置大腿、双脚不交叉且略微前后错开；保持脸部干净均匀、Calibration Outfit、连续 15D 肉色丝袜及丝袜下酒红色脚趾甲 | user next-candidate authorization incorporated; seated-source gap disclosed |
 | draft_1.115 | 2026-09-13 | `POSE_04_SEATED_RELAXED_v001` 首次调用在输出阶段被 sexual 类别误拦且无文件；将提示收敛为成年服装合体与人体工学评估语境后，仍从批准 FACE_01、活动 BODY_01、批准 HAIR_A_01 三项 Master 独立生成，未输入任何 Pose 图。输出 1086×1448 精确 3:4；技术预检确认靠背椅上稳定放松坐姿、双手分置腿部、膝部不交叉、双脚平放且前后错开、脸部干净均匀、连续 15D 肉色丝袜与丝袜下酒红色脚趾甲成立。轻靠幅度较克制、接近目标下限，保留给用户判断；候选为 `REVIEW_REQUIRED` | candidate generated after one no-output moderation block; awaiting user review |
+| draft_1.116 | 2026-09-13 | 用户明确批准 `POSE_04_SEATED_RELAXED_v001`；接受其克制轻靠幅度并按单文件规则移动晋升为 `OWNER_POSE_04_SEATED_RELAXED_CANON_001`。批准范围仅覆盖靠背支撑下的正面放松坐姿、肩肘腕松弛、双手分置腿部、膝部不交叉、双脚平放且前后错开，以及本图中合规可见的丝袜下酒红色脚趾甲；不定义永久身份、身体、发型、服装、丝袜/甲色 Canon、椅子或其他 Pose。完整 `owner_v1.0` 仍未锁定 | user approved component |
+| draft_1.117 | 2026-09-13 | 用户明确批准为避免重复，将现有唯一物理 Master `OWNER_BODY_02_LEFT_3Q_CANON_001` 的约 35–45° 左 3/4 中性站姿复用为 `POSE_05_SLIGHT_BODY_TURN`。不生成、不复制、不移动或重命名像素，只增加轻微转身姿态的范围审批、索引与引用集；Body 原批准范围不被扩大到其他姿态、方向或属性，完整 `owner_v1.0` 仍未锁定 | user approved scoped reuse; no duplicate raster |
+| draft_1.118 | 2026-09-13 | 用户要求继续下一项，授权生成 `POSE_06_BENDING_REACHING_v001`。当前无登记的真人弯身/伸手动作源；候选使用批准左 3/4 Face、批准左 3/4 Body 与批准正面 Hair-A 三项职责隔离 L1 Master，禁止输入 POSE_01–05 或任何生成 Pose。目标为左 3/4 人体工学校准：髋部自然折叠约 25–35°、脊柱中立延长、双膝轻屈、双脚稳定错开，一臂自然向前下方伸向空中校准点、另一臂松弛平衡；保持 Calibration Outfit、连续 15D 肉色丝袜及丝袜下酒红色脚趾甲 | user next-candidate authorization incorporated; motion-source gap disclosed |

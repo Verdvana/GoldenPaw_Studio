@@ -204,6 +204,20 @@ reference_sets:
     usable_for_generation: true
     assets:
       - {asset_id: OWNER_POSE_03_SEATED_UPRIGHT_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_03_SEATED_UPRIGHT/OWNER_POSE_03_SEATED_UPRIGHT_CANON_001.png"}
+  OWNER_POSE_04_SEATED_RELAXED_CANON_L1:
+    purpose: "approved L1 Pose Master for front relaxed seated articulation with subtle chair-supported ease, relaxed upper limbs, separated uncrossed knees and offset flat feet only; must not define permanent identity/body/hair, hosiery or nail-color Canon, chair/environment, other poses, lighting or background"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_POSE_04_SEATED_RELAXED_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_04_SEATED_RELAXED/OWNER_POSE_04_SEATED_RELAXED_CANON_001.png"}
+  OWNER_POSE_05_SLIGHT_BODY_TURN_CANON_L1:
+    purpose: "explicitly approved Pose-05 reuse of the unique OWNER_BODY_02_LEFT_3Q_CANON_001 raster: approximately 35–45-degree left-three-quarter neutral standing turn only; must not define rightward turns, other poses, episode performance, permanent identity, or broader garment/material authority"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_BODY_02_LEFT_3Q_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02_LEFT_3Q/OWNER_BODY_02_LEFT_3Q_CANON_001.png"}
   OWNER_L0_WALKING_ARTICULATION:
     purpose: "L0_OWNER_003 front walking stride and lower-limb alternation only; must not define owner identity, body proportions, hair, black dress, black tights, shoes, shopping bags, camera, lighting, parking-garage environment or material"
     max_images: 1

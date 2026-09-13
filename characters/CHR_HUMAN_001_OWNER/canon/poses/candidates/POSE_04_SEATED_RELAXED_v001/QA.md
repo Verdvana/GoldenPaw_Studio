@@ -2,8 +2,8 @@
 
 ```yaml
 candidate_id: POSE_04_SEATED_RELAXED_v001
-qa_status: PASS_TECHNICAL_REVIEW_REQUIRED
-approval_status: REVIEW_REQUIRED
+qa_status: PASS_USER_APPROVED
+approval_status: APPROVED
 reviewed_at: "2026-09-13"
 ```
 
@@ -30,4 +30,4 @@ The successful image was independently generated from the approved Face, Body an
 
 ## Decision
 
-Technical preflight passed with the recline-strength review note above. Candidate remains `REVIEW_REQUIRED` pending explicit user approval or revision instructions.
+Approved by the user on 2026-09-13 with the statement “批准”. The user accepted the subtle supported recline. The candidate PNG and metadata were moved to the approved Pose path without duplication; the full `owner_v1.0` remains unlocked.

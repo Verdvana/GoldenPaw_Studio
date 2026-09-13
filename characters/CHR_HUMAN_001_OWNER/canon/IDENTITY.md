@@ -4,7 +4,7 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.103
+revision: draft_0.106
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
 updated_at: "2026-09-13"
@@ -427,3 +427,6 @@ updated_at: "2026-09-13"
 | draft_0.101 | 2026-09-13 | 用户明确批准并要求登记 `POSE_03_SEATED_UPRIGHT_v003`，晋升为 `OWNER_POSE_03_SEATED_UPRIGHT_CANON_001`。该组件只批准直立坐姿关节关系和本图中合规的丝袜下酒红色脚趾甲表现，不重新定义永久身份、身体比例、HAIRSTYLE_A、丝袜 Material Canon 或指甲色 Canon；v001/v002 继续禁止使用 | user approved component |
 | draft_0.102 | 2026-09-13 | 用户授权生成 `POSE_04_SEATED_RELAXED_v001`。候选从批准 FACE_01、活动 BODY_01 与批准 HAIR_A_01 三项 L1 Master 平行生成，不使用 POSE_03 或其他生成 Pose；保持已确认的精确脸、均匀中性皮肤、168 cm / 60 kg 身体、HAIRSTYLE_A、Calibration Outfit、连续 15D 肉色丝袜及丝袜下酒红色脚趾甲，新增权威仅限自然轻靠的放松坐姿 | user next-candidate authorization incorporated |
 | draft_0.103 | 2026-09-13 | POSE_04 v001 在一次无输出安全拦截后，从同一三项批准 Master 独立生成成功；未使用 POSE_03 或其他 Pose 像素。技术预检确认专用 Face 约束下的五官与均匀皮肤、168 cm / 60 kg 身体、HAIRSTYLE_A、Calibration Outfit、连续 15D 丝袜及丝袜下酒红色脚趾甲保持；候选只申请放松坐姿权威且继续待用户审核 | candidate generated; awaiting user review |
+| draft_0.104 | 2026-09-13 | 用户明确批准 POSE_04 v001，晋升为 `OWNER_POSE_04_SEATED_RELAXED_CANON_001`。该组件只批准靠背支撑下的克制放松坐姿、松弛上肢、分置腿部的双手、非交叉膝部及前后错开的平放双脚，不重新定义永久身份、身体比例、HAIRSTYLE_A、服装、丝袜/甲色或椅子；完整 `owner_v1.0` 未锁定 | user approved component |
+| draft_0.105 | 2026-09-13 | 用户明确批准避免重复，复用 `OWNER_BODY_02_LEFT_3Q_CANON_001` 的约 35–45° 左 3/4 中性站姿作为 `POSE_05_SLIGHT_BODY_TURN`。同一唯一物理文件同时承担 Body 左 3/4 几何与经单独批准的轻微转身姿态职责，不产生第二份像素，也不扩展永久身份、材质、服装或其他 Pose 权威 | user approved scoped reuse |
+| draft_0.106 | 2026-09-13 | 用户授权生成 `POSE_06_BENDING_REACHING_v001`；登记无匹配真人动作源的覆盖缺口，并以批准左 3/4 Face、左 3/4 Body、正面 Hair-A 三项 Master 平行构建。候选只申请自然髋折叠、轻屈膝、稳定错步及单臂前下伸的动作权威，不使用任何 Pose 图，也不重新定义永久身份、168 cm / 60 kg 身体、HAIRSTYLE_A、服装或丝袜/甲色 | user next-candidate authorization incorporated; source gap disclosed |

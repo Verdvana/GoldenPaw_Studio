@@ -1,0 +1,9 @@
+candidate_id: "POSE_04_SEATED_RELAXED_v001"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/poses/candidates/POSE_04_SEATED_RELAXED_v001/POSE_04_SEATED_RELAXED_v001.png"
+original_candidate_checksum_sha256: "5c890e3c7abf3ad5e1b05f2bae5b61c1df079ea6eddf9869681db47a0440feff"
+promoted_asset_id: "OWNER_POSE_04_SEATED_RELAXED_CANON_001"
+current_approved_path: "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_04_SEATED_RELAXED/OWNER_POSE_04_SEATED_RELAXED_CANON_001.png"
+current_approved_checksum_sha256: "5c890e3c7abf3ad5e1b05f2bae5b61c1df079ea6eddf9869681db47a0440feff"
+promotion_action: "MOVE"
+candidate_raster_retained: false
+approved_at: "2026-09-13"
