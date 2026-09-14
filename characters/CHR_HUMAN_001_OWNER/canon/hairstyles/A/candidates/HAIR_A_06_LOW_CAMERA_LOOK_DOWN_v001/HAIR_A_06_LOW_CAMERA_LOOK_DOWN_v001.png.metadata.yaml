@@ -1,0 +1,32 @@
+asset_id: HAIR_A_06_LOW_CAMERA_LOOK_DOWN_v001
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1_CANDIDATE
+asset_type: hairstyle_candidate
+hairstyle: HAIRSTYLE_A
+view: {projection: low_camera_subject_looking_down, face_projection: near_frontal}
+gate: "Gate 4 — Hairstyle Canon"
+status: USER_REJECTED
+technical_qa: FAILED_FACE_RELIEF_AND_CROWN_VISIBILITY
+generated_at: "2026-09-14"
+model_tool: "built-in image_gen"
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+color_mode: RGB
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/candidates/HAIR_A_06_LOW_CAMERA_LOOK_DOWN_v001/HAIR_A_06_LOW_CAMERA_LOOK_DOWN_v001.png"
+sha256: "3266b87456a60168005569bf5be799cdb39b7838ad9550f6c314aac02d0204ef"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/candidates/HAIR_A_06_LOW_CAMERA_LOOK_DOWN_v001/generation_record.md"
+reference_set_ids: [OWNER_FACE_FRONT_NEUTRAL_CANON_L1, OWNER_HAIRSTYLE_A_L0_SCOPED_DERIVATIVE]
+previous_generated_hair_inputs: []
+authoritative_if_approved_for:
+  - "Hairstyle-A low-camera/subject-looking-down projection"
+  - "under-jaw and ear-side strand relationships under upward camera perspective"
+  - "low-camera outer silhouette, complete length and tapered ends"
+must_not_define:
+  - "standard eye-level face geometry, permanent expression, body or pose"
+  - "outfit, other Hairstyle-A views, Hairstyle B, lighting or background"
+approval: {status: REJECTED, approver: user, date: "2026-09-14", evidence: "五官没有那么立体；该角度不应看到这么多头顶发缝"}
+lock_status: UNLOCKED_CANDIDATE
+notes:
+  - "Attempt 1 failed camera-height QA and was not copied into the project."
+  - "Attempt 2 establishes the low camera; whole-head downward flexion is restrained and remains a user review point."
+  - "Approved HAIR_A_01–05 and all generated Hair candidates were excluded."

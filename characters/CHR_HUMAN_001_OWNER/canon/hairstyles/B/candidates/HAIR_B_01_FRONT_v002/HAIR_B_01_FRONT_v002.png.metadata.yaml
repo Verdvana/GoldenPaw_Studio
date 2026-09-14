@@ -1,0 +1,16 @@
+asset_id: HAIR_B_01_FRONT_v002
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1_CANDIDATE
+asset_type: hairstyle_candidate
+hairstyle: HAIRSTYLE_B
+view: {projection: standard_eye_level_front, head_pose: neutral, crown_height: reduced}
+status: USER_REJECTED
+technical_qa: FAILED_USER_REFINEMENT
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/candidates/HAIR_B_01_FRONT_v002/HAIR_B_01_FRONT_v002.png"
+sha256: "08b1bc7b57faafb1df11da41f51e3cdd627d0d7fd23808f59e6db48dcf9c51fa"
+reference_set_ids: [OWNER_FACE_FRONT_NEUTRAL_CANON_L1, OWNER_HAIRSTYLE_B_L0, OWNER_HAIRSTYLE_B_APPEARANCE_L1]
+rejected_candidate_pixels_used: false
+approval: {status: REJECTED, approver: user, date: "2026-09-14", evidence: "鼻子更短更窄；鼻下整体上移；头顶再降低"}
+lock_status: UNLOCKED_CANDIDATE

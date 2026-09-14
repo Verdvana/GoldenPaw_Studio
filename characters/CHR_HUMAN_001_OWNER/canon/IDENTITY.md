@@ -4,10 +4,10 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.106
+revision: draft_0.168
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
-updated_at: "2026-09-13"
+updated_at: "2026-09-14"
 ```
 
 本文件是 L0 真人照片、用户指定的 L1 目标外观锚与 L1 Face Canon 候选之间的文字身份锚。当前版本尚未获得最终身份批准，可根据用户对候选图的明确反馈继续修订。
@@ -430,3 +430,65 @@ updated_at: "2026-09-13"
 | draft_0.104 | 2026-09-13 | 用户明确批准 POSE_04 v001，晋升为 `OWNER_POSE_04_SEATED_RELAXED_CANON_001`。该组件只批准靠背支撑下的克制放松坐姿、松弛上肢、分置腿部的双手、非交叉膝部及前后错开的平放双脚，不重新定义永久身份、身体比例、HAIRSTYLE_A、服装、丝袜/甲色或椅子；完整 `owner_v1.0` 未锁定 | user approved component |
 | draft_0.105 | 2026-09-13 | 用户明确批准避免重复，复用 `OWNER_BODY_02_LEFT_3Q_CANON_001` 的约 35–45° 左 3/4 中性站姿作为 `POSE_05_SLIGHT_BODY_TURN`。同一唯一物理文件同时承担 Body 左 3/4 几何与经单独批准的轻微转身姿态职责，不产生第二份像素，也不扩展永久身份、材质、服装或其他 Pose 权威 | user approved scoped reuse |
 | draft_0.106 | 2026-09-13 | 用户授权生成 `POSE_06_BENDING_REACHING_v001`；登记无匹配真人动作源的覆盖缺口，并以批准左 3/4 Face、左 3/4 Body、正面 Hair-A 三项 Master 平行构建。候选只申请自然髋折叠、轻屈膝、稳定错步及单臂前下伸的动作权威，不使用任何 Pose 图，也不重新定义永久身份、168 cm / 60 kg 身体、HAIRSTYLE_A、服装或丝袜/甲色 | user next-candidate authorization incorporated; source gap disclosed |
+| draft_0.107 | 2026-09-13 | POSE_06 v001 已从三项批准 Master 独立生成；身份、左 3/4 方向、HAIRSTYLE_A 与身体基准在技术预检范围内保持，但后侧脚跟抬起，未达到双脚稳定接地的动作合同。该问题只属于 Pose/接地 QA，不写回身份锚；v001 不具下游资格并建议独立重做 | candidate generated; pose QA failure |
+| draft_0.108 | 2026-09-13 | 用户纠正：双脚完整平放仅为 Body 中性校准要求，Pose 应按动作本身判断；POSE_06 v001 的后脚自然抬跟不构成失败，姿态与身份均可保持。唯一修订项为脚部丝袜织物感不足、近似裸足；v002 不输入 v001，仍从批准 Face/Body/Hair-A 平行重建，并增加用户指定15D肤色哑光材质派生图，只增强连续织物存在、透明度与足部柔化，不改变动作、身份、身体、肤色、甲色或足部解剖 | user QA correction and scoped material revision |
+| draft_0.109 | 2026-09-13 | POSE_06 v002 在一次无输出安全拦截后从批准 Face/Body/Hair-A 与用户指定15D肤色哑光材质派生图独立生成成功，未输入 v001。技术预检确认身份与 Hairstyle-A 保持、动作中自然抬跟的承重关系合理，腿脚及完整足部的15D哑光织物存在感明显增强且甲色仍在面料下柔化可见；候选待用户审核，不写回永久身份或 Material Canon | corrected candidate generated; awaiting user review |
+| draft_0.110 | 2026-09-14 | 用户确认 POSE_06 v002 的动作、表情与身体比例合格，但拒绝其多余大腿上部褶皱、偏白袜色及脚趾刷白感。v002 不具下游资格；v003 不输入 v002，只从批准 Face/Body/Hair-A 与受限材质派生图平行重建。身份与身体成功项仅以文字保持；袜色由 Body Master 的浅肉色定义，材质图只传递15D织物/透明度/覆盖，脚趾必须呈织物在上、解剖与酒红甲色在下的柔和扩散关系 | user scoped material correction; identity anchors unchanged |
+| draft_0.111 | 2026-09-14 | POSE_06 v003 的首次调用与一次精简技术表述重试均在输出阶段被安全系统拦截，无图产生。该失败不改变批准身份、身体或 Hair-A，也不提供新的 Pose/Material 证据；v003 未批准且不可用于下游 | generation blocked; identity anchors unchanged |
+| draft_0.112 | 2026-09-14 | 用户明确批准 POSE_06 v002；其唯一图片移动晋升为 `OWNER_POSE_06_BENDING_REACHING_CANON_001`。批准只增加弯身/伸手动作权威，不重新定义永久身份、身体、Hair-A、服装或丝袜/甲色。此前指出的多余大腿褶皱、偏白袜色及脚趾刷白感记录为已知限制，严禁下游从该 Pose 提取材质或颜色；完整 `owner_v1.0` 未锁定 | user approved pose component with material exclusions |
+| draft_0.113 | 2026-09-14 | 用户授权下一项 POSE_07。候选从批准右 3/4 Face、右 3/4 Body 和 Hair-A 三项 Master 独立生成，以文字定义稳定半跪—低蹲过渡位，只申请髋膝踝折叠、单膝接触、前脚承重与上肢平衡的 Pose 权威。不得输入 POSE_06 或其他生成 Pose；缺失的 `IMG_2579/2580` 不作为输入，身份、身体与丝袜规则不因该覆盖缺口改变 | user next-pose authorization; identity anchors unchanged |
+| draft_0.114 | 2026-09-14 | POSE_07 v001 的完整技术调用及两次逐步精简的临床姿态调用均在输出阶段被安全系统拦截，无图产生。失败调用不提供新的动作、身份、身体或材质证据；POSE_07 保持未生成、未批准且不可用于下游 | generation blocked; identity anchors unchanged |
+| draft_0.115 | 2026-09-14 | 用户授权独立重试 `POSE_07_KNEELING_CROUCHING_v002`。继续从批准右 3/4 Face、右 3/4 Body 与 Hair-A 三项 Master 平行生成，不输入无输出 v001、任何 Pose/Expression 候选或 Shot；本次只申请既定半跪—低蹲关节姿态权威，不改变永久身份、身体、发型或材质规则 | user retry authorization; identity anchors unchanged |
+| draft_0.116 | 2026-09-14 | POSE_07 v002 的完整调用与一次定向精简调用均在输出阶段被安全系统拦截，无图产生。失败调用不提供新的身份、身体、发型、动作或材质证据；批准 Master 和身份锚均保持不变，v002 不可用于下游 | generation blocked; identity anchors unchanged |
+| draft_0.117 | 2026-09-14 | 用户决定暂缓多次无输出的 POSE_07 并继续 POSE_08。`POSE_08_SEATED_LEGS_EXTENDED_v001` 从批准正面 FACE_01、活动正面 BODY_01 与批准 HAIR_A_01 三项 Master 平行重建，不输入任何 Pose/Expression/Shot；只申请坐地直立、双腿前伸、膝踝足方向与髋侧轻支撑的 Pose 权威。永久身份、168 cm / 60 kg 身体、HAIRSTYLE_A、服装及丝袜规则均不改变 | user next-pose authorization; identity anchors unchanged |
+| draft_0.118 | 2026-09-14 | POSE_08 v001 在一次输出安全拦截后由同一三项批准 Master 独立生成成功；正面身份、身体基准与 Hair-A 在技术预检范围内保持，姿势关系成立，但腿脚 15D 织物存在感不足、脚趾近似裸足。该问题只属于候选材质呈现，不写回身份锚；v001 未批准且不可用于下游 | candidate generated; hosiery QA failure; identity anchors unchanged |
+| draft_0.119 | 2026-09-14 | 用户拒绝 POSE_08 v001 的正面视角、绷直脚部与不可读的丝袜质感，并授权 v002 改为约 45° 左 3/4、自然松弛膝踝脚趾及清晰连续的15D肉色哑光织物。v002 不输入 v001，改用批准左 3/4 Face/Body、Hair-A 与受限材质派生图平行重建；永久身份、168 cm / 60 kg 身体、Hair-A、肤色、甲色与服装规则不改变 | user scoped pose/material correction; identity anchors unchanged |
+| draft_0.120 | 2026-09-14 | POSE_08 v002 在一次输出安全拦截后成功生成；左 3/4 身份、身体与 Hair-A 在技术预检范围内保持，约45°视角和自然松弛膝踝脚趾成立。但丝袜偏白且不够透明、甲色灰白，属于材质参考颜色泄漏，不写回身份、肤色或甲色锚；v002 未批准且不可用于下游 | candidate generated; hosiery color/opacity failure; identity anchors unchanged |
+| draft_0.121 | 2026-09-14 | 用户澄清 POSE_08 v003 应保持双腿完全伸直、双脚相对小腿约90°并以足底朝镜头，约45°左3/4视角中主要只见双脚脚底；丝袜为肤色15D且足底/趾端连续覆盖可读。v002 标记用户拒绝，不输入 v003；材质参考改用登记的足底 L0，仅定义织物而不定义身份、身体、姿势或场景。永久身份与身体锚不变 | user pose/sole-material clarification; identity anchors unchanged |
+| draft_0.122 | 2026-09-14 | POSE_08 v003 的完整调用与一次精简重试均在输出阶段被安全系统拦截，无图产生。失败调用不提供新的身份、身体、姿势或材质证据；批准 Face/Body/Hair-A、肤色、甲色及丝袜规则均保持不变，v003 不可用于下游 | generation blocked; identity anchors unchanged |
+| draft_0.123 | 2026-09-14 | 用户明确要求先登记 POSE_08 v002；其唯一图片移动晋升为 `OWNER_POSE_08_SEATED_LEGS_EXTENDED_CANON_001`。批准只增加约45°左3/4坐地、双腿前伸分离、自然松弛膝踝脚趾和髋侧手支撑的 Pose 权威；未完全直腿/非足底主视角、偏白偏厚丝袜及灰白甲色均为排除项，不改变永久身份、身体、肤色、甲色或丝袜锚 | user approved pose component with geometry/material exclusions |
+| draft_0.124 | 2026-09-14 | 用户授权生成下一项 POSE_09。候选从批准左 3/4 Face、左 3/4 Body 与 Hair-A 三项 Master 独立生成，不输入任何 Pose、Expression 或 Shot；以文字定义中立四点支撑/手膝位，只申请双掌—肩肘腕支撑、水平中立脊柱、髋下双膝及向后折叠小腿/脚背接地的 Pose 权威。当前无匹配真人动作源；永久身份、168 cm / 60 kg 身体、HAIRSTYLE_A、Calibration Outfit 与连续 15D 肤色丝袜规则均不改变 | user next-pose authorization; identity anchors unchanged |
+| draft_0.125 | 2026-09-14 | POSE_09 v001 的完整技术调用与一次物理治疗体位精简重试均在输出阶段被安全系统拦截，无图产生。失败调用不提供新的身份、身体、发型、动作或材质证据；批准 Face/Body/Hair-A 与现有身份锚保持不变，v001 不可审核或用于下游 | generation blocked; identity anchors unchanged |
+| draft_0.126 | 2026-09-14 | 用户修正后续 POSE_09 脚部动作：双脚以前脚掌/脚趾腹着地，脚趾自然屈曲、脚跟抬起，不再采用脚背贴地。该变化只属于 Pose 的足踝/跖趾关节和接地合同，不改变永久足部比例、身体身份、丝袜规则或 v001 无输出状态；本轮不触发生成 | user pose correction; identity anchors unchanged |
+| draft_0.127 | 2026-09-14 | 用户授权按修订后的前掌/脚趾腹接地合同继续生成 POSE_09 v002。v002 从批准左 3/4 Face、左 3/4 Body 与 Hair-A 三项 Master 独立调用，未输入任何 Pose；完整调用与一次临床四点支撑精简调用均在输出阶段被安全系统拦截，无图产生。失败调用不提供新的身份、身体、发型、动作或材质证据；现有身份锚保持不变，v002 不可审核或用于下游 | generation blocked; identity anchors unchanged |
+| draft_0.128 | 2026-09-14 | 用户授权重新生成 POSE_07 v003。v003 从批准右 3/4 Face、右 3/4 Body 与 Hair-A 三项 Master 独立调用，未输入任何 Pose；动作采用直立临床半跪弓步评估。完整调用与一次精简调用均在输出阶段被安全系统拦截，无图产生。失败调用不提供新的身份、身体、发型、动作或材质证据；现有身份锚保持不变，v003 不可审核或用于下游 | generation blocked; identity anchors unchanged |
+| draft_0.129 | 2026-09-14 | 用户决定暂缓 POSE_07/09 并开始 Gate 7。首项 `HOS_01_LOWER_LEGS_FEET_FRONT_v001` 只申请正面膝下至双脚的足部比例、连续15D肉色哑光/天鹅绒织物与织物下自然柔化酒红甲色权威；使用活动正面 Body Master 定义女主几何/肉色，用户指定材质裁切仅定义织物存在与覆盖。该 Gate 转换不改变永久脸、整体身体、发型、肤色或 Calibration Outfit 身份锚 | user Gate-7 authorization; identity anchors unchanged |
+| draft_0.130 | 2026-09-14 | HOS_01 v001 在一次安全拦截后仅从活动正面 Body Master 成功生成。小腿/足部几何与正面构图基本保持，但脚趾根部横向材质边界和过于表面的酒红甲色触发技术 QA 失败；这些伪影不写回足部、甲色或丝袜身份锚。v001 未批准且不可用于下游 | candidate generated; material continuity QA failed; identity anchors unchanged |
+| draft_0.131 | 2026-09-14 | 用户授权独立生成 HOS_01 v002，只修正趾根横向边界与表面化甲色。v001 不作为像素输入；活动正面 Body Master 定义女主足部几何，足部材质裁切仅定义15D织物在踝、脚背与脚趾上的连续覆盖和柔化层级。永久足形、肉色与酒红甲色规则不变 | user scoped hosiery correction; identity anchors unchanged |
+| draft_0.132 | 2026-09-14 | HOS_01 v002 在一次两参考安全拦截后仅从活动正面 Body Master 成功生成。甲色柔化方向改善，但趾根仍有横向材质边界，技术 QA 继续失败；残留边界不写回丝袜锚，v002 未批准且不可用于下游。永久足形、肉色与酒红甲色规则不变 | candidate generated; nail improved; material continuity still failed |
+| draft_0.133 | 2026-09-14 | 用户授权独立生成 HOS_01 v003，唯一目标是消除脚趾根部横向边界并恢复脚背—前掌—脚趾的连续袜面。v001/v002 均不作为像素输入；仅使用活动正面 Body Master，v002 的甲色柔化方向只以文字保留。本次修正不改变永久足形、肉色、酒红甲色或其他身份锚 | user single-issue hosiery correction; identity anchors unchanged |
+| draft_0.134 | 2026-09-14 | HOS_01 v003 已仅从活动正面 Body Master 独立生成；整体丝袜均匀度和织物下甲色方向保持，但趾根仍有浅横向明暗/透明度边界，技术 QA 未通过。该伪影不写回丝袜、足形、肤色或甲色身份锚；v003 未批准且不可用于下游 | candidate generated; residual material boundary; identity anchors unchanged |
+| draft_0.135 | 2026-09-14 | 用户明确判定 HOS_01 v003 合格并要求记录；人工审核将浅趾根明暗接受为自然足趾起伏而非丝袜断层。图片移动晋升为 `OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_001`，仅批准正面膝下/足部比例、接地、该视角的连续15D肉色哑光闭趾丝袜与织物下柔化酒红甲色；不改变脸、整体身体、其他视角或其他丝袜规格，完整 owner_v1.0 仍未锁定 | user approved scoped hosiery/feet component |
+| draft_0.136 | 2026-09-14 | 用户要求开始 Gate-7 下一项 `HOS_02_FEET_3Q_v001`。候选从批准左3/4 Body Master 与受限15D足部材质裁切独立生成，不输入已批准 HOS_01 或任何其他生成候选；只申请左3/4足踝/双脚几何、接地和该视角下15D肉色哑光闭趾丝袜连续呈现。永久身份、整体身体、肤色与酒红甲色锚不变 | user next-hosiery asset authorization; identity anchors unchanged |
+| draft_0.137 | 2026-09-14 | HOS_02 v001 的双参考完整调用和仅使用批准左3/4 Body Master 的精简调用均在输出阶段被安全系统拦截，无图产生。失败调用不提供足形、3/4视角或丝袜证据；现有 HOS_01、永久身份、身体、肤色与酒红甲色锚均不改变，v001 不可用于下游 | generation blocked; identity anchors unchanged |
+| draft_0.138 | 2026-09-14 | 用户要求按顺序回到 Hairstyle A，授权 `HAIR_A_02_3Q_v001`。候选仅从批准左3/4 Face Master 与 Hairstyle-A 的遮脸 L0 派生图平行生成，不输入 HAIR_A_01 或任何其他生成图；只申请左3/4发型轮廓、脸侧关系、分缝、体积、长度与完整发尾权威。永久脸部身份、肤色、身体和服装锚不变 | user next Hair-A asset authorization; identity anchors unchanged |
+| draft_0.139 | 2026-09-14 | HAIR_A_02 v001 已从批准左3/4 Face 与遮脸 Hairstyle-A L0 派生图独立生成。技术预检范围内左3/4方向、近中分、受控顶部体积、远近侧长直发束、完整胸下长度和渐细发尾成立；可见脸部只作为上下文，不从本候选写回任何新身份事实。候选待用户审核，不可用于下游 | candidate generated; identity anchors unchanged |
+| draft_0.140 | 2026-09-14 | 用户明确判定 HAIR_A_02 v001 “不错，合格”；图片移动晋升为 `OWNER_HAIR_A_02_3Q_CANON_001`。批准只增加 Hairstyle-A 左3/4轮廓、分缝投影、远近侧发束、体积、完整长度和渐细发尾权威；可见脸部仍由批准 Face 控制，不改变永久身份、肤色、身体或服装锚。Hairstyle A 完成2/6，完整 owner_v1.0 未锁定 | user approved scoped Hair-A component |
+| draft_0.141 | 2026-09-14 | 用户要求继续 Hairstyle A 下一项，授权 `HAIR_A_03_SIDE_v001`。本候选采用人物 anatomical-left 纯侧面、鼻尖朝画面右，只从批准左侧面 Face Master 与遮脸 Hairstyle-A L0 派生图平行生成；不输入 HAIR_A_01/02 或任何生成 Hair 图。新增审核范围仅为左侧面的发际线、耳侧关系、后脑轮廓、前后发束深度、完整胸下长度与渐细发尾；永久脸部身份、肤色、身体、服装及其他发型角度均不改变 | user next Hair-A asset authorization; identity anchors unchanged |
+| draft_0.142 | 2026-09-14 | HAIR_A_03 v001 已从批准左侧面 Face 与遮脸 Hairstyle-A L0 派生图独立生成。技术预检范围内左侧面方向、眼平头位、发际线/近耳关系、后脑轮廓、前后长直发束深度、完整胸下长度和渐细发尾成立；可见脸部仅为上下文，不从该 Hair 候选写回任何新身份事实。候选待用户审核，不可用于下游 | candidate generated; identity anchors unchanged |
+| draft_0.143 | 2026-09-14 | 用户明确批准 HAIR_A_03 v001；图片移动晋升为 `OWNER_HAIR_A_03_SIDE_CANON_001`。批准只增加 Hairstyle-A anatomical-left 标准侧面的分缝/发际线、近耳关系、顶部与后脑轮廓、前后发束深度、完整长度和渐细发尾权威；可见脸部仍由批准 Face 控制，其同方向真人纯侧脸覆盖限制继续保留，不改变永久身份、肤色、身体或服装锚。Hairstyle A 完成3/6，完整 owner_v1.0 未锁定 | user approved scoped Hair-A component |
+| draft_0.144 | 2026-09-14 | 用户要求并确认继续生成 `HAIR_A_04_BACK_v001`。候选从批准背面 Body Master 与遮脸 Hairstyle-A L0 派生图平行生成；Body 只定义180°背向头身/肩颈比例和可见校准服装，其现有头发被排除，L0 派生图只定义 Hair A 的长直披散、顶部流向/体积、深棕色、密度、长度与渐细发尾。A01–A03 及所有生成 Hair 图均不输入；本项不展示脸部，也不改变永久身份、身体或服装锚 | user next Hair-A asset authorization; identity anchors unchanged |
+| draft_0.145 | 2026-09-14 | HAIR_A_04 v001 首次调用无图，随后以同一两项隔离参考进行一次中性技术档案重试并成功生成。技术预检范围内严格背面方向、无面部侧缘、完整顶部/后部结构、长直深棕披散发、完整长度与渐细发尾成立；该候选只供 Hair-A 背面属性审核，不从可见身体、皮肤、服装或灯光写回身份事实。候选待用户审核，永久身份锚保持不变 | candidate generated; identity anchors unchanged |
+| draft_0.146 | 2026-09-14 | 用户明确批准 HAIR_A_04 v001；图片移动晋升为 `OWNER_HAIR_A_04_BACK_CANON_001`。批准只增加 Hairstyle-A 180°背面的顶部流向、后脑轮廓/发量、肩颈落发、完整外缘、长度与渐细发尾权威；不改变永久脸部身份、身体、肤色、服装或其他发型角度。Hairstyle A 完成4/6，完整 owner_v1.0 未锁定 | user approved scoped Hair-A component |
+| draft_0.147 | 2026-09-14 | 用户授权继续生成 HAIR_A_05 高机位仰视镜头候选。本项从批准正面 Face 与遮脸 Hairstyle-A L0 派生图平行生成，不输入 A01–A04 或其他生成图；Face 只定义身份，L0 只定义 Hair A。高机位与人物抬头仅是透视校准，不写回标准眼平面部几何，也不改变永久身体、肤色或服装锚 | user next Hair-A asset authorization; identity anchors unchanged |
+| draft_0.148 | 2026-09-14 | HAIR_A_05 v001 已从批准正面 Face 与遮脸 Hairstyle-A L0 派生图独立生成。技术预检范围内高机位/整头抬起关系、近正面身份上下文、完整发际线/头顶/分缝、长直脸侧发束及完整发尾成立；高机位造成的眼鼻下颌透视变化只属于本候选上下文，不从 Hair 候选写回标准眼平身份。候选待用户审核，永久身份锚保持不变 | candidate generated; identity anchors unchanged |
+| draft_0.149 | 2026-09-14 | 用户明确批准 HAIR_A_05 v001；图片晋升为高机位/人物抬头 Hairstyle-A 组件。批准只增加该透视下的发际线、头顶/分缝、脸侧发束位移、外缘与发尾权威；高角度五官透视不写回标准身份。Hairstyle A 完成5/6，完整 owner_v1.0 未锁定 | user approved scoped Hair-A component |
+| draft_0.150 | 2026-09-14 | 用户授权最后一项 HAIR_A_06 低机位/人物低头候选。本项仍从批准正面 Face 与遮脸 Hairstyle-A L0 派生图平行生成，不输入 A01–A05；低机位五官透视仅为上下文，不改变永久身份、身体、肤色或服装锚 | user final Hair-A candidate authorization; identity anchors unchanged |
+| draft_0.151 | 2026-09-14 | HAIR_A_06 v001 首次视角技术失败未入库，定向重试后建立明确下巴以下向上机位及低位凝视。低角度下颌/鼻底透视只属于候选上下文，整头低头幅度列为人工复核点，不写回标准身份；永久身份锚保持不变 | candidate generated; identity anchors unchanged |
+| draft_0.152 | 2026-09-14 | 用户指出 HAIR_A_06 v001 的五官过度立体，不符合本人较平缓柔和的面部起伏；同时否定低机位下过多头顶与长发缝。v002 必须回到批准 Face 身份比例，压低眉骨/鼻梁/中面部/下颌的立体夸张，并将头顶/冠部发缝从视野中移除；v001 不作像素输入 | user face-relief and projection correction; identity anchors clarified |
+| draft_0.153 | 2026-09-14 | HAIR_A_06 v002 定向重试后，面部起伏回到较柔和方向，冠部与头皮分缝从低机位视野中移除。低角度鼻底/下颌仍仅为透视上下文，不写回标准身份；候选待用户审核 | corrected candidate generated; identity anchors unchanged |
+| draft_0.154 | 2026-09-14 | 用户确认 v002 五官接近，指出发型根部发流/隐藏分缝位置错误：固定 Hair-A 应在画面中线左侧少许，而非明显偏右。该反馈只校正 Hair-A 位置合同，不改变脸部身份；v003 不输入 v002 或批准 A01 像素，A01 仅提供书面位置读数 | user Hair-A part-position correction; face anchors unchanged |
+| draft_0.155 | 2026-09-14 | HAIR_A_06 v003 已独立生成；技术预检确认隐藏分缝对应的根部发流顶点回到画面中线左侧约2–3%，并保持无冠部/长头皮缝与较柔和五官方向。候选只供 Hair-A 低机位审核，不改变永久身份锚 | corrected candidate generated; identity unchanged |
+| draft_0.156 | 2026-09-14 | 用户批准 HAIR_A_06 v003；Hair A 六视角组件完成。批准只增加低机位 Hair-A 投影权威，不改变脸、身体或服装，完整 owner_v1.0 未锁定 | user approved final Hair-A component |
+| draft_0.157 | 2026-09-14 | 用户授权下一项 HAIR_B_01 标准眼平正面。批准 Face 定义身份，B 真人 L0 与批准 B 设计锚共同定义盘发且不得定义脸；现有 B 参考的高机位/仰头、惊讶表情、暖光和衣服全部排除 | user Hairstyle-B front authorization; identity unchanged |
+| draft_0.158 | 2026-09-14 | HAIR_B_01 v001 已从三项隔离参考生成；标准眼平身份上下文在技术预检范围内保持，B 盘发只申请发际/分缝/收拢/碎发/顶部体积权威，不从候选写回脸或肤色。候选待用户审核 | candidate generated; identity unchanged |
+| draft_0.159 | 2026-09-14 | 用户确认 HAIR_B_01 v001 长相可接受，仅拒绝标准眼平下过高的头顶轮廓。v002 保持批准脸部身份不变，把发际线至头顶高度相对 v001 压低约20–25%，并减少可见头盖曲面；该修订只属于 Hair-B 眼平投影 | user Hair-B crown-height correction; identity unchanged |
+| draft_0.160 | 2026-09-14 | HAIR_B_01 v002 已独立生成；技术预检确认头顶轮廓高度降低且脸部身份方向保持。该变化只属于 Hair-B 标准眼平投影，不写回永久头骨或脸部身份 | corrected candidate generated; identity unchanged |
+| draft_0.161 | 2026-09-14 | 用户要求 B01 候选中的鼻子更短、更窄，并将人中/嘴唇/下巴整体上移以同步压缩鼻下区域，同时再降低头顶。该脸部调整作为待审核上下文记录，不能由 Hair 候选自动覆盖已批准 Face Canon；v003 不输入 v002 | user coupled facial-context refinement; Face Canon not auto-promoted |
+| draft_0.162 | 2026-09-14 | HAIR_B_01 v003 已生成；技术预检确认鼻子缩短变窄、鼻下区域整体上收以及头顶进一步降低。该脸部结果仍只属于 Hair 候选上下文，未经单独 Face 决策不改变已批准 Face Canon | candidate generated; Face Canon unchanged |
+| draft_0.163 | 2026-09-14 | 用户批准 HAIR_B_01 v003；批准仅增加标准眼平正面 Hair-B 权威，脸部上下文不覆盖 Face Canon，完整 owner_v1.0 未锁定 | user approved scoped Hair-B component |
+| draft_0.164 | 2026-09-14 | 用户授权 HAIR_B_02 人物左3/4候选；批准左3/4 Face 定义身份，真人 B L0 与批准 B 设计锚定义发型，B01 不作像素输入，永久身份不变 | user next Hair-B asset authorization |
+| draft_0.165 | 2026-09-14 | HAIR_B_02 v001 已独立生成；左3/4身份上下文在技术预检范围内保持，候选仅申请该角度 Hair-B 发际/碎发/收拢/发髻位置权威，不写回脸部身份 | candidate generated; identity unchanged |
+| draft_0.166 | 2026-09-14 | 用户将 Hair-B 后部固定为鲨鱼夹夹起的紧凑折叠发束 + 小型向上后翘鸡尾，取代低发髻解释；该发型决定需兼容已批准高机位正面轮廓，不改变脸部身份 | user Hair-B rear design decision |
+| draft_0.167 | 2026-09-14 | HAIR_B_02 v002 已生成并在技术预检中符合鲨鱼夹+小鸡尾合同；只供 Hair-B 审核，不改变脸部身份 | candidate generated; identity unchanged |
+| draft_0.168 | 2026-09-14 | 用户明确批准 HAIR_B_02 v002；新增权威仅限左3/4 Hair-B 鲨鱼夹/折叠发束/小鸡尾结构，不改变脸部、身体或完整 owner_v1.0 锁定状态 | user approved scoped Hair-B component |

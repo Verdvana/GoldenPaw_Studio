@@ -1,0 +1,51 @@
+asset_id: OWNER_HAIR_A_03_SIDE_CANON_001
+source_candidate: HAIR_A_03_SIDE_v001
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+asset_type: hairstyle_canon
+hairstyle: HAIRSTYLE_A
+view:
+  anatomical_side: left
+  face_points: image_right
+  projection: true_profile
+gate: "Gate 4 — Hairstyle Canon"
+status: APPROVED
+technical_qa: PASS
+generated_at: "2026-09-14"
+model_tool: "built-in image_gen"
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+color_mode: RGB
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/approved/HAIR_A_03_SIDE/OWNER_HAIR_A_03_SIDE_CANON_001.png"
+sha256: "3f1e9b07b7342f5ab1636d723c06fcbb299833d8ddaa521575711bb056ee2930"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/candidates/HAIR_A_03_SIDE_v001/generation_record.md"
+reference_set_ids:
+  - OWNER_FACE_LEFT_PROFILE_NEUTRAL_CANON_L1
+  - OWNER_HAIRSTYLE_A_L0_SCOPED_DERIVATIVE
+previous_generated_hair_inputs: []
+authoritative_for:
+  - "Hairstyle-A anatomical-left standard-side silhouette and part/hairline projection"
+  - "near-ear relation, crown/rear-head contour and front/rear hair-mass depth"
+  - "complete below-chest length, dark-brown tonal response, density and tapered ends"
+must_not_define:
+  - "face identity, facial geometry, skin tone, expression or age"
+  - "body geometry or proportions"
+  - "outfit design"
+  - "other Hairstyle-A views or Hairstyle B"
+  - "lighting, background or complete owner_v1.0 release"
+approval:
+  status: APPROVED
+  approver: user
+  date: "2026-09-14"
+  evidence: "批准"
+  record: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/approved/HAIR_A_03_SIDE/approvals/APPROVAL_OWNER_HAIR_A_03_SIDE_001.md"
+lock_status: UNLOCKED_COMPONENT
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/candidates/HAIR_A_03_SIDE_v001/HAIR_A_03_SIDE_v001.png"
+original_candidate_checksum_sha256: "3f1e9b07b7342f5ab1636d723c06fcbb299833d8ddaa521575711bb056ee2930"
+promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/approved/HAIR_A_03_SIDE/OWNER_HAIR_A_03_SIDE_CANON_001.png"
+promoted_asset_checksum_sha256: "3f1e9b07b7342f5ab1636d723c06fcbb299833d8ddaa521575711bb056ee2930"
+notes:
+  - "Independent generation; approved HAIR_A_01/02 and all generated Hair candidates were excluded."
+  - "The profile Face reference has user-approved geometry but lacks matching-direction true-profile L0 verification."
+  - "User approved as a scoped unlocked Hairstyle-A anatomical-left side component."
+  - "Full owner_v1.0 remains unlocked."

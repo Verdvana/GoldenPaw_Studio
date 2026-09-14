@@ -28,6 +28,13 @@ Reject the asset if any applicable item is present:
 - seam, tension, transparency, highlight, or weave changes implausibly across the foot;
 - duplicated/missing toes, fused foot/shoe, broken heel, or other anatomy errors.
 
+## Floor-contact scope by asset type
+
+- `Body` neutral turnaround/calibration assets require the declared neutral foot placement, normally both complete feet flat and stably supported on one floor plane.
+- `Pose` assets follow the biomechanics of the named action. A naturally raised heel, forefoot loading, rolling step or asymmetric foot contact is acceptable when the pose remains balanced, the support relationship is plausible, and foot/ankle anatomy and hosiery continuity are intact.
+- Do not reject a Pose solely because one heel is raised. Reject floating feet, impossible weight transfer, broken or duplicated heels, extra pads/support geometry, or contact that contradicts the named action.
+- Floor contact never changes the hosiery rule: raised or grounded feet must still show continuous textile across ankle, heel, instep, forefoot and toes wherever visible.
+
 ## Reference isolation
 
 Real hosiery photos are L0 Material Source. They may define textile appearance, coverage, foot transition, transparency, tension, and highlights. They must not define the owner's identity, face, body, skin pigmentation, or proportions.

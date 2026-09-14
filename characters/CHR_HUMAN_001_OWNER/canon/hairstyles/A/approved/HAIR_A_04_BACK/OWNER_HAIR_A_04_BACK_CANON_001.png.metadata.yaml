@@ -1,0 +1,51 @@
+asset_id: OWNER_HAIR_A_04_BACK_CANON_001
+source_candidate: HAIR_A_04_BACK_v001
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+asset_type: hairstyle_canon
+hairstyle: HAIRSTYLE_A
+view:
+  projection: exact_rear
+  yaw_degrees: 180
+  face_visible: false
+gate: "Gate 4 — Hairstyle Canon"
+status: APPROVED
+technical_qa: PASS
+generated_at: "2026-09-14"
+model_tool: "built-in image_gen"
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+color_mode: RGB
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/approved/HAIR_A_04_BACK/OWNER_HAIR_A_04_BACK_CANON_001.png"
+sha256: "91128987bc4aade21f7b7fd3a7b9bd24d2ca3d0100847214844b702741852e53"
+generation_record: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/candidates/HAIR_A_04_BACK_v001/generation_record.md"
+reference_set_ids:
+  - OWNER_BODY_BACK_CANON_L1
+  - OWNER_HAIRSTYLE_A_L0_SCOPED_DERIVATIVE
+previous_generated_hair_inputs: []
+authoritative_for:
+  - "Hairstyle-A exact rear crown flow and rear-head silhouette"
+  - "rear hair-mass distribution, shoulder/neck fall and outer edges"
+  - "mid-to-lower-back projected length, dark-brown tonal response, density and tapered irregular ends"
+must_not_define:
+  - "face identity, facial geometry, skin tone, expression or age"
+  - "body geometry or proportions"
+  - "outfit design"
+  - "other Hairstyle-A views or Hairstyle B"
+  - "lighting, background or complete owner_v1.0 release"
+approval:
+  status: APPROVED
+  approver: user
+  date: "2026-09-14"
+  evidence: "批准，下一项"
+  record: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/approved/HAIR_A_04_BACK/approvals/APPROVAL_OWNER_HAIR_A_04_BACK_001.md"
+lock_status: UNLOCKED_COMPONENT
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/candidates/HAIR_A_04_BACK_v001/HAIR_A_04_BACK_v001.png"
+original_candidate_checksum_sha256: "91128987bc4aade21f7b7fd3a7b9bd24d2ca3d0100847214844b702741852e53"
+promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/approved/HAIR_A_04_BACK/OWNER_HAIR_A_04_BACK_CANON_001.png"
+promoted_asset_checksum_sha256: "91128987bc4aade21f7b7fd3a7b9bd24d2ca3d0100847214844b702741852e53"
+notes:
+  - "Attempt 1 produced no image after output moderation; targeted technical-archive retry generated this candidate."
+  - "Independent generation; approved HAIR_A_01/02/03 and all generated Hair candidates were excluded."
+  - "Full owner_v1.0 remains unlocked."
+  - "User approved as a scoped unlocked exact-rear Hairstyle-A component."

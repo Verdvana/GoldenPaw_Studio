@@ -1,0 +1,9 @@
+candidate_id: "POSE_06_BENDING_REACHING_v002"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/poses/candidates/POSE_06_BENDING_REACHING_v002/POSE_06_BENDING_REACHING_v002.png"
+original_candidate_checksum_sha256: "f9c7ae0599f661787300ce9f35f3b89c3dfd7c40e157bfd0f4a64b345052440c"
+promoted_asset_id: "OWNER_POSE_06_BENDING_REACHING_CANON_001"
+current_approved_path: "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_06_BENDING_REACHING/OWNER_POSE_06_BENDING_REACHING_CANON_001.png"
+current_approved_checksum_sha256: "f9c7ae0599f661787300ce9f35f3b89c3dfd7c40e157bfd0f4a64b345052440c"
+promotion_action: "MOVE"
+candidate_raster_retained: false
+approved_at: "2026-09-14"

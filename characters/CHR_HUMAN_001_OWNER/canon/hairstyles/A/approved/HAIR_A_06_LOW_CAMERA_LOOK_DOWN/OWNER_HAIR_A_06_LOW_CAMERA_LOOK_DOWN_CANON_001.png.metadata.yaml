@@ -1,0 +1,19 @@
+asset_id: OWNER_HAIR_A_06_LOW_CAMERA_LOOK_DOWN_CANON_001
+source_candidate: HAIR_A_06_LOW_CAMERA_LOOK_DOWN_v003
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+asset_type: hairstyle_canon
+hairstyle: HAIRSTYLE_A
+view: {projection: low_camera_subject_looking_down, root_flow_apex: image_left_of_center_47_48_percent, crown_visible: false}
+status: APPROVED
+technical_qa: PASS
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/approved/HAIR_A_06_LOW_CAMERA_LOOK_DOWN/OWNER_HAIR_A_06_LOW_CAMERA_LOOK_DOWN_CANON_001.png"
+sha256: "2a1c53cd28c397b3a019ced39a4dc55aebe9c8ab7881518cb4516dc2ef341ded"
+reference_set_ids: [OWNER_FACE_FRONT_NEUTRAL_CANON_L1, OWNER_HAIRSTYLE_A_L0_SCOPED_DERIVATIVE]
+rejected_candidate_pixels_used: false
+approval: {status: APPROVED, approver: user, date: "2026-09-14", evidence: "批准，下一项"}
+lock_status: UNLOCKED_COMPONENT
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/candidates/HAIR_A_06_LOW_CAMERA_LOOK_DOWN_v003/HAIR_A_06_LOW_CAMERA_LOOK_DOWN_v003.png"
+promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/approved/HAIR_A_06_LOW_CAMERA_LOOK_DOWN/OWNER_HAIR_A_06_LOW_CAMERA_LOOK_DOWN_CANON_001.png"

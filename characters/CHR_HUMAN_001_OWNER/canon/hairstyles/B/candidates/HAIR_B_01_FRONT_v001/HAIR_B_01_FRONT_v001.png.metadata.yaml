@@ -1,0 +1,19 @@
+asset_id: HAIR_B_01_FRONT_v001
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1_CANDIDATE
+asset_type: hairstyle_candidate
+hairstyle: HAIRSTYLE_B
+view: {projection: standard_eye_level_front, head_pose: neutral}
+status: USER_REJECTED
+technical_qa: FAILED_EXCESS_CROWN_HEIGHT
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/candidates/HAIR_B_01_FRONT_v001/HAIR_B_01_FRONT_v001.png"
+sha256: "caef1073d6d1d843435d32761ea0c35318c176086a720d21fc44e35bff5dd707"
+reference_set_ids: [OWNER_FACE_FRONT_NEUTRAL_CANON_L1, OWNER_HAIRSTYLE_B_L0, OWNER_HAIRSTYLE_B_APPEARANCE_L1]
+authoritative_if_approved_for:
+  - "standard eye-level frontal Hairstyle-B hairline and center part"
+  - "smooth pulled-back front, controlled crown and temple/cheek wisps"
+must_not_define: [face_identity, skin, body, outfit, other_Hair_B_views, lighting, background]
+approval: {status: REJECTED, approver: user, date: "2026-09-14", evidence: "长相ok；标准眼平头顶高度应比高机位更少"}
+lock_status: UNLOCKED_CANDIDATE

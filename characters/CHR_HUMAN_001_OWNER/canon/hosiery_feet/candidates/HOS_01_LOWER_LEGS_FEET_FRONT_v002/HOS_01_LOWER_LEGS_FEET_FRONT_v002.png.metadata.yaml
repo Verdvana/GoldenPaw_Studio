@@ -1,0 +1,40 @@
+asset_id: HOS_01_LOWER_LEGS_FEET_FRONT
+candidate_id: HOS_01_LOWER_LEGS_FEET_FRONT_v002
+asset_level: L1
+asset_type: material
+owner_id: CHR_HUMAN_001_OWNER
+canon_version: owner_v1.0
+file_path: characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_01_LOWER_LEGS_FEET_FRONT_v002/HOS_01_LOWER_LEGS_FEET_FRONT_v002.png
+physical_file_role: UNIQUE_CANDIDATE
+source_images:
+  - OWNER_BODY_01_FRONT_CANON_002
+generated_or_real: GENERATED
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_01_LOWER_LEGS_FEET_FRONT_v002/generation_record.md
+approval_status: REVIEW_REQUIRED
+approval_record: null
+authoritative_for:
+  - candidate front lower-leg-to-foot framing
+  - candidate neutral front foot geometry
+  - candidate 15D nude matte continuity test
+must_not_define:
+  - approved hosiery Material Canon
+  - approved foot or nail-color Canon
+  - face, full body, hairstyle or outfit identity
+  - episode wardrobe, lighting or environment
+view:
+  framing: just above both knees through both complete feet
+  angle: straight-on front
+  camera_height: mid-shin
+  lens: 85-100mm-equivalent target
+appearance:
+  hairstyle: out_of_frame
+  outfit: full Calibration Outfit logically worn; swimsuit outside frame
+  hosiery: 15D light-nude matte/velvet sheer candidate with residual toe-root continuity failure
+quality_status: FAIL
+checksum_sha256: 66a49dcc8970eb2a6fb2a6e71f87dfaa57d95293fdd66d5d4518147bc680896a
+original_candidate_path: characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_01_LOWER_LEGS_FEET_FRONT_v002/HOS_01_LOWER_LEGS_FEET_FRONT_v002.png
+original_candidate_checksum_sha256: 66a49dcc8970eb2a6fb2a6e71f87dfaa57d95293fdd66d5d4518147bc680896a
+promoted_asset_path: null
+promoted_asset_checksum_sha256: null
+created_at: "2026-09-14"
+notes: "Nail treatment improved; technical QA still fails because a bilateral toe-root transverse material boundary remains."

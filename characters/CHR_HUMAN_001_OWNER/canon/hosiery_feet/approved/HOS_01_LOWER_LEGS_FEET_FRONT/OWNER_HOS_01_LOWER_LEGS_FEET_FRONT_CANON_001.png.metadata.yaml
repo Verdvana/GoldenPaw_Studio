@@ -1,0 +1,41 @@
+asset_id: OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_001
+source_candidate: HOS_01_LOWER_LEGS_FEET_FRONT_v003
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+gate: "Gate 7 — Hosiery / Feet Canon"
+status: APPROVED
+technical_qa: PASS_BY_EXPLICIT_USER_REVIEW
+generated_at: "2026-09-14"
+model_tool: "built-in image_gen"
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+color_mode: RGB
+sha256: "9b30066a21b971ed12a74d2ef357ca3643c1a3fc9e3e35d31bdceb897a086339"
+authoritative_file: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_01_LOWER_LEGS_FEET_FRONT/OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_001.png"
+reference_set_ids:
+  - OWNER_BODY_FRONT_CANON_L1
+previous_generated_candidate_inputs: []
+approval:
+  status: APPROVED
+  approver: user
+  date: "2026-09-14"
+  evidence: "合格，可以记录"
+  record: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_01_LOWER_LEGS_FEET_FRONT/approvals/APPROVAL_OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_001.md"
+lock_status: UNLOCKED_COMPONENT
+authoritative_for:
+  - "front lower-leg and foot proportions and neutral contact"
+  - "continuous 15D nude matte/velvet closed-toe hosiery presentation in this front view"
+  - "softened burgundy toenail appearance beneath the sheer textile"
+must_not_define:
+  - "face, overall body identity, hairstyle or expression"
+  - "three-quarter, side, rear-heel, sole or macro toe views"
+  - "other hosiery denier, color, finish or toe construction"
+  - "lighting, background or complete owner_v1.0 release"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_01_LOWER_LEGS_FEET_FRONT_v003/HOS_01_LOWER_LEGS_FEET_FRONT_v003.png"
+original_candidate_checksum_sha256: "9b30066a21b971ed12a74d2ef357ca3643c1a3fc9e3e35d31bdceb897a086339"
+promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_01_LOWER_LEGS_FEET_FRONT/OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_001.png"
+promoted_asset_checksum_sha256: "9b30066a21b971ed12a74d2ef357ca3643c1a3fc9e3e35d31bdceb897a086339"
+notes:
+  - "Independent v003; v001 and v002 were not pixel inputs."
+  - "User review accepted faint toe-root lightness as natural articulation rather than garment discontinuity."
+  - "Scoped L1 component; full owner_v1.0 remains unlocked."

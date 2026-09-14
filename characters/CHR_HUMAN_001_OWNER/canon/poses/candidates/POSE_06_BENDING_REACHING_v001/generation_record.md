@@ -3,17 +3,17 @@
 ```yaml
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-spec_revision: draft_1.118
-identity_md_revision: draft_0.106
+spec_revision: draft_1.119
+identity_md_revision: draft_0.107
 asset_id: POSE_06_BENDING_REACHING
 candidate_id: POSE_06_BENDING_REACHING_v001
 gate: "Gate 6 — Body / Pose Canon"
 model_tool: "built-in image_gen"
-status: DRAFT_READY_TO_GENERATE
-approval_status: REVIEW_REQUIRED
+status: USER_REVISION_REQUIRED_MATERIAL_ONLY
+approval_status: REJECTED
 aspect_ratio: "3:4"
 preferred_resolution: "1536x2048"
-actual_resolution: "PENDING"
+actual_resolution: "1086x1448"
 reference_set_ids:
   - OWNER_FACE_LEFT_3Q_NEUTRAL_CANON_L1
   - OWNER_BODY_LEFT_3Q_CANON_L1
@@ -22,8 +22,8 @@ reference_count: 3
 previous_ai_pose_candidate_count: 0
 seed_settings: "built-in image_gen; seed and detailed settings may not be returned"
 output_path: "characters/CHR_HUMAN_001_OWNER/canon/poses/candidates/POSE_06_BENDING_REACHING_v001/POSE_06_BENDING_REACHING_v001.png"
-checksum_sha256: "PENDING"
-qa_status: PENDING
+checksum_sha256: "8696d3e1efc36b91440f6f8eb8fa9bb659bb14d320bfe4432d7beed1600db183"
+qa_status: FAIL_USER_REVISION_BARE_FOOT_LOOK
 ```
 
 ## Authorization and lineage
@@ -80,4 +80,13 @@ One complete adult figure from hair to feet, exact 3:4 vertical frame, clear mar
 
 ## QA status
 
-Pending generation and technical review.
+### Attempt 1
+
+- generated_at: `2026-09-13`
+- built-in output: `/home/verdvana/.codex/generated_images/01a09ab1-cec4-7f30-9bd8-80cb6ab0e147/exec-20becdee-a5b1-45cf-910c-253f3270b0e2.png`
+- project candidate: `characters/CHR_HUMAN_001_OWNER/canon/poses/candidates/POSE_06_BENDING_REACHING_v001/POSE_06_BENDING_REACHING_v001.png`
+- result: one 1086×1448 exact-3:4 PNG generated and saved.
+- lineage: approved left-3/4 Face + left-3/4 Body + Hair-A L1 Masters; no previous Pose input.
+- technical QA after user correction: pose PASS — rear forefoot support with a raised heel is acceptable for this Pose action; material FAIL — foot hosiery presence is too weak and reads close to bare skin. See `QA.md`.
+
+Current status: `USER_REVISION_REQUIRED_MATERIAL_ONLY`. The user accepted the visible pose, including the raised rear heel, and requested stronger 15D nude matte textile presence. v001 must not be used as a downstream or v002 pixel reference.

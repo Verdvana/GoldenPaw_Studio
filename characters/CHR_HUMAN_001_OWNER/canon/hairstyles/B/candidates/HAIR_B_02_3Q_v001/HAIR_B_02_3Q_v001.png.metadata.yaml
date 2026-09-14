@@ -1,0 +1,16 @@
+asset_id: HAIR_B_02_3Q_v001
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1_CANDIDATE
+asset_type: hairstyle_candidate
+hairstyle: HAIRSTYLE_B
+view: {anatomical_side: left, face_points: image_left, projection: three_quarter}
+status: USER_REJECTED
+technical_qa: FAILED_REAR_STRUCTURE
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/candidates/HAIR_B_02_3Q_v001/HAIR_B_02_3Q_v001.png"
+sha256: "7916aa48d385d8fcce415964d9a81466dac2498a186b9a7125330edbde18a051"
+reference_set_ids: [OWNER_FACE_LEFT_3Q_NEUTRAL_CANON_L1, OWNER_HAIRSTYLE_B_L0, OWNER_HAIRSTYLE_B_APPEARANCE_L1]
+previous_generated_hair_inputs: []
+approval: {status: REJECTED, approver: user, date: "2026-09-14", evidence: "后部应为鲨鱼夹夹起并带小鸡尾，不是低发髻"}
+lock_status: UNLOCKED_CANDIDATE
