@@ -288,6 +288,13 @@ reference_sets:
     usable_for_generation: true
     assets:
       - {asset_id: OWNER_POSE_06_BENDING_REACHING_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_06_BENDING_REACHING/OWNER_POSE_06_BENDING_REACHING_CANON_001.png"}
+  OWNER_POSE_07_KNEELING_CROUCHING_CANON_L1:
+    purpose: "approved L1 Pose Master for the visible approximately 45-degree right-three-quarter half-kneeling mobility assessment posture articulation, front knee 90-degree flexion with planted flat foot, rear knee on floor plane, rear forefoot contacting floor, upright neutral spine; must not define permanent identity/body/hair, garment design, hosiery material/color/denier/toe treatment, nail color, other poses, lighting or background"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_POSE_07_KNEELING_CROUCHING_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_07_KNEELING_CROUCHING/OWNER_POSE_07_KNEELING_CROUCHING_CANON_001.jpg"}
   OWNER_POSE_08_SEATED_LEGS_EXTENDED_CANON_L1:
     purpose: "approved L1 Pose Master for the visible approximately 45-degree left-three-quarter floor-seated articulation, stable torso, separated forward legs, naturally relaxed knee/ankle/foot/toe joints and light hand support only; must not define permanent identity/body/hair, fully straight knees, 90-degree ankle dorsiflexion, sole-facing view, garment design, hosiery material/color/denier/toe treatment, nail color, other poses, lighting or background; known geometry/material limitations are excluded"
     max_images: 1
@@ -295,6 +302,13 @@ reference_sets:
     usable_for_generation: true
     assets:
       - {asset_id: OWNER_POSE_08_SEATED_LEGS_EXTENDED_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_08_SEATED_LEGS_EXTENDED/OWNER_POSE_08_SEATED_LEGS_EXTENDED_CANON_001.png"}
+  OWNER_POSE_09_PRONE_ARMS_KNEES_SUPPORTED_CANON_L1:
+    purpose: "approved L1 Pose Master for the visible approximately 45-degree left-three-quarter tabletop four-point posture articulation, palms flat beneath shoulders, straight supporting arms, knees under hips, horizontal neutral spine and forefoot/toe pad contact with elevated heels; must not define permanent identity/body/hair, garment design, hosiery material/color/denier/toe treatment, nail color, other poses, lighting or background"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_POSE_09_PRONE_ARMS_KNEES_SUPPORTED_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_09_PRONE_ARMS_KNEES_SUPPORTED/OWNER_POSE_09_PRONE_ARMS_KNEES_SUPPORTED_CANON_001.jpg"}
   OWNER_L0_WALKING_ARTICULATION:
     purpose: "L0_OWNER_003 front walking stride and lower-limb alternation only; must not define owner identity, body proportions, hair, black dress, black tights, shoes, shopping bags, camera, lighting, parking-garage environment or material"
     max_images: 1

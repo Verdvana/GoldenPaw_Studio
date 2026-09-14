@@ -4,7 +4,7 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.171
+revision: draft_0.175
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
 updated_at: "2026-09-14"
@@ -495,3 +495,7 @@ updated_at: "2026-09-14"
 | draft_0.169 | 2026-09-14 | 用户授权 HAIR_B_03 人物左纯侧面候选；批准左侧 Face 定义身份，B 真人 L0 与批准 B 设计锚定义发型，鲨鱼夹/小鸡尾仅按已批准文字合同重建，不输入其他 Hair 像素，身份锚不变 | user next Hair-B asset authorization |
 | draft_0.170 | 2026-09-14 | HAIR_B_03 v001 已独立生成；技术预检范围内人物左纯侧面、受控冠部、后脑中线鲨鱼夹侧向结构和短小上后翘鸡尾成立。夹具下后方折叠发束的偏圆润体积只作为 Hair-B 候选复核点，不写回头骨、脸部或永久身份；候选待用户审核，完整 owner_v1.0 未锁定 | candidate generated; identity anchors unchanged |
 | draft_0.171 | 2026-09-14 | 用户明确批准 HAIR_B_03 v001；新增权威仅限人物左纯侧面的 Hair-B 发际/耳侧/后收、后脑中线鲨鱼夹侧向结构、夹内折叠发束及短小上后翘鸡尾。可见脸部、头骨、身体、服装与其他角度不写回永久身份，完整 owner_v1.0 未锁定 | user approved scoped Hair-B side component |
+| draft_0.172 | 2026-09-14 | 用户授权重新生成 POSE_09。候选从批准左3/4 Face、左3/4 Body 与 Hair-A 三项 Master 独立生成，不输入任何 Pose；采用修订后的前脚掌/脚趾腹着地、脚跟抬起合同，并使用严密的中性临床/物理治疗评估提示词组装以降低 AI 安全拦截风险 | user pose-09 retry authorization; identity anchors unchanged |
+| draft_0.173 | 2026-09-14 | 用户明确批准 POSE_09 v003（“相当不错，批准了”）；物理文件按单文件规则移动晋升为 `OWNER_POSE_09_PRONE_ARMS_KNEES_SUPPORTED_CANON_001.jpg`。批准仅覆盖四点支撑/手膝姿态的关节承重关系、中立脊柱与前掌接地，不写回永久身份、身体、发型或材质；完整 owner_v1.0 未锁定 | user approved scoped POSE_09 component |
+| draft_0.174 | 2026-09-14 | 用户授权重新生成 POSE_07。候选从批准右3/4 Face、右3/4 Body 与 Hair-A 三项 Master 独立生成，不输入任何 Pose；采用右3/4稳定半跪/低蹲关节姿态合同，并使用严密的中性临床/物理治疗评估提示词组装以降低 AI 安全拦截风险 | user pose-07 retry authorization; identity anchors unchanged |
+| draft_0.175 | 2026-09-14 | 用户明确批准 POSE_07 v004（“不错，批准”）；物理文件按单文件规则移动晋升为 `OWNER_POSE_07_KNEELING_CROUCHING_CANON_001.jpg`。批准仅覆盖右3/4半跪/低蹲姿态的关节承重关系、90°前膝、平稳后膝与前掌接地，不写回永久身份、身体、发型或材质；Gate 6 姿态组件完成 9/9 项，完整 owner_v1.0 未锁定 | user approved scoped POSE_07 component; Gate 6 Pose complete |
