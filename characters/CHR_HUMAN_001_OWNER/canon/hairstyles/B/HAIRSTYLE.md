@@ -35,3 +35,11 @@ The user approved v003 with “批准，下一项”. Its sole raster was moved 
 The user rejected v001's low-bun interpretation and fixed the rear design as a centered vertical claw clip, compact folded hair inside it, and a small upward/backward rooster-tail tuft. v002 must preserve the accepted front/high-camera-compatible silhouette while revealing this structure only as appropriate in left 3/4. v001 is excluded.
 
 The user explicitly approved v002 with “卧槽完美，登记吧”. Its sole raster was moved to `approved/HAIR_B_02_3Q/OWNER_HAIR_B_02_3Q_CANON_001.png`. This establishes the claw-clip/small-tail rear construction in anatomical-left 3/4 while keeping face, body, outfit and other B views outside authority.
+
+## HAIR_B_03 execution status
+
+`HAIR_B_03_SIDE_v001` is authorized as anatomical-left true profile, nose image-right. It will use the approved left-profile Face for identity and the two established B sources for hair; no B01/B02 or other generated Hair pixels. The approved claw-clip/compact-fold/small-tail design is transferred only through written constraints. Candidate remains `REVIEW_REQUIRED`.
+
+`HAIR_B_03_SIDE_v001` was generated successfully as a 1086×1448 3:4 PNG. Technical precheck passes the anatomical-left true profile, controlled crown, smooth rearward gathering, rear-center claw-clip depth/hinge/near teeth and short upward/backward tail. The compact clip-held fold has a rounded volume below/behind the clip, so whether it reads too close to a small bun is reserved for explicit user review. Candidate remains `REVIEW_REQUIRED`; it has not been promoted.
+
+The user explicitly approved v001 with “登记吧”. Its sole raster was moved to `approved/HAIR_B_03_SIDE/OWNER_HAIR_B_03_SIDE_CANON_001.png`. The rounded clip-held fold is accepted for this side view. Authority remains limited to anatomical-left true-profile Hair-B attributes; face, body, outfit, other views and full-release lock remain excluded.

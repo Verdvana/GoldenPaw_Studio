@@ -4,7 +4,7 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.168
+revision: draft_0.171
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
 updated_at: "2026-09-14"
@@ -492,3 +492,6 @@ updated_at: "2026-09-14"
 | draft_0.166 | 2026-09-14 | 用户将 Hair-B 后部固定为鲨鱼夹夹起的紧凑折叠发束 + 小型向上后翘鸡尾，取代低发髻解释；该发型决定需兼容已批准高机位正面轮廓，不改变脸部身份 | user Hair-B rear design decision |
 | draft_0.167 | 2026-09-14 | HAIR_B_02 v002 已生成并在技术预检中符合鲨鱼夹+小鸡尾合同；只供 Hair-B 审核，不改变脸部身份 | candidate generated; identity unchanged |
 | draft_0.168 | 2026-09-14 | 用户明确批准 HAIR_B_02 v002；新增权威仅限左3/4 Hair-B 鲨鱼夹/折叠发束/小鸡尾结构，不改变脸部、身体或完整 owner_v1.0 锁定状态 | user approved scoped Hair-B component |
+| draft_0.169 | 2026-09-14 | 用户授权 HAIR_B_03 人物左纯侧面候选；批准左侧 Face 定义身份，B 真人 L0 与批准 B 设计锚定义发型，鲨鱼夹/小鸡尾仅按已批准文字合同重建，不输入其他 Hair 像素，身份锚不变 | user next Hair-B asset authorization |
+| draft_0.170 | 2026-09-14 | HAIR_B_03 v001 已独立生成；技术预检范围内人物左纯侧面、受控冠部、后脑中线鲨鱼夹侧向结构和短小上后翘鸡尾成立。夹具下后方折叠发束的偏圆润体积只作为 Hair-B 候选复核点，不写回头骨、脸部或永久身份；候选待用户审核，完整 owner_v1.0 未锁定 | candidate generated; identity anchors unchanged |
+| draft_0.171 | 2026-09-14 | 用户明确批准 HAIR_B_03 v001；新增权威仅限人物左纯侧面的 Hair-B 发际/耳侧/后收、后脑中线鲨鱼夹侧向结构、夹内折叠发束及短小上后翘鸡尾。可见脸部、头骨、身体、服装与其他角度不写回永久身份，完整 owner_v1.0 未锁定 | user approved scoped Hair-B side component |

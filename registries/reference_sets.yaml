@@ -214,6 +214,13 @@ reference_sets:
     usable_for_generation: true
     assets:
       - {asset_id: OWNER_HAIR_B_02_3Q_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/approved/HAIR_B_02_3Q/OWNER_HAIR_B_02_3Q_CANON_001.png"}
+  OWNER_HAIR_B_LEFT_PROFILE_CANON_L1:
+    purpose: "approved anatomical-left eye-level true-profile Hairstyle B: controlled crown, side part projection, near-ear relationship, rearward gathering, rear-center vertical claw-clip depth/hinge/near teeth, compact folded hair and short upward/backward rooster-tail tuft; must not define face, body, outfit, other views, lighting or background"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_HAIR_B_03_SIDE_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/approved/HAIR_B_03_SIDE/OWNER_HAIR_B_03_SIDE_CANON_001.png"}
   OWNER_L0_BODY_FRONT_CONTEXT:
     purpose: "pre-Canon standing/walking proportion context; never final body authority"
     max_images: 2

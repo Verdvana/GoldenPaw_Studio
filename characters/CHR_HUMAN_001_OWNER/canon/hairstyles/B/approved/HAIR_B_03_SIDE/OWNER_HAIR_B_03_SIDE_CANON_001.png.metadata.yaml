@@ -1,0 +1,27 @@
+asset_id: OWNER_HAIR_B_03_SIDE_CANON_001
+source_candidate: HAIR_B_03_SIDE_v001
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+asset_type: hairstyle_canon
+hairstyle: HAIRSTYLE_B
+status: APPROVED
+technical_qa: PASS_USER_APPROVED
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+sha256: "18d744d28041da41abc1a1b36c74ecf883fde81e1afeb6b02e526e9ea45be8d4"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/approved/HAIR_B_03_SIDE/OWNER_HAIR_B_03_SIDE_CANON_001.png"
+view: {anatomical_side: left, face_points: image_right, projection: true_profile}
+rear_structure: "rear-center vertical claw clip with compact folded hair and short upward/backward rooster-tail tuft"
+reference_set_ids: [OWNER_FACE_LEFT_PROFILE_NEUTRAL_CANON_L1, OWNER_HAIRSTYLE_B_L0, OWNER_HAIRSTYLE_B_APPEARANCE_L1]
+previous_generated_hair_inputs: []
+approval:
+  status: APPROVED
+  approver: user
+  date: "2026-09-14"
+  evidence: "登记吧"
+  record: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/approved/HAIR_B_03_SIDE/approvals/APPROVAL_OWNER_HAIR_B_03_SIDE_001.md"
+lock_status: UNLOCKED_COMPONENT
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/candidates/HAIR_B_03_SIDE_v001/HAIR_B_03_SIDE_v001.png"
+original_candidate_checksum_sha256: "18d744d28041da41abc1a1b36c74ecf883fde81e1afeb6b02e526e9ea45be8d4"
+promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/approved/HAIR_B_03_SIDE/OWNER_HAIR_B_03_SIDE_CANON_001.png"
+promoted_asset_checksum_sha256: "18d744d28041da41abc1a1b36c74ecf883fde81e1afeb6b02e526e9ea45be8d4"
