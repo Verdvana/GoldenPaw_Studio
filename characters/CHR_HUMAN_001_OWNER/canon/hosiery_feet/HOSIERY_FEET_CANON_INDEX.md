@@ -6,7 +6,7 @@ character_id: CHR_HUMAN_001_OWNER
 index_revision: 8
 updated_at: "2026-09-15"
 full_release_lock_status: UNLOCKED
-approved_components: 3
+approved_components: 4
 ```
 
 ## Latest attempt
@@ -20,6 +20,7 @@ approved_components: 3
 | `HOS_01_LOWER_LEGS_FEET_FRONT` | `approved/HOS_01_LOWER_LEGS_FEET_FRONT/OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_002.png` | `OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_L1` | v006 moved after explicit user approval; compatible refinement |
 | `HOS_02_FEET_3Q` | `approved/HOS_02_FEET_3Q/OWNER_HOS_02_FEET_3Q_CANON_001.png` | `OWNER_BODY_LEFT_3Q_CANON_L1` | v004 moved after explicit user approval |
 | `HOS_03_FEET_SIDE` | `approved/HOS_03_FEET_SIDE/OWNER_HOS_03_FEET_SIDE_CANON_001.png` | `OWNER_BODY_LEFT_SIDE_CANON_L1` | v006 moved after explicit user approval |
+| `HOS_04_TOES_FRONT_DETAIL` | `approved/HOS_04_TOES_FRONT_DETAIL/OWNER_HOS_04_TOES_FRONT_DETAIL_CANON_001.png` | `OWNER_BODY_FRONT_CANON_L1` | v008 moved after explicit user approval |
 
 ## Scope
 

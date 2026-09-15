@@ -1,0 +1,32 @@
+asset_id: OWNER_HOS_04_TOES_FRONT_DETAIL_CANON_001
+source_candidate: HOS_04_TOES_FRONT_DETAIL_v008
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+gate: "Gate 7 — Hosiery / Feet Canon"
+status: APPROVED
+technical_qa: PASS_BY_EXPLICIT_USER_REVIEW
+generated_at: "2026-09-15"
+model_tool: "built-in ImageGen"
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+color_mode: RGB
+sha256: "35e353c038edb94f415a04a893349f03ed93b8daa9d452ff2cddff74731bc9b9"
+authoritative_file: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_04_TOES_FRONT_DETAIL/OWNER_HOS_04_TOES_FRONT_DETAIL_CANON_001.png"
+reference_set_ids:
+  - OWNER_BODY_FRONT_CANON_L1
+previous_generated_candidate_inputs: []
+approval:
+  status: APPROVED
+  approver: user
+  date: "2026-09-15"
+  evidence: "可以的，登记"
+  record: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_04_TOES_FRONT_DETAIL/approvals/APPROVAL_OWNER_HOS_04_TOES_FRONT_DETAIL_001.md"
+lock_status: UNLOCKED_COMPONENT
+authoritative_for:
+  - "front toe-detail geometry within this scoped view"
+  - "normal continuous closed-toe 15D light-nude velvet-matte sheer hosiery"
+  - "soft aggregate toe relief and no toe-sock compartment appearance"
+must_not_define:
+  - "complete owner identity or full-body proportions"
+  - "other foot views or other hosiery constructions"
+  - "lighting, background or episode wardrobe"

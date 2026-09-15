@@ -1,0 +1,22 @@
+asset_id: HOS_04_TOES_FRONT_DETAIL_v005
+source_asset_id: HOS_04_TOES_FRONT_DETAIL
+asset_type: hosiery_feet_candidate
+gate: "Gate 7 — Hosiery / Feet Canon"
+status: REVIEW_REQUIRED
+approval_status: REVIEW_REQUIRED
+technical_qa: PENDING_USER_REVIEW
+character_id: CHR_HUMAN_001_OWNER
+canon_version: owner_v1.0
+spec_revision: draft_1.204
+identity_md_revision: draft_0.136
+file_path: characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_04_TOES_FRONT_DETAIL_v005/HOS_04_TOES_FRONT_DETAIL_v005.png
+dimensions_px: "1086x1448"
+aspect_ratio: "3:4"
+sha256: e8c41adc9a5bee1c14a84f50dee03e046a71231b18bd72b84c53d22ca3ecbe87
+reference_set_ids: [OWNER_BODY_FRONT_CANON_L1]
+previous_generated_candidate_inputs: []
+authoritative_for: "none until explicit user approval"
+must_not_define:
+  - "complete owner identity or full-body proportions"
+  - "other foot views or other hosiery constructions"
+  - "lighting, background or episode wardrobe"
