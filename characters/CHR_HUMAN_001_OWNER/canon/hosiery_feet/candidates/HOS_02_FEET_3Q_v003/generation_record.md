@@ -9,7 +9,7 @@ asset_id: HOS_02_FEET_3Q
 candidate_id: HOS_02_FEET_3Q_v003
 gate: "Gate 7 — Hosiery / Feet Canon"
 model_tool: "built-in ImageGen"
-status: REVIEW_REQUIRED
+status: GENERATION_BLOCKED_NO_OUTPUT
 approval_status: REVIEW_REQUIRED
 aspect_ratio: "3:4"
 preferred_resolution: "1536x2048"
@@ -22,8 +22,16 @@ seed_settings: "built-in ImageGen; seed and detailed settings may not be returne
 output_path: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_02_FEET_3Q_v003/HOS_02_FEET_3Q_v003.png"
 actual_dimensions_px: null
 checksum_sha256: null
-qa_status: PENDING_GENERATION
+qa_status: NOT_APPLICABLE_NO_OUTPUT
 ```
+
+## Generation result
+
+- generated_at: `2026-09-15`
+- result: built-in ImageGen output moderation blocked the request (`sexual`); no raster was returned or stored.
+- request_id: `7cab4c49-e32f-4d0a-919d-4ea35a79d0d2`
+- project_candidate_path: no file created because no output was returned.
+- promotion_status: no candidate exists; HOS_02 remains incomplete.
 
 ## Reference responsibilities
 

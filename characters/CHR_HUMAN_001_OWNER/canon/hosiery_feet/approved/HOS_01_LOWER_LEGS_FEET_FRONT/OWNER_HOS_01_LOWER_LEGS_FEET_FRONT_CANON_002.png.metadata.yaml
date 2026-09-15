@@ -1,0 +1,34 @@
+asset_id: OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_002
+source_candidate: HOS_01_LOWER_LEGS_FEET_FRONT_v006
+supersedes_asset_id: OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_001
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+gate: "Gate 7 — Hosiery / Feet Canon"
+status: APPROVED
+technical_qa: PASS_BY_EXPLICIT_USER_REVIEW
+generated_at: "2026-09-15"
+model_tool: "built-in ImageGen"
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+color_mode: RGB
+sha256: "ea8f2e413fd7bdacfd4328853ccbbe190fa10f0a36f003b3b724f56a364298d3"
+authoritative_file: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_01_LOWER_LEGS_FEET_FRONT/OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_002.png"
+reference_set_ids:
+  - OWNER_BODY_FRONT_CANON_L1
+previous_generated_candidate_inputs: []
+approval:
+  status: APPROVED
+  approver: user
+  date: "2026-09-15"
+  evidence: "很好，登记"
+  record: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_01_LOWER_LEGS_FEET_FRONT/approvals/APPROVAL_OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_002.md"
+lock_status: UNLOCKED_COMPONENT
+authoritative_for:
+  - "front lower-leg and foot proportions and neutral contact"
+  - "continuous 15D nude matte/velvet closed-toe hosiery presentation in this front view"
+  - "soft hazy textile diffusion with smooth longitudinal toe conformity"
+must_not_define:
+  - "face, overall body identity, hairstyle or expression"
+  - "three-quarter, side, rear-heel, sole or macro toe views"
+  - "other hosiery denier, color, finish or toe construction"
+  - "lighting, background or complete owner_v1.0 release"

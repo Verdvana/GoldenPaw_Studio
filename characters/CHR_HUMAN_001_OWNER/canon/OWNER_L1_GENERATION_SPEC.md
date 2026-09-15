@@ -4,7 +4,7 @@
 document_id: OWNER_L1_GENERATION_SPEC
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-spec_revision: draft_1.201
+spec_revision: draft_1.204
 status: DRAFT
 authority: USER_APPROVAL_REQUIRED
 default_aspect_ratio: "3:4"
@@ -787,3 +787,6 @@ all required components APPROVED
 | draft_1.199 | 2026-09-15 | 用户指出 v011 实际为高机位：头顶暴露过多，镜头位于眼线以上。v011 不得作为输入；授权重新生成 v012，彻底排除旧构图逻辑，只要求镜头低于眼线、头部自然直立、眼睛向下看镜头且头顶暴露少 | user QA correction; high-camera rejection |
 | draft_1.200 | 2026-09-15 | 用户拒绝 `HAIR_B_06_LOW_CAMERA_LOOK_DOWN_v012`：仍接近平视，眼睛未锁定镜头。v012 不得作为输入；授权 v013 使用已批准 A 低机位 Canon 作为固定机位/头位/眼神构图基准，仅进行 Hair-B 替换，禁止重建头部姿态和视线 | user QA correction; constrained edit method |
 | draft_1.201 | 2026-09-15 | 用户明确不批准 `HOS_02_FEET_3Q_v002`。该候选标记为 `USER_REJECTED`，不得作为下游像素输入；Gate 7 的 HOS_02 仍未完成 | user rejection recorded |
+| draft_1.202 | 2026-09-15 | 用户拒绝 `HOS_04_TOES_FRONT_DETAIL_v001`：脚趾前方袜面张力不明显，15D 朦胧柔化不足。v001 不得作为输入；授权独立生成 v002，强化趾尖前方的细微织物拉伸、半透明雾化和袜面覆盖感 | user QA correction incorporated |
+| draft_1.203 | 2026-09-15 | 用户确认 `HOS_04_TOES_FRONT_DETAIL_v002` 的张力曲线方向正确，但要求更明显、袜面视觉厚度略增。v002 不得作为像素输入；授权独立生成 v003，增强趾尖张力曲线与织物存在感，同时保持半透明、朦胧、15D 而非不透明厚袜 | user QA refinement incorporated |
+| draft_1.204 | 2026-09-15 | 用户授权再次尝试 HOS_04，并要求保留上次修改：明显趾尖张力曲线、略增强袜面视觉厚度、15D 半透明朦胧感。v003 因输出拦截无像素，不作为输入；授权独立生成 v004 | retry authorization; prior material refinement retained |

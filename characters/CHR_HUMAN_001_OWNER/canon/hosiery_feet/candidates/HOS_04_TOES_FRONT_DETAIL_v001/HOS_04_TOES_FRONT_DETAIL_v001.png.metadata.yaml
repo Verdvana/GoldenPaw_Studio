@@ -1,0 +1,18 @@
+asset_id: HOS_04_TOES_FRONT_DETAIL_v001
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+asset_type: hosiery_feet_candidate
+generated_or_real: generated
+approval_status: USER_REJECTED
+authoritative_for: "HOS_04 front toe-detail hosiery coverage and textile-over-nail behavior, pending user review"
+must_not_define: "foot identity beyond this detail, other views, other deniers/colors/finishes, complete body identity, lighting, background or complete owner_v1.0 lock"
+status: USER_REJECTED
+technical_qa: USER_REJECTED
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+sha256: "e5c96de505c9eacd0c0fb94793726608643b293ecc9c0373559150fb5b099f3b"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_04_TOES_FRONT_DETAIL_v001/HOS_04_TOES_FRONT_DETAIL_v001.png"
+view: {camera: toe_height, angle: straight_on_front, crop: ankles_to_complete_forefeet_and_toes}
+reference_set_ids: [OWNER_BODY_FRONT_CANON_L1]
+previous_generated_hosiery_inputs: []
+rejected_candidate_pixels_used: false

@@ -1,0 +1,18 @@
+asset_id: HOS_04_TOES_FRONT_DETAIL_v002
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+asset_type: hosiery_feet_candidate
+generated_or_real: generated
+approval_status: REVIEW_REQUIRED
+authoritative_for: "HOS_04 front toe-detail 15D textile tension, haze and coverage behavior, pending user review"
+must_not_define: "foot identity beyond this detail, other views, other deniers/colors/finishes, complete body identity, lighting, background or complete owner_v1.0 lock"
+status: REVIEW_REQUIRED
+technical_qa: PENDING_USER_REVIEW
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+sha256: "c4affbe9fe53dd0f9e4621a5eccc40d4cd06089d95bc0f2402c4eb9b069a94f3"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_04_TOES_FRONT_DETAIL_v002/HOS_04_TOES_FRONT_DETAIL_v002.png"
+view: {camera: toe_height, angle: straight_on_front, crop: ankles_to_complete_forefeet_and_toes}
+reference_set_ids: [OWNER_BODY_FRONT_CANON_L1]
+previous_generated_hosiery_inputs: []
+rejected_candidate_pixels_used: false

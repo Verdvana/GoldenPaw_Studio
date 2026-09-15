@@ -252,7 +252,7 @@ reference_sets:
     approval_status: "APPROVED"
     usable_for_generation: true
     assets:
-      - {asset_id: OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_01_LOWER_LEGS_FEET_FRONT/OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_001.png"}
+      - {asset_id: OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_002, path: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_01_LOWER_LEGS_FEET_FRONT/OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_002.png"}
   OWNER_POSE_01_RELAXED_STANDING_CANON_L1:
     purpose: "explicitly approved Pose-01 reuse of the unique OWNER_BODY_01_FRONT_CANON_002 raster: front neutral relaxed-standing articulation only; must not define other poses, articulated side/rear geometry, episode performance, or broader material authority"
     max_images: 1

@@ -1,0 +1,31 @@
+asset_id: OWNER_HOS_02_FEET_3Q_CANON_001
+source_asset_id: HOS_02_FEET_3Q
+asset_type: hosiery_feet_canon
+gate: "Gate 7 — Hosiery / Feet Canon"
+status: APPROVED
+technical_qa: PASS_BY_EXPLICIT_USER_REVIEW
+approval_status: APPROVED
+character_id: CHR_HUMAN_001_OWNER
+canon_version: owner_v1.0
+spec_revision: draft_1.204
+identity_md_revision: draft_0.136
+file_path: characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_02_FEET_3Q/OWNER_HOS_02_FEET_3Q_CANON_001.png
+dimensions_px: "1086x1448"
+aspect_ratio: "3:4"
+sha256: 0d0d5b55c0a33bed682465328e278b99e27de38aee472203c862aa4389ae6427
+authoritative_for:
+  - "anatomical-left three-quarter lower-leg and foot geometry within this view"
+  - "separated neutral stance and stable floor contact within this view"
+  - "continuous 15D light-nude velvet-matte sheer hosiery response across ankle, heel, arch, instep, forefoot and closed toes"
+  - "soft hazy textile diffusion and subtle interdigital fabric tension"
+must_not_define:
+  - "complete owner identity or full-body proportions outside this scoped view"
+  - "other foot views"
+  - "other hosiery colors, finishes, deniers or constructions"
+  - "lighting, background, episode wardrobe or shot continuity"
+  - "bare-skin or surface-painted toenail appearance"
+approval:
+  status: APPROVED
+  approver: user
+  approved_at: "2026-09-15"
+  evidence: "User explicitly stated: 非常好，批准了"

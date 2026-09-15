@@ -1,0 +1,22 @@
+asset_id: HOS_01_LOWER_LEGS_FEET_FRONT_v004
+source_asset_id: HOS_01_LOWER_LEGS_FEET_FRONT
+asset_type: hosiery_feet_candidate
+gate: "Gate 7 — Hosiery / Feet Canon"
+status: REVIEW_REQUIRED
+approval_status: REVIEW_REQUIRED
+technical_qa: PENDING_USER_REVIEW
+character_id: CHR_HUMAN_001_OWNER
+canon_version: owner_v1.0
+spec_revision: draft_1.204
+identity_md_revision: draft_0.136
+file_path: characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_01_LOWER_LEGS_FEET_FRONT_v004/HOS_01_LOWER_LEGS_FEET_FRONT_v004.png
+dimensions_px: "1086x1448"
+aspect_ratio: "3:4"
+sha256: 79d8bcb6a3b0d665d156743620842e81b2f1842980a12bd03c10b2e87e533451
+reference_set_ids: [OWNER_BODY_FRONT_CANON_L1]
+previous_generated_candidate_inputs: []
+authoritative_for: "none until explicit user approval"
+must_not_define:
+  - "complete owner identity or full-body proportions"
+  - "other foot views or other hosiery constructions"
+  - "lighting, background or episode wardrobe"
