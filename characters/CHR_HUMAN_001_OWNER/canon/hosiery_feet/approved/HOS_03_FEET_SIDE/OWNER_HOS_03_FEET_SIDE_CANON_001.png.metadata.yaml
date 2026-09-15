@@ -1,0 +1,32 @@
+asset_id: OWNER_HOS_03_FEET_SIDE_CANON_001
+source_candidate: HOS_03_FEET_SIDE_v006
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+gate: "Gate 7 — Hosiery / Feet Canon"
+status: APPROVED
+technical_qa: PASS_BY_EXPLICIT_USER_REVIEW
+generated_at: "2026-09-15"
+model_tool: "built-in ImageGen"
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+color_mode: RGB
+sha256: "e9e224eda17aaf4dc144d7198c9cdc60fc7a2b6f0f6afb30bebb4453dbd0d1be"
+authoritative_file: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_03_FEET_SIDE/OWNER_HOS_03_FEET_SIDE_CANON_001.png"
+reference_set_ids:
+  - OWNER_BODY_LEFT_SIDE_CANON_L1
+previous_generated_candidate_inputs: []
+approval:
+  status: APPROVED
+  approver: user
+  date: "2026-09-15"
+  evidence: "完美，登记"
+  record: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_03_FEET_SIDE/approvals/APPROVAL_OWNER_HOS_03_FEET_SIDE_001.md"
+lock_status: UNLOCKED_COMPONENT
+authoritative_for:
+  - "anatomical-left true side lower-leg, ankle, heel, arch and foot profile within this view"
+  - "taut smooth 15D nude matte/velvet closed-toe hosiery across the standing side profile"
+  - "soft hazy textile diffusion, unified toe silhouette and natural rounded hallux profile"
+must_not_define:
+  - "complete owner identity or full-body proportions"
+  - "other foot views or other hosiery constructions"
+  - "lighting, background or episode wardrobe"

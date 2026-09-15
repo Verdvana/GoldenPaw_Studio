@@ -6,7 +6,7 @@ character_id: CHR_HUMAN_001_OWNER
 index_revision: 8
 updated_at: "2026-09-15"
 full_release_lock_status: UNLOCKED
-approved_components: 2
+approved_components: 3
 ```
 
 ## Latest attempt
@@ -19,6 +19,7 @@ approved_components: 2
 |---|---|---|---|
 | `HOS_01_LOWER_LEGS_FEET_FRONT` | `approved/HOS_01_LOWER_LEGS_FEET_FRONT/OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_002.png` | `OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_L1` | v006 moved after explicit user approval; compatible refinement |
 | `HOS_02_FEET_3Q` | `approved/HOS_02_FEET_3Q/OWNER_HOS_02_FEET_3Q_CANON_001.png` | `OWNER_BODY_LEFT_3Q_CANON_L1` | v004 moved after explicit user approval |
+| `HOS_03_FEET_SIDE` | `approved/HOS_03_FEET_SIDE/OWNER_HOS_03_FEET_SIDE_CANON_001.png` | `OWNER_BODY_LEFT_SIDE_CANON_L1` | v006 moved after explicit user approval |
 
 ## Scope
 
@@ -28,4 +29,4 @@ It does not define 3/4, side, heel-back, sole-facing or macro toe views; other h
 
 `HOS_02_FEET_3Q_v004` was supplied by the user, explicitly approved on 2026-09-15, and moved into the approved Canon path. Its scoped authority covers the left three-quarter view, soft hazy 15D textile diffusion, and subtle interdigital fabric tension. Earlier HOS_02 attempts remain historical and non-authoritative.
 
-`HOS_03_FEET_SIDE_v001` and `HOS_05_HEEL_BACK_DETAIL_v001` remain incomplete because their attempted generations returned no raster output. HOS_06 remains incomplete for the same reason. HOS_07 remains blocked by missing matching L0 material coverage.
+`HOS_05_HEEL_BACK_DETAIL_v001` remains incomplete because its attempted generation returned no raster output. HOS_06 remains incomplete for the same reason. HOS_07 remains blocked by missing matching L0 material coverage.
