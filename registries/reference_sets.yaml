@@ -221,6 +221,13 @@ reference_sets:
     usable_for_generation: true
     assets:
       - {asset_id: OWNER_HAIR_B_03_SIDE_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/approved/HAIR_B_03_SIDE/OWNER_HAIR_B_03_SIDE_CANON_001.png"}
+  OWNER_HAIR_B_BACK_CANON_L1:
+    purpose: "approved exact centered rear Hairstyle B: controlled crown, rearward gathering, centered vertical claw clip, compact folded hair and short upward/backward tuft; must not define face, body, outfit, other B views, lighting or background"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_HAIR_B_04_BACK_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/approved/HAIR_B_04_BACK/OWNER_HAIR_B_04_BACK_CANON_001.png"}
   OWNER_L0_BODY_FRONT_CONTEXT:
     purpose: "pre-Canon standing/walking proportion context; never final body authority"
     max_images: 2

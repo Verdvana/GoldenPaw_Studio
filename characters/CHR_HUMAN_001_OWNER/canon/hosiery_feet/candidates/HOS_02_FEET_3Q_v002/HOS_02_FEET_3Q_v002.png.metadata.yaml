@@ -1,0 +1,18 @@
+asset_id: HOS_02_FEET_3Q_v002
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+asset_type: hosiery_feet_candidate
+generated_or_real: generated
+approval_status: USER_REJECTED
+authoritative_for: "HOS_02 left 3/4 foot geometry and 15D nude sheer hosiery response, pending user review"
+must_not_define: "front/side/heel-back/toe-macro views, other deniers/colors/finishes, complete body identity, lighting, background or complete owner_v1.0 lock"
+status: USER_REJECTED
+technical_qa: USER_REJECTED
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+sha256: "52d5bd22e2ab540a9efe367201e88cbd29b6005ede046e18eed8fcd0394a7306"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_02_FEET_3Q_v002/HOS_02_FEET_3Q_v002.png"
+view: {camera: near_ankle_height, angle: anatomical_left_35_to_45_degree_three_quarter, crop: mid_calf_to_complete_feet}
+reference_set_ids: [OWNER_BODY_LEFT_3Q_CANON_L1]
+previous_generated_hosiery_inputs: []
+rejected_candidate_pixels_used: false

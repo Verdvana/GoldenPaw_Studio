@@ -10,7 +10,7 @@ Excluded unless separately approved: face identity, skin texture/pigmentation, l
 
 Current L1 asset: `OWNER_HAIRSTYLE_B_APPEARANCE_CANON_001` (`CHR_WOMAN_001_HB04_HAIR_B.jpg`). For B assets it supplies the approved final design. For non-B Face assets it supplies only the target front-face appearance and skin tone, while `DSC00847.jpg` supplies HAIRSTYLE_A. It is approved as a component but not yet part of a locked complete `owner_v1.0` release.
 
-The same approved raster also fulfills the dedicated `HAIR_B_05_HIGH_CAMERA_LOOK_UP` view slot because its camera looks down while the subject looks up. Do not create a duplicate asset for that same slot, and do not confuse it with the still-required eye-level `HAIR_B_01_FRONT`. The remaining B plan is eye-level front, 3/4, side, back, plus `HAIR_B_06_LOW_CAMERA_LOOK_DOWN` where the camera looks up while the subject looks down.
+The same approved raster also fulfills the dedicated `HAIR_B_05_HIGH_CAMERA_LOOK_UP` view slot because its camera looks down while the subject looks up. Do not create a duplicate asset for that same slot, and do not confuse it with the still-required eye-level `HAIR_B_01_FRONT`. The back slot is now fulfilled by `OWNER_HAIR_B_04_BACK_CANON_001`; only `HAIR_B_06_LOW_CAMERA_LOOK_DOWN` remains pending, where the camera looks up while the subject looks down.
 
 ## HAIR_B_01 execution status
 

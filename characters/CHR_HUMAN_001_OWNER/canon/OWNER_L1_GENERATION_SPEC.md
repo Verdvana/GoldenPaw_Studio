@@ -4,7 +4,7 @@
 document_id: OWNER_L1_GENERATION_SPEC
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-spec_revision: draft_1.187
+spec_revision: draft_1.201
 status: DRAFT
 authority: USER_APPROVAL_REQUIRED
 default_aspect_ratio: "3:4"
@@ -336,7 +336,7 @@ HAIRSTYLE_B 的主 L0 真人参考固定为 `OWNER_HAIRSTYLE_B_L0`，即 `8.jpg`
 | HAIR_B_03_SIDE | 侧面，说明发际线、耳侧和发髻深度 |
 | HAIR_B_04_BACK | 背面，说明盘发完整结构 |
 | HAIR_B_05_HIGH_CAMERA_LOOK_UP | 已由 `OWNER_HAIRSTYLE_B_APPEARANCE_CANON_001` 履行；镜头俯视、人物仰视，不重复生成 |
-| HAIR_B_06_LOW_CAMERA_LOOK_DOWN | 镜头仰视、人物俯视；验证下颌/耳侧碎发、收拢方向及发髻在低机位下的结构 |
+| HAIR_B_06_LOW_CAMERA_LOOK_DOWN | 镜头低于人物并向上拍摄；头部保持自然中立不俯下，仅眼神向下看向低机位镜头；验证低机位下的眼神、下颌/耳侧碎发、收拢方向及发髻结构 |
 
 所有新角度必须使用批准后的 Face Canon + B 的 L0 真人锚 + 经批准的 B 设计锚；不得仅以 B 的 AI 图片连续繁殖。参考图中的脸、身体、衣服、灯光和皮肤均不具发型以外的权威性。
 
@@ -773,3 +773,17 @@ all required components APPROVED
 | draft_1.185 | 2026-09-14 | 用户明确批准 `POSE_09_PRONE_ARMS_KNEES_SUPPORTED_v003`。唯一图片按单文件规则移动晋升为 `OWNER_POSE_09_PRONE_ARMS_KNEES_SUPPORTED_CANON_001.jpg`；登记 `OWNER_POSE_09_PRONE_ARMS_KNEES_SUPPORTED_CANON_L1` 参考集与批准元数据。批准范围仅涵盖四点支撑/手膝姿态的关节承重、中立脊柱及前掌接地；脸部、身体比例、发型、服装或材质不取得权威。Pose 完成 8/9 项，完整 `owner_v1.0` 未锁定 | user approved scoped POSE_09 component |
 | draft_1.186 | 2026-09-14 | 用户授权重新生成 `POSE_07_KNEELING_CROUCHING_v004`。只使用批准右 3/4 Face、右 3/4 Body 与 Hair-A 三项 Master，不输入任何 Pose；采用右 3/4 稳定半跪/低蹲关节姿态合同，并使用严密的中性临床/物理治疗评估表述，降低 AI 安全系统以 sexual 类别拦截的风险。候选状态 `REVIEW_REQUIRED` | user retry authorization incorporated; clinical prompt assembly |
 | draft_1.187 | 2026-09-14 | 用户明确批准 `POSE_07_KNEELING_CROUCHING_v004`。唯一图片按单文件规则移动晋升为 `OWNER_POSE_07_KNEELING_CROUCHING_CANON_001.jpg`；登记 `OWNER_POSE_07_KNEELING_CROUCHING_CANON_L1` 参考集与批准元数据。批准范围仅涵盖右 3/4 半跪/低蹲姿态的关节承重、90° 前膝、平稳后膝及前掌接地；脸部、身体比例、发型、服装或材质不取得权威。Pose 9/9 项全部完成，Gate 6 完成，完整 `owner_v1.0` 未锁定 | user approved scoped POSE_07 component; Gate 6 Pose complete |
+| draft_1.188 | 2026-09-15 | 用户明确批准 `HAIR_B_04_BACK_v001`。唯一候选图片按单文件规则移动晋升为 `OWNER_HAIR_B_04_BACK_CANON_001`；批准范围严格限定为正中180度背面的 Hair-B 发际/顶部过渡、后收、中央纵向鲨鱼夹、夹内紧凑折叠发束及4–6cm上后翘小鸡尾。用户接受其背面翘度与夹内折叠体积；脸、身体、服装、丝袜、灯光、背景、其他 B 视角和完整 `owner_v1.0` 均不取得权威。Hair-B 完成5/6，低机位视角仍待制作 | user approved scoped component; moved to Canon |
+| draft_1.189 | 2026-09-15 | 用户指出 `HAIR_B_06_LOW_CAMERA_LOOK_DOWN_v001` 实际呈现为高机位，拒绝该候选并明确低机位定义：相机必须低于人物眼线向上观察，同时人物整颗头向下俯视镜头。v001 禁止作为像素输入；授权独立生成 v002，必须减少头顶可见面积并强化下颌底面、耳下发束和低机位投影 | user rejection and retry authorization incorporated |
+| draft_1.190 | 2026-09-15 | 用户继续指出 `HAIR_B_06_LOW_CAMERA_LOOK_DOWN_v002` 仍有过多头顶暴露，形成“只有五官俯视、头顶平视”的混合透视；拒绝 v002，授权独立生成 v003。整颗头颅必须统一向下旋转，头顶曲面几乎不可见，低机位只通过下颌底面、鼻底和耳下发束建立 | user rejection and retry authorization incorporated |
+| draft_1.191 | 2026-09-15 | 用户确认 v003 的头顶关系合格，并要求后续候选五官参考已批准的 `HAIR_A_06_LOW_CAMERA_LOOK_DOWN` 资产。该 A 资产仅可提供低机位下的头颅/下颌/鼻底透视几何辅助，不定义 B 发型、B 候选五官或身份；授权独立生成 v004，五官身份仍由批准 Face Canon 负责 | user scoped reference clarification and retry authorization incorporated |
+| draft_1.192 | 2026-09-15 | 用户拒绝 `HAIR_B_06_LOW_CAMERA_LOOK_DOWN_v004`：该候选仍表现为头部向下俯、脸部接近平视摄像机。重新定义该槽位：头部保持自然中立、不改变头部俯仰，只让眼神向下看向位于眼线下方的低机位摄像机；授权从批准 Face Canon、B 发型 L0/Canon 独立生成 v005，v004 不得作为输入 | user correction incorporated |
+| draft_1.193 | 2026-09-15 | 用户拒绝 `HAIR_B_06_LOW_CAMERA_LOOK_DOWN_v005`：虽有眼神下移，但镜头与脸部投影仍接近平视，低机位不成立。v005 不得作为输入；授权独立生成 v006，镜头必须明确位于下巴/上胸以下并向上拍摄，眼线明显高于镜头，同时头部保持自然中立，仅眼球向下看镜头 | user rejection and stronger low-camera requirement incorporated |
+| draft_1.194 | 2026-09-15 | 用户进一步澄清：头部必须保持原位、完全不向下低；仅将摄像机放在较低位置，女主只转动眼球向下看向镜头。拒绝 `HAIR_B_06_LOW_CAMERA_LOOK_DOWN_v006`；授权独立生成 v007，禁止用头部俯仰制造低机位效果 | user clarification incorporated; head-fixed eye-gaze-only composition |
+| draft_1.195 | 2026-09-15 | 用户指出 `HAIR_B_06_LOW_CAMERA_LOOK_DOWN_v007` 仍未明确看向下方镜头，且头部自然直立感不足。v007 不得作为输入；授权独立生成 v008，必须明确呈现眼球向下转动并指向低位镜头，同时保持头部外轮廓、下巴和脸部轴线自然正立 | user QA correction incorporated |
+| draft_1.196 | 2026-09-15 | 用户拒绝 `HAIR_B_06_LOW_CAMERA_LOOK_DOWN_v008`：眼睛没有看向镜头，头部仍处于低下状态。v008 不得作为输入；授权独立生成 v009，改用已批准 `HAIR_A_06_LOW_CAMERA_LOOK_DOWN` 仅作眼神/低机位关系的几何辅助，明确要求头部回到自然站立中立位、眼球向下锁定镜头 | user QA correction incorporated; approved A scoped geometry reference |
+| draft_1.197 | 2026-09-15 | 用户要求完全弃用此前针对该资产的 prompt 逻辑并重新定义生成：女主自然站立、不低头不抬头；低机位拍摄；眼睛向下看镜头；头顶暴露减少，脸部仰视与头顶投影必须统一，禁止混合透视。授权使用全新 prompt 独立生成 v010，v001–v009 均不得作为输入 | fresh prompt reset authorized by user |
+| draft_1.198 | 2026-09-15 | 用户拒绝 `HAIR_B_06_LOW_CAMERA_LOOK_DOWN_v010`：眼睛仍未看向镜头。为避免模型错误推断视线目标，授权 v011 以已批准 `OWNER_HAIR_A_06_LOW_CAMERA_LOOK_DOWN_CANON_001` 作为低机位/眼神/构图几何基准，仅替换为 Hair-B；A 不定义身份、B 发型或像素权威，v001–v010 不得作为输入 | user QA correction; approved A composition anchor selected |
+| draft_1.199 | 2026-09-15 | 用户指出 v011 实际为高机位：头顶暴露过多，镜头位于眼线以上。v011 不得作为输入；授权重新生成 v012，彻底排除旧构图逻辑，只要求镜头低于眼线、头部自然直立、眼睛向下看镜头且头顶暴露少 | user QA correction; high-camera rejection |
+| draft_1.200 | 2026-09-15 | 用户拒绝 `HAIR_B_06_LOW_CAMERA_LOOK_DOWN_v012`：仍接近平视，眼睛未锁定镜头。v012 不得作为输入；授权 v013 使用已批准 A 低机位 Canon 作为固定机位/头位/眼神构图基准，仅进行 Hair-B 替换，禁止重建头部姿态和视线 | user QA correction; constrained edit method |
+| draft_1.201 | 2026-09-15 | 用户明确不批准 `HOS_02_FEET_3Q_v002`。该候选标记为 `USER_REJECTED`，不得作为下游像素输入；Gate 7 的 HOS_02 仍未完成 | user rejection recorded |

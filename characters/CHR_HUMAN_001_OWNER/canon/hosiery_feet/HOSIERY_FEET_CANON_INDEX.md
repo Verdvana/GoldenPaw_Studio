@@ -3,7 +3,7 @@
 ```yaml
 index_id: OWNER_HOSIERY_FEET_CANON_INDEX
 character_id: CHR_HUMAN_001_OWNER
-index_revision: 2
+index_revision: 3
 updated_at: "2026-09-14"
 full_release_lock_status: UNLOCKED
 approved_components: 1
@@ -21,4 +21,4 @@ approved_components: 1
 
 It does not define 3/4, side, heel-back, sole-facing or macro toe views; other hosiery deniers, colors, finishes or constructions; complete body identity; lighting; background; or the complete `owner_v1.0` release.
 
-`HOS_02_FEET_3Q_v001` was authorized next, but both the complete two-reference call and the one-Master reduced retry were output-moderation blocked on 2026-09-14. No HOS_02 raster exists and no new authority was created. A further HOS_02 attempt or moving to HOS_03 requires explicit user direction.
+`HOS_02_FEET_3Q_v001` was authorized next, but both attempts were output-moderation blocked on 2026-09-14. `HOS_02_FEET_3Q_v002` was generated on 2026-09-15 and explicitly rejected by the user; its raster remains only as a rejected candidate and creates no authority. HOS_02 remains incomplete. A further HOS_02 attempt or moving to HOS_03 requires explicit user direction.

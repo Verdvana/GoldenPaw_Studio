@@ -1,0 +1,19 @@
+asset_id: HAIR_B_06_LOW_CAMERA_LOOK_DOWN_v001
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+asset_type: hairstyle_candidate
+hairstyle: HAIRSTYLE_B
+generated_or_real: generated
+approval_status: USER_REJECTED
+authoritative_for: "none; rejected candidate"
+must_not_define: "face identity, permanent facial geometry, body, outfit, expression, skin, hosiery, lighting, background, other B views, Hairstyle-A, A/B blend or complete owner_v1.0 lock"
+status: USER_REJECTED
+technical_qa: FAIL_CAMERA_RELATIONSHIP_USER_REJECTED
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+sha256: "a3fc7c49e3ad3df221d48b37f5b18b680819d3238fe8275c0aea16da2fc76afb"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/candidates/HAIR_B_06_LOW_CAMERA_LOOK_DOWN_v001/HAIR_B_06_LOW_CAMERA_LOOK_DOWN_v001.png"
+view: {camera: low, subject_head: lowered, gaze: camera}
+reference_set_ids: [OWNER_FACE_FRONT_NEUTRAL_CANON_L1, OWNER_HAIRSTYLE_B_L0, OWNER_HAIRSTYLE_B_APPEARANCE_L1]
+previous_generated_hair_inputs: []
+rejected_candidate_pixels_used: false
