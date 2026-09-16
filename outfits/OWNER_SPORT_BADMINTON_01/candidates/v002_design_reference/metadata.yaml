@@ -1,0 +1,24 @@
+asset_id: OWNER_SPORT_BADMINTON_01_DESIGN_REFERENCE
+outfit_id: OWNER_SPORT_BADMINTON_01
+level: L2
+character_scope: CHR_HUMAN_001_OWNER
+version: v002
+candidate_status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+asset_type: clothing_design_reference_refinement
+file: OWNER_SPORT_BADMINTON_01_DESIGN_REFERENCE_v002.png
+dimensions: 1222x1287
+sha256: ad21aa11b764d8cd6ca86579720102b63ee33061de6320f119cadafbb2327098
+responsibility:
+  - true open-crown visor with narrow headband and front brim
+  - very light misty blue-lilac sleeveless athletic top
+  - pure-white pleated tennis skirt with built-in shorts
+  - white 15D matte sheer knee-high hosiery
+  - light gray-blue badminton shoes with pale lavender accents
+must_not_define:
+  - owner face
+  - owner body or skin
+  - owner hair or identity
+  - pose or expression
+  - L1 Canon attributes
+references: []

@@ -1,0 +1,33 @@
+asset_id: OWNER_SPORT_YOGA_01_DESIGN_REFERENCE
+outfit_id: OWNER_SPORT_YOGA_01
+level: L2
+character_scope: CHR_HUMAN_001_OWNER
+version: v003
+candidate_status: APPROVED_L2_DESIGN_REFERENCE
+approval_status: APPROVED_BY_USER
+asset_type: clothing_design_reference_refinement
+file: OWNER_SPORT_YOGA_01_DESIGN_REFERENCE_v003.png
+approved_file: ../../approved/design_reference/OWNER_SPORT_YOGA_01_DESIGN_REFERENCE.png
+dimensions: 1222x1287
+sha256: cf2b0f2106d4d986a9884579e6e82dd7ecd6bd77796621c2e62a9d4d18503958
+responsibility:
+  - soft dusty rose-pink simple Y-back sports top
+  - warm apricot-peach full-length ankle-grazing yoga pants
+  - light natural nude 15D glossy textile hosiery
+  - white yoga training shoes with pale-pink accents
+must_not_define:
+  - owner face
+  - owner body or skin
+  - owner hair or identity
+  - pose or expression
+  - L1 Canon attributes
+references: []
+approved_scope:
+  - soft dusty rose-pink simple Y-back sports top
+  - warm apricot-peach full-length ankle-grazing yoga pants
+  - light natural nude 15D glossy hosiery styling for this outfit
+  - white yoga training shoes with pale-pink accents
+excluded_from_scope:
+  - owner identity or L1 Canon
+  - global L1 hosiery material authority
+approval_date: 2026-09-16

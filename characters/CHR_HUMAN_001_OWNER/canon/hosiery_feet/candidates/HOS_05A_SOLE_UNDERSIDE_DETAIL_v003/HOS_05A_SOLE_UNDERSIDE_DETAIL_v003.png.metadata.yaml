@@ -1,0 +1,24 @@
+asset_id: HOS_05A_SOLE_UNDERSIDE_DETAIL_v003
+source_asset_id: HOS_05A_SOLE_UNDERSIDE_DETAIL
+asset_type: hosiery_feet_candidate
+asset_level: L1_CANDIDATE
+generated_or_real: generated
+gate: "Gate 7 — Hosiery / Feet Canon"
+status: REVIEW_REQUIRED
+approval_status: REVIEW_REQUIRED
+technical_qa: PASS_PENDING_USER_REVIEW
+character_id: CHR_HUMAN_001_OWNER
+canon_version: owner_v1.0
+spec_revision: draft_1.204
+identity_md_revision: draft_0.136
+file_path: characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_05A_SOLE_UNDERSIDE_DETAIL_v003/HOS_05A_SOLE_UNDERSIDE_DETAIL_v003.png
+dimensions_px: "1086x1448"
+aspect_ratio: "3:4"
+sha256: eeedcf6c3c121c70c4fbb50de82b87c68c5b8af01771b3d8cf0e4b492e76b926
+reference_set_ids: [HOS_05A_SOLE_UNDERSIDE_DETAIL_v002_EDIT_TARGET]
+previous_generated_candidate_inputs: [HOS_05A_SOLE_UNDERSIDE_DETAIL_v002]
+authoritative_for: "none until explicit user approval"
+must_not_define:
+  - "complete owner identity or full-body proportions"
+  - "other foot views or other hosiery constructions"
+  - "lighting, background or episode wardrobe"

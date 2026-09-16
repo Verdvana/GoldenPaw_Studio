@@ -1,0 +1,22 @@
+asset_id: OWNER_HOME_SLEEP_SUMMER_01_DESIGN_REFERENCE
+outfit_id: OWNER_HOME_SLEEP_SUMMER_01
+level: L2
+character_scope: CHR_HUMAN_001_OWNER
+version: v003
+candidate_status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+asset_type: clothing_design_reference_refinement
+file: OWNER_HOME_SLEEP_SUMMER_01_DESIGN_REFERENCE_v003.png
+dimensions: 1024x1536
+sha256: 266fe2c9aeeb551a706787f5862e1f725eee5be7be4426bc6a9596fa7e8a4750
+responsibility:
+  - champagne silk camisole-strap short sleep dress
+  - nude 15D matte pantyhose
+  - pink open-toe flat slide slippers
+must_not_define:
+  - owner face
+  - owner body or skin
+  - owner hair or identity
+  - pose or expression
+  - L1 Canon attributes
+references: []

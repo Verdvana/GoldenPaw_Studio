@@ -1,0 +1,11 @@
+schema_version: 1
+input_mode: actual_local_image_inputs
+imagegen_parameter: referenced_image_paths
+preflight_verified: true
+previous_candidate_pixels_used: false
+ai_generated_references_used: false
+assets:
+  - asset_id: OWNER_BODY_01_FRONT_CANON_002
+    path: /home/verdvana/Project/GoldenPaw_Studio/characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg
+    responsibility: sole character master for visible face, Hairstyle A, body proportions and front articulation
+    must_not_define: yoga garment design, hosiery variant, footwear, environment or lighting style

@@ -1,0 +1,33 @@
+asset_id: OWNER_SPORT_SWIM_01_DESIGN_REFERENCE
+outfit_id: OWNER_SPORT_SWIM_01
+level: L2
+character_scope: CHR_HUMAN_001_OWNER
+version: v001
+candidate_status: APPROVED_L2_DESIGN_REFERENCE
+approval_status: APPROVED_BY_USER
+asset_type: clothing_design_reference
+file: OWNER_SPORT_SWIM_01_DESIGN_REFERENCE_v001.png
+approved_file: ../../approved/design_reference/OWNER_SPORT_SWIM_01_DESIGN_REFERENCE.png
+dimensions: 1145x1374
+sha256: 0b9158160215f566b6678fb27db31f73a8077292ac65ce269b6dded42595a204
+responsibility:
+  - white silicone swim cap
+  - white performance swim goggles
+  - grass-green high-cut one-piece racing swimsuit
+  - nude 15D matte pantyhose contract
+must_not_define:
+  - owner face
+  - owner body or skin
+  - owner hair or identity
+  - pose or expression
+  - L1 Canon attributes
+references: []
+approved_scope:
+  - white swim cap
+  - white swim goggles
+  - grass-green high-cut one-piece racing swimsuit
+  - nude 15D matte hosiery styling for this outfit
+excluded_from_scope:
+  - owner identity or L1 Canon
+  - global L1 hosiery material authority
+approval_date: 2026-09-16

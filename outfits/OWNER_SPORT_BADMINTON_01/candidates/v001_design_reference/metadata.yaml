@@ -1,0 +1,24 @@
+asset_id: OWNER_SPORT_BADMINTON_01_DESIGN_REFERENCE
+outfit_id: OWNER_SPORT_BADMINTON_01
+level: L2
+character_scope: CHR_HUMAN_001_OWNER
+version: v001
+candidate_status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+asset_type: clothing_design_reference
+file: OWNER_SPORT_BADMINTON_01_DESIGN_REFERENCE_v001.png
+dimensions: 1214x1295
+sha256: c43ef4b70ce6cc9bbfa2ca9787b28cf9ae9fe687162a903b5ffeaff3046ec7e3
+responsibility:
+  - white open-top sports cap
+  - white athletic tank with icy-blue and soft-coral accents
+  - white tennis skirt with built-in shorts
+  - white knee-high athletic socks
+  - white court badminton shoes with lateral stability
+must_not_define:
+  - owner face
+  - owner body or skin
+  - owner hair or identity
+  - pose or expression
+  - L1 Canon attributes
+references: []

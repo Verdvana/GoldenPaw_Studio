@@ -1,0 +1,29 @@
+asset_id: OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_001
+source_candidate: HOS_07_15D_GRAY_MATTE_FRONT_v007
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+gate: "Gate 7 — Hosiery / Feet Canon"
+status: APPROVED
+technical_qa: PASS_BY_EXPLICIT_USER_REVIEW
+generated_at: "2026-09-16"
+model_tool: "built-in ImageGen"
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+color_mode: RGB
+sha256: "29833b2de7a2c91b822a542e42843b5902d80ce9597123dce481a9b1bb462df3"
+authoritative_file: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_07_15D_GRAY_MATTE_FRONT/OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_001.png"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_07_30D_GRAY_MATTE_FRONT_v007/HOS_07_30D_GRAY_MATTE_FRONT_v007.png"
+promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_07_15D_GRAY_MATTE_FRONT/OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_001.png"
+reference_set_ids:
+  - OWNER_BODY_FRONT_CANON_L1
+approval:
+  status: APPROVED
+  approver: user
+  date: "2026-09-16"
+  evidence: "这版可以，但要登记为15d灰色哑光。"
+  record: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_07_15D_GRAY_MATTE_FRONT/approvals/APPROVAL_OWNER_HOS_07_15D_GRAY_MATTE_FRONT_001.md"
+lock_status: UNLOCKED_COMPONENT
+must_not_define:
+  - "complete owner identity"
+  - "15D calibration material or other hosiery deniers/colors/finishes"
+  - "episode wardrobe, lighting or background"

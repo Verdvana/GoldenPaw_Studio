@@ -1,0 +1,21 @@
+asset_id: HAIR_B_06_LOW_CAMERA_LOOK_DOWN_v014
+base_asset_id: HAIR_B_06_LOW_CAMERA_LOOK_DOWN
+character_id: CHR_HUMAN_001_OWNER
+level: L1
+status: APPROVED
+hairstyle: HAIRSTYLE_B
+view: low_camera_looking_up_subject_looks_down
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/approved/HAIR_B_06_LOW_CAMERA_LOOK_DOWN/OWNER_HAIR_B_06_LOW_CAMERA_LOOK_DOWN_CANON_001.png"
+dimensions_px: [1086, 1448]
+aspect_ratio: "3:4"
+reference_set_ids: [OWNER_HAIR_A_LOW_CAMERA_LOOK_DOWN_CANON_L1, OWNER_FACE_FRONT_NEUTRAL_CANON_L1, OWNER_HAIRSTYLE_B_L0, OWNER_HAIRSTYLE_B_APPEARANCE_L1]
+authoritative_for:
+  - Hairstyle-B pulled-back front and compact dark-brown straight hair
+  - Hairstyle-B restrained center part, side wisps and rearward gathering
+  - Hairstyle-B low-camera silhouette response
+must_not_define:
+  - permanent face identity or facial geometry
+  - body proportions, clothing, lighting or background
+  - Hairstyle-A pixels
+  - any previous AI candidate pixels
+checksum_sha256: b042bfc3879eaa1a9f70c1f22e397045661860aef196993cf834d08f728f50de

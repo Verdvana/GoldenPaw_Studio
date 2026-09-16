@@ -1,0 +1,21 @@
+asset_id: OWNER_HOME_SLEEP_SUMMER_01_DESIGN_REFERENCE
+outfit_id: OWNER_HOME_SLEEP_SUMMER_01
+level: L2
+character_scope: CHR_HUMAN_001_OWNER
+version: v002
+candidate_status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+asset_type: clothing_design_reference_refinement
+file: OWNER_HOME_SLEEP_SUMMER_01_DESIGN_REFERENCE_v002.png
+dimensions: 1024x1536
+sha256: 200299c0667b94bd4acdef7473485c1730330ee72566a82d3bc050d8614f2656
+responsibility:
+  - retained champagne silk camisole-strap short sleep dress design
+  - revised pink open-toe flat summer slipper design
+must_not_define:
+  - owner face
+  - owner body or skin
+  - owner hair or identity
+  - pose or expression
+  - L1 Canon attributes
+references: []

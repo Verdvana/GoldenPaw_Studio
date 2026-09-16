@@ -1,0 +1,29 @@
+asset_id: HOS_05_HEEL_BACK_DETAIL_v003
+source_asset_id: HOS_05_HEEL_BACK_DETAIL
+asset_type: hosiery_feet_candidate
+asset_level: L1_CANDIDATE
+generated_or_real: generated
+gate: "Gate 7 — Hosiery / Feet Canon"
+status: PROMOTED_TO_L1_COMPONENT
+approval_status: APPROVED
+technical_qa: PASS_BY_EXPLICIT_USER_REVIEW
+character_id: CHR_HUMAN_001_OWNER
+canon_version: owner_v1.0
+spec_revision: draft_1.204
+identity_md_revision: draft_0.136
+file_path: characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_05_HEEL_BACK_DETAIL/OWNER_HOS_05_HEEL_BACK_DETAIL_CANON_001.png
+dimensions_px: "1086x1448"
+aspect_ratio: "3:4"
+sha256: a921ad8fce232516e7696733c9c6351ef1b7c3ee3a0c85323c5a00246b8dff7b
+reference_set_ids: [HOS_05_HEEL_BACK_DETAIL_v002_EDIT_TARGET]
+previous_generated_candidate_inputs: [HOS_05_HEEL_BACK_DETAIL_v002]
+authoritative_file: characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_05_HEEL_BACK_DETAIL/OWNER_HOS_05_HEEL_BACK_DETAIL_CANON_001.png
+approval_record: characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_05_HEEL_BACK_DETAIL/approvals/APPROVAL_OWNER_HOS_05_HEEL_BACK_DETAIL_001.md
+authoritative_for:
+  - "straight rear heel-detail view within this scoped angle"
+  - "lower-calf to ankle/Achilles/heel continuity"
+  - "restrained 15D light-nude sheer hosiery response with subtle soft sheen and faint contour edge lift"
+must_not_define:
+  - "complete owner identity or full-body proportions"
+  - "other foot views or other hosiery constructions"
+  - "nail color, lighting, background or episode wardrobe"

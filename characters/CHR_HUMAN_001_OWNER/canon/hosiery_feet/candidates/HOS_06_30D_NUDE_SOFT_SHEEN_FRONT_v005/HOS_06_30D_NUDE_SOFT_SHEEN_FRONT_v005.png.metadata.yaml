@@ -1,0 +1,26 @@
+asset_id: HOS_06_30D_NUDE_SOFT_SHEEN_FRONT_v005
+source_candidate: HOS_06_30D_NUDE_SOFT_SHEEN_FRONT_v005
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+gate: "Gate 7 — Hosiery / Feet Canon"
+status: REVIEW_REQUIRED
+technical_qa: TECHNICAL_QA_FAILED_TOE_BOUNDARY_AND_NAIL_VISIBILITY
+generated_at: "2026-09-16"
+model_tool: "built-in ImageGen"
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+color_mode: RGB
+sha256: "64c29fe63b79085f6ca0cc918b15c59860dd974e442f594d777ddd58ee723380"
+authoritative_file: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_06_30D_NUDE_SOFT_SHEEN_FRONT_v005/HOS_06_30D_NUDE_SOFT_SHEEN_FRONT_v005.png"
+reference_set_ids:
+  - OWNER_BODY_FRONT_CANON_L1
+  - HOS_30D_NUDE_SOFT_SHEEN_LIMITED
+approval:
+  status: REVIEW_REQUIRED
+  approver: null
+  date: null
+lock_status: UNLOCKED_CANDIDATE
+must_not_define:
+  - "complete owner identity"
+  - "15D calibration material or other hosiery deniers/colors/finishes"
+  - "episode wardrobe, lighting or background"

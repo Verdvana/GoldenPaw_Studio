@@ -1,0 +1,26 @@
+asset_id: HOS_05A_SOLE_UNDERSIDE_DETAIL_v004
+source_asset_id: HOS_05A_SOLE_UNDERSIDE_DETAIL
+asset_type: hosiery_feet_candidate
+asset_level: L1_CANDIDATE
+generated_or_real: generated
+gate: "Gate 7 — Hosiery / Feet Canon"
+status: USER_REJECTED
+approval_status: REJECTED
+technical_qa: FAIL_USER_REJECTED_FOOTNAIL_ARTIFACT
+character_id: CHR_HUMAN_001_OWNER
+canon_version: owner_v1.0
+spec_revision: draft_1.204
+identity_md_revision: draft_0.136
+file_path: characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_05A_SOLE_UNDERSIDE_DETAIL_v004/HOS_05A_SOLE_UNDERSIDE_DETAIL_v004.png
+dimensions_px: "1086x1448"
+aspect_ratio: "3:4"
+sha256: a77a589ad8087e760c8058d86e6ecacd8fd7e1b62488f9ee97f524de0e7106a3
+reference_set_ids:
+  - OWNER_BODY_FRONT_CANON_L1
+  - HOS_15D_NUDE_MATTE_BAREFOOT
+previous_generated_candidate_inputs: []
+authoritative_for: "none; rejected candidate"
+must_not_define:
+  - "complete owner identity or full-body proportions"
+  - "other foot views or other hosiery constructions"
+  - "lighting, background or episode wardrobe"

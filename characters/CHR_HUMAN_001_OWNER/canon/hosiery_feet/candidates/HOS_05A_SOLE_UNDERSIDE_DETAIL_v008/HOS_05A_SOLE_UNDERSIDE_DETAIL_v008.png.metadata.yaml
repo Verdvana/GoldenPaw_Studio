@@ -1,0 +1,25 @@
+asset_id: HOS_05A_SOLE_UNDERSIDE_DETAIL_v008
+source_asset_id: HOS_05A_SOLE_UNDERSIDE_DETAIL
+asset_type: hosiery_feet_candidate
+asset_level: L1_CANDIDATE
+generated_or_real: derived
+gate: "Gate 7 — Hosiery / Feet Canon"
+status: USER_REJECTED
+approval_status: REJECTED
+technical_qa: FAIL_USER_REJECTED_UNWANTED_PLANTAR_WRINKLES
+character_id: CHR_HUMAN_001_OWNER
+canon_version: owner_v1.0
+spec_revision: draft_1.204
+identity_md_revision: draft_0.136
+file_path: characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_05A_SOLE_UNDERSIDE_DETAIL_v008/HOS_05A_SOLE_UNDERSIDE_DETAIL_v008.png
+dimensions_px: "826x1101"
+aspect_ratio: "3:4"
+sha256: 5f600b459cd1e5c01a7ed665405abf4c8339edaaff063c52db87bed5ffe41cc3
+reference_set_ids: [HOS_05A_SOLE_UNDERSIDE_DETAIL_v006]
+previous_generated_candidate_inputs: []
+source_candidate: HOS_05A_SOLE_UNDERSIDE_DETAIL_v006
+authoritative_for: "none; rejected candidate"
+must_not_define:
+  - "complete owner identity or ankle anatomy"
+  - "other foot views or other hosiery constructions"
+  - "lighting, background or episode wardrobe"

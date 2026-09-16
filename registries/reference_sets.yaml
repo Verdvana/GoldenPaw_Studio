@@ -228,6 +228,13 @@ reference_sets:
     usable_for_generation: true
     assets:
       - {asset_id: OWNER_HAIR_B_04_BACK_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/approved/HAIR_B_04_BACK/OWNER_HAIR_B_04_BACK_CANON_001.png"}
+  OWNER_HAIR_B_LOW_CAMERA_LOOK_DOWN_CANON_L1:
+    purpose: "approved L1 Hairstyle-B low-camera/look-down projection: compact pulled-back front, restrained part, side wisps, rearward gathering and low-camera silhouette response; must not define face, body, outfit, other B views, lighting or background"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_HAIR_B_06_LOW_CAMERA_LOOK_DOWN_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/hairstyles/B/approved/HAIR_B_06_LOW_CAMERA_LOOK_DOWN/OWNER_HAIR_B_06_LOW_CAMERA_LOOK_DOWN_CANON_001.png"}
   OWNER_L0_BODY_FRONT_CONTEXT:
     purpose: "pre-Canon standing/walking proportion context; never final body authority"
     max_images: 2
@@ -393,6 +400,13 @@ reference_sets:
     usable_for_generation: true
     assets:
       - {asset_id: OWNER_FACE_01_FRONT_NEUTRAL_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg"}
+  OWNER_APP_01_NEUTRAL_COLOR_CANON_L1:
+    purpose: "approved optional Appearance color calibration for neutral studio face/skin and Hairstyle-A color/exposure only; must not define geometry, hairstyle structure, body, outfit, hosiery or lighting design"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_APP_01_NEUTRAL_COLOR_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/appearance/approved/APP_01_NEUTRAL_COLOR/OWNER_APP_01_NEUTRAL_COLOR_CANON_001.png"}
 
   OWNER_FACE_FRONT_NEUTRAL_RECOVERY_V1:
     purpose: "source-derived minimal set for recreating the L1 front-neutral master; never combine with an AI Face candidate"

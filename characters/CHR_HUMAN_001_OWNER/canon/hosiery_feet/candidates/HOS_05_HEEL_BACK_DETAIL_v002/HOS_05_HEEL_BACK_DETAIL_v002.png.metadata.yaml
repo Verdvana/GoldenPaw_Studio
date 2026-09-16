@@ -1,0 +1,26 @@
+asset_id: HOS_05_HEEL_BACK_DETAIL_v002
+source_asset_id: HOS_05_HEEL_BACK_DETAIL
+asset_type: hosiery_feet_candidate
+asset_level: L1_CANDIDATE
+generated_or_real: generated
+gate: "Gate 7 — Hosiery / Feet Canon"
+status: REVIEW_REQUIRED
+approval_status: REVIEW_REQUIRED
+technical_qa: PASS_PENDING_USER_REVIEW
+character_id: CHR_HUMAN_001_OWNER
+canon_version: owner_v1.0
+spec_revision: draft_1.204
+identity_md_revision: draft_0.136
+file_path: characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_05_HEEL_BACK_DETAIL_v002/HOS_05_HEEL_BACK_DETAIL_v002.png
+dimensions_px: "1086x1448"
+aspect_ratio: "3:4"
+sha256: 0748b98efbc013d24b05e62b067d8309ed87abe5a710b96c49a9f99ae97fd8cc
+reference_set_ids:
+  - OWNER_BODY_BACK_CANON_L1
+  - HOS_15D_NUDE_MATTE_FOOT_TEXTURE_USER_001
+previous_generated_candidate_inputs: []
+authoritative_for: "none until explicit user approval"
+must_not_define:
+  - "complete owner identity or full-body proportions"
+  - "other foot views or other hosiery constructions"
+  - "nail color, lighting, background or episode wardrobe"

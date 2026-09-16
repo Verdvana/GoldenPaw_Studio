@@ -1,0 +1,21 @@
+asset_id: OWNER_HOME_SLEEP_WINTER_01_DESIGN_REFERENCE
+outfit_id: OWNER_HOME_SLEEP_WINTER_01
+level: L2
+character_scope: CHR_HUMAN_001_OWNER
+version: v001
+candidate_status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+asset_type: clothing_design_reference
+file: OWNER_HOME_SLEEP_WINTER_01_DESIGN_REFERENCE_v001.png
+dimensions: 1145x1374
+sha256: 2773190dc89844761ac2761c1fba956385cc384fc486e8851827dd68e796a1f6
+responsibility:
+  - hooded full-body plush strawberry-bear onesie design
+  - matching strawberry-bear plush slipper design
+must_not_define:
+  - owner face
+  - owner body or skin
+  - owner hair or identity
+  - pose or expression
+  - L1 Canon attributes
+references: []

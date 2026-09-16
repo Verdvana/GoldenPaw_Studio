@@ -1,0 +1,28 @@
+asset_id: OWNER_HOME_SLEEP_SUMMER_01_WORN_FRONT
+outfit_id: OWNER_HOME_SLEEP_SUMMER_01
+level: L2
+intended_character_id: CHR_HUMAN_001_OWNER
+candidate_version: v001
+status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+file:
+  path: OWNER_HOME_SLEEP_SUMMER_01_WORN_FRONT_v001.png
+  width: 1024
+  height: 1536
+  sha256: b9372fcba7dd6f04c895eff48860098cbc3c6c44e33aead18248224b207fd4c5
+responsibility:
+  - front worn presentation of the approved summer home outfit
+  - champagne silk camisole-strap short sleep dress
+  - nude 15D matte pantyhose
+  - pink bow-front open-toe flat slippers
+must_not_define:
+  - new face, body, hair, identity, or L1 Canon
+  - hosiery variants other than the specified 15D matte appearance
+references:
+  - OWNER_FACE_FRONT_NEUTRAL_CANON_L1
+  - OWNER_BODY_FRONT_CANON_L1
+  - OWNER_HAIR_A_FRONT_CANON_L1
+  - OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_L1
+promotion:
+  promoted: false
+  target: null

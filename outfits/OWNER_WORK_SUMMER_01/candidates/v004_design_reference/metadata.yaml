@@ -1,0 +1,23 @@
+asset_id: OWNER_WORK_SUMMER_01_DESIGN_REFERENCE
+outfit_id: OWNER_WORK_SUMMER_01
+level: L2
+character_scope: CHR_HUMAN_001_OWNER
+version: v004
+candidate_status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+asset_type: clothing_design_reference_refinement
+file: OWNER_WORK_SUMMER_01_DESIGN_REFERENCE_v004.png
+dimensions: 1214x1295
+sha256: a47558888d505712039d94f7b431898f490a161f6460d7dd59bd8c21bc704d7c
+responsibility:
+  - black fitted short-sleeve low-neck office top
+  - champagne-ivory satin black-polka-dot fitted mid-thigh pencil skirt with rear slit
+  - gray 15D matte pantyhose
+  - black satin softly round-pointed slingback kitten-heel shoes with cord-tied bow
+must_not_define:
+  - owner face
+  - owner body or skin
+  - owner hair or identity
+  - pose or expression
+  - L1 Canon attributes
+references: []

@@ -1,0 +1,18 @@
+schema_version: 1
+input_mode: actual_local_image_inputs
+imagegen_parameter: referenced_image_paths
+preflight_verified: true
+previous_candidate_pixels_used: false
+assets:
+  - asset_id: OWNER_FACE_01_FRONT_NEUTRAL_CANON_001
+    path: /home/verdvana/Project/GoldenPaw_Studio/characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg
+    responsibility: exact front owner identity and facial geometry only
+  - asset_id: OWNER_BODY_01_FRONT_CANON_002
+    path: /home/verdvana/Project/GoldenPaw_Studio/characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg
+    responsibility: approved body proportions and front articulation only
+  - asset_id: OWNER_HAIR_A_01_FRONT_CANON_001
+    path: /home/verdvana/Project/GoldenPaw_Studio/characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/approved/HAIR_A_01_FRONT/OWNER_HAIR_A_01_FRONT_CANON_001.png
+    responsibility: standard front Hairstyle A only
+  - asset_id: OWNER_SPORT_YOGA_01_DESIGN_REFERENCE
+    path: /home/verdvana/Project/GoldenPaw_Studio/outfits/OWNER_SPORT_YOGA_01/approved/design_reference/OWNER_SPORT_YOGA_01_DESIGN_REFERENCE.png
+    responsibility: approved yoga outfit design and color coordination only

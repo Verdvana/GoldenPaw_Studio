@@ -1,0 +1,34 @@
+asset_id: OWNER_HOS_05A_SOLE_UNDERSIDE_DETAIL_CANON_001
+source_candidate: HOS_05A_SOLE_UNDERSIDE_DETAIL_v009
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+generated_or_real: generated
+gate: "Gate 7 — Hosiery / Feet Canon"
+status: APPROVED
+approval_status: APPROVED
+technical_qa: PASS_BY_EXPLICIT_USER_REVIEW
+generated_at: "2026-09-16"
+model_tool: "built-in ImageGen"
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+color_mode: RGB
+sha256: "b71454c20f8db07cf7f85e83983b7f8c7af73a796be42faf320026dddec3f95b"
+authoritative_file: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_05A_SOLE_UNDERSIDE_DETAIL/OWNER_HOS_05A_SOLE_UNDERSIDE_DETAIL_CANON_001.png"
+reference_set_ids:
+  - HOS_15D_NUDE_MATTE_BAREFOOT
+previous_generated_candidate_inputs: []
+approval:
+  status: APPROVED
+  approver: user
+  date: "2026-09-16"
+  evidence: "可以 登记吧"
+  record: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_05A_SOLE_UNDERSIDE_DETAIL/approvals/APPROVAL_OWNER_HOS_05A_SOLE_UNDERSIDE_DETAIL_001.md"
+lock_status: UNLOCKED_COMPONENT
+authoritative_for:
+  - "sole-facing 15D light-nude velvet-matte material-study view"
+  - "smooth continuous closed-toe textile coverage"
+  - "fine uniform mesh grain without plantar wrinkles or folds"
+must_not_define:
+  - "exact owner identity or full-body/ankle anatomy"
+  - "other foot views or other hosiery constructions"
+  - "lighting, background or episode wardrobe"

@@ -4,7 +4,7 @@
 document_id: OWNER_L1_GENERATION_SPEC
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-spec_revision: draft_1.204
+spec_revision: draft_1.222
 status: DRAFT
 authority: USER_APPROVAL_REQUIRED
 default_aspect_ratio: "3:4"
@@ -426,7 +426,8 @@ burgundy toenail polish visible naturally beneath the fabric when lighting permi
 | HOS_04_TOES_FRONT_DETAIL | 脚趾正面细节，检查织物位于指甲上方 |
 | HOS_05_HEEL_BACK_DETAIL | 脚跟后视，检查脚踝至脚跟连续性 |
 | HOS_06_30D_NUDE_SOFT_SHEEN_FRONT | 30D 微光肉色正面全腿/足部；定义肉色、30D 厚度、微光响应及连续闭趾覆盖，不引用 15D Body Canon 的丝袜质感 |
-| HOS_07_30D_GRAY_MATTE_FRONT | 30D 灰色哑光正面全腿/足部；定义灰色色相、30D 厚度、哑光响应及连续闭趾覆盖；当前缺少匹配的 L0 材质源，状态 `BLOCKED_BY_SOURCE_COVERAGE` |
+| HOS_07_15D_GRAY_MATTE_FRONT | 15D 灰色哑光正面膝下/足部；定义浅烟灰色相、15D 哑光响应、有限透肉渐变、趾间张力及连续闭趾覆盖；无 L0 材质源，依据用户授权进行设计重建 |
+| HOS_08_30D_GRAY_MATTE_FRONT | 30D 灰色哑光正面膝下/足部；定义腿部至脚背不透肤、脚趾向脚尖渐增透肤及连续闭趾覆盖；无 L0 材质源，依据用户授权进行设计重建 |
 
 ### 10.3 Hosiery QA
 
@@ -440,7 +441,7 @@ burgundy toenail polish visible naturally beneath the fabric when lighting permi
 
 这一组既验证女主足部比例，也建立校准丝袜 L1 Material Canon；它不得重新定义脸部或整体身材。
 
-`HOS_06` 可优先使用已登记但单图覆盖有限的 `HOS_30D_NUDE_SOFT_SHEEN_LIMITED`，生成前须披露单一素材限制。`HOS_07` 在补入并登记真实 30D 灰色哑光材质照片或用户明确授权无 L0 的设计重建前不得生成。两个 30D 资产都不得让 `OWNER_BODY_01_FRONT_CANON_002` 中的 15D 哑光肉色丝袜定义其颜色、厚度或光泽；该 Body Master 仅负责人物身份与身体几何。
+`HOS_06` 可优先使用已登记但单图覆盖有限的 `HOS_30D_NUDE_SOFT_SHEEN_LIMITED`，生成前须披露单一素材限制。`HOS_07` 已获用户授权进行无 L0 设计重建，并登记为 15D 灰色哑光；不得让 `OWNER_BODY_01_FRONT_CANON_002` 中的肉色丝袜定义其灰色色相，该 Body Master 仅负责人物身份与身体几何。
 
 ---
 
@@ -453,7 +454,6 @@ burgundy toenail polish visible naturally beneath the fabric when lighting permi
 | Asset ID | 用途 |
 |---|---|
 | APP_01_NEUTRAL_COLOR | 中性灯光下的面部、发色和皮肤色彩校准；不重新定义几何 |
-| APP_02_BURGUNDY_TOENAIL | 酒红色脚趾甲颜色参考；只负责颜色，不能定义足部身份和材质 |
 
 若可靠的文字色值和 Gate 7 图片已经足够，可不单独生成这两张。
 
@@ -790,3 +790,21 @@ all required components APPROVED
 | draft_1.202 | 2026-09-15 | 用户拒绝 `HOS_04_TOES_FRONT_DETAIL_v001`：脚趾前方袜面张力不明显，15D 朦胧柔化不足。v001 不得作为输入；授权独立生成 v002，强化趾尖前方的细微织物拉伸、半透明雾化和袜面覆盖感 | user QA correction incorporated |
 | draft_1.203 | 2026-09-15 | 用户确认 `HOS_04_TOES_FRONT_DETAIL_v002` 的张力曲线方向正确，但要求更明显、袜面视觉厚度略增。v002 不得作为像素输入；授权独立生成 v003，增强趾尖张力曲线与织物存在感，同时保持半透明、朦胧、15D 而非不透明厚袜 | user QA refinement incorporated |
 | draft_1.204 | 2026-09-15 | 用户授权再次尝试 HOS_04，并要求保留上次修改：明显趾尖张力曲线、略增强袜面视觉厚度、15D 半透明朦胧感。v003 因输出拦截无像素，不作为输入；授权独立生成 v004 | retry authorization; prior material refinement retained |
+| draft_1.205 | 2026-09-16 | 用户明确要求重试 HOS_06：将构图从“大腿上部至双脚”收窄为与 HOS_01 一致的“膝下至双脚”，仅保留 30D 肉色微光材质与 HOS_01 不同；v001–v004 无像素且不得作为输入 | user-scoped framing correction and retry authorization |
+| draft_1.206 | 2026-09-16 | 用户复核 HOS_06 v005：要求整体亮度略升、30D 视觉厚度略增，并彻底消除脚趾根部横向线；v005 像素不得输入，授权独立生成 v006 | user-scoped material refinement and QA correction |
+| draft_1.207 | 2026-09-16 | 用户复核 HOS_06 v006：明确 30D 加厚后应有轻微偏白雾感；脚趾区域从趾根到趾尖呈连续渐变，趾尖更薄更透；严禁脚趾根部横线或任何袜尖边界；v006 像素不得输入，授权独立生成 v007 | user-scoped material behavior correction and retry authorization |
+| draft_1.208 | 2026-09-16 | 用户复核 HOS_06 v007：要求 30D 再厚一些、脚趾仅略微可见并保持由趾根到趾尖连续渐薄；用户要求查明并消除趾根线条。为避免材质照片和“袜尖/边界”提示诱发横线，本次只使用正面 Body Master，30D 外观由文字合同定义；v007 像素不得输入，授权独立生成 v008 | user-scoped thickness refinement and reference/prompt isolation correction |
+| draft_1.209 | 2026-09-16 | 用户要求重新输出 HOS_06。建立独立 v009，继续只使用正面 Body Master和中性纺织品质检语境；保留 30D 加厚、轻微发白和脚趾方向连续渐薄要求，v008 无像素且不得作为输入 | user retry authorization; neutral prompt reset |
+| draft_1.210 | 2026-09-16 | 用户授权 HOS_07 使用无 L0 材质源的设计重建；建立独立候选，灰色 30D 哑光外观由文字合同定义，批准 Body Master 仅负责腿脚几何与接地 | explicit user authorization for design reconstruction |
+| draft_1.211 | 2026-09-16 | 用户要求重试 HOS_07，并将范围从全腿修改为膝盖以下至双脚，与 HOS_01 保持一致；v001 无像素且不得作为输入 | user-scoped framing correction and retry authorization |
+| draft_1.212 | 2026-09-16 | 用户复核 HOS_07 v002：要求颜色改为更浅的烟灰、整体厚度略增；腿部至脚背仅微透肉，向脚尖连续渐变为更明显透肉；v002 像素不得输入，授权独立生成 v003 | user-scoped color, thickness and translucency correction |
+| draft_1.213 | 2026-09-16 | 用户复核 HOS_07 v003：确认渐变方向成立，要求烟灰更浅、厚度更厚、渐变更明显，并在脚趾间体现轻微袜面张力；v003 像素不得输入，授权独立生成 v004 | user-scoped material refinement and interdigital tension correction |
+| draft_1.214 | 2026-09-16 | 用户复核 HOS_07 v004：认为当前厚度更接近 15D 灰色哑光，并指出趾间张力曲线未生成。分析为“subtle”张力与连续平滑约束被模型弱化；授权独立 v005，调整为 15D 灰色哑光并将趾间局部 V 形汇聚曲线明确化，v004 像素不得输入 | user-scoped denier correction and explicit interdigital-tension refinement |
+| draft_1.215 | 2026-09-16 | 用户复核 HOS_07 v005：要求加大趾间袜面张力曲线、让烟灰色更明显、让透肉渐变更明显；v005 像素不得输入，授权独立生成 v006 | user-scoped contrast and tension refinement |
+| draft_1.216 | 2026-09-16 | 用户复核 HOS_07 v006：指出灰色偏黑、透肉过多、趾间曲线未显现且酒红趾甲消失。原因记录为线条排除词压制局部张力、深色降低曲线对比、未明确继承趾甲外观；授权独立 v007，改用浅烟灰、减少透肉、明确局部张力弧线和织物下柔化酒红趾甲 | user-scoped color/translucency/nail correction and prompt diagnosis |
+| draft_1.217 | 2026-09-16 | 用户确认 HOS_07 v007 可用，并要求登记为 15D 灰色哑光；资产从原计划 30D 灰色哑光改名为 `HOS_07_15D_GRAY_MATTE_FRONT`，按单文件规则晋升为批准组件 | user approval and denier reclassification |
+| draft_1.218 | 2026-09-16 | 用户要求新增 30D 灰色哑光资产：腿部至脚背不透肤，脚趾区域向脚尖连续渐增透肤；建立独立 `HOS_08_30D_GRAY_MATTE_FRONT`，无 L0 材质源设计重建，禁止使用 HOS_07 像素 | new asset authorization and material-gradient specification |
+| draft_1.219 | 2026-09-16 | 用户确认 HOS_08 v001 “很好，登记”；按单文件规则晋升为 `OWNER_HOS_08_30D_GRAY_MATTE_FRONT_CANON_001` | user approval and Canon promotion |
+| draft_1.220 | 2026-09-16 | 用户确认 `HAIR_B_06_LOW_CAMERA_LOOK_DOWN_v014` 合格并要求登记；唯一候选图片按单文件规则移动晋升为 `OWNER_HAIR_B_06_LOW_CAMERA_LOOK_DOWN_CANON_001`，Hair-B 六个专用视角完成，完整 `owner_v1.0` 仍未锁定 | user approval and Canon promotion |
+| draft_1.221 | 2026-09-16 | 用户授权制作可选外观补充资产 `APP_01_NEUTRAL_COLOR`；从批准 Face Canon 与批准 Hair-A Front Canon 独立生成 v001，目标为中性灯光下的肤色、发色与曝光校准，候选状态 `REVIEW_REQUIRED` | user generation authorization; optional Appearance candidate |
+| draft_1.222 | 2026-09-16 | 用户确认 `APP_01_NEUTRAL_COLOR_v001` “登记”；按单文件规则移动晋升为 `OWNER_APP_01_NEUTRAL_COLOR_CANON_001`，批准范围仅覆盖中性灯光下的肤色、Hair-A 发色与曝光校准 | user approval and Canon promotion |

@@ -1,0 +1,23 @@
+asset_id: OWNER_SPORT_YOGA_01_DESIGN_REFERENCE
+outfit_id: OWNER_SPORT_YOGA_01
+level: L2
+character_scope: CHR_HUMAN_001_OWNER
+version: v001
+candidate_status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+asset_type: clothing_design_reference
+file: OWNER_SPORT_YOGA_01_DESIGN_REFERENCE_v001.png
+dimensions: 1312x1199
+sha256: 9a5553364ee45d8346bb9955c9aa274402aeb11d9fcb8003ddb12a18439276ec
+responsibility:
+  - light-pink strappy open-back sports top
+  - peach nine-quarter yoga pants
+  - nude 15D glossy pantyhose contract
+  - white yoga training shoes with pale-pink accents
+must_not_define:
+  - owner face
+  - owner body or skin
+  - owner hair or identity
+  - pose or expression
+  - L1 Canon attributes
+references: []

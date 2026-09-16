@@ -1,0 +1,28 @@
+asset_id: OWNER_SPORT_YOGA_01_WORN_FRONT
+outfit_id: OWNER_SPORT_YOGA_01
+level: L2
+intended_character_id: CHR_HUMAN_001_OWNER
+candidate_version: v002
+status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+file:
+  path: OWNER_SPORT_YOGA_01_WORN_FRONT_v002.png
+  width: 1086
+  height: 1448
+  sha256: 39b0e80850ef0548c7d5f3770fb4f19c39b00050010103b81cf1768b66e073b8
+responsibility:
+  - front worn presentation of approved yoga outfit
+  - corrected separation between opaque matte yoga pants and glossy nude hosiery
+must_not_define:
+  - new face, body, hair, identity, or L1 Canon
+  - previous AI-generated candidate pixels
+references:
+  - OWNER_FACE_FRONT_NEUTRAL_CANON_L1
+  - OWNER_BODY_FRONT_CANON_L1
+  - OWNER_HAIR_A_FRONT_CANON_L1
+  - OWNER_SPORT_YOGA_01_DESIGN_REFERENCE
+actual_image_inputs_verified: true
+previous_candidate_pixels_used: false
+promotion:
+  promoted: false
+  target: null

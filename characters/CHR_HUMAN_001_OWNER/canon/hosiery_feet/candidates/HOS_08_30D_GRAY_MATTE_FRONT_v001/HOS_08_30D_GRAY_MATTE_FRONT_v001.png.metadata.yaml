@@ -1,0 +1,29 @@
+asset_id: HOS_08_30D_GRAY_MATTE_FRONT_v001
+source_candidate: HOS_08_30D_GRAY_MATTE_FRONT_v001
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+gate: "Gate 7 — Hosiery / Feet Canon"
+status: APPROVED
+technical_qa: PASS_BY_EXPLICIT_USER_REVIEW
+generated_at: "2026-09-16"
+model_tool: "built-in ImageGen"
+dimensions: "1086x1448"
+aspect_ratio: "3:4"
+color_mode: RGB
+sha256: "226f956fee32d382d7df53e53a292406c0cd99bd114ef2604b981e044aa483ba"
+authoritative_file: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_08_30D_GRAY_MATTE_FRONT/OWNER_HOS_08_30D_GRAY_MATTE_FRONT_CANON_001.png"
+original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/candidates/HOS_08_30D_GRAY_MATTE_FRONT_v001/HOS_08_30D_GRAY_MATTE_FRONT_v001.png"
+promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_08_30D_GRAY_MATTE_FRONT/OWNER_HOS_08_30D_GRAY_MATTE_FRONT_CANON_001.png"
+reference_set_ids:
+  - OWNER_BODY_FRONT_CANON_L1
+approval:
+  status: APPROVED
+  approver: user
+  date: "2026-09-16"
+  evidence: "很好，登记"
+  record: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_08_30D_GRAY_MATTE_FRONT/approvals/APPROVAL_OWNER_HOS_08_30D_GRAY_MATTE_FRONT_001.md"
+lock_status: UNLOCKED_COMPONENT
+must_not_define:
+  - "complete owner identity"
+  - "15D calibration material or other hosiery deniers/colors/finishes"
+  - "episode wardrobe, lighting or background"
