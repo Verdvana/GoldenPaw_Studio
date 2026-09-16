@@ -1,0 +1,27 @@
+asset_id: OWNER_SPORT_YOGA_01_WORN_FRONT
+outfit_id: OWNER_SPORT_YOGA_01
+level: L2
+intended_character_id: CHR_HUMAN_001_OWNER
+candidate_version: v007
+status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+file:
+  path: OWNER_SPORT_YOGA_01_WORN_FRONT_v007.png
+  width: 1086
+  height: 1448
+  sha256: 5213b2685fa85b6691de09ec245073e0bb8c14529231cfdc40bb52809f554df9
+responsibility:
+  - front worn presentation of the user-amended yoga outfit
+  - clean owner face without iterative-generation artifacts
+  - smooth matte peach pants and pale-white glossy 15D hosiery separation
+  - barefoot hosiery-covered feet
+must_not_define:
+  - prior AI candidate pixels or artifacts
+  - new face, body, hair, identity, or L1 Canon
+references:
+  - OWNER_FACE_FRONT_NEUTRAL_CANON_L1
+  - OWNER_BODY_FRONT_CANON_L1
+actual_image_inputs_verified: true
+promotion:
+  promoted: false
+  target: null

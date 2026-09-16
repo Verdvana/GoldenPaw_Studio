@@ -12,7 +12,7 @@ These are reusable episode-design outfit packages. They may be reused across epi
 
 | Outfit ID | Use / season | Planned visual package | Status |
 |---|---|---|---|
-| `OWNER_HOME_SLEEP_SUMMER_01` | home sleepwear / summer | design reference + worn front; footwear visible | DESIGN REFERENCE APPROVED; WORN FRONT PENDING |
+| `OWNER_HOME_SLEEP_SUMMER_01` | home sleepwear / summer | design reference + worn front; footwear visible | DESIGN REFERENCE + WORN FRONT APPROVED |
 | `OWNER_HOME_SLEEP_WINTER_01` | home sleepwear / winter | design reference + worn front; hood and slippers visible | DESIGN REFERENCE + WORN FRONT APPROVED |
 | `OWNER_SPORT_YOGA_01` | yoga | design reference + worn front + 3/4/back if open-back fit needs verification | DESIGN REFERENCE APPROVED; WORN VIEWS PENDING |
 | `OWNER_SPORT_BADMINTON_01` | badminton | design reference + worn front + 3/4; back optional | DESIGN REFERENCE APPROVED; WORN VIEWS PENDING |

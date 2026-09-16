@@ -4,8 +4,9 @@
 - level: L2
 - intended_character_id: CHR_HUMAN_001_OWNER
 - episode/scene scope: reusable owner home sleepwear / summer
-- status: APPROVED_L2_DESIGN_REFERENCE_ONLY
+- status: APPROVED_L2_DESIGN_REFERENCE_AND_WORN_FRONT
 - approved_design_reference: approved/design_reference/OWNER_HOME_SLEEP_SUMMER_01_DESIGN_REFERENCE.png
+- approved_worn_front: approved/worn_front/OWNER_HOME_SLEEP_SUMMER_01_WORN_FRONT.png
 - approval_date: 2026-09-16
 
 ## Garment inventory and layering
