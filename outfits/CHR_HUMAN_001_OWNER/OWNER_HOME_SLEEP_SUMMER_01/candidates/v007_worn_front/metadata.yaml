@@ -1,0 +1,15 @@
+asset_id: OWNER_HOME_SLEEP_SUMMER_01_WORN_FRONT
+asset_level: L2
+asset_type: outfit
+owner_id: CHR_HUMAN_001_OWNER
+outfit_id: OWNER_HOME_SLEEP_SUMMER_01
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_HOME_SLEEP_SUMMER_01/candidates/v007_worn_front/OWNER_HOME_SLEEP_SUMMER_01_WORN_FRONT_v007.png
+physical_file_role: UNIQUE_CANDIDATE
+generated_or_real: GENERATED
+generation_record: candidates/v007_worn_front/generation_record.md
+approval_status: REVIEW_REQUIRED
+authoritative_for:
+  - front worn fit validation only
+must_not_define: [owner face Canon, owner body Canon, identity lineage, video keyframe, permanent wardrobe Canon]
+quality_status: PENDING_USER_REVIEW
+created_at: 2026-09-17

@@ -1,0 +1,47 @@
+asset_id: BODY_01_FRONT_v016
+asset_level: L1
+asset_type: body_canon
+owner_id: CHR_HUMAN_001_OWNER
+file_path: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_004.png
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v016/generation_record.md
+approval_status: APPROVED
+approval_record: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/approvals/APPROVAL_OWNER_BODY_01_FRONT_004.md
+lock_status: UNLOCKED_COMPONENT
+source_candidate: BODY_01_FRONT_v016
+generation_inputs:
+  - OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001
+  - L0_OWNER_002
+  - L0_OWNER_003
+  - OWNER_HAIRSTYLE_A_FACE_MASKED_001
+  - OWNER_HOS_15D_NM_011_LOWER_FEET_CROP_001
+qa_comparison_only:
+  - OWNER_BODY_01_FRONT_CANON_003
+  - OWNER_FACE_01_FRONT_NEUTRAL_CANON_001
+authoritative_for:
+  - owner 168 cm / 60 kg front body proportion target
+  - front hip and upper-thigh-root geometry as explicitly user-approved in v016
+  - front neutral standing articulation and substantially straighter lower-leg geometry
+  - pale light-nude 15D hosiery presentation with toe veil and interdigital tension within this component scope
+must_not_define:
+  - new face identity or Face Canon replacement
+  - new Hairstyle A Canon
+  - final reusable hosiery Canon outside this component scope
+  - other body views, poses or episode wardrobe
+view:
+  framing: full length, exact 3:4
+  angle: front neutral
+  camera_height: waist to lower chest
+  lens: 70-85mm equivalent
+physical_target:
+  height_cm: 168
+  weight_kg: 60
+appearance:
+  hairstyle: HAIRSTYLE_A
+  outfit: OWNER_L1_CALIBRATION_OUTFIT
+  hosiery: 15D pale light-nude velvet-finish sheer; continuous toe veil; burgundy polish beneath textile; visible interdigital tension
+generated_or_real: GENERATED
+checksum_sha256: eab2d082bc2a3f63137aa9caa6307cf35c8fa48ae70e1664adf7ae75c89fadac
+quality_status: APPROVED_L1_COMPONENT
+created_at: 2026-09-17
+approved_at: 2026-09-17
+notes: "Approved by explicit user instruction: 登记这版本，这版本的胯和大腿根部还原的非常好"

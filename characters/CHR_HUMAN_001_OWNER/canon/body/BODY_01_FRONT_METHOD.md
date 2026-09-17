@@ -3,7 +3,7 @@
 ```yaml
 method_id: OWNER_BODY_01_FRONT_METHOD_V2
 status: APPROVED_METHOD
-approved_component: OWNER_BODY_01_FRONT_CANON_003
+approved_component: OWNER_BODY_01_FRONT_CANON_004
 identity_revision: draft_0.39
 body_revision: draft_0.16
 spec_revision: draft_1.42
@@ -46,14 +46,18 @@ The user clarified the intended front-view tibial path: each lower-leg shaft beg
 
 The user accepted the current face and leg shape. Make the waist slightly narrower, with a normal continuous ribcage-to-waist-to-existing-hip-width transition; no corset compression, pinched waist or exaggerated hourglass. The leg covering must read as one continuous pale sheer textile from calf through ankle, forefoot and toes, with a soft hazy veil over the toes that matches the leg surface. Interdigital tension curves must be visible as textile stretch/valley responses, not bare-foot separations.
 
+## User-scoped registration refinement — 2026-09-17 (v016)
+
+The user explicitly approved BODY_01_FRONT_v016 for registration, highlighting that the hip and upper-thigh-root reconstruction is very accurate. The v016 candidate is now the active Master. Its substantially straighter front lower-leg axes, small natural inner-leg gap, pale slightly-whiter 15D hosiery, continuous toe veil and readable interdigital textile tension are retained within this component scope. The full owner release remains unlocked.
+
 ## Current approved Master
 
-- asset: `OWNER_BODY_01_FRONT_CANON_003`
-- path: `approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_003.png`
+- asset: `OWNER_BODY_01_FRONT_CANON_004`
+- path: `approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_004.png`
 - format/dimensions: PNG, 1086×1448, exact 3:4
-- current PNG SHA-256: `8faa10238bb99c614f63afbc8d0aa02dbb43d3d425673afd5c1d8dab5e7ba5f4`
-- source candidate: `BODY_01_FRONT_v015`, moved unchanged to the approved path after explicit approval
-- superseded components: `OWNER_BODY_01_FRONT_CANON_001` and `OWNER_BODY_01_FRONT_CANON_002`; retain for history but do not route as current
+- current PNG SHA-256: `eab2d082bc2a3f63137aa9caa6307cf35c8fa48ae70e1664adf7ae75c89fadac`
+- source candidate: `BODY_01_FRONT_v016`, moved unchanged to the approved path after explicit approval
+- superseded components: `OWNER_BODY_01_FRONT_CANON_001`, `OWNER_BODY_01_FRONT_CANON_002` and `OWNER_BODY_01_FRONT_CANON_003`; retain for history but do not route as current
 - lineage note: the L1 recovery method remains source-derived and never chains either approved Master or any candidate pixels
 - lock status: `UNLOCKED_COMPONENT`; complete `owner_v1.0` is not locked
 
