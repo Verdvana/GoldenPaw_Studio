@@ -8,7 +8,7 @@
 - character_outfit_root: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01
 - garment_reference_dir: reference_inputs/garment_references/
 - garment_reference_files:
-  - reference_inputs/garment_references/IMG_2744.jpg — metallic strappy high-heel sandals
+  - reference_inputs/garment_references/IMG_2780.jpg — burgundy one-band open-toe mule heel; use its tapered, non-uniform vamp strap and lower heel silhouette, recolor/material-convert to white suede
   - reference_inputs/garment_references/IMG_2747.JPG — denim shorts back
   - reference_inputs/garment_references/IMG_2748.JPG — denim shorts front
   - reference_inputs/garment_references/IMG_2749.jpg — white floral lace-trim camisole top
@@ -24,7 +24,7 @@
 | 1 | garment | lace-trim camisole top with narrow shoulder straps and small floral print | white, lightweight | upper body |
 | 2 | garment | high-waisted denim shorts with front pockets, back patch pockets, rolled/frayed hem | light blue denim | hips to upper thigh |
 | 3 | hosiery | sheer pantyhose, continuous waist-to-toes coverage | light nude, subtle micro-sheen | legs and feet |
-| 4 | footwear | strappy open-toe high-heel sandals | reflective metallic silver/champagne tone | feet |
+| 4 | footwear | one-band open-toe mule heels with a tapered/non-uniform vamp strap and lower slim heel, based on IMG_2780 silhouette | white suede, soft matte nap | feet |
 | 5 | accessory | dangling floral cluster earrings with blue teardrop stones | gold tone, clear stones, blue-green center stones | ears |
 
 The hosiery contract is textual at this stage; no separate hosiery photograph was

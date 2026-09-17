@@ -1,0 +1,35 @@
+schema_version: 1
+asset_id: OWNER_CASUAL_SUMMER_01_DESIGN_REFERENCE
+outfit_id: OWNER_CASUAL_SUMMER_01
+level: L2
+candidate_version: v003
+status: REVIEW_REQUIRED
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01/candidates/v003_design_reference/OWNER_CASUAL_SUMMER_01_DESIGN_REFERENCE_v003.png
+sha256: a5e35b77fc25ba5ae80d6097c1138eaeba6bd3341360733912d8598f53d119c7
+generation_inputs:
+  - IMG_2780.jpg
+  - IMG_2747.JPG
+  - IMG_2748.JPG
+  - IMG_2749.jpg
+  - IMG_2750.jpg
+qa_comparison_only: []
+responsibilities:
+  - exact clothing and accessory construction from supplied references
+  - white suede conversion of supplied burgundy shoe silhouette
+  - light nude sheer micro-sheen pantyhose material contract
+exclusions:
+  - person
+  - face
+  - body
+  - skin
+  - hair
+  - pose
+  - identity
+  - background definition from supplied photos
+qa:
+  visual_inspection: PASS
+  top_style_and_pattern: PASS_WITH_REVIEW
+  shorts_high_waist_and_construction: PASS
+  shoe_tapered_strap_lower_heel_white_suede: PASS_WITH_REVIEW
+  identity_contamination: PASS
+  hosiery_material: PASS_WITH_REVIEW
