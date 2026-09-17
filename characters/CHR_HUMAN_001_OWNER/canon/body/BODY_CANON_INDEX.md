@@ -13,7 +13,7 @@ approved_body_components: 6
 
 | Asset ID | View | Master | SHA-256 | Downstream set | L1 recovery method |
 |---|---|---|---|---|---|
-| `OWNER_BODY_01_FRONT_CANON_002` | front neutral standing, 168 cm / 60 kg target | `approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg` | `964c3b9d72c6688881b8ebfa4c6fc1bcfea04c998351352fabfdc8f4951666f6` | `OWNER_BODY_FRONT_CANON_L1` | `BODY_01_FRONT_METHOD.md` |
+| `OWNER_BODY_01_FRONT_CANON_003` | front neutral standing, 168 cm / 60 kg target, refined waist and integrated toe hosiery | `approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_003.png` | `8faa10238bb99c614f63afbc8d0aa02dbb43d3d425673afd5c1d8dab5e7ba5f4` | `OWNER_BODY_FRONT_CANON_L1` | `BODY_01_FRONT_METHOD.md` |
 | `OWNER_BODY_02_LEFT_3Q_CANON_001` | anatomical left 3/4 neutral standing, 168 cm / 60 kg target | `approved/BODY_02_LEFT_3Q/OWNER_BODY_02_LEFT_3Q_CANON_001.png` | `f364b5c9b398c0c786964ffb8932707c7d657f997b8344abdd31a47b4322f4aa` | `OWNER_BODY_LEFT_3Q_CANON_L1` | source/reference responsibilities preserved in candidate record |
 | `OWNER_BODY_03_RIGHT_3Q_CANON_001` | anatomical right 3/4 neutral standing, 168 cm / 60 kg target | `approved/BODY_03_RIGHT_3Q/OWNER_BODY_03_RIGHT_3Q_CANON_001.png` | `32f87f0232bb087b434d1818ec22d2db1ba4311ec73b7e0fe2ebf380279412fd` | `OWNER_BODY_RIGHT_3Q_CANON_L1` | source/reference responsibilities preserved in v005 record |
 | `OWNER_BODY_04_LEFT_SIDE_CANON_001` | anatomical left side neutral standing, 168 cm / 60 kg target | `approved/BODY_04_LEFT_SIDE/OWNER_BODY_04_LEFT_SIDE_CANON_001.png` | `800d422c125fdaff24568355994633156f8e17b12fbfa292aa8e83ed13ed394a` | `OWNER_BODY_LEFT_SIDE_CANON_L1` | source/reference responsibilities preserved in v002 record |
@@ -22,7 +22,7 @@ approved_body_components: 6
 
 These are the six current active approved, unlocked L1 Body components. Their shared 168 cm / 60 kg target, visible face where applicable, `HAIRSTYLE_A`, limb proportions and waist/hip ratio may be referenced within each component's view scope. Dedicated view-specific Face/Hair Canon remains the preferred precision authority when applicable. Hosiery scope is strictly limited to the accepted `15D nude matte/velvet` appearance within each Body component; final reusable material authority remains Gate 7. Gate 3 is complete and Gate 4 is open, while the full `owner_v1.0` remains unlocked.
 
-The candidate PNG was moved to the approved path after explicit user approval. The user later transcoded the active Master to `OWNER_BODY_01_FRONT_CANON.jpg` and deleted the PNG. The JPG is now the single physical active Master; the pre-transcode PNG checksum remains textual provenance only.
+The v015 candidate PNG was moved unchanged to the approved path after explicit user approval as `OWNER_BODY_01_FRONT_CANON_003.png`. The previous `OWNER_BODY_01_FRONT_CANON_002` JPG is retained as a superseded historical component and is no longer the active routing target.
 
 Ordinary downstream work uses the active approved Master. L1 recreation uses `OWNER_BODY_FRONT_RECOVERY_V1` and the method document; it must never use either approved Master or any generated BODY_01 candidate as an image input.
 

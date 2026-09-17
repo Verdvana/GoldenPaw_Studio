@@ -17,7 +17,8 @@ format_derivation:
   source_candidate_png_checksum_sha256: "cbb08e1799a6d6d3d9e00b600ceaab294a36a2b04a170ae1a367e28578cd0164"
   indexed_at: "2026-09-12"
 generation_record: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/generation_record.md"
-approval_status: "APPROVED"
+approval_status: "APPROVED_SUPERSEDED"
+superseded_by: "OWNER_BODY_01_FRONT_CANON_003"
 approval_record: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/approvals/APPROVAL_OWNER_BODY_01_FRONT_002.md"
 additional_approval_records:
   - "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_01_RELAXED_STANDING/approvals/APPROVAL_OWNER_POSE_01_RELAXED_STANDING_REUSE_001.md"
@@ -56,4 +57,4 @@ appearance:
 quality_status: "APPROVED_L1_COMPONENT"
 checksum_sha256: "964c3b9d72c6688881b8ebfa4c6fc1bcfea04c998351352fabfdc8f4951666f6"
 approved_at: "2026-09-11"
-notes: "Current active front Body Canon component. User-transcoded from the approved PNG to this JPG; the PNG was deleted and only its checksum remains as provenance. The same unique raster was later explicitly approved for the visible POSE_01_RELAXED_STANDING articulation without duplication. OWNER_BODY_01_FRONT_CANON_001 is superseded. Full owner_v1.0 remains unlocked."
+notes: "Historically approved front Body Canon component. Superseded by OWNER_BODY_01_FRONT_CANON_003 after the user's later approval of the refined waist and hosiery/toe presentation. Retained as a historical raster and no longer active for routing."

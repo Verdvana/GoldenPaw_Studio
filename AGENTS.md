@@ -71,6 +71,16 @@ Before any future ImageGen call, create a shot/candidate record from the templat
 
 Resolve references from `registries/reference_sets.yaml` and the nearest `REFERENCE_GUIDE.md` first. Re-open and re-analyze a complete L0 folder only when no named set covers the required view/property or when newly added files have not yet been cataloged.
 
+## Face-safe downstream design rule
+
+- Global owner face-generation rule (user-approved 2026-09-17): for every future L1/L2/L3 asset where the owner's face is visible, do not supply any AI Face Canon, AI Body Canon, or generated candidate as a face-generation input. Generate the face from the applicable L0真人素材, deterministic L0-derived face/skin crops or masks, and the applicable Face generation method's prompt constraints. This applies even when an approved AI Face Canon exists.
+- Approved AI Face Canon images may be used only after generation for QA comparison: identity drift, facial-feature relationships, skin contamination, projection and framing checks. QA comparison is not generation lineage or visual input.
+- Every generation record must separately declare `generation_inputs` and `qa_comparison_only`; an AI Canon may appear only in the latter for future assets.
+- For every L2/L3 asset where the owner's face is visible, the applicable source-derived Face method is the sole face-generation authority. Never use an uncropped full-body/Body image to define the face.
+- Body references must use a deterministic face-excluded derivative that retains only the required neck-below body, limb, pose, and proportion responsibilities. The derivative must have provenance, checksum, and explicit exclusions.
+- Outfit, environment, material, and design references define only their declared responsibilities and must not define owner face, skin, body, hair, or identity.
+- Every candidate QA must include a face-contamination check against the approved Face Canon as a comparison-only reference and reject dark/bright blotches, muddy relighting, patches, smudges, iterative-generation artifacts, or face identity drift.
+
 ## Privacy and repository hygiene
 
 - Treat L0 human photos as sensitive. Do not publish or export them.

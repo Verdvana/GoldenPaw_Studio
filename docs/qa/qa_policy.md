@@ -2,7 +2,7 @@
 
 Every L3 candidate receives a recorded verdict for all applicable domains:
 
-1. Identity — face/skull/recognizability against pinned Canon.
+1. Identity — face/skull/recognizability against the source-derived Face method, with approved Face Canon used only for QA comparison.
 2. Body — proportions, silhouette, articulation, and camera distortion.
 3. Cat identity — face, coat/tipping, eyes, nose, ears, proportions, anti-drift.
 4. Outfit — garment identity, construction, layering, color, coverage.

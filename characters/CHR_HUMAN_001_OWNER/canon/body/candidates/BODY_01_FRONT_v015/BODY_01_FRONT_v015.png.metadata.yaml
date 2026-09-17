@@ -1,0 +1,45 @@
+asset_id: BODY_01_FRONT
+asset_level: L1
+asset_type: body
+owner_id: CHR_HUMAN_001_OWNER
+canon_version: owner_v1.0
+file_path: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_003.png
+physical_file_role: UNIQUE_MASTER
+source_images:
+  - asset_id: OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001
+    role: face_and_skin_only
+  - asset_id: L0_OWNER_002
+    role: body_context_only
+  - asset_id: L0_OWNER_003
+    role: body_volume_cross_check_only
+  - asset_id: OWNER_HAIRSTYLE_A_FACE_MASKED_001
+    role: hairstyle_a_only
+generated_or_real: GENERATED
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v015/generation_record.md
+approval_status: APPROVED
+approval_record: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/approvals/APPROVAL_OWNER_BODY_01_FRONT_003.md
+authoritative_for:
+  - candidate waist transition for review only
+  - candidate face and hairstyle method result for review only
+must_not_define:
+  - approved face canon
+  - approved body canon
+  - hosiery material canon
+  - downstream identity
+view:
+  framing: full_length_front
+  angle: straight_on
+  camera_height: level
+  lens: 70-85mm_equivalent
+appearance:
+  hairstyle: HAIRSTYLE_A
+  outfit: pink_calibration_one_piece
+  hosiery: 15D_pale_nude_sheer_toe_haze_required_tension_weak
+quality_status: PASS
+checksum_sha256: 8faa10238bb99c614f63afbc8d0aa02dbb43d3d425673afd5c1d8dab5e7ba5f4
+original_candidate_path: /home/verdvana/.codex/generated_images/01a0add8-28f9-7962-bc90-c713fd06ce6d/exec-8c526063-8d98-4762-b20c-7b9edc110238.png
+original_candidate_checksum_sha256: 8faa10238bb99c614f63afbc8d0aa02dbb43d3d425673afd5c1d8dab5e7ba5f4
+promoted_asset_path: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_003.png
+promoted_asset_checksum_sha256: 8faa10238bb99c614f63afbc8d0aa02dbb43d3d425673afd5c1d8dab5e7ba5f4
+created_at: 2026-09-17
+notes: User explicitly approved registration. Waist transition, face/hair method, leg geometry, integrated toe hosiery veil, visible interdigital tension and burgundy polish are approved within this front Body component's scope.

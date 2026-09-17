@@ -5,6 +5,9 @@
 - model/tool:
 - status: NOT_GENERATED
 - reference_plan:
+- generation_inputs:
+- qa_comparison_only:
+- face_generation_rule: source-derived L0 inputs plus the applicable Face method prompt; approved AI Face Canon is QA-only
 
 ## 1. Task and shot intent
 

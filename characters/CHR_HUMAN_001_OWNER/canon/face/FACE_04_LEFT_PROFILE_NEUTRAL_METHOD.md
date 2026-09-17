@@ -14,7 +14,7 @@ downstream_reference_set: OWNER_FACE_LEFT_PROFILE_NEUTRAL_CANON_L1
 recreated_output_status: REVIEW_REQUIRED
 ```
 
-This is the self-contained recovery recipe for the approved left-profile L1 Face component. Ordinary L2/L3 shots may use the approved Master within its metadata scope. Recreating the L1 component starts from the three ordered inputs below and always produces a new `REVIEW_REQUIRED` candidate.
+This is the self-contained recovery recipe for the approved left-profile L1 Face component. The approved Master is comparison-only for post-generation QA; all future visible-face generation uses the source-derived recovery inputs and prompt constraints below. Recreating the L1 component starts from the three ordered inputs below and always produces a new `REVIEW_REQUIRED` candidate.
 
 Critical evidence limitation: no matching-direction true-profile L0 exists. The user approved the constrained generated result as the current Canon component, but this does not turn it into real-source evidence. Never use the approved JPG, source candidate PNG, FACE_03, FACE_05, another generated angle, a previous shot, or any mirror as an L1 recovery input.
 
@@ -31,12 +31,10 @@ Critical evidence limitation: no matching-direction true-profile L0 exists. The 
 
 ## Exact recovery input order and fingerprints
 
-1. `OWNER_FACE_01_FRONT_NEUTRAL_CANON_001`
-   - path: `approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg`
-   - dimensions: 1086×1448
-   - SHA-256: `4d657954098490fc39da6ae257a47d8275b6237962af6d98e3c8a715ac690fc4`
-   - responsibility: highest authority for exact identity, skull and fine feature relationships, adult age, neutral-studio skin, rounded lower face and expression
-   - must not define: missing left-profile depth by simple rotation, body, final outfit, Hairstyle B or episode setting
+1. `OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001`
+   - path: `reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/B_FACE_SKIN_CONTEXT_NO_CROWN.png`
+   - responsibility: source-derived identity, skull and fine feature relationships, adult age, neutral skin and expression baseline
+   - must not define: missing left-profile depth by simple rotation, hair, body, clothing, lighting or background
 
 2. `L0_OWNER_012`
    - path: `../../source/identity/raw/14.jpg`

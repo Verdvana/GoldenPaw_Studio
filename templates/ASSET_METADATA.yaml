@@ -6,6 +6,7 @@ canon_version: null
 file_path: ""
 physical_file_role: "UNIQUE_MASTER|UNIQUE_CANDIDATE|UNIQUE_DERIVATIVE|RECORD_ONLY"
 source_images: []
+qa_comparison_only: []
 generated_or_real: "REAL|GENERATED|DOCUMENT"
 generation_record: null
 approval_status: "DRAFT|REVIEW_REQUIRED|APPROVED|REJECTED|LOCKED|DEPRECATED"

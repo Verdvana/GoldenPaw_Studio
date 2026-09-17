@@ -1,0 +1,23 @@
+asset_id: OWNER_WORK_SUMMER_01_WORN_FRONT
+outfit_id: OWNER_WORK_SUMMER_01
+asset_level: L2
+candidate_version: v002
+candidate_status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+file: OWNER_WORK_SUMMER_01_WORN_FRONT_v002.png
+sha256: 96a279a91acf4c1a26aefa9da2b3695493f6204d8b515de010d6ba86e2308c92
+authoritative_for:
+  - summer officewear worn full-body presentation
+  - clothing silhouette and material appearance
+must_not_define:
+  - owner face or facial-skin Canon
+  - owner body or hair Canon
+  - new identity, pose, lighting, or background Canon
+references:
+  - OWNER_FACE_01_FRONT_NEUTRAL_CANON_001
+  - OWNER_BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_CROP_v1
+  - OWNER_HAIR_A_01_FRONT_CANON_001
+  - OWNER_WORK_SUMMER_01_DESIGN_REFERENCE
+actual_image_inputs_verified: true
+ai_generated_references_used: false
+previous_candidate_pixels_used: false

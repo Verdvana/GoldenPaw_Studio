@@ -3,7 +3,7 @@
 ```yaml
 method_id: OWNER_BODY_01_FRONT_METHOD_V2
 status: APPROVED_METHOD
-approved_component: OWNER_BODY_01_FRONT_CANON_002
+approved_component: OWNER_BODY_01_FRONT_CANON_003
 identity_revision: draft_0.39
 body_revision: draft_0.16
 spec_revision: draft_1.42
@@ -13,21 +13,53 @@ output_status: REVIEW_REQUIRED
 
 This method records the source/reference construction and user-reviewed corrections that produced the active approved v009 front Body component. Ordinary L2/L3 front-view work should use the active approved Master through `OWNER_BODY_FRONT_CANON_L1`. This method is only for recreating the L1 Master; every recreation returns to `REVIEW_REQUIRED` and requires new approval.
 
+## User-scoped recovery override — 2026-09-17
+
+For `BODY_01_FRONT_v010`, the user explicitly requires that no approved L1 Face raster be supplied as an image input. The face must be reconstructed from the source-derived Face recovery method instead, to avoid iterative-generation contamination. This override supersedes the Face-raster input in the fixed list below for this candidate only; it does not alter or deprecate the approved Face Canon.
+
+Input order for this candidate:
+
+1. `OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001` — source-derived face/skin context only, following `FACE_01_FRONT_NEUTRAL_METHOD.md`; must not define hair, body, clothing, lighting or background.
+2. `L0_OWNER_002` (`3.jpg`) — body context only.
+3. `L0_OWNER_003` (`4.jpg`) — body volume cross-check only.
+4. `OWNER_HAIRSTYLE_A_FACE_MASKED_001` — Hairstyle A pixels only; masked area defines nothing.
+
+This override also records the user's specific correction: the front lower legs should be visibly straight because the anatomy is straight, not because of a pose trick; knee, tibial shaft and ankle centers should track one near-vertical line on each side, with realistic calf mass and a naturally proportioned ankle that is not pinched or unnaturally thin.
+
+## User-scoped geometry refinement — 2026-09-17 (v011)
+
+The user further clarified that the visible tibial contour should not look bowed: in front view, the lower-leg bone/shaft silhouette is substantially straighter with only minimal natural soft-tissue variation. The inter-leg gap should be a small natural standing gap, not a wide separation. This refinement changes only lower-leg straightness and stance spacing; it does not redefine the user's body size, waist/hip ratio, face, hair or clothing.
+
+## User-scoped hosiery refinement — 2026-09-17 (v012)
+
+The user accepted the remaining body geometry and requested only these hosiery refinements: muted red/burgundy toenail polish should remain naturally visible beneath the sheer toe fabric; the light-nude hosiery should read slightly lighter than the underlying skin rather than darker; and the textile should show natural tension spanning the interdigital toe spaces, without seams, bands or bare gaps.
+
+## User-scoped foot QA correction — 2026-09-17 (v013)
+
+The user confirmed the face and Hairstyle A reconstruction are excellent and must retain the current source-derived generation method. Correct only the toe defects: each foot's second toe must have exactly one single, anatomically coherent nail plate; prohibit duplicated, split or extra nail shapes. Remove the incorrect transverse line at the toe roots; the hosiery must continue smoothly from each toe into the forefoot with natural interdigital tension, without a seam, hard boundary, ring or artificial crease.
+
+## User-scoped lower-leg and color refinement — 2026-09-17 (v014)
+
+The user clarified the intended front-view tibial path: each lower-leg shaft begins only slightly lateral to the knee/upper-shin line, follows a small gentle continuous curve inward, and returns to the central ankle axis. Do not create the previously seen large outward-to-center bow. Interdigital hosiery tension must be visibly readable between adjacent toes. Toenail polish is specifically deep burgundy/wine red, never pink.
+
+## User-scoped waist and hosiery integration refinement — 2026-09-17 (v015)
+
+The user accepted the current face and leg shape. Make the waist slightly narrower, with a normal continuous ribcage-to-waist-to-existing-hip-width transition; no corset compression, pinched waist or exaggerated hourglass. The leg covering must read as one continuous pale sheer textile from calf through ankle, forefoot and toes, with a soft hazy veil over the toes that matches the leg surface. Interdigital tension curves must be visible as textile stretch/valley responses, not bare-foot separations.
+
 ## Current approved Master
 
-- asset: `OWNER_BODY_01_FRONT_CANON_002`
-- path: `approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg`
-- format/dimensions: user-transcoded JPEG, 1086×1448, exact 3:4
-- current JPG SHA-256: `964c3b9d72c6688881b8ebfa4c6fc1bcfea04c998351352fabfdc8f4951666f6`
-- pre-transcode approved PNG SHA-256: `cbb08e1799a6d6d3d9e00b600ceaab294a36a2b04a170ae1a367e28578cd0164` (textual provenance only; PNG deleted by user)
-- source candidate: `BODY_01_FRONT_v009`, moved to the approved path after explicit approval and later user-transcoded to the current JPG
-- superseded component: `OWNER_BODY_01_FRONT_CANON_001`; retain for history but do not route as current
+- asset: `OWNER_BODY_01_FRONT_CANON_003`
+- path: `approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_003.png`
+- format/dimensions: PNG, 1086×1448, exact 3:4
+- current PNG SHA-256: `8faa10238bb99c614f63afbc8d0aa02dbb43d3d425673afd5c1d8dab5e7ba5f4`
+- source candidate: `BODY_01_FRONT_v015`, moved unchanged to the approved path after explicit approval
+- superseded components: `OWNER_BODY_01_FRONT_CANON_001` and `OWNER_BODY_01_FRONT_CANON_002`; retain for history but do not route as current
 - lineage note: the L1 recovery method remains source-derived and never chains either approved Master or any candidate pixels
 - lock status: `UNLOCKED_COMPONENT`; complete `owner_v1.0` is not locked
 
 ## Fixed minimal input order and roles
 
-1. `OWNER_FACE_01_FRONT_NEUTRAL_CANON_001`: exact recognizable front face, adult age, neutral expression and neutral skin appearance only; must not define body, outfit, hosiery, lighting or background.
+1. `OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001`: source-derived Face recovery input for recognizable front face, adult age, neutral expression and neutral skin appearance only; must not define body, outfit, hosiery, lighting or background. The approved Face Canon may be used only for post-generation QA comparison, never as an image input.
 2. `L0_OWNER_002` (`3.jpg`): primary real front standing context for stature, head-to-body scale, shoulder/torso length, waist/hip placement, limb length and natural stance range; must not define face, hair, qipao, shoes, umbrella, asymmetry, background or retouching.
 3. `L0_OWNER_003` (`4.jpg`): cross-check for natural torso, waist, hip, thigh, calf and limb volumes; must not define walking pose, bags, dress, legwear, shoes, face, hair, environment or final body alone.
 4. `OWNER_HAIRSTYLE_A_FACE_MASKED_001`: Hairstyle A only; the mask carries no visual authority and the source must not define face, body, skin, clothing, lighting or background.

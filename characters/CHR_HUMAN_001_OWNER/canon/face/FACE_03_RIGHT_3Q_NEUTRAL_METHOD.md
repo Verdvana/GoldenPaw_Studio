@@ -14,7 +14,7 @@ downstream_reference_set: OWNER_FACE_RIGHT_3Q_NEUTRAL_CANON_L1
 recreated_output_status: REVIEW_REQUIRED
 ```
 
-This is the self-contained recovery recipe for the approved right-three-quarter L1 Face component. Ordinary L2/L3 shots use the approved Master within its metadata scope. Recreating this L1 component must start from the three ordered inputs below and creates a new `REVIEW_REQUIRED` candidate. Never use FACE_03 candidate/approved pixels, FACE_02 pixels, or a mirrored image-left face as an L1 recovery input.
+This is the self-contained recovery recipe for the approved right-three-quarter L1 Face component. All future assets use the source-derived inputs and prompt constraints below to generate the face; the approved Master is comparison-only for QA. Recreating this L1 component creates a new `REVIEW_REQUIRED` candidate and never uses generated Face pixels.
 
 ## Approved output fingerprint
 
@@ -31,12 +31,10 @@ This is the self-contained recovery recipe for the approved right-three-quarter 
 
 Input order is part of the method.
 
-1. `OWNER_FACE_01_FRONT_NEUTRAL_CANON_001`
-   - path: `approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg`
-   - dimensions: 1086×1448
-   - SHA-256: `4d657954098490fc39da6ae257a47d8275b6237962af6d98e3c8a715ac690fc4`
-   - responsibility: highest authority for the exact recognizable woman, skull and facial-feature relationships, adult age, neutral-studio skin tone, fine facial geometry and neutral expression
-   - must not define: right-view depth by itself, body, final outfit, Hairstyle B or episode setting
+1. `OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001`
+   - path: `reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/B_FACE_SKIN_CONTEXT_NO_CROWN.png`
+   - responsibility: source-derived recognizable identity, facial relationships, adult age, neutral skin and expression baseline
+   - must not define: hair, body, clothing, lighting or background
 
 2. `L0_OWNER_012`
    - path: `../../source/identity/raw/14.jpg`

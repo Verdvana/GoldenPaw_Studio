@@ -4,7 +4,7 @@
 document_id: OWNER_L1_GENERATION_SPEC
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-spec_revision: draft_1.222
+spec_revision: draft_1.224
 status: DRAFT
 authority: USER_APPROVAL_REQUIRED
 default_aspect_ratio: "3:4"
@@ -19,6 +19,13 @@ created_at: "2026-09-09"
 ---
 
 ## 1. 层级与权威关系
+
+### 1.0 全局脸部生成规则（用户确认，2026-09-17）
+
+- 所有后续 L1/L2/L3 资产，只要脸部可见，脸部生成必须使用 L0 真人素材、确定性 L0 派生裁切/遮罩，以及对应 Face 方法文档的 prompt 约束。
+- 已批准的 AI Face Canon、AI Body Canon 和历史 AI 候选不得作为脸部生成输入；它们不能形成 AI → AI 的身份链。
+- 已批准的 AI Face Canon 仅可在生成完成后作为 `qa_comparison_only` 对照，用于检查身份漂移、脸部几何、肤色污染、投影异常和生成伪影。
+- 每条生成记录必须分别列出 `generation_inputs` 与 `qa_comparison_only`，并记录脸部污染检查结果。
 
 ### 1.1 L0 与 L1
 
@@ -224,15 +231,15 @@ Gate 1 未完成时不得生成 Face Canon 候选。
 
 最终元数据必须同时记录 anatomical side 和 `face_points_image_left/right`，避免左右命名歧义。
 
-`FACE_01_FRONT_NEUTRAL` 当前已批准组件为 `OWNER_FACE_01_FRONT_NEUTRAL_CANON_001`。下游正面身份引用使用 `OWNER_FACE_FRONT_NEUTRAL_CANON_L1`；若需要重新制作该 L1 Master，必须使用 `OWNER_FACE_FRONT_NEUTRAL_RECOVERY_V1` 和 `canon/face/FACE_01_FRONT_NEUTRAL_METHOD.md`，不得把已生成 Canon 图串联成新的 L1。
+`FACE_01_FRONT_NEUTRAL` 当前已批准组件为 `OWNER_FACE_01_FRONT_NEUTRAL_CANON_001`。该图仅可作为下游生成后的 QA 对照，不得作为任何未来资产的脸部生成输入；未来正面身份生成统一使用 `OWNER_FACE_FRONT_NEUTRAL_RECOVERY_V1` 和 `canon/face/FACE_01_FRONT_NEUTRAL_METHOD.md`。
 
-`FACE_02_LEFT_3Q_NEUTRAL` 当前已批准组件为 `OWNER_FACE_02_LEFT_3Q_NEUTRAL_CANON_001`。方向固定为人物 anatomical left facial plane principally visible、鼻尖朝画面左。普通下游左 3/4 身份引用使用 `OWNER_FACE_LEFT_3Q_NEUTRAL_CANON_L1`；若需要重新制作该 L1 Master，必须使用 `OWNER_FACE_LEFT_3Q_NEUTRAL_RECOVERY_V1` 和 `canon/face/FACE_02_LEFT_3Q_NEUTRAL_METHOD.md`，严格恢复 v001 提示结构并仅保留已批准的颧骨/下巴/眼神三项短约束。不得把 v001–v004 或批准图作为新的 L1 像素输入。
+`FACE_02_LEFT_3Q_NEUTRAL` 当前已批准组件为 `OWNER_FACE_02_LEFT_3Q_NEUTRAL_CANON_001`。方向固定为人物 anatomical left facial plane principally visible、鼻尖朝画面左。该图仅可作为下游生成后的 QA 对照；未来左 3/4 身份生成统一使用 `OWNER_FACE_LEFT_3Q_NEUTRAL_RECOVERY_V1` 和方法文档中的源派生输入及文字约束，不得使用任何 FACE_02 生成像素。
 
-`FACE_03_RIGHT_3Q_NEUTRAL` 当前已批准组件为 `OWNER_FACE_03_RIGHT_3Q_NEUTRAL_CANON_001`。方向固定为人物 anatomical right facial plane principally visible、鼻尖朝画面右。普通下游右 3/4 身份引用使用 `OWNER_FACE_RIGHT_3Q_NEUTRAL_CANON_L1`；若需要重新制作该 L1 Master，必须使用 `OWNER_FACE_RIGHT_3Q_NEUTRAL_RECOVERY_V1` 和 `canon/face/FACE_03_RIGHT_3Q_NEUTRAL_METHOD.md`，保持固定三输入顺序与 v002 的下巴底部圆润约束。不得镜像 FACE_02，也不得把 FACE_03 v001、v002 或批准图作为新的 L1 像素输入。
+`FACE_03_RIGHT_3Q_NEUTRAL` 当前已批准组件为 `OWNER_FACE_03_RIGHT_3Q_NEUTRAL_CANON_001`。方向固定为人物 anatomical right facial plane principally visible、鼻尖朝画面右。该图仅可作为下游生成后的 QA 对照；未来右 3/4 身份生成统一使用 `OWNER_FACE_RIGHT_3Q_NEUTRAL_RECOVERY_V1` 和方法文档中的源派生输入及文字约束，不得使用任何 FACE_03、FACE_02 或其他生成像素。
 
-`FACE_04_LEFT_PROFILE_NEUTRAL` 当前已批准组件为 `OWNER_FACE_04_LEFT_PROFILE_NEUTRAL_CANON_001`，当前下游文件为用户转码的 JPG。方向固定为人物 anatomical left facial plane visible、鼻尖朝画面右。它是在缺少同方向标准真人侧脸 L0 的条件下由用户审核批准的受限重建：普通下游左侧面身份引用使用 `OWNER_FACE_LEFT_PROFILE_NEUTRAL_CANON_L1`；重新制作该 L1 Master 必须使用 `OWNER_FACE_LEFT_PROFILE_NEUTRAL_RECOVERY_V1` 和 `canon/face/FACE_04_LEFT_PROFILE_NEUTRAL_METHOD.md`。固定输入顺序为批准 FACE_01 JPG、只负责同侧方向/自然差异/粗略深度的 `14.jpg`、只负责发型的遮脸 HAIRSTYLE_A。不得使用本批准 JPG 或候选 PNG 重新生成，不得使用或镜像 FACE_05，也不得引用 FACE_03、其他生成角度或历史候选。其批准范围包括用户接受的生成侧面轮廓，但方法文档必须永久保留“无同方向真人纯侧脸验证”的证据限制。
+`FACE_04_LEFT_PROFILE_NEUTRAL` 当前已批准组件为 `OWNER_FACE_04_LEFT_PROFILE_NEUTRAL_CANON_001`，当前下游文件为用户转码的 JPG。该图仅可作为下游生成后的 QA 对照，不得作为生成输入。未来左侧面身份生成必须使用 `OWNER_FACE_LEFT_PROFILE_NEUTRAL_RECOVERY_V1` 和方法文档中的源派生输入及文字约束；方法文档继续保留“无同方向真人纯侧脸验证”的证据限制。
 
-`FACE_05_RIGHT_PROFILE_NEUTRAL` 当前已批准组件为 `OWNER_FACE_05_RIGHT_PROFILE_NEUTRAL_CANON_001`。方向固定为人物 anatomical right facial plane visible、鼻尖朝画面左。普通下游右侧面身份引用使用 `OWNER_FACE_RIGHT_PROFILE_NEUTRAL_CANON_L1`；重新制作该 L1 Master 必须使用 `OWNER_FACE_RIGHT_PROFILE_NEUTRAL_RECOVERY_V1` 和 `canon/face/FACE_05_RIGHT_PROFILE_NEUTRAL_METHOD.md`，保持固定三输入顺序与已批准的轻微缩小鼻尖体量/突出度约束。不得使用 v001、v002、批准图、其他生成角度或镜像作为新的 L1 像素输入。
+`FACE_05_RIGHT_PROFILE_NEUTRAL` 当前已批准组件为 `OWNER_FACE_05_RIGHT_PROFILE_NEUTRAL_CANON_001`。方向固定为人物 anatomical right facial plane visible、鼻尖朝画面左。该图仅可作为下游生成后的 QA 对照，不得作为生成输入；未来右侧面身份生成必须使用 `OWNER_FACE_RIGHT_PROFILE_NEUTRAL_RECOVERY_V1` 和方法文档中的源派生输入及文字约束。
 
 ### 5.2 Face 固定规则
 
@@ -281,7 +288,7 @@ Gate 1 未完成时不得生成 Face Canon 候选。
 
 ### 6.3 Body 固定规则
 
-- 使用已批准 Face Canon，而不是某张全身 L0 的脸；
+- 使用对应的源派生 Face recovery inputs 和方法 prompt 生成脸部；已批准 Face Canon 仅可在生成后用于 QA 对照，不得作为输入；
 - 用户确认的现实身体基准为身高 `168 cm`、体重约 `60 kg`（120 斤）。Body 候选必须呈现与 168 cm 成年女性相符的偏高身高感和自然 60 kg 体量，不能回落成约 160 cm 的较矮视觉比例，也不能通过广角、低机位、缩头或不自然拉伸伪造身高；
 - L0 全身照片只能提供身体上下文，最终比例由 `IDENTITY.md`、用户调整决定和当前 Body Candidate Brief 共同确定；
 - 锁定头身比、肩宽、胸腰胯关系、躯干长度、腰线、臀胯轮廓、臂长、腿长、大腿/小腿关系及足部比例；
@@ -292,9 +299,9 @@ Gate 1 未完成时不得生成 Face Canon 候选。
 
 `BODY_01_FRONT_v001` 是 Gate 3 的首张基准候选。固定最小参考职责为：批准 FACE_01 只定义正面脸部身份；`OWNER_L0_BODY_FRONT_CONTEXT` 中的 `3.jpg` 与 `4.jpg` 只交叉提供真实身高感、头身比、肩宽、躯干/腰胯、四肢长度和自然体型范围；遮脸 Hairstyle A 只定义头发。15D nude velvet/matte sheer textile 本轮只由 `CALIBRATION_OUTFIT.md` 与 `docs/qa/hosiery_material_rules.md` 的文字合同定义，不附带带床景/广告文字的材质照片；精细丝袜权威仍留给 Gate 7。L0 衣服、鞋、走路姿势、手持物、背景、脸、腿部塑形和丝袜颜色偏差均不得进入候选。用户尚未指定主动身材改造，因此 v001 采用跨两张真人全身照的保守自然中间值，禁止瘦身、增高、拉腿、夸张胸腰臀或塑造成通用模特身材。画面必须明确为成年角色的非性感、技术性比例校准照。
 
-`BODY_01_FRONT_v009` 已由用户明确批准为当前活动正面 Body L1 Canon 组件 `OWNER_BODY_01_FRONT_CANON_002`，取代旧活动组件 001。普通 L2/L3 正面身体引用使用更新后的 `OWNER_BODY_FRONT_CANON_L1`；如需重新制作该 L1 Master，必须使用 `OWNER_BODY_FRONT_RECOVERY_V1` 和 `canon/body/BODY_01_FRONT_METHOD.md`，从批准 FACE_01、两张 L0 身体上下文与遮脸 Hairstyle A 按固定顺序平行重建。不得使用 v001–v009、任一批准 Body Master 或任何其他生成身体图作为新 L1 像素输入。批准范围包括用户确认的 168 cm / 60 kg 正面身体比例、四肢比例、腰臀比、腿脚几何与中性站姿，以及本资产中获确认的可见脸、发型和腿脚丝袜表现；独立 Face/Hair Canon 与可复用精细丝袜 Material Canon 仍由各自组件/Gate 负责。
+`BODY_01_FRONT_v015` 已由用户明确批准为当前活动正面 Body L1 Canon 组件 `OWNER_BODY_01_FRONT_CANON_003`，取代旧活动组件 002。普通 L2/L3 正面身体引用使用更新后的 `OWNER_BODY_FRONT_CANON_L1`；如需重新制作该 L1 Master，必须使用 `OWNER_BODY_FRONT_RECOVERY_V1` 和 `canon/body/BODY_01_FRONT_METHOD.md`，从 Face recovery method 的源派生输入、两张 L0 身体上下文与遮脸 Hairstyle A 按固定顺序平行重建。不得使用 v001–v015、任一批准 Body Master 或任何其他生成身体图作为新 L1 像素输入。批准范围包括用户确认的 168 cm / 60 kg 正面身体比例、略收窄腰部自然过渡到既有胯宽、四肢比例、当前腿型与中性站姿，以及本资产中获确认的可见脸、发型和腿脚丝袜表现；独立 Face/Hair Canon 与可复用精细丝袜 Material Canon 仍由各自组件/Gate 负责。
 
-组件 002 的下游职责经用户进一步明确：生成其他角色资产和视频镜头所需图片时，可引用其中获批的 168 cm / 60 kg、可见长相、`HAIRSTYLE_A`、四肢比例及腰臀比；若任务需要不同脸部/发型视角或更精细权威，仍选择对应的专用 Face/Hair Canon。该图中的丝袜只可定义 `15D + 哑光 + 肉色` 三项组合外观；任何其他颜色、材质/光泽或厚度必须排除本图的丝袜职责并另选对应 Material Reference。
+组件 003 的下游职责经用户进一步明确：生成其他角色资产和视频镜头所需图片时，可引用其中获批的 168 cm / 60 kg、可见长相、`HAIRSTYLE_A`、四肢比例、略收窄腰部至既有胯宽的过渡、当前腿型及正面腿脚表现；若任务需要不同脸部/发型视角或更精细权威，仍选择对应的专用 Face/Hair Canon。该图中的丝袜只可定义本组件声明的浅肉色 15D 连续袜面、酒红甲油下透和趾间张力；任何其他颜色、材质/光泽或厚度必须排除本图的丝袜职责并另选对应 Material Reference。
 
 六张分别批准后才能进入 Gate 4。
 
@@ -313,7 +320,7 @@ Gate 1 未完成时不得生成 Face Canon 候选。
 | HAIR_A_05_HIGH_CAMERA_LOOK_UP | 镜头高于人物并向下拍摄、人物抬头看向镜头；验证发际线、头顶、分缝、脸侧发束和抬头时的发型投影 |
 | HAIR_A_06_LOW_CAMERA_LOOK_DOWN | 镜头低于人物并向上拍摄、人物低头看向镜头；验证下颌侧发束、耳侧、发尾遮挡和低机位下的头发投影 |
 
-HAIRSTYLE_A 的主 L0 参考固定为 `OWNER_HAIRSTYLE_A_L0`，即 `DSC00847.jpg`。它定义长直披发、中央附近分缝、自然贴顺的低至中等顶部体积、长脸侧发束、胸部以下长度及自然渐细发尾。户外色偏、高光、脸、身体、粉色外套和背景不得进入 Canon。缺失的侧面和背面依据文字定义 + 已批准 Face Canon 平行生成，不得使用上一张 A 候选连续繁殖。
+HAIRSTYLE_A 的主 L0 参考固定为 `OWNER_HAIRSTYLE_A_L0`，即 `DSC00847.jpg`。它定义长直披发、中央附近分缝、自然贴顺的低至中等顶部体积、长脸侧发束、胸部以下长度及自然渐细发尾。户外色偏、高光、脸、身体、粉色外套和背景不得进入 Canon。缺失的侧面和背面依据文字定义 + 源派生 Face recovery inputs 平行生成；已批准 Face Canon 仅作生成后 QA 对照，不得使用上一张 A 候选连续繁殖。
 
 ### 7.2 HAIRSTYLE_B
 
@@ -338,7 +345,7 @@ HAIRSTYLE_B 的主 L0 真人参考固定为 `OWNER_HAIRSTYLE_B_L0`，即 `8.jpg`
 | HAIR_B_05_HIGH_CAMERA_LOOK_UP | 已由 `OWNER_HAIRSTYLE_B_APPEARANCE_CANON_001` 履行；镜头俯视、人物仰视，不重复生成 |
 | HAIR_B_06_LOW_CAMERA_LOOK_DOWN | 镜头低于人物并向上拍摄；头部保持自然中立不俯下，仅眼神向下看向低机位镜头；验证低机位下的眼神、下颌/耳侧碎发、收拢方向及发髻结构 |
 
-所有新角度必须使用批准后的 Face Canon + B 的 L0 真人锚 + 经批准的 B 设计锚；不得仅以 B 的 AI 图片连续繁殖。参考图中的脸、身体、衣服、灯光和皮肤均不具发型以外的权威性。
+所有新角度必须使用源派生 Face recovery inputs + B 的 L0 真人锚 + 经批准的 B 设计锚；已批准 Face Canon 仅用于生成后 QA 对照，不得作为脸部生成输入。参考图中的脸、身体、衣服、灯光和皮肤均不具发型以外的权威性。
 
 ### 7.3 发型通用规则
 
@@ -369,7 +376,7 @@ HAIRSTYLE_B 的主 L0 真人参考固定为 `OWNER_HAIRSTYLE_B_L0`，即 `8.jpg`
 
 规则：
 
-- 使用批准后的 Face Canon；
+- 使用源派生 Face recovery inputs 和 Face method prompt；批准 Face Canon 仅用于生成后 QA 对照；
 - 统一正面或轻微 3/4 的头肩构图；
 - 默认选择一个已批准发型并保持十三张一致；
 - L0 表情照片只定义肌肉和软组织变化；
@@ -625,6 +632,8 @@ all required components APPROVED
 | draft_1.37 | 2026-09-11 | 用户将批准的 BODY_01 Master 从 PNG 转换为 JPG 并删除批准目录中的 PNG；更新当前下游路径、格式、校验值、元数据、审批记录、Body 索引和引用路由。候选 v008 PNG 继续作为生成与批准溯源，L1 恢复方法不变 | user format decision incorporated |
 | draft_1.38 | 2026-09-11 | 用户复核当前 BODY_01 Canon：确认本人真实基准为 168 cm、120 斤（约 60 kg），当前图视觉身高约 160 cm 且小腿仍不够直；授权从四项源参考独立生成 v009，保留已认可的脸、HAIRSTYLE_A 与丝袜质感，只修正偏高身高感/头身肢体比例和膝—胫—踝直轴；禁止使用当前 Body Master 或任何历史 Body 候选像素 | user correction and revision authorization incorporated |
 | draft_1.39 | 2026-09-11 | 用户明确批准 BODY_01 v009 的长相、发型、四肢比例、腰臀比、腿脚几何与腿脚丝袜质感；晋升为活动正面 Body 组件 `OWNER_BODY_01_FRONT_CANON_002`，将旧 001 保留为历史 superseded 组件，并更新下游路由与源恢复方法 | user approved component |
+| draft_1.223 | 2026-09-17 | 用户明确批准 BODY_01_FRONT_v015 并要求登记；晋升为活动正面 Body 组件 `OWNER_BODY_01_FRONT_CANON_003`，更新 Body 索引与恢复路由。批准范围增加略收窄腰部自然过渡到既有胯宽、当前腿型、Face recovery 源派生方法、Hair A、浅肉色连续袜面、酒红甲油和趾间张力；002 保留为历史 superseded 组件 | user approved component and refined scope incorporated |
+| draft_1.224 | 2026-09-17 | 用户确认全局脸部生成规则：所有可见脸部生成必须使用 L0 真人素材、确定性 L0 派生输入和对应 Face method prompt；批准 AI Face Canon 仅作生成后 `qa_comparison_only`，不得作为生成输入或身份 lineage。同步更新 Face recovery、Body recovery、参考路由、QA 和生成记录模板 | user rule confirmed and incorporated |
 | draft_1.40 | 2026-09-11 | 用户澄清 002 的跨资产/镜头职责：168 cm / 60 kg、长相、HAIRSTYLE_A、四肢比例与腰臀比均可供其他资产及视频镜头图片引用；丝袜外观只授权 15D 哑光肉色组合，禁止外推到其他颜色、材质/光泽或厚度 | user scope clarification incorporated |
 | draft_1.41 | 2026-09-12 | 用户调整女主资产计划：决定不增加职责混淆的 Face 后脑视角，由 Body/Hair 背面覆盖；A 增加高机位仰视与低机位俯视，B 现有批准图履行高机位仰视并新增低机位俯视；Expression 增至 15 项；Pose 06/07 改为必需并新增伸腿坐姿与双臂/双膝支撑俯姿；Hosiery 新增 30D 微光肉色正面与 30D 灰色哑光正面，后者因缺少匹配 L0 暂阻塞 | user plan revision incorporated |
 | draft_1.42 | 2026-09-12 | 用户将活动 BODY_01 Canon 组件 002 从批准 PNG 转换为 `OWNER_BODY_01_FRONT_CANON.jpg` 并删除 PNG；更新唯一活动文件路径、JPEG 校验值、元数据、索引、批准记录、候选指针和引用集，批准范围与四输入源恢复方法保持不变 | user format decision incorporated |

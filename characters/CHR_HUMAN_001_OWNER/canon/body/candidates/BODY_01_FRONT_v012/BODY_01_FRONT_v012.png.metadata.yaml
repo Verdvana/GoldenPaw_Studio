@@ -1,0 +1,45 @@
+asset_id: BODY_01_FRONT
+asset_level: L1
+asset_type: body
+owner_id: CHR_HUMAN_001_OWNER
+canon_version: owner_v1.0
+file_path: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v012/BODY_01_FRONT_v012.png
+physical_file_role: UNIQUE_CANDIDATE
+source_images:
+  - asset_id: OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001
+    role: face_and_skin_only
+  - asset_id: L0_OWNER_002
+    role: body_context_only
+  - asset_id: L0_OWNER_003
+    role: body_volume_cross_check_only
+  - asset_id: OWNER_HAIRSTYLE_A_FACE_MASKED_001
+    role: hairstyle_a_only
+generated_or_real: GENERATED
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v012/generation_record.md
+approval_status: REVIEW_REQUIRED
+approval_record: null
+authoritative_for:
+  - candidate lower-leg geometry for review only
+  - candidate hosiery presentation for review only
+must_not_define:
+  - approved face canon
+  - approved body canon
+  - hosiery material canon
+  - downstream identity
+view:
+  framing: full_length_front
+  angle: straight_on
+  camera_height: level
+  lens: 70-85mm_equivalent
+appearance:
+  hairstyle: HAIRSTYLE_A
+  outfit: pink_calibration_one_piece
+  hosiery: 15D_nude_velvet_sheer_with_natural_toe_tension
+quality_status: PASS
+checksum_sha256: 61e3c19a04e7799ef025b020d641b63e7546bb1f5469bc9ff52dcec0840660ae
+original_candidate_path: /home/verdvana/.codex/generated_images/01a0add8-28f9-7962-bc90-c713fd06ce6d/exec-6d008077-172c-4c68-976a-46da904711a5.png
+original_candidate_checksum_sha256: 61e3c19a04e7799ef025b020d641b63e7546bb1f5469bc9ff52dcec0840660ae
+promoted_asset_path: null
+promoted_asset_checksum_sha256: null
+created_at: 2026-09-17
+notes: User requested red toenail polish, lighter-than-skin nude hosiery, and interdigital textile tension; technical precheck passed, awaiting explicit user approval.

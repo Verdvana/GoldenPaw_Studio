@@ -12,6 +12,10 @@ output_status: REVIEW_REQUIRED
 
 This method records the v010 face/skin success plus the v011 crown correction. It is used only when a new L1 `FACE_01_FRONT_NEUTRAL` must be recreated or recovered. Ordinary L2/L3 shots should use the approved Canon component directly as their identity master.
 
+## Global downstream generation rule — user-approved 2026-09-17
+
+For every future asset with the owner's face visible, this method's source-derived inputs and prompt constraints are used to generate the face. The approved Face Canon is never supplied as a generation image input, even when it is the preferred QA target. It may be attached only as `qa_comparison_only` after generation. Historical records that used the former downstream route remain historical provenance and are not retroactively rewritten.
+
 ## Current downstream Master index
 
 - approved asset: `OWNER_FACE_01_FRONT_NEUTRAL_CANON_001`

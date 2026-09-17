@@ -14,7 +14,7 @@ downstream_reference_set: OWNER_FACE_RIGHT_PROFILE_NEUTRAL_CANON_L1
 recreated_output_status: REVIEW_REQUIRED
 ```
 
-This is the self-contained recovery recipe for the approved right-profile L1 Face component. Ordinary L2/L3 shots use the approved Master within its metadata scope. Recreating this L1 component starts from the three ordered inputs below and produces a new `REVIEW_REQUIRED` candidate. Never use FACE_05 candidate/approved pixels, another generated Face angle, a mirrored face, or a previous shot as an L1 recovery input.
+This is the self-contained recovery recipe for the approved right-profile L1 Face component. The approved Master is comparison-only for post-generation QA; all future visible-face generation uses the source-derived recovery inputs and prompt constraints below. Recreating this L1 component starts from the three ordered inputs below and produces a new `REVIEW_REQUIRED` candidate. Never use FACE_05 candidate/approved pixels, another generated Face angle, a mirrored face, or a previous shot as an L1 recovery input.
 
 ## Approved output fingerprint
 
@@ -29,12 +29,10 @@ This is the self-contained recovery recipe for the approved right-profile L1 Fac
 
 ## Exact recovery input order and fingerprints
 
-1. `OWNER_FACE_01_FRONT_NEUTRAL_CANON_001`
-   - path: `approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg`
-   - dimensions: 1086×1448
-   - SHA-256: `4d657954098490fc39da6ae257a47d8275b6237962af6d98e3c8a715ac690fc4`
-   - responsibility: highest authority for exact identity, skull and feature relationships, adult age, neutral-studio skin and expression
-   - must not define: full profile depth alone, body, final outfit, Hairstyle B or episode setting
+1. `OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001`
+   - path: `reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/B_FACE_SKIN_CONTEXT_NO_CROWN.png`
+   - responsibility: source-derived identity, skull and feature relationships, adult age, neutral skin and expression baseline
+   - must not define: full profile depth alone, hair, body, clothing, lighting or background
 
 2. `L0_OWNER_009`
    - path: `../../source/identity/raw/11.jpg`

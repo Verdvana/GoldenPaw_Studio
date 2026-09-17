@@ -4,21 +4,25 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.175
+revision: draft_0.176
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
-updated_at: "2026-09-14"
+updated_at: "2026-09-17"
 ```
 
 本文件是 L0 真人照片、用户指定的 L1 目标外观锚与 L1 Face Canon 候选之间的文字身份锚。当前版本尚未获得最终身份批准，可根据用户对候选图的明确反馈继续修订。
 
 当前五个 Face 组件均已批准，当前下游 Master 均为用户转码的 JPG，统一索引见 `face/FACE_CANON_INDEX.md`。格式变化不改变已批准的身份属性；原候选 PNG 仍保留生成溯源。
 
+## 全局脸部生成规则（用户确认，2026-09-17）
+
+所有后续 L1/L2/L3 资产只要脸部可见，均必须依据对应的 L0 真人素材、职责隔离的 L0 派生脸部/肤色裁切或遮蔽图，以及对应 Face generation method 的 prompt 约束生成脸部。任何 AI Face Canon、AI Body Canon 或历史 AI 候选都不得作为脸部生成输入。已批准 AI Face Canon 只允许在生成完成后作为 `qa_comparison_only` 对照，用于检查身份漂移、五官关系、肤色污染、头部投影和渲染伪影；不得进入生成 lineage。
+
 ## 用户指定的目标外观锚
 
-- `OWNER_HAIRSTYLE_B_APPEARANCE_CANON_001` 是当前女主正脸长相与肤色的 L1 目标锚；
-- 新的 Face Canon 必须严格保持该图中的可辨识正脸、面部整体关系与肤色观感；
-- 该图在 Face 任务中不负责发型、身体、衣服、俯拍机位、灯光、阴影或背景；
+- `OWNER_HAIRSTYLE_B_APPEARANCE_CANON_001` 仅是 Hairstyle-B 的设计/色彩校准锚，不是脸部生成输入或脸部身份权威；
+- 新的 Face Canon 生成必须通过 L0/源派生 Face recovery 方法保持可辨识正脸、面部整体关系与肤色观感；已批准 AI Face Canon 只能作为生成后 QA 对照；
+- 该图在 Face 任务中不负责脸部生成、身体、衣服、俯拍机位、灯光、阴影或背景；仅在 HAIRSTYLE_B 专属任务中定义已声明的发型设计属性；
 - 除 HAIRSTYLE_B 专属资产外，所有可见头发的女主 L1 资产使用 `HAIRSTYLE_A`；
 - Face 候选通过用户审核后，才把成功生成中经用户确认的稳定经验写回本文件，不从失败候选学习。
 
@@ -59,7 +63,7 @@ updated_at: "2026-09-14"
 - approved path: `canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg`
 - approval: `canon/face/approved/FACE_01_FRONT_NEUTRAL/approvals/APPROVAL_OWNER_FACE_01_FRONT_NEUTRAL_001.md`
 - regeneration method: `canon/face/FACE_01_FRONT_NEUTRAL_METHOD.md`
-- downstream rule: 普通 L2/L3 正面镜头可从该已批准 Master 直接引用脸部身份；重新制作 L1 正面 Master 时必须使用方法文档中的源派生输入平行重建，禁止以本图继续生成新 L1 链条
+- downstream rule: 该已批准 Master 仅用于生成后 QA 对照；所有未来可见脸部生成使用对应 Recovery Set 的 L0/源派生输入与方法文档 prompt，禁止将本图作为生成输入
 
 ### FACE_02 左 3/4
 
@@ -68,7 +72,7 @@ updated_at: "2026-09-14"
 - approved path: `canon/face/approved/FACE_02_LEFT_3Q_NEUTRAL/OWNER_FACE_02_LEFT_3Q_NEUTRAL_CANON_001.jpg`
 - approval: `canon/face/approved/FACE_02_LEFT_3Q_NEUTRAL/approvals/APPROVAL_OWNER_FACE_02_LEFT_3Q_NEUTRAL_001.md`
 - regeneration method: `canon/face/FACE_02_LEFT_3Q_NEUTRAL_METHOD.md`
-- downstream rule: 普通 L2/L3 左 3/4 镜头直接引用该 Master；重新制作 L1 时使用 `OWNER_FACE_LEFT_3Q_NEUTRAL_RECOVERY_V1` 的三项输入和方法文档中的固定顺序/提示结构，禁止以 v001–v004 或本批准图继续生成新的 L1 链条
+- downstream rule: 该已批准 Master 仅用于生成后 QA 对照；未来左 3/4 可见脸部生成使用 `OWNER_FACE_LEFT_3Q_NEUTRAL_RECOVERY_V1` 与方法文档，禁止使用本批准图或历史候选像素
 
 ### FACE_03 右 3/4
 
@@ -77,7 +81,7 @@ updated_at: "2026-09-14"
 - approved path: `canon/face/approved/FACE_03_RIGHT_3Q_NEUTRAL/OWNER_FACE_03_RIGHT_3Q_NEUTRAL_CANON_001.jpg`
 - approval: `canon/face/approved/FACE_03_RIGHT_3Q_NEUTRAL/approvals/APPROVAL_OWNER_FACE_03_RIGHT_3Q_NEUTRAL_001.md`
 - regeneration method: `canon/face/FACE_03_RIGHT_3Q_NEUTRAL_METHOD.md`
-- downstream rule: 普通 L2/L3 右 3/4 镜头直接引用该 Master；重新制作 L1 时使用 `OWNER_FACE_RIGHT_3Q_NEUTRAL_RECOVERY_V1` 的固定三输入和方法文档，禁止镜像 FACE_02，禁止以 v001、v002 或本批准图继续生成新的 L1 链条
+- downstream rule: 该已批准 Master 仅用于生成后 QA 对照；未来右 3/4 可见脸部生成使用 `OWNER_FACE_RIGHT_3Q_NEUTRAL_RECOVERY_V1` 与方法文档，禁止镜像或使用本批准图/历史候选像素
 
 ### FACE_05 右侧面
 
@@ -86,7 +90,7 @@ updated_at: "2026-09-14"
 - approved path: `canon/face/approved/FACE_05_RIGHT_PROFILE_NEUTRAL/OWNER_FACE_05_RIGHT_PROFILE_NEUTRAL_CANON_001.jpg`
 - approval: `canon/face/approved/FACE_05_RIGHT_PROFILE_NEUTRAL/approvals/APPROVAL_OWNER_FACE_05_RIGHT_PROFILE_NEUTRAL_001.md`
 - regeneration method: `canon/face/FACE_05_RIGHT_PROFILE_NEUTRAL_METHOD.md`
-- downstream rule: 普通 L2/L3 右侧面镜头直接引用该 Master；重新制作 L1 时使用 `OWNER_FACE_RIGHT_PROFILE_NEUTRAL_RECOVERY_V1` 的固定三输入和方法文档，禁止使用任何 FACE_05 生成图、其他生成角度或镜像作为 L1 输入
+- downstream rule: 该已批准 Master 仅用于生成后 QA 对照；未来右侧面可见脸部生成使用 `OWNER_FACE_RIGHT_PROFILE_NEUTRAL_RECOVERY_V1` 与方法文档，禁止使用任何 FACE_05 生成图、其他生成角度或镜像作为 L1 输入
 
 ### FACE_04 左侧面
 
@@ -95,7 +99,7 @@ updated_at: "2026-09-14"
 - approved path: `canon/face/approved/FACE_04_LEFT_PROFILE_NEUTRAL/OWNER_FACE_04_LEFT_PROFILE_NEUTRAL_CANON_001.jpg`
 - approval: `canon/face/approved/FACE_04_LEFT_PROFILE_NEUTRAL/approvals/APPROVAL_OWNER_FACE_04_LEFT_PROFILE_NEUTRAL_001.md`
 - regeneration method: `canon/face/FACE_04_LEFT_PROFILE_NEUTRAL_METHOD.md`
-- downstream rule: 普通 L2/L3 左侧面镜头可在批准范围内直接引用当前 JPG Master；重新制作 L1 时使用 `OWNER_FACE_LEFT_PROFILE_NEUTRAL_RECOVERY_V1` 的固定三输入和方法文档，禁止使用本批准 JPG、候选 PNG、FACE_03、FACE_05、其他生成角度或镜像作为 L1 输入；始终披露该侧面缺少同方向真人纯侧脸验证
+- downstream rule: 该已批准 Master 仅用于生成后 QA 对照；未来左侧面可见脸部生成使用 `OWNER_FACE_LEFT_PROFILE_NEUTRAL_RECOVERY_V1` 与方法文档，禁止使用本批准 JPG、候选 PNG、FACE_03、FACE_05、其他生成角度或镜像作为 L1 输入；始终披露该侧面缺少同方向真人纯侧脸验证
 
 ## 当前可靠身份观察
 
@@ -122,7 +126,7 @@ updated_at: "2026-09-14"
 - 禁止将“颧骨降低”做成扁平脸、幼态脸或增加面颊膨胀；禁止将“下巴变圆”做成宽重下巴；禁止用微笑、眯眼、改变眉形或美颜来制造柔和眼神。
 - `FACE_02_LEFT_3Q_NEUTRAL_v002` 的身份方向、颧骨、柔和眼神、左 3/4 角度、肤色、HAIRSTYLE_A、机位与构图已获用户确认；v003 必须锁定这些文字属性，只将下巴末端再圆润一小步；不得改变下巴长度、下颌宽度、下颌角、嘴唇位置或脸部其他结构，也不得使用 v002 像素。
 - `FACE_02_LEFT_3Q_NEUTRAL_v003` 因五官偏离被用户拒绝，不得用于下游或后续生成。下一候选恢复 v001 的完整核心提示结构，只追加三项简短约束：颧骨略低且轮廓柔和、下巴更圆润但不变宽变短、眼神更柔和但不改变眼睛几何。
-- `FACE_02_LEFT_3Q_NEUTRAL_v004` 已获用户明确批准。其像素只作为批准 Master 供普通下游按范围引用；L1 再生成复用已批准的方法、输入顺序和文字约束，不使用 v004 像素。
+- `FACE_02_LEFT_3Q_NEUTRAL_v004` 已获用户明确批准。其像素仅作为批准 Master 做生成后 QA 对照；未来 L1/L2/L3 脸部生成复用源派生方法、输入顺序和文字约束，不使用 v004 像素。
 
 ## FACE_03 右 3/4 当前反馈
 
@@ -174,7 +178,7 @@ updated_at: "2026-09-14"
 ## BODY_01 正面首版基线
 
 - Gate 2 五个 Face 角度已分别批准，现进入 Gate 3；`BODY_01_FRONT_v001` 只建立待用户校准的正面身体基线，不自动成为身体事实。
-- 脸部身份只由批准的 `OWNER_FACE_01_FRONT_NEUTRAL_CANON_001` 定义；真人 `3.jpg` 与 `4.jpg` 只交叉提供身高感、头身比、肩宽、躯干长度、腰线、胸腰胯自然范围、臂腿长度和真实非模特化体态。
+- 脸部生成身份由对应 L0 真人素材、确定性源派生输入和 Face method prompt 共同定义；批准的 `OWNER_FACE_01_FRONT_NEUTRAL_CANON_001` 仅作生成后 QA 对照。真人 `3.jpg` 与 `4.jpg` 继续只交叉提供身高感、头身比、肩宽、躯干长度、腰线、胸腰胯自然范围、臂腿长度和真实非模特化体态。
 - 用户尚未指定主动身材调整。v001 不瘦身、不增高、不拉腿、不夸大胸腰臀差、不收窄肩胯，也不把单张衣物塑形或走路姿态当成裸体几何。
 - 身体正面自然直立、重量均匀、双臂自然下垂、手掌靠近大腿但不贴死、双脚平行或自然微外展且不交叉；头部正面平视、闭嘴中性。
 - 完整使用粉色高叉连体泳衣、15D nude velvet-finish sheer pantyhose 和无鞋状态；丝袜从腰胯连续覆盖至脚趾，但 BODY_01 只做连续性预检，最终材质权威属于 Gate 7。
@@ -185,11 +189,11 @@ updated_at: "2026-09-14"
 ## BODY_01 当前批准结果
 
 - 用户确认本人现实身体基准为身高 `168 cm`、体重 `120 斤`（约 `60 kg`）。该数值是当前 Body 身份事实，优先于 L0 全身照因服装、镜头和姿态产生的矮化观感。
-- `BODY_01_FRONT_v009` 已由用户明确批准并晋升为当前活动正面 Body 组件 `OWNER_BODY_01_FRONT_CANON_002`；旧 `OWNER_BODY_01_FRONT_CANON_001` 保留为历史已批准但已被替代的组件，不再作为活动下游路由目标。
+- `BODY_01_FRONT_v015` 已由用户明确批准并晋升为当前活动正面 Body 组件 `OWNER_BODY_01_FRONT_CANON_003`；`OWNER_BODY_01_FRONT_CANON_002` 与旧 `OWNER_BODY_01_FRONT_CANON_001` 保留为历史已批准但已被替代的组件，不再作为当前 Body01 下游路由目标。
 - 当前活动组件呈现与 168 cm / 60 kg 相符的自然成年女性比例：整体偏高但不是夸张模特身材，保持真实肩胸腰胯和软组织体量；通过正确头身比、躯干与四肢长度关系表达身高，不得缩头、广角拉腿、低机位仰拍或机械纵向拉伸。
 - 小腿需进一步收直：双侧膝、胫骨中线与踝中心形成自然近竖直轴，胫骨不向外弯，左右小腿肌肉保留自然体量但外轮廓不制造 O 形腿观感，双脚仍平放且方向对称。
-- 用户明确批准 v009 的长相、HAIRSTYLE_A、四肢比例、腰臀比、腿脚几何和腿脚丝袜质感。普通下游可使用活动 Master 的批准范围；重新制作 L1 仍按批准 Face、两张 L0 身体上下文和遮脸发型 A 的四输入恢复方法平行生成，不使用 v008、v009 或任何 Body Master 像素。
-- 用户进一步明确：`OWNER_BODY_01_FRONT_CANON_002` 中的 168 cm / 60 kg、可见长相、`HAIRSTYLE_A`、四肢比例和腰臀比可用于生成其他角色资产及视频镜头所需图片；当存在更匹配视角的专用 Face/Hair Canon 时仍优先使用专用组件。该图的丝袜只可作为 `15D 哑光肉色` 外观参考，不得用于其他颜色、材质/光泽或厚度。
+- 用户明确批准 v015 的身体比例、HAIRSTYLE_A、略收窄且自然过渡到既有胯宽的腰部、四肢比例、腿型和腿脚丝袜表现。活动 Body Master 下游只定义其批准的身体/发型/丝袜职责，不定义可见脸部；重新制作 L1 或可见脸部资产仍按 Face recovery method 的源派生输入、两张 L0 身体上下文和遮脸发型 A 平行生成，不使用任何 Body Master 或历史候选像素。
+- 用户进一步明确：`OWNER_BODY_01_FRONT_CANON_003` 中的 168 cm / 60 kg、HAIRSTYLE_A、四肢比例、腰臀比和本组件批准的正面腿脚表现可用于生成其他角色资产及视频镜头所需图片；可见脸部必须另行使用源派生 Face recovery inputs + Face method prompt，批准 Face/Hair Canon 只按各自职责或生成后 QA 对照使用。丝袜职责仍限于本组件声明的 15D 浅肉色、连续脚趾覆盖、酒红甲油下透和趾间袜面张力，不得外推至其他颜色、材质/光泽或厚度。
 - `BODY_02_LEFT_3Q_v001` 已由用户明确评价“完美”并晋升为 `OWNER_BODY_02_LEFT_3Q_CANON_001`；它在左 3/4 视角内批准身体轮廓、保守深度关系及 168 cm / 60 kg、四肢比例和腰臀比的保持，不重新定义脸、发型、正面比例、其他方向或 Gate-7 丝袜材质。
 - `BODY_03_RIGHT_3Q_v001` 因脚后跟悬空及脚趾—前脚掌处异常横线被用户拒绝。v002 仍从批准 FACE_03 与活动 BODY_01 Master 独立生成，不使用 v001；两脚必须完整自然贴地，15D丝袜从脚踝至脚趾无袜尖边界、色带或透明度突变。
 - `BODY_03_RIGHT_3Q_v002` 仍被拒绝：脚跟下出现肉色垫块/多余组织，且脚趾—前脚掌横线未消失。v003 不使用 v001/v002，双脚以足够间距分别呈现完整轮廓；每只脚只能有一个正常脚跟直接接地，不得增加任何支撑物或肉色形体，丝袜在脚趾根部不得出现线、折痕、色带或透明度边界。
@@ -211,7 +215,7 @@ updated_at: "2026-09-14"
 ## HAIR_A_01 当前反馈
 
 - 用户确认 `HAIR_A_01_FRONT_v001` 除鼻部视觉略大外其余方向可保持；这不修改已批准的脸部 Canon，而是记录该 Hair 候选发生了鼻部漂移。
-- `HAIR_A_01_FRONT_v002` 必须让鼻梁宽度、鼻尖体量、鼻翼宽度和鼻部整体投影严格回归 `OWNER_FACE_01_FRONT_NEUTRAL_CANON_001`，不得借 Hair 任务重新塑造脸部。
+- `HAIR_A_01_FRONT_v002` 必须通过源派生 Face recovery 输入和方法文档保持鼻梁宽度、鼻尖体量、鼻翼宽度和鼻部整体投影；`OWNER_FACE_01_FRONT_NEUTRAL_CANON_001` 仅作生成后 QA 对照，不得借 Hair 任务重新塑造脸部。
 - v001 的发型正面方向、近中分、贴顺低至中等顶部体积、长直脸侧发束、深棕色与自然细碎发丝只以用户反馈文字保留，不使用 v001 像素。
 - v002 同时修正技术 QA 的发尾裁切：完整显示两侧最长发尾及其下方 5–8% 空间。
 - 用户已于 2026-09-12 明确批准 v002，并将其按单文件规则晋升为 `OWNER_HAIR_A_01_FRONT_CANON_001`。批准职责只覆盖眼平标准正面的 Hairstyle-A：近中短分缝、低至中等顶部体积、长直披散脸侧发束、深棕克制高光、胸下完整长度与渐细发尾；不定义脸、鼻部、皮肤、表情、身体、服装、其他 Hair-A 角度或 Hairstyle B。
@@ -363,6 +367,8 @@ updated_at: "2026-09-14"
 | draft_0.37 | 2026-09-11 | 用户批准 BODY_01 v009 的长相、发型、四肢比例、腰臀比、腿脚几何及腿脚丝袜表现；晋升为活动组件 `OWNER_BODY_01_FRONT_CANON_002`，旧 001 标记为历史 superseded，四输入源恢复规则不变 | user approved component |
 | draft_0.38 | 2026-09-11 | 用户明确扩展 002 的下游职责：168 cm / 60 kg、长相、HAIRSTYLE_A、四肢比例与腰臀比可供其他资产及视频镜头图片引用；丝袜职责严格限定为 15D 哑光肉色，不外推至其他颜色、材质/光泽或厚度 | user scope clarification incorporated |
 | draft_0.39 | 2026-09-12 | 用户将活动 BODY_01 组件 002 的批准 PNG 转换为 `OWNER_BODY_01_FRONT_CANON.jpg` 并删除 PNG；更新活动路径与 JPG 指纹，格式变化不改变资产 ID、批准范围或源恢复方法 | user format decision incorporated |
+| draft_0.40 | 2026-09-17 | 用户明确批准 BODY_01_FRONT_v015 并要求登记；新组件 003 采用略收窄腰部自然过渡到既有胯宽、当前腿型、源派生 Face recovery 与 Hair A 方法，以及浅肉色连续袜面、酒红甲油和趾间张力。v015 PNG 移动为新的活动 Master，002 保留为历史 superseded 组件 | user approved component and refined scope incorporated |
+| draft_0.41 | 2026-09-17 | 用户确认后续所有资产的脸部生成统一采用 L0 真人素材/确定性源派生输入 + Face method prompt；批准 AI Face Canon 仅作生成后 `qa_comparison_only`，不得作为生成输入或身份 lineage | user rule confirmed and incorporated |
 | draft_0.40 | 2026-09-12 | 用户批准 BODY_02 左 3/4 v001 为 `OWNER_BODY_02_LEFT_3Q_CANON_001`；登记其左 3/4 身体轮廓、深度与既有 168 cm / 60 kg 比例保持范围，并继续推进 BODY_03 | user approved component |
 | draft_0.41 | 2026-09-12 | 用户拒绝 BODY_03 v001 的悬空脚跟与脚趾—前脚掌异常横线；v002 只修正两脚完整贴地及15D面料无缝连续性，保持既定右 3/4 身份、比例与构图方法，并禁止输入 v001 | user rejection and revision authorization incorporated |
 | draft_0.42 | 2026-09-12 | 用户指出 v002 用脚跟下肉色垫块/多余组织伪造接地且脚趾横线仍在；撤销此前技术 PASS，v003 要求双脚轮廓互不遮挡、单一正常脚跟直接接地、无任何支撑物，并彻底消除脚趾—前脚掌线条，禁止输入 v001/v002 | user rejection and QA correction incorporated |

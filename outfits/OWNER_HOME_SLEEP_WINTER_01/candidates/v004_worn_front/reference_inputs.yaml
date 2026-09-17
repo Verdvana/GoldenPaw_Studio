@@ -1,0 +1,22 @@
+schema_version: 1
+input_mode: actual_local_image_inputs
+imagegen_parameter: referenced_image_paths
+preflight_verified: true
+previous_candidate_pixels_used: false
+assets:
+  - asset_id: OWNER_FACE_01_FRONT_NEUTRAL_CANON_001
+    path: /home/verdvana/Project/GoldenPaw_Studio/characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg
+    responsibility: exact front owner identity and facial geometry; clean even facial skin
+    must_not_define: body, hair, outfit, pose, lighting, background
+  - asset_id: OWNER_BODY_01_FRONT_LOWER_TORSO_CROP_v1
+    path: /home/verdvana/Project/GoldenPaw_Studio/characters/CHR_HUMAN_001_OWNER/canon/body/reference_inputs/BODY_01_FRONT_LOWER_TORSO_v1/BODY_01_FRONT_LOWER_TORSO_CROP.png
+    responsibility: neck-below shoulder, torso and limb proportion context only
+    must_not_define: face, facial geometry, facial spots, hair identity, outfit design, lighting, background
+  - asset_id: OWNER_HAIR_A_01_FRONT_CANON_001
+    path: /home/verdvana/Project/GoldenPaw_Studio/characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/approved/HAIR_A_01_FRONT/OWNER_HAIR_A_01_FRONT_CANON_001.png
+    responsibility: standard front Hairstyle A only
+    must_not_define: face geometry, skin, body, outfit, pose, lighting, background
+  - asset_id: OWNER_HOME_SLEEP_WINTER_01_DESIGN_REFERENCE
+    path: /home/verdvana/Project/GoldenPaw_Studio/outfits/OWNER_HOME_SLEEP_WINTER_01/approved/design_reference/OWNER_HOME_SLEEP_WINTER_01_DESIGN_REFERENCE.png
+    responsibility: approved winter two-piece homewear design only
+    must_not_define: owner identity, face, body, skin, hair, pose, expression, or L1 Canon

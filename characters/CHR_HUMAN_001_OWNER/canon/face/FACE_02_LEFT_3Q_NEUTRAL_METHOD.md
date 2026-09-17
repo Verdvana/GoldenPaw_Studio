@@ -14,7 +14,7 @@ downstream_reference_set: OWNER_FACE_LEFT_3Q_NEUTRAL_CANON_L1
 output_status: REVIEW_REQUIRED
 ```
 
-This file is the self-contained recovery recipe for recreating the approved left-three-quarter L1 Face component. Ordinary L2/L3 shots that need this view use the approved Master directly. Recreating the L1 component always starts from the three scoped Master/source inputs below and produces a new `REVIEW_REQUIRED` candidate; it never starts from v001–v004 or from the approved generated pixels.
+This file is the self-contained recovery recipe for recreating the approved left-three-quarter L1 Face component. All future assets use the source-derived inputs and prompt constraints below to generate the face; the approved Master is comparison-only for QA. Recreating the L1 component always produces a new `REVIEW_REQUIRED` candidate and never starts from generated pixels.
 
 ## Approved output fingerprint
 
@@ -31,12 +31,10 @@ This file is the self-contained recovery recipe for recreating the approved left
 
 Input order is part of the method and must not be changed casually.
 
-1. `OWNER_FACE_01_FRONT_NEUTRAL_CANON_001`
-   - path: `approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg`
-   - dimensions: 1086×1448
-   - SHA-256: `4d657954098490fc39da6ae257a47d8275b6237962af6d98e3c8a715ac690fc4`
-   - exclusive responsibility: exact approved recognizable identity, skull and facial-feature relationships, adult age appearance, neutral-studio skin tone and neutral-expression baseline
-   - must not define: the new three-quarter geometry by itself, body, final outfit, Hairstyle B or episode setting
+1. `OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001`
+   - path: `reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/B_FACE_SKIN_CONTEXT_NO_CROWN.png`
+   - exclusive responsibility: source-derived recognizable identity, facial relationships, adult age appearance, neutral skin tone and expression baseline
+   - must not define: hair, body, clothing, lighting or background
 
 2. `L0_OWNER_013`
    - path: `../../source/identity/raw/15.jpg`

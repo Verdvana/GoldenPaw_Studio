@@ -1,0 +1,45 @@
+asset_id: BODY_01_FRONT
+asset_level: L1
+asset_type: body
+owner_id: CHR_HUMAN_001_OWNER
+canon_version: owner_v1.0
+file_path: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v013/BODY_01_FRONT_v013.png
+physical_file_role: UNIQUE_CANDIDATE
+source_images:
+  - asset_id: OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001
+    role: face_and_skin_only
+  - asset_id: L0_OWNER_002
+    role: body_context_only
+  - asset_id: L0_OWNER_003
+    role: body_volume_cross_check_only
+  - asset_id: OWNER_HAIRSTYLE_A_FACE_MASKED_001
+    role: hairstyle_a_only
+generated_or_real: GENERATED
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v013/generation_record.md
+approval_status: REVIEW_REQUIRED
+approval_record: null
+authoritative_for:
+  - candidate face and Hairstyle A reconstruction for review only
+  - candidate foot anatomy for review only
+must_not_define:
+  - approved face canon
+  - approved body canon
+  - hosiery material canon
+  - downstream identity
+view:
+  framing: full_length_front
+  angle: straight_on
+  camera_height: level
+  lens: 70-85mm_equivalent
+appearance:
+  hairstyle: HAIRSTYLE_A
+  outfit: pink_calibration_one_piece
+  hosiery: 15D_nude_velvet_sheer_toe_tension
+quality_status: FAIL
+checksum_sha256: d7e4ea4faf28aff7f0db455cf3cf2d6f732b046ac32f86678ba13aa68cd1664e
+original_candidate_path: /home/verdvana/.codex/generated_images/01a0add8-28f9-7962-bc90-c713fd06ce6d/exec-037a7755-8a77-426d-891e-3db947e88182.png
+original_candidate_checksum_sha256: d7e4ea4faf28aff7f0db455cf3cf2d6f732b046ac32f86678ba13aa68cd1664e
+promoted_asset_path: null
+promoted_asset_checksum_sha256: null
+created_at: 2026-09-17
+notes: Retry after toe defects. Face and hair method preserved; toe-root line/duplicate nail issue not observed, but red polish visibility is too faint for approval.

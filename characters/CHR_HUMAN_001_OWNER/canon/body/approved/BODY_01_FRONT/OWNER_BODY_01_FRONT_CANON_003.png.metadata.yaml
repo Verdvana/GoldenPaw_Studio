@@ -1,0 +1,49 @@
+asset_id: OWNER_BODY_01_FRONT_CANON_003
+asset_level: L1
+asset_type: body_canon
+owner_id: CHR_HUMAN_001_OWNER
+canon_version: owner_v1.0_component
+file_path: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_003.png
+source_candidate: BODY_01_FRONT_v015
+source_images:
+  - OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001
+  - L0_OWNER_002
+  - L0_OWNER_003
+  - OWNER_HAIRSTYLE_A_FACE_MASKED_001
+generated_or_real: GENERATED
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v015/generation_record.md
+approval_status: APPROVED
+approval_record: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/approvals/APPROVAL_OWNER_BODY_01_FRONT_003.md
+lock_status: UNLOCKED_COMPONENT
+authoritative_for:
+  - owner 168 cm / 60 kg front body proportion target
+  - slightly narrowed waist with natural transition to existing hip width
+  - front limb and straight lower-leg geometry
+  - neutral square front standing articulation
+  - approved visible face and Hairstyle A result within this component scope
+  - 15D pale nude hosiery presentation with integrated toe veil, burgundy polish and interdigital tension within this component scope
+must_not_define:
+  - new face identity or Face Canon replacement
+  - new Hairstyle A Canon
+  - final reusable hosiery material Canon outside this component
+  - other hosiery colors, deniers or finishes
+  - side/rear body geometry
+  - episode wardrobe, lighting or background
+view:
+  framing: full length, exact 3:4
+  angle: front neutral
+  camera_height: waist to lower chest
+  lens: 70-85mm equivalent
+physical_target:
+  height_cm: 168
+  weight_kg: 60
+  weight_jin: 120
+appearance:
+  hairstyle: HAIRSTYLE_A
+  outfit: OWNER_L1_CALIBRATION_OUTFIT
+  hosiery: 15D pale nude velvet-finish sheer; burgundy polish beneath textile; visible interdigital tension
+quality_status: APPROVED_L1_COMPONENT
+checksum_sha256: 8faa10238bb99c614f63afbc8d0aa02dbb43d3d425673afd5c1d8dab5e7ba5f4
+created_at: 2026-09-17
+approved_at: 2026-09-17
+notes: Approved by explicit user instruction: “完美，登记吧”.
