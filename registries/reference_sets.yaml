@@ -1,5 +1,5 @@
 schema_version: 1
-catalog_version: "2026-09-13"
+catalog_version: "2026-09-17"
 policy: "Select one set by shot need; never concatenate all sets. Locked scoped L1 Canon supersedes these L0 construction sets."
 
 reference_sets:
@@ -253,6 +253,15 @@ reference_sets:
     usable_for_generation: true
     assets:
       - {asset_id: OWNER_BODY_01_FRONT_CANON_005, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_005.png"}
+  OWNER_BODY_FRONT_PROPORTION_OUTLINE_V17:
+    purpose: "user-selected BODY_01_FRONT_v017 front body proportion and silhouette reference only: overall stature, waist/hip relationship, thigh-root contour, limb proportions, lower-leg axes and neutral front standing outline"
+    max_images: 1
+    approval_status: "REVIEW_REQUIRED"
+    usable_for_generation: false
+    usage_note: "Do not promote to Canon or use as downstream generation input until the user explicitly approves it; may be used for review/comparison in the meantime."
+    must_not_define: "face, facial features, identity, skin tone or texture, hair, clothing, hosiery material or color, toenails, shoes, lighting, background, camera rendering or image artifacts"
+    assets:
+      - {asset_id: OWNER_BODY_01_FRONT_PROPORTION_OUTLINE_V17, path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v017/BODY_01_FRONT_v017.png"}
   OWNER_BODY_FRONT_CURRENT_FACE_EXCLUDED_DERIVATIVE:
     purpose: "current approved front neck-below body geometry for cross-view contour matching; must not define face, hair, clothing, hosiery material, lighting or background"
     max_images: 1

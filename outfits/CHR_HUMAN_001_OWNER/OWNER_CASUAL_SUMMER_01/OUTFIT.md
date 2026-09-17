@@ -7,16 +7,30 @@
 - episode/scene scope: reusable owner casualwear / summer
 - character_outfit_root: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01
 - garment_reference_dir: reference_inputs/garment_references/
-- garment_reference_files: add filenames after photos are placed
-- status: DESIGN_REFERENCE_PENDING
+- garment_reference_files:
+  - reference_inputs/garment_references/IMG_2744.jpg — metallic strappy high-heel sandals
+  - reference_inputs/garment_references/IMG_2747.JPG — denim shorts back
+  - reference_inputs/garment_references/IMG_2748.JPG — denim shorts front
+  - reference_inputs/garment_references/IMG_2749.jpg — white floral lace-trim camisole top
+  - reference_inputs/garment_references/IMG_2750.jpg — gold-tone blue-drop earrings
+- status: DESIGN_REFERENCE_REVIEW_REQUIRED
 - approved_design_reference: null
 - approved_worn_front: null
 
 ## Garment inventory and layering
 
-To be completed from the supplied clothing photographs. Record each garment,
-layer, color, construction, coverage, footwear, accessories, and any separate
-hosiery/material contract here after reference review.
+| Layer | Asset/material | Construction | Color / finish | Coverage |
+|---|---|---|---|---|
+| 1 | garment | lace-trim camisole top with narrow shoulder straps and small floral print | white, lightweight | upper body |
+| 2 | garment | high-waisted denim shorts with front pockets, back patch pockets, rolled/frayed hem | light blue denim | hips to upper thigh |
+| 3 | hosiery | sheer pantyhose, continuous waist-to-toes coverage | light nude, subtle micro-sheen | legs and feet |
+| 4 | footwear | strappy open-toe high-heel sandals | reflective metallic silver/champagne tone | feet |
+| 5 | accessory | dangling floral cluster earrings with blue teardrop stones | gold tone, clear stones, blue-green center stones | ears |
+
+The hosiery contract is textual at this stage; no separate hosiery photograph was
+supplied. Keep it as one continuous sheer textile from waist through toes, with a
+light nude color and restrained micro-sheen. It must not look like latex, PVC,
+plastic, rubber, liquid, or body paint.
 
 ## Reference boundary
 

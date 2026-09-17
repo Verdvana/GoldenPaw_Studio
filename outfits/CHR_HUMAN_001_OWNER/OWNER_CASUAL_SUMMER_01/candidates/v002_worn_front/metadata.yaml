@@ -1,0 +1,20 @@
+schema_version: 1
+asset_id: OWNER_CASUAL_SUMMER_01_WORN_FRONT
+outfit_id: OWNER_CASUAL_SUMMER_01
+level: L2
+status: REVIEW_REQUIRED
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01/candidates/v002_worn_front/OWNER_CASUAL_SUMMER_01_WORN_FRONT_v002.png
+generation_inputs:
+  - OWNER_CASUAL_SUMMER_01_DESIGN_REFERENCE
+  - OWNER_BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v3
+  - B_FACE_SKIN_CONTEXT_NO_CROWN
+  - DSC00847_HAIR_ONLY_MASKED
+qa_comparison_only:
+  - OWNER_FACE_01_FRONT_NEUTRAL_CANON_001
+retry_reason: v001 hosiery toe coverage QA failed
+qa:
+  fit_garment: PENDING
+  face_method: PENDING
+  face_contamination: PENDING
+  hosiery_continuity: PENDING
+  toe_tension_curves: PENDING

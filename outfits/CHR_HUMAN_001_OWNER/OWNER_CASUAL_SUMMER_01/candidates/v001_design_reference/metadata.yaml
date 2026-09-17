@@ -1,0 +1,31 @@
+schema_version: 1
+asset_id: OWNER_CASUAL_SUMMER_01_DESIGN_REFERENCE
+outfit_id: OWNER_CASUAL_SUMMER_01
+level: L2
+status: REVIEW_REQUIRED
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01/candidates/v001_design_reference/OWNER_CASUAL_SUMMER_01_DESIGN_REFERENCE_v001.png
+sha256: a595415a2fc6148edfa8214b607c4591c033ccbea5740bfcb8af480fdd6d314b
+generation_inputs:
+  - IMG_2744.jpg
+  - IMG_2747.JPG
+  - IMG_2748.JPG
+  - IMG_2749.jpg
+  - IMG_2750.jpg
+qa_comparison_only: []
+responsibilities:
+  - clothing and accessory design only
+  - light nude sheer micro-sheen pantyhose material contract
+exclusions:
+  - person
+  - face
+  - body
+  - skin
+  - hair
+  - pose
+  - identity
+  - background definition from supplied photos
+qa:
+  visual_inspection: PASS
+  garment_fidelity: PASS
+  identity_contamination: PASS
+  hosiery_material: PASS_WITH_REVIEW
