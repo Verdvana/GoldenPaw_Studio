@@ -1,0 +1,20 @@
+asset_id: BODY_01_FRONT
+candidate_id: BODY_01_FRONT_v018
+character_id: CHR_HUMAN_001_OWNER
+status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+authoritative_file: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v018/BODY_01_FRONT_v018.png
+sha256: 03da72ffaedc07ce6560879bc96cf4c9f407c5ceb08d5d59add7edf1a540869a
+dimensions: 1086x1448
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v018/generation_record.md
+qa_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v018/QA.md
+generation_inputs:
+  - OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001
+  - L0_OWNER_002
+  - L0_OWNER_003
+  - OWNER_HAIRSTYLE_A_FACE_MASKED_001
+  - OWNER_HOS_15D_NM_011_LOWER_FEET_CROP_001
+qa_comparison_only:
+  - OWNER_BODY_01_FRONT_CANON_004
+  - OWNER_FACE_01_FRONT_NEUTRAL_CANON_001
+notes: "Preserves v017 straight lower legs; adjusts leg volume, waist, hosiery toe coverage/tension and full-foot grounding."

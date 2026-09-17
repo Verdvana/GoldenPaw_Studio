@@ -1,0 +1,23 @@
+asset_id: OWNER_BODY_06_BACK_CANON_003
+component: BODY_06_BACK
+character_id: CHR_HUMAN_001_OWNER
+status: APPROVED
+approval_status: APPROVED
+file_path: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/OWNER_BODY_06_BACK_CANON_003.png
+source_candidate: BODY_06_BACK_v005
+sha256: 840c0de636c8d3d7c80cab9e268f6e5a76d0d271e56a85ae544be9a5f4b918f0
+dimensions: 1086x1448
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v005/generation_record.md
+approval_record: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/approvals/APPROVAL_OWNER_BODY_06_BACK_003.md
+responsibilities:
+  - exact 180-degree rear body view
+  - cross-view alignment to current front Canon 005 leg widths and outer contours
+  - current waist/hip ratio and fuller thigh/calf volume
+  - raised rear one-piece opening aligned with front
+  - pale slightly-whiter 15D matte/velvet hosiery and gradual heel transparency
+  - full-foot grounding
+must_not_define:
+  - facial identity
+  - other hair views or final Gate-7 material authority
+  - lighting, background or episode-specific styling
+lock_status: UNLOCKED_COMPONENT

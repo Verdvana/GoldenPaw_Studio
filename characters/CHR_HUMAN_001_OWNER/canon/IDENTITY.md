@@ -4,7 +4,7 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.176
+revision: draft_0.183
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
 updated_at: "2026-09-17"
@@ -194,6 +194,13 @@ updated_at: "2026-09-17"
 - 小腿需进一步收直：双侧膝、胫骨中线与踝中心形成自然近竖直轴，胫骨不向外弯，左右小腿肌肉保留自然体量但外轮廓不制造 O 形腿观感，双脚仍平放且方向对称。
 - 用户明确批准 v015 的身体比例、HAIRSTYLE_A、略收窄且自然过渡到既有胯宽的腰部、四肢比例、腿型和腿脚丝袜表现。活动 Body Master 下游只定义其批准的身体/发型/丝袜职责，不定义可见脸部；重新制作 L1 或可见脸部资产仍按 Face recovery method 的源派生输入、两张 L0 身体上下文和遮脸发型 A 平行生成，不使用任何 Body Master 或历史候选像素。
 - 用户进一步明确：`OWNER_BODY_01_FRONT_CANON_003` 中的 168 cm / 60 kg、HAIRSTYLE_A、四肢比例、腰臀比和本组件批准的正面腿脚表现可用于生成其他角色资产及视频镜头所需图片；可见脸部必须另行使用源派生 Face recovery inputs + Face method prompt，批准 Face/Hair Canon 只按各自职责或生成后 QA 对照使用。丝袜职责仍限于本组件声明的 15D 浅肉色、连续脚趾覆盖、酒红甲油下透和趾间袜面张力，不得外推至其他颜色、材质/光泽或厚度。
+- 用户授权 `BODY_01_FRONT_v017` 仅修正小腿直度：小腿腿骨/胫骨轴线几乎顺着大腿轴线向下，几乎无弯曲；外轮廓不明显偏离大腿外轮廓；内侧基本贴近，仅留极窄自然间隙，禁止融合、交叉或 O 型腿。v016 已确认的腰臀比、胯与大腿根部、长相、丝袜质感、略微发白袜色、趾间张力和酒红色指甲油保持不变；v017 仍为待审核候选，不写回批准事实。
+- 用户确认 v017 小腿直度可以，授权 `BODY_01_FRONT_v018` 修正脚趾根部莫名白色环、统一让酒红指甲位于连续袜面下的朦胧覆盖、恢复趾间袜面张力曲线；同时让大腿与小腿略增自然体量、腰部略细，并要求双脚全脚掌平放着地，禁止垫脚。v018 仍为待审核候选，不自动晋升。
+- 用户指出 v018 小腿仍有弯曲，且外侧轮廓没有与大腿基本齐平；授权 `BODY_01_FRONT_v019` 仅强化小腿近乎直下轴线和外侧轮廓连续下行，保留 v018 已认可的丝袜质感、腿部体量、腰部比例及全脚掌着地。v019 仍为待审核候选，不自动晋升。
+- 用户明确批准 `BODY_01_FRONT_v019` 并要求登记；其小腿近乎直下、外侧轮廓与大腿基本齐平、v018 的腿部体量与腰部比例、丝袜质感及全脚掌着地现已成为当前正面 Body 组件 `OWNER_BODY_01_FRONT_CANON_005` 的批准范围。v004 及更早正面组件降为历史版本。
+- 用户授权根据当前 `OWNER_BODY_01_FRONT_CANON_005` 生成对应背面 Body 候选 `BODY_06_BACK_v004`；背面保持相同 168 cm / 60 kg 体量、腰臀比、略细腰、较丰满腿部、近乎直下腿轴和全脚掌着地，沿用当前浅肉色略发白 15D 丝袜质感及背面脚跟渐变。背面候选仍需单独审核，不自动替代当前 `OWNER_BODY_06_BACK_CANON_002`。
+- 用户指出 v004 背面腿部轮廓与正面不一致；授权 `BODY_06_BACK_v005` 使用从当前正面 Canon 005 确定性脸部排除裁切派生的腰臀、腿轴、外侧腿线和脚部比例作为跨视角对齐依据，背面 L0 仅补充背部深度，丝袜与脚跟渐变保持不变。v004 不作生成输入。
+- 用户明确批准 `BODY_06_BACK_v005` 并要求登记；该背面组件已按当前正面 005 对齐腿部轮廓和体量，成为 `OWNER_BODY_06_BACK_CANON_003`，并保留当前背面高叉开口、浅白 15D 丝袜、脚跟渐变和全脚掌着地职责。
 - `BODY_02_LEFT_3Q_v001` 已由用户明确评价“完美”并晋升为 `OWNER_BODY_02_LEFT_3Q_CANON_001`；它在左 3/4 视角内批准身体轮廓、保守深度关系及 168 cm / 60 kg、四肢比例和腰臀比的保持，不重新定义脸、发型、正面比例、其他方向或 Gate-7 丝袜材质。
 - `BODY_03_RIGHT_3Q_v001` 因脚后跟悬空及脚趾—前脚掌处异常横线被用户拒绝。v002 仍从批准 FACE_03 与活动 BODY_01 Master 独立生成，不使用 v001；两脚必须完整自然贴地，15D丝袜从脚踝至脚趾无袜尖边界、色带或透明度突变。
 - `BODY_03_RIGHT_3Q_v002` 仍被拒绝：脚跟下出现肉色垫块/多余组织，且脚趾—前脚掌横线未消失。v003 不使用 v001/v002，双脚以足够间距分别呈现完整轮廓；每只脚只能有一个正常脚跟直接接地，不得增加任何支撑物或肉色形体，丝袜在脚趾根部不得出现线、折痕、色带或透明度边界。
@@ -505,3 +512,10 @@ updated_at: "2026-09-17"
 | draft_0.173 | 2026-09-14 | 用户明确批准 POSE_09 v003（“相当不错，批准了”）；物理文件按单文件规则移动晋升为 `OWNER_POSE_09_PRONE_ARMS_KNEES_SUPPORTED_CANON_001.jpg`。批准仅覆盖四点支撑/手膝姿态的关节承重关系、中立脊柱与前掌接地，不写回永久身份、身体、发型或材质；完整 owner_v1.0 未锁定 | user approved scoped POSE_09 component |
 | draft_0.174 | 2026-09-14 | 用户授权重新生成 POSE_07。候选从批准右3/4 Face、右3/4 Body 与 Hair-A 三项 Master 独立生成，不输入任何 Pose；采用右3/4稳定半跪/低蹲关节姿态合同，并使用严密的中性临床/物理治疗评估提示词组装以降低 AI 安全拦截风险 | user pose-07 retry authorization; identity anchors unchanged |
 | draft_0.175 | 2026-09-14 | 用户明确批准 POSE_07 v004（“不错，批准”）；物理文件按单文件规则移动晋升为 `OWNER_POSE_07_KNEELING_CROUCHING_CANON_001.jpg`。批准仅覆盖右3/4半跪/低蹲姿态的关节承重关系、90°前膝、平稳后膝与前掌接地，不写回永久身份、身体、发型或材质；Gate 6 姿态组件完成 9/9 项，完整 owner_v1.0 未锁定 | user approved scoped POSE_07 component; Gate 6 Pose complete |
+| draft_0.177 | 2026-09-17 | 用户授权 `BODY_01_FRONT_v017`；仅修正小腿近乎直下与内侧极窄间隙，保留 v016 已确认的腰臀比、长相、丝袜质感和酒红甲油，候选不自动晋升 | user-scoped correction and retry authorization |
+| draft_0.178 | 2026-09-17 | 用户确认 v017 小腿直度合格，授权 `BODY_01_FRONT_v018` 修正脚趾根部白环、袜面朦胧覆盖、趾间张力、腿部体量、腰部宽度及全脚掌着地 | user-scoped correction and retry authorization |
+| draft_0.179 | 2026-09-17 | 用户指出 v018 小腿仍弯曲且外侧轮廓偏离大腿，授权 `BODY_01_FRONT_v019` 保留丝袜、体量、腰部和脚掌接地，仅强化小腿直下与外侧齐平 | user-scoped correction and retry authorization |
+| draft_0.180 | 2026-09-17 | 用户明确批准 `BODY_01_FRONT_v019`；按单文件规则移动晋升为 `OWNER_BODY_01_FRONT_CANON_005`，批准范围包括小腿直下、外侧齐平、腿部体量、腰部比例、丝袜质感与全脚掌着地 | user approved scoped component; moved to Canon |
+| draft_0.181 | 2026-09-17 | 用户授权根据当前正面 Body Canon 生成对应 `BODY_06_BACK_v004`，保持身体比例、腿部体量、丝袜材质、脚跟渐变和全脚掌着地 | user generation authorization |
+| draft_0.182 | 2026-09-17 | 用户指出 v004 背面腿部轮廓与正面不一致，授权 `BODY_06_BACK_v005` 使用当前 005 的脸部排除身体派生图进行跨视角轮廓对齐 | user correction and retry authorization |
+| draft_0.183 | 2026-09-17 | 用户明确批准 `BODY_06_BACK_v005`；按单文件规则移动晋升为 `OWNER_BODY_06_BACK_CANON_003`，更新背面当前活动路由 | user approved scoped component; moved to Canon |

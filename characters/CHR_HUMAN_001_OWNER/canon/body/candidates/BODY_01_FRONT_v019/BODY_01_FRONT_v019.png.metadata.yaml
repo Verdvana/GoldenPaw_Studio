@@ -1,0 +1,21 @@
+asset_id: BODY_01_FRONT
+candidate_id: BODY_01_FRONT_v019
+character_id: CHR_HUMAN_001_OWNER
+status: APPROVED
+approval_status: APPROVED
+authoritative_file: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_005.png
+sha256: 9438c2e7d005c546f214f441174437072bf1e277f70668bd4a977ff2288d2083
+dimensions: 1086x1448
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v019/generation_record.md
+qa_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v019/QA.md
+generation_inputs:
+  - OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001
+  - L0_OWNER_002
+  - L0_OWNER_003
+  - OWNER_HAIRSTYLE_A_FACE_MASKED_001
+  - OWNER_HOS_15D_NUDE_MATTE_FOOT_TEXTURE_USER_001
+qa_comparison_only:
+  - OWNER_BODY_01_FRONT_CANON_004
+  - BODY_01_FRONT_v017
+  - BODY_01_FRONT_v018
+notes: "Approved by user and moved unchanged as OWNER_BODY_01_FRONT_CANON_005; only lower-leg straightness and outer contour were reset toward v017; v018 hosiery, volume, waist and full-foot grounding are retained."

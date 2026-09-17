@@ -1,0 +1,19 @@
+asset_id: BODY_06_BACK
+candidate_id: BODY_06_BACK_v004
+character_id: CHR_HUMAN_001_OWNER
+status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+authoritative_file: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v004/BODY_06_BACK_v004.png
+sha256: c801df57ee3d0bad339ec9ddded48bdd8257909ac15f880e09ff76f657038f44
+dimensions: 1086x1448
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v004/generation_record.md
+qa_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v004/QA.md
+generation_inputs:
+  - L0_OWNER_002
+  - L0_OWNER_015
+  - OWNER_HAIR_A_04_BACK_CANON_001
+  - OWNER_HOS_15D_NM_011_LOWER_FEET_CROP_001
+qa_comparison_only:
+  - OWNER_BODY_01_FRONT_CANON_005
+  - OWNER_BODY_06_BACK_CANON_002
+notes: "New rear-view candidate matching the current front-approved body proportions and hosiery appearance; not yet approved."

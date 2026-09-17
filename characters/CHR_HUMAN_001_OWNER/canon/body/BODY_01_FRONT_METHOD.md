@@ -3,9 +3,9 @@
 ```yaml
 method_id: OWNER_BODY_01_FRONT_METHOD_V2
 status: APPROVED_METHOD
-approved_component: OWNER_BODY_01_FRONT_CANON_004
+approved_component: OWNER_BODY_01_FRONT_CANON_005
 identity_revision: draft_0.39
-body_revision: draft_0.16
+body_revision: draft_0.19
 spec_revision: draft_1.42
 reference_set: OWNER_BODY_FRONT_RECOVERY_V1
 output_status: REVIEW_REQUIRED
@@ -50,14 +50,26 @@ The user accepted the current face and leg shape. Make the waist slightly narrow
 
 The user explicitly approved BODY_01_FRONT_v016 for registration, highlighting that the hip and upper-thigh-root reconstruction is very accurate. The v016 candidate is now the active Master. Its substantially straighter front lower-leg axes, small natural inner-leg gap, pale slightly-whiter 15D hosiery, continuous toe veil and readable interdigital textile tension are retained within this component scope. The full owner release remains unlocked.
 
+## User-scoped lower-leg axis refinement — 2026-09-17 (v017)
+
+The user authorized one new `REVIEW_REQUIRED` candidate because the lower legs in v016 still read as insufficiently straight. Change only the front lower-leg geometry: each tibial shaft should descend almost collinearly with the thigh axis, with nearly no visible bend; the outer calf contour should continue close to the thigh's outer contour without a lateral bulge; the inner calf contours should nearly meet, leaving only a very narrow natural air gap so the legs never fuse or cross. Preserve the v016-approved waist/hip ratio, hip and upper-thigh-root reconstruction, face identity, Hairstyle A, pale slightly-whiter 15D hosiery appearance, interdigital textile tension, toe haze and burgundy polish. Do not use v016 pixels as a generation input; it remains comparison-only QA.
+
+## User-scoped hosiery, volume and grounding refinement — 2026-09-17 (v018)
+
+The user accepted the v017 lower-leg straightness and authorized a new `REVIEW_REQUIRED` candidate. Preserve the v017 calf axes and near-closed natural inner gap. Remove every artificial white ring or pale hard band at the toe roots. All burgundy toenails must remain under one continuous hosiery surface with a soft hazy veil and no exposed crisp nail edge. Reintroduce readable, natural textile tension curves converging between the toes; these are fabric valleys/stretch responses, never bare toe gaps or seams. Increase thigh and calf volume slightly while keeping the same natural adult proportions, and narrow the waist slightly with a smooth ribcage-to-waist-to-hip transition. Both feet must be fully planted: heel, forefoot and toes all rest on the floor; no tiptoe, heel lift, hovering heel or weight shifted onto the toes.
+
+## User-scoped lower-leg contour reset — 2026-09-17 (v019)
+
+The user accepted the v018 hosiery appearance but rejected its lower-leg geometry as still bowed and too far inside the thigh contour. Preserve v018 hosiery, leg volume, waist, toe coverage and full-foot grounding. Rebuild only the front lower-leg silhouette so each knee center, tibial shaft and ankle center are nearly collinear with the thigh axis; the visible outer calf edge should track almost flush with the same-side outer thigh edge as it descends, without inward taper that makes the calf look bowed and without outward O-leg bulge. Keep a tiny natural inner gap; never fuse or cross the legs.
+
 ## Current approved Master
 
-- asset: `OWNER_BODY_01_FRONT_CANON_004`
-- path: `approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_004.png`
+- asset: `OWNER_BODY_01_FRONT_CANON_005`
+- path: `approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_005.png`
 - format/dimensions: PNG, 1086×1448, exact 3:4
-- current PNG SHA-256: `eab2d082bc2a3f63137aa9caa6307cf35c8fa48ae70e1664adf7ae75c89fadac`
-- source candidate: `BODY_01_FRONT_v016`, moved unchanged to the approved path after explicit approval
-- superseded components: `OWNER_BODY_01_FRONT_CANON_001`, `OWNER_BODY_01_FRONT_CANON_002` and `OWNER_BODY_01_FRONT_CANON_003`; retain for history but do not route as current
+- current PNG SHA-256: `9438c2e7d005c546f214f441174437072bf1e277f70668bd4a977ff2288d2083`
+- source candidate: `BODY_01_FRONT_v019`, moved unchanged to the approved path after explicit approval
+- superseded components: `OWNER_BODY_01_FRONT_CANON_001`, `OWNER_BODY_01_FRONT_CANON_002`, `OWNER_BODY_01_FRONT_CANON_003` and `OWNER_BODY_01_FRONT_CANON_004`; retain for history but do not route as current
 - lineage note: the L1 recovery method remains source-derived and never chains either approved Master or any candidate pixels
 - lock status: `UNLOCKED_COMPONENT`; complete `owner_v1.0` is not locked
 

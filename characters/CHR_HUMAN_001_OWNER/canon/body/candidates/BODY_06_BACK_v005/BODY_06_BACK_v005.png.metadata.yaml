@@ -1,0 +1,21 @@
+asset_id: BODY_06_BACK
+candidate_id: BODY_06_BACK_v005
+character_id: CHR_HUMAN_001_OWNER
+status: APPROVED
+approval_status: APPROVED
+authoritative_file: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/OWNER_BODY_06_BACK_CANON_003.png
+sha256: 840c0de636c8d3d7c80cab9e268f6e5a76d0d271e56a85ae544be9a5f4b918f0
+dimensions: 1086x1448
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v005/generation_record.md
+qa_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v005/QA.md
+generation_inputs:
+  - OWNER_BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v3
+  - L0_OWNER_002
+  - L0_OWNER_015
+  - OWNER_HAIR_A_04_BACK_CANON_001
+  - OWNER_HOS_15D_NM_011_LOWER_FEET_CROP_001
+qa_comparison_only:
+  - OWNER_BODY_01_FRONT_CANON_005
+  - OWNER_BODY_06_BACK_CANON_002
+  - BODY_06_BACK_v004
+notes: "Approved by user and moved unchanged as OWNER_BODY_06_BACK_CANON_003; cross-view back candidate constrained by the current front Canon's deterministic face-excluded body derivative; v004 pixels not used."
