@@ -1,0 +1,37 @@
+asset_id: BODY_06_BACK_v002
+asset_level: L1_CANDIDATE
+asset_type: body_canon_candidate
+owner_id: CHR_HUMAN_001_OWNER
+canon_version: owner_v1.0_component
+file_path: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v002/BODY_06_BACK_v002.png
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v002/generation_record.md
+approval_status: REVIEW_REQUIRED
+lock_status: UNLOCKED_CANDIDATE
+source_candidate: BODY_06_BACK_v002
+generation_inputs:
+  - L0_OWNER_002
+  - L0_OWNER_015
+  - OWNER_HAIR_A_04_BACK_CANON_001
+  - OWNER_HOS_15D_NM_011_LOWER_FEET_CROP_001
+qa_comparison_only:
+  - OWNER_BODY_01_FRONT_CANON_004
+  - OWNER_BODY_06_BACK_CANON_001
+authoritative_for: []
+must_not_define:
+  - new face identity, age or skin tone
+  - final Hairstyle-A rear construction or HAIR_A_04_BACK authority
+  - final reusable Gate-7 hosiery material
+  - front, side, three-quarter or performance-pose geometry
+  - episode wardrobe, lighting or background
+generated_or_real: GENERATED
+view:
+  framing: full length, exact 3:4
+  angle: exact 180-degree back view
+  camera_height: waist to lower chest
+  lens: 70-85mm equivalent
+appearance:
+  hairstyle: HAIRSTYLE_A
+  outfit: OWNER_L1_CALIBRATION_OUTFIT
+  hosiery: 15D pale light-nude velvet-finish sheer; heel transparency gradient; continuous coverage
+checksum_sha256: 53de33b852c1c9ef412256a305504b6cc103a09d98402b527eb20f8462075d3f
+created_at: 2026-09-17
