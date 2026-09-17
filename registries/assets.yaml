@@ -31,3 +31,8 @@ assets:
     path: environments/ENV_HOME_001_OWNER_RESIDENCE
     current_canon_version: null
     status: DRAFT
+  - asset_id: OWNER_CASUAL_SUMMER_01
+    type: outfit
+    path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01
+    current_canon_version: null
+    status: DRAFT

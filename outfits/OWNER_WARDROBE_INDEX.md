@@ -30,6 +30,7 @@ serve as a future generation input.
 | `OWNER_SPORT_SWIM_01` | swimming | design reference + worn front + 3/4; swim cap/goggles visible | DESIGN_REFERENCE_APPROVED_WORN_FRONT_PENDING |
 | `OWNER_WORK_SUMMER_01` | office / summer | design reference + worn front + 3/4; shoe detail if needed | REBUILD REQUIRED |
 | `OWNER_WORK_WINTER_01` | office / winter | design reference + worn front + 3/4/back; boot detail if needed | REBUILD REQUIRED |
+| `OWNER_CASUAL_SUMMER_01` | casualwear / summer | supplied garment references pending; design reference + worn front after review | DESIGN_REFERENCE_PENDING |
 
 ## Generation policy
 
