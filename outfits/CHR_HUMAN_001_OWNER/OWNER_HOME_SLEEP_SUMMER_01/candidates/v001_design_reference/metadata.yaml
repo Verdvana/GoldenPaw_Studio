@@ -1,0 +1,45 @@
+asset_id: OWNER_HOME_SLEEP_SUMMER_01_DESIGN_REFERENCE
+asset_level: L2
+asset_type: outfit
+owner_id: CHR_HUMAN_001_OWNER
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_HOME_SLEEP_SUMMER_01/candidates/v001_design_reference/OWNER_HOME_SLEEP_SUMMER_01_DESIGN_REFERENCE_v001.png
+physical_file_role: UNIQUE_CANDIDATE
+source_images:
+  - REF_001
+  - REF_002
+  - REF_003
+qa_comparison_only: []
+generated_or_real: GENERATED
+generation_record: candidates/v001_design_reference/generation_record.md
+approval_status: APPROVED
+authoritative_for:
+  - floral satin sleep-dress front silhouette
+  - floral satin sleep-dress rear crossed-strap construction
+  - pale-pink feather-trimmed open-toe flat slide design
+  - outfit-level visual coordination
+must_not_define:
+  - owner face
+  - owner body or proportions
+  - owner skin or hair
+  - model identity
+  - pose
+  - lighting
+  - background
+  - hosiery anatomy
+view:
+  framing: vertical 3:4 product design plate
+  angle: front and rear garment views, footwear detail
+  camera_height: neutral product presentation
+  lens: neutral catalog perspective
+appearance:
+  hairstyle: null
+  outfit: OWNER_HOME_SLEEP_SUMMER_01
+  hosiery: HOS_L2_NUDE_15D_GLOSSY_OWNER_HOME_SLEEP_SUMMER_01
+quality_status: PASS_WITH_USER_REVIEW
+checksum_sha256: 19450c6fd2372b012f06d973b73b1f2ffee03ea41ce9b03ed9ecd2118962b4b5
+original_candidate_path: outfits/CHR_HUMAN_001_OWNER/OWNER_HOME_SLEEP_SUMMER_01/candidates/v001_design_reference/OWNER_HOME_SLEEP_SUMMER_01_DESIGN_REFERENCE_v001.png
+original_candidate_checksum_sha256: 19450c6fd2372b012f06d973b73b1f2ffee03ea41ce9b03ed9ecd2118962b4b5
+promoted_asset_path: outfits/CHR_HUMAN_001_OWNER/OWNER_HOME_SLEEP_SUMMER_01/approved/design_reference/OWNER_HOME_SLEEP_SUMMER_01_DESIGN_REFERENCE.png
+promoted_asset_checksum_sha256: 19450c6fd2372b012f06d973b73b1f2ffee03ea41ce9b03ed9ecd2118962b4b5
+created_at: 2026-09-17
+notes: Design-only candidate; not a worn image, identity input, or video keyframe reference.

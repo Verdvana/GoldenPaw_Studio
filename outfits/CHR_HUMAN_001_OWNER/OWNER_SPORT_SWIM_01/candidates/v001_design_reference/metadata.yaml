@@ -1,0 +1,20 @@
+asset_id: OWNER_SPORT_SWIM_01_DESIGN_REFERENCE
+asset_level: L2
+asset_purpose: design_reference
+candidate_version: v001
+status: REVIEW_REQUIRED
+character_id: CHR_HUMAN_001_OWNER
+outfit_id: OWNER_SPORT_SWIM_01
+authoritative_file: outfits/CHR_HUMAN_001_OWNER/OWNER_SPORT_SWIM_01/candidates/v001_design_reference/OWNER_SPORT_SWIM_01_DESIGN_REFERENCE_v001.png
+sha256: 27e7d0aa641f3683cdc47cee7c2e8e5faa325587c534958c459d42a6870fcd85
+responsibilities:
+  - white high-cut open-back one-piece swimsuit
+  - all-over small strawberry motif scale and distribution
+  - narrow rear lower coverage, approximately one-third of corresponding front coverage
+  - white swim cap and white swim goggles
+  - nude 15D matte hosiery material swatch and no-footwear coordination
+must_not_define:
+  - owner identity or face
+  - body geometry, skin, hair, pose, or anatomy
+  - lighting, background, or video keyframe identity
+qa_status: PASS_WITH_USER_REVIEW

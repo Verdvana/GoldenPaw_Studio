@@ -1,0 +1,33 @@
+asset_id: OWNER_WORK_WINTER_01_WORN_FRONT
+asset_level: L2
+asset_type: outfit
+owner_id: CHR_HUMAN_001_OWNER
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_WORK_WINTER_01/candidates/v002_worn_front/OWNER_WORK_WINTER_01_WORN_FRONT_v002.png
+physical_file_role: UNIQUE_CANDIDATE
+source_images:
+  - characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/B_FACE_SKIN_CONTEXT_NO_CROWN.png
+  - characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/DSC00847_HAIR_ONLY_MASKED.png
+  - characters/CHR_HUMAN_001_OWNER/canon/body/reference_inputs/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v2/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_CROP.png
+  - outfits/CHR_HUMAN_001_OWNER/OWNER_WORK_WINTER_01/approved/design_reference/OWNER_WORK_WINTER_01_DESIGN_REFERENCE_APPROVED.png
+qa_comparison_only:
+  - characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg
+generated_or_real: GENERATED
+generation_record: candidates/v002_worn_front/generation_record.md
+approval_status: REVIEW_REQUIRED
+authoritative_for:
+  - front worn fit validation of OWNER_WORK_WINTER_01
+must_not_define: [owner face Canon, owner body Canon, identity lineage, video keyframe, permanent wardrobe Canon]
+view:
+  framing: vertical 3:4 eye-level front full-body fit validation
+  angle: straight-on front
+  camera_height: eye-level
+  lens: neutral apparel photography perspective
+appearance:
+  hairstyle: Hair-A source-derived presentation
+  outfit: OWNER_WORK_WINTER_01
+  hosiery: light-skin 60D visibly thicker, slightly transparent, clearly pearlescent, softly matte; no linear oily highlights
+  footwear: deep black-brown felt straight shaft, uncinched ankle, just below knee, approximately 5 cm wedge
+quality_status: PENDING_USER_REVIEW
+checksum_sha256: f243fc74f44a3936c4a4b24d3909fc0f1dedb2f83fe00b5cac4cb41708da383e
+created_at: 2026-09-17
+notes: Face visible; generated from source-derived Face method inputs. Approved Face Canon is comparison-only. Active outfit design v003 was approved by the user before this worn validation generation.

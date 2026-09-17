@@ -1,0 +1,20 @@
+asset_id: OWNER_WORK_WINTER_01_WORN_FRONT
+asset_level: L2
+asset_type: outfit
+owner_id: CHR_HUMAN_001_OWNER
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_WORK_WINTER_01/candidates/v006_worn_front/OWNER_WORK_WINTER_01_WORN_FRONT_v006.png
+physical_file_role: UNIQUE_CANDIDATE
+generated_or_real: GENERATED
+generation_record: candidates/v006_worn_front/generation_record.md
+approval_status: REVIEW_REQUIRED
+authoritative_for:
+  - front worn fit validation of OWNER_WORK_WINTER_01
+must_not_define: [owner face Canon, owner body Canon, identity lineage, video keyframe, permanent wardrobe Canon]
+appearance:
+  body_reference: BODY_01 strict face-excluded proportion authority
+  head_to_body: natural approximately 6.8 to 7.2 head-heights
+  hosiery: light nude 30D-style with broad central vertical soft highlight band and darker lateral edges
+quality_status: PENDING_USER_REVIEW
+checksum_sha256: f658e58575c9f47873a22d96259c9c9c1ba4088268bccc5730d0f50ad0958b33
+created_at: 2026-09-17
+notes: Face visible; source-derived Face method inputs used. Approved Face Canon is comparison-only. BODY_01 and IMG_2682.jpg are the body and hosiery authorities respectively.

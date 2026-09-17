@@ -1,0 +1,35 @@
+asset_id: OWNER_HOME_SLEEP_SUMMER_01_WORN_FRONT
+asset_level: L2
+asset_type: outfit
+owner_id: CHR_HUMAN_001_OWNER
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_HOME_SLEEP_SUMMER_01/candidates/v004_worn_front/OWNER_HOME_SLEEP_SUMMER_01_WORN_FRONT_v004.png
+physical_file_role: UNIQUE_CANDIDATE
+source_images:
+  - OWNER_HOME_SLEEP_SUMMER_01_DESIGN_REFERENCE
+  - OWNER_BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v2
+qa_comparison_only: []
+generated_or_real: GENERATED
+generation_record: candidates/v004_worn_front/generation_record.md
+approval_status: REJECTED
+authoritative_for:
+  - front garment fit validation
+  - hem length and satin drape validation
+  - glossy 15D hosiery presentation validation
+  - hosiery and open-toe slide relationship validation
+must_not_define:
+  - owner face or identity
+  - owner Character Canon
+  - video keyframe identity
+view:
+  framing: vertical 3:4 full outfit
+  angle: front
+  camera_height: neutral catalog
+  lens: neutral catalog perspective
+appearance:
+  hairstyle: null
+  outfit: OWNER_HOME_SLEEP_SUMMER_01
+  hosiery: HOS_L2_NUDE_15D_GLOSSY_OWNER_HOME_SLEEP_SUMMER_01
+quality_status: REJECTED_BY_USER
+checksum_sha256: de697d95b89ea4bbd518f42be3aee4a02d2d96a07a76ff3d86800bba9e7b423c
+created_at: 2026-09-17
+notes: Headless neutral fitting form; no owner face or identity is present.

@@ -12,7 +12,8 @@ This is the high-level router. Exact files are resolved through `registries/refe
 | Build unseen cat angles | new real matching-angle L0 photos are required | previous AI cat outputs as identity lineage |
 | Build hosiery Material Canon | one exact material set; optional second foot/full-leg complement | photographed person's identity/body/skin/nails |
 | Ordinary owner close-up after lock | source-derived Face method inputs + selected Hairstyle Canon; AI Face Canon comparison only | AI Face Canon as generation input; unrelated L0 bundle |
-| Ordinary owner full body after lock | source-derived Face method inputs + Body/Hairstyle Canon + Outfit + exact hosiery set if visible | AI Face Canon as generation input; unrelated L0 identity images |
+| Ordinary owner full body after lock | source-derived Face method inputs + face-excluded Body derivative + applicable Hairstyle scope + Outfit + exact hosiery set if visible | AI Face Canon as generation input; unrelated L0 identity images; worn-validation image as identity input |
+| Owner outfit worn-fit validation | source-derived Face method inputs + L0 face inputs + face-excluded Body derivative + applicable Hairstyle/headwear scope + outfit garment contract + garment/material references | AI Face Canon, AI Body Canon, neutral head form, previous outfit/shot/candidate as generation inputs; model identity, body, lighting or background from garment references |
 | Foot/hosiery close-up | Body/feet Canon + exact material set + footwear design; Face only if visible | shoe-obscured material source as sole foot authority |
 | Ordinary cat shot after lock | relevant Cat Canon view + props/environment needed by shot | all cat L0 images and previous shot as identity |
 | Continuity shot | same pinned Canon/L2 assets + at most one passing previous shot | previous shot redefining identity/material/prop/home |

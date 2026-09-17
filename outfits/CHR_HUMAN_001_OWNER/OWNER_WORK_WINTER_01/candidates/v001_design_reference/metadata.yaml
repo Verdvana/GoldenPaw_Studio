@@ -1,0 +1,31 @@
+asset_id: OWNER_WORK_WINTER_01_DESIGN_REFERENCE
+asset_level: L2
+asset_type: outfit
+owner_id: CHR_HUMAN_001_OWNER
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_WORK_WINTER_01/candidates/v001_design_reference/OWNER_WORK_WINTER_01_DESIGN_REFERENCE_v001.png
+physical_file_role: UNIQUE_CANDIDATE
+source_images: []
+qa_comparison_only: []
+generated_or_real: GENERATED
+generation_record: candidates/v001_design_reference/generation_record.md
+approval_status: REVIEW_REQUIRED
+authoritative_for:
+  - light-gray oversized-notched-lapel wool short coat
+  - dark-gray wool short skirt
+  - brown winter scarf
+  - light-skin 60D softly matte hosiery appearance
+  - brown felt below-knee straight-shaft wedge boots, approximately 5 cm heel
+must_not_define: [owner face, owner body, owner skin, owner hair, pose, lighting, background, identity]
+view:
+  framing: vertical 3:4 clothing-only design plate
+  angle: front garment views and three-quarter footwear detail
+  camera_height: neutral catalog perspective
+  lens: neutral product perspective
+appearance:
+  hairstyle: null
+  outfit: OWNER_WORK_WINTER_01
+  hosiery: light-skin 60D softly matte
+quality_status: PENDING_USER_REVIEW
+checksum_sha256: 19f62fa433d65bdbee983e95e18414c0cba6435915551dffc23aa0149266221e
+created_at: 2026-09-17
+notes: Clothing-only generated candidate; no person, model, mannequin, or upper-body image.

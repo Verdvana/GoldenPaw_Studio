@@ -1,0 +1,31 @@
+asset_id: OWNER_SPORT_BADMINTON_01_DESIGN_REFERENCE
+asset_level: L2
+asset_type: outfit
+owner_id: CHR_HUMAN_001_OWNER
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_SPORT_BADMINTON_01/candidates/v001_design_reference/OWNER_SPORT_BADMINTON_01_DESIGN_REFERENCE_v001.png
+physical_file_role: UNIQUE_CANDIDATE
+source_images: []
+qa_comparison_only: []
+generated_or_real: GENERATED
+generation_record: candidates/v001_design_reference/generation_record.md
+approval_status: REVIEW_REQUIRED
+authoritative_for:
+  - white and pale-mint open-crown sports visor
+  - pale-mint sleeveless sports tank
+  - pure-white tennis skirt with built-in shorts
+  - white 15D matte thigh-high hosiery
+  - white badminton shoes with pale-mint and soft-lavender accents
+must_not_define: [owner face, owner body, owner skin, owner hair, pose, lighting, background, brand identity]
+view:
+  framing: vertical 3:4 clothing design plate
+  angle: front and rear accessory/garment views, hosiery and shoe details
+  camera_height: neutral product presentation
+  lens: neutral catalog perspective
+appearance:
+  hairstyle: null
+  outfit: OWNER_SPORT_BADMINTON_01
+  hosiery: white 15D matte thigh-high
+quality_status: PASS_WITH_USER_REVIEW
+checksum_sha256: 31408881236ea0d11c7edbd1a763afb9c7ac82cad6920db8bd8ed911f280c658
+created_at: 2026-09-17
+notes: Text-only design candidate; no person, model, or identity information.

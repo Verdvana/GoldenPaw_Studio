@@ -1,0 +1,37 @@
+asset_id: OWNER_WORK_SUMMER_01_DESIGN_REFERENCE
+asset_level: L2
+asset_type: outfit
+owner_id: CHR_HUMAN_001_OWNER
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_WORK_SUMMER_01/candidates/v001_design_reference/OWNER_WORK_SUMMER_01_DESIGN_REFERENCE_v001.png
+physical_file_role: UNIQUE_CANDIDATE
+source_images: []
+qa_comparison_only: []
+generated_or_real: GENERATED
+generation_record: candidates/v001_design_reference/generation_record.md
+approval_status: REVIEW_REQUIRED
+authoritative_for:
+  - black fitted short-sleeve top silhouette
+  - white/champagne undertone black polka-dot skirt
+  - gray 15D matte hosiery appearance
+  - black square-buckle approximately 5 cm pump design
+must_not_define:
+  - owner face
+  - owner body or proportions
+  - owner skin or hair
+  - pose
+  - lighting
+  - background
+  - brand identity or logo
+view:
+  framing: vertical 3:4 clothing design plate
+  angle: front and rear garment views, hosiery swatch, footwear detail
+  camera_height: neutral product presentation
+  lens: neutral catalog perspective
+appearance:
+  hairstyle: null
+  outfit: OWNER_WORK_SUMMER_01
+  hosiery: gray 15D matte
+quality_status: PASS_WITH_USER_REVIEW
+checksum_sha256: 95300662f092faba2f8c84bb3c23ab661306026a95d392fee1366f9cb12ba9bb
+created_at: 2026-09-17
+notes: Text-only design candidate; no person, model, or identity information.

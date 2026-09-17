@@ -1,0 +1,30 @@
+asset_id: OWNER_WORK_WINTER_01_DESIGN_REFERENCE
+asset_level: L2
+asset_type: outfit
+owner_id: CHR_HUMAN_001_OWNER
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_WORK_WINTER_01/candidates/v003_design_reference/OWNER_WORK_WINTER_01_DESIGN_REFERENCE_v003.png
+physical_file_role: UNIQUE_CANDIDATE
+source_images:
+  - outfits/CHR_HUMAN_001_OWNER/OWNER_WORK_WINTER_01/approved/design_reference/OWNER_WORK_WINTER_01_DESIGN_REFERENCE_APPROVED.png
+qa_comparison_only: []
+generated_or_real: GENERATED
+generation_record: candidates/v003_design_reference/generation_record.md
+approval_status: APPROVED
+authoritative_for:
+  - slightly deeper gray minimal wool short coat, lighter than skirt
+  - dark black-brown straight-shaft felt boots with uncinched ankle, below-knee height, approximately 5 cm wedge heel
+  - previously approved skirt, scarf and pearl hosiery design preserved
+must_not_define: [owner face, owner body, owner skin, owner hair, pose, lighting, background, identity]
+view:
+  framing: vertical 3:4 clothing-only design plate
+  angle: front garment views and three-quarter footwear detail
+  camera_height: neutral catalog perspective
+  lens: neutral product perspective
+appearance:
+  hairstyle: null
+  outfit: OWNER_WORK_WINTER_01
+  hosiery: light-skin 60D subtle pearl effect, slightly transparent, softly matte
+quality_status: APPROVED_BY_USER
+checksum_sha256: 9b7734cf5e6fb907c5a02e037b7cee470a6e7ed9cd0d943551e4d201899e9d63
+created_at: 2026-09-17
+notes: Edit of approved v002 design reference; approved by user on 2026-09-17 and moved to the active approved design-reference path.

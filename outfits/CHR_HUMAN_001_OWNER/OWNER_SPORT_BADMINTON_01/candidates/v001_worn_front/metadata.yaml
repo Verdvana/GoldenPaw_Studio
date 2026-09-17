@@ -1,0 +1,36 @@
+asset_id: OWNER_SPORT_BADMINTON_01_WORN_FRONT
+asset_level: L2
+asset_type: outfit
+owner_id: CHR_HUMAN_001_OWNER
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_SPORT_BADMINTON_01/candidates/v001_worn_front/OWNER_SPORT_BADMINTON_01_WORN_FRONT_v001.png
+physical_file_role: UNIQUE_CANDIDATE
+source_images:
+  - OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001
+  - OWNER_HAIRSTYLE_A_FACE_MASKED_001
+  - OWNER_BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v2
+  - OWNER_SPORT_BADMINTON_01_DESIGN_REFERENCE
+qa_comparison_only:
+  - OWNER_FACE_FRONT_NEUTRAL_CANON_L1
+generated_or_real: GENERATED
+generation_record: candidates/v001_worn_front/generation_record.md
+approval_status: APPROVED
+authoritative_for:
+  - front worn-fit validation only
+must_not_define: [owner Character Canon, future face generation, video keyframe identity]
+view:
+  framing: vertical 3:4 full body
+  angle: front
+  camera_height: neutral catalog
+  lens: neutral catalog perspective
+appearance:
+  hairstyle: HAIRSTYLE_A
+  outfit: OWNER_SPORT_BADMINTON_01
+  hosiery: white 15D sheer matte thigh-high
+quality_status: PASS_WITH_USER_REVIEW
+checksum_sha256: c8aca786eca78cb385846e5f9a76365c77ebe50adbdb06cc8cb2267fabf19920
+original_candidate_path: outfits/CHR_HUMAN_001_OWNER/OWNER_SPORT_BADMINTON_01/candidates/v001_worn_front/OWNER_SPORT_BADMINTON_01_WORN_FRONT_v001.png
+original_candidate_checksum_sha256: c8aca786eca78cb385846e5f9a76365c77ebe50adbdb06cc8cb2267fabf19920
+promoted_asset_path: outfits/CHR_HUMAN_001_OWNER/OWNER_SPORT_BADMINTON_01/approved/worn_front/OWNER_SPORT_BADMINTON_01_WORN_FRONT.png
+promoted_asset_checksum_sha256: c8aca786eca78cb385846e5f9a76365c77ebe50adbdb06cc8cb2267fabf19920
+created_at: 2026-09-17
+notes: Head-present Owner worn-fit candidate generated from L0 Face method inputs; not a video keyframe reference.

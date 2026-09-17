@@ -1,0 +1,34 @@
+asset_id: OWNER_SPORT_YOGA_01_DESIGN_REFERENCE
+asset_level: L2
+asset_type: outfit
+owner_id: CHR_HUMAN_001_OWNER
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_SPORT_YOGA_01/candidates/v002_design_reference/OWNER_SPORT_YOGA_01_DESIGN_REFERENCE_v002.png
+physical_file_role: UNIQUE_CANDIDATE
+source_images: []
+qa_comparison_only: []
+generated_or_real: GENERATED
+generation_record: candidates/v002_design_reference/generation_record.md
+approval_status: APPROVED
+authoritative_for:
+  - light-pink open-back yoga tank silhouette
+  - warm apricot-pink matte yoga pants
+  - flesh-tone pearlescent 15D hosiery appearance
+  - no footwear contract
+must_not_define: [owner face, owner body, owner skin, owner hair, pose, lighting, background]
+view:
+  framing: vertical 3:4 clothing design plate
+  angle: front and rear garment views, hosiery swatch
+  camera_height: neutral product presentation
+  lens: neutral catalog perspective
+appearance:
+  hairstyle: null
+  outfit: OWNER_SPORT_YOGA_01
+  hosiery: HOS_L2_NUDE_15D_PEARLESCENT_OWNER_SPORT_YOGA_01
+quality_status: PASS_WITH_USER_REVIEW
+checksum_sha256: d81553a69475fe7a7c7aec0d7d372e47f9a7a2e0175d80357316635f2b6c3523
+original_candidate_path: outfits/CHR_HUMAN_001_OWNER/OWNER_SPORT_YOGA_01/candidates/v002_design_reference/OWNER_SPORT_YOGA_01_DESIGN_REFERENCE_v002.png
+original_candidate_checksum_sha256: d81553a69475fe7a7c7aec0d7d372e47f9a7a2e0175d80357316635f2b6c3523
+promoted_asset_path: outfits/CHR_HUMAN_001_OWNER/OWNER_SPORT_YOGA_01/approved/design_reference/OWNER_SPORT_YOGA_01_DESIGN_REFERENCE.png
+promoted_asset_checksum_sha256: d81553a69475fe7a7c7aec0d7d372e47f9a7a2e0175d80357316635f2b6c3523
+created_at: 2026-09-17
+notes: Revised text-only design candidate; no person, model, or identity information.
