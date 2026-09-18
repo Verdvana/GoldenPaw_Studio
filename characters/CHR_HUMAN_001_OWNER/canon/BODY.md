@@ -4,14 +4,14 @@
 document_id: OWNER_BODY_CANON_WORKING
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.28
+revision: draft_0.29
 status: BODY_GATE_APPROVED
 calibration_outfit: OWNER_L1_CALIBRATION_OUTFIT
 camera_setup: OWNER_BODY_NEUTRAL_STUDIO_V1
-updated_at: "2026-09-12"
+updated_at: "2026-09-18"
 ```
 
-`OWNER_BODY_01_FRONT_CANON_002`, `OWNER_BODY_02_LEFT_3Q_CANON_001`, `OWNER_BODY_03_RIGHT_3Q_CANON_001`, `OWNER_BODY_04_LEFT_SIDE_CANON_001`, `OWNER_BODY_05_RIGHT_SIDE_CANON_001` and `OWNER_BODY_06_BACK_CANON_001` are the six current active approved Body L1 components. The directional components preserve the approved 168 cm / 60 kg target, limb proportions and waist/hip ratio while adding their scoped silhouettes/depth relationships. Gate 3 is complete and Gate 4 is open; the complete `owner_v1.0` release remains unlocked.
+`OWNER_BODY_01_FRONT_CANON_006`, `OWNER_BODY_02_LEFT_3Q_CANON_001`, `OWNER_BODY_03_RIGHT_3Q_CANON_001`, `OWNER_BODY_04_LEFT_SIDE_CANON_001`, `OWNER_BODY_05_RIGHT_SIDE_CANON_001` and `OWNER_BODY_06_BACK_CANON_003` are the six current active approved Body L1 components. The directional components preserve the approved 168 cm / 60 kg target, limb proportions and waist/hip ratio while adding their scoped silhouettes/depth relationships. Gate 3 is complete and Gate 4 is open; the complete `owner_v1.0` release remains unlocked.
 
 For downstream character assets and shot/video-frame image generation, component 002 may define the approved 168 cm / 60 kg target, visible face appearance, `HAIRSTYLE_A`, limb proportions and waist/hip ratio. View-specific Face/Hair Canon remains the preferred precision reference when applicable. Its hosiery scope is narrower: it may define only `15D matte nude` appearance and must not define any other color, finish, material behavior or denier.
 
@@ -42,7 +42,7 @@ For downstream character assets and shot/video-frame image generation, component
 
 ## Required neutral views
 
-- BODY_01 front — `OWNER_BODY_01_FRONT_CANON_002` APPROVED and active, component unlocked (`OWNER_BODY_01_FRONT_CANON_001` superseded)
+- BODY_01 front — `OWNER_BODY_01_FRONT_CANON_006` APPROVED and active, component unlocked (`OWNER_BODY_01_FRONT_CANON_005` superseded)
 - BODY_02 left 3/4 — `OWNER_BODY_02_LEFT_3Q_CANON_001` APPROVED, component unlocked
 - BODY_03 right 3/4 — `OWNER_BODY_03_RIGHT_3Q_CANON_001` APPROVED, component unlocked
 - BODY_04 left side — `OWNER_BODY_04_LEFT_SIDE_CANON_001` APPROVED, component unlocked
@@ -56,7 +56,7 @@ Component 002 has an explicit user-expanded scope: its 168 cm / 60 kg stature, v
 ## Approved front Master routing
 
 - downstream set: `OWNER_BODY_FRONT_CANON_L1`
-- approved Master: `canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg`
+- approved Master: `canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_006.png`
 - recovery set: `OWNER_BODY_FRONT_RECOVERY_V1`
 - reproduction method: `canon/body/BODY_01_FRONT_METHOD.md`
 - rule: ordinary downstream work may use the active approved Master within its scope; L1 recreation must use the recovery set and method, never v008/v009, either approved Body Master or another generated Body image as a pixel input

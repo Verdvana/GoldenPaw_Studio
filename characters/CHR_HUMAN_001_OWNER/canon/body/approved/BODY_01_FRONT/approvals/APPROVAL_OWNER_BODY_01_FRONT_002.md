@@ -2,7 +2,7 @@
 
 - approval_id: APPROVAL_OWNER_BODY_01_FRONT_002
 - asset_id: OWNER_BODY_01_FRONT_CANON_002
-- asset_path: `../OWNER_BODY_01_FRONT_CANON.jpg`
+- asset_path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg`
 - source_candidate: BODY_01_FRONT_v009
 - approved_level: L1 component
 - decision: APPROVED

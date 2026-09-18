@@ -20,7 +20,7 @@ reference_set_ids:
   - HOS_15D_NUDE_MATTE_FOOT_TEXTURE_USER_001
 reference_count: 5
 previous_generated_body_inputs: 0
-output_path: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_005.png
+output_path: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v019/BODY_01_FRONT_v019.png
 sha256: 9438c2e7d005c546f214f441174437072bf1e277f70668bd4a977ff2288d2083
 dimensions: 1086x1448
 qa_status: APPROVED
@@ -58,6 +58,6 @@ Prioritize knee–tibia–ankle collinearity, outer lower-leg/outer-thigh alignm
 
 - User approval: “非常不错，登记”
 - Approved asset: `OWNER_BODY_01_FRONT_CANON_005`
-- Promoted path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_005.png`
+- Promoted path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v019/BODY_01_FRONT_v019.png`
 - Original candidate path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v019/BODY_01_FRONT_v019.png`
 - Promotion operation: moved unchanged; no duplicate candidate raster retained

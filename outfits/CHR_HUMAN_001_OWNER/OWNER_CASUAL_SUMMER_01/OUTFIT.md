@@ -13,9 +13,12 @@
   - reference_inputs/garment_references/IMG_2748.JPG — denim shorts front
   - reference_inputs/garment_references/IMG_2749.jpg — white floral lace-trim camisole top
   - reference_inputs/garment_references/IMG_2750.jpg — gold-tone blue-drop earrings
-- status: DESIGN_REFERENCE_REVIEW_REQUIRED
-- approved_design_reference: null
-- approved_worn_front: null
+- status: DESIGN_REFERENCE_AND_WORN_FRONT_APPROVED
+- approved_design_reference: approved/design_reference/OWNER_CASUAL_SUMMER_01_DESIGN_REFERENCE.png
+- approved_worn_front: approved/worn_front/OWNER_CASUAL_SUMMER_01_WORN_FRONT.png
+- design_reference_approval_date: 2026-09-18
+- worn_front_approval_date: 2026-09-18
+- approval_date: 2026-09-18
 
 ## Garment inventory and layering
 

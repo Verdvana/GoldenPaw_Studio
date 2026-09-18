@@ -75,5 +75,5 @@ Feet flat, stable, uncrossed and approximately parallel. Neutral gray-white seam
 - leg geometry: PASS preliminary; current accepted lower-leg shape retained.
 - toe material: REVIEW_REQUIRED/FAIL preliminary. Burgundy polish is present, but the toe area still reads too close to bare feet and the interdigital hosiery tension curves are not sufficiently clear at full-frame review.
 - user approval received: “完美，登记吧”. Candidate PNG was moved unchanged to the approved Master path as `OWNER_BODY_01_FRONT_CANON_003`.
-- active approved path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_003.png`
+- active approved path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v015/BODY_01_FRONT_v015.png`
 - promoted checksum: `8faa10238bb99c614f63afbc8d0aa02dbb43d3d425673afd5c1d8dab5e7ba5f4`

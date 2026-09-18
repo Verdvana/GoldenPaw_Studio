@@ -1,0 +1,19 @@
+asset_id: OWNER_SPORT_YOGA_01_WORN_BACK
+outfit_id: OWNER_SPORT_YOGA_01
+level: L2
+status: APPROVED
+approved_by: user
+approval_date: 2026-09-18
+source_candidate: candidates/v001_worn_back
+authoritative_file: OWNER_SPORT_YOGA_01_WORN_BACK.png
+sha256: fa66c55a8c1b7e3f90403c55256f103388a763986579e3d2070579be2228b8d4
+dimensions: 1086x1448
+aspect_ratio: 3:4
+scope:
+  - full-body back yoga outfit presentation
+  - registered Body06 back proportion fit-validation
+  - light-skin-tone matte sheer 15D hosiery and no footwear
+must_not_define:
+  - Character Canon
+  - future face generation or identity lineage
+  - video keyframe identity

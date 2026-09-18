@@ -20,7 +20,7 @@ reference_set_ids:
   - HOS_15D_NUDE_MATTE_FOOT_TEXTURE_USER_001
 reference_count: 5
 previous_ai_body_candidate_count: 0
-output_path: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/OWNER_BODY_06_BACK_CANON_003.png
+output_path: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v005/BODY_06_BACK_v005.png
 checksum_sha256: 840c0de636c8d3d7c80cab9e268f6e5a76d0d271e56a85ae544be9a5f4b918f0
 dimensions: 1086x1448
 qa_status: PASS_USER_APPROVED
@@ -60,6 +60,6 @@ Primary checks: compare back leg widths and outer contour envelope against the c
 
 - User approval: “可以 登记吧”
 - Approved asset: `OWNER_BODY_06_BACK_CANON_003`
-- Promoted path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/OWNER_BODY_06_BACK_CANON_003.png`
+- Promoted path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v005/BODY_06_BACK_v005.png`
 - Original candidate path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v005/BODY_06_BACK_v005.png`
 - Promotion operation: moved unchanged; no duplicate candidate raster retained

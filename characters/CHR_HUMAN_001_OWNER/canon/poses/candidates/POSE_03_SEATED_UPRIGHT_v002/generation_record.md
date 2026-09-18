@@ -37,7 +37,7 @@ The user rejected v001 only for face identity/skin pollution and authorized a cl
    - responsibility: exact approved front facial identity, facial geometry, neutral skin tone and clean natural skin presentation.
    - must_not_define: body, seated pose, hairstyle, outfit, hosiery, stool, lighting or background.
 2. `OWNER_BODY_FRONT_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg`
    - responsibility: approved 168 cm / 60 kg body proportions, head-to-body scale, limb lengths, waist/hip ratio, foot scale, Calibration Outfit and scoped 15D matte nude appearance.
    - must_not_define: permanent face refinement, seated articulation, other Pose components, lighting or background.
 3. `OWNER_HAIR_A_FRONT_CANON_L1`

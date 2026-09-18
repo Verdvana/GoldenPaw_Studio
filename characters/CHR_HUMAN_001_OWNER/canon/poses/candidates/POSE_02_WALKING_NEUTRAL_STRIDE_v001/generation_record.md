@@ -35,7 +35,7 @@ The user explicitly authorized generation after approving the POSE_01 reuse. Thi
 ## Reference responsibilities
 
 1. `OWNER_BODY_FRONT_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg`
    - responsibility: approved 168 cm / 60 kg body identity and proportions, visible front face, Hairstyle A, foot scale, Calibration Outfit and scoped 15D matte nude appearance.
    - must_not_define: walking phase, stride length, dynamic balance, other Pose components, lighting or background.
 2. `OWNER_L0_WALKING_ARTICULATION` / `L0_OWNER_003`

@@ -3,11 +3,11 @@ asset_level: "RECORD_ONLY"
 asset_type: "canon_promotion_pointer"
 owner_id: "CHR_HUMAN_001_OWNER"
 canon_version: null
-file_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg"
 physical_file_role: "RECORD_ONLY"
 original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.png"
 original_candidate_checksum_sha256: "cbb08e1799a6d6d3d9e00b600ceaab294a36a2b04a170ae1a367e28578cd0164"
-promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg"
+promoted_asset_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg"
 promoted_asset_checksum_sha256: "964c3b9d72c6688881b8ebfa4c6fc1bcfea04c998351352fabfdc8f4951666f6"
 pre_transcode_promoted_png_checksum_sha256: "cbb08e1799a6d6d3d9e00b600ceaab294a36a2b04a170ae1a367e28578cd0164"
 candidate_raster_retained: false

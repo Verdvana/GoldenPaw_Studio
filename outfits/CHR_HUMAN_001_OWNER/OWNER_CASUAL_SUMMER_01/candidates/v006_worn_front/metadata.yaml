@@ -1,0 +1,24 @@
+asset_id: OWNER_CASUAL_SUMMER_01_WORN_FRONT
+candidate_version: v006
+level: L2
+status: APPROVED
+approval_status: APPROVED_BY_USER
+original_candidate_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01/candidates/v006_worn_front/OWNER_CASUAL_SUMMER_01_WORN_FRONT_v006.png
+approved_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01/approved/worn_front/OWNER_CASUAL_SUMMER_01_WORN_FRONT.png
+sha256: 81b48490f4789c9b9cee6a34130206d770b01e1480871c24f2a5e4104e6421c0
+dimensions: 1086x1448
+aspect_ratio: 3:4
+generation_record: generation_record.md
+generation_inputs:
+  - OWNER_CASUAL_SUMMER_01_DESIGN_REFERENCE
+  - OWNER_BODY_01_FRONT_V025_FACE_EXCLUDED_v1
+  - OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001
+  - L0_OWNER_006
+  - OWNER_HOS_15D_NM_011_LOWER_FEET_CROP_001
+qa_comparison_only:
+  - OWNER_FACE_01_FRONT_NEUTRAL_CANON_001
+  - OWNER_BODY_01_FRONT_CANON_007
+  - OWNER_CASUAL_SUMMER_01_WORN_FRONT_v005
+approved_component: OWNER_CASUAL_SUMMER_01_WORN_FRONT
+approved_at: 2026-09-18
+approver: user

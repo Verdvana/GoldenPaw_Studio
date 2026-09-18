@@ -1,0 +1,52 @@
+# OWNER_WORK_SUMMER_01_DESIGN_REFERENCE_v003 — Generation Record
+
+```yaml
+character_id: CHR_HUMAN_001_OWNER
+asset_id: OWNER_WORK_SUMMER_01_DESIGN_REFERENCE
+outfit_id: OWNER_WORK_SUMMER_01
+level: L2
+candidate_version: v003
+target_canon_version: owner_v1.0
+status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+gate: L2 outfit-shape design reference
+generation_tool: built_in_image_gen
+reference_set_ids:
+  - OWNER_WORK_SUMMER_01_SHOE_REFERENCE
+  - OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_L1
+reference_budget: 3 images
+aspect_ratio: "3:4"
+resolution: "native tool output, exact 3:4; no forced resize"
+generation_inputs:
+  - {asset_id: OWNER_WORK_SUMMER_01_SHOE_REFERENCE_FRONT_SIDE, path: "outfits/CHR_HUMAN_001_OWNER/OWNER_WORK_SUMMER_01/reference_inputs/garment_references/IMG_2791.JPG", responsibility: "reference shoe shape, color/material and front/side construction", must_not_define: "owner identity, body, hosiery, clothing other than footwear or background"}
+  - {asset_id: OWNER_WORK_SUMMER_01_SHOE_REFERENCE_TOP_SIDE_FRONT, path: "outfits/CHR_HUMAN_001_OWNER/OWNER_WORK_SUMMER_01/reference_inputs/garment_references/unnamed.jpg", responsibility: "reference shoe top, side and front views for buckle, toe box, vamp and heel geometry", must_not_define: "owner identity, body, hosiery, clothing other than footwear or background"}
+  - {asset_id: OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_07_15D_GRAY_MATTE_FRONT/OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_001.png", responsibility: "gray 15D matte hosiery color, knit density and continuous garment shape", must_not_define: "owner identity, body anatomy, pose or background"}
+qa_comparison_only:
+  - {asset_id: OWNER_WORK_SUMMER_01_WORN_LOWER_BODY_v001, path: "outfits/CHR_HUMAN_001_OWNER/OWNER_WORK_SUMMER_01/candidates/v001_worn_lower_body/OWNER_WORK_SUMMER_01_WORN_LOWER_BODY_v001.png", purpose: "scope-correction comparison only; not a generation input"}
+authoritative_for:
+  - "L2 summer officewear garment shape and material arrangement"
+  - "black top, champagne-white polka-dot skirt, gray hosiery and reference shoe design"
+must_not_define:
+  - "owner face, body, skin, hair or identity"
+  - "worn fit, pose or anatomy"
+  - "new Character Canon or future identity lineage"
+output_path: outfits/CHR_HUMAN_001_OWNER/OWNER_WORK_SUMMER_01/candidates/v003_design_reference/OWNER_WORK_SUMMER_01_DESIGN_REFERENCE_v003.png
+sha256: 043d384cc46265d4b2ec5e489c4516b39aa4173e3a01d5b7eb2183398c16aa2c
+dimensions: 1086x1448
+qa_status: TECHNICAL_PRECHECK_PASS_PENDING_USER_REVIEW
+```
+
+## Prompt assembly
+
+Use case: product-mockup
+Asset type: L2 summer officewear unworn design reference
+
+Create one clean photorealistic studio product-board image of the complete summer officewear outfit, entirely unworn and without any human, mannequin, torso form, hands, legs or body. Arrange the garments as a coherent flat-lay / catalog presentation on a neutral warm-gray background, with enough spacing that every item and its silhouette is unambiguous.
+
+Show the full set: a black fitted short-sleeve top with a low round neckline; a short skirt in a white base shifted slightly warm toward champagne, covered in dense small black polka dots. The skirt must be visibly between a slim straight skirt and a restrained A-line: not bodycon, not a strong flared A-line, no pleats, no slit, no belt, no extra trim. Include one complete pair of gray 15D matte pantyhose laid flat from waistband through both legs and feet, showing continuous waist-to-toes construction without a toe-cap seam. Include the supplied pair of gray-beige/light-champagne taupe closed-toe square-toe pumps with rectangular vamp buckles and modest block heels; match the shoe reference views, proportions, color and construction. No logos or text.
+
+Keep clothing and hosiery physically plausible as unworn objects: natural fabric folds, seams, waistbands, sleeve openings, skirt hem, pantyhose waistband and toe shapes. Do not put anything on a body. Do not add jewelry, bag, jacket, belt, coat, mannequin, hangers, model, face, skin, hair or upper-body anatomy. Neutral soft even catalog lighting, orthographic-ish top/front product-board view, exact native 3:4 portrait, no watermark or collage. One REVIEW_REQUIRED candidate only; not Canon.
+
+## QA plan
+
+Check no human or mannequin contamination; complete four-part outfit set; black top neckline/sleeves; champagne-white polka-dot skirt silhouette; gray 15D matte hosiery as a complete unworn garment; supplied shoe buckle/toe/heel geometry; no extra wardrobe, logos or text. No promotion without explicit user approval.

@@ -31,7 +31,7 @@ The user explicitly authorized one further attempt whose sole correction target 
 ## Reference responsibilities
 
 1. `OWNER_BODY_FRONT_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg`
    - SHA-256: `964c3b9d72c6688881b8ebfa4c6fc1bcfea04c998351352fabfdc8f4951666f6`
    - responsibility: approved owner front lower-leg and foot anatomy/proportions, symmetrical neutral standing contact, natural skin-tone baseline, burgundy toenail direction, and only its already scoped 15D matte-nude hosiery appearance.
    - must_not_define: new face/overall body/hair identity, other hosiery color/finish/denier, lighting, background, or any toe-cap boundary visible in the source.

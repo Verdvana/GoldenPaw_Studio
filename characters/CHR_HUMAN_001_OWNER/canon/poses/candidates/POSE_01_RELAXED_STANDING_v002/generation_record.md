@@ -37,7 +37,7 @@ The user explicitly requested the next asset after the prior attempt produced no
    - responsibility: approved front facial identity and neutral adult facial geometry.
    - must_not_define: pose, body proportions, hair, outfit, hosiery, camera, lighting or background.
 2. `OWNER_BODY_FRONT_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg`
    - responsibility: approved 168 cm / 60 kg body identity, head-to-body scale, limb lengths, waist/hip ratio and foot scale; its hosiery scope is limited to the existing 15D matte nude combination.
    - must_not_define: relaxed-pose articulation, new permanent geometry, any other hosiery combination, lighting or background.
 3. `OWNER_HAIR_A_FRONT_CANON_L1`

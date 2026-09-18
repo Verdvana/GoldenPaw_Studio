@@ -1,0 +1,22 @@
+asset_id: OWNER_SPORT_YOGA_01_WORN_BACK
+outfit_id: OWNER_SPORT_YOGA_01
+candidate_version: v001
+level: L2
+status: APPROVED
+approval_status: APPROVED_BY_USER
+original_candidate_path: outfits/CHR_HUMAN_001_OWNER/OWNER_SPORT_YOGA_01/candidates/v001_worn_back/OWNER_SPORT_YOGA_01_WORN_BACK_v001.png
+approved_path: outfits/CHR_HUMAN_001_OWNER/OWNER_SPORT_YOGA_01/approved/worn_back/OWNER_SPORT_YOGA_01_WORN_BACK.png
+sha256: fa66c55a8c1b7e3f90403c55256f103388a763986579e3d2070579be2228b8d4
+dimensions: 1086x1448
+aspect_ratio: 3:4
+generation_record: generation_record.md
+generation_inputs:
+  - OWNER_SPORT_YOGA_01_DESIGN_REFERENCE
+  - OWNER_BODY_06_BACK_CANON_004
+  - OWNER_HAIR_A_04_BACK_CANON_001
+  - OWNER_HOS_15D_NUDE_MATTE_MATERIAL_CROP_001
+qa_comparison_only:
+  - OWNER_SPORT_YOGA_01_WORN_FRONT
+approved_component: OWNER_SPORT_YOGA_01_WORN_BACK
+approved_at: 2026-09-18
+approver: user

@@ -1,0 +1,24 @@
+asset_id: BODY_01_FRONT
+candidate_id: BODY_01_FRONT_v023
+character_id: CHR_HUMAN_001_OWNER
+status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+authoritative_file: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v023/BODY_01_FRONT_v023.png
+sha256: c9b86a5cbb36ea1f64faa7c76d19b9d88612dc394a2f7e3c633fbb9dec9bd4af
+dimensions: 1086x1448
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v023/generation_record.md
+qa_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v023/QA.md
+generation_inputs:
+  - OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001
+  - L0_OWNER_002
+  - L0_OWNER_003
+  - OWNER_HAIRSTYLE_A_FACE_MASKED_001
+  - OWNER_HOS_15D_NM_011_LOWER_FEET_CROP_001
+qa_comparison_only:
+  - OWNER_FACE_01_FRONT_NEUTRAL_CANON_001
+  - OWNER_BODY_01_FRONT_CANON_006
+  - BODY_01_FRONT_v022
+approved_component: null
+approved_at: null
+approver: null
+notes: "Native exact-3:4 candidate; no forced 1536x2048 resize. Current Body01 Canon unchanged."

@@ -2,7 +2,7 @@
 
 - asset_id: `OWNER_BODY_01_FRONT_FULL_HEAD_FACE_MASKED_001`
 - source_asset_id: `OWNER_BODY_01_FRONT_CANON_003`
-- source_path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_003.png`
+- source_path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v015/BODY_01_FRONT_v015.png`
 - operation: `deterministic full-frame derivative; no crop; opaque neutral ellipse masks facial features and facial skin color while preserving head outer contour, hair silhouette, neck, shoulders and complete body geometry`
 - mask_geometry: `1086x1448 source frame; ellipse centered at (543,218), radii (88,112); mask color #aeb2b5`
 - output_path: `characters/CHR_HUMAN_001_OWNER/canon/body/reference_inputs/BODY_01_FRONT_FULL_HEAD_FACE_MASKED_v1/BODY_01_FRONT_FULL_HEAD_FACE_MASKED.png`

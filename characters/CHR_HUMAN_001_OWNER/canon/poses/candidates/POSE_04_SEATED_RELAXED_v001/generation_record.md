@@ -40,7 +40,7 @@ The user explicitly requested the next Pose asset after approving POSE_03. No re
    - responsibility: exact approved front facial identity, clean neutral skin tone and natural even skin presentation.
    - must_not_define: body, pose, hair, outfit, hosiery, feet, chair, lighting or background.
 2. `OWNER_BODY_FRONT_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg`
    - responsibility: approved 168 cm / 60 kg body proportions, limb/foot scale, Calibration Outfit, continuous 15D matte nude hosiery and visible burgundy toenail context.
    - must_not_define: permanent face refinement, relaxed seated articulation, other Pose components, chair, lighting or background.
 3. `OWNER_HAIR_A_FRONT_CANON_L1`

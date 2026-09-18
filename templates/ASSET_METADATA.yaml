@@ -1,6 +1,6 @@
 asset_id: ""
 asset_level: "L0|L1|L2|L3|L4"
-asset_type: "identity|canon|body|appearance|hairstyle|material|prop|outfit|environment|shot|video"
+asset_type: "identity|canon|body|appearance|hairstyle|material|prop|outfit|environment|shot|social_still|video"
 owner_id: ""
 canon_version: null
 file_path: ""

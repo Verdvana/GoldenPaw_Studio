@@ -34,7 +34,7 @@ generated_output_path: null
 ## Reference responsibilities
 
 1. `OWNER_BODY_FRONT_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg`
    - responsibility: approved owner identity context, natural body/leg/foot geometry, proportions and neutral standing contact only.
    - must_not_define: 30D material color, denier, finish or textile response; its visible 15D hosiery is excluded.
 2. `HOS_30D_NUDE_SOFT_SHEEN_LIMITED`

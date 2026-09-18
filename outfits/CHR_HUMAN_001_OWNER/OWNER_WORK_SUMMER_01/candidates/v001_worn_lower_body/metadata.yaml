@@ -1,0 +1,22 @@
+asset_id: OWNER_WORK_SUMMER_01_WORN_LOWER_BODY
+outfit_id: OWNER_WORK_SUMMER_01
+candidate_version: v001
+level: L2
+status: SUPERSEDED_SCOPE_CORRECTION
+approval_status: NOT_FOR_REVIEW
+authoritative_file: OWNER_WORK_SUMMER_01_WORN_LOWER_BODY_v001.png
+sha256: 52041357e09a4d0588942a9120074026e03423ace2856305272ded1810c72e1e
+dimensions: 1086x1448
+aspect_ratio: 3:4
+generation_record: generation_record.md
+generation_inputs:
+  - OWNER_BODY_01_FRONT_V025_FACE_EXCLUDED_v1
+  - OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_001
+  - OWNER_WORK_SUMMER_01_SHOE_REFERENCE_FRONT_SIDE
+  - OWNER_WORK_SUMMER_01_SHOE_REFERENCE_TOP_SIDE_FRONT
+qa_comparison_only:
+  - OWNER_BODY_01_FRONT_CANON_007
+  - OWNER_WORK_SUMMER_01_DESIGN_REFERENCE_v002
+approved_component: null
+approved_at: null
+approver: null

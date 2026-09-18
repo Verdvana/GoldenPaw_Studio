@@ -9,7 +9,7 @@ candidate_version: v004
 target_canon_version: owner_v1.0
 spec_revision: draft_1.230
 identity_revision: draft_0.177
-status: REVIEW_REQUIRED
+status: APPROVED
 approval_status: PENDING_USER_REVIEW
 gate: L2 episode outfit fit-validation
 reference_set_ids:
@@ -19,8 +19,11 @@ reference_set_ids:
 reference_budget: 4 images
 aspect_ratio: "3:4"
 resolution: "1536x2048"
-output_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01/candidates/v004_worn_front/OWNER_CASUAL_SUMMER_01_WORN_FRONT_v004.png
+original_candidate_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01/candidates/v004_worn_front/OWNER_CASUAL_SUMMER_01_WORN_FRONT_v004.png
+approved_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01/approved/worn_front/OWNER_CASUAL_SUMMER_01_WORN_FRONT.png
 output_sha256: e555e1674408f46447b3d6a5ac866479cae805562ae56f690a0402334f75d25f
+approval_date: 2026-09-18
+approved_by: user
 ```
 
 ## Generation inputs and responsibilities

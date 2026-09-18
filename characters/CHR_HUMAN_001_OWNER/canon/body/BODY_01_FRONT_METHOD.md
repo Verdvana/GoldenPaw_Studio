@@ -3,10 +3,10 @@
 ```yaml
 method_id: OWNER_BODY_01_FRONT_METHOD_V2
 status: APPROVED_METHOD
-approved_component: OWNER_BODY_01_FRONT_CANON_005
-identity_revision: draft_0.39
-body_revision: draft_0.19
-spec_revision: draft_1.42
+approved_component: OWNER_BODY_01_FRONT_CANON_007
+identity_revision: draft_0.184
+body_revision: draft_0.20
+spec_revision: draft_1.233
 reference_set: OWNER_BODY_FRONT_RECOVERY_V1
 output_status: REVIEW_REQUIRED
 ```
@@ -64,14 +64,24 @@ The user accepted the v018 hosiery appearance but rejected its lower-leg geometr
 
 ## Current approved Master
 
-- asset: `OWNER_BODY_01_FRONT_CANON_005`
-- path: `approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_005.png`
+- asset: `OWNER_BODY_01_FRONT_CANON_007`
+- path: `approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_007.png`
 - format/dimensions: PNG, 1086×1448, exact 3:4
-- current PNG SHA-256: `9438c2e7d005c546f214f441174437072bf1e277f70668bd4a977ff2288d2083`
-- source candidate: `BODY_01_FRONT_v019`, moved unchanged to the approved path after explicit approval
-- superseded components: `OWNER_BODY_01_FRONT_CANON_001`, `OWNER_BODY_01_FRONT_CANON_002`, `OWNER_BODY_01_FRONT_CANON_003` and `OWNER_BODY_01_FRONT_CANON_004`; retain for history but do not route as current
+- current PNG SHA-256: `90e021fcf5c72416b2b3c640c5fe2abe2d43c28e49da6dbabc250f73da306978`
+- source candidate: `BODY_01_FRONT_v025`, moved unchanged to the approved path after explicit approval
+- superseded components: `OWNER_BODY_01_FRONT_CANON_001` through `OWNER_BODY_01_FRONT_CANON_006`; retain for history but do not route as current
 - lineage note: the L1 recovery method remains source-derived and never chains either approved Master or any candidate pixels
 - lock status: `UNLOCKED_COMPONENT`; complete `owner_v1.0` is not locked
+
+## User-scoped body and toe correction — `BODY_01_FRONT_v020` (2026-09-18)
+
+The user authorized one new independent candidate. Preserve the v019-approved near-vertical leg axes, outer-leg continuity, flat-foot grounding, face recovery method, Hairstyle A, calibration outfit and continuous 15D hosiery intent. Reduce the waist width by approximately 5% with a smooth ribcage-to-waist-to-hip transition, and increase overall leg soft-tissue volume by approximately 5% across thighs and calves without changing stature, knee/ankle alignment or creating an exaggerated hourglass. The lower legs remain nearly collinear and straight in front view.
+
+Toe hosiery is a hard QA gate: one continuous sheer textile must cover every toe and every toenail, with no exposed crisp nail edge, uncovered nail, white line, white ring, reinforced-toe boundary, hard band, bare toe gap or material discontinuity. Burgundy toenails may show only as a low-saturation diffuse signal beneath the textile. Interdigital separations must read as natural V-shaped fabric tension valleys/convergence, not painted lines or bare skin. This candidate returns to `REVIEW_REQUIRED` and must not be promoted automatically.
+
+## User-scoped v025 refinement and approval — 2026-09-18
+
+The user requested a narrower waist, further straightening of the lower legs, and removal of all toe-root color segmentation. The approved v025 candidate keeps the native exact 3:4 output and uses only the source-derived recovery inputs. Its approved scope includes a smoother narrower waist, outer calf contours descending almost directly from the outer thigh contours, slightly-whitish continuous 15D hosiery, hazy burgundy polish beneath the textile and readable interdigital fabric tension. The user explicitly approved v025 and it was moved unchanged to `OWNER_BODY_01_FRONT_CANON_007`; future recreation remains source-derived and must not use this approved raster as a generation input.
 
 ## Fixed minimal input order and roles
 

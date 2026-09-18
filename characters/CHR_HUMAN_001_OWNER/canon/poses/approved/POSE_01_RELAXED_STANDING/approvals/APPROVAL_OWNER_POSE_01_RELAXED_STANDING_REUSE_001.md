@@ -3,7 +3,7 @@
 - approval_id: `APPROVAL_OWNER_POSE_01_RELAXED_STANDING_REUSE_001`
 - underlying_asset_id: `OWNER_BODY_01_FRONT_CANON_002`
 - pose_component: `POSE_01_RELAXED_STANDING`
-- physical_master: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg`
+- physical_master: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg`
 - proposed_level: L1 component
 - decision: APPROVED
 - approver: user

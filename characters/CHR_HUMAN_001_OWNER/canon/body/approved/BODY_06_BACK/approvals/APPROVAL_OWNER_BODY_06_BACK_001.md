@@ -2,7 +2,7 @@
 
 - approval_id: `APPROVAL_OWNER_BODY_06_BACK_001`
 - asset_id: `OWNER_BODY_06_BACK_CANON_001`
-- asset_path: `../OWNER_BODY_06_BACK_CANON_001.png`
+- asset_path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v001/BODY_06_BACK_v001.png`
 - proposed_level: `L1`
 - proposed_version: `owner_v1.0 component`
 - decision: `APPROVED`
@@ -38,7 +38,7 @@ Technical precheck found the full-back direction, untwisted alignment, rear prop
 
 - physical operation: `MOVE`, never `COPY`
 - original candidate path/checksum: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v001/BODY_06_BACK_v001.png` / `2344a37e9355bbe1fb49865b5039275cebbbe5cfb043738b7e2edb6c777add7c`
-- current approved path/checksum: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/OWNER_BODY_06_BACK_CANON_001.png` / `2344a37e9355bbe1fb49865b5039275cebbbe5cfb043738b7e2edb6c777add7c`
+- current approved path/checksum: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v001/BODY_06_BACK_v001.png` / `2344a37e9355bbe1fb49865b5039275cebbbe5cfb043738b7e2edb6c777add7c`
 - candidate raster retained: `NO`
 - transcode, if any: `none`
 

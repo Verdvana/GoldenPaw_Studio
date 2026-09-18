@@ -16,5 +16,5 @@ Status: `APPROVED` — promoted to the active unlocked L1 Body component.
 ## Promotion
 
 - user-approved scope: back high-cut swimsuit opening aligned to the front calibration garment, with the reviewed body and hosiery presentation retained
-- promotion: PNG moved unchanged to `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/OWNER_BODY_06_BACK_CANON_002.png`
+- promotion: PNG moved unchanged to `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v003/BODY_06_BACK_v003.png`
 - complete `owner_v1.0` release remains unlocked

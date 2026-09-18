@@ -3,8 +3,11 @@ asset_id: OWNER_CASUAL_SUMMER_01_WORN_FRONT
 outfit_id: OWNER_CASUAL_SUMMER_01
 level: L2
 candidate_version: v004
-status: REVIEW_REQUIRED
-file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01/candidates/v004_worn_front/OWNER_CASUAL_SUMMER_01_WORN_FRONT_v004.png
+status: APPROVED
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01/approved/worn_front/OWNER_CASUAL_SUMMER_01_WORN_FRONT.png
+original_candidate_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01/candidates/v004_worn_front/OWNER_CASUAL_SUMMER_01_WORN_FRONT_v004.png
+approval_date: 2026-09-18
+approved_by: user
 sha256: e555e1674408f46447b3d6a5ac866479cae805562ae56f690a0402334f75d25f
 generation_inputs:
   - OWNER_CASUAL_SUMMER_01_DESIGN_REFERENCE_v003

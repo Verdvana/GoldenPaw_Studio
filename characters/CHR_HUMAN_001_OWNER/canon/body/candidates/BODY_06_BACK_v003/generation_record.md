@@ -38,7 +38,7 @@ generation_inputs:
     must_not_define: "owner identity, body proportions, foot anatomy, pose, nail color, clothing, floor or background"
 qa_comparison_only:
   - asset_id: OWNER_BODY_01_FRONT_CANON_004
-    path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_004.png"
+    path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v016/BODY_01_FRONT_v016.png"
     responsibility: "post-generation comparison for approved waist/hip, hip/upper-thigh-root, leg contour and high-cut swimsuit alignment"
     must_not_define: "generation lineage or any pixels"
   - asset_id: BODY_06_BACK_v002
@@ -46,9 +46,9 @@ qa_comparison_only:
     responsibility: "post-generation comparison for accepted body and hosiery attributes only"
     must_not_define: "generation lineage or any pixels"
 seed_settings: "built-in image_gen; seed and detailed settings may not be returned"
-output_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/OWNER_BODY_06_BACK_CANON_002.png"
+output_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v003/BODY_06_BACK_v003.png"
 original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v003/BODY_06_BACK_v003.png"
-promoted_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/OWNER_BODY_06_BACK_CANON_002.png"
+promoted_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v003/BODY_06_BACK_v003.png"
 checksum_sha256: f5a6d6cea3259ca3247d6b035595a67f5c50ada62f7fec9f011f4915b1895e87
 approval_record: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/approvals/APPROVAL_OWNER_BODY_06_BACK_002.md"
 qa_status: PASS_USER_APPROVED

@@ -1,0 +1,21 @@
+asset_id: OWNER_WORK_SUMMER_01_DESIGN_REFERENCE
+outfit_id: OWNER_WORK_SUMMER_01
+candidate_version: v006
+level: L2
+status: APPROVED
+approval_status: APPROVED_BY_USER
+original_candidate_path: outfits/CHR_HUMAN_001_OWNER/OWNER_WORK_SUMMER_01/candidates/v006_design_reference/OWNER_WORK_SUMMER_01_DESIGN_REFERENCE_v006.png
+approved_path: outfits/CHR_HUMAN_001_OWNER/OWNER_WORK_SUMMER_01/approved/design_reference/OWNER_WORK_SUMMER_01_DESIGN_REFERENCE.png
+sha256: 779f72cd508c47ddab224992d282bf3ac6d882adb8365608b208953ef353bee5
+dimensions: 1086x1448
+aspect_ratio: 3:4
+generation_record: generation_record.md
+generation_inputs:
+  - OWNER_WORK_SUMMER_01_SHOE_REFERENCE_FRONT_SIDE
+  - OWNER_WORK_SUMMER_01_SHOE_REFERENCE_TOP_SIDE_FRONT
+  - OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_001
+qa_comparison_only:
+  - OWNER_WORK_SUMMER_01_DESIGN_REFERENCE_v005
+approved_component: OWNER_WORK_SUMMER_01_DESIGN_REFERENCE
+approved_at: 2026-09-18
+approver: user

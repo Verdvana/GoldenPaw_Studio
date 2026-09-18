@@ -34,7 +34,7 @@ This is a newly added sole/underside-foot asset explicitly requested by the user
 ## Reference responsibilities
 
 1. `OWNER_BODY_FRONT_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg`
    - responsibility: owner foot proportions and neutral identity context only.
    - must_not_define: sole-facing pose, hosiery material or source person's styling.
 2. `HOS_15D_NUDE_MATTE_BAREFOOT`

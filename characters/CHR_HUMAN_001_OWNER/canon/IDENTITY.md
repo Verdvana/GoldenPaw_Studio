@@ -4,7 +4,7 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.183
+revision: draft_0.184
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
 updated_at: "2026-09-17"
@@ -198,9 +198,12 @@ updated_at: "2026-09-17"
 - 用户确认 v017 小腿直度可以，授权 `BODY_01_FRONT_v018` 修正脚趾根部莫名白色环、统一让酒红指甲位于连续袜面下的朦胧覆盖、恢复趾间袜面张力曲线；同时让大腿与小腿略增自然体量、腰部略细，并要求双脚全脚掌平放着地，禁止垫脚。v018 仍为待审核候选，不自动晋升。
 - 用户指出 v018 小腿仍有弯曲，且外侧轮廓没有与大腿基本齐平；授权 `BODY_01_FRONT_v019` 仅强化小腿近乎直下轴线和外侧轮廓连续下行，保留 v018 已认可的丝袜质感、腿部体量、腰部比例及全脚掌着地。v019 仍为待审核候选，不自动晋升。
 - 用户明确批准 `BODY_01_FRONT_v019` 并要求登记；其小腿近乎直下、外侧轮廓与大腿基本齐平、v018 的腿部体量与腰部比例、丝袜质感及全脚掌着地现已成为当前正面 Body 组件 `OWNER_BODY_01_FRONT_CANON_005` 的批准范围。v004 及更早正面组件降为历史版本。
+- 用户明确要求将 `BODY_01_FRONT_v017` 登记为当前 Body01 版本；v017 原图无修改移动晋升为 `OWNER_BODY_01_FRONT_CANON_006`，其近乎直下小腿轴线、极窄但不融合的内侧间隙和正面平脚接地成为当前 Body01 活动组件范围。Canon 005（v019）降为历史版本，完整 owner_v1.0 仍未锁定。
+- 用户明确批准 `BODY_01_FRONT_v025` 并要求登记为 Body01 正式资产；v025 原图无修改移动晋升为 `OWNER_BODY_01_FRONT_CANON_007`，取代 Canon 006 的活动路由。批准范围包括更窄的自然腰部、进一步收直的下腿外侧轮廓、略泛白连续15D袜面、袜面下朦胧酒红甲油与趾间织物张力；完整 owner_v1.0 仍未锁定。
 - 用户授权根据当前 `OWNER_BODY_01_FRONT_CANON_005` 生成对应背面 Body 候选 `BODY_06_BACK_v004`；背面保持相同 168 cm / 60 kg 体量、腰臀比、略细腰、较丰满腿部、近乎直下腿轴和全脚掌着地，沿用当前浅肉色略发白 15D 丝袜质感及背面脚跟渐变。背面候选仍需单独审核，不自动替代当前 `OWNER_BODY_06_BACK_CANON_002`。
 - 用户指出 v004 背面腿部轮廓与正面不一致；授权 `BODY_06_BACK_v005` 使用从当前正面 Canon 005 确定性脸部排除裁切派生的腰臀、腿轴、外侧腿线和脚部比例作为跨视角对齐依据，背面 L0 仅补充背部深度，丝袜与脚跟渐变保持不变。v004 不作生成输入。
 - 用户明确批准 `BODY_06_BACK_v005` 并要求登记；该背面组件已按当前正面 005 对齐腿部轮廓和体量，成为 `OWNER_BODY_06_BACK_CANON_003`，并保留当前背面高叉开口、浅白 15D 丝袜、脚跟渐变和全脚掌着地职责。
+- 用户明确批准 `BODY_06_BACK_v006` 并要求登记；v006 原图无修改移动晋升为 `OWNER_BODY_06_BACK_CANON_004`，按当前正面 `OWNER_BODY_01_FRONT_CANON_007` 对齐躯干、腰胯和腿部轮廓，保留对应后部高叉开口，并提高脚后跟渐变透肤度；Canon 003 降为历史版本，完整 owner_v1.0 仍未锁定。
 - `BODY_02_LEFT_3Q_v001` 已由用户明确评价“完美”并晋升为 `OWNER_BODY_02_LEFT_3Q_CANON_001`；它在左 3/4 视角内批准身体轮廓、保守深度关系及 168 cm / 60 kg、四肢比例和腰臀比的保持，不重新定义脸、发型、正面比例、其他方向或 Gate-7 丝袜材质。
 - `BODY_03_RIGHT_3Q_v001` 因脚后跟悬空及脚趾—前脚掌处异常横线被用户拒绝。v002 仍从批准 FACE_03 与活动 BODY_01 Master 独立生成，不使用 v001；两脚必须完整自然贴地，15D丝袜从脚踝至脚趾无袜尖边界、色带或透明度突变。
 - `BODY_03_RIGHT_3Q_v002` 仍被拒绝：脚跟下出现肉色垫块/多余组织，且脚趾—前脚掌横线未消失。v003 不使用 v001/v002，双脚以足够间距分别呈现完整轮廓；每只脚只能有一个正常脚跟直接接地，不得增加任何支撑物或肉色形体，丝袜在脚趾根部不得出现线、折痕、色带或透明度边界。
@@ -519,3 +522,4 @@ updated_at: "2026-09-17"
 | draft_0.181 | 2026-09-17 | 用户授权根据当前正面 Body Canon 生成对应 `BODY_06_BACK_v004`，保持身体比例、腿部体量、丝袜材质、脚跟渐变和全脚掌着地 | user generation authorization |
 | draft_0.182 | 2026-09-17 | 用户指出 v004 背面腿部轮廓与正面不一致，授权 `BODY_06_BACK_v005` 使用当前 005 的脸部排除身体派生图进行跨视角轮廓对齐 | user correction and retry authorization |
 | draft_0.183 | 2026-09-17 | 用户明确批准 `BODY_06_BACK_v005`；按单文件规则移动晋升为 `OWNER_BODY_06_BACK_CANON_003`，更新背面当前活动路由 | user approved scoped component; moved to Canon |
+| draft_0.184 | 2026-09-18 | 用户明确批准 `BODY_06_BACK_v006`；按单文件规则移动晋升为 `OWNER_BODY_06_BACK_CANON_004`，更新背面当前活动路由并登记与正面 Canon 007 的轮廓对应、后部高叉开口和更高脚跟渐变透肤职责 | user approved scoped component; moved to Canon |

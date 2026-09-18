@@ -3,7 +3,7 @@ asset_level: L1
 asset_type: body
 owner_id: CHR_HUMAN_001_OWNER
 canon_version: owner_v1.0
-file_path: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_003.png
+file_path: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v015/BODY_01_FRONT_v015.png
 physical_file_role: UNIQUE_MASTER
 source_images:
   - asset_id: OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001
@@ -39,7 +39,7 @@ quality_status: PASS
 checksum_sha256: 8faa10238bb99c614f63afbc8d0aa02dbb43d3d425673afd5c1d8dab5e7ba5f4
 original_candidate_path: /home/verdvana/.codex/generated_images/01a0add8-28f9-7962-bc90-c713fd06ce6d/exec-8c526063-8d98-4762-b20c-7b9edc110238.png
 original_candidate_checksum_sha256: 8faa10238bb99c614f63afbc8d0aa02dbb43d3d425673afd5c1d8dab5e7ba5f4
-promoted_asset_path: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_003.png
+promoted_asset_path: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v015/BODY_01_FRONT_v015.png
 promoted_asset_checksum_sha256: 8faa10238bb99c614f63afbc8d0aa02dbb43d3d425673afd5c1d8dab5e7ba5f4
 created_at: 2026-09-17
 notes: User explicitly approved registration. Waist transition, face/hair method, leg geometry, integrated toe hosiery veil, visible interdigital tension and burgundy polish are approved within this front Body component's scope.

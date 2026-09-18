@@ -6,8 +6,8 @@ asset_id: BODY_01_FRONT
 candidate_id: BODY_01_FRONT_v017
 target_canon_version: owner_v1.0
 gate: Gate 3 — Body Canon
-status: REVIEW_REQUIRED
-approval_status: PENDING_USER_REVIEW
+status: APPROVED_PROMOTION_SOURCE
+approval_status: APPROVED
 spec_revision: draft_1.225
 identity_revision: draft_0.177
 body_method_id: OWNER_BODY_01_FRONT_METHOD_V2
@@ -23,7 +23,7 @@ previous_generated_body_inputs: 0
 output_path: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v017/BODY_01_FRONT_v017.png
 sha256: 562e0a3a0b56886f523a39d329cac0bb15240c9c85ee0e5782f3acf18b841f8b
 dimensions: 1087x1447
-qa_status: PRELIMINARY_PASS_PENDING_USER_REVIEW
+qa_status: APPROVED_BY_USER
 moderation_retry: first prompt blocked at output; neutral technical retry produced the candidate
 ```
 
@@ -53,4 +53,11 @@ Check separately: face contamination/identity drift against approved Face Canon;
 
 - Generated source: `/home/verdvana/.codex/generated_images/01a0aeda-94e0-7940-aa23-e89d1ec0cff1/exec-d0b4a305-bfc8-4982-ba5c-0bb8222cd6cf.png`
 - Repository candidate: `BODY_01_FRONT_v017.png`
-- Visual precheck: lower-leg axes read nearly straight and close to the thigh axes; inner gap is narrow and remains anatomically separate; waist/hip, face, hosiery appearance and burgundy polish are retained for user review.
+- Visual precheck: lower-leg axes read nearly straight and close to the thigh axes; inner gap is narrow and remains anatomically separate; waist/hip, face, hosiery appearance and burgundy polish are retained.
+
+## Approval and promotion
+
+- User approval: “现在吧body01 登记为017的版本”
+- Approved asset: `OWNER_BODY_01_FRONT_CANON_006`
+- Promoted path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v017/BODY_01_FRONT_v017.png`
+- Promotion operation: moved unchanged; no duplicate candidate raster retained

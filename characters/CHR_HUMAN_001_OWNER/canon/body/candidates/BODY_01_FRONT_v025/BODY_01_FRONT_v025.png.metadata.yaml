@@ -1,0 +1,24 @@
+asset_id: BODY_01_FRONT
+candidate_id: BODY_01_FRONT_v025
+character_id: CHR_HUMAN_001_OWNER
+status: APPROVED
+approval_status: APPROVED
+authoritative_file: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_007.png
+sha256: 90e021fcf5c72416b2b3c6405cfe2abe2d43c28e49da6dbabc250f73da306978
+dimensions: 1086x1448
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v025/generation_record.md
+qa_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v025/QA.md
+generation_inputs:
+  - OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001
+  - L0_OWNER_002
+  - L0_OWNER_003
+  - OWNER_HAIRSTYLE_A_FACE_MASKED_001
+  - OWNER_HOS_15D_NM_011_LOWER_FEET_CROP_001
+qa_comparison_only:
+  - OWNER_FACE_01_FRONT_NEUTRAL_CANON_001
+  - OWNER_BODY_01_FRONT_CANON_006
+  - BODY_01_FRONT_v024
+approved_component: OWNER_BODY_01_FRONT_CANON_007
+approved_at: "2026-09-18"
+approver: user
+notes: "User approved v025 as the formal active Body01 asset; raster moved unchanged to the approved Canon path."

@@ -4,7 +4,7 @@
 document_id: OWNER_L1_GENERATION_SPEC
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-spec_revision: draft_1.230
+spec_revision: draft_1.233
 status: DRAFT
 authority: USER_APPROVAL_REQUIRED
 default_aspect_ratio: "3:4"
@@ -305,6 +305,7 @@ Gate 1 未完成时不得生成 Face Canon 候选。
 `BODY_01_FRONT_v017` 仅针对用户对小腿直度的再次修正：双侧小腿腿骨/胫骨轴线应几乎顺着大腿轴线向下，几乎没有弯曲；小腿外轮廓继续贴近大腿外轮廓，不产生明显外偏或 O 型腿；小腿内侧轮廓基本贴近，仅保留极窄的自然空气间隙，不能融合或交叉。v016 已获确认的腰臀比、胯与大腿根部、长相、发型、丝袜质感、略微发白的袜色、趾间张力和酒红色指甲油全部保持不变。
 `BODY_01_FRONT_v018` 在保留 v017 小腿直度的基础上，按用户反馈修正四项：去除脚趾根部任何突兀白色环/白色边界；所有酒红色指甲必须位于连续袜面之下并带有统一的朦胧柔化，不得裸露或出现清晰硬边；趾间必须有可读的袜面张力曲线/汇聚谷线而非裸趾缝；大腿与小腿整体略增自然体量，腰部略收细但保持肋骨—腰—胯连续过渡。双脚必须全脚掌平放着地，脚跟、前脚掌和脚趾均承重，禁止垫脚、踮脚或脚跟悬空。
 `BODY_01_FRONT_v019` 保留 v018 已认可的丝袜质感、腿部体量、腰部比例和全脚掌着地，仅重做小腿几何：恢复并强化 v017 的近乎直下轴线，膝中心—胫骨中线—踝中心几乎共线，不能出现可见弯曲；小腿外侧轮廓应尽量与同侧大腿外侧轮廓齐平、连续下行，不向内明显收窄，也不形成外弓/O 型腿。内侧仍保留极窄自然间隙，双腿不可融合或交叉。
+`BODY_01_FRONT_v020` 按用户最新要求建立独立候选：在 v019 已确认的笔直腿型、自然接地、脸部、发型、泳衣和袜面连续性基础上，腰部视觉宽度约减少 5%，双腿整体自然体量约增加 5%；保持 168 cm / 60 kg 的成年身体连贯性，不做 corset 压缩、夸张沙漏或机械拉伸。腿部增量必须均匀、自然地落在大腿与小腿软组织体量上，膝中心—胫骨中线—踝中心继续近乎共线，外侧腿线连续下行，不出现 O 型腿。脚趾区域为硬性复核重点：同一连续 15D 袜面必须覆盖每个脚趾与全部指甲，禁止白色线条/白环/硬边、裸露或未覆盖的甲面、袜尖边界和裸趾缝；趾间只允许呈现由织物张力形成的自然 V 形汇聚曲线，酒红色趾甲只能低饱和地透过袜面。
 `BODY_06_BACK_v004` 按当前活动正面 Body Canon `OWNER_BODY_01_FRONT_CANON_005` 的批准身体比例建立对应背面候选：保持 168 cm / 60 kg 体量、当前腰臀比、略收细腰、较丰满的大腿/小腿、近乎直下的腿轴和全脚掌接地；背面只由背面 L0 身体上下文与专用 Hair-A 背面职责独立重建。丝袜沿用当前活动正面组件的浅肉色、略微发白、15D 哑光/天鹅绒朦胧质感与连续脚部覆盖；背面脚跟区域保持自然渐变透肤，不出现白环、硬边、断层或塑料感。泳衣背面高叉开口须与正面高度和腰臀过渡对应。
 `BODY_06_BACK_v005` 因 v004 背面腿部轮廓未与正面对应，必须加入从当前 `OWNER_BODY_01_FRONT_CANON_005` 确定性裁切的脸部排除身体派生图，仅负责颈部以下的腰臀、腿轴、外侧腿线、腿部体量和脚部比例。背面 L0 仍负责真实背面深度，不能覆盖当前正面腿部轮廓；v004 不作为像素输入。丝袜、背面高叉开口、脚跟渐变和其他已接受属性保持不变。
 
@@ -646,6 +647,10 @@ all required components APPROVED
 | draft_1.229 | 2026-09-17 | 用户授权根据当前 `OWNER_BODY_01_FRONT_CANON_005` 的身体比例与丝袜质感生成对应 `BODY_06_BACK_v004` 背面候选，沿用背面高叉泳衣开口与脚跟渐变职责 | user generation authorization |
 | draft_1.230 | 2026-09-17 | 用户指出 v004 背面腿部轮廓与正面不一致；授权 v005 使用当前 005 的脸部排除确定性身体派生图强制对齐腰臀、腿轴、外侧腿线与脚部比例，v004 不作输入 | user correction and retry authorization |
 | draft_1.231 | 2026-09-17 | 用户明确批准 `BODY_06_BACK_v005`；按单文件规则移动晋升为 `OWNER_BODY_06_BACK_CANON_003`，更新背面当前活动路由 | user approved scoped component; moved to Canon |
+| draft_1.235 | 2026-09-18 | 用户授权并明确批准 `BODY_06_BACK_v006`；v006 使用当前正面 Canon 007 的脸部排除确定性身体派生图对齐躯干/腰胯/腿部轮廓，后部高叉开口与正面对应，并提高脚后跟渐变透肤度；按单文件规则移动晋升为 `OWNER_BODY_06_BACK_CANON_004` | user approved scoped component; moved to Canon |
+| draft_1.232 | 2026-09-18 | 用户授权重新生成 `BODY_01_FRONT_v020`：在当前正面 Body 的笔直腿型基础上，腰部再细约 5%、腿部自然体量再增约 5%；保持腿轴笔直，并重点修正脚趾处白色线条与未被袜面连续覆盖的甲面。v020 不使用任何 Body/Face 生成像素作为输入，候选状态 `REVIEW_REQUIRED` | user-scoped body proportion and hosiery correction authorization |
+| draft_1.233 | 2026-09-18 | 用户明确要求将 `BODY_01_FRONT_v017` 登记为当前 Body01 版本；v017 原图无修改移动晋升为 `OWNER_BODY_01_FRONT_CANON_006`，取代 v019/Canon 005 的活动路由，完整 owner_v1.0 仍未锁定 | user approved v017 promotion |
+| draft_1.234 | 2026-09-18 | 用户明确批准 `BODY_01_FRONT_v025` 并要求登记为 Body01 正式资产；v025 原图无修改移动晋升为 `OWNER_BODY_01_FRONT_CANON_007`，取代 Canon 006 的活动路由，登记更窄自然腰部、进一步收直的下腿外侧轮廓、略泛白连续15D袜面、袜面下朦胧酒红甲油与趾间织物张力 | user approved v025 promotion |
 | draft_1.40 | 2026-09-11 | 用户澄清 002 的跨资产/镜头职责：168 cm / 60 kg、长相、HAIRSTYLE_A、四肢比例与腰臀比均可供其他资产及视频镜头图片引用；丝袜外观只授权 15D 哑光肉色组合，禁止外推到其他颜色、材质/光泽或厚度 | user scope clarification incorporated |
 | draft_1.41 | 2026-09-12 | 用户调整女主资产计划：决定不增加职责混淆的 Face 后脑视角，由 Body/Hair 背面覆盖；A 增加高机位仰视与低机位俯视，B 现有批准图履行高机位仰视并新增低机位俯视；Expression 增至 15 项；Pose 06/07 改为必需并新增伸腿坐姿与双臂/双膝支撑俯姿；Hosiery 新增 30D 微光肉色正面与 30D 灰色哑光正面，后者因缺少匹配 L0 暂阻塞 | user plan revision incorporated |
 | draft_1.42 | 2026-09-12 | 用户将活动 BODY_01 Canon 组件 002 从批准 PNG 转换为 `OWNER_BODY_01_FRONT_CANON.jpg` 并删除 PNG；更新唯一活动文件路径、JPEG 校验值、元数据、索引、批准记录、候选指针和引用集，批准范围与四输入源恢复方法保持不变 | user format decision incorporated |

@@ -1,0 +1,19 @@
+asset_id: OWNER_SPORT_YOGA_01_DESIGN_REFERENCE
+outfit_id: OWNER_SPORT_YOGA_01
+level: L2
+status: APPROVED
+approved_by: user
+approval_date: 2026-09-18
+source_candidate: candidates/v003_design_reference
+authoritative_file: OWNER_SPORT_YOGA_01_DESIGN_REFERENCE.png
+sha256: 18bdcf1c31ee4bfb63d7d5bdad75f41b265e7e5a81ae6efeaf25396a63939de9
+dimensions: 1086x1448
+aspect_ratio: 3:4
+scope:
+  - short light-pink strappy open-back yoga crop tank
+  - warm apricot-pink opaque matte full-length yoga pants
+  - light-skin-tone matte sheer 15D pantyhose
+  - no footwear
+must_not_define:
+  - owner face, body, skin, hair or identity
+  - worn fit or video identity

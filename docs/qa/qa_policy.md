@@ -1,6 +1,6 @@
 # Shot QA Policy
 
-Every L3 candidate receives a recorded verdict for all applicable domains:
+Every L3 candidate receives a recorded verdict for all applicable domains. This applies to both video-shot images and social-still images. Social-still candidates additionally use `templates/social_post/QA.md` and the publication-specific checks in `docs/social_stills_pipeline.md`.
 
 1. Identity — face/skull/recognizability against the source-derived Face method, with approved Face Canon used only for QA comparison.
 2. Body — proportions, silhouette, articulation, and camera distortion.
@@ -11,5 +11,6 @@ Every L3 candidate receives a recorded verdict for all applicable domains:
 7. Props — exact version, geometry, scale, interaction, no random redesign.
 8. Environment — selected design, layout, perspective, object placement.
 9. Shot continuity — camera direction, blocking, pose transition, screen direction.
+10. Social publication (when applicable) — platform crop/safe areas, physical realism, lifestyle realism, carousel continuity-only facts, and no watermark/UI/text artifacts.
 
-Use `PASS`, `FAIL`, or `N/A` per domain. A shot is eligible for video only when every applicable domain is `PASS`, blockers are empty, and the user or designated reviewer approves it. Failed candidates remain traceable but cannot be used as continuity references.
+Use `PASS`, `FAIL`, or `N/A` per domain. A shot is eligible for video only when every applicable domain is `PASS`, blockers are empty, and the user or designated reviewer approves it. A social still is eligible for publishing only under the equivalent conditions plus explicit publishing approval. Failed candidates remain traceable but cannot be used as continuity references.

@@ -39,7 +39,7 @@ This is one independent retry of the incomplete HOS_06 component. The v001 reque
 ## Reference responsibilities
 
 1. `OWNER_BODY_FRONT_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg`
    - SHA-256: `964c3b9d72c6688881b8ebfa4c6fc1bcfea04c998351352fabfdc8f4951666f6`
    - responsibility: owner front identity context, natural body/leg/foot geometry, proportions and neutral standing contact only.
    - must_not_define: 30D material color, denier, finish or textile response.

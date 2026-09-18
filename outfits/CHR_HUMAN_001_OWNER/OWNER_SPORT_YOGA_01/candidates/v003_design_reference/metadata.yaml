@@ -1,0 +1,20 @@
+asset_id: OWNER_SPORT_YOGA_01_DESIGN_REFERENCE
+outfit_id: OWNER_SPORT_YOGA_01
+candidate_version: v003
+level: L2
+status: APPROVED
+approval_status: APPROVED_BY_USER
+original_candidate_path: outfits/CHR_HUMAN_001_OWNER/OWNER_SPORT_YOGA_01/candidates/v003_design_reference/OWNER_SPORT_YOGA_01_DESIGN_REFERENCE_v003.png
+approved_path: outfits/CHR_HUMAN_001_OWNER/OWNER_SPORT_YOGA_01/approved/design_reference/OWNER_SPORT_YOGA_01_DESIGN_REFERENCE.png
+sha256: 18bdcf1c31ee4bfb63d7d5bdad75f41b265e7e5a81ae6efeaf25396a63939de9
+dimensions: 1086x1448
+aspect_ratio: 3:4
+generation_record: generation_record.md
+generation_inputs:
+  - OWNER_SPORT_YOGA_01_DESIGN_REFERENCE_PANTS_ONLY
+  - OWNER_HOS_15D_NUDE_MATTE_MATERIAL_CROP_001
+qa_comparison_only:
+  - OWNER_SPORT_YOGA_01_DESIGN_REFERENCE_OLD_APPROVED
+approved_component: OWNER_SPORT_YOGA_01_DESIGN_REFERENCE
+approved_at: 2026-09-18
+approver: user

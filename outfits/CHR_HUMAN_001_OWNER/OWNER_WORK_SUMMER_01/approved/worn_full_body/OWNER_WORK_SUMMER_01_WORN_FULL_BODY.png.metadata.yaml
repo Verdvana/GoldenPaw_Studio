@@ -1,0 +1,19 @@
+asset_id: OWNER_WORK_SUMMER_01_WORN_FULL_BODY
+outfit_id: OWNER_WORK_SUMMER_01
+level: L2
+status: APPROVED
+approved_by: user
+approval_date: 2026-09-18
+source_candidate: candidates/v002_worn_full_body
+authoritative_file: OWNER_WORK_SUMMER_01_WORN_FULL_BODY.png
+sha256: de827a974024ff7efe951376e20d31f160e490e0a0c28228ef51703e175909
+dimensions: 1086x1448
+aspect_ratio: 3:4
+scope:
+  - full-body summer officewear worn presentation
+  - current Body01 proportion fit-validation
+  - gray matte 15D hosiery and taupe buckle pump presentation
+must_not_define:
+  - Character Canon
+  - future face generation or identity lineage
+  - video keyframe identity

@@ -1,0 +1,26 @@
+asset_id: BODY_01_FRONT
+candidate_id: BODY_01_FRONT_v022
+character_id: CHR_HUMAN_001_OWNER
+status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+authoritative_file: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v022/BODY_01_FRONT_v022.png
+sha256: b4fa94fa6d390d71b36d17c1f13fb2cccd35077b00868783b6f523879c3c5977
+dimensions: 1536x2048
+native_generation_dimensions: 1086x1448
+resolution_conversion: "deterministic Lanczos resize from exact 3:4 native output; no crop or content edit"
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v022/generation_record.md
+qa_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v022/QA.md
+generation_inputs:
+  - OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001
+  - L0_OWNER_002
+  - L0_OWNER_003
+  - OWNER_HAIRSTYLE_A_FACE_MASKED_001
+  - OWNER_HOS_15D_NM_011_LOWER_FEET_CROP_001
+qa_comparison_only:
+  - OWNER_FACE_01_FRONT_NEUTRAL_CANON_001
+  - OWNER_BODY_01_FRONT_CANON_006
+  - BODY_01_FRONT_v021
+approved_component: null
+approved_at: null
+approver: null
+notes: "Generated from source-derived references only. Current Body01 Canon remains unchanged."

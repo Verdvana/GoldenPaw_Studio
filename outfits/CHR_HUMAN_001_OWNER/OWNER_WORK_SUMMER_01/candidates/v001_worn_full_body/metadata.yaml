@@ -1,0 +1,24 @@
+asset_id: OWNER_WORK_SUMMER_01_WORN_FULL_BODY
+outfit_id: OWNER_WORK_SUMMER_01
+candidate_version: v001
+level: L2
+status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+authoritative_file: OWNER_WORK_SUMMER_01_WORN_FULL_BODY_v001.png
+sha256: e0d2aefb21b46340461305d6e86cf4de6e72d2185e2b7c8573ae4413702236ba
+dimensions: 1086x1448
+aspect_ratio: 3:4
+generation_record: generation_record.md
+generation_inputs:
+  - OWNER_BODY_01_FRONT_V025_FACE_EXCLUDED_v1
+  - OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001
+  - OWNER_HAIRSTYLE_A_FACE_MASKED_001
+  - OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_001
+  - OWNER_WORK_SUMMER_01_SHOE_REFERENCE_TOP_SIDE_FRONT
+qa_comparison_only:
+  - OWNER_FACE_01_FRONT_NEUTRAL_CANON_001
+  - OWNER_BODY_01_FRONT_CANON_007
+  - OWNER_WORK_SUMMER_01_DESIGN_REFERENCE_v006
+approved_component: null
+approved_at: null
+approver: null

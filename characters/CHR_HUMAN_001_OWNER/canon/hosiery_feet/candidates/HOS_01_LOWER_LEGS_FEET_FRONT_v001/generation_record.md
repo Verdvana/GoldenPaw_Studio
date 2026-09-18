@@ -34,7 +34,7 @@ The preferred standing source `IMG_2581.jpg` is absent from the pruned physical 
 ## Reference responsibilities
 
 1. `OWNER_BODY_FRONT_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg`
    - SHA-256: `964c3b9d72c6688881b8ebfa4c6fc1bcfea04c998351352fabfdc8f4951666f6`
    - responsibility: exact approved owner front lower-leg proportions, knee/calf/ankle/heel/instep/toe geometry, symmetrical neutral standing contact, natural skin-tone baseline and burgundy toenail direction.
    - must_not_define: new face/overall body/hair identity, reusable final hosiery weave beyond its scoped 15D matte nude appearance, lighting or background.

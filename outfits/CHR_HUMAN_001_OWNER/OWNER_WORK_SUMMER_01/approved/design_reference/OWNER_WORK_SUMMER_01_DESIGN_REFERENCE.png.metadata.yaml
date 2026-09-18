@@ -1,0 +1,19 @@
+asset_id: OWNER_WORK_SUMMER_01_DESIGN_REFERENCE
+outfit_id: OWNER_WORK_SUMMER_01
+level: L2
+status: APPROVED
+approved_by: user
+approval_date: 2026-09-18
+source_candidate: candidates/v006_design_reference
+authoritative_file: OWNER_WORK_SUMMER_01_DESIGN_REFERENCE.png
+sha256: 779f72cd508c47ddab224992d282bf3ac6d882adb8365608b208953ef353bee5
+dimensions: 1086x1448
+aspect_ratio: 3:4
+scope:
+  - unworn garment shape and material arrangement
+  - black low rounded-neck fitted short-sleeve top
+  - champagne-white skirt with moderate black polka dots and tailored non-umbrella silhouette
+  - gray 15D matte pantyhose and taupe buckle pumps
+must_not_define:
+  - owner face, body, skin, hair or identity
+  - worn fit or video identity

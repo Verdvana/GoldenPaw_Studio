@@ -1,0 +1,19 @@
+asset_id: OWNER_SPORT_YOGA_01_WORN_FRONT
+outfit_id: OWNER_SPORT_YOGA_01
+level: L2
+status: APPROVED
+approved_by: user
+approval_date: 2026-09-18
+source_candidate: candidates/v003_worn_front
+authoritative_file: OWNER_SPORT_YOGA_01_WORN_FRONT.png
+sha256: c5608be7d74607b5babd4158fe2b31f492f0c9b99ddcd224770c0901fd1bc59d
+dimensions: 1086x1448
+aspect_ratio: 3:4
+scope:
+  - full-body front yoga outfit presentation
+  - latest Body01 proportion fit-validation
+  - light-skin-tone matte sheer 15D hosiery and no footwear
+must_not_define:
+  - Character Canon
+  - future face generation or identity lineage
+  - video keyframe identity

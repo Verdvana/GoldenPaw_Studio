@@ -33,7 +33,7 @@ The user requested the next asset after approving `HAIR_A_03` and confirmed â€œç
 ## Reference responsibilities
 
 1. `OWNER_BODY_BACK_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/OWNER_BODY_06_BACK_CANON_001.png`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v001/BODY_06_BACK_v001.png`
    - SHA-256: `2344a37e9355bbe1fb49865b5039275cebbbe5cfb043738b7e2edb6c777add7c`
    - responsibility: exact 180-degree back-facing head/body alignment, approved shoulder/neck and upper-torso proportions, neutral upright posture, and the visible rear portion of the pink Calibration Outfit.
    - must_not_define: Hairstyle-A rear design, crown structure, rear hair mass, length, density, ends or highlights; also must not define face, lighting, background, lower-body crop or hosiery in this Hair candidate.

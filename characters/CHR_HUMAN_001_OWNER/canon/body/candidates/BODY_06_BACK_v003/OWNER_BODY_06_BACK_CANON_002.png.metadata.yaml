@@ -4,7 +4,7 @@ asset_type: body_canon
 owner_id: CHR_HUMAN_001_OWNER
 canon_version: owner_v1.0_component
 physical_file_role: UNIQUE_MASTER
-file_path: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/OWNER_BODY_06_BACK_CANON_002.png
+file_path: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v003/BODY_06_BACK_v003.png
 source_candidate: BODY_06_BACK_v003
 source_images:
   - L0_OWNER_002
@@ -40,7 +40,7 @@ quality_status: APPROVED_L1_COMPONENT
 checksum_sha256: f5a6d6cea3259ca3247d6b035595a67f5c50ada62f7fec9f011f4915b1895e87
 original_candidate_path: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v003/BODY_06_BACK_v003.png
 original_candidate_checksum_sha256: f5a6d6cea3259ca3247d6b035595a67f5c50ada62f7fec9f011f4915b1895e87
-promoted_asset_path: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/OWNER_BODY_06_BACK_CANON_002.png
+promoted_asset_path: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v003/BODY_06_BACK_v003.png
 promoted_asset_checksum_sha256: f5a6d6cea3259ca3247d6b035595a67f5c50ada62f7fec9f011f4915b1895e87
 created_at: 2026-09-17
 approved_at: 2026-09-17

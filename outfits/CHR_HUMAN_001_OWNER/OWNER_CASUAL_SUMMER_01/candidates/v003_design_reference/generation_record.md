@@ -4,9 +4,12 @@
 - outfit_id: `OWNER_CASUAL_SUMMER_01`
 - level: `L2`
 - candidate_version: `v003`
-- status: `REVIEW_REQUIRED`
-- output_path: `outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01/candidates/v003_design_reference/OWNER_CASUAL_SUMMER_01_DESIGN_REFERENCE_v003.png`
+- status: `APPROVED`
+- original_candidate_path: `outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01/candidates/v003_design_reference/OWNER_CASUAL_SUMMER_01_DESIGN_REFERENCE_v003.png`
+- approved_path: `outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01/approved/design_reference/OWNER_CASUAL_SUMMER_01_DESIGN_REFERENCE.png`
 - output_sha256: `a5e35b77fc25ba5ae80d6097c1138eaeba6bd3341360733912d8598f53d119c7`
+- approval_date: `2026-09-18`
+- approved_by: `user`
 - use_case: `product-mockup`
 - reference_budget: `5 supplied garment/accessory photos; no identity references`
 

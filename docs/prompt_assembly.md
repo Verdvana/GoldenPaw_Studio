@@ -26,4 +26,4 @@ When hosiery is visible, inject the full coverage chain: `waist/hips -> thighs -
 
 Inject the locked face shape, golden-shaded tipping pattern, eye/nose/ear traits, body proportions, and explicit anti-drift constraints. When a fixed device is visible, pin its version and relative measurements.
 
-Use `templates/shot/PROMPT_ASSEMBLY.md` as the generation record. The record is created before the call and completed with settings/output/QA afterward.
+Use `templates/shot/PROMPT_ASSEMBLY.md` for video-shot images and `templates/social_post/PROMPT_ASSEMBLY.md` for social-still images. The record is created before the call and completed with settings/output/QA afterward.

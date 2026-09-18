@@ -18,5 +18,5 @@ Status: `APPROVED` — promoted to the active unlocked L1 Body component.
 ## Promotion
 
 - user-approved scope: front hip and upper-thigh-root reconstruction, with the candidate's reviewed leg and hosiery presentation retained
-- promotion: PNG moved unchanged to `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_004.png`
+- promotion: PNG moved unchanged to `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v016/BODY_01_FRONT_v016.png`
 - complete `owner_v1.0` release remains unlocked

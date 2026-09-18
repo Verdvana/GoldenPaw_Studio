@@ -252,13 +252,13 @@ reference_sets:
     approval_status: "APPROVED"
     usable_for_generation: true
     assets:
-      - {asset_id: OWNER_BODY_01_FRONT_CANON_005, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_005.png"}
+      - {asset_id: OWNER_BODY_01_FRONT_CANON_007, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_007.png"}
   OWNER_BODY_FRONT_PROPORTION_OUTLINE_V17:
-    purpose: "user-selected BODY_01_FRONT_v017 front body proportion and silhouette reference only: overall stature, waist/hip relationship, thigh-root contour, limb proportions, lower-leg axes and neutral front standing outline"
+    purpose: "approved BODY_01_FRONT_v017 front body proportion and silhouette: overall stature, waist/hip relationship, thigh-root contour, limb proportions, lower-leg axes and neutral front standing outline"
     max_images: 1
-    approval_status: "REVIEW_REQUIRED"
+    approval_status: "APPROVED"
     usable_for_generation: false
-    usage_note: "Do not promote to Canon or use as downstream generation input until the user explicitly approves it; may be used for review/comparison in the meantime."
+    usage_note: "Approved scoped Body01 component; current downstream routing uses OWNER_BODY_FRONT_CANON_L1. L1 recreation still uses the source recovery set rather than this approved raster."
     must_not_define: "face, facial features, identity, skin tone or texture, hair, clothing, hosiery material or color, toenails, shoes, lighting, background, camera rendering or image artifacts"
     assets:
       - {asset_id: OWNER_BODY_01_FRONT_PROPORTION_OUTLINE_V17, path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v017/BODY_01_FRONT_v017.png"}
@@ -268,7 +268,14 @@ reference_sets:
     approval_status: "APPROVED_DERIVATIVE"
     usable_for_generation: true
     assets:
-      - {asset_id: OWNER_BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v3, path: "characters/CHR_HUMAN_001_OWNER/canon/body/reference_inputs/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v3/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_CROP.png"}
+      - {asset_id: OWNER_BODY_01_FRONT_V017_FACE_EXCLUDED_v1, path: "characters/CHR_HUMAN_001_OWNER/canon/body/reference_inputs/BODY_01_FRONT_V017_FACE_EXCLUDED_v1/BODY_01_FRONT_V017_FACE_EXCLUDED_CROP.png"}
+  OWNER_BODY_FRONT_CURRENT_V025_FACE_EXCLUDED_DERIVATIVE:
+    purpose: "current active Body01 Canon 007 neck-below front geometry for cross-view contour matching; must not define face, hair, clothing, hosiery material, lighting or background"
+    max_images: 1
+    approval_status: "APPROVED_DERIVATIVE"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_BODY_01_FRONT_V025_FACE_EXCLUDED_v1, path: "characters/CHR_HUMAN_001_OWNER/canon/body/reference_inputs/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v7/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_CROP.png"}
   OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_L1:
     purpose: "approved L1 Hosiery/Feet Master for the straight-on knees-to-feet view: front lower-leg/foot proportions and contact, continuous 15D nude matte/velvet closed-toe hosiery presentation in this view, and softened burgundy toenails beneath the textile; must not define complete identity/body, other foot views, other hosiery deniers/colors/finishes/constructions, lighting or background"
     max_images: 1
@@ -282,7 +289,7 @@ reference_sets:
     approval_status: "APPROVED"
     usable_for_generation: true
     assets:
-      - {asset_id: OWNER_BODY_01_FRONT_CANON_002, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg"}
+      - {asset_id: OWNER_BODY_01_FRONT_CANON_002, path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg"}
   OWNER_POSE_02_WALKING_NEUTRAL_STRIDE_CANON_L1:
     purpose: "approved L1 Pose Master for neutral front-facing walking articulation, reciprocal arm-leg gait and dynamic floor contact only; must not define permanent identity/body geometry, other poses, garment/material authority, lighting or background"
     max_images: 1
@@ -378,7 +385,7 @@ reference_sets:
     approval_status: "APPROVED"
     usable_for_generation: true
     assets:
-      - {asset_id: OWNER_BODY_06_BACK_CANON_003, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/OWNER_BODY_06_BACK_CANON_003.png"}
+      - {asset_id: OWNER_BODY_06_BACK_CANON_004, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/OWNER_BODY_06_BACK_CANON_004.png"}
   OWNER_BODY_FRONT_RECOVERY_V1:
     purpose: "fixed ordered source/reference set for recreating the active L1 front Body Master; use source-derived Face recovery inputs plus L0 body context and masked Hairstyle-A input; follow BODY_01_FRONT_METHOD.md and never add any generated Face/Body candidate or approved Face/Body Master"
     max_images: 4

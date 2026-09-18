@@ -1,0 +1,20 @@
+asset_id: OWNER_WORK_SUMMER_01_DESIGN_REFERENCE
+outfit_id: OWNER_WORK_SUMMER_01
+candidate_version: v005
+level: L2
+status: REVIEW_REQUIRED
+approval_status: PENDING_USER_REVIEW
+authoritative_file: OWNER_WORK_SUMMER_01_DESIGN_REFERENCE_v005.png
+sha256: 2085f7197b5a203e76afcfbe21e781a2a53176cbff34d8c6eab4f6f9e47eba2b
+dimensions: 1086x1448
+aspect_ratio: 3:4
+generation_record: generation_record.md
+generation_inputs:
+  - OWNER_WORK_SUMMER_01_SHOE_REFERENCE_FRONT_SIDE
+  - OWNER_WORK_SUMMER_01_SHOE_REFERENCE_TOP_SIDE_FRONT
+  - OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_001
+qa_comparison_only:
+  - OWNER_WORK_SUMMER_01_DESIGN_REFERENCE_v004
+approved_component: null
+approved_at: null
+approver: null

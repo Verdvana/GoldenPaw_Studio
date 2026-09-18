@@ -37,7 +37,7 @@ The user explicitly requested the next asset after the 13-item Expression plan w
    - responsibility: approved front facial identity, neutral adult facial geometry and skin presentation.
    - must_not_define: pose, body proportions, Hairstyle-A, outfit, hosiery, camera, lighting or background.
 2. `OWNER_BODY_FRONT_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg`
    - responsibility: approved 168 cm / 60 kg front body identity, head-to-body scale, limb lengths, waist/hip ratio, feet geometry and existing 15D matte nude combination context.
    - must_not_define: the new relaxed Pose articulation, permanent face refinements, other body angles, other hosiery colors/deniers/finishes, lighting or background.
 3. `OWNER_HAIR_A_FRONT_CANON_L1`
@@ -75,7 +75,7 @@ Create exactly one POSE_01_RELAXED_STANDING L1 Canon candidate for the adult cha
 
 [INPUT IMAGES AND RESPONSIBILITIES]
 Image 1 — OWNER_FACE_FRONT_NEUTRAL_CANON_L1, path characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg: define only the approved front facial identity and neutral adult facial geometry; do not copy its crop, clothing, hair authority, lighting, or background.
-Image 2 — OWNER_BODY_FRONT_CANON_L1, path characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg: define the approved 168 cm / 60 kg front body identity, head-to-body scale, limb lengths, waist/hip ratio, feet geometry, and the existing 15D matte nude combination context; do not merely duplicate its stiff calibration stance and do not redesign any permanent body property.
+Image 2 — OWNER_BODY_FRONT_CANON_L1, path characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg: define the approved 168 cm / 60 kg front body identity, head-to-body scale, limb lengths, waist/hip ratio, feet geometry, and the existing 15D matte nude combination context; do not merely duplicate its stiff calibration stance and do not redesign any permanent body property.
 Image 3 — OWNER_HAIR_A_FRONT_CANON_L1, path characters/CHR_HUMAN_001_OWNER/canon/hairstyles/A/approved/HAIR_A_01_FRONT/OWNER_HAIR_A_01_FRONT_CANON_001.png: define only Hairstyle A — near-center short frontal part, controlled low-to-medium crown volume, long straight loose dark-brown panels, restrained highlights, complete below-chest length and natural tapered ends; do not define face, skin, expression, body, pose, outfit, lighting, or background.
 
 [POSE AUTHORITY]

@@ -38,11 +38,11 @@ generation_inputs:
     must_not_define: "owner identity, body proportions, foot anatomy, pose, nail color, clothing, floor or background"
 qa_comparison_only:
   - asset_id: OWNER_BODY_01_FRONT_CANON_004
-    path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_004.png"
+    path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v016/BODY_01_FRONT_v016.png"
     responsibility: "post-generation comparison for the user-approved waist-to-hip, hip/upper-thigh-root and leg-contour contract"
     must_not_define: "generation lineage or any pixels"
   - asset_id: OWNER_BODY_06_BACK_CANON_001
-    path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/OWNER_BODY_06_BACK_CANON_001.png"
+    path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v001/BODY_06_BACK_v001.png"
     responsibility: "post-generation comparison for exact back direction, framing and continuity only"
     must_not_define: "generation lineage or any pixels"
 seed_settings: "built-in image_gen; seed and detailed settings may not be returned"

@@ -32,7 +32,7 @@ The user explicitly approved POSE_02 and requested the next asset. No registered
 
 `OWNER_BODY_FRONT_CANON_L1`
 
-- path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON.jpg`
+- path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v009/BODY_01_FRONT_v009.jpg`
 - responsibility: approved adult identity, 168 cm / 60 kg front body geometry and proportions, visible front face, Hairstyle A, foot scale, Calibration Outfit and scoped 15D matte nude appearance.
 - must_not_define: seated articulation, furniture design, other Pose components, lighting or background.
 

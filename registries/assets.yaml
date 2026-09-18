@@ -35,7 +35,7 @@ assets:
     type: outfit
     path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_SUMMER_01
     current_canon_version: null
-    status: DRAFT
+    status: APPROVED
   - asset_id: OWNER_BODY_01_FRONT_PROPORTION_OUTLINE_V17
     type: scoped_reference
     path: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v017/BODY_01_FRONT_v017.png

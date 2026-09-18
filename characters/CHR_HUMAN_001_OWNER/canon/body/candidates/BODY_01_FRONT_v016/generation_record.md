@@ -45,7 +45,7 @@ generation_inputs:
     must_not_define: "owner identity, face, body proportions, foot anatomy, nail color, clothing, pose, floor or background"
 qa_comparison_only:
   - asset_id: OWNER_BODY_01_FRONT_CANON_003
-    path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_003.png"
+    path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v015/BODY_01_FRONT_v015.png"
     responsibility: "post-generation comparison for accepted face, body scale, torso, waist/hip, framing and component continuity"
     must_not_define: "generation lineage or any pixels"
   - asset_id: OWNER_FACE_01_FRONT_NEUTRAL_CANON_001
@@ -53,9 +53,9 @@ qa_comparison_only:
     responsibility: "post-generation face identity and contamination comparison only"
     must_not_define: "generation lineage or any pixels"
 seed_settings: "built-in image_gen; seed and detailed settings may not be returned"
-output_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_004.png"
+output_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v016/BODY_01_FRONT_v016.png"
 original_candidate_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v016/BODY_01_FRONT_v016.png"
-promoted_path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/OWNER_BODY_01_FRONT_CANON_004.png"
+promoted_path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_01_FRONT_v016/BODY_01_FRONT_v016.png"
 checksum_sha256: eab2d082bc2a3f63137aa9caa6307cf35c8fa48ae70e1664adf7ae75c89fadac
 approval_record: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_01_FRONT/approvals/APPROVAL_OWNER_BODY_01_FRONT_004.md"
 qa_status: PASS_USER_APPROVED

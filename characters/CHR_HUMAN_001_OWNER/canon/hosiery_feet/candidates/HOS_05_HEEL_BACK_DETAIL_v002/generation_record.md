@@ -34,7 +34,7 @@ This is one independent retry of the incomplete `HOS_05_HEEL_BACK_DETAIL` compon
 ## Reference responsibilities
 
 1. `OWNER_BODY_BACK_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_06_BACK/OWNER_BODY_06_BACK_CANON_001.png`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_06_BACK_v001/BODY_06_BACK_v001.png`
    - SHA-256: `2344a37e9355bbe1fb49865b5039275cebbbe5cfb043738b7e2edb6c777add7c`
    - responsibility: rear lower-leg, ankle, heel and foot geometry, proportions, direction and neutral floor contact.
    - must_not_define: hosiery color/denier/finish, identity beyond the visible scoped geometry, pose outside this rear detail, background or styling.
