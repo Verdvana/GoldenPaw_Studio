@@ -29,6 +29,7 @@ serve as a future generation input.
 | `OWNER_SPORT_BADMINTON_01` | badminton | design reference + worn front + 3/4; back optional | DESIGN REFERENCE + WORN FRONT APPROVED |
 | `OWNER_SPORT_SWIM_01` | swimming | design reference + worn front + 3/4; swim cap/goggles visible | DESIGN_REFERENCE_APPROVED_WORN_FRONT_PENDING |
 | `OWNER_WORK_SUMMER_01` | office / summer | design reference + worn front + 3/4; shoe detail if needed | REBUILD REQUIRED |
+| `OWNER_WORK_AUTUMN_01` | office / autumn | reference-led design contract + design reference + worn front; add 3/4/back/detail only if required by QA | REFERENCE INTAKE PENDING |
 | `OWNER_WORK_WINTER_01` | office / winter | design reference + worn front + 3/4/back; boot detail if needed | REBUILD REQUIRED |
 | `OWNER_CASUAL_SUMMER_01` | casualwear / summer | approved design reference + approved worn front; supplied garment references retained | DESIGN REFERENCE + WORN FRONT APPROVED |
 

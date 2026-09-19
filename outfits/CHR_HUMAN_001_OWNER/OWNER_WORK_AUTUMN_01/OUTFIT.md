@@ -1,0 +1,75 @@
+# Outfit Design
+
+- outfit_id: OWNER_WORK_AUTUMN_01
+- level: L2
+- intended_character_id: CHR_HUMAN_001_OWNER
+- episode/scene scope: reusable owner autumn officewear
+- character_outfit_root: outfits/CHR_HUMAN_001_OWNER/OWNER_WORK_AUTUMN_01
+- garment_reference_dir: reference_inputs/garment_references/
+- status: DESIGN_RESET_PENDING
+- asset_purpose: reusable L2 outfit package
+- design_reference_status: NOT_STARTED
+- worn_validation_status: NOT_STARTED
+- approved_design_reference:
+- approved_worn_views: []
+
+## Autumn officewear path
+
+This is a new, reference-led design path. The supplied reference images will
+define only garment silhouette, layering, palette, textile, construction, and
+accessories. They will not define the owner's face, body, skin, hair, pose,
+lighting, background, or photographic style.
+
+1. **Reference intake** — place supplied images in
+   `reference_inputs/garment_references/`; create one `REF_<NNN>_PROVENANCE.md`
+   record per image with checksum, declared responsibilities, and exclusions.
+2. **Garment contract** — translate the selected references into a concrete
+   autumn office look: outer layer, inner layer, lower garment, hosiery,
+   footwear, and work accessories. Unspecified design choices remain open until
+   the references are reviewed.
+3. **Clothing-only design candidate** — create one `design_reference` candidate
+   to validate silhouette, palette, layering, and construction. It is not an
+   identity or body reference.
+4. **Head-present fit-validation candidate** — only after the design is
+   reviewed, create `worn_front`; add `worn_3q`, `worn_back`, or detail views
+   only for documented unresolved fit/material questions.
+5. **Scoped review** — assess garment construction, layering, drape,
+   hosiery/footwear continuity, and face-safety QA. No candidate is promoted
+   without explicit user approval.
+
+## Garment inventory and layering
+
+The user has specified the garment contract; `REF_001` is a shoe-only reference.
+
+| Layer | Asset/material ID | Construction | Color | Coverage |
+|---|---|---|---|---|
+| 1 | garment | white collared knit sweater | white | upper body |
+| 2 | garment | straight-leg tailored trousers, cropped at ankle | medium gray | waist to ankle |
+| 3 | hosiery | sheer pantyhose, continuous closed-toe construction | black | waist to toes |
+| 4 | footwear / `REF_001` | pointed-toe slingback pump with buckle and slender high heel | black | foot |
+
+## Hosiery and footwear contract
+
+- hosiery_material_id: L2 black sheer pantyhose design specification
+- denier/color/finish: black, sheer textile finish; precise denier pending review
+- toe construction: continuous closed-toe coverage; no toe-cap boundary
+- footwear: black pointed-toe slingback pump with rear strap/buckle and slender high heel, using `REF_001` only for declared construction
+- continuous coverage required: yes
+
+## Non-negotiable generation boundaries
+
+- `design_reference` is garment-only whenever practical and never defines owner identity.
+- Every Owner `worn_*` validation image is head-present; its visible face must be
+  generated solely from the applicable L0 inputs and source-derived Face method.
+- AI Face Canon, AI Body Canon, prior outfit images, prior shots, and generated
+  candidates are forbidden as face-generation inputs. Approved AI Face Canon is
+  permitted only for post-generation QA comparison.
+- A body reference, if needed, must be a deterministic face-excluded derivative
+  with provenance, checksum, responsibility, and exclusions.
+- If this path specifies pantyhose, it is one continuous textile garment from
+  waist/hips through toes; reject bare toes, breaks, and plastic/rubber-like finish.
+
+## Must not redefine
+
+Face identity, body geometry, skin, hair, pose, Character Canon, or fixed-prop
+geometry.
