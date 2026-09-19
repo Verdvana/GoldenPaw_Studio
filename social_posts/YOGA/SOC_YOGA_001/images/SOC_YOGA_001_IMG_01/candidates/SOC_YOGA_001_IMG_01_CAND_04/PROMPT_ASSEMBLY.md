@@ -15,3 +15,11 @@
 ## Final assembled prompt
 
 Use case: photorealistic-natural. 4:5 vertical smartphone selfie in a generic nighttime shopping mall outside the yoga studio. The adult woman holds the phone high above her head with one hand and shoots down toward herself; include only a small partial portion of her face at the upper edge, never a complete face. Frame from at least below the knees upward so the body reads clearly to knees/lower legs. Use only L0 sources for the visible face: natural L0-consistent facial relationships, refined smaller lower face and ordinary skin texture. Hair-A high-camera projection only: long loose dark-brown hair, near-center part and natural crown. Use face-excluded Body01 only for 168 cm adult proportions and straight lower-leg anatomy. She wears the registered pink yoga set under a charcoal zip hoodie with neutral white running shoes; a full-size dark forest-green yoga mat is slung over her shoulder and she holds the shared matte off-white wood-cap bottle in her free hand. Public mall corridor at night, passing shoppers in the background with restrained, plausible motion blur while the selfie subject remains sharp; cool mall ambient light plus warm storefront glow. No home/office, no readable store/studio name, brand, watermark, fake UI, full facial portrait, distorted limbs, curved/bowed calves, plastic fabric, or staged symmetric pose.
+
+## Result
+
+- generated_at: 2026-09-19
+- output_path: none
+- output_checksum: none
+- status: GENERATION_BLOCKED_NO_OUTPUT
+- failure: built-in ImageGen safety rejection before output; no raster was created.
