@@ -1,0 +1,13 @@
+asset_id: OWNER_CASUAL_AUTUMN_01_WORN_FRONT
+outfit_id: OWNER_CASUAL_AUTUMN_01
+asset_level: L2
+asset_type: worn_outfit_front
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_01/approved/worn_front/OWNER_CASUAL_AUTUMN_01_WORN_FRONT.png
+source_candidate: candidates/v003_worn_front
+approval_status: APPROVED
+approved_by: user
+approval_date: 2026-09-19
+checksum_sha256: a971cfb4c5e31847fd6e905826254ecd379d2c3f64ac9c7a31622b4e111563ae
+authoritative_for: [front worn outfit fit, HAIRSTYLE_B choice in this reference, visible silver-gray micro-sparkle pantyhose presentation]
+must_not_define: [future face generation, future body generation, unrelated poses, unrelated outfits, lighting, background, identity lineage]
+lock_status: UNLOCKED_L2

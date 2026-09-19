@@ -6,10 +6,11 @@
 - asset_purpose: `design_reference`
 - view_type: `clothing_only_flat_lay_design_plate`
 - candidate_version: `v001`
-- status: `REVIEW_REQUIRED`
+- status: `APPROVED`
 - generation_tool: `built-in ImageGen`
 - generated_at: `2026-09-19`
-- output_path: `outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_01/candidates/v001_design_reference/OWNER_CASUAL_AUTUMN_01_DESIGN_REFERENCE_v001.png`
+- original_candidate_path: `outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_01/candidates/v001_design_reference/OWNER_CASUAL_AUTUMN_01_DESIGN_REFERENCE_v001.png`
+- approved_path: `outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_01/approved/design_reference/OWNER_CASUAL_AUTUMN_01_DESIGN_REFERENCE.png`
 - output_sha256: `c8f7ed6a8191f966271882ba8bbeed719b70731c34c79e265ade480543022270`
 - reference_budget: `4 garment-only references; no character, Canon, or previous-candidate image`
 
@@ -79,4 +80,11 @@ Avoid: person, model, mannequin, head, face, torso, skin, hands, legs, feet, bod
 - hosiery_continuity_and_material_check: `PASS_WITH_USER_REVIEW` — one waist-to-toe pantyhose garment; silver-gray micro-sparkle is non-oily and no bare toes appear
 - downstream_video_keyframe_reference_allowed: `false`
 - downstream_identity_lineage_allowed: `false`
-- decision: `PENDING_USER_REVIEW`
+- decision: `APPROVED_BY_USER`
+
+## Promotion provenance
+
+- user_approval_statement: `可以，无人物和最后这个有人物的都可以登记了`
+- approved_at: `2026-09-19`
+- approved_by: `user`
+- promotion_operation: `MOVED — candidate raster relocated unchanged; no second project raster retained`

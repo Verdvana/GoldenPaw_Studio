@@ -8,8 +8,8 @@
 - character_outfit_root: `outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_01`
 - garment_reference_dir: `reference_inputs/garment_references/`
 - garment_reference_files: `IMG_2812.jpg`, `IMG_2814.jpg`, `IMG_2816.JPG`, `IMG_2819.JPG`
-- status: `DESIGN_REFERENCE_CANDIDATE_IN_PROGRESS`
-- approval_status: `NOT_APPROVED`
+- status: `L2_COMPONENTS_APPROVED`
+- approval_status: `APPROVED_BY_USER`
 
 ## Reference boundary
 
@@ -34,6 +34,11 @@ not an identity reference.
 2. Register filenames, garment inventory and scoped responsibilities here.
 3. Create a separate L2 candidate only after the reference set and design brief are ready.
 4. Promotion to an approved L2 outfit requires explicit user approval.
+
+## Approved L2 components
+
+- `OWNER_CASUAL_AUTUMN_01_DESIGN_REFERENCE` — approved 2026-09-19; clothing-only design reference.
+- `OWNER_CASUAL_AUTUMN_01_WORN_FRONT` — approved 2026-09-19; front worn-outfit reference with HAIRSTYLE_B.
 
 ## Must not redefine
 

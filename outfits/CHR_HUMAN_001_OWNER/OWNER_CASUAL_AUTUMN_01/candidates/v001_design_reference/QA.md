@@ -12,4 +12,4 @@
 - hosiery_material_check: `PASS_WITH_USER_REVIEW` — silver-gray restrained micro-sparkle with textile appearance; no latex/PVC/oily hard highlight or bare toes
 - downstream_video_keyframe_reference_allowed: `false`
 - downstream_identity_lineage_allowed: `false`
-- decision: `PENDING_USER_REVIEW`
+- decision: `APPROVED_BY_USER` — user approval dated 2026-09-19

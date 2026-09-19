@@ -1,0 +1,13 @@
+asset_id: OWNER_CASUAL_AUTUMN_01_DESIGN_REFERENCE
+outfit_id: OWNER_CASUAL_AUTUMN_01
+asset_level: L2
+asset_type: outfit_design_reference
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_01/approved/design_reference/OWNER_CASUAL_AUTUMN_01_DESIGN_REFERENCE.png
+source_candidate: candidates/v001_design_reference
+approval_status: APPROVED
+approved_by: user
+approval_date: 2026-09-19
+checksum_sha256: c8f7ed6a8191f966271882ba8bbeed719b70731c34c79e265ade480543022270
+authoritative_for: [unworn garment construction, footwear construction, silver-gray micro-sparkle pantyhose material intent]
+must_not_define: [owner face, owner body, owner skin, owner hair, pose, lighting, background, identity]
+lock_status: UNLOCKED_L2

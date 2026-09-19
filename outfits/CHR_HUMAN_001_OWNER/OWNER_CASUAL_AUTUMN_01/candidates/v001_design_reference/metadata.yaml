@@ -2,7 +2,7 @@ asset_id: OWNER_CASUAL_AUTUMN_01_DESIGN_REFERENCE_v001
 asset_level: L2
 asset_type: outfit
 owner_id: CHR_HUMAN_001_OWNER
-file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_01/candidates/v001_design_reference/OWNER_CASUAL_AUTUMN_01_DESIGN_REFERENCE_v001.png
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_01/approved/design_reference/OWNER_CASUAL_AUTUMN_01_DESIGN_REFERENCE.png
 physical_file_role: UNIQUE_CANDIDATE
 source_images:
   - outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_01/reference_inputs/garment_references/IMG_2812.jpg
@@ -12,9 +12,13 @@ source_images:
 qa_comparison_only: []
 generated_or_real: GENERATED
 generation_record: candidates/v001_design_reference/generation_record.md
-approval_status: NOT_APPROVED
-authoritative_for: []
+approval_status: APPROVED_BY_USER
+approved_by: user
+approved_at: 2026-09-19
+original_candidate_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_01/candidates/v001_design_reference/OWNER_CASUAL_AUTUMN_01_DESIGN_REFERENCE_v001.png
+approved_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_01/approved/design_reference/OWNER_CASUAL_AUTUMN_01_DESIGN_REFERENCE.png
+authoritative_for: [unworn autumn casual outfit design, garment construction, footwear construction, silver-gray micro-sparkle pantyhose material intent]
 must_not_define: [owner face, owner body, owner skin, owner hair, pose, lighting, background, identity]
-quality_status: REVIEW_REQUIRED
+quality_status: APPROVED
 checksum_sha256: c8f7ed6a8191f966271882ba8bbeed719b70731c34c79e265ade480543022270
 created_at: 2026-09-19

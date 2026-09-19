@@ -1,0 +1,14 @@
+asset_id: OWNER_CASUAL_AUTUMN_01_WORN_FRONT_v002
+asset_level: L2
+asset_type: worn_outfit
+owner_id: CHR_HUMAN_001_OWNER
+file_path: pending generation
+physical_file_role: UNIQUE_CANDIDATE
+generated_or_real: GENERATED
+generation_record: candidates/v002_worn_front/generation_record.md
+approval_status: NOT_APPROVED
+authoritative_for: []
+must_not_define: [future face generation, future body generation, owner identity, unrelated outfit, hairstyle, lighting, background]
+quality_status: REVIEW_REQUIRED
+checksum_sha256: pending generation
+created_at: 2026-09-19
