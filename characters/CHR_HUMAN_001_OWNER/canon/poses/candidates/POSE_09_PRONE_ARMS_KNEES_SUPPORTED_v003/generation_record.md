@@ -55,7 +55,7 @@ The repository has no registered real-human source for this exact four-point sup
    - responsibility: exact approved left-three-quarter adult face, neutral expression and even natural skin.
    - must_not_define: body, pose, hair, clothing, hosiery, hands/feet, lighting or background.
 2. `OWNER_BODY_LEFT_3Q_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02_LEFT_3Q/OWNER_BODY_02_LEFT_3Q_CANON_001.png`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_02_LEFT_3Q_v001/BODY_02_LEFT_3Q_v001.png`
    - SHA-256: `f364b5c9b398c0c786964ffb8932707c7d657f997b8344abdd31a47b4322f4aa`
    - responsibility: approved 168 cm / 60 kg left-three-quarter body proportions, limb/hand/foot scale and unchanged visible Calibration Outfit, including scoped 15D matte nude appearance.
    - must_not_define: new face identity, four-point articulation, reusable hosiery/nail Material Canon, lighting or background.

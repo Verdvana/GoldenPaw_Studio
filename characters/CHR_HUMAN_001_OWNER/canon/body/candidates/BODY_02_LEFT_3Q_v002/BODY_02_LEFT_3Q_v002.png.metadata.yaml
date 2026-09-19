@@ -1,0 +1,21 @@
+asset_id: BODY_02_LEFT_3Q
+candidate_id: BODY_02_LEFT_3Q_v002
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1_CANDIDATE
+status: REVIEW_REQUIRED
+approval_status: REVIEW_REQUIRED
+file_path: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_02_LEFT_3Q_v002/BODY_02_LEFT_3Q_v002.png
+sha256: f951caddcd3a5a7547b2a3c59f0fe4a6d3192d6a9a4f1461f4c3c29202b012c9
+dimensions: 1086x1448
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_02_LEFT_3Q_v002/generation_record.md
+qa_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_02_LEFT_3Q_v002/QA.md
+generation_inputs:
+  - OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001
+  - L0_OWNER_013
+  - OWNER_HAIRSTYLE_A_FACE_MASKED_001
+  - OWNER_BODY_01_FRONT_V025_FACE_EXCLUDED_v1
+  - OWNER_BODY_06_BACK_V006_LOWER_BODY_FACE_HAIR_EXCLUDED_v1
+qa_comparison_only:
+  - OWNER_FACE_02_LEFT_3Q_NEUTRAL_CANON_001
+  - OWNER_BODY_02_LEFT_3Q_CANON_001
+notes: "Attempt 1 produced no raster after output-stage moderation. Attempt 2 produced this single candidate; user approval is required before any promotion."

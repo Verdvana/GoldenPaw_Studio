@@ -39,7 +39,7 @@ The user rejected v001 and authorized an independent v002 with three explicit co
    - responsibility: exact approved left-three-quarter face, calm neutral expression and even natural skin.
    - must_not_define: body, seated pose, hair, clothing, hosiery, feet, lighting or background.
 2. `OWNER_BODY_LEFT_3Q_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02_LEFT_3Q/OWNER_BODY_02_LEFT_3Q_CANON_001.png`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_02_LEFT_3Q_v001/BODY_02_LEFT_3Q_v001.png`
    - SHA-256: `f364b5c9b398c0c786964ffb8932707c7d657f997b8344abdd31a47b4322f4aa`
    - responsibility: approved 168 cm / 60 kg left-three-quarter body proportions, limb/foot scale, light-nude color baseline and unchanged Calibration Outfit.
    - must_not_define: new face identity, seated articulation, reusable material/nail Canon, lighting or background.

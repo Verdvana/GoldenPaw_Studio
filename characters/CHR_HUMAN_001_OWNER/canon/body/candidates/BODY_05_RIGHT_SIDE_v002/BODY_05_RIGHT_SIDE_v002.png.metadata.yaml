@@ -1,0 +1,11 @@
+asset_id: BODY_05_RIGHT_SIDE
+candidate_id: BODY_05_RIGHT_SIDE_v002
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1_CANDIDATE
+status: TECHNICAL_REJECTED
+approval_status: NOT_APPROVED
+file_path: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_05_RIGHT_SIDE_v002/BODY_05_RIGHT_SIDE_v002.png
+sha256: 08e92359b94e7b11c5270e045dc22ccf39e0f7efd6ab4b6926b5f387922358f0
+dimensions: 1086x1448
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_05_RIGHT_SIDE_v002/generation_record.md
+rejection_reason: "HAIRSTYLE_A drift: output contains an updo/bun and hair clip instead of long straight loose hair."

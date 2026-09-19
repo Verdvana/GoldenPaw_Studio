@@ -1,0 +1,14 @@
+asset_id: OWNER_CASUAL_AUTUMN_01_WORN_FRONT_v001
+asset_level: L2
+asset_type: worn_outfit
+owner_id: CHR_HUMAN_001_OWNER
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_01/candidates/v001_worn_front/OWNER_CASUAL_AUTUMN_01_WORN_FRONT_v001.png
+physical_file_role: UNIQUE_CANDIDATE
+generated_or_real: GENERATED
+generation_record: candidates/v001_worn_front/generation_record.md
+approval_status: NOT_APPROVED
+authoritative_for: []
+must_not_define: [future face generation, future body generation, owner identity, unrelated outfit, hairstyle, lighting, background]
+quality_status: REVIEW_REQUIRED
+checksum_sha256: 37895e50f464599b8fa7db2e16ccf0dda17e5cab617e98ac9d4c113b0527da51
+created_at: 2026-09-19

@@ -1,0 +1,24 @@
+asset_id: BODY_03_RIGHT_3Q
+candidate_id: BODY_03_RIGHT_3Q_v006
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1_CANDIDATE
+status: APPROVED_PROMOTION_SOURCE
+approval_status: APPROVED
+file_path: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_03_RIGHT_3Q/OWNER_BODY_03_RIGHT_3Q_CANON_002.png
+sha256: 2a18d38fb4441d50427753263700699a6ce2f571ae5a497720c8c4158fd658a7
+dimensions: 1086x1448
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_03_RIGHT_3Q_v006/generation_record.md
+qa_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_03_RIGHT_3Q_v006/QA.md
+generation_inputs:
+  - OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001
+  - L0_OWNER_012
+  - OWNER_HAIRSTYLE_A_FACE_MASKED_001
+  - OWNER_BODY_01_FRONT_V025_FACE_EXCLUDED_v1
+  - OWNER_BODY_06_BACK_V006_LOWER_BODY_FACE_HAIR_EXCLUDED_v1
+qa_comparison_only:
+  - OWNER_FACE_03_RIGHT_3Q_NEUTRAL_CANON_001
+  - OWNER_BODY_03_RIGHT_3Q_CANON_001
+approved_component: OWNER_BODY_03_RIGHT_3Q_CANON_002
+approved_at: "2026-09-19"
+approver: user
+notes: "Fresh independent right-three-quarter body candidate; all prior BODY_03 pixels excluded from generation inputs. User explicitly approved v006; sole raster moved unchanged to Canon 002."

@@ -3,7 +3,7 @@
 - approval_id: `APPROVAL_OWNER_POSE_05_SLIGHT_BODY_TURN_REUSE_001`
 - underlying_asset_id: `OWNER_BODY_02_LEFT_3Q_CANON_001`
 - pose_component: `POSE_05_SLIGHT_BODY_TURN`
-- physical_master: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02_LEFT_3Q/OWNER_BODY_02_LEFT_3Q_CANON_001.png`
+- physical_master: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_02_LEFT_3Q_v001/BODY_02_LEFT_3Q_v001.png`
 - proposed_level: L1 component
 - decision: APPROVED
 - approver: user

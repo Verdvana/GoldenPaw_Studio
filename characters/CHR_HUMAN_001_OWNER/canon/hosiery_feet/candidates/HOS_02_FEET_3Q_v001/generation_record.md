@@ -32,7 +32,7 @@ The user's instruction to begin the next item authorizes exactly one independent
 ## Reference responsibilities
 
 1. `OWNER_BODY_LEFT_3Q_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02_LEFT_3Q/OWNER_BODY_02_LEFT_3Q_CANON_001.png`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_02_LEFT_3Q_v001/BODY_02_LEFT_3Q_v001.png`
    - SHA-256: `f364b5c9b398c0c786964ffb8932707c7d657f997b8344abdd31a47b4322f4aa`
    - responsibility: approved owner anatomical-left 3/4 lower-leg, ankle and foot geometry/proportions, direction, natural neutral stance and floor contact, natural skin-tone baseline, and burgundy toenail direction.
    - must_not_define: final reusable Gate-7 hosiery material detail, other views, new identity/body design, lighting or background.

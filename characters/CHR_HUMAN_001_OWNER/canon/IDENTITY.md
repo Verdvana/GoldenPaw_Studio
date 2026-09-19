@@ -4,10 +4,10 @@
 document_id: OWNER_IDENTITY_ANCHOR
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-revision: draft_0.184
+revision: draft_0.187
 status: DRAFT
 source_manifest: source/identity/SOURCE_MANIFEST.md
-updated_at: "2026-09-17"
+updated_at: "2026-09-19"
 ```
 
 本文件是 L0 真人照片、用户指定的 L1 目标外观锚与 L1 Face Canon 候选之间的文字身份锚。当前版本尚未获得最终身份批准，可根据用户对候选图的明确反馈继续修订。
@@ -210,7 +210,9 @@ updated_at: "2026-09-17"
 - 用户确认 `BODY_03_RIGHT_3Q_v003` 除丝袜质感外均完美；v004 只把新登记的 `L0_HOS_15_NM_011` 用于增强全腿至脚部的15D肉色哑光/天鹅绒织物存在感、透明度与柔化覆盖，不继承该素材的坐姿、身体/脚形、肤色、甲色、服装、背景或水印，也不输入 v003 像素。
 - `BODY_03_RIGHT_3Q_v005` 已由用户明确批准为 `OWNER_BODY_03_RIGHT_3Q_CANON_001`；批准范围包括右 3/4 身体轮廓与深度、168 cm / 60 kg 比例保持、正常双脚接地，以及本 Body 组件内由 `L0_HOS_15_NM_011` scoped derivative 指导的15D肉色哑光/天鹅绒丝袜呈现。Gate-7 最终丝袜材质权威仍独立建立。
 - `BODY_04_LEFT_SIDE_v002` 已由用户明确批准为 `OWNER_BODY_04_LEFT_SIDE_CANON_001`；批准范围包括完整左侧面身体轮廓与保守深度、168 cm / 60 kg 比例保持、中性双脚接地、自然侧面肢体遮挡，以及本 Body 组件内由用户指定丝袜素材派生图指导的15D肉色哑光/天鹅绒丝袜呈现。Gate-7 最终丝袜材质权威仍独立建立。
+- 用户明确批准 `BODY_04_LEFT_SIDE_v003` 并登记为当前 Body04；v003 原图无修改移动晋升为 `OWNER_BODY_04_LEFT_SIDE_CANON_002`，取代 Canon 001 的活动路由。批准范围包括完整左侧面中性站姿、Body01/06 对齐的身体与腿轴、接地以及长直披散 `HAIRSTYLE_A`；Canon 001 已原样返回 v002 候选目录，完整 owner_v1.0 仍未锁定。
 - `BODY_05_RIGHT_SIDE_v001` 已由用户明确批准为 `OWNER_BODY_05_RIGHT_SIDE_CANON_001`；批准范围包括完整右侧面身体轮廓与保守深度、168 cm / 60 kg 比例保持、中性接地、自然侧面肢体/远侧脚跟遮挡，以及本 Body 组件内连续的15D肉色哑光/天鹅绒丝袜呈现。Gate-7 最终丝袜材质权威仍独立建立。
+- 用户明确要求将 `BODY_05_RIGHT_SIDE_v003` 登记为当前 Body05；v003 原图无修改移动晋升为 `OWNER_BODY_05_RIGHT_SIDE_CANON_002`，取代 Canon 001 的活动路由。批准范围包括完整右侧面中性站姿、168 cm / 60 kg 体量、腿轴与接地，以及无盘发/发饰的长直披散 `HAIRSTYLE_A`；Canon 001 已原样返回 v001 候选目录，完整 owner_v1.0 仍未锁定。
 - `BODY_06_BACK_v001` 已由用户明确批准为 `OWNER_BODY_06_BACK_CANON_001`；批准范围包括完整180度背面身体轮廓与保守后侧深度、168 cm / 60 kg 比例保持、头身一致朝后、双脚跟直接接地、该 Body 组件内保守的 HAIRSTYLE_A 后落及连续15D肉色哑光/天鹅绒丝袜呈现。它不替代 `HAIR_A_04_BACK` 或 Gate-7 材质权威。六个 Body 组件已全部批准，Gate 4 开放。
 
 ## FACE_01 必须保持
@@ -386,6 +388,8 @@ updated_at: "2026-09-17"
 | draft_0.44 | 2026-09-12 | 用户批准 BODY_03 右 3/4 v005 为 `OWNER_BODY_03_RIGHT_3Q_CANON_001`；登记右向身体轮廓、比例、接地脚部与本组件内15D肉色哑光/天鹅绒丝袜表现，完整 owner_v1.0 仍未锁定 | user approved component |
 | draft_0.45 | 2026-09-12 | 用户批准 BODY_04 左侧面 v002 为 `OWNER_BODY_04_LEFT_SIDE_CANON_001`；登记左侧面轮廓/深度、比例、接地、自然遮挡及本组件内15D肉色哑光/天鹅绒丝袜表现，完整 owner_v1.0 仍未锁定 | user approved component |
 | draft_0.46 | 2026-09-12 | 用户批准 BODY_05 右侧面 v001 为 `OWNER_BODY_05_RIGHT_SIDE_CANON_001`；登记右侧面轮廓/深度、比例、接地、自然遮挡及本组件内15D肉色哑光/天鹅绒丝袜表现，BODY_06 成为剩余 Body 视角 | user approved component |
+| draft_0.186 | 2026-09-19 | 用户明确要求登记 `BODY_05_RIGHT_SIDE_v003`；原图无修改晋升为当前 `OWNER_BODY_05_RIGHT_SIDE_CANON_002`，确认右侧面比例、接地、长直披散 HAIRSTYLE_A。Canon 001 原样返回 v001 候选目录，不再作为活动路由 | user approved component replacement |
+| draft_0.187 | 2026-09-19 | 用户明确批准并登记 `BODY_04_LEFT_SIDE_v003`；原图无修改晋升为当前 `OWNER_BODY_04_LEFT_SIDE_CANON_002`，确认左侧面、Body01/06 对齐几何、接地和长直披散 HAIRSTYLE_A。Canon 001 原样返回 v002 候选目录，不再作为活动路由 | user approved component replacement |
 | draft_0.47 | 2026-09-12 | 用户批准 BODY_06 背面 v001 为 `OWNER_BODY_06_BACK_CANON_001`；登记完整背面轮廓/深度、比例、头身朝向、接地、保守发型后落及本组件内丝袜表现。六个 Body 组件全部批准，Gate 4 开放，完整 owner_v1.0 仍未锁定 | user approved component |
 | draft_0.48 | 2026-09-12 | 用户确认 HAIR_A_01 正面 v001 除鼻部略大外其余方向可保持；将鼻部判定为候选漂移而非新身份事实，v002 必须回归批准 FACE_01 鼻部比例并修正发尾裁切，禁止使用 v001 像素 | user scoped review incorporated |
 | draft_0.49 | 2026-09-12 | 用户明确批准 `HAIR_A_01_FRONT_v002`；按单文件规则晋升为 `OWNER_HAIR_A_01_FRONT_CANON_001`，仅批准眼平标准正面 Hairstyle-A 的分缝、体积、长直披散发束、色调/高光、完整长度与渐细发尾，不取得脸部或其他发型角度权威。Hair A 完成 1/6，完整 owner_v1.0 仍未锁定 | user approved component |

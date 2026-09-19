@@ -56,7 +56,7 @@ The repository has no registered real-human source for this exact half-kneeling 
    - responsibility: exact approved right-three-quarter adult face, neutral expression and even natural skin.
    - must_not_define: body, pose, hair, clothing, hosiery, hands/feet, lighting or background.
 2. `OWNER_BODY_RIGHT_3Q_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_03_RIGHT_3Q/OWNER_BODY_03_RIGHT_3Q_CANON_001.png`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_03_RIGHT_3Q_v005/BODY_03_RIGHT_3Q_v005.png`
    - SHA-256: `32f87f0232bb087b434d1818ec22d2db1ba4311ec73b7e0fe2ebf380279412fd`
    - responsibility: approved 168 cm / 60 kg right-three-quarter body proportions, limb/hand/foot scale and unchanged visible Calibration Outfit, including scoped 15D matte nude appearance.
    - must_not_define: new face identity, half-kneeling articulation, reusable hosiery/nail Material Canon, lighting or background.

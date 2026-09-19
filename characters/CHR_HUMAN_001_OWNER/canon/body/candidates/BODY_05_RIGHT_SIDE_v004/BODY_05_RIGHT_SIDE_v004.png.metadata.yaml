@@ -1,0 +1,13 @@
+asset_id: BODY_05_RIGHT_SIDE
+candidate_id: BODY_05_RIGHT_SIDE_v004
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1_CANDIDATE
+status: REVIEW_REQUIRED
+approval_status: NOT_APPROVED
+file_path: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_05_RIGHT_SIDE_v004/BODY_05_RIGHT_SIDE_v004.png
+sha256: bd56563757ada7fccf2e7bbdba6694d9f4556f7c911694255b804fbf5e71ab45
+dimensions: 1086x1448
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_05_RIGHT_SIDE_v004/generation_record.md
+technical_precheck: PASS
+requested_refinement: "Modestly fuller and slightly lifted natural gluteal side contour; waist, pelvis, thigh/calf volume and leg axes unchanged."
+hairstyle_check: "PASS: HAIRSTYLE_A long straight loose near-center-parted hair; no bun, updo, clip, pin, braid, tie, ponytail, or gathered structure."

@@ -2,7 +2,7 @@
 
 - approval_id: APPROVAL_OWNER_BODY_03_RIGHT_3Q_001
 - asset_id: OWNER_BODY_03_RIGHT_3Q_CANON_001
-- asset_path: `../OWNER_BODY_03_RIGHT_3Q_CANON_001.png`
+- asset_path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_03_RIGHT_3Q_v005/BODY_03_RIGHT_3Q_v005.png`
 - source_candidate: BODY_03_RIGHT_3Q_v005
 - approved_level: L1 component
 - decision: APPROVED
@@ -36,4 +36,3 @@ After reviewing `BODY_03_RIGHT_3Q_v005`, the user stated: “很好，可以登�
 ## Promotion action
 
 The v005 PNG is moved unchanged to the approved Master path rather than copied. The candidate directory retains records and a record-only promotion pointer, with no duplicate raster. The complete `owner_v1.0` release remains unlocked.
-

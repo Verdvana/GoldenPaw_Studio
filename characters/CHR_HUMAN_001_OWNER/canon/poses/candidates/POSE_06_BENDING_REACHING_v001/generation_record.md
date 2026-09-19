@@ -37,7 +37,7 @@ The user requested the next planned Pose asset after approving POSE_05 reuse. No
    - responsibility: exact approved left-three-quarter facial identity, neutral feature relationships and clean even skin presentation.
    - must_not_define: body, bending/reaching articulation, hair, outfit, hosiery, feet, lighting or background.
 2. `OWNER_BODY_LEFT_3Q_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02_LEFT_3Q/OWNER_BODY_02_LEFT_3Q_CANON_001.png`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_02_LEFT_3Q_v001/BODY_02_LEFT_3Q_v001.png`
    - responsibility: approved 168 cm / 60 kg left-three-quarter body proportions, limb/foot scale, Calibration Outfit and continuous 15D matte nude hosiery context.
    - must_not_define: new identity, the bending/reaching motion, other Pose components, reusable hosiery/nail-color Canon, lighting or background.
 3. `OWNER_HAIR_A_FRONT_CANON_L1`

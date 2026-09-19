@@ -40,7 +40,7 @@ The registered crouching-material set `HOS_15D_NUDE_MATTE_CROUCHING` still resol
    - responsibility: exact approved right-three-quarter facial identity, calm closed-mouth neutral expression and even natural skin.
    - must_not_define: body, pose, hair, clothing, hosiery, feet, lighting or background.
 2. `OWNER_BODY_RIGHT_3Q_CANON_L1`
-   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_03_RIGHT_3Q/OWNER_BODY_03_RIGHT_3Q_CANON_001.png`
+   - path: `characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_03_RIGHT_3Q_v005/BODY_03_RIGHT_3Q_v005.png`
    - SHA-256: `32f87f0232bb087b434d1818ec22d2db1ba4311ec73b7e0fe2ebf380279412fd`
    - responsibility: approved 168 cm / 60 kg right-three-quarter body proportions, limb and foot scale, Calibration Outfit and visible 15D light-nude matte presentation.
    - must_not_define: new face identity, kneeling/crouching articulation, reusable hosiery/nail-color Canon, lighting or background.

@@ -276,6 +276,13 @@ reference_sets:
     usable_for_generation: true
     assets:
       - {asset_id: OWNER_BODY_01_FRONT_V025_FACE_EXCLUDED_v1, path: "characters/CHR_HUMAN_001_OWNER/canon/body/reference_inputs/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v7/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_CROP.png"}
+  OWNER_BODY_REAR_CURRENT_LOWER_BODY_FACE_HAIR_EXCLUDED_DERIVATIVE:
+    purpose: "current approved back Body06 lower-body geometry for cross-view alignment; retains hips, thighs, calves, ankles, heels and feet only; must not define face, skin identity, hair, clothing design, hosiery material, lighting or background"
+    max_images: 1
+    approval_status: "APPROVED_DERIVATIVE"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_BODY_06_BACK_V006_LOWER_BODY_FACE_HAIR_EXCLUDED_v1, path: "characters/CHR_HUMAN_001_OWNER/canon/body/reference_inputs/BODY_06_BACK_V006_LOWER_BODY_FACE_HAIR_EXCLUDED_v1/BODY_06_BACK_V006_LOWER_BODY_FACE_HAIR_EXCLUDED_CROP.png"}
   OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_L1:
     purpose: "approved L1 Hosiery/Feet Master for the straight-on knees-to-feet view: front lower-leg/foot proportions and contact, continuous 15D nude matte/velvet closed-toe hosiery presentation in this view, and softened burgundy toenails beneath the textile; must not define complete identity/body, other foot views, other hosiery deniers/colors/finishes/constructions, lighting or background"
     max_images: 1
@@ -312,12 +319,12 @@ reference_sets:
     assets:
       - {asset_id: OWNER_POSE_04_SEATED_RELAXED_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/poses/approved/POSE_04_SEATED_RELAXED/OWNER_POSE_04_SEATED_RELAXED_CANON_001.png"}
   OWNER_POSE_05_SLIGHT_BODY_TURN_CANON_L1:
-    purpose: "explicitly approved Pose-05 reuse of the unique OWNER_BODY_02_LEFT_3Q_CANON_001 raster: approximately 35–45-degree left-three-quarter neutral standing turn only; must not define rightward turns, other poses, episode performance, permanent identity, or broader garment/material authority"
+    purpose: "explicitly approved Pose-05 reuse of the historical OWNER_BODY_02_LEFT_3Q_CANON_001 raster: approximately 35–45-degree left-three-quarter neutral standing turn only; must not define rightward turns, other poses, episode performance, permanent identity, or broader garment/material authority"
     max_images: 1
     approval_status: "APPROVED"
     usable_for_generation: true
     assets:
-      - {asset_id: OWNER_BODY_02_LEFT_3Q_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02_LEFT_3Q/OWNER_BODY_02_LEFT_3Q_CANON_001.png"}
+      - {asset_id: OWNER_BODY_02_LEFT_3Q_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_02_LEFT_3Q_v001/BODY_02_LEFT_3Q_v001.png"}
   OWNER_POSE_06_BENDING_REACHING_CANON_L1:
     purpose: "approved L1 Pose Master for left-three-quarter bending/reaching articulation, natural hip hinge, soft knee flexion, forward-down reach, staggered support, arm counterbalance and valid raised rear heel only; must not define permanent identity/body/hair, garment design, hosiery material or color, toe treatment, nail color, other poses, lighting or background; known visible material limitations are excluded"
     max_images: 1
@@ -357,28 +364,28 @@ reference_sets:
     approval_status: "APPROVED"
     usable_for_generation: true
     assets:
-      - {asset_id: OWNER_BODY_02_LEFT_3Q_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02_LEFT_3Q/OWNER_BODY_02_LEFT_3Q_CANON_001.png"}
+      - {asset_id: OWNER_BODY_02_LEFT_3Q_CANON_002, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_02_LEFT_3Q/OWNER_BODY_02_LEFT_3Q_CANON_002.png"}
   OWNER_BODY_RIGHT_3Q_CANON_L1:
     purpose: "approved L1 Master for owner anatomical-right three-quarter neutral standing geometry, conservative depth relationship, preservation of the 168 cm / 60 kg target, normal flat-foot contact and visible 15D nude matte/velvet presentation within this Body component"
     max_images: 1
     approval_status: "APPROVED"
     usable_for_generation: true
     assets:
-      - {asset_id: OWNER_BODY_03_RIGHT_3Q_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_03_RIGHT_3Q/OWNER_BODY_03_RIGHT_3Q_CANON_001.png"}
+      - {asset_id: OWNER_BODY_03_RIGHT_3Q_CANON_002, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_03_RIGHT_3Q/OWNER_BODY_03_RIGHT_3Q_CANON_002.png"}
   OWNER_BODY_LEFT_SIDE_CANON_L1:
     purpose: "approved L1 Master for owner anatomical-left neutral side-standing geometry, conservative depth, preservation of the 168 cm / 60 kg target, natural exact-profile overlap, floor contact and visible 15D nude matte/velvet presentation within this Body component"
     max_images: 1
     approval_status: "APPROVED"
     usable_for_generation: true
     assets:
-      - {asset_id: OWNER_BODY_04_LEFT_SIDE_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_04_LEFT_SIDE/OWNER_BODY_04_LEFT_SIDE_CANON_001.png"}
+      - {asset_id: OWNER_BODY_04_LEFT_SIDE_CANON_002, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_04_LEFT_SIDE/OWNER_BODY_04_LEFT_SIDE_CANON_002.png"}
   OWNER_BODY_RIGHT_SIDE_CANON_L1:
     purpose: "approved L1 Master for owner anatomical-right neutral side-standing geometry, conservative depth, preservation of the 168 cm / 60 kg target, natural exact-profile overlap, floor contact and visible 15D nude matte/velvet presentation within this Body component"
     max_images: 1
     approval_status: "APPROVED"
     usable_for_generation: true
     assets:
-      - {asset_id: OWNER_BODY_05_RIGHT_SIDE_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_05_RIGHT_SIDE/OWNER_BODY_05_RIGHT_SIDE_CANON_001.png"}
+      - {asset_id: OWNER_BODY_05_RIGHT_SIDE_CANON_002, path: "characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_05_RIGHT_SIDE/OWNER_BODY_05_RIGHT_SIDE_CANON_002.png"}
   OWNER_BODY_BACK_CANON_L1:
     purpose: "approved L1 Master for owner exact 180-degree neutral back-standing geometry, conservative rear depth, preservation of the 168 cm / 60 kg target, aligned backward head/body orientation, direct heel contact, conservative Hairstyle-A rear fall and visible 15D nude matte/velvet presentation within this Body component"
     max_images: 1

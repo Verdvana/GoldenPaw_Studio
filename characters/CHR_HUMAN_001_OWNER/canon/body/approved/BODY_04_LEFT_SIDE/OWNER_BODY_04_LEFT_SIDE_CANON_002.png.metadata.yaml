@@ -1,0 +1,21 @@
+asset_id: OWNER_BODY_04_LEFT_SIDE_CANON_002
+candidate_id: BODY_04_LEFT_SIDE_v003
+character_id: CHR_HUMAN_001_OWNER
+asset_level: L1
+status: APPROVED
+approval_status: APPROVED
+file_path: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_04_LEFT_SIDE/OWNER_BODY_04_LEFT_SIDE_CANON_002.png
+sha256: 7c1c7f5eaf5699f4e39493ad4cfe120ee42497b2bc405137c901b87df843abd1
+dimensions: 1086x1448
+generation_record: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_04_LEFT_SIDE_v003/generation_record.md
+technical_precheck: PASS
+hairstyle_check: "PASS: HAIRSTYLE_A long straight loose near-center-parted hair; no bun, updo, clip, pin, braid, tie, ponytail, or gathered structure."
+approval_record: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_04_LEFT_SIDE/approvals/APPROVAL_OWNER_BODY_04_LEFT_SIDE_002.md
+lock_status: UNLOCKED_COMPONENT
+source_candidate: BODY_04_LEFT_SIDE_v003
+original_candidate_path: characters/CHR_HUMAN_001_OWNER/canon/body/candidates/BODY_04_LEFT_SIDE_v003/BODY_04_LEFT_SIDE_v003.png
+original_candidate_checksum_sha256: 7c1c7f5eaf5699f4e39493ad4cfe120ee42497b2bc405137c901b87df843abd1
+promoted_asset_path: characters/CHR_HUMAN_001_OWNER/canon/body/approved/BODY_04_LEFT_SIDE/OWNER_BODY_04_LEFT_SIDE_CANON_002.png
+promoted_asset_checksum_sha256: 7c1c7f5eaf5699f4e39493ad4cfe120ee42497b2bc405137c901b87df843abd1
+quality_status: PASS_USER_APPROVED_PROMOTED
+notes: "User-approved v003 moved unchanged here; Canon 001 was returned unchanged to its original v002 candidate directory."
