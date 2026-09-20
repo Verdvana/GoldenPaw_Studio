@@ -19,7 +19,7 @@
 
 | Image asset ID | Candidate ID | Intended framing/action | Aspect ratio | Status |
 |---|---|---|---|---|
-| SOC_YOGA_001_IMG_01 | SOC_YOGA_001_IMG_01_CAND_03 | 商场瑜伽室外连廊，单腿站立、手机完全挡脸的夜间到店自拍 | 4:5 | APPROVED_L3 |
+| SOC_YOGA_001_IMG_01 | SOC_YOGA_001_IMG_01_CAND_13 | 商场公共连廊高举手机俯拍自拍；脸部仅在上缘局部出现，身体至鞋，手持白提环盖水壶 | 4:5 | APPROVED_L3_v2 |
 | SOC_YOGA_001_IMG_02 | SOC_YOGA_001_IMG_02_CAND_04 | 瑜伽室对镜侧身站姿自拍；单脚站直、另一小腿后叠 | 4:5 | APPROVED_L3 |
 | SOC_YOGA_001_IMG_03 | SOC_YOGA_001_IMG_03_CAND_10 | 非镜面直接手机自拍的垫上练习间隙；脸不入镜 | 4:5 | APPROVED_L3 |
 
@@ -30,7 +30,7 @@
 - hairstyle: HAIRSTYLE_A only where hair is visible; scoped front/rear responsibilities selected per image.
 - outfit: `OWNER_SPORT_YOGA_01_WORN_FRONT`, SHA-256 `c5608be7d74607b5babd4158fe2b31f492f0c9b99ddcd224770c0901fd1bc59d`.
 - temporary layers: charcoal zip hoodie and neutral white running shoes in image 01 only.
-- props: one dark forest-green 6 mm yoga mat and one 700 ml matte off-white insulated water bottle with a plain wood-toned cap, common to all three images.
+- props: one dark forest-green 6 mm yoga mat and one 700 ml matte off-white insulated water bottle with a plain matte-white integrated loop-handle screw cap, common to all three images.
 - environment: generic indoor shopping-mall public corridor (image 01); generic mall yoga studio (images 02–03).
 
 ## Platform and crop contract
@@ -41,7 +41,7 @@
 
 ## Carousel-only continuity
 
-Same night, same dark forest-green 6 mm yoga mat, same 700 ml matte off-white bottle with wood-toned cap, same registered yoga outfit. Image 01 adds charcoal zip hoodie and neutral white running shoes; images 02–03 have neither hoodie nor shoes. Image 01 uses cool mall night lighting; images 02–03 use warm, dimmable yoga-studio lighting. Each image remains independent.
+Same night, same dark forest-green 6 mm yoga mat, same 700 ml matte off-white bottle with matte-white integrated loop-handle cap, same registered yoga outfit. Image 01 adds a user-selected temporary zip jacket and neutral white running shoes; images 02–03 have neither jacket nor shoes. Image 01 uses cool mall night lighting; images 02–03 use warm, dimmable yoga-studio lighting. Each image remains independent.
 
 ## Explicit generation gate
 
@@ -55,6 +55,16 @@ Same night, same dark forest-green 6 mm yoga mat, same 700 ml matte off-white bo
 - approval_date: 2026-09-19
 - approval_evidence: “好，图1先登记”
 - approved_path: `images/SOC_YOGA_001_IMG_01/approved/SOC_YOGA_001_IMG_01_APPROVED_v1.png`
+- scope: L3 post-image approval only; not Canon and not a downstream visual input.
+
+## Approval record — Image 01 revision v2
+
+- approved_by: user
+- approval_date: 2026-09-19
+- approval_evidence: “批准。这个帖子完结”
+- approved_path: `images/SOC_YOGA_001_IMG_01/approved/SOC_YOGA_001_IMG_01_APPROVED_v2.png`
+- approved_checksum: `88f9ed6fa75d308b7dd0427e7f3186354460d23d6564a294470c95d9ddafa157`
+- supersedes: Image 01 v1 for this post's active carousel presentation; v1 remains preserved as an earlier approved L3 revision.
 - scope: L3 post-image approval only; not Canon and not a downstream visual input.
 
 ## Approval record — Image 03
@@ -79,4 +89,4 @@ Same night, same dark forest-green 6 mm yoga mat, same 700 ml matte off-white bo
 - published_date: 2026-09-19
 - publication_evidence: final per-image approval of the three-image post
 - final_state: COMPLETE
-- note: all three approved images are post-specific L3 assets only. None is Canon or authorized as a downstream visual generation input.
+- note: Image 01 active revision is v2, approved in the final completion instruction. All three approved images are post-specific L3 assets only. None is Canon or authorized as a downstream visual generation input.
