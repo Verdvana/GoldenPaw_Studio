@@ -1,0 +1,22 @@
+# Generation Record — SOC_TRAVEL_001_IMG_02_CAND_03
+
+- asset_id: `SOC_TRAVEL_001_IMG_02`
+- candidate_id: `SOC_TRAVEL_001_IMG_02_CAND_03`
+- post_id: `SOC_TRAVEL_001`
+- asset_level: `L3`
+- status: `APPROVED_L3`
+- generation_mode: `built-in image_gen generate`
+- source_lineage: `fresh parallel generation; no prior AI candidate input`
+- reference_set_ids: `OWNER_FACE_LEFT_3Q_NEUTRAL_RECOVERY_V1`, `OWNER_BODY_FRONT_CURRENT_V025_FACE_EXCLUDED_DERIVATIVE`, `OWNER_HAIR_B_LEFT_3Q_CANON_L1`, `OWNER_CASUAL_AUTUMN_01`
+- generation_inputs: see `REFERENCE_PLAN.md`
+- qa_comparison_only: approved Face 02 Left 3Q, approved Body 01 Front and outfit design reference
+- original_candidate_path: `social_posts/TRAVEL/SOC_TRAVEL_001/images/SOC_TRAVEL_001_IMG_02/candidates/SOC_TRAVEL_001_IMG_02_CAND_03/SOC_TRAVEL_001_IMG_02_CAND_03.png`
+- output_path: `social_posts/TRAVEL/SOC_TRAVEL_001/images/SOC_TRAVEL_001_IMG_02/approved/SOC_TRAVEL_001_IMG_02_APPROVED_v1.png`
+- output_checksum_sha256: `21d663fd0fd08fb6e806ecbca5d1d9bac70cd1cdd675f940510a5e4ec6b097d5`
+- output_dimensions: `1122x1402`
+- current_approved_path: `social_posts/TRAVEL/SOC_TRAVEL_001/images/SOC_TRAVEL_001_IMG_02/approved/SOC_TRAVEL_001_IMG_02_APPROVED_v1.png`
+- qa_status: `PASSED_USER_REVIEW`
+- approval_evidence: `用户“不错 批准。”`
+- approval_date: `2026-09-20`
+- approval_status: `APPROVED_L3`
+- approval_status: `REVIEW_REQUIRED`

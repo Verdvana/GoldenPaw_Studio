@@ -1,0 +1,7 @@
+# Prompt Assembly — SOC_TRAVEL_001_IMG_03_CAND_04
+
+Create a candid third-person travel photograph on Nanjing Xinjiekou pedestrian street at unmistakable night, vertical 4:5, professional Sony A7C II look, 50mm equivalent. The same woman in the approved autumn casual outfit is crouching beside a calm black-and-white tuxedo cat and gently stroking its back. One leg is in a normal squat with the foot flat; the other knee is close to the ground with the forefoot planted and heel naturally raised. She has a natural open-mouth teeth smile and looks at the cat, never at the camera. Use HAIRSTYLE_B, no coat, no bag.
+
+Make this a clearly direct on-camera flash snapshot: the woman, cat, hands, lace yoke, ruffled skirt, hosiery and nearby pavement are crisply lit by a realistic hard but controlled flash; the background falls quickly into deep navy-black night with dim storefronts, distant pedestrian lights and small warm/cool bokeh pools. The ambient background must not look like dusk or daylight. Preserve realistic skin and fabric texture, coherent silver-gray hosiery sparkle, no blown highlights, no beauty-light glow, no studio look.
+
+The camera must feel casually repositioned and slightly tilted, about 6–10 degrees off level, with diagonal pavement and storefront lines; asymmetrical candid framing, woman on the right and cat lower-left, as if a companion took the shot while moving. Do not use a centered, perfectly level, posed composition. No readable signs, fake text, logos or glamour low angle.

@@ -1,0 +1,21 @@
+# Generation Record — SOC_WORKDAY_001_IMG_03_CAND_04
+
+- asset_id: `SOC_WORKDAY_001_IMG_03`
+- candidate_id: `SOC_WORKDAY_001_IMG_03_CAND_04`
+- asset_level: L3
+- status: USER_APPROVED_L3
+- generation_date: 2026-09-20
+- generation_gate: user revision — left-leg outward bend, left hand lowering left rear strap, right hand holding phone, single-foot focus
+- output_path: `social_posts/WORKDAY/SOC_WORKDAY_001/images/SOC_WORKDAY_001_IMG_03/candidates/SOC_WORKDAY_001_IMG_03_CAND_04/SOC_WORKDAY_001_IMG_03_CAND_04.png`
+- output_sha256: `d877a16e2564aad68a5313babe421dfeb8d7879ab26d4a2017f840c4d19782f1`
+- output_dimensions: `1122x1402` PNG, RGB
+- current_approved_path: `social_posts/WORKDAY/SOC_WORKDAY_001/images/SOC_WORKDAY_001_IMG_03/approved/SOC_WORKDAY_001_IMG_03_APPROVED_v1.png`
+- approval_date: 2026-09-20
+- approval_evidence: user said “好啦，登记”
+- promotion_operation: MOVED, not copied
+- settings: built-in ImageGen, photorealistic-natural, target 4:5 vertical social still; seed unavailable
+- spec_revision: `draft_1.233`
+- generation_inputs: approved outfit, current face-excluded Body Canon derivative, scoped 15D nude matte material crop and seated mechanics reference; no previous shot image used
+- qa_comparison_only: none expected because the face is intentionally out of frame
+- prompt_assembly: `PROMPT_ASSEMBLY.md`
+- QA status: not started

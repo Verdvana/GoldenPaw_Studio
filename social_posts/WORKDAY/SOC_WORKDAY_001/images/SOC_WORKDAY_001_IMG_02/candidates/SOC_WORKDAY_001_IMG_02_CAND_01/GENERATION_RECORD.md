@@ -1,0 +1,21 @@
+# Generation Record — SOC_WORKDAY_001_IMG_02_CAND_01
+
+- asset_id: `SOC_WORKDAY_001_IMG_02`
+- candidate_id: `SOC_WORKDAY_001_IMG_02_CAND_01`
+- asset_level: L3
+- status: USER_APPROVED_L3
+- generation_date: 2026-09-20
+- generation_gate: user requested to proceed with the second image after pausing first-image iterations
+- output_path: `social_posts/WORKDAY/SOC_WORKDAY_001/images/SOC_WORKDAY_001_IMG_02/candidates/SOC_WORKDAY_001_IMG_02_CAND_01/SOC_WORKDAY_001_IMG_02_CAND_01.png`
+- output_sha256: `014886b306f64acaa0218dc6f700186c99e85efe01efb02f3d2c2d394e55ab0f`
+- output_dimensions: `1122x1402` PNG, RGB
+- current_approved_path: `social_posts/WORKDAY/SOC_WORKDAY_001/images/SOC_WORKDAY_001_IMG_02/approved/SOC_WORKDAY_001_IMG_02_APPROVED_v1.png`
+- approval_date: 2026-09-20
+- approval_evidence: user said “批准。下一张”
+- promotion_operation: MOVED, not copied
+- settings: built-in ImageGen, photorealistic-natural, target 4:5 vertical social still; seed unavailable
+- spec_revision: `draft_1.233`
+- generation_inputs: see `../../REFERENCE_PLAN.md`; outfit and scoped hairstyle references only as needed
+- qa_comparison_only: approved owner Face Canon, only for post-generation comparison
+- prompt_assembly: `PROMPT_ASSEMBLY.md`
+- QA status: not started

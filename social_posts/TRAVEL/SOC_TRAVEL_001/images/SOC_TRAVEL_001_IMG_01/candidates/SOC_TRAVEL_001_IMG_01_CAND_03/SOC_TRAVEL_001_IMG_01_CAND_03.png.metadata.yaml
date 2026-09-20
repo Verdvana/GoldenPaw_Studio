@@ -1,0 +1,16 @@
+asset_id: SOC_TRAVEL_001_IMG_01
+candidate_id: SOC_TRAVEL_001_IMG_01_CAND_03
+post_id: SOC_TRAVEL_001
+asset_level: L3
+asset_type: social_travel_still
+file_path: social_posts/TRAVEL/SOC_TRAVEL_001/images/SOC_TRAVEL_001_IMG_01/candidates/SOC_TRAVEL_001_IMG_01_CAND_03/SOC_TRAVEL_001_IMG_01_CAND_03.png
+source_candidate: SOC_TRAVEL_001_IMG_01_CAND_02
+sha256: 392716353f28e6e9e1c06caaeedc6140d2684050405fe0dfc918fdb870faba9b
+dimensions: 1122x1402
+status: REVIEW_REQUIRED
+approval_status: PENDING_USER_APPROVAL
+generation_record: GENERATION_RECORD.md
+reference_plan: REFERENCE_PLAN.md
+qa: QA.md
+edit_scope: [head-neck continuity, reduced profile turn, front-only lace construction, opaque plain back]
+preserved_scope: [HAIRSTYLE_B, no coat, no bag, Nanjing plane-tree street, framing, lighting, walking action, skirt, hosiery, shoes, camera language]

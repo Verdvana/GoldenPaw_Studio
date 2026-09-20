@@ -6,12 +6,12 @@
 - episode/scene scope: reusable owner autumn officewear
 - character_outfit_root: outfits/CHR_HUMAN_001_OWNER/OWNER_WORK_AUTUMN_01
 - garment_reference_dir: reference_inputs/garment_references/
-- status: DESIGN_RESET_PENDING
+- status: L2_COMPONENTS_APPROVED
 - asset_purpose: reusable L2 outfit package
-- design_reference_status: NOT_STARTED
-- worn_validation_status: NOT_STARTED
+- design_reference_status: REVIEW_REQUIRED_v002
+- worn_validation_status: APPROVED_v003
 - approved_design_reference:
-- approved_worn_views: []
+- approved_worn_views: [approved/worn_front/OWNER_WORK_AUTUMN_01_WORN_FRONT.png]
 
 ## Autumn officewear path
 
@@ -39,19 +39,21 @@ lighting, background, or photographic style.
 
 ## Garment inventory and layering
 
-The user has specified the garment contract; `REF_001` is a shoe-only reference.
+The user has specified the garment contract; `REF_002` defines the jacket, inner
+layer, and trousers, while `REF_001` remains a shoe-only reference.
 
 | Layer | Asset/material ID | Construction | Color | Coverage |
 |---|---|---|---|---|
-| 1 | garment | white collared knit sweater | white | upper body |
-| 2 | garment | straight-leg tailored trousers, cropped at ankle | medium gray | waist to ankle |
-| 3 | hosiery | sheer pantyhose, continuous closed-toe construction | black | waist to toes |
-| 4 | footwear / `REF_001` | pointed-toe slingback pump with buckle and slender high heel | black | foot |
+| 1 | garment / `REF_002` | light blush-pink tailored blazer, open front, rolled sleeves | pale pink | upper body |
+| 2 | garment / `REF_002` | soft gray satin camisole / sleeveless inner top | cool gray | upper body |
+| 3 | garment / `REF_002` | high-waisted wide-leg tailored trousers, full length | warm gray-taupe | waist to ankle |
+| 4 | hosiery | sheer light-skin pantyhose, continuous closed-toe construction | light nude | waist to toes |
+| 5 | footwear / `REF_001` | pointed-toe slingback pump with buckle and slender high heel | black | foot |
 
 ## Hosiery and footwear contract
 
-- hosiery_material_id: L2 black sheer pantyhose design specification
-- denier/color/finish: black, sheer textile finish; precise denier pending review
+- hosiery_material_id: HOS_15D_NUDE_MATTE_STANDING
+- denier/color/finish: light-skin 15D sheer, soft matte / velvet-matte textile finish
 - toe construction: continuous closed-toe coverage; no toe-cap boundary
 - footwear: black pointed-toe slingback pump with rear strap/buckle and slender high heel, using `REF_001` only for declared construction
 - continuous coverage required: yes

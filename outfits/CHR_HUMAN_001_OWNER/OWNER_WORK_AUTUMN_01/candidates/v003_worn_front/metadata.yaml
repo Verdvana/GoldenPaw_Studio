@@ -1,0 +1,14 @@
+asset_id: OWNER_WORK_AUTUMN_01_WORN_FRONT_v003
+asset_level: L2
+asset_type: worn_outfit
+owner_id: CHR_HUMAN_001_OWNER
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_WORK_AUTUMN_01/approved/worn_front/OWNER_WORK_AUTUMN_01_WORN_FRONT.png
+physical_file_role: UNIQUE_APPROVED
+generated_or_real: GENERATED
+generation_record: candidates/v003_worn_front/generation_record.md
+approval_status: APPROVED
+authoritative_for: [updated autumn officewear worn-front fit validation only]
+must_not_define: [future face generation, future body generation, owner identity, unrelated outfit, hosiery canon, lighting, background]
+quality_status: APPROVED_SCOPED
+checksum_sha256: f2dea9d7724191d5b3316c74cf8a4b90309eae8b96163c496971694b9cae2b45
+created_at: 2026-09-20

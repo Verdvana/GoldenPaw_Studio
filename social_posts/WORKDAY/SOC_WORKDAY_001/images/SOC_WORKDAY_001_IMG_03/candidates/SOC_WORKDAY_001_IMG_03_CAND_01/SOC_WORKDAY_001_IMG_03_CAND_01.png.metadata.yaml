@@ -1,0 +1,11 @@
+asset_id: SOC_WORKDAY_001_IMG_03
+candidate_id: SOC_WORKDAY_001_IMG_03_CAND_01
+asset_level: L3
+status: REVIEW_REQUIRED
+post_id: SOC_WORKDAY_001
+aspect_ratio: "4:5"
+pixel_dimensions: "1122x1402"
+sha256: 2f18b6f96bb15dbbc0df45b1884591aa1f6eee90b91d04da14b9e026e86309e7
+generation_mode: built_in_imagegen
+spec_revision: draft_1.233
+canonical_status: NOT_CANON

@@ -1,0 +1,17 @@
+asset_id: SOC_TRAVEL_001_IMG_01
+candidate_id: SOC_TRAVEL_001_IMG_01_CAND_04
+post_id: SOC_TRAVEL_001
+asset_level: L3
+asset_type: social_travel_still
+original_candidate_path: social_posts/TRAVEL/SOC_TRAVEL_001/images/SOC_TRAVEL_001_IMG_01/candidates/SOC_TRAVEL_001_IMG_01_CAND_04/SOC_TRAVEL_001_IMG_01_CAND_04.png
+file_path: social_posts/TRAVEL/SOC_TRAVEL_001/images/SOC_TRAVEL_001_IMG_01/approved/SOC_TRAVEL_001_IMG_01_APPROVED_v1.png
+sha256: 7236d78a7941ed968029ae8c1dbc0256f48d9a76fbfff0e042e7092f27d31628
+dimensions: 1122x1402
+status: APPROVED_L3
+approval_status: APPROVED_BY_USER
+approval_evidence: 用户“应该是04登记吧”
+approval_date: 2026-09-20
+generation_record: GENERATION_RECORD.md
+reference_plan: REFERENCE_PLAN.md
+qa: QA.md
+scope: This post image only; not Canon and not authorized as a downstream visual generation input.

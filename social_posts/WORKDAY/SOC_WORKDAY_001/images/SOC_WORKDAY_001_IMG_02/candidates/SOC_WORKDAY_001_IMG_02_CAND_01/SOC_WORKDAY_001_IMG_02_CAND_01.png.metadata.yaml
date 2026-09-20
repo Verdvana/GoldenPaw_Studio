@@ -1,0 +1,12 @@
+asset_id: SOC_WORKDAY_001_IMG_02
+candidate_id: SOC_WORKDAY_001_IMG_02_CAND_01
+asset_level: L3
+status: USER_APPROVED_L3
+post_id: SOC_WORKDAY_001
+aspect_ratio: "4:5"
+pixel_dimensions: "1122x1402"
+sha256: 014886b306f64acaa0218dc6f700186c99e85efe01efb02f3d2c2d394e55ab0f
+generation_mode: built_in_imagegen
+spec_revision: draft_1.233
+canonical_status: NOT_CANON
+approved_path: social_posts/WORKDAY/SOC_WORKDAY_001/images/SOC_WORKDAY_001_IMG_02/approved/SOC_WORKDAY_001_IMG_02_APPROVED_v1.png
