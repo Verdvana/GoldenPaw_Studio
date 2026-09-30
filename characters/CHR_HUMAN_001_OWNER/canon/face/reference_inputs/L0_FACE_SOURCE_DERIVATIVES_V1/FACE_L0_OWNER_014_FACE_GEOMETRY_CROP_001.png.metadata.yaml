@@ -1,0 +1,9 @@
+asset_id: OWNER_FACE_L0_OWNER_014_GEOMETRY_CROP_001
+asset_level: DETERMINISTIC_L0_DERIVATIVE
+source_asset_id: L0_OWNER_014
+source_path: characters/CHR_HUMAN_001_OWNER/source/identity/raw/16.jpg
+source_sha256: 488c2d59dc414ddb056462f3d1158b0360ca221d93b53337d0ea2d1239b26686
+sha256: 4b8c56d695ab768e1820b5b8ea826282f811f2ecbce3d0a3b061bff4c793fd29
+dimensions: 700x870
+responsibility: real-source owner identity and facial feature geometry only
+must_not_define: visible source hair, jewelry, makeup, source lighting/background, body, clothing or pose

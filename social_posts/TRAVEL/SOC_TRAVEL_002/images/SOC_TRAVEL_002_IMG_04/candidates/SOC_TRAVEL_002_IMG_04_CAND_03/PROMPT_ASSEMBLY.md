@@ -1,0 +1,11 @@
+# Prompt Assembly — SOC_TRAVEL_002_IMG_04_CAND_03
+
+Use case: `photorealistic-natural`. One L3 vertical cruise social photograph, independently generated from shot design and approved sources.
+
+Input roles, in order: 1) `4.jpg` for side-seated lounger pose, torso/head turn, laughing action, bent/extended leg arrangement, side camera and deck layout only; 2) deterministic L0 face crop for owner face identity/feature geometry only; 3) real `8.jpg` for Hairstyle B construction only; 4) approved B Canon for B appearance only; 5) `OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_001` for 15D hosiery behavior, clear intertoe tension arcs and softly diffused burgundy nails beneath cloth only. Exclude HOS_07's gray color entirely; outfit text defines light-nude.
+
+Match `OWNER_CASUAL_SUMMER_01` by text: white floral lace-trim camisole, light-blue denim shorts, earrings, continuous light-nude sheer tights and no shoes. Text-only owner body target is 168 cm/about 60 kg; do not supply body raster. Follow the shared late-morning phone-photo look, camera, daylight and color in `../SHOT_DESIGN.md`.
+
+Preserve reference 4's seated side pose, open-mouth laugh, raised bent knee, other leg bent/extended across the lounger, near hand braced on cushion, camera height/angle, crop and background arrangement. Keep exactly five toes per foot. The left plantar surface is smooth hosiery fabric with absolutely no toenails or nail-shaped color marks; toenails belong only on dorsal toe tips. The right foot has five separated, anatomically ordered toes with five distinct small nails placed centrally on their corresponding toe tips; its four smaller nails are neat, proportional and undistorted. Across both feet and all toes, keep one continuous light-nude textile. Render soft curved fabric-tension arcs at each interdigital web, visibly bridging all gaps; no bare skin between toes. Show slight natural gathering and translucent fabric diffusion, while burgundy polish remains muted below the fabric. Keep the feet anatomically natural; no extra or fused toes, misplaced/deformed nails, toe seams/caps, textile breaks, or plastic/latex/rubber/liquid/body-paint appearance.
+
+No reference-person identity or styling, accessories, shoes, branding, text, watermark or UI. The approved face Canon and body Canon remain QA comparison only after generation, never generation inputs.

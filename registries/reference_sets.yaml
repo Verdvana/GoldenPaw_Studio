@@ -1,8 +1,28 @@
 schema_version: 1
-catalog_version: "2026-09-17"
+catalog_version: "2026-09-30"
 policy: "Select one set by shot need; never concatenate all sets. Locked scoped L1 Canon supersedes these L0 construction sets."
 
 reference_sets:
+  SOC_TRAVEL_002_REF_004_POSE_ONLY_WITHOUT_IDENTITY_OR_ACCESSORIES_V2:
+    purpose: "shot-04-only seated body pose, leg arrangement, hand placement, camera/crop and passenger-deck composition; face, hair, bag and plush toy are masked; head turn/laugh are text-defined; do not define owner identity, body proportions, clothing, hosiery, footwear or exact ship design"
+    max_images: 1
+    assets:
+      - {asset_id: SOC_TRAVEL_002_REF_004_POSE_ONLY_WITHOUT_IDENTITY_OR_ACCESSORIES_V2, path: "social_posts/TRAVEL/SOC_TRAVEL_002/references/reference_inputs/REF_004_POSE_EXCLUDED_V2/REF_004_POSE_EXCLUDED.png"}
+  SOC_TRAVEL_002_REF_004_POSE_ONLY_FACE_HAIR_EXCLUDED_V1:
+    purpose: "shot-04-only seated body pose, bent/extended leg arrangement, near-hand placement, camera/crop and passenger-deck composition; face and hair are deterministically masked and expression/head turn are text-specified; do not define owner identity, face, hair, body proportions, clothing, hosiery, accessories, footwear or exact ship design"
+    max_images: 1
+    assets:
+      - {asset_id: SOC_TRAVEL_002_REF_004_POSE_ONLY_FACE_HAIR_EXCLUDED_V1, path: "social_posts/TRAVEL/SOC_TRAVEL_002/references/reference_inputs/REF_004_POSE_EXCLUDED_V1/REF_004_POSE_EXCLUDED.png"}
+  SOC_TRAVEL_002_REF_004_POSE_COMPOSITION_ENVIRONMENT:
+    purpose: "shot-04-only side-seated lounger pose, torso/head turn, open-mouth laugh action, bent/extended leg mechanics, side camera, vertical crop and passenger-deck composition; do not define owner identity, face, body proportions, hair, outfit, hosiery, accessories, footwear, exact ship design or text/watermarks"
+    max_images: 1
+    assets:
+      - {asset_id: SOC_TRAVEL_002_REF_004, path: "social_posts/TRAVEL/SOC_TRAVEL_002/references/incoming/4.jpg"}
+  SOC_TRAVEL_002_REF_003_POSE_COMPOSITION_ENVIRONMENT:
+    purpose: "shot-03-only pose, friendly smile action, high camera angle, close vertical composition, and glass-deck/ocean layout; do not define face identity/features, body, hair, outfit, hosiery, footwear, watermark or exact ship design"
+    max_images: 1
+    assets:
+      - {asset_id: SOC_TRAVEL_002_REF_003, path: "social_posts/TRAVEL/SOC_TRAVEL_002/references/incoming/3.jpg"}
   OWNER_L0_FACE_FRONT_NEUTRAL:
     purpose: "Gate-2 neutral frontal identity construction or Canon recovery"
     max_images: 2
@@ -15,6 +35,21 @@ reference_sets:
     assets:
       - {asset_id: L0_OWNER_013, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/15.jpg"}
       - {asset_id: L0_OWNER_014, path: "characters/CHR_HUMAN_001_OWNER/source/identity/raw/16.jpg"}
+  OWNER_L0_FACE_013_GEOMETRY_CROP_V1:
+    purpose: "deterministic L0-derived identity/feature-geometry crop from L0_OWNER_013 for source-derived face generation; makeup, hair, skin retouch, lighting and background are explicitly excluded"
+    max_images: 1
+    assets:
+      - {asset_id: OWNER_FACE_L0_OWNER_013_GEOMETRY_CROP_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/L0_FACE_SOURCE_DERIVATIVES_V1/FACE_L0_OWNER_013_FACE_GEOMETRY_CROP_001.png"}
+  OWNER_L0_FACE_014_GEOMETRY_CROP_V1:
+    purpose: "deterministic L0-derived identity/feature-geometry crop from L0_OWNER_014, a smiling three-quarter view; feature geometry and identity only, with source hair, jewelry, makeup, lighting, background and clothing explicitly excluded"
+    max_images: 1
+    assets:
+      - {asset_id: OWNER_FACE_L0_OWNER_014_GEOMETRY_CROP_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/L0_FACE_SOURCE_DERIVATIVES_V1/FACE_L0_OWNER_014_FACE_GEOMETRY_CROP_001.png"}
+  OWNER_L0_FACE_012_SKIN_CONTEXT_CROP_V1:
+    purpose: "deterministic natural L0 skin color/texture baseline only; low resolution, must not define fine geometry, hair, makeup, camera or background"
+    max_images: 1
+    assets:
+      - {asset_id: OWNER_FACE_L0_OWNER_012_SKIN_CONTEXT_CROP_001, path: "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/L0_FACE_SOURCE_DERIVATIVES_V1/FACE_L0_OWNER_012_SKIN_CONTEXT_CROP_001.png"}
   OWNER_L0_FACE_RIGHT_3Q_LIMITED:
     purpose: "limited real-source support for anatomical right facial plane with face pointing image-right; direction and natural asymmetry only, never fine or lens-neutral geometry alone"
     max_images: 1
@@ -290,6 +325,21 @@ reference_sets:
     usable_for_generation: true
     assets:
       - {asset_id: OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_002, path: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_01_LOWER_LEGS_FEET_FRONT/OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_002.png"}
+  OWNER_HOS_02_FEET_3Q_CANON_L1:
+    purpose: "approved L1 hosiery-foot reference for anatomical-left three-quarter foot textile only: continuous 15D light-nude velvet-matte sheer coverage, soft diffusion, subtle interdigital fabric tension and softened burgundy toenails beneath the hosiery; must not define complete owner identity/body, other hosiery constructions, lighting, background or episode wardrobe"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    assets:
+      - {asset_id: OWNER_HOS_02_FEET_3Q_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_02_FEET_3Q/OWNER_HOS_02_FEET_3Q_CANON_001.png"}
+  OWNER_HOS_07_INTERTOE_NAIL_DETAIL_CANON_L1:
+    purpose: "approved 15D gray matte Canon used only for toe-tip textile diffusion, interdigital tension curves and softened burgundy toenails beneath hosiery; its gray color is explicitly not an authority for SOC_TRAVEL_002, where outfit text controls the light-nude hosiery color"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    must_not_define: "hosiery color for this post, body/foot anatomy, owner identity, pose, outfit, lighting or background"
+    assets:
+      - {asset_id: OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_001, path: "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_07_15D_GRAY_MATTE_FRONT/OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_001.png"}
   OWNER_POSE_01_RELAXED_STANDING_CANON_L1:
     purpose: "explicitly approved Pose-01 reuse of the historical OWNER_BODY_01_FRONT_CANON_002 raster: front neutral relaxed-standing articulation only; must not define other poses, articulated side/rear geometry, episode performance, or broader material authority"
     max_images: 1

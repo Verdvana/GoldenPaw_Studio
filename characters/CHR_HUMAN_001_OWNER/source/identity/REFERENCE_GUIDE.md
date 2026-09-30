@@ -23,6 +23,8 @@ Direction labels describe where the face points **inside the image**, avoiding l
 
 ## Recommended sets
 
+For downstream L2/L3 face generation, the source-derived rule in `canon/OWNER_L1_GENERATION_SPEC.md` takes precedence over the general Canon routing above. `OWNER_L0_FACE_013_GEOMETRY_CROP_V1` is a deterministic face-only crop from the high-resolution L0 three-quarter source; use it for identity and feature geometry only, with the matching `FACE_01_FRONT_NEUTRAL_METHOD.md` prompt constraints. Never use AI Face or Body Canons to generate the face; they remain QA comparison-only.
+
 | Need | Use first | Optional second | Do not add by default |
 |---|---|---|---|
 | neutral frontal identity analysis | `L0_OWNER_012` (`14.jpg`) | `L0_OWNER_010` (`12.jpg`) or `L0_OWNER_007` (`9.jpg`) | retouched wedding smiles |

@@ -1,0 +1,13 @@
+# Prompt Assembly — SOC_TRAVEL_002_IMG_04_CAND_05
+
+Use case: `photorealistic-natural`; adult travel snapshot, fourth still in the same cruise-day set.
+
+Inputs: (1) masked `4.jpg` derivative defines only torso/limb/hand pose, camera, crop, lounger and deck composition; head turn and laugh are text-defined. (2) source-derived L0 face crop from `16.jpg` defines only owner identity and facial geometry. (3–4) real `8.jpg` plus approved B hairstyle Canon define Hairstyle B only. (5) approved `OWNER_HOS_01_LOWER_LEGS_FEET_FRONT_CANON_002` defines only the appearance of continuous 15D nude matte/velvet hosiery, textile presence over feet, and softened nail color. Use its approved nude color/material; its straight-on foot anatomy does not define this shot's pose-specific foot geometry.
+
+Face: keep the owner's recognizable natural features from the L0 crop: face width, cheek/jaw relation, eye spacing/shape, brows, nose, lips and chin. No generic beautification, face slimming, enlarged eyes, changed age or altered nose/jaw. Apply the source-derived constraints in `FACE_01_FRONT_NEUTRAL_METHOD.md`; no AI Face Canon or generated candidate as input. Laughter may change expression, never identity.
+
+Scene and wardrobe: same bright late-morning passenger deck and lounger as reference 4, with the same ship/day camera feel as approved shot 02. Approved `OWNER_CASUAL_SUMMER_01` by text: white floral lace-trim camisole, light-blue denim shorts, earrings, continuous light-nude 15D sheer pantyhose; no shoes. No body raster input.
+
+Pose: side-seated, one raised bent knee and the other leg bent/extended over the lounger, near hand braced on cushion. Turn torso toward camera as in reference. Turn the head back only a comfortable amount, keeping head centered over neck and shoulders aligned; the face looks toward camera without twisting the neck to an extreme. Preserve the open-mouth laugh, camera height/side angle, crop and passenger-deck background.
+
+Material/feet: maintain visible fine translucent hosiery texture under daylight from thighs through knees, calves, ankles and feet; show a soft, even textile veil so legs do not read bare. One unbroken textile covers heels, insteps, soles and every toe. The left plantar surface is hosiery-covered and unmarked, with no nail forms. Right toes remain relaxed and naturally separate/aligned; show subtle curved hosiery tension between neighboring toes, fabric bridging the gaps, burgundy polish diffused beneath the cloth. Keep both feet natural and proportionate in the wide seated composition, not enlarged or close to the lens. No seams/caps, bare gaps, malformed/fused/extra toes, plastic/rubber/latex/liquid finish, text, watermark or UI.
