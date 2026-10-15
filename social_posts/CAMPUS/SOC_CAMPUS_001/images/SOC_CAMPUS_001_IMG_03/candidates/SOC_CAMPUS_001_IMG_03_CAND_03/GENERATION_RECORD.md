@@ -1,0 +1,24 @@
+# Generation Record — SOC_CAMPUS_001_IMG_03_CAND_03
+
+- post_id: `SOC_CAMPUS_001`
+- image_asset_id: `SOC_CAMPUS_001_IMG_03`
+- candidate_id: `SOC_CAMPUS_001_IMG_03_CAND_03`
+- asset_level: `L3`
+- status: `APPROVED_L3`
+- authorization: user request on `2026-10-15`: same outfit/hairstyle as approved prior image; night candid of classmate photographing her buying 正新鸡排. Targeted composition correction after CAND_02 QA found one sneaker edge-cropped: use wider full-body framing, retain clear ground below both shoes; all design and scene elements remain as specified.
+- reference_plan: `REFERENCE_PLAN.md`
+- prompt_assembly: `PROMPT_ASSEMBLY.md`
+- generation_inputs: five scoped original L0/material and deterministic face-excluded body assets as listed in reference plan.
+- qa_comparison_only: approved Face02 and Body01 Canons only after generation.
+- seed/settings: unavailable unless returned by built-in ImageGen.
+- intended_output_path: `SOC_CAMPUS_001_IMG_03_CAND_03.png`
+- original_candidate_path: `social_posts/CAMPUS/SOC_CAMPUS_001/images/SOC_CAMPUS_001_IMG_03/candidates/SOC_CAMPUS_001_IMG_03_CAND_03/SOC_CAMPUS_001_IMG_03_CAND_03.png`
+- current_approved_path: `social_posts/CAMPUS/SOC_CAMPUS_001/images/SOC_CAMPUS_001_IMG_03/approved/SOC_CAMPUS_001_IMG_03_APPROVED_v1.png`
+- promotion_operation: `MOVED`
+- sha256: `37030eaedcf4843cc75ae775db18669f0b6d95e4b5ffc2ca31fedf0147de0fc1`
+- pixel_dimensions: `1122x1402`
+- QA: `Visual checks pass for bangs, outfit continuity, full-body framing, both shoes, nighttime candid read, hosiery and sign. Face checked against approved Face02 Canon comparison-only after generation; natural low-light/three-quarter variance noted, no obvious contamination marks. User explicitly approved this L3 post image.`
+- approved_by: `user`
+- approval_date: `2026-10-15`
+- approval_evidence: `好，要第三张吧，登记并结束`
+- promotion: `APPROVED_L3` for this post image only; not Canon.

@@ -1,0 +1,21 @@
+# Generation Record — SOC_CAMPUS_001_IMG_02_CAND_07
+
+- post_id: `SOC_CAMPUS_001`
+- image_asset_id: `SOC_CAMPUS_001_IMG_02`
+- candidate_id: `SOC_CAMPUS_001_IMG_02_CAND_07`
+- asset_level: `L3`
+- status: `REVIEW_REQUIRED`
+- authorization: continuation of the user's specific request to make hosiery texture visible and change shoes to black single-strap heels; CAND_06 QA found hosiery still unmet. One focused revision only.
+- reference_plan: `REFERENCE_PLAN.md`
+- prompt_assembly: `PROMPT_ASSEMBLY.md`
+- reference budget: `5 / 5`
+- generation_inputs: exactly the five source/canon/material references listed in `REFERENCE_PLAN.md`
+- qa_comparison_only: approved Face Canon and Body Canon, post-generation comparison only
+- seed/settings: unavailable unless returned by built-in ImageGen
+- generated_at: `2026-10-15` (Asia/Shanghai)
+- output_path: `social_posts/CAMPUS/SOC_CAMPUS_001/images/SOC_CAMPUS_001_IMG_02/candidates/SOC_CAMPUS_001_IMG_02_CAND_07/SOC_CAMPUS_001_IMG_02_CAND_07.png`
+- sha256: `527fca7cbc32e66bdd784c6172f7dd937141680c02133b89b7703646027f9a94`
+- pixel_dimensions: `1122x1402` (4:5)
+- tool_artifact_path: `/home/verdvana/.codex/generated_images/01a13f7d-e6e0-7332-b1b3-495fd70ef882/exec-7062becc-2584-4a6c-89b7-de51aedc0bb0.png`
+- QA: `QA.md`; visual QA recorded after generation
+- promotion: none; not registered or promoted without explicit user approval.

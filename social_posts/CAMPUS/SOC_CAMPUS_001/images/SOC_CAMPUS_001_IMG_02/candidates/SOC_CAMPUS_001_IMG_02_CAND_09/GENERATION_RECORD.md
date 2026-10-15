@@ -1,0 +1,23 @@
+# Generation Record — SOC_CAMPUS_001_IMG_02_CAND_09
+
+- post_id: `SOC_CAMPUS_001`
+- image_asset_id: `SOC_CAMPUS_001_IMG_02`
+- candidate_id: `SOC_CAMPUS_001_IMG_02_CAND_09`
+- asset_level: `L3`
+- status: `REVISION_REQUIRED`
+- authorization: continuation of user's explicit dorm mirror selfie, full bangs, nude pantyhose, ballet flats, and iPhone X face-occlusion instruction after CAND_08 visual QA found details missed. One independent corrective candidate only.
+- reference_plan: `REFERENCE_PLAN.md`
+- prompt_assembly: `PROMPT_ASSEMBLY.md`
+- reference budget: `2 images`
+- `generation_inputs`: face-excluded Body derivative and registered hosiery material source in `REFERENCE_PLAN.md`
+- `qa_comparison_only`: approved Face Canon for complete phone occlusion check; approved Body Canon optional comparison only. Neither is a generation input.
+- hair decision: user-specified full straight bangs are a per-image post-specific L2 variation under current spec `draft_1.234`; not Hairstyle A/B or Canon.
+- face visibility: fully occluded; no face reference/input.
+- seed/settings: unavailable unless returned by built-in ImageGen.
+- generated_at: `2026-10-15` (Asia/Shanghai)
+- output_path: `social_posts/CAMPUS/SOC_CAMPUS_001/images/SOC_CAMPUS_001_IMG_02/candidates/SOC_CAMPUS_001_IMG_02_CAND_09/SOC_CAMPUS_001_IMG_02_CAND_09.png`
+- sha256: `ab7da6fd176cb89add0d197b9e3e480b977b473c57bf26548e6a4abd6548e612`
+- pixel_dimensions: `1122x1402` (4:5)
+- tool_artifact_path: `/home/verdvana/.codex/generated_images/01a13f7d-e6e0-7332-b1b3-495fd70ef882/exec-cf4ee69c-ed00-4839-9832-82c91befbbbc.png`
+- QA: `QA.md`; scene/outfit and full face occlusion pass, requested bangs, hosiery visibility and iPhone X detail do not.
+- promotion: none; do not register or promote without explicit user approval.

@@ -1,0 +1,21 @@
+# Prompt Assembly — SOC_CAMPUS_001_IMG_02_CAND_01
+
+- use_case: `photorealistic-natural`
+- asset_type: one independent L3 social-post carousel candidate, 4:5 vertical
+- post/image/candidate: `SOC_CAMPUS_001` / `SOC_CAMPUS_001_IMG_02` / `SOC_CAMPUS_001_IMG_02_CAND_01`
+- generation tool: built-in OpenAI ImageGen
+- prompt inputs and scoped exclusions: see `REFERENCE_PLAN.md`
+
+Create one photorealistic-natural, unplanned 2018-style phone snapshot on a generic tree-lined university path. A friend walking a few paces ahead suddenly turns back and casually takes a photo while the adult East Asian woman continues walking toward the friend. Catch a real in-between step: her torso still faces along the path, her head turns toward the friend, and one arm swings naturally. Her eyes look at the friend beside the phone, not into the lens; she does not stop, pose, or present her outfit. Let the framing be slightly tilted and imperfect, with the subject a little off-center and indistinct campus walkers far behind. Do not show another recognizable face.
+
+Owner face generation must follow the source-derived `FACE_02_LEFT_3Q_NEUTRAL_METHOD.md` constraints. Use L0 geometry crop 013 as primary exact identity/feature authority, crop 014 only as secondary 3/4 geometry and natural asymmetry support (do not copy its smile or styling), and skin crop 012 only for natural skin tone/texture. Keep the owner's adult natural identity and the same approved face direction from L0 sources: soft oval to rounded-oval outline, naturally softly full cheeks, non-prominent cheekbones, gently narrowing rounded jaw/chin, medium natural almond eyes with subtle natural asymmetry, natural brows, moderate nose bridge with soft rounded tip, natural lips. Do not narrow/sharpen the face, enlarge eyes, beautify, de-age, homogenize asymmetry, use heavy makeup, or add skin patches, bright/dark blotches, muddy relighting or smudges. Approved Face02 Canon is post-generation QA only, never a generation input.
+
+Use only the face-excluded Body01 derivative for neck-below anatomy and body scale. Retain the owner's user-approved natural adult proportions (168 cm / 60 kg), body scale and natural contours. Keep lower legs naturally straight from knees toward ankles, with a gentle realistic calf taper and volume; no bowing, leg-length exaggeration, tiny waist or fashion-model thinness. Show believable weight transfer and walking articulation; preserve the actual leg lengths and joint placement. The body reference does not define clothing, face, skin identity, hair, lighting or scene.
+
+Hair is the user-authorized, post-specific L2 design: long dark-brown hair worn fully loose, straight bangs just above the eyebrows, slightly moved by walking. This is text-defined for this post only and is not Hairstyle A/B or a Canon.
+
+Keep the user's accepted outfit from IMG_01 exactly as text-defined: relaxed cream knit cardigan, plain light T-shirt, dark charcoal/navy plaid A-line skirt, charcoal-black matte semisheer 20D pantyhose, simple white low-top canvas sneakers, plain navy backpack. The pantyhose are one continuous closed-toe textile garment from waist/hips over both legs, heels, insteps and toes. The 30D black matte image defines black hue and matte textile response only; the target's 20D appearance is text-defined and stays semisheer. No bare toes, hosiery discontinuities, latex/PVC/plastic/rubber/liquid/body-paint finish, sexualized styling, logos or school marks.
+
+Render like a 2017–2018 consumer-phone main-camera photo: ordinary 26–28 mm-equivalent wide perspective, moderate automatic HDR, natural daylight, restrained sharpening, natural depth of field and slightly imperfect exposure. Do not add film grain, sepia, date stamps, borders, portrait-mode cutout blur, watermark, fake interface, legible text, logo, school identifier or copied recognizable campus landmark. Preserve a full-body 4:5 view with head and both shoes fully inside frame and safe margin beneath soles; keep enough face size for identity review. Single image only.
+
+No generated prior frame is an identity, body, hair or material input. All series continuity is recreated from the post's written styling and scene brief. Candidate remains `REVIEW_REQUIRED`; no auto-approval or Canon promotion.

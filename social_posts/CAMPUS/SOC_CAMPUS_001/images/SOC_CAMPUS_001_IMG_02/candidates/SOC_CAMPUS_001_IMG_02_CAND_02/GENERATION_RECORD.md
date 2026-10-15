@@ -1,0 +1,23 @@
+# Generation Record — SOC_CAMPUS_001_IMG_02_CAND_02
+
+- post_id: `SOC_CAMPUS_001`
+- image_asset_id: `SOC_CAMPUS_001_IMG_02`
+- candidate_id: `SOC_CAMPUS_001_IMG_02_CAND_02`
+- asset_level: `L3`
+- status: `USER_REJECTED`
+- authorization: user approved IMG_01 face/body/outfit attributes and requested the next shot. CAND_01 was superseded after internal QA for clipped footwear and centered/composed framing; this is a fresh independent generation.
+- owner scoped L2 hairstyle exception: draft `1.234`
+- reference_plan: `REFERENCE_PLAN.md`
+- prompt_assembly: `PROMPT_ASSEMBLY.md`
+- reference budget: `5 / 8 images`
+- generation_inputs: five scoped L0/material/body references in `REFERENCE_PLAN.md`; CAND_01 excluded.
+- qa_comparison_only: approved Owner Face02 and Body01 Canons, after generation only.
+- generated_at: `2026-10-15` (Asia/Shanghai)
+- seed/settings: unavailable; built-in ImageGen
+- output_path: `SOC_CAMPUS_001_IMG_02_CAND_02.png`
+- output_sha256: `9e68a836f5d6e0b760261a67dfe36802180cb9cc4a7677ac7b28120487155365`
+- pixel_dimensions: `1122x1402` (4:5)
+- tool_artifact_path: `/home/verdvana/.codex/generated_images/01a13f7d-e6e0-7332-b1b3-495fd70ef882/exec-b0cd511e-1060-4895-9eed-7a679184b3b9.png`
+- QA: `QA.md` (`REVIEW_REQUIRED`; superseded after safe-crop review)
+- approval/promotion: none
+- user_rejection: `第一张可以登记，第二张生成的这几个都不行` — rejected on `2026-10-15`.

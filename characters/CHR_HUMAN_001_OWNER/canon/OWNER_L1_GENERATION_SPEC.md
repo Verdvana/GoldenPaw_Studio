@@ -4,7 +4,7 @@
 document_id: OWNER_L1_GENERATION_SPEC
 character_id: CHR_HUMAN_001_OWNER
 target_canon_version: owner_v1.0
-spec_revision: draft_1.233
+spec_revision: draft_1.234
 status: DRAFT
 authority: USER_APPROVAL_REQUIRED
 default_aspect_ratio: "3:4"
@@ -163,7 +163,8 @@ Calibration Outfit 不只用于 Gate 3。女主当前 `owner_v1.0` 的任何 L1 
 - 不再使用 `CALIBRATION_HAIR` 或其他临时第三发型；
 - 仅 `HAIR_B_*` 及明确标记为 HAIRSTYLE_B 专属的资产使用 B；
 - A 的 L0 权威参考为 `DSC00847.jpg`，B 的 L0 权威参考为 `8.jpg`；
-- 用户指定的 B 图 L1 资产同时作为正脸长相与肤色锚，但在非 B 发型资产中只传递脸和肤色，不传递 B 发型。
+- 用户指定的 B 图 L1 资产同时作为正脸长相与肤色锚，但在非 B 发型资产中只传递脸和肤色，不传递 B 发型；
+- 本条 A/B 限定约束 L1 Canon 与其候选。L2/L3 可在用户明确指定并逐项记录后使用本帖专属临时发型变体；该变体不得混合 A/B，不得取得 L1/Canon 权威或成为其他资产的发型输入，生成记录必须写明此次决定和排除项。
 
 ---
 
@@ -834,3 +835,5 @@ all required components APPROVED
 | draft_1.220 | 2026-09-16 | 用户确认 `HAIR_B_06_LOW_CAMERA_LOOK_DOWN_v014` 合格并要求登记；唯一候选图片按单文件规则移动晋升为 `OWNER_HAIR_B_06_LOW_CAMERA_LOOK_DOWN_CANON_001`，Hair-B 六个专用视角完成，完整 `owner_v1.0` 仍未锁定 | user approval and Canon promotion |
 | draft_1.221 | 2026-09-16 | 用户授权制作可选外观补充资产 `APP_01_NEUTRAL_COLOR`；从批准 Face Canon 与批准 Hair-A Front Canon 独立生成 v001，目标为中性灯光下的肤色、发色与曝光校准，候选状态 `REVIEW_REQUIRED` | user generation authorization; optional Appearance candidate |
 | draft_1.222 | 2026-09-16 | 用户确认 `APP_01_NEUTRAL_COLOR_v001` “登记”；按单文件规则移动晋升为 `OWNER_APP_01_NEUTRAL_COLOR_CANON_001`，批准范围仅覆盖中性灯光下的肤色、Hair-A 发色与曝光校准 | user approval and Canon promotion |
+
+| draft_1.234 | 2026-10-15 | 用户明确指定校园社媒帖使用深棕长发齐刘海，并授权先生成一张 L3 预览。澄清 A/B 仅约束 L1 Canon 与其候选；L2/L3 可使用明确指定、逐项记录的帖子专属临时发型变体，但不得混合 A/B、晋升 Canon 或复用为其他资产的发型输入。本例发型只服务 `SOC_CAMPUS_001_IMG_01`；其余 Owner 身份、脸部来源、身体排除派生图规则不变 | scoped user-approved L2/L3 hairstyle exception; one L3 image authorized |

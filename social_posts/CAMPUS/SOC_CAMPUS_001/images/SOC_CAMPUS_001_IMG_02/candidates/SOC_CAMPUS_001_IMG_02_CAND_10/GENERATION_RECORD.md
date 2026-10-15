@@ -1,0 +1,24 @@
+# Generation Record — SOC_CAMPUS_001_IMG_02_CAND_10
+
+- post_id: `SOC_CAMPUS_001`
+- image_asset_id: `SOC_CAMPUS_001_IMG_02`
+- candidate_id: `SOC_CAMPUS_001_IMG_02_CAND_10`
+- asset_level: `L3`
+- status: `GENERATION_BLOCKED_NO_OUTPUT`
+- authorization: user revision on `2026-10-15`: “发型是齐刘海+马尾，鞋换成肉粉色，姿势换成蹲在地上”; applies to the established first-floor dorm mirror selfie with phone fully covering face and prior requested shirt/shorts/nude hosiery.
+- reference_plan: `REFERENCE_PLAN.md`
+- prompt_assembly: `PROMPT_ASSEMBLY.md`
+- reference budget: `2 images`
+- `generation_inputs`: face-excluded Body derivative and nude hosiery material source only.
+- `qa_comparison_only`: approved Face Canon for phone occlusion only; approved Body Canon optionally for proportions; neither is a generation input.
+- hairstyle: straight bangs + ponytail, user-specified IMG_02-only L2 variation under spec `draft_1.234`; no A/B blend or Canon authority.
+- face visibility: fully blocked by iPhone X; no face generation reference.
+- seed/settings: unavailable unless returned by built-in ImageGen.
+- generation_attempted_at: `2026-10-15` (Asia/Shanghai)
+- output_path: none; automatic image safety review blocked output
+- sha256: none
+- pixel_dimensions: none
+- tool_artifact_path: none
+- block_reason: built-in image safety review rejected output under category `sexual`; request id `fda84aef-bd2d-4f83-bbca-6e4c345db0ab`
+- QA: no image returned; cannot perform visual QA
+- promotion: none; do not register or promote without explicit user approval.

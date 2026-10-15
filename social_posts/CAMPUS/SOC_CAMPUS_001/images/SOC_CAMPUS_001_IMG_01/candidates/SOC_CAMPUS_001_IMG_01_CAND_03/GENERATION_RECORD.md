@@ -1,0 +1,21 @@
+# Generation Record — SOC_CAMPUS_001_IMG_01_CAND_03
+
+- post_id: `SOC_CAMPUS_001`
+- image_asset_id: `SOC_CAMPUS_001_IMG_01`
+- candidate_id: `SOC_CAMPUS_001_IMG_01_CAND_03`
+- asset_level: `L3`
+- status: `REVIEW_REQUIRED`
+- authorization: user requested redo after noting face/body mismatch and insufficient candidness; accepted outfit retained.
+- owner scoped L2 hairstyle exception: draft `1.234`
+- reference_plan: `REFERENCE_PLAN.md`
+- prompt_assembly: `PROMPT_ASSEMBLY.md`
+- reference budget: `5 / 8 images`
+- generation_inputs and `qa_comparison_only` are itemized in `REFERENCE_PLAN.md`; prior generated candidates excluded.
+- generated_at: `2026-10-15` (Asia/Shanghai)
+- seed/settings: unavailable; built-in ImageGen
+- output_path: `SOC_CAMPUS_001_IMG_01_CAND_03.png`
+- output_sha256: `2548a8af504c7206235c21f8cd19960391070ad76052efd155107b30338ba9a0`
+- pixel_dimensions: `1122x1402` (4:5)
+- tool_artifact_path: `/home/verdvana/.codex/generated_images/01a13f7d-e6e0-7332-b1b3-495fd70ef882/exec-f105cbb6-d147-4778-b999-aafa57006fee.png`
+- QA: `QA.md` (`REVIEW_REQUIRED`; identity/body review pending)
+- approval/promotion: none

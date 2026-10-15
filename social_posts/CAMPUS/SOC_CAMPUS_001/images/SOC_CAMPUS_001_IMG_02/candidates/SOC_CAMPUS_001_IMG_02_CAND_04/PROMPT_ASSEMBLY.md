@@ -1,0 +1,19 @@
+# Prompt Assembly — SOC_CAMPUS_001_IMG_02_CAND_04
+
+- use_case: `photorealistic-natural`
+- asset: one independent L3 4:5 carousel candidate for `SOC_CAMPUS_001_IMG_02`
+- generation tool: built-in OpenAI ImageGen
+- revision: stronger scene scale and explicit shoe-safe margins, based on prior QA observations only; no prior image pixels used
+- roles/exclusions: `REFERENCE_PLAN.md`
+
+Create one genuinely unplanned 2018 consumer-phone snapshot on a generic tree-lined campus path. A friend is walking ahead, hears the woman, and turns their phone back casually mid-stride. The adult East Asian woman is a few paces behind, walking naturally, turns her head toward the friend beside the phone, and reacts mid-conversation; gaze just off lens, not direct eye contact. Her torso and feet still face down the path, one foot is just landing, her arm moves naturally, backpack and loose hair shift slightly. This is a transient, unposed moment.
+
+Framing is crucial: use a loose wide full-body view from farther away than a portrait, subject around 65–70% of frame height, placed near the right third. The camera and diagonal path are slightly off-level and imperfect as the friend turns while walking. Leave clear space above the head and generous visible ground beneath BOTH shoes: the lowest shoe sole must sit at least 12% of image height above the bottom edge. Both shoes must be completely shown with ground below them; no part of either shoe may touch or cross any edge. Keep enough subject scale to read the face and outfit while retaining visible path around her. Do not zoom or crop tightly.
+
+Face: use L0 crop 013 as the sole primary identity/geometry authority; crop 014 only for three-quarter depth and natural asymmetry, not its smile or styling; crop 012 only for skin tone/texture. Follow source-derived FACE_02_LEFT_3Q_NEUTRAL_METHOD constraints. Keep the accepted adult owner's naturally soft oval-to-rounded-oval face, softly full cheeks, non-prominent cheekbones, gently narrowing rounded jaw/chin, medium natural almond eyes with subtle asymmetry, natural relaxed brows, moderate nose bridge and soft rounded nose tip, natural lips. No beautification, de-aging, face slimming/sharpening, enlarged eyes, generic face, heavy makeup, skin smoothing, blotches, smudges or muddy relighting. Approved Face Canon is QA-only after generation.
+
+Body: use the face-excluded Body01 derivative only for neck-below anatomy/proportions. Keep the user-approved natural adult scale about 168 cm / 60 kg; realistic natural torso, hips, thighs, calves and feet. Lower legs straight from knees to ankles with natural calf volume and gentle taper. No bowed calves, model-thin silhouette or lengthened legs. Natural joint placement and walking weight transfer.
+
+Keep the exact accepted outfit as text-defined L2 design: relaxed cream knit cardigan, plain light T-shirt, dark charcoal/navy plaid A-line skirt, charcoal-black matte semisheer 20D continuous closed-toe pantyhose, simple white low-top canvas sneakers, plain navy backpack. Hosiery fully continuous across legs, heels, insteps and toes; black 30D source defines hue and matte finish only, not target 20D opacity. Hair is long, loose dark-brown with straight bangs just above eyebrows, as the scoped post-specific L2 text design only; no A/B hair inputs or blend.
+
+Render as an ordinary 2017–2018 26–28mm-equivalent phone snapshot with moderate automatic HDR, slight hand-held tilt, natural daylight, restrained sharpening and imperfect exposure. Keep natural depth; avoid editorial polish, posed framing, portrait blur, fake grain, sepia, date stamp, logo, text, watermark, readable school signage, identifiable architecture, collage or extra recognizable faces. One image only, no generated predecessor as input. Candidate stays `REVIEW_REQUIRED`; no Canon promotion.

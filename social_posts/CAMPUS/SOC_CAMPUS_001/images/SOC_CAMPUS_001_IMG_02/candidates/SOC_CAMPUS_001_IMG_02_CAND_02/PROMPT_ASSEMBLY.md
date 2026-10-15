@@ -1,0 +1,21 @@
+# Prompt Assembly — SOC_CAMPUS_001_IMG_02_CAND_02
+
+- use_case: `photorealistic-natural`
+- asset: one revised independent L3 carousel candidate, 4:5 vertical
+- authorization: user approved accepted face/body/outfit attributes and asked to start the next image; one next-shot candidate is authorized.
+- generation tool: built-in OpenAI ImageGen
+- references/roles/exclusions: see `REFERENCE_PLAN.md`
+
+Create one photorealistic-natural, unplanned 2018-style phone snapshot on a generic tree-lined university path. The friend taking the photo has just turned their phone back over one shoulder while continuing to walk. The adult East Asian woman is a few paces behind and still moving toward them; she has just heard the friend call and turns her head toward their voice, while her torso and steps continue down the path. Capture the fraction of a second before she fully reacts: a natural half-smile or speaking expression, eyes looking to the friend beside the phone and never directly into the lens, one arm swinging, backpack lightly shifting, hair ends moving. No one stops or poses.
+
+Make the framing unmistakably informal: photographer's phone slightly tilted during the turn, subject placed in the right third rather than centered, a small amount of empty path and tree shade around her, imperfect timing. Keep a wider comfortable frame than Candidate 01, so the whole head, both legs and both shoes—including the near shoe sole/toe—have generous clearance from every image edge. Full-body 4:5, camera at ordinary walking height several paces away, face still large enough to assess. Background walkers are distant and indistinct; no visible identifiable faces.
+
+Owner face generation uses the source-derived `FACE_02_LEFT_3Q_NEUTRAL_METHOD.md` constraints with L0 geometry crop 013 as primary authority, crop 014 only as supporting three-quarter geometry/asymmetry (do not copy its smile/styling), and skin crop 012 only for tone/texture. Keep the user-approved recognizable adult owner appearance: naturally soft oval/rounded-oval face, softly full cheeks, non-prominent cheekbones, gently narrowing rounded jaw/chin, medium natural almond eyes with subtle asymmetry, natural brows, moderate natural nose bridge and soft rounded tip, natural lips. No face slimming/sharpening, enlarged eyes, beautification, de-aging, generic face replacement, heavy makeup, beauty-filter skin, dark/bright blotches, muddy patches, smudging or identity drift. Approved Face02 Canon is QA-only after generation, never a generation input.
+
+Use only the face-excluded Body01 derivative for neck-below proportions and walking anatomy. Preserve user-approved adult body scale (168 cm / 60 kg) and natural contours. Keep legs and torso natural, not model-thin or elongated. Calves should read straight from below the knees to ankles, with realistic volume and a gentle taper, matching the user's last requested silhouette; don't bow the shins or make the calves unnaturally thin. Preserve natural joint placement and a believable step.
+
+Keep the accepted outfit unchanged: relaxed cream knit cardigan, plain light T-shirt, dark charcoal/navy plaid A-line skirt, charcoal-black matte semisheer 20D pantyhose, simple white low-top canvas sneakers, plain navy backpack. Pantyhose are continuous closed-toe textile from waist/hips over legs, heels, insteps and toes. The black matte source defines only hue and matte textile response; 20D opacity stays text-defined. No broken coverage, bare toes, plastic/rubber/latex/PVC/liquid finish or sexualized styling.
+
+Hair: post-specific L2 design defined by text only—long dark-brown hair, fully loose, straight bangs just above the eyebrows, natural slight motion. No A/B images or hybrid hairstyle.
+
+Generic tree-lined campus path, natural filtered daylight, 2017–2018 consumer-phone main-camera rendering: ordinary 26–28mm-equivalent perspective, moderate automatic HDR, restrained sharpening, natural depth and slightly imperfect exposure. Avoid editorial polish, perfectly level/staged framing, portrait cutout blur, fake grain, sepia, date stamp, watermark, readable text, school identifiers, logos, collage or multiple frames. No prior generated candidate as identity/body/hair/material input. Output stays `REVIEW_REQUIRED`; no Canon promotion.

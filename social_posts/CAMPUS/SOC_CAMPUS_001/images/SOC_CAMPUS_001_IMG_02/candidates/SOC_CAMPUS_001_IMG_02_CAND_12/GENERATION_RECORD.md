@@ -1,0 +1,24 @@
+# Generation Record — SOC_CAMPUS_001_IMG_02_CAND_12
+
+- post_id: `SOC_CAMPUS_001`
+- image_asset_id: `SOC_CAMPUS_001_IMG_02`
+- candidate_id: `SOC_CAMPUS_001_IMG_02_CAND_12`
+- asset_level: `L3`
+- status: `APPROVED_L3`
+- authorization: user request on `2026-10-15`: targeted framing revision authorized within the same image request: reduce visible face to approximately one quarter; keep the classroom, outfit, hair, identity-safe references, and spontaneous selfie framing.
+- reference_plan: `REFERENCE_PLAN.md`
+- prompt_assembly: `PROMPT_ASSEMBLY.md`
+- generation_inputs: four source/derivative inputs listed in reference plan.
+- qa_comparison_only: approved Face and Body Canons only after generation.
+- seed/settings: unavailable unless returned by built-in ImageGen.
+- intended_output_path: `images/SOC_CAMPUS_001_IMG_02_CAND_12.png`
+- original_candidate_path: `social_posts/CAMPUS/SOC_CAMPUS_001/images/SOC_CAMPUS_001_IMG_02/candidates/SOC_CAMPUS_001_IMG_02_CAND_12/SOC_CAMPUS_001_IMG_02_CAND_12.png`
+- current_approved_path: `social_posts/CAMPUS/SOC_CAMPUS_001/images/SOC_CAMPUS_001_IMG_02/approved/SOC_CAMPUS_001_IMG_02_APPROVED_v1.png`
+- promotion_operation: `MOVED`
+- sha256: `b2ad940232dc0f757d72a3107f490ecd92ac5909c781997900079a6ec42f46c0`
+- pixel_dimensions: `1122x1402`
+- QA: `Classroom selfie reads clearly; phone covers most of face with one eye and a small facial sliver visible; outfit/hair follow registered IMG_01 text design; hosiery visibly continuous and matte-sheer. Identity fidelity and face contamination still require human review against approved Face Canon comparison-only. Body reference exclusions followed. No school logo or readable text observed. Not approved or promoted.`
+- approved_by: `user`
+- approval_date: `2026-10-15`
+- approval_evidence: `第二版比较好，登记。`
+- promotion: `APPROVED_L3` for this post image only; not Canon.

@@ -1,0 +1,23 @@
+# Generation Record — SOC_CAMPUS_001_IMG_02_CAND_08
+
+- post_id: `SOC_CAMPUS_001`
+- image_asset_id: `SOC_CAMPUS_001_IMG_02`
+- candidate_id: `SOC_CAMPUS_001_IMG_02_CAND_08`
+- asset_level: `L3`
+- status: `REVISION_REQUIRED`
+- authorization: user message on `2026-10-15`: “场景换成女生宿舍一楼的大镜子，衣服是浅粉色短裤，白色衬衫，肉色丝袜，芭蕾鞋，一手拿着iphoneX遮脸自拍，齐刘海”; one new review candidate only.
+- reference_plan: `REFERENCE_PLAN.md`
+- prompt_assembly: `PROMPT_ASSEMBLY.md`
+- reference budget: `2 image references`
+- `generation_inputs`: exact two scoped references in `REFERENCE_PLAN.md` (face-excluded body derivative; nude hosiery material)
+- `qa_comparison_only`: approved Face Canon only for post-generation contamination/occlusion check; approved Body Canon may be used for QA proportion comparison only. Neither is a generation input.
+- hair decision: straight bangs authorized for this image as a scoped post-specific L2 variation under existing spec revision `draft_1.234`; no A/B blend, no Canon authority, no reuse.
+- face visibility: fully occluded by iPhone X; no face generation input.
+- seed/settings: unavailable unless returned by built-in ImageGen.
+- generated_at: `2026-10-15` (Asia/Shanghai)
+- output_path: `social_posts/CAMPUS/SOC_CAMPUS_001/images/SOC_CAMPUS_001_IMG_02/candidates/SOC_CAMPUS_001_IMG_02_CAND_08/SOC_CAMPUS_001_IMG_02_CAND_08.png`
+- sha256: `37cc05edccdb31ff8f39669f66106a71229eb5b7684cf14cbeba9157a4d10d02`
+- pixel_dimensions: `1122x1402` (4:5)
+- tool_artifact_path: `/home/verdvana/.codex/generated_images/01a13f7d-e6e0-7332-b1b3-495fd70ef882/exec-8e2d3392-0c07-42ac-b324-18c9f8dc1090.png`
+- QA: `QA.md`; scene/wardrobe broadly match, but three requested details failed visual QA.
+- promotion: none; do not register or promote without explicit user approval.

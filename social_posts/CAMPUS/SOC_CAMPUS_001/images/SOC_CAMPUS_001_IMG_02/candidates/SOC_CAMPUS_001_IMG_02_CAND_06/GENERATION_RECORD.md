@@ -1,0 +1,21 @@
+# Generation Record — SOC_CAMPUS_001_IMG_02_CAND_06
+
+- post_id: `SOC_CAMPUS_001`
+- image_asset_id: `SOC_CAMPUS_001_IMG_02`
+- candidate_id: `SOC_CAMPUS_001_IMG_02_CAND_06`
+- asset_level: `L3`
+- status: `REVISION_REQUIRED`
+- authorization: user said “脚上没有丝袜质感，鞋也很奇怪，换成黑色一字带高跟”; authorizes one revised candidate.
+- reference_plan: `REFERENCE_PLAN.md`
+- prompt_assembly: `PROMPT_ASSEMBLY.md`
+- reference budget: `5 image references (ImageGen limit)`
+- generation_inputs: exactly the five scoped source refs in `REFERENCE_PLAN.md`
+- qa_comparison_only: approved Face Canon and Body Canon, post-generation comparison only
+- seed/settings: unavailable unless returned by built-in ImageGen
+- generated_at: `2026-10-15` (Asia/Shanghai)
+- output_path: `social_posts/CAMPUS/SOC_CAMPUS_001/images/SOC_CAMPUS_001_IMG_02/candidates/SOC_CAMPUS_001_IMG_02_CAND_06/SOC_CAMPUS_001_IMG_02_CAND_06.png`
+- sha256: `8ba35873edbeef5e7acd2a54639cf2399983a6cdb8c84f4038af7feb7ea19de1`
+- pixel_dimensions: `1122x1402` (4:5)
+- tool_artifact_path: `/home/verdvana/.codex/generated_images/01a13f7d-e6e0-7332-b1b3-495fd70ef882/exec-7f93f34e-1859-4ba9-b5fb-adae32ab73df.png`
+- QA: pending
+- promotion: none; do not register or promote without explicit user approval.

@@ -1,0 +1,15 @@
+# Prompt Assembly — SOC_CAMPUS_001_IMG_02_CAND_08
+
+- use_case: `face-fully-occluded mirror selfie; source-derived body + scoped hosiery material`
+- authorization: user request captured in `GENERATION_RECORD.md`
+- generation_inputs: exactly the face-excluded Body derivative and nude 15D hosiery material source in `REFERENCE_PLAN.md`
+- qa_comparison_only: separate from generation inputs, see `REFERENCE_PLAN.md`
+- previous generated images: none
+
+Create exactly one photorealistic vertical 4:5 memory-reenactment photograph from around 2018. Scene: the common entry on the first floor of a generic women's university dormitory. A large full-length wall mirror near the entry shows an adult college woman taking a casual mirror selfie. The reflected room reads naturally as an ordinary dorm lobby: neutral tile floor, plain walls, a simple shoe shelf or mail cubbies and soft indoor overhead light; no identifiable school, readable notices, logos or real person's belongings. This is a normal lived-in space, not a hotel or fashion studio.
+
+She wears practical light blush-pink casual shorts (clearly shorts, not underwear), a relaxed white button-up shirt with natural cotton folds and simple black round-toe ballet flats. Nude sheer pantyhose, approximately 15D with restrained soft sheen, guided only by material reference 2. Pantyhose is one continuous fine textile from waist/hips through thighs, knees, calves, ankles and feet, visibly distinguishable from bare skin by a gentle even hosiery sheen and fine realistic fabric texture, with no breaks at shoe openings; the ballet flats are closed-toe and sit naturally over the hosiery. No plastic/latex gloss, painted-on appearance, fishnet or bare toes.
+
+Hair: long dark-brown straight hair with full straight bangs, natural everyday 2018 student styling and slight strand irregularity, no elaborate salon curls or accessories. This is the user's requested image-specific L2 styling, not Hairstyle A/B and not Canon. Face must be fully hidden behind a vertically held iPhone X in one hand. In the mirror show the back of a plausible 2018 iPhone X with vertically arranged dual camera; the phone covers the entire face from forehead to chin, leaving no visible eyes, nose, mouth or partial face. The phone appears only once and aligns correctly with the reflected hand. The free hand rests loosely by her side or lightly touches the shirt hem. Keep a relaxed everyday stance with one knee softly relaxed, no deliberate leg display or fashion pose.
+
+Photograph is an ordinary mirror selfie, not a third-person photo. Framing includes the complete head, outfit and both ballet flats in the mirror with some dorm entry context. Natural indoor smartphone exposure and modest detail consistent with an iPhone X-era 2018 image; no fake grain, date stamp, app interface, beauty filter, studio flash or background blur. Respect mirror geometry: the reflected phone hand, body, mirror frame and room stay coherent; avoid extra phones, extra reflected people, duplicate limbs, twisted anatomy, floating shoes, readable text, watermark and collage. Candidate only, REVIEW_REQUIRED; not approved or Canon-promoted.

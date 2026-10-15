@@ -1,0 +1,26 @@
+# Generation Record — SOC_CAMPUS_001_IMG_01_CAND_04
+
+- post_id: `SOC_CAMPUS_001`
+- image_asset_id: `SOC_CAMPUS_001_IMG_01`
+- candidate_id: `SOC_CAMPUS_001_IMG_01_CAND_04`
+- asset_level: `L3`
+- status: `APPROVED_L3`
+- authorization: user said face and composition are acceptable and requested straighter lower legs.
+- owner scoped L2 hairstyle exception: draft `1.234`
+- edit_target: CAND_03 for shot continuity and preservation of unedited regions only; not an identity, body-geometry or material reference
+- reference_plan: `REFERENCE_PLAN.md`
+- prompt_assembly: `PROMPT_ASSEMBLY.md`
+- reference budget: `5 / 8 images`
+- `generation_inputs` and `qa_comparison_only` are scoped in `REFERENCE_PLAN.md`.
+- generated_at: `2026-10-15` (Asia/Shanghai)
+- seed/settings: unavailable; built-in ImageGen edit
+- original_candidate_path: `social_posts/CAMPUS/SOC_CAMPUS_001/images/SOC_CAMPUS_001_IMG_01/candidates/SOC_CAMPUS_001_IMG_01_CAND_04/SOC_CAMPUS_001_IMG_01_CAND_04.png`
+- original_candidate_sha256: `e5ba5c1bc7f71333a50e824ed10ac7a3d4907aa64468e9ded17f56e256fe6a95`
+- current_approved_path: `social_posts/CAMPUS/SOC_CAMPUS_001/images/SOC_CAMPUS_001_IMG_01/approved/SOC_CAMPUS_001_IMG_01_APPROVED_v1.png`
+- current_approved_sha256: `e5ba5c1bc7f71333a50e824ed10ac7a3d4907aa64468e9ded17f56e256fe6a95`
+- promotion_operation: `MOVED`
+- pixel_dimensions: `1122x1402` (4:5)
+- tool_artifact_path: `/home/verdvana/.codex/generated_images/01a13f7d-e6e0-7332-b1b3-495fd70ef882/exec-1140dd81-1d16-486d-875a-b645bd254d69.png`
+- QA: `QA.md` (`APPROVED_L3` for this post image only)
+- approval record: `APPROVAL.md`, user evidence dated `2026-10-15`
+- Canon promotion: none; this remains an L3 post image.

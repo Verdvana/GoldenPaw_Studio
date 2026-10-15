@@ -1,0 +1,23 @@
+# Generation Record — SOC_CAMPUS_001_IMG_02_CAND_01
+
+- post_id: `SOC_CAMPUS_001`
+- image_asset_id: `SOC_CAMPUS_001_IMG_02`
+- candidate_id: `SOC_CAMPUS_001_IMG_02_CAND_01`
+- asset_level: `L3`
+- status: `USER_REJECTED`
+- authorization: user said “很好，就按照这个衣服，身材，长相，开始下一张” — authorizes one next carousel image, IMG_02, and approves those appearance attributes from IMG_01 for design continuity. Prior candidate image pixels remain excluded from face/body generation.
+- owner scoped L2 hairstyle exception: draft `1.234`
+- reference_plan: `../../REFERENCE_PLAN.md`
+- prompt_assembly: `../../PROMPT_ASSEMBLY.md`
+- reference budget: `5 / 8 images`
+- generation_inputs: the five sources listed in `REFERENCE_PLAN.md`.
+- qa_comparison_only: approved Owner Face02 and Body01 Canons, after generation only.
+- seed/settings: unavailable; built-in ImageGen
+- generated_at: `2026-10-15` (Asia/Shanghai)
+- output_path: `SOC_CAMPUS_001_IMG_02_CAND_01.png`
+- output_sha256: `53d5cffd082b67a460384f6c252d765d4c04a329c407177045528b373f5f4efe`
+- pixel_dimensions: `1122x1402` (4:5)
+- tool_artifact_path: `/home/verdvana/.codex/generated_images/01a13f7d-e6e0-7332-b1b3-495fd70ef882/exec-ddbbc6a4-2e3b-433a-ab4d-1b66db596738.png`
+- QA: `QA.md` (`REVIEW_REQUIRED`; superseded after crop/candidness review)
+- approval/promotion: none
+- user_rejection: `第一张可以登记，第二张生成的这几个都不行` — rejected on `2026-10-15`.

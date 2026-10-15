@@ -1,0 +1,21 @@
+# Generation Record — SOC_CAMPUS_001_IMG_02_CAND_05
+
+- post_id: `SOC_CAMPUS_001`
+- image_asset_id: `SOC_CAMPUS_001_IMG_02`
+- candidate_id: `SOC_CAMPUS_001_IMG_02_CAND_05`
+- asset_level: `L3`
+- status: `REVIEW_REQUIRED`
+- authorization: user request on `2026-10-15` — “第二张换成发型B,晚礼服，缎光舍宾肉色连裤袜，一字带高跟凉鞋，在学校晚会当主持人的单反抓拍”; authorizes one review candidate only.
+- reference_plan: `REFERENCE_PLAN.md`
+- prompt_assembly: `PROMPT_ASSEMBLY.md`
+- reference budget: `5 image references (ImageGen tool limit)`
+- generation_inputs: exactly the five entries in `REFERENCE_PLAN.md`; each has a single declared responsibility and exclusions.
+- qa_comparison_only: approved `OWNER_FACE_01_FRONT_NEUTRAL_CANON_001` and approved Body Canon, both post-generation QA only.
+- seed/settings: unavailable from built-in ImageGen unless returned at generation time.
+- generated_at: `2026-10-15` (Asia/Shanghai)
+- output_path: `social_posts/CAMPUS/SOC_CAMPUS_001/images/SOC_CAMPUS_001_IMG_02/candidates/SOC_CAMPUS_001_IMG_02_CAND_05/SOC_CAMPUS_001_IMG_02_CAND_05.png`
+- sha256: `9500b9f4415b8204b9653a84ddd5689cdbb23ef449b5bd49779d8f360226ac9e`
+- pixel_dimensions: `1122x1402` (4:5)
+- tool_artifact_path: `/home/verdvana/.codex/generated_images/01a13f7d-e6e0-7332-b1b3-495fd70ef882/exec-34776ee0-6752-404e-afa6-e6f24a8e5c1f.png`
+- QA: `QA.md`, pending visual and provenance checks
+- promotion: none; do not promote to Canon or mark publishable without explicit user approval.

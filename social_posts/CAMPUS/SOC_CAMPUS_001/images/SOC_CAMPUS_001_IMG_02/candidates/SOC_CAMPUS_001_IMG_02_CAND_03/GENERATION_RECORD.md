@@ -1,0 +1,23 @@
+# Generation Record — SOC_CAMPUS_001_IMG_02_CAND_03
+
+- post_id: `SOC_CAMPUS_001`
+- image_asset_id: `SOC_CAMPUS_001_IMG_02`
+- candidate_id: `SOC_CAMPUS_001_IMG_02_CAND_03`
+- asset_level: `L3`
+- status: `USER_REJECTED`
+- authorization: user approved the accepted face/body/outfit attributes and requested the next carousel image. This independent reframing addresses internal crop QA from two previous attempts.
+- owner scoped L2 hairstyle exception: draft `1.234`
+- reference_plan: `REFERENCE_PLAN.md`
+- prompt_assembly: `PROMPT_ASSEMBLY.md`
+- reference budget: `5 / 8 images`
+- generation_inputs: five role-scoped sources listed in `REFERENCE_PLAN.md`; no generated candidates.
+- qa_comparison_only: approved Owner Face02 and Body01 Canons, after generation only.
+- generated_at: `2026-10-15` (Asia/Shanghai)
+- seed/settings: unavailable; built-in ImageGen
+- output_path: `SOC_CAMPUS_001_IMG_02_CAND_03.png`
+- output_sha256: `0fd05622a1ba18acf684fe04997ef3c37cdd8b5a6be0fff32bbfabc168a49f9c`
+- pixel_dimensions: `1122x1402` (4:5)
+- tool_artifact_path: `/home/verdvana/.codex/generated_images/01a13f7d-e6e0-7332-b1b3-495fd70ef882/exec-6b8d119a-6b32-4ea2-b8dc-994f540ffcde.png`
+- QA: `QA.md` (`REVIEW_REQUIRED`; superseded for shoe clearance)
+- approval/promotion: none
+- user_rejection: `第一张可以登记，第二张生成的这几个都不行` — rejected on `2026-10-15`.

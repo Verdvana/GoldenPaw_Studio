@@ -1,0 +1,12 @@
+asset_id: SOC_CAMPUS_001_IMG_02
+candidate_id: SOC_CAMPUS_001_IMG_02_CAND_02
+asset_level: L3
+status: USER_REJECTED
+post_id: SOC_CAMPUS_001
+path: social_posts/CAMPUS/SOC_CAMPUS_001/images/SOC_CAMPUS_001_IMG_02/candidates/SOC_CAMPUS_001_IMG_02_CAND_02/SOC_CAMPUS_001_IMG_02_CAND_02.png
+aspect_ratio: "4:5"
+pixel_dimensions: "1122x1402"
+sha256: 9e68a836f5d6e0b760261a67dfe36802180cb9cc4a7677ac7b28120487155365
+generation_mode: built_in_imagegen
+spec_revision: draft_1.234
+canonical_status: NOT_CANON

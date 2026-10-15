@@ -1,0 +1,14 @@
+asset_id: SOC_CAMPUS_001_IMG_02
+candidate_id: SOC_CAMPUS_001_IMG_02_CAND_09
+asset_level: L3
+status: REVISION_REQUIRED
+post_id: SOC_CAMPUS_001
+path: social_posts/CAMPUS/SOC_CAMPUS_001/images/SOC_CAMPUS_001_IMG_02/candidates/SOC_CAMPUS_001_IMG_02_CAND_09/SOC_CAMPUS_001_IMG_02_CAND_09.png
+aspect_ratio: "4:5"
+pixel_dimensions: "1122x1402"
+sha256: ab7da6fd176cb89add0d197b9e3e480b977b473c57bf26548e6a4abd6548e612
+generation_mode: built_in_imagegen
+reference_plan: REFERENCE_PLAN.md
+generation_record: GENERATION_RECORD.md
+qa_status: REVISION_REQUIRED
+canonical_status: NOT_CANON
