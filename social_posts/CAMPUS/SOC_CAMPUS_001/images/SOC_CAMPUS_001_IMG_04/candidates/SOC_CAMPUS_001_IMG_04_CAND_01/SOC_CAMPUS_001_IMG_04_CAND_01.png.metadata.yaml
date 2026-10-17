@@ -1,0 +1,12 @@
+asset_id: SOC_CAMPUS_001_IMG_04
+candidate_id: SOC_CAMPUS_001_IMG_04_CAND_01
+asset_level: L3
+status: REVIEW_REQUIRED
+post_id: SOC_CAMPUS_001
+path: social_posts/CAMPUS/SOC_CAMPUS_001/images/SOC_CAMPUS_001_IMG_04/candidates/SOC_CAMPUS_001_IMG_04_CAND_01/SOC_CAMPUS_001_IMG_04_CAND_01.png
+aspect_ratio: "3:4"
+pixel_dimensions: "1086x1448"
+sha256: dfb34a4877bf5a996752843db1cc6f9ac9dea09788eeb276fdfbee7ea3e20300
+generation_mode: built_in_imagegen
+canonical_status: NOT_CANON
+notes: "4:5 social delivery crop is pending; do not crop or promote before review."

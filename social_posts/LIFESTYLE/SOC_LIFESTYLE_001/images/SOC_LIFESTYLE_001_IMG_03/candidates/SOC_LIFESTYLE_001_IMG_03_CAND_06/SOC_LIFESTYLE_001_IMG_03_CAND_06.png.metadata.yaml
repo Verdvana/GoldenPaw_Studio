@@ -1,0 +1,14 @@
+asset_id: SOC_LIFESTYLE_001_IMG_03
+candidate_id: SOC_LIFESTYLE_001_IMG_03_CAND_06
+asset_level: L3
+status: APPROVED_L3
+original_candidate_path: social_posts/LIFESTYLE/SOC_LIFESTYLE_001/images/SOC_LIFESTYLE_001_IMG_03/candidates/SOC_LIFESTYLE_001_IMG_03_CAND_06/SOC_LIFESTYLE_001_IMG_03_CAND_06.png
+current_approved_path: social_posts/LIFESTYLE/SOC_LIFESTYLE_001/images/SOC_LIFESTYLE_001_IMG_03/approved/SOC_LIFESTYLE_001_IMG_03_APPROVED_v1.png
+sha256: e6ddf252db6019431ab592bde330f121cfe62967ab4a124885f087d0bca3db93
+dimensions: 1122x1402
+aspect_ratio: 4:5
+generation_inputs:
+  - BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v7
+  - OWNER_HOS_15D_NUDE_MATTE_MATERIAL_CROP_001
+qa_comparison_only: []
+approval_status: APPROVED_L3
