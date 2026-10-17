@@ -1,0 +1,17 @@
+asset_id: OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v002
+outfit_id: OWNER_CASUAL_AUTUMN_02
+asset_level: L2
+asset_purpose: worn_front
+view_type: worn_front
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/candidates/v002_worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v002.png
+sha256: c18486ff91ae274653cb15cbd77269b57debd8498e115ad6dc157246b25d3e21
+dimensions: 1024x1536
+aspect_ratio: 2:3
+status: REJECTED
+responsibility:
+  - requested skirt silhouette refinement
+must_not_define:
+  - future face generation or identity lineage
+  - Character Canon
+  - video keyframe identity
+qa_status: FAIL_aspect_ratio_and_head_angle

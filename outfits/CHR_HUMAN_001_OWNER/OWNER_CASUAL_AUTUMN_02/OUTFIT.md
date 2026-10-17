@@ -6,13 +6,15 @@
 - intended_character_id: `CHR_HUMAN_001_OWNER`
 - episode/scene scope: reusable owner casualwear / autumn
 - character_outfit_root: `outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02`
-- status: `DESIGN_REFERENCE_APPROVED_WORN_FRONT_REVIEW_REQUIRED`
-- approval_status: `DESIGN_REFERENCE_APPROVED`
+- status: `DESIGN_REFERENCE_AND_WORN_FRONT_APPROVED`
+- approval_status: `DESIGN_REFERENCE_AND_WORN_FRONT_APPROVED`
 - design_reference_status: `APPROVED`
-- worn_validation_status: `REVIEW_REQUIRED`
+- worn_validation_status: `APPROVED`
 - approved_design_reference: `approved/design_reference/OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE.png`
-- approved_worn_views: `[]`
-- current_worn_front_candidate: `candidates/v001_worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v001.png`
+- approved_worn_views: [`approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT.png`]
+- current_worn_front_candidate: `approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT.png`
+- prior_worn_front_candidates: `v001` (superseded by skirt refinement), `v002` (rejected: 2:3 framing and head angle), `v003` (rejected: pantyhose absent)
+- prior_worn_front_candidate: `candidates/v001_worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v001.png` (superseded by requested skirt silhouette refinement)
 - current_design_reference: `approved/design_reference/OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE.png`
 - prior_design_reference_candidates: `v001` (REJECTED), `v002` (REJECTED), `v003` (superseded by user-requested refinement)
 
@@ -26,8 +28,9 @@ lighter warm medium-brown wool-blend mini skirt, thin white pantyhose with sligh
 natural show-through, and pale beige-tan fuzzy open-toe mule slippers.
 
 The silhouette should feel comfortable and everyday: cardigan shoulders sit naturally,
-the skirt has a simple A-line shape with a clean hem, and the slippers have a soft
-plush upper and low flexible sole. Keep the outfit visually distinct from
+and the mini skirt has a restrained, subtle A-line with a clean hem. The hem is only
+modestly wider than the hip line; avoid an umbrella, circle-skirt or strongly flared
+shape. The slippers have a soft plush upper and low flexible sole. Keep the outfit visually distinct from
 `OWNER_CASUAL_AUTUMN_01` (white lace top, black ruffled skirt, silver hosiery and
 silver Mary Jane shoes).
 

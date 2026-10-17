@@ -1,0 +1,20 @@
+asset_id: OWNER_CASUAL_AUTUMN_02_WORN_FRONT
+outfit_id: OWNER_CASUAL_AUTUMN_02
+level: L2
+status: APPROVED
+approved_by: user
+approval_date: 2026-10-17
+source_candidate: candidates/v004_worn_front
+authoritative_file: OWNER_CASUAL_AUTUMN_02_WORN_FRONT.png
+sha256: 0b25ab1fc7ed465e18fac90022f4b9db67f9238cc88970836caf19abfffc9eb4
+dimensions: 1086x1448
+aspect_ratio: 3:4
+scope:
+  - approved autumn casual outfit worn-front presentation
+  - refined subtle A-line skirt with restrained hem width
+  - thin slightly sheer white pantyhose with visible toe coverage under open-toe slippers
+must_not_define:
+  - Character Canon
+  - future face generation or identity lineage
+  - Body01 proportions outside this outfit-fit presentation
+  - video keyframe identity
