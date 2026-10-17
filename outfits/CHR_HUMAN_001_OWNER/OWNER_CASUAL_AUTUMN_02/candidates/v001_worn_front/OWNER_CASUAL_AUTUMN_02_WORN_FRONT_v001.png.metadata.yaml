@@ -1,0 +1,18 @@
+asset_id: OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v001
+outfit_id: OWNER_CASUAL_AUTUMN_02
+asset_level: L2
+asset_purpose: worn_front
+view_type: worn_front
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/candidates/v001_worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v001.png
+sha256: 4b6b62f8300df13286ac95f4ac53503b15d1ec766f6fa1133865c66fef76757e
+dimensions: 1086x1448
+aspect_ratio: 3:4
+status: REVIEW_REQUIRED
+responsibility:
+  - approved outfit fit and layering
+  - front full-body presentation
+must_not_define:
+  - Character Canon
+  - future face generation or identity lineage
+  - video keyframe identity
+qa_status: PASS_WITH_USER_REVIEW

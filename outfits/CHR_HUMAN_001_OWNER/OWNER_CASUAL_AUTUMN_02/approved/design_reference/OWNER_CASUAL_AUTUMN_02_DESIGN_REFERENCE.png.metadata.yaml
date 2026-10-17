@@ -1,0 +1,18 @@
+asset_id: OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE
+outfit_id: OWNER_CASUAL_AUTUMN_02
+asset_level: L2
+asset_purpose: design_reference
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/approved/design_reference/OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE.png
+sha256: 586fd1a26d5bfad1824187e682124c9251183e776dfe46f707301a7efba1784d
+status: APPROVED
+approval_date: 2026-10-17
+responsibility:
+  - clothing design, palette, and layering
+  - hosiery thickness and transparency
+  - footwear color
+must_not_define:
+  - owner face
+  - owner body or proportions
+  - owner skin or hair
+  - owner identity
+  - video keyframe identity

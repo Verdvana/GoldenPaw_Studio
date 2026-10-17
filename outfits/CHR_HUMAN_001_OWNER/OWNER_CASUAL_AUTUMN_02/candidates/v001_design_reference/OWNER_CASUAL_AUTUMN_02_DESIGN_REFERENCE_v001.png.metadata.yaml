@@ -1,0 +1,18 @@
+asset_id: OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE_v001
+outfit_id: OWNER_CASUAL_AUTUMN_02
+asset_level: L2
+asset_purpose: design_reference
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/candidates/v001_design_reference/OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE_v001.png
+sha256: 43288c17f88b389d4b6615bdbe3d8ee639fcdca764d67cda8e3899de97eb5dfe
+status: REJECTED
+responsibility:
+  - clothing palette and design
+  - garment layering
+  - hosiery and open-toe slipper relationship
+must_not_define:
+  - owner face
+  - owner body or proportions
+  - owner skin or hair
+  - owner identity
+  - video keyframe identity
+qa_decision: rejected_leg_shaped_ghost_mannequin

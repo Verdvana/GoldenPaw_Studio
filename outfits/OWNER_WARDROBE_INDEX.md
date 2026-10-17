@@ -32,6 +32,7 @@ serve as a future generation input.
 | `OWNER_WORK_AUTUMN_01` | office / autumn | reference-led design contract + design reference + worn front; add 3/4/back/detail only if required by QA | REFERENCE INTAKE PENDING |
 | `OWNER_WORK_WINTER_01` | office / winter | design reference + worn front + 3/4/back; boot detail if needed | REBUILD REQUIRED |
 | `OWNER_CASUAL_SUMMER_01` | casualwear / summer | approved design reference + approved worn front; supplied garment references retained | DESIGN REFERENCE + WORN FRONT APPROVED |
+| `OWNER_CASUAL_AUTUMN_02` | casualwear / autumn | oatmeal knit cardigan, ivory tee, lighter warm-brown wool mini skirt, thin slightly sheer white pantyhose and pale beige-tan fuzzy open-toe slippers | DESIGN REFERENCE APPROVED; WORN FRONT REVIEW REQUIRED |
 
 ## Generation policy
 
