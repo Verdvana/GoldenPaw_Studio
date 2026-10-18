@@ -36,6 +36,7 @@
 | L0_HOS_30_NM_004 | `30d_nude_matte/IMG_2600.jpg` | seated crossed, open-toe shoes | alternate shoe/ankle interaction | toes partly obscured |
 | L0_HOS_30_NM_005 | `30d_nude_matte/unnamed.jpg` | bare lower legs/feet | best nude-matte barefoot, instep and toe coverage source | studio/processed image; color needs cross-check |
 | L0_HOS_30_NSS_001 | `30d_nude_soft_sheen/IMG_2682.jpg` | standing lower body, open-toe shoes | only current 30D nude soft-sheen source | single image; footwear hides parts of feet |
+| L0_HOS_USER_001 | `user_selected_sheer_pale/PHOTO_2.jpg` | close-up of pale lower leg/foot in plush open-toe mules | user-selected pale sheer hosiery appearance and plush slipper upper/foot opening only | must not define owner identity, skin tone, anatomy, pose, clothing, or 5 cm sole thickness; denier is visually unverified |
 
 Use the stable IDs listed above. One photograph may have a narrow responsibility—for example ankle transition or toe coverage—rather than defining the entire material.
 

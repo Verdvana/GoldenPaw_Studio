@@ -1,0 +1,22 @@
+# Generation Record — Candidate 03
+
+- generated_at: 2026-10-17
+- model/tool: OpenAI ImageGen
+- status: recovered original output; approved by user as L3
+- chronology: this file records the first output of the initial ImageGen request. Its first tool response was not captured in the chat response at the time; the saved output was recovered after the user clarified which image they meant.
+- generation_inputs:
+  - `OWNER_FACE_L0_OWNER_013_GEOMETRY_CROP_001`: L0-derived face geometry/identity only
+  - `OWNER_FACE_L0_OWNER_012_SKIN_CONTEXT_CROP_001`: L0-derived skin context only
+  - `OWNER_BODY_01_FRONT_V025_FACE_EXCLUDED_v1`: deterministic neck-below body proportions only
+  - `OWNER_HAIR_A_01_FRONT_CANON_001`: Hair A only
+  - `OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v012`: Autumn 02 clothing/material only; its face/hair exclusions applied
+- qa_comparison_only: `OWNER_FACE_01_FRONT_NEUTRAL_CANON_001`; comparison only after generation
+- seed/settings: not exposed by ImageGen
+- output_dimensions: 1122×1402 PNG, approximately 4:5
+- original_output_path: `/home/verdvana/.codex/generated_images/01a149e7-915e-7601-9be0-c1f9a3a96659/exec-efce13cc-4776-4a7a-8a75-804935067aeb.png`
+- candidate_path_before_promotion: `social_posts/OUTFIT_DETAIL/SOC_OUTFIT_001/images/SOC_OUTFIT_001_IMG_01/candidates/SOC_OUTFIT_001_IMG_01_CAND_03/SOC_OUTFIT_001_IMG_01_CAND_03.png`
+- output_sha256: `4bc5842a23ce17c3fdff3e2414b7e33329cef7a4240f49041f8ca9fa472e0ed7`
+- current_approved_path: `social_posts/OUTFIT_DETAIL/SOC_OUTFIT_001/images/SOC_OUTFIT_001_IMG_01/approved/SOC_OUTFIT_001_IMG_01_APPROVED_v2.png`
+- current_approved_sha256: `4bc5842a23ce17c3fdff3e2414b7e33329cef7a4240f49041f8ca9fa472e0ed7`
+- approval_record: `social_posts/OUTFIT_DETAIL/SOC_OUTFIT_001/images/SOC_OUTFIT_001_IMG_01/approved/APPROVAL.md`
+- QA: `social_posts/OUTFIT_DETAIL/SOC_OUTFIT_001/images/SOC_OUTFIT_001_IMG_01/candidates/SOC_OUTFIT_001_IMG_01_CAND_03/QA.md`

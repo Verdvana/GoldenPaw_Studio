@@ -9,43 +9,47 @@
 - status: `DESIGN_REFERENCE_AND_WORN_FRONT_APPROVED`
 - approval_status: `DESIGN_REFERENCE_AND_WORN_FRONT_APPROVED`
 - design_reference_status: `APPROVED`
-- worn_validation_status: `APPROVED`
+- worn_validation_status: `APPROVED_BY_USER`
 - approved_design_reference: `approved/design_reference/OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE.png`
-- approved_worn_views: [`approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT.png`]
-- current_worn_front_candidate: `approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT.png`
-- prior_worn_front_candidates: `v001` (superseded by skirt refinement), `v002` (rejected: 2:3 framing and head angle), `v003` (rejected: pantyhose absent)
+- prior_worn_views: [`approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT.png`] (earlier approved presentation; retained as historical version)
+- approved_worn_front: `approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v012.png` (`APPROVED`; face and hairstyle are strictly excluded from future reference use)
+- current_worn_front_candidate: `none` (v012 promoted after explicit user approval)
+- prior_worn_front_candidates: `v001` (superseded by skirt refinement), `v002` (rejected: 2:3 framing and head angle), `v003` (rejected: pantyhose absent), `v005`–`v008` (rejected: hosiery/toe coverage not visibly continuous), `v009` (superseded after user face/hair/hosiery/sole feedback), `v010` (calf gap), `v011` (superseded for more exact neutral-face source routing; review status retained)
 - prior_worn_front_candidate: `candidates/v001_worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v001.png` (superseded by requested skirt silhouette refinement)
-- current_design_reference: `approved/design_reference/OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE.png`
-- prior_design_reference_candidates: `v001` (REJECTED), `v002` (REJECTED), `v003` (superseded by user-requested refinement)
+- current_design_reference: `approved/design_reference/OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE.png` (v005)
+- prior_design_reference_candidates: `v001` (REJECTED), `v002` (REJECTED), `v003` (superseded), `v004` (previously approved; superseded by v005)
+
+## Approved worn-front reference restriction
+
+The approved v012 worn-front image may define only the outfit appearance/fit, matte
+white pantyhose textile and coverage, toe-opening interaction, and plush mule/sole
+design. When this image is referenced, its depicted person's face/likeness and all
+hairstyle/hair attributes are strictly prohibited as references, including from crops
+or inferred visual features. It also must not define body proportions, skin, identity
+lineage or video keyframe identity. Use approved Face/Hairstyle Canons or their allowed
+source methods separately for those responsibilities.
 
 ## Design direction
 
-Cozy, relaxed autumn homewear with a warm neutral palette. The top is a cream-oatmeal
-crew-neck knit cardigan with a gently relaxed fit, waist-length hem, narrow ribbed
-cuffs and hem, and small matte wood-look buttons. Wear it buttoned over a plain warm
-ivory crew-neck tee; keep both layers unbranded and free of graphics. Pair it with a
-lighter warm medium-brown wool-blend mini skirt, thin white pantyhose with slight
-natural show-through, and pale beige-tan fuzzy open-toe mule slippers.
-
-The silhouette should feel comfortable and everyday: cardigan shoulders sit naturally,
-and the mini skirt has a restrained, subtle A-line with a clean hem. The hem is only
-modestly wider than the hip line; avoid an umbrella, circle-skirt or strongly flared
-shape. The slippers have a soft plush upper and low flexible sole. Keep the outfit visually distinct from
+Autumn outfit in dark chocolate brown and ivory. A classic tailored dark-brown blazer
+with notched lapels and long sleeves layers over a fitted ivory fine-ribbed high-neck
+knit top. Pair it with a dark-brown high-waisted pleated mini skirt, medium-thick
+matte white pantyhose, and cream ivory plush open-toe mule slippers with an approximately 3 cm thick platform sole. Garments
+are unbranded and free of graphics. Keep the skirt pleats distinct and even; the
+hosiery is textile, never latex or plastic. Keep the outfit visually distinct from
 `OWNER_CASUAL_AUTUMN_01` (white lace top, black ruffled skirt, silver hosiery and
 silver Mary Jane shoes).
 
 ## Asset package contract
 
-The first candidate is a clothing-only `design_reference`, arranged as a clear,
-photorealistic apparel presentation on a neutral light-gray studio background. No
-person, mannequin head, face, hands, body, or identity cues. Show the complete
-cardigan, undershirt, skirt, thin white pantyhose, and both slippers as separate
-products; the pantyhose is neatly folded and the slippers' openings remain visible.
-The worn-front validation view checks the hosiery-to-slipper relationship and fit on
-the owner.
+The approved v005 is a clothing-only `design_reference`, arranged as a clear,
+photorealistic apparel presentation on a neutral light-gray studio background. It
+contains no person, mannequin, face, hands, body, or identity cues. The previous
+worn-front view predates this outfit redesign and must be revalidated before use as
+the current worn view.
 
-Candidate `v004` passed clothing-only design QA and was approved by the user on
-2026-10-17. Attempts `v001` and `v002` were rejected because the pantyhose was
+Candidate `v005` passed clothing-only design review and was approved by the user on
+2026-10-17. It supersedes previously approved v004. Attempts `v001` and `v002` were rejected because the pantyhose was
 rendered as a human-shaped leg form; `v003` was superseded by the requested color and
 hosiery refinement.
 
@@ -55,27 +59,28 @@ derivative. Initial fit and contamination QA passed; user approval is pending.
 
 | Layer | Asset/material ID | Construction | Color | Coverage |
 |---|---|---|---|---|
-| Top layer | `OWNER_CASUAL_AUTUMN_02_CARDIGAN` | Crew neck, gently relaxed long sleeves, waist-length, small matte wood-look buttons, narrow ribbed cuffs and hem | Cream oatmeal | Torso and arms |
-| Base layer | `OWNER_CASUAL_AUTUMN_02_TEE` | Plain crew-neck tee, smooth cotton jersey, no print | Warm ivory | Visible at neckline and a small area below cardigan opening |
-| Bottom | `OWNER_CASUAL_AUTUMN_02_SKIRT` | Simple clean A-line mini skirt, substantial wool-blend texture, no ruffles or lace | Lighter warm medium brown | Upper thigh |
-| Hosiery | `OWNER_CASUAL_AUTUMN_02_TIGHTS` | Continuous thin pantyhose with slight natural show-through, matte textile finish, closed toe | White | Waist through hips, legs, heels, insteps and toes |
-| Footwear | `OWNER_CASUAL_AUTUMN_02_SLIPPERS` | Low-profile mule slippers, plush fuzzy upper, open toe, soft flat sole | Pale beige-tan | Footwear leaves hosiery-covered toe area visible |
+| Outer layer | `OWNER_CASUAL_AUTUMN_02_BLAZER` | Tailored blazer, classic notched lapels, long sleeves | Dark chocolate brown | Torso and arms |
+| Top | `OWNER_CASUAL_AUTUMN_02_KNIT_TOP` | Fitted fine-ribbed high-neck knit | Ivory | Torso and neck |
+| Bottom | `OWNER_CASUAL_AUTUMN_02_SKIRT` | High-waisted mini skirt with crisp narrow pleats | Dark chocolate brown | Upper thigh |
+| Hosiery | `OWNER_CASUAL_AUTUMN_02_TIGHTS` | Continuous medium-thick matte pantyhose with visible textile tension; closed toe | Soft white | Waist through hips, legs, heels, insteps and toes; only toe tips may show slight translucency |
+| Footwear | `OWNER_CASUAL_AUTUMN_02_SLIPPERS` | Plush fuzzy open-toe mule slippers, approximately 3 cm thick platform sole | Cream ivory | Hosiery remains continuous through visible toe opening |
 
 ## Silhouette and fit
 
-- shoulder/neckline fit: natural shoulder seam; crew neckline lies flat without gaping.
-- garment length and hem position: cardigan hem meets the skirt waistband; skirt hem sits at upper thigh.
-- waist/hip/chest tension: relaxed cardigan and tee; skirt sits securely at natural waist without pulling.
-- layering and coverage: tee remains a narrow underlayer; no exposed midriff.
+- shoulder/neckline fit: blazer shoulder line sits naturally; ribbed high neck lies flat.
+- garment length and hem position: blazer layers over skirt; skirt hem sits at upper thigh.
+- waist/hip/chest tension: knit top fits close without distortion; skirt sits securely at natural waist.
+- layering and coverage: knit top remains beneath blazer; no exposed midriff.
 - drape/fold behavior: soft cardigan folds, structured skirt body, no stiff or plastic surfaces.
-- footwear and hosiery relationship: thin white pantyhose remains continuous beneath both open-toe slippers, with fabric-covered toes naturally visible through the opening.
+- footwear and hosiery relationship: medium-thick matte white pantyhose remains continuous beneath both open-toe slippers, with only toe tips showing slight translucency through the opening and visible textile tension over the feet; platform sole is approximately 3 cm thick.
+- worn-front leg stance: feet together and parallel; knees and calves naturally close and may touch. Preserve natural registered leg volume and alignment; do not render bowed/O-shaped legs or a stance-induced calf gap.
 
 ## Hosiery and footwear contract
 
 - hosiery_material_id: `OWNER_CASUAL_AUTUMN_02_TIGHTS`
-- denier/color/finish: thin white pantyhose with slight natural show-through, matte textile; exact denier to be selected during later material validation
-- toe construction: closed and continuously covered textile toes; subtle skin tone may show through, but never a material break or bare toe
-- footwear: pale beige-tan fuzzy open-toe mule slippers
+- denier/color/finish: medium-thick soft-white matte hosiery; exact denier not specified
+- toe construction: closed and continuously covered textile toes; only toe tips may show slight skin tone through fabric, never a material break or bare toe; visible smooth fabric tension across calves, ankles, insteps and toes
+- footwear: cream ivory fuzzy open-toe mule slippers with approximately 3 cm thick platform sole
 - continuous coverage required: yes
 
 ## Must not redefine

@@ -1,0 +1,20 @@
+asset_id: SOC_OUTFIT_002_IMG_02_CAND_08
+post_id: SOC_OUTFIT_002
+image_asset_id: SOC_OUTFIT_002_IMG_02
+asset_level: L3
+asset_purpose: social_post_refined_candidate
+file_path: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_02/candidates/SOC_OUTFIT_002_IMG_02_CAND_08/SOC_OUTFIT_002_IMG_02_CAND_08.png
+sha256: cd826a95fe4db4418c17ca31a6684b2ca6d632f40853c652760a879a92650134
+status: REVIEW_REQUIRED
+created_at: 2026-10-17
+model_tool: OpenAI ImageGen edit
+dimensions: 1122x1402
+aspect_ratio: approximately 4:5
+edit_target: SOC_OUTFIT_002_IMG_02_CAND_06
+edit_scope: convex wide-angle distortion across mirror interior, including person; preserve pose, position, scale, outfit and scene
+continuity_only_input: none
+qa_comparison_only: []
+face_visible: false
+face_occlusion: phone fully covers face
+reference_plan: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_02/candidates/SOC_OUTFIT_002_IMG_02_CAND_08/REFERENCE_PLAN.md
+prompt_assembly: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_02/candidates/SOC_OUTFIT_002_IMG_02_CAND_08/PROMPT_ASSEMBLY.md

@@ -601,6 +601,11 @@ reference_sets:
     max_images: 1
     assets:
       - {asset_id: L0_HOS_15_WSS_002, path: "materials/hosiery/source_library/raw/15d_white_soft_sheen/IMG_2604.jpg"}
+  HOS_USER_SELECTED_SHEER_PALE_AND_PLUSH_MULES:
+    purpose: "user-selected photo: pale sheer hosiery textile appearance and plush open-toe mule upper/foot interface only; sole thickness is defined by current user direction, not this photo"
+    max_images: 1
+    assets:
+      - {asset_id: L0_HOS_USER_001, path: "materials/hosiery/source_library/raw/user_selected_sheer_pale/PHOTO_2.jpg"}
   HOS_15D_WHITE_SOFT_SHEEN_REAR_HEEL:
     purpose: "rear calf/heel/shoe interface"
     max_images: 1
@@ -627,3 +632,12 @@ reference_sets:
     max_images: 1
     assets:
       - {asset_id: L0_HOS_30_NSS_001, path: "materials/hosiery/source_library/raw/30d_nude_soft_sheen/IMG_2682.jpg"}
+  OWNER_CASUAL_AUTUMN_02_WORN_FRONT_APPROVED_V012:
+    purpose: "approved L2 worn-front outfit reference only: outfit appearance/fit/drape, matte white hosiery textile/coverage, toe-opening interaction, and plush mule/sole design. Strictly must not define or influence the depicted person's face/likeness or hairstyle/hair attributes, even from a crop; also excludes body proportions, skin, identity lineage, and video keyframe identity"
+    max_images: 1
+    approval_status: "APPROVED_WITH_FACE_AND_HAIR_REFERENCE_PROHIBITION"
+    usable_for_generation: true
+    responsibilities: [outfit appearance and fit/drape, matte white hosiery textile/coverage, toe-opening interaction, plush mule/sole design]
+    must_not_define: [depicted face/likeness/expression/identity, hairstyle/hairline/part/length/texture/color/volume, body proportions, skin, identity lineage, video keyframe identity]
+    assets:
+      - {asset_id: OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v012, path: "outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v012.png"}

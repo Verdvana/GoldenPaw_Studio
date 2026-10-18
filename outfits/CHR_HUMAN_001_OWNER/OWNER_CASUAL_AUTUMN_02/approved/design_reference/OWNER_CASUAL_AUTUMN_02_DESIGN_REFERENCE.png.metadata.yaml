@@ -3,16 +3,19 @@ outfit_id: OWNER_CASUAL_AUTUMN_02
 asset_level: L2
 asset_purpose: design_reference
 file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/approved/design_reference/OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE.png
-sha256: 586fd1a26d5bfad1824187e682124c9251183e776dfe46f707301a7efba1784d
+sha256: 216f7621c422471bdb0cdcf6e8b9e881c69b3c7169182c0c92ea6e51ed2a9b63
 status: APPROVED
 approval_date: 2026-10-17
 responsibility:
-  - clothing design, palette, and layering
-  - hosiery thickness and transparency
-  - footwear color
+  - dark brown blazer design
+  - ivory ribbed turtleneck design
+  - dark brown pleated mini skirt design
+  - cream plush open-toe mule upper design and color
 must_not_define:
   - owner face
   - owner body or proportions
   - owner skin or hair
   - owner identity
   - video keyframe identity
+  - hosiery material, color, opacity, finish or toe treatment (superseded by approved worn-front v012)
+  - slipper sole thickness (defined by latest user direction and approved worn-front v012 as approximately 3 cm)

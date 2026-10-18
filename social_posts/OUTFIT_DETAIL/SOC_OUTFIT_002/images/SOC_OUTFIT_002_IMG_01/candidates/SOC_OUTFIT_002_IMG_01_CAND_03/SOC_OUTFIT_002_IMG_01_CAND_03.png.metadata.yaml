@@ -1,0 +1,20 @@
+asset_id: SOC_OUTFIT_002_IMG_01_CAND_03
+post_id: SOC_OUTFIT_002
+image_asset_id: SOC_OUTFIT_002_IMG_01
+asset_level: L3
+asset_purpose: social_post_refined_candidate
+file_path: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_01/candidates/SOC_OUTFIT_002_IMG_01_CAND_03/SOC_OUTFIT_002_IMG_01_CAND_03.png
+sha256: 52ba12c6cb305b2fbb863ae3b2cda748080907b5724dfd599d1b5ef4a8ba7489
+status: REVIEW_REQUIRED
+created_at: 2026-10-17
+model_tool: OpenAI ImageGen
+dimensions: 1122x1402
+aspect_ratio: approximately 4:5
+generation_inputs:
+  - OWNER_BODY_01_FRONT_V025_FACE_EXCLUDED_v1
+  - OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v012
+continuity_only_input: SOC_OUTFIT_002_IMG_01_CAND_02
+continuity_responsibility: accepted pose idea, camera crop and picnic setting only; leg anatomy explicitly excluded
+qa_comparison_only: []
+reference_plan: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_01/candidates/SOC_OUTFIT_002_IMG_01_CAND_03/REFERENCE_PLAN.md
+prompt_assembly: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_01/candidates/SOC_OUTFIT_002_IMG_01_CAND_03/PROMPT_ASSEMBLY.md

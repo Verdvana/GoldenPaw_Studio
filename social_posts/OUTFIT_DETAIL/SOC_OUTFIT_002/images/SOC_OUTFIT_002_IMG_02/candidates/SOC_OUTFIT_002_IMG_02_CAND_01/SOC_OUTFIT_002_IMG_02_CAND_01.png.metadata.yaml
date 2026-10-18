@@ -1,0 +1,22 @@
+asset_id: SOC_OUTFIT_002_IMG_02_CAND_01
+post_id: SOC_OUTFIT_002
+image_asset_id: SOC_OUTFIT_002_IMG_02
+asset_level: L3
+asset_purpose: social_post_candidate
+file_path: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_02/candidates/SOC_OUTFIT_002_IMG_02_CAND_01/SOC_OUTFIT_002_IMG_02_CAND_01.png
+sha256: 7c8313592e1e5ebad2e24c8bc5d67794baf11f2f9afa808503671e06577e878c
+status: REVIEW_REQUIRED
+created_at: 2026-10-17
+model_tool: OpenAI ImageGen
+dimensions: 1122x1402
+aspect_ratio: approximately 4:5
+reference_plan: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_02/REFERENCE_PLAN.md
+prompt_assembly: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_02/PROMPT_ASSEMBLY.md
+generation_inputs:
+  - OWNER_FACE_L0_OWNER_013_GEOMETRY_CROP_001
+  - OWNER_FACE_L0_OWNER_012_SKIN_CONTEXT_CROP_001
+  - OWNER_BODY_01_FRONT_V025_FACE_EXCLUDED_v1
+  - OWNER_HAIR_A_01_FRONT_CANON_001
+  - OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v012
+qa_comparison_only:
+  - OWNER_FACE_01_FRONT_NEUTRAL_CANON_001

@@ -1,0 +1,18 @@
+asset_id: OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v011
+outfit_id: OWNER_CASUAL_AUTUMN_02
+asset_level: L2
+asset_purpose: worn_front
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/candidates/v011_worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v011.png
+sha256: 2ab84908dc7af055fe8d5c7f667987168759f30db43ffc9b257f9f8d34bd7c3d
+status: REVIEW_REQUIRED
+responsibility:
+  - fit validation for updated matte-white pantyhose and 3 cm plush mules
+  - feet-together leg alignment
+must_not_define:
+  - owner Canon
+  - downstream identity lineage
+  - video keyframe identity
+qa_comparison_only:
+  - OWNER_FACE_01_FRONT_NEUTRAL_CANON_001
+  - OWNER_HAIR_A_01_FRONT_CANON_001
+  - OWNER_BODY_01_FRONT_CANON_007

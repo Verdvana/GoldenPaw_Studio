@@ -16,6 +16,7 @@ Always choose the material folder first, then choose the image that matches the 
 | 15D nude soft sheen, crouched | `IMG_2588.jpg` | `IMG_2590.jpg` side or `IMG_2592.jpg` complex turn |
 | 15D nude soft sheen, sunlight close-up | `IMG_2601.jpg` | one standing source for overall response |
 | 15D white soft sheen, front | `IMG_2604.jpg` | `IMG_2605.jpg` slight turn |
+| User-selected pale sheer hosiery and plush open-toe mule | `user_selected_sheer_pale/PHOTO_2.jpg` | use only for hosiery appearance and slipper upper/opening; exclude leg anatomy, skin, pose and sole thickness |
 | 15D white soft sheen, rear heel | `IMG_2606.jpg` | `IMG_2603.jpg` dynamic crossing |
 | 30D black matte, full leg | `IMG_2557.JPG` | `IMG_2554.JPG` for raised foot |
 | 30D black matte, foot/toe/sole | `IMG_2559.JPG` | `IMG_2557.JPG` for overall leg response |

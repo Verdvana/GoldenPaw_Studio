@@ -7,11 +7,11 @@
 - view_type: `design_reference`
 - head_policy: `not_applicable`
 - candidate_version: `v004`
-- status: `APPROVED`
+- status: `SUPERSEDED`
 - generation_tool: built-in ImageGen edit
 - generated_at: `2026-10-17`
 - original_candidate_path: `outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/candidates/v004_design_reference/OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE_v004.png`
-- approved_path: `outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/approved/design_reference/OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE.png`
+- historical_candidate_path: `outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/candidates/v004_design_reference/OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE_v004.png`
 - output_sha256: `586fd1a26d5bfad1824187e682124c9251183e776dfe46f707301a7efba1784d`
 
 ## Validation target
@@ -81,13 +81,13 @@ plastic, rubber, or body-paint hosiery. Do not add labels, logos, text, or water
 - face_generation_method_followed: `not_applicable`
 - downstream_video_keyframe_reference_allowed: `false`
 - downstream_identity_lineage_allowed: `false`
-- decision: `APPROVED_BY_USER`
+- decision: `PREVIOUSLY_APPROVED; SUPERSEDED_BY_v005`
 - reviewer: `user`
 - reviewed_at: `2026-10-17`
 
 ## Promotion provenance
 
-- user_approval_statement: `通过 下一步`
+- user_approval_statement: `通过 下一步` (historical approval; later superseded by v005)
 - approved_at: `2026-10-17`
 - approved_by: `user`
-- promotion_operation: `MOVED — candidate raster relocated unchanged; no second project raster retained`
+- promotion_operation: `Historical raster relocated from approved path back to its original candidate archive when v005 was approved; one raster copy retained.`

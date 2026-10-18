@@ -1,0 +1,24 @@
+asset_id: SOC_OUTFIT_002_IMG_02_CAND_06
+post_id: SOC_OUTFIT_002
+image_asset_id: SOC_OUTFIT_002_IMG_02
+asset_level: L3
+asset_purpose: social_post_refined_candidate
+file_path: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_02/candidates/SOC_OUTFIT_002_IMG_02_CAND_06/SOC_OUTFIT_002_IMG_02_CAND_06.png
+sha256: f19844f18d16e77c8b44c1fae3dd55b4034151d6d4663910f7a123aa7f30214a
+status: REVIEW_REQUIRED
+created_at: 2026-10-17
+model_tool: OpenAI ImageGen
+dimensions: 1122x1402
+aspect_ratio: approximately 4:5
+generation_inputs:
+  - OWNER_BODY_01_FRONT_V025_FACE_EXCLUDED_v1
+  - OWNER_HAIR_A_01_FRONT_CANON_001
+  - OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE
+  - OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v012
+continuity_only_input: SOC_OUTFIT_002_IMG_02_CAND_05
+continuity_responsibility: accepted playful pose and mirror scene only
+qa_comparison_only: []
+face_visible: false
+face_occlusion: phone covers face
+reference_plan: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_02/candidates/SOC_OUTFIT_002_IMG_02_CAND_06/REFERENCE_PLAN.md
+prompt_assembly: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_02/candidates/SOC_OUTFIT_002_IMG_02_CAND_06/PROMPT_ASSEMBLY.md

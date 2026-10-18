@@ -1,0 +1,17 @@
+asset_id: SOC_OUTFIT_001_IMG_01_CAND_03
+post_id: SOC_OUTFIT_001
+image_asset_id: SOC_OUTFIT_001_IMG_01
+asset_level: L3
+asset_purpose: social_post_candidate
+file_path: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_001/images/SOC_OUTFIT_001_IMG_01/approved/SOC_OUTFIT_001_IMG_01_APPROVED_v2.png
+original_candidate_path: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_001/images/SOC_OUTFIT_001_IMG_01/candidates/SOC_OUTFIT_001_IMG_01_CAND_03/SOC_OUTFIT_001_IMG_01_CAND_03.png
+approved_path: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_001/images/SOC_OUTFIT_001_IMG_01/approved/SOC_OUTFIT_001_IMG_01_APPROVED_v2.png
+sha256: 4bc5842a23ce17c3fdff3e2414b7e33329cef7a4240f49041f8ca9fa472e0ed7
+status: APPROVED_L3
+created_at: 2026-10-17
+model_tool: OpenAI ImageGen
+dimensions: 1122x1402
+aspect_ratio: 4:5
+approval_record: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_001/images/SOC_OUTFIT_001_IMG_01/approved/APPROVAL.md
+generation_record: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_001/images/SOC_OUTFIT_001_IMG_01/candidates/SOC_OUTFIT_001_IMG_01_CAND_03/GENERATION_RECORD.md
+qa_record: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_001/images/SOC_OUTFIT_001_IMG_01/candidates/SOC_OUTFIT_001_IMG_01_CAND_03/QA.md

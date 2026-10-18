@@ -1,0 +1,27 @@
+asset_id: SOC_OUTFIT_001_IMG_01_CAND_02
+post_id: SOC_OUTFIT_001
+image_asset_id: SOC_OUTFIT_001_IMG_01
+asset_level: L3
+asset_purpose: social_post_candidate_refinement
+file_path: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_001/images/SOC_OUTFIT_001_IMG_01/candidates/SOC_OUTFIT_001_IMG_01_CAND_02/SOC_OUTFIT_001_IMG_01_CAND_02.png
+sha256: 26d4f1a265a439fa60af227aa083591091170bba2a61a758000dec65950fd11a
+status: REVIEW_REQUIRED
+created_at: 2026-10-17
+model_tool: OpenAI ImageGen
+source_image_dimensions: 1122x1402
+aspect_ratio: 4:5_native_approximation
+generation_inputs:
+  - OWNER_FACE_L0_OWNER_013_GEOMETRY_CROP_001
+  - OWNER_FACE_L0_OWNER_012_SKIN_CONTEXT_CROP_001
+  - OWNER_BODY_01_FRONT_V025_FACE_EXCLUDED_v1
+  - OWNER_HAIR_A_01_FRONT_CANON_001
+  - approved text outfit specification OWNER_CASUAL_AUTUMN_02/OUTFIT.md
+continuity_only_input:
+  asset_id: SOC_OUTFIT_001_IMG_01_CAND_01
+  responsibility: broad crop, selfie camera placement, window/reflection placement only
+  must_not_define: face, identity, expression, skin, body, hair, outfit, material, lighting, rendering characteristics
+qa_comparison_only:
+  - OWNER_FACE_01_FRONT_NEUTRAL_CANON_001
+reference_plan: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_001/images/SOC_OUTFIT_001_IMG_01/candidates/SOC_OUTFIT_001_IMG_01_CAND_02/REFERENCE_PLAN.md
+prompt_assembly: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_001/images/SOC_OUTFIT_001_IMG_01/candidates/SOC_OUTFIT_001_IMG_01_CAND_02/PROMPT_ASSEMBLY.md
+notes: New candidate; candidate 01 remains preserved as an alternative. Not approved for publishing or Canon.

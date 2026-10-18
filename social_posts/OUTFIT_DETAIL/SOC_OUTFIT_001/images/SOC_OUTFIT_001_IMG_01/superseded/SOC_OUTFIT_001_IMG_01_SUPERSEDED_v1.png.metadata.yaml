@@ -1,0 +1,10 @@
+asset_id: SOC_OUTFIT_001_IMG_01
+candidate_id: SOC_OUTFIT_001_IMG_01_CAND_01
+asset_level: L3
+status: SUPERSEDED_L3
+path: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_001/images/SOC_OUTFIT_001_IMG_01/superseded/SOC_OUTFIT_001_IMG_01_SUPERSEDED_v1.png
+original_candidate_path: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_001/images/SOC_OUTFIT_001_IMG_01/candidates/SOC_OUTFIT_001_IMG_01_CAND_01/SOC_OUTFIT_001_IMG_01_CAND_01.png
+sha256: 534a4bc0b41f12c0efc6027a2acf8c1b8bd98887da74978c647981fa4783077d
+dimensions: 1122x1402
+aspect_ratio: 4:5
+approval_record: APPROVAL.md
