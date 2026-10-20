@@ -1,0 +1,10 @@
+schema_version: 1
+post_id: SOC_OUTFIT_003
+policy: "Original user-provided source files are immutable. Do not publish or export them."
+assets:
+  - asset_id: L0_OWNER_SOC_OUTFIT_003_SOURCE_IMG_9103
+    path: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_003/source_inputs/IMG_9103.HEIC
+    sha256: c9d45c33c38c8c334384d127120c34aafd055206dd95e72a3df0e52b34964ee6
+    role: "post-specific L0 edit target; scene, pose/action, outfit, visible hosiery, shoes, lighting, reflection and framing"
+    must_not_define: ["approved owner face geometry", "approved body proportions", "Hairstyle A construction"]
+    status: IMMUTABLE_SOURCE

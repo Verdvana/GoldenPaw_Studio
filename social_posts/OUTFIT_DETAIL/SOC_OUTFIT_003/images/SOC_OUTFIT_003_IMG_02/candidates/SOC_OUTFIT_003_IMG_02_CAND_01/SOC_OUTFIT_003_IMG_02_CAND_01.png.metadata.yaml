@@ -1,0 +1,21 @@
+asset_id: SOC_OUTFIT_003_IMG_02
+candidate_id: SOC_OUTFIT_003_IMG_02_CAND_01
+post_id: SOC_OUTFIT_003
+asset_level: L3
+asset_type: social_outfit_detail_still
+file_path: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_003/images/SOC_OUTFIT_003_IMG_02/candidates/SOC_OUTFIT_003_IMG_02_CAND_01/SOC_OUTFIT_003_IMG_02_CAND_01.png
+sha256: 1c2afcc085aa742820dc3e58af5c59d11ad4ef2f731269986443c392bf31224a
+dimensions: 941x1672
+status: REVIEW_REQUIRED
+approval_status: PENDING_USER_APPROVAL
+generation_record: GENERATION_RECORD.md
+reference_plan: ../../REFERENCE_PLAN.md
+prompt_assembly: ../../PROMPT_ASSEMBLY.md
+qa: ../../qa/QA.md
+generation_inputs:
+  - L0_OWNER_SOC_OUTFIT_003_SOURCE_IMG_9106
+  - OWNER_FACE_L0_OWNER_013_GEOMETRY_CROP_001
+  - OWNER_BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v7
+  - OWNER_HAIR_A_01_FRONT_CANON_001
+qa_comparison_only:
+  - OWNER_FACE_01_FRONT_NEUTRAL_CANON_001
