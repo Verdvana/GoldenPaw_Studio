@@ -22,7 +22,7 @@ An autumn visit to a public forest park, photographed as three spontaneous front
 | Image asset ID | Intended framing/action | Aspect ratio | Status |
 |---|---|---|---|
 | `SOC_OUTFIT_002_IMG_01` | Selected image: bent side-sit; left calf tucked beneath right thigh with only left foot emerging; original white hosiery appearance. | 4:5 | CAND_04 approved by user; SELECTED |
-| `SOC_OUTFIT_002_IMG_02` | Revised candidate: phone covers face; playful pose; centered-lower reflection with full-field wide-angle affecting person and scenery; cream plush mules. | 4:5 | CAND_08 edited; REVIEW_REQUIRED |
+| `SOC_OUTFIT_002_IMG_02` | Refined candidate: lively selfie pose in high-mounted convex road mirror (peace sign + phone selfie); golden ginkgo curved road; straight natural legs; continuous white matte hosiery over toes in plush mules. | 3:4 / 4:5 | CAND_11 generated per user direction; REVIEW_REQUIRED |
 | `SOC_OUTFIT_002_IMG_03` | Playful selfie at the forest-park café's glass door after dusk; phone fully covers the face; visible café interior and soft overlapping glass reflections. Autumn 02 outfit, cream plush open-toe mules, white hosiery continuous across toes. | 4:5 | CAND_19 in progress; REVIEW_REQUIRED |
 
 ## Visible asset versions
