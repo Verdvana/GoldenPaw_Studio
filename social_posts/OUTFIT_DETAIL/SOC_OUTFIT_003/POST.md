@@ -27,14 +27,14 @@
 
 ## Visible asset versions
 
-- owner source-derived Face method and L0/L0-derived inputs: pending user photo ingestion and per-image view selection; face-visible images must use the applicable source-derived Face method as the sole face-generation authority
-- owner face QA comparison only: approved view-matched Face Canon, after generation only
-- body: if needed, deterministic face-excluded derivative only; pending framing
-- hairstyle: choose exactly `HAIRSTYLE_A` or `HAIRSTYLE_B` after source photos arrive; do not blend; hair-only reference responsibilities must remain scoped
+- owner source-derived Face method and L0-derived inputs: `OWNER_FACE_01_FRONT_NEUTRAL_METHOD_V1` plus `OWNER_FACE_L0_OWNER_013_GEOMETRY_CROP_001` for IMG_01 and IMG_02; this source-derived method is the sole face-generation authority
+- owner face QA comparison only: `OWNER_FACE_01_FRONT_NEUTRAL_CANON_001`, after generation only; not a generation input
+- body: IMG_01 uses a deterministic rear lower-body face/hair-excluded derivative; IMG_02 uses deterministic front full-body neck-below derivative v7
+- hairstyle: `HAIRSTYLE_A` selected for IMG_01 and IMG_02; no blend; hair reference duties remain scoped
 - cat: none
-- outfit: pending user photos/design direction; shoe and clothing references define only those items, never face, skin, body, hair, or identity
-- hosiery/material: pending photo visibility and wardrobe; if visible, declare material reference and inspect continuous coverage
-- footwear: shoe design and fit from the provided real photos or a scoped shoe-only reference; do not infer a brand
+- outfit: original user photos define the clothing for their respective image; no outfit redesign
+- hosiery/material: preserve the visible hosiery from each original photo and inspect continuous coverage; no separate material reference used for IMG_01/IMG_02
+- footwear: original user photos define the shoes and fit; do not infer a brand
 - fixed props: none
 - environment: generic temporary public shopping-mall shoe store; no recurring location Canon
 - temporary dressing: unbranded shoe boxes, try-on bench and generic shelves; no readable logos, signage or prices
