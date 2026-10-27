@@ -11,14 +11,12 @@
 - design_reference_status: `APPROVED`
 - worn_validation_status: `APPROVED_BY_USER`
 - approved_design_reference: `approved/design_reference/OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE.png`
-- prior_worn_views: [`approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT.png`] (earlier approved presentation; retained as historical version)
+- prior_worn_views: `none`
 - approved_worn_front: `approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v015.png` (`APPROVED`; user approved likeness, hosiery/toe surface and outfit)
-- prior_approved_worn_front: `approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v012.png` (retained historical version)
 - current_worn_front_candidate: `none` (v015 promoted after explicit user approval)
-- prior_worn_front_candidates: `v001` (superseded by skirt refinement), `v002` (rejected: 2:3 framing and head angle), `v003` (rejected: pantyhose absent), `v005`–`v008` (rejected: hosiery/toe coverage not visibly continuous), `v009` (superseded after user face/hair/hosiery/sole feedback), `v010` (calf gap), `v011` (superseded for more exact neutral-face source routing; review status retained), `v013` (visible garment texture), `v014` (face likeness rejected), `v015` (approved), `v016` (superseded by approved v015)
-- prior_worn_front_candidate: `candidates/v001_worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v001.png` (superseded by requested skirt silhouette refinement)
+- retained_worn_front_provenance: `v015` (current registered approval)
 - current_design_reference: `approved/design_reference/OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE.png` (v005)
-- prior_design_reference_candidates: `v001` (REJECTED), `v002` (REJECTED), `v003` (superseded), `v004` (previously approved; superseded by v005)
+- retained_design_reference_provenance: `v003` and `v004` are retained only because approved v005 generation provenance references that chain; v005 is the current approved design reference
 
 ## Approved worn-front reference restriction
 
@@ -27,8 +25,7 @@ pantyhose textile including the toe surface, toe-opening interaction, and plush
 mule/sole design. Its depicted face/likeness may be used only for post-generation QA
 comparison and must never be a future face-generation input. Hairstyle, body
 proportions, skin and identity lineage are excluded. Follow the applicable source
-method for future face generation. The approved v012 image remains a historical
-version under its own narrower reference restrictions.
+method for future face generation.
 
 ## Design direction
 
@@ -43,20 +40,10 @@ silver Mary Jane shoes).
 
 ## Asset package contract
 
-The approved v005 is a clothing-only `design_reference`, arranged as a clear,
-photorealistic apparel presentation on a neutral light-gray studio background. It
-contains no person, mannequin, face, hands, body, or identity cues. The previous
-worn-front view predates this outfit redesign and must be revalidated before use as
-the current worn view.
-
-Candidate `v005` passed clothing-only design review and was approved by the user on
-2026-10-17. It supersedes previously approved v004. Attempts `v001` and `v002` were rejected because the pantyhose was
-rendered as a human-shaped leg form; `v003` was superseded by the requested color and
-hosiery refinement.
-
-Worn-front candidate `v001` was generated from source-derived face inputs, a
-face-excluded body derivative, the approved outfit reference, and an L0 hair-only
-derivative. Initial fit and contamination QA passed; user approval is pending.
+The approved v005 is the current clothing-only `design_reference`. Its generation
+provenance follows the retained v003–v004–v005 chain. The current worn-front asset is
+the user-approved v015, approved on 2026-10-27 for likeness, pantyhose/toe surface,
+and clothing. It is the only registered approved worn-front version.
 
 | Layer | Asset/material ID | Construction | Color | Coverage |
 |---|---|---|---|---|

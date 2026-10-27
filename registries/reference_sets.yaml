@@ -632,12 +632,22 @@ reference_sets:
     max_images: 1
     assets:
       - {asset_id: L0_HOS_30_NSS_001, path: "materials/hosiery/source_library/raw/30d_nude_soft_sheen/IMG_2682.jpg"}
-  OWNER_CASUAL_AUTUMN_02_WORN_FRONT_APPROVED_V012:
-    purpose: "approved L2 worn-front outfit reference only: outfit appearance/fit/drape, matte white hosiery textile/coverage, toe-opening interaction, and plush mule/sole design. Strictly must not define or influence the depicted person's face/likeness or hairstyle/hair attributes, even from a crop; also excludes body proportions, skin, identity lineage, and video keyframe identity"
+  OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE_APPROVED_V005:
+    purpose: "approved clothing-only design, colors and garment construction for Autumn 02"
     max_images: 1
-    approval_status: "APPROVED_WITH_FACE_AND_HAIR_REFERENCE_PROHIBITION"
+    approval_status: "APPROVED"
     usable_for_generation: true
-    responsibilities: [outfit appearance and fit/drape, matte white hosiery textile/coverage, toe-opening interaction, plush mule/sole design]
-    must_not_define: [depicted face/likeness/expression/identity, hairstyle/hairline/part/length/texture/color/volume, body proportions, skin, identity lineage, video keyframe identity]
+    responsibilities: [dark-brown blazer design, ivory ribbed high-neck knit, dark-brown pleated mini skirt, cream plush mule upper design]
+    must_not_define: [owner face, body, proportions, skin, hair, identity, hosiery material/color/opacity/finish/toe treatment, mule sole thickness, video keyframe identity]
     assets:
-      - {asset_id: OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v012, path: "outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v012.png"}
+      - {asset_id: OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE, path: "outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/approved/design_reference/OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE.png"}
+  OWNER_CASUAL_AUTUMN_02_WORN_FRONT_APPROVED_V015:
+    purpose: "current approved L2 outfit reference for clothing fit, matte white hosiery including toe surface, and plush mule design; depicted face is QA-only"
+    max_images: 1
+    approval_status: "APPROVED"
+    usable_for_generation: true
+    responsibilities: [outfit appearance and fit/drape, matte white hosiery coverage and toe treatment, plush mule design and sole]
+    qa_comparison_only: [user-approved front-face likeness and facial relationships]
+    must_not_define: [face or likeness as a generation input, hairstyle, body proportions, skin, identity lineage, video keyframe identity]
+    assets:
+      - {asset_id: OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v015, path: "outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v015.png"}

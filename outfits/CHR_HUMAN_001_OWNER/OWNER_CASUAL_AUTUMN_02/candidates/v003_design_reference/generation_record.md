@@ -25,7 +25,7 @@
 
 ## Generation inputs
 
-Text-only generation from the outfit contract. Rejected candidates v001 and v002 are not generation inputs.
+Text-only generation from the outfit contract; no prior image candidate was an input.
 
 ```yaml
 generation_inputs: []

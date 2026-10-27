@@ -1,9 +1,0 @@
-asset_id: OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v008
-outfit_id: OWNER_CASUAL_AUTUMN_02
-asset_level: L2
-asset_purpose: worn_front
-file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/candidates/v008_worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v008.png
-sha256: 4a5c38f46a0cb191c9425640ba83a4398bbccd2bbbb3a12a86d7254b5bbfa889
-status: REJECTED
-responsibility: [full-body front fit validation for approved v005, Hairstyle A appearance]
-must_not_define: [owner Canon, downstream identity lineage, video continuity]

@@ -36,11 +36,6 @@
 - `OWNER_BODY_01_FRONT_CANON_007`: post-generation full-body frontal appearance and proportions comparison only.
 - `OWNER_HAIR_A_01_FRONT_CANON_001`: post-generation Hairstyle A check only.
 
-## Rejected attempts
-
-- v013: rejected for visible dark jacquard-like pattern on blazer/skirt.
-- v014: user rejected face likeness; retained as review history. Neither image is a generation input for v015.
-
 ## User approval and promotion
 
 - approval_status: `APPROVED`
