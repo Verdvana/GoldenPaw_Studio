@@ -3,7 +3,7 @@ post_id: SOC_OUTFIT_002
 image_asset_id: SOC_OUTFIT_002_IMG_01
 asset_level: L3
 asset_purpose: social_post_refined_candidate
-file_path: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_01/candidates/SOC_OUTFIT_002_IMG_01_CAND_04/SOC_OUTFIT_002_IMG_01_CAND_04.png
+file_path: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_01/approved/SOC_OUTFIT_002_IMG_01_APPROVED_v1.png
 sha256: 9ab51017ebd8f51d1e95cff34030414a590ab76a40de0b1752456504378f18b8
 status: APPROVED
 approval_evidence: "算了 登记没修改的那张吧" following user's positive review of IMG_01_CAND_04
@@ -21,3 +21,8 @@ continuity_responsibility: accepted pose, camera crop, picnic placement and clot
 qa_comparison_only: []
 reference_plan: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_01/candidates/SOC_OUTFIT_002_IMG_01_CAND_04/REFERENCE_PLAN.md
 prompt_assembly: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_01/candidates/SOC_OUTFIT_002_IMG_01_CAND_04/PROMPT_ASSEMBLY.md
+
+original_candidate_path: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_01/candidates/SOC_OUTFIT_002_IMG_01_CAND_04/SOC_OUTFIT_002_IMG_01_CAND_04.png
+original_candidate_sha256: 9ab51017ebd8f51d1e95cff34030414a590ab76a40de0b1752456504378f18b8
+current_approved_path: social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_01/approved/SOC_OUTFIT_002_IMG_01_APPROVED_v1.png
+current_approved_sha256: 9ab51017ebd8f51d1e95cff34030414a590ab76a40de0b1752456504378f18b8

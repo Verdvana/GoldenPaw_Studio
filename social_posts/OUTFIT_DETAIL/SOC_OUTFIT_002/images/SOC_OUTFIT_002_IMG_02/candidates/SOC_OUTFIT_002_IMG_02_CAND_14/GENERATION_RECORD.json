@@ -1,0 +1,94 @@
+{
+  "candidate_id": "SOC_OUTFIT_002_IMG_02_CAND_14",
+  "post_id": "SOC_OUTFIT_002",
+  "image_asset_id": "SOC_OUTFIT_002_IMG_02",
+  "asset_level": "L3",
+  "status": "APPROVED",
+  "authorization": "User 2026-10-27: 别的ok,脚有点肥，而且没有自然垂下去而是绷着。重来一版试试 — one fresh candidate; other aspects accepted, not whole-asset approval.",
+  "model_tool": "OpenAI ImageGen built-in",
+  "generation_inputs": [
+    {
+      "asset_id": "OWNER_FACE_L0_OWNER_013_GEOMETRY_CROP_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/L0_FACE_SOURCE_DERIVATIVES_V1/FACE_L0_OWNER_013_FACE_GEOMETRY_CROP_001.png",
+      "version": "deterministic L0 derivative v1",
+      "sha256": "1c6ad34c3f51c2d9fae4d69630a54af50f6629cd9def55e0caca2a8234193e91",
+      "responsibility": "face identity and feature relationships only",
+      "must_not_define": "hair, makeup, retouched skin, body, lighting, background"
+    },
+    {
+      "asset_id": "OWNER_FACE_L0_OWNER_012_SKIN_CONTEXT_CROP_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/L0_FACE_SOURCE_DERIVATIVES_V1/FACE_L0_OWNER_012_SKIN_CONTEXT_CROP_001.png",
+      "version": "deterministic L0 derivative v1",
+      "sha256": "89bc3208dfa46131e7d1a0f201e054fa38f8b3927d26ab12f4fb690426922abd",
+      "responsibility": "natural warm-neutral skin context only",
+      "must_not_define": "fine geometry, hair, body, clothes, source lighting"
+    },
+    {
+      "asset_id": "OWNER_BODY_01_FRONT_V025_FACE_EXCLUDED_v1",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/body/reference_inputs/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v7/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_CROP.png",
+      "version": "approved body v025 deterministic derivative",
+      "sha256": "59b585718760d9bd528dbc1e864b6fc9f9e271054e092933c9196a3876ae2e0b",
+      "responsibility": "neck-below body proportions only",
+      "must_not_define": "face, hair, skin color, calibration clothes, material, pose, lighting, background"
+    },
+    {
+      "asset_id": "OWNER_CASUAL_AUTUMN_02_WORN_FRONT_V015_FACE_EXCLUDED_v1",
+      "path": "outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/reference_inputs/WORN_FRONT_V015_FACE_EXCLUDED_v1/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v015_FACE_EXCLUDED.png",
+      "version": "approved L2 v015 deterministic derivative",
+      "sha256": "91b0fec2a53d9902fdb189ee722e5defe040b845b63f22dd16cb4706491b5cf1",
+      "responsibility": "Autumn 02 clothes, fit/drape and white matte continuous hosiery only",
+      "must_not_define": "face, skin, identity, hair, body proportions, shoes selection, scene"
+    },
+    {
+      "asset_id": "SOC_OUTFIT_002_IMG_01_CAND_04",
+      "path": "social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_01/approved/SOC_OUTFIT_002_IMG_01_APPROVED_v1.png",
+      "version": "approved L3 2026-10-17",
+      "sha256": "9ab51017ebd8f51d1e95cff34030414a590ab76a40de0b1752456504378f18b8",
+      "responsibility": "continuity only: picnic blanket and snack placement, grass/leaves, warm daylight",
+      "must_not_define": "identity, face, skin, hair, body, clothing construction, hosiery material"
+    }
+  ],
+  "qa_comparison_only": [
+    {
+      "asset_id": "OWNER_FACE_01_FRONT_NEUTRAL_CANON_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg",
+      "sha256": "4d657954098490fc39da6ae257a47d8275b6237962af6d98e3c8a715ac690fc4",
+      "responsibility": "identity/feature relationships/skin contamination after generation only",
+      "must_not_define": "all generation properties"
+    }
+  ],
+  "reference_budget": {
+    "generation": 5,
+    "qa_only": 1,
+    "tool_limit": 5,
+    "project_limit": 8
+  },
+  "prompt_assembly": "social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_02/candidates/SOC_OUTFIT_002_IMG_02_CAND_14/PROMPT_ASSEMBLY.md",
+  "output_path": "social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_02/approved/SOC_OUTFIT_002_IMG_02_APPROVED_v1.png",
+  "seed_settings": "not exposed by built-in tool",
+  "qa_status": "USER_APPROVED",
+  "tool_attempts": [
+    {
+      "status": "IMAGE_GENERATED",
+      "actual_input_count": 5,
+      "source_tool_output": "/home/verdvana/.codex/generated_images/01a17db6-2f09-72b0-bb3f-dab1d7866985/exec-0fb4a821-1c8c-423d-90e1-a221bf5c65f9.png"
+    }
+  ],
+  "eligible_for_publishing": true,
+  "eligible_as_continuity_reference": false,
+  "revision_scope": "Slimmer naturally proportioned feet, relaxed ankles and gravity-drooping toes. Other scene/wardrobe/composition retained through sources and text. CAND_13 is not attached or used downstream; remains unapproved overall.",
+  "generated_at": "2026-10-27",
+  "output_sha256": "d6c8ae9f544fe33cb203fc461c1f2865498971a651585615fe18b9d79607f609",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "approved_by": "user",
+  "approval_date": "2026-10-27",
+  "approval_evidence": "好，第三张是站在餐垫上，一只脚翘起来，同侧手揪起丝袜，揪住的地方有黄色泥土污渍，右手手持手机对着整个双腿包括翘起来的那条腿拍摄",
+  "approval_scope": "SOC_OUTFIT_002 image 2 L3 only; no Canon promotion",
+  "original_candidate_path": "social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_02/candidates/SOC_OUTFIT_002_IMG_02_CAND_14/SOC_OUTFIT_002_IMG_02_CAND_14.png",
+  "original_candidate_sha256": "d6c8ae9f544fe33cb203fc461c1f2865498971a651585615fe18b9d79607f609",
+  "current_approved_path": "social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_02/approved/SOC_OUTFIT_002_IMG_02_APPROVED_v1.png",
+  "current_approved_sha256": "d6c8ae9f544fe33cb203fc461c1f2865498971a651585615fe18b9d79607f609"
+}

@@ -7,7 +7,7 @@
 - continuity_only_input: CAND_03 for accepted pose concept, camera crop and picnic composition; exact left-leg geometry excluded
 - qa_comparison_only: none; no face visible
 - seed/settings: not exposed by built-in ImageGen
-- output: `social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_01/candidates/SOC_OUTFIT_002_IMG_01_CAND_04/SOC_OUTFIT_002_IMG_01_CAND_04.png`
+- output: `social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_01/approved/SOC_OUTFIT_002_IMG_01_APPROVED_v1.png`
 - QA: `social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_01/qa/QA_CAND_04.md`
 - generated_at: 2026-10-17
 - native_size: 1122x1402 PNG, approximately 4:5

@@ -1,0 +1,30 @@
+{
+  "asset_id": "OWNER_CASUAL_AUTUMN_02_WORN_FRONT_V015_FACE_EXCLUDED_v1",
+  "source_asset_id": "OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v015",
+  "source_path": "outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v015.png",
+  "source_sha256": "aec0eccdc38bcbe2b2dea8fae3e5988c98b461b76764cdffa2b46b560fb4cc09",
+  "operation": "Pillow lossless rectangular crop",
+  "geometry": [
+    0,
+    280,
+    1086,
+    1448
+  ],
+  "output_path": "outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/reference_inputs/WORN_FRONT_V015_FACE_EXCLUDED_v1/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v015_FACE_EXCLUDED.png",
+  "sha256": "91b0fec2a53d9902fdb189ee722e5defe040b845b63f22dd16cb4706491b5cf1",
+  "responsibility": [
+    "approved Autumn 02 clothing construction/fit/drape",
+    "matte white continuous hosiery"
+  ],
+  "must_not_define": [
+    "face",
+    "skin",
+    "identity",
+    "hair",
+    "body proportions",
+    "pose",
+    "environment",
+    "footwear choice"
+  ],
+  "created_at": "2026-10-27"
+}

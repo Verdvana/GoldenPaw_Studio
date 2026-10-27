@@ -1,0 +1,73 @@
+{
+  "candidate_id": "SOC_OUTFIT_002_IMG_03_CAND_22",
+  "post_id": "SOC_OUTFIT_002",
+  "image_asset_id": "SOC_OUTFIT_002_IMG_03",
+  "asset_level": "L3",
+  "status": "APPROVED",
+  "authorization": "脚部丝袜覆盖质感处理更好了，但丝袜揪起的部分褶皱还是多，可以几乎没有褶皱的，凸显丝袜质感弹性",
+  "authorization_date": "2026-10-27",
+  "generation_gate": "one revised candidate",
+  "model_tool": "OpenAI ImageGen built-in",
+  "generation_inputs": [
+    {
+      "asset_id": "OWNER_BODY_01_FRONT_V025_FACE_EXCLUDED_v1",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/body/reference_inputs/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v7/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_CROP.png",
+      "version": "approved body v025 deterministic derivative",
+      "sha256": "59b585718760d9bd528dbc1e864b6fc9f9e271054e092933c9196a3876ae2e0b",
+      "responsibility": "neck-below body proportions only",
+      "must_not_define": "face, hair, skin color, calibration clothes, material, pose, lighting, background"
+    },
+    {
+      "asset_id": "OWNER_CASUAL_AUTUMN_02_WORN_FRONT_V015_FACE_EXCLUDED_v1",
+      "path": "outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/reference_inputs/WORN_FRONT_V015_FACE_EXCLUDED_v1/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v015_FACE_EXCLUDED.png",
+      "version": "approved L2 v015 deterministic derivative",
+      "sha256": "91b0fec2a53d9902fdb189ee722e5defe040b845b63f22dd16cb4706491b5cf1",
+      "responsibility": "Autumn 02 clothes, fit/drape and white matte continuous hosiery only",
+      "must_not_define": "face, skin, identity, hair, body proportions, shoes selection, scene"
+    },
+    {
+      "asset_id": "SOC_OUTFIT_002_IMG_01_CAND_04",
+      "path": "social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_01/approved/SOC_OUTFIT_002_IMG_01_APPROVED_v1.png",
+      "version": "approved L3 2026-10-17",
+      "sha256": "9ab51017ebd8f51d1e95cff34030414a590ab76a40de0b1752456504378f18b8",
+      "responsibility": "continuity only: picnic blanket and snack placement, grass/leaves, warm daylight",
+      "must_not_define": "identity, face, skin, hair, body, clothing construction, hosiery material"
+    }
+  ],
+  "qa_comparison_only": [],
+  "face_visible": false,
+  "face_generation_method": "N/A; head/face completely outside frame",
+  "reference_budget": {
+    "generation": 3,
+    "qa_only": 0,
+    "tool_limit": 5,
+    "project_limit": 8
+  },
+  "selected_reference_sets": [
+    "OWNER_BODY_FRONT_CURRENT_V025_FACE_EXCLUDED_DERIVATIVE",
+    "OWNER_CASUAL_AUTUMN_02_WORN_FRONT_APPROVED_V015 via face-excluded derivative",
+    "approved IMG_01 CAND_04 picnic continuity only"
+  ],
+  "seed_settings": "not exposed",
+  "output_path": "social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_03/approved/SOC_OUTFIT_002_IMG_03_APPROVED_v1.png",
+  "qa_status": "USER_APPROVED",
+  "shot_interpretation": "Right hand holds phone down; left knee bends/lifts foot, left hand pinches stained hosiery just below left knee; right foot supports weight on blanket.",
+  "eligible_for_publishing": true,
+  "eligible_as_continuity_reference": false,
+  "revision_scope": "Almost wrinkle-free smooth elastic nylon membrane at pinch, no gathered cloth; preserve foot textile coverage through approved material authority and prompt. CAND_21 is unapproved and not attached.",
+  "generated_at": "2026-10-27",
+  "output_sha256": "e9f14354d0f7ace6c58d413a8b1f99224751e35b274b543eec734905f5e6c80a",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "tool_result_path": "/home/verdvana/.codex/generated_images/01a17db6-2f09-72b0-bb3f-dab1d7866985/exec-83dd33f4-56ea-447c-8851-ecb1144117e1.png",
+  "approved_by": "user",
+  "approval_date": "2026-10-27",
+  "approval_evidence": "批准，然后删除没登记没批准的图片和相关文件、记录",
+  "approval_scope": "SOC_OUTFIT_002 image 3 L3 only; final laterality and material accepted by user; no Canon promotion",
+  "original_candidate_path": "social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_03/candidates/SOC_OUTFIT_002_IMG_03_CAND_22/SOC_OUTFIT_002_IMG_03_CAND_22.png",
+  "original_candidate_sha256": "e9f14354d0f7ace6c58d413a8b1f99224751e35b274b543eec734905f5e6c80a",
+  "current_approved_path": "social_posts/OUTFIT_DETAIL/SOC_OUTFIT_002/images/SOC_OUTFIT_002_IMG_03/approved/SOC_OUTFIT_002_IMG_03_APPROVED_v1.png",
+  "current_approved_sha256": "e9f14354d0f7ace6c58d413a8b1f99224751e35b274b543eec734905f5e6c80a"
+}
