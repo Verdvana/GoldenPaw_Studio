@@ -12,22 +12,23 @@
 - worn_validation_status: `APPROVED_BY_USER`
 - approved_design_reference: `approved/design_reference/OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE.png`
 - prior_worn_views: [`approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT.png`] (earlier approved presentation; retained as historical version)
-- approved_worn_front: `approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v012.png` (`APPROVED`; face and hairstyle are strictly excluded from future reference use)
-- current_worn_front_candidate: `none` (v012 promoted after explicit user approval)
-- prior_worn_front_candidates: `v001` (superseded by skirt refinement), `v002` (rejected: 2:3 framing and head angle), `v003` (rejected: pantyhose absent), `v005`–`v008` (rejected: hosiery/toe coverage not visibly continuous), `v009` (superseded after user face/hair/hosiery/sole feedback), `v010` (calf gap), `v011` (superseded for more exact neutral-face source routing; review status retained)
+- approved_worn_front: `approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v015.png` (`APPROVED`; user approved likeness, hosiery/toe surface and outfit)
+- prior_approved_worn_front: `approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v012.png` (retained historical version)
+- current_worn_front_candidate: `none` (v015 promoted after explicit user approval)
+- prior_worn_front_candidates: `v001` (superseded by skirt refinement), `v002` (rejected: 2:3 framing and head angle), `v003` (rejected: pantyhose absent), `v005`–`v008` (rejected: hosiery/toe coverage not visibly continuous), `v009` (superseded after user face/hair/hosiery/sole feedback), `v010` (calf gap), `v011` (superseded for more exact neutral-face source routing; review status retained), `v013` (visible garment texture), `v014` (face likeness rejected), `v015` (approved), `v016` (superseded by approved v015)
 - prior_worn_front_candidate: `candidates/v001_worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v001.png` (superseded by requested skirt silhouette refinement)
 - current_design_reference: `approved/design_reference/OWNER_CASUAL_AUTUMN_02_DESIGN_REFERENCE.png` (v005)
 - prior_design_reference_candidates: `v001` (REJECTED), `v002` (REJECTED), `v003` (superseded), `v004` (previously approved; superseded by v005)
 
 ## Approved worn-front reference restriction
 
-The approved v012 worn-front image may define only the outfit appearance/fit, matte
-white pantyhose textile and coverage, toe-opening interaction, and plush mule/sole
-design. When this image is referenced, its depicted person's face/likeness and all
-hairstyle/hair attributes are strictly prohibited as references, including from crops
-or inferred visual features. It also must not define body proportions, skin, identity
-lineage or video keyframe identity. Use approved Face/Hairstyle Canons or their allowed
-source methods separately for those responsibilities.
+The approved v015 worn-front image may define only outfit appearance/fit, matte white
+pantyhose textile including the toe surface, toe-opening interaction, and plush
+mule/sole design. Its depicted face/likeness may be used only for post-generation QA
+comparison and must never be a future face-generation input. Hairstyle, body
+proportions, skin and identity lineage are excluded. Follow the applicable source
+method for future face generation. The approved v012 image remains a historical
+version under its own narrower reference restrictions.
 
 ## Design direction
 

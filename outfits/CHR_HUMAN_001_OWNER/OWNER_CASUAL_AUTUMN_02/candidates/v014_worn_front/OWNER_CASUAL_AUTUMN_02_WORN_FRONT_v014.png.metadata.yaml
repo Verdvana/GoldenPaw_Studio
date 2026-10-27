@@ -1,0 +1,26 @@
+asset_id: OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v014
+outfit_id: OWNER_CASUAL_AUTUMN_02
+asset_level: L2
+asset_purpose: worn_front
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/candidates/v014_worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v014.png
+sha256: 7fcaacbf2afd4b623a336e725939d5fe46a295153b16aaf55211f9ec74c52896
+status: REVIEW_REQUIRED
+generated_at: 2026-10-27
+generation_tool: built-in ImageGen
+dimensions: 1086x1448
+aspect_ratio: 3:4
+reference_rule: Face generated from L0 sources under OWNER_FACE_01_FRONT_NEUTRAL_METHOD_V1; approved v012 used for clothing/fit scope only and excluded for face, hair, skin, body, and identity.
+responsibility:
+  - generated owner face from L0 source-derived face method
+  - Hairstyle A from L0 masked hair derivative
+  - neck-below body proportions from face-excluded derivative
+  - approved autumn outfit appearance and fit, white matte pantyhose and plush mule design
+must_not_define:
+  - new identity facts or Canon promotion
+  - face from AI references
+  - hair/face/body from approved v012 clothing reference
+  - body reshaping or outfit redesign
+qa_comparison_only:
+  - OWNER_FACE_01_FRONT_NEUTRAL_CANON_001
+  - OWNER_HAIR_A_01_FRONT_CANON_001
+  - OWNER_BODY_01_FRONT_CANON_007

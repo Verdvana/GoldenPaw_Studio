@@ -1,0 +1,24 @@
+asset_id: OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v015
+outfit_id: OWNER_CASUAL_AUTUMN_02
+asset_level: L2
+asset_purpose: worn_front
+file_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v015.png
+sha256: aec0eccdc38bcbe2b2dea8fae3e5988c98b461b76764cdffa2b46b560fb4cc09
+status: APPROVED
+approved_by: user
+approval_date: 2026-10-27
+source_candidate_path: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/candidates/v015_worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v015.png
+dimensions: 1086x1448
+aspect_ratio: 3:4
+approval_record: outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/approved/worn_front/APPROVAL_v015.md
+responsibility:
+  - approved Autumn 02 outfit appearance, construction, fit and drape
+  - medium-thick matte white pantyhose, including toe surface and coverage
+  - cream plush open-toe mule design and sole
+qa_comparison_only:
+  - user-approved front-face likeness and facial relationships shown in this asset
+must_not_define:
+  - owner face or likeness as a future generation input
+  - owner hairstyle, body proportions, skin or identity lineage
+  - unrelated outfit designs or hosiery materials
+reference_rule: Use for approved outfit, hosiery and footwear appearance only. The face may be used only for post-generation QA comparison, never as a generation input.
