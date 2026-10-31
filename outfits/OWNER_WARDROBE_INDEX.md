@@ -32,6 +32,7 @@ serve as a future generation input.
 | `OWNER_WORK_AUTUMN_01` | office / autumn | reference-led design contract + design reference + worn front; add 3/4/back/detail only if required by QA | REFERENCE INTAKE PENDING |
 | `OWNER_WORK_WINTER_01` | office / winter | design reference + worn front + 3/4/back; boot detail if needed | REBUILD REQUIRED |
 | `OWNER_CASUAL_SUMMER_01` | casualwear / summer | approved design reference + approved worn front; supplied garment references retained | DESIGN REFERENCE + WORN FRONT APPROVED |
+| `OWNER_DATE_SUMMER_01` | date / summer | 长袖常规领口胸下纱质短上衣、常规中腰牛仔短裤、白色半透明高腰连裤丝袜（腰头盖过肚脐并接近上衣）、高跟细跟露趾凉鞋；design reference then worn front | DESIGN v003 + WORN FRONT v005 APPROVED (2026-10-30) |
 | `OWNER_CASUAL_AUTUMN_02` | casualwear / autumn | oatmeal knit cardigan, ivory tee, lighter warm-brown wool mini skirt, thin slightly sheer white pantyhose and pale beige-tan fuzzy open-toe slippers | DESIGN REFERENCE APPROVED; WORN FRONT REVIEW REQUIRED |
 
 ## Generation policy

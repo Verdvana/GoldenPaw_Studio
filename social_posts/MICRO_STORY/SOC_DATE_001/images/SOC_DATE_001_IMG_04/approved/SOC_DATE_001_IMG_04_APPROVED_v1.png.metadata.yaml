@@ -1,0 +1,7 @@
+asset_id: "SOC_DATE_001_IMG_04_CAND_03"
+asset_level: "L3"
+generated_or_real: "generated"
+approval_status: "APPROVED"
+authoritative_for: ["none pending user approval"]
+must_not_define: ["Canon", "identity lineage", "downstream shot identity/body/material"]
+sha256: "59a29c74866b40122fb8522c76c31157e6152aaadc6b2072e6818e6e254482e2"

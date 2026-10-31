@@ -1,0 +1,44 @@
+{
+  "post_id": "SOC_DATE_001",
+  "approval_status": "ALL_FOUR_IMAGES_APPROVED_BY_USER",
+  "images": [
+    {
+      "asset_id": "SOC_DATE_001_IMG_01",
+      "asset_level": "L3",
+      "version": "v1",
+      "status": "APPROVED",
+      "path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/approved/SOC_DATE_001_IMG_01_APPROVED_v1.png",
+      "sha256": "b8fb0a7d3854373bee1f57ef4aac5aa14bcd68ec4629a8cd9ad65f1864e9c435",
+      "approval_record": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/approved/APPROVAL.md"
+    },
+    {
+      "asset_id": "SOC_DATE_001_IMG_02",
+      "asset_level": "L3",
+      "version": "v1",
+      "status": "APPROVED",
+      "path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_02/approved/SOC_DATE_001_IMG_02_APPROVED_v1.png",
+      "sha256": "e399af19ff952de970f3792b06feb0599ff72c1a3d6559501737337f63682289",
+      "approval_record": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_02/approved/APPROVAL.md"
+    },
+    {
+      "asset_id": "SOC_DATE_001_IMG_03",
+      "asset_level": "L3",
+      "version": "v1",
+      "status": "APPROVED",
+      "path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_03/approved/SOC_DATE_001_IMG_03_APPROVED_v1.png",
+      "sha256": "635ef18406daee46bef1713a7e67a21506e8e71bb1ab9c7fb1ad41f075580b1c",
+      "approval_record": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_03/approved/APPROVAL.md"
+    },
+    {
+      "asset_id": "SOC_DATE_001_IMG_04",
+      "asset_level": "L3",
+      "version": "v1",
+      "status": "APPROVED",
+      "path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_04/approved/SOC_DATE_001_IMG_04_APPROVED_v1.png",
+      "sha256": "59a29c74866b40122fb8522c76c31157e6152aaadc6b2072e6818e6e254482e2",
+      "approval_record": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_04/approved/APPROVAL.md"
+    }
+  ],
+  "external_publishing_performed": false,
+  "canon_promotion": false
+}

@@ -1,0 +1,8 @@
+asset_id: "SOC_DATE_001_IMG_01_CAND_02"
+asset_level: "L3"
+generated_or_real: "generated"
+approval_status: "REVIEW_REQUIRED"
+authoritative_for: ["none pending review"]
+must_not_define: ["face Canon", "body Canon", "hair Canon", "downstream identity", "continuity before approval"]
+sha256: "131174de387e743b5cbdbfc8371488c8d6b865758f01645ed15bcb40b2c46bf5"
+qa_status: "REVIEW_REQUIRED_WITH_BLOCKERS"

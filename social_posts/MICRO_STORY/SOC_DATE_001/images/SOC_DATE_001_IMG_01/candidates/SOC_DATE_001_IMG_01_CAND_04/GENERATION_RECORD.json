@@ -1,0 +1,61 @@
+{
+  "post_id": "SOC_DATE_001",
+  "image_asset_id": "SOC_DATE_001_IMG_01",
+  "candidate_id": "SOC_DATE_001_IMG_01_CAND_04",
+  "asset_level": "L3",
+  "status": "GENERATED",
+  "approval_status": "REVIEW_REQUIRED",
+  "generation_inputs": [
+    {
+      "asset_id": "SOC_DATE_001_IMG_01_CAND_03",
+      "path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_03/SOC_DATE_001_IMG_01_CAND_03.png",
+      "sha256": "a6190525aa42487e668b5c55a3c2abe22255a22f6a929c85c1c6f5577182df70",
+      "version": "candidate03 local repair target",
+      "role": "same_photo_edit_target",
+      "responsibility": "preserve existing photo outside requested toe-textile and lower-leg repairs",
+      "must_not_define": "new shot identity, face generation, Canon or downstream material authority"
+    },
+    {
+      "asset_id": "OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_07_15D_GRAY_MATTE_FRONT/OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_001.png",
+      "sha256": "29833b2de7a2c91b822a542e42843b5902d80ce9597123dce481a9b1bb462df3",
+      "version": "APPROVED L1 scoped HOS07",
+      "role": "material_microgeometry_reference",
+      "responsibility": "toe-top textile diffusion and interdigital suspended fabric tension curves ONLY",
+      "must_not_define": "gray color, denier assignment to white outfit, body/foot anatomy, leg geometry, identity, pose, skin, shoes, clothing, lighting, background"
+    }
+  ],
+  "qa_comparison_only": [
+    {
+      "asset_id": "OWNER_FACE_01_FRONT_NEUTRAL_CANON_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg",
+      "sha256": "4d657954098490fc39da6ae257a47d8275b6237962af6d98e3c8a715ac690fc4",
+      "responsibility": "post-generation identity and contamination comparison only"
+    }
+  ],
+  "reference_budget": {
+    "limit": 2,
+    "used": 2
+  },
+  "face_method": "NO NEW FACE GENERATION; preserve user-accepted face in existing photo. Registered v011 source recipe remains historical generation provenance in candidate02 record, not replaced by candidate pixels as identity source.",
+  "tool": "built-in image_gen",
+  "seed": "unavailable",
+  "settings": {
+    "transparent_background": false,
+    "requested_aspect_ratio": "4:5",
+    "resolution": "tool native"
+  },
+  "output_path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_04/SOC_DATE_001_IMG_01_CAND_04.png",
+  "output_checksum": "7a7f4f036fabbbd41b2550aed3a879be8ea4654f288ab763eccc6fbdd0ecb9f6",
+  "qa_status": "REVIEW_REQUIRED_WITH_TOE_BLOCKER",
+  "approval_evidence": "还是没有脚趾间袜面曲线，像是皮肤变白了，另外小腿太弯了，要直直的小腿",
+  "date": "2026-10-30",
+  "qa_record": "QA.md",
+  "edit_scope": "both toe-row fabric geometry plus straight knee-to-ankle shin axes, preserving accepted likeness and rest of photo",
+  "rule_scope": "User-directed localized repair of same image with accepted likeness; target is not a downstream reference or new-shot identity input. Candidate02 remains unapproved overall; no general reuse authorized.",
+  "actual_dimensions": [
+    1122,
+    1402
+  ],
+  "generated_at": "2026-10-30"
+}

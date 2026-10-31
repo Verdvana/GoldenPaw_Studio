@@ -1,0 +1,52 @@
+{
+  "post_id": "SOC_DATE_001",
+  "image_asset_id": "SOC_DATE_001_IMG_01",
+  "candidate_id": "SOC_DATE_001_IMG_01_CAND_03",
+  "asset_level": "L3",
+  "status": "GENERATED",
+  "approval_status": "REVIEW_REQUIRED",
+  "generation_inputs": [
+    {
+      "asset_id": "SOC_DATE_001_IMG_01_CAND_02",
+      "path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_02/SOC_DATE_001_IMG_01_CAND_02.png",
+      "sha256": "131174de387e743b5cbdbfc8371488c8d6b865758f01645ed15bcb40b2c46bf5",
+      "version": "candidate02 with user-accepted likeness",
+      "role": "existing_image_local_edit_target",
+      "responsibility": "same-photo content retention outside two hosiery repair regions only; not a source for any new shot or face generation",
+      "must_not_define": "new identity lineage, new face/body generation, Canon, future hosiery authority"
+    }
+  ],
+  "qa_comparison_only": [
+    {
+      "asset_id": "OWNER_FACE_01_FRONT_NEUTRAL_CANON_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg",
+      "sha256": "4d657954098490fc39da6ae257a47d8275b6237962af6d98e3c8a715ac690fc4",
+      "responsibility": "post-generation identity and contamination comparison only"
+    }
+  ],
+  "reference_budget": {
+    "limit": 1,
+    "used": 1
+  },
+  "face_method": "NO NEW FACE GENERATION; preserve user-accepted face in existing photo. Registered v011 source recipe remains historical generation provenance in candidate02 record, not replaced by candidate pixels as identity source.",
+  "tool": "built-in image_gen",
+  "seed": "unavailable",
+  "settings": {
+    "transparent_background": false,
+    "requested_aspect_ratio": "4:5",
+    "resolution": "tool native"
+  },
+  "output_path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_03/SOC_DATE_001_IMG_01_CAND_03.png",
+  "output_checksum": "a6190525aa42487e668b5c55a3c2abe22255a22f6a929c85c1c6f5577182df70",
+  "qa_status": "REVIEW_REQUIRED",
+  "approval_evidence": "长相对了，有两个问题，一个是丝袜在短裤上边的位置多了一圈不知道什么东西，不应该有的。第二个是脚趾没有袜面曲线和趾间袜面曲线",
+  "date": "2026-10-30",
+  "qa_record": "QA.md",
+  "edit_scope": "remove only false lower ring immediately above denim; correct shared closed-toe fabric curves on both feet",
+  "rule_scope": "User-directed localized repair of same image with accepted likeness; target is not a downstream reference or new-shot identity input. Candidate02 remains unapproved overall; no general reuse authorized.",
+  "actual_dimensions": [
+    1122,
+    1402
+  ],
+  "generated_at": "2026-10-30"
+}

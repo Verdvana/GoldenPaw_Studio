@@ -1,0 +1,9 @@
+asset_id: "SOC_DATE_001_IMG_01_CAND_01"
+asset_level: "L3"
+generated_or_real: "generated"
+approval_status: "REVIEW_REQUIRED"
+authoritative_for: ["none; candidate failed preliminary QA"]
+must_not_define: ["face", "body", "hair Canon", "hosiery material", "downstream identity", "continuity before approval"]
+sha256: "16e491f58ffbc84610f8fd0c18825b41acdaf9d08395750d123ca761420e7ee6"
+path: "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_01/SOC_DATE_001_IMG_01_CAND_01.png"
+qa_status: "FAIL"

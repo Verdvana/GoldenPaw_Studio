@@ -1,0 +1,58 @@
+{
+  "post_id": "SOC_DATE_001",
+  "image_asset_id": "SOC_DATE_001_IMG_01",
+  "candidate_id": "SOC_DATE_001_IMG_01_CAND_06",
+  "asset_level": "L3",
+  "status": "APPROVED",
+  "approval_status": "APPROVED",
+  "generation_inputs": [
+    {
+      "asset_id": "SOC_DATE_001_IMG_01_CAND_05",
+      "path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_05/SOC_DATE_001_IMG_01_CAND_05.png",
+      "sha256": "de3ad6585cc4ee969eb707294b1c0b6caf23c71825398daed526f9d1c8c25b76",
+      "version": "candidate05 with all non-shin attributes accepted by user",
+      "role": "same_photo_local_edit_target",
+      "responsibility": "retain user-accepted photo content outside shin alignment correction",
+      "must_not_define": "new face/body generation, identity lineage, Canon or downstream shot authority"
+    }
+  ],
+  "qa_comparison_only": [
+    {
+      "asset_id": "OWNER_FACE_01_FRONT_NEUTRAL_CANON_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg",
+      "sha256": "4d657954098490fc39da6ae257a47d8275b6237962af6d98e3c8a715ac690fc4",
+      "responsibility": "post-generation identity and contamination comparison only"
+    }
+  ],
+  "reference_budget": {
+    "limit": 1,
+    "used": 1
+  },
+  "face_method": "NO NEW FACE GENERATION. Preserve user-accepted same-photo face; original v011 source recipe remains candidate05 generation provenance, target not a new identity reference.",
+  "tool": "built-in image_gen",
+  "seed": "unavailable",
+  "settings": {
+    "transparent_background": false,
+    "requested_aspect_ratio": "4:5",
+    "resolution": "tool native"
+  },
+  "output_path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/approved/SOC_DATE_001_IMG_01_APPROVED_v1.png",
+  "output_checksum": "b8fb0a7d3854373bee1f57ef4aac5aa14bcd68ec4629a8cd9ad65f1864e9c435",
+  "qa_status": "PASS_USER_APPROVED",
+  "approval_evidence": "批准，下一张",
+  "date": "2026-10-30",
+  "qa_record": "QA.md",
+  "edit_scope": "modest straightening of both knee-to-ankle shin axes only; all other content accepted and preserved",
+  "rule_scope": "Current direct user instruction permits localized same-photo correction. Not reuse for a new shot or identity lineage. Non-shin acceptance does not approve final publishing or Canon promotion.",
+  "actual_dimensions": [
+    1122,
+    1402
+  ],
+  "generated_at": "2026-10-30",
+  "original_candidate_path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_06/SOC_DATE_001_IMG_01_CAND_06.png",
+  "original_candidate_sha256": "b8fb0a7d3854373bee1f57ef4aac5aa14bcd68ec4629a8cd9ad65f1864e9c435",
+  "current_approved_path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/approved/SOC_DATE_001_IMG_01_APPROVED_v1.png",
+  "approved_by": "user",
+  "approval_date": "2026-10-30",
+  "approval_scope": "L3 first carousel image only; no Canon promotion or permission to publish externally"
+}

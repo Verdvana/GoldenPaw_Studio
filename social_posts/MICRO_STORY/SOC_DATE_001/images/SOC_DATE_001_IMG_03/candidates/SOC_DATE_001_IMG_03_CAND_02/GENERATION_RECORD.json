@@ -1,0 +1,92 @@
+{
+  "post_id": "SOC_DATE_001",
+  "image_asset_id": "SOC_DATE_001_IMG_03",
+  "candidate_id": "SOC_DATE_001_IMG_03_CAND_02",
+  "asset_level": "L3",
+  "status": "GENERATION_BLOCKED_NO_OUTPUT",
+  "approval_status": "REVIEW_REQUIRED",
+  "generation_inputs": [
+    {
+      "asset_id": "OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/B_FACE_SKIN_CONTEXT_NO_CROWN.png",
+      "version": "FACE_01_FRONT_NEUTRAL_METHOD_v1 original registered crop",
+      "responsibility": "exact face relationships, face shape, adult age, warm-neutral skin and texture",
+      "must_not_define": "Hairstyle B, crown, high-camera source projection, body, pose, outfit, lighting, background",
+      "sha256": "d98019128bfa974a102813da52b4a2905ec4aa7c95eb5222a163e419f287e74d"
+    },
+    {
+      "asset_id": "L0_OWNER_009",
+      "path": "characters/CHR_HUMAN_001_OWNER/source/identity/raw/11.jpg",
+      "sha256": "948a092a360192af3f8718b27e35562ca5e14a21022e1161f8449be75b830a46",
+      "version": "immutable L0",
+      "responsibility": "anatomical-right profile pointing image-left silhouette, forehead/nose/philtrum/lip/chin/orbit/ear/jaw transitions only",
+      "must_not_define": "identity priority, skin tone/retouch, makeup, source gaze, updo, body, clothing, lighting, background"
+    },
+    {
+      "asset_id": "OWNER_HAIRSTYLE_A_FACE_MASKED_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/DSC00847_HAIR_ONLY_MASKED.png",
+      "version": "L0 deterministic v1",
+      "responsibility": "Hairstyle A only",
+      "must_not_define": "face, skin, body, clothing, pose, light, background, mask",
+      "sha256": "6eb98bb5c0ac728d66fd551b249fa2002e08aa60b52633a081717c4534c3a2cd"
+    },
+    {
+      "asset_id": "OWNER_BODY_01_FRONT_V025_FACE_EXCLUDED_v1",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/body/reference_inputs/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v7/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_CROP.png",
+      "version": "approved Body007 deterministic v7",
+      "responsibility": "neck-below body proportions only",
+      "must_not_define": "face generation, skin color, hair, static pose, swimsuit, hosiery, lighting, background",
+      "sha256": "59b585718760d9bd528dbc1e864b6fc9f9e271054e092933c9196a3876ae2e0b"
+    },
+    {
+      "asset_id": "OWNER_DATE_SUMMER_01_DESIGN_REFERENCE_v003",
+      "path": "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/approved/design_reference/OWNER_DATE_SUMMER_01_DESIGN_REFERENCE_v003.png",
+      "version": "L2 APPROVED v003",
+      "responsibility": "clothing design and white sheer closed-toe coverage",
+      "must_not_define": "face, body proportions, skin, hair, identity, pose, light, scene",
+      "sha256": "2a88382b494f72cb4cd137d8525022e66fb36688ee37da6a8a28704a030d21ba"
+    }
+  ],
+  "qa_comparison_only": [
+    {
+      "asset_id": "OWNER_FACE_01_FRONT_NEUTRAL_CANON_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg",
+      "sha256": "4d657954098490fc39da6ae257a47d8275b6237962af6d98e3c8a715ac690fc4",
+      "responsibility": "post-generation identity and contamination comparison only"
+    },
+    {
+      "asset_id": "OWNER_FACE_05_RIGHT_PROFILE_NEUTRAL_CANON_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_05_RIGHT_PROFILE_NEUTRAL/OWNER_FACE_05_RIGHT_PROFILE_NEUTRAL_CANON_001.jpg",
+      "sha256": "de670f987d341e686f5239d6b5c7a920cd431050c2907c26de759a5cf37f6b97",
+      "responsibility": "post-generation profile identity/projection comparison only"
+    }
+  ],
+  "reference_budget": {
+    "limit": 5,
+    "used": 5
+  },
+  "face_visible": true,
+  "face_generation_method": "Registered FACE_05_RIGHT_PROFILE_NEUTRAL_METHOD_V1 original B crop + real L0_OWNER_009 profile + L0 masked A, continuing user-requested registered face recipe; B source generated-origin NOT L0, no approved AI Face pixels.",
+  "tool": "built-in image_gen",
+  "seed": "unavailable",
+  "settings": {
+    "transparent_background": false,
+    "requested_aspect_ratio": "4:5",
+    "resolution": "tool native"
+  },
+  "output_path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_03/candidates/SOC_DATE_001_IMG_03_CAND_02/SOC_DATE_001_IMG_03_CAND_02.png",
+  "output_checksum": null,
+  "qa_status": "NOT_EVALUABLE_NO_OUTPUT",
+  "approval_evidence": "换一下姿势和画面，姿势是跪在咖啡店的椅子上，两手搭在靠背上，回头看侧边，露出侧脸，能看到后背和双腿以及鞋底",
+  "date": "2026-10-30",
+  "previous_shot_pixels_used": false,
+  "pose_source": "current explicit user design; no matching named kneeling-chair pose Canon. Do not misuse floor half-kneel/quadruped masters.",
+  "unseen_design_scope": "Conservative back continuation of approved blouse, no invented open back/ties; sandal outsole plain plausible continuation, not new fixed-prop Canon.",
+  "generation_error": {
+    "code": "moderation_blocked",
+    "stage": "output",
+    "category": "sexual",
+    "request_id": "790e8f4f-0e74-4d3b-a9c6-9f76bfbf6f32"
+  },
+  "generated_at": "2026-10-30"
+}

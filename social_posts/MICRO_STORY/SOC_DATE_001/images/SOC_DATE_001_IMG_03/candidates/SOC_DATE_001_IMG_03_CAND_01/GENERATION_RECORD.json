@@ -1,0 +1,63 @@
+{
+  "post_id": "SOC_DATE_001",
+  "image_asset_id": "SOC_DATE_001_IMG_03",
+  "candidate_id": "SOC_DATE_001_IMG_03_CAND_01",
+  "asset_level": "L3",
+  "status": "GENERATION_BLOCKED_NO_OUTPUT",
+  "approval_status": "REVIEW_REQUIRED",
+  "generation_inputs": [
+    {
+      "asset_id": "OWNER_BODY_01_FRONT_V025_FACE_EXCLUDED_v1",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/body/reference_inputs/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v7/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_CROP.png",
+      "version": "approved Body007 deterministic v7",
+      "responsibility": "neck-below body proportions only",
+      "must_not_define": "face generation, skin color, hair, static pose, swimsuit, hosiery, lighting, background",
+      "sha256": "59b585718760d9bd528dbc1e864b6fc9f9e271054e092933c9196a3876ae2e0b"
+    },
+    {
+      "asset_id": "OWNER_DATE_SUMMER_01_DESIGN_REFERENCE_v003",
+      "path": "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/approved/design_reference/OWNER_DATE_SUMMER_01_DESIGN_REFERENCE_v003.png",
+      "version": "L2 APPROVED v003",
+      "responsibility": "clothing design and white sheer closed-toe coverage",
+      "must_not_define": "face, body proportions, skin, hair, identity, pose, light, scene",
+      "sha256": "2a88382b494f72cb4cd137d8525022e66fb36688ee37da6a8a28704a030d21ba"
+    },
+    {
+      "asset_id": "OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/hosiery_feet/approved/HOS_07_15D_GRAY_MATTE_FRONT/OWNER_HOS_07_15D_GRAY_MATTE_FRONT_CANON_001.png",
+      "sha256": "29833b2de7a2c91b822a542e42843b5902d80ce9597123dce481a9b1bb462df3",
+      "version": "APPROVED scoped L1",
+      "responsibility": "toe-tip textile diffusion, softened nail detail, interdigital textile tension curves only",
+      "must_not_define": "color, denier assignment, anatomy, identity, leg shape, pose, clothing, lighting, background"
+    }
+  ],
+  "qa_comparison_only": [],
+  "face_visible": false,
+  "face_generation_method": "N/A; intentional below-chest-to-shoes detail crop, no head or face generated",
+  "reference_budget": {
+    "limit": 3,
+    "used": 3
+  },
+  "tool": "built-in image_gen",
+  "seed": "unavailable",
+  "settings": {
+    "transparent_background": false,
+    "requested_aspect_ratio": "4:5",
+    "resolution": "tool native"
+  },
+  "output_path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_03/candidates/SOC_DATE_001_IMG_03_CAND_01/SOC_DATE_001_IMG_03_CAND_01.png",
+  "output_checksum": null,
+  "qa_status": "NOT_EVALUABLE_NO_OUTPUT",
+  "approval_evidence": "批准 下一张",
+  "date": "2026-10-30",
+  "continuity_only_text": "Same summer afternoon, outfit, cream/dark-wood cafe and window light. No preceding social image supplied.",
+  "previous_shot_pixels_used": false,
+  "generation_error": {
+    "code": "moderation_blocked",
+    "stage": "output",
+    "category": "sexual",
+    "request_id": "a5ffb063-45b0-4eae-82b6-41017c7f9517",
+    "message": "Service safety system rejected output; no image returned."
+  },
+  "generated_at": "2026-10-30"
+}
