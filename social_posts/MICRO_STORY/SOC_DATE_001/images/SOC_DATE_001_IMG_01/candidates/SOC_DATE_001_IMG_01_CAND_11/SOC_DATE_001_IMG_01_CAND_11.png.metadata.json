@@ -1,0 +1,14 @@
+{
+  "asset_id": "SOC_DATE_001_IMG_01_CAND_11",
+  "asset_level": "L3",
+  "approval_status": "REVIEW_REQUIRED",
+  "file_path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_11/SOC_DATE_001_IMG_01_CAND_11.png",
+  "sha256": "80d31bdf26e5e246592eacdfe9da9d09924f86547bda06410fcb4a1fb8cf4c1a",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "qa_status": "FAIL_USER_STRAP_DIRECTION_REVERSED_HOSIERY_ACCEPTED",
+  "generation_record": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_11/GENERATION_RECORD.json",
+  "scoped_acceptance": "hosiery appearance and non-strap attributes accepted, not full image approval"
+}

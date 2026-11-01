@@ -1,0 +1,11 @@
+asset_id: "OWNER_DATE_SUMMER_01_SCOPED_INPUT_BOARD_Q95"
+asset_level: "L2"
+generated_or_real: "DOCUMENT"
+approval_status: "REVIEW_REQUIRED"
+physical_file_role: "UNIQUE_DERIVATIVE"
+file_path: "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/reference_inputs/generation_board_v1/OWNER_DATE_SUMMER_01_SCOPED_INPUT_BOARD_Q95.jpg"
+checksum_sha256: "34435257e271cdd81fb06ceb08c993e849d075e77853c2d3b064859b08c39105"
+authoritative_for: ["No independent authority. Each region inherits only the component responsibility recorded below."]
+must_not_define: ["AI face generation from body/garment regions", "cross-panel identity/skin/material inheritance", "board layout", "gray padding", "compression artifacts", "scene lighting"]
+operation: "Native-resolution paste only on RGB (128,128,128), 3060x1980; JPEG quality95 4:4:4 optimized encoding. No geometric changes/retouch/AI/recolor; minor lossy encoding."
+created_at: "2026-10-31"

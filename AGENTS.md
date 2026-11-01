@@ -53,6 +53,17 @@ No output is promoted automatically. In particular, L3 must never become L1 unle
 
 Pantyhose is one continuous textile garment across waist/hips, thighs, knees, calves, ankles, heels, insteps, and toes. Reject discontinuity, naked toes beneath supposedly closed-toe hosiery, and latex/PVC/plastic/rubber/liquid/body-paint appearance. Follow `docs/qa/hosiery_material_rules.md`.
 
+### Mandatory white hosiery reference (user-approved 2026-10-31)
+
+- For every future AI-generated image depicting white hosiery (including L1/L2/L3), strictly use `HOS_USER_SELECTED_WHITE_STRICT` from `registries/reference_sets.yaml`. Follow `materials/hosiery/reference_inputs/user_selected_white/MATERIAL_REFERENCE.md` for scoped authority, provenance, prompt and QA requirements.
+- Use its deterministic face-free material crop as the generation input. It defines only white color impression, translucency, textile sheen and visible leg-to-toe coverage; never identity, face, skin, anatomy, hair, pose, clothing, shoes, lighting or background. Exact denier is unverified.
+- This user selection overrides earlier white-hosiery sources and generated outfit images as material authority for future generation. Supplemental sources may fill only documented coverage gaps. Do not edit existing locked releases. This rule applies when white hosiery is specified; it does not require white hosiery in all images or replace nude/black materials.
+
+### OWNER_DATE_SUMMER_01 approved hosiery target (user-approved 2026-10-31)
+
+- Later use of this outfit must match the hosiery appearance of approved Worn v015 and follow `outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/HOSIERY_APPEARANCE_METHOD_v015.md`. Resolve `OWNER_DATE_SUMMER_01_HOSIERY_APPEARANCE_APPROVED_V015` for its material-only face-excluded crop. Keep original mandatory white L0 material source; Foot v002 remains the approved foot-detail input when relevant.
+- This is an outfit-scoped L2 appearance decision, not face/body/skin/hair/calf/pose authority or L1 promotion. Never supply the full generated portrait as a face input, and do not apply this outfit's result target to other outfits.
+
 ## Cat and fixed-prop rules
 
 - Cat QA must verify face shape, coat color, golden-shaded tipping distribution, eyes, nose, ears, and body proportions; reject drift toward another British Shorthair, orange tabby, or chinchilla type.

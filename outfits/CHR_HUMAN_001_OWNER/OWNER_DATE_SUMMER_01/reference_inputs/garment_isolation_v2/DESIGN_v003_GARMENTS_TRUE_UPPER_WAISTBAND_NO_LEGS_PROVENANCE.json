@@ -1,0 +1,26 @@
+{
+  "asset_id": "OWNER_DATE_SUMMER_01_GARMENT_ISOLATED_v003_002",
+  "asset_level": "L2",
+  "generated_or_real": "GENERATED",
+  "approval_status": "REVIEW_REQUIRED",
+  "physical_file_role": "UNIQUE_DERIVATIVE",
+  "file_path": "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/reference_inputs/garment_isolation_v2/DESIGN_v003_GARMENTS_TRUE_UPPER_WAISTBAND_NO_LEGS.png",
+  "checksum_sha256": "9035ce51b8948993076b47930fe46392d1cd05bc8c1d697064dd3cb10dd1f8aa",
+  "source_path": "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/approved/design_reference/OWNER_DATE_SUMMER_01_DESIGN_REFERENCE_v003.png",
+  "source_sha256": "2a88382b494f72cb4cd137d8525022e66fb36688ee37da6a8a28704a030d21ba",
+  "operation": "Native RGB; preserve actual upper high waistband pixels y333..375. Exclude lower abdomen/band with gray polygon [(325, 376), (660, 376), (660, 459), (630, 470), (580, 484), (520, 493), (460, 486), (400, 474), (350, 462), (325, 459)] and legs/toes with gray rectangles [(270, 740, 710, 1089), (270, 1090, 610, 1535)]. No resize/retouch/AI.",
+  "authoritative_for": [
+    "blouse/shorts/sandals and position/shape of ONLY true upper waistband"
+  ],
+  "must_not_define": [
+    "face",
+    "body/skin",
+    "hair",
+    "hosiery material",
+    "leg/foot anatomy",
+    "gray missing-information regions",
+    "lower extra band",
+    "toe skin"
+  ],
+  "created_at": "2026-10-31"
+}

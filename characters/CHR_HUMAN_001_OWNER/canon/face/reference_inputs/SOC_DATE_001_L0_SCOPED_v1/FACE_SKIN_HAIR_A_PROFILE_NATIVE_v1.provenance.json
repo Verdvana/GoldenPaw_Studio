@@ -1,0 +1,26 @@
+{
+  "asset_id": "FACE_SKIN_HAIR_A_PROFILE_NATIVE_v1",
+  "version": "v1",
+  "path": "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/SOC_DATE_001_L0_SCOPED_v1/FACE_SKIN_HAIR_A_PROFILE_NATIVE_v1.png",
+  "sha256": "271a52fd2fc0def2153d560a36349bf0889e78bd048804856625c6edb5467533",
+  "sources": [
+    {
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/L0_FACE_SOURCE_DERIVATIVES_V1/FACE_L0_013_GEOMETRY_012_SKIN_NATIVE_BOARD_001.png",
+      "sha256": "c2fccf2229c42206947edc41e9cacc04a0a702e9ca94f2a866b96f14d1f0ade0"
+    },
+    {
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/DSC00847_HAIR_ONLY_MASKED.png",
+      "sha256": "6eb98bb5c0ac728d66fd551b249fa2002e08aa60b52633a081717c4534c3a2cd"
+    },
+    {
+      "path": "characters/CHR_HUMAN_001_OWNER/source/identity/raw/11.jpg",
+      "sha256": "948a092a360192af3f8718b27e35562ca5e14a21022e1161f8449be75b830a46"
+    }
+  ],
+  "operation": "Native-pixel paste; face board at (0,0); hair at (942,0); optional profile crop (300,540,850,1170) at (1743,0). No scaling/AI/retouch. Third face L0 only for profile-view gap.",
+  "responsibility": "left large face: L0 geometry only; left small face: L0 natural skin only; middle masked source: Hair A only; optional right profile: facial silhouette only",
+  "must_not_define": "generated faces; source makeup/retouch/necklace/hair except Hair A/lighting/pose/clothing/gray masks",
+  "generated": false,
+  "approval": "derivative inherits source scopes; no new visual approval",
+  "date": "2026-10-31"
+}

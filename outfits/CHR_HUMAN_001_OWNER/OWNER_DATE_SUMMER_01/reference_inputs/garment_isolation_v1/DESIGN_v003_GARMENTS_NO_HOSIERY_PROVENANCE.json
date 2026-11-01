@@ -1,0 +1,28 @@
+{
+  "asset_id": "OWNER_DATE_SUMMER_01_GARMENT_ISOLATED_v003_001",
+  "asset_level": "L2",
+  "generated_or_real": "GENERATED",
+  "approval_status": "REVIEW_REQUIRED",
+  "file_path": "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/reference_inputs/garment_isolation_v1/DESIGN_v003_GARMENTS_NO_HOSIERY.png",
+  "physical_file_role": "UNIQUE_DERIVATIVE",
+  "source_path": "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/approved/design_reference/OWNER_DATE_SUMMER_01_DESIGN_REFERENCE_v003.png",
+  "source_sha256": "2a88382b494f72cb4cd137d8525022e66fb36688ee37da6a8a28704a030d21ba",
+  "checksum_sha256": "82426c477982b1f09f4190b14825ec58c77daee19428a685db00596eabe96805",
+  "operation": "Pillow native RGB; mask abdomen/lower band polygon [(325, 333), (660, 333), (660, 459), (630, 470), (580, 484), (520, 493), (460, 486), (400, 474), (350, 462), (325, 459)] and rectangles [(270, 740, 710, 1089), (270, 1090, 610, 1535)] to neutral gray (128,128,128). No resize/AI/other pixel change.",
+  "authoritative_for": [
+    "chiffon blouse, denim shorts and silver sandal design only; no hosiery, leg/foot anatomy, waistband band or toe appearance"
+  ],
+  "must_not_define": [
+    "face",
+    "identity",
+    "skin",
+    "hair",
+    "masked gray regions",
+    "calf curvature",
+    "toe skin or anatomy",
+    "hosiery appearance",
+    "light",
+    "background"
+  ],
+  "created_at": "2026-10-31"
+}

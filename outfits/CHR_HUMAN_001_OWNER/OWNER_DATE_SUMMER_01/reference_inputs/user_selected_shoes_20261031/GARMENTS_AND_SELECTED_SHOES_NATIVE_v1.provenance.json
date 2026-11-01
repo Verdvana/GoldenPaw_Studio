@@ -1,0 +1,22 @@
+{
+  "asset_id": "GARMENTS_AND_SELECTED_SHOES_NATIVE_v1",
+  "version": "v1",
+  "path": "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/reference_inputs/user_selected_shoes_20261031/GARMENTS_AND_SELECTED_SHOES_NATIVE_v1.png",
+  "sha256": "ff91eefbf687cb7d24d2018f6bfc9fdea4340757426343b9414ad600505bf8a3",
+  "sources": [
+    {
+      "path": "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/reference_inputs/garment_isolation_v2/DESIGN_v003_GARMENTS_TRUE_UPPER_WAISTBAND_NO_LEGS.png",
+      "sha256": "9035ce51b8948993076b47930fe46392d1cd05bc8c1d697064dd3cb10dd1f8aa"
+    },
+    {
+      "path": "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/reference_inputs/user_selected_shoes_20261031/SHOE_TWO_VIEW_NATIVE_BOARD_v1.png",
+      "sha256": "62c3a29e3228f69930c54819108c3991dc8bbc594522ba807753d6f6a5c08709"
+    }
+  ],
+  "operation": "Garment native top crop (0,0,1024,740), old sandals excluded entirely; shoe native board at (292,772), gray canvas 1024x882. No scaling/AI.",
+  "responsibility": "top: approved v003 blouse/shorts/one true high waistband only; bottom: new L0 shoe design only",
+  "must_not_define": "identity/face/body/skin/hair/hosiery material/pose/lighting/background/gray masks",
+  "generated": false,
+  "approval": "derivative inherits source scopes; no new visual approval",
+  "date": "2026-10-31"
+}

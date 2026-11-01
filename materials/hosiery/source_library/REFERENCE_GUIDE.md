@@ -2,6 +2,12 @@
 
 Always choose the material folder first, then choose the image that matches the visible region and footwear state. Use **one material image by default**, two only when one supplies full-leg response and the other supplies missing foot/toe continuity.
 
+## Mandatory white hosiery selection — 2026-10-31
+
+Every future AI image with white hosiery must use `HOS_USER_SELECTED_WHITE_STRICT`: user source `L0_HOS_USER_WHITE_001`, generation crop `HOS_USER_WHITE_001_LOWER_LEG_FOOT_CROP_001`. See [material contract and provenance](../reference_inputs/user_selected_white/MATERIAL_REFERENCE.md). The single face-free crop is the mandatory material input; never attach the full portrait for material generation. Color, translucency, sheen and visible knee-to-toe coverage only; no face/body/skin/nails/pose/shoes/background authority. Exact D number is unverified.
+
+This takes priority over the older white front/rear selectors below and over AI outfit hosiery appearance. Older sources may fill a documented missing view only, without changing the selected material. It does not prescribe white hosiery for unrelated images.
+
 ## Quick selector
 
 | Shot requirement | Primary image | Optional detail image |
@@ -46,3 +52,11 @@ The user reduced this material folder to four active files on 2026-09-11. Route 
 - `1.jpg` — user-selected stronger 15D nude matte/velvet textile presence across legs and complete feet; it is material-only and cannot define pose, body/foot geometry, skin, nail color, clothing, background, watermark or floor contact.
 
 Deleted files are not fallback references. If an active view is insufficient, record a coverage gap instead of resolving a removed filename.
+
+## Same-source wider white crop option
+
+`HOS_USER_SELECTED_WHITE_STRICT_WIDE_CROP_V2` supplies the same mandatory source's broader lower-body silky sheen and curved-leg/foot context from a native430×540 crop. Use it INSTEAD OF the narrow crop when needed, not as an additional identity/body reference. It inherits strict material-only duties and all exclusions; source unchanged, exact denier unknown. Provenance: `../reference_inputs/user_selected_white/PHOTO_1_LOWER_BODY_LEG_FOOT_MATERIAL_CROP_v2_PROVENANCE.json`. Do not copy photographed hand/pose/shoes/car or lighting.
+
+## Outfit-scoped approved result — OWNER_DATE_SUMMER_01, 2026-10-31
+
+For later uses of this outfit, user-approved Worn v015 is the HOSIERY appearance target. Follow `outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/HOSIERY_APPEARANCE_METHOD_v015.md` and reference set `OWNER_DATE_SUMMER_01_HOSIERY_APPEARANCE_APPROVED_V015`. The original user L0 source remains mandatory; Foot v002 supplies approved fine-foot construction. The v015 portrait's face/body are never generation authority; only the registered face-excluded material crop may transfer hosiery. This scoped decision does not replace materials of other outfits or promote a new L1 Canon.

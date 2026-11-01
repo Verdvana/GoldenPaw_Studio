@@ -1,0 +1,13 @@
+{
+  "asset_id": "SOC_DATE_001_IMG_01_CAND_09",
+  "asset_level": "L3",
+  "approval_status": "REVIEW_REQUIRED",
+  "file_path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_09/SOC_DATE_001_IMG_01_CAND_09.png",
+  "sha256": "7afc582f0ec88d22c4297441229205e8a991ac1e066b265f00434d8b302a87e1",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "generation_record": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_09/GENERATION_RECORD.json",
+  "qa_status": "FAIL_INITIAL_CALF_HAIR_ALIGNMENT_REVIEW_REQUIRED"
+}

@@ -46,3 +46,7 @@ Real hosiery photos are L0 Material Source. They may define textile appearance, 
 - standing QA: `HOS_15D_NUDE_MATTE_STANDING` / `IMG_2581.jpg`.
 
 These are deliberately narrow responsibilities. Do not supplement them with deleted files; record a coverage gap instead.
+
+## Mandatory white hosiery QA (user-approved 2026-10-31)
+
+For every future AI image with white hosiery, require `HOS_USER_SELECTED_WHITE_STRICT` as the material generation input and QA reference. Follow [the material contract](../../materials/hosiery/reference_inputs/user_selected_white/MATERIAL_REFERENCE.md). Compare the selected source's milky white color impression, translucency, textile sheen and visible leg-to-toe coverage under the target lighting. Reject replacement by earlier white references or generated outfit hosiery, opaque paint-like white skin, plastic gloss, bare toes, or abrupt white toe bands. Do not infer exact denier or hidden construction from this image. Other references may supply documented missing views only. Preserve separate identity/body/skin/hair/nail authorities. Existing approved or locked assets are not retroactively edited.

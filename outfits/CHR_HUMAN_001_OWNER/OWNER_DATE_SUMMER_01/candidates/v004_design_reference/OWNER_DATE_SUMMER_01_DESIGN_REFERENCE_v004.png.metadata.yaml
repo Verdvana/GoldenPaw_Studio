@@ -1,0 +1,13 @@
+asset_id: "OWNER_DATE_SUMMER_01_DESIGN_REFERENCE_v004"
+asset_level: "L2"
+asset_type: "outfit"
+generated_or_real: "GENERATED"
+approval_status: "REVIEW_REQUIRED"
+quality_status: "FAIL"
+file_path: "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/candidates/v004_design_reference/OWNER_DATE_SUMMER_01_DESIGN_REFERENCE_v004.png"
+physical_file_role: "UNIQUE_CANDIDATE"
+generation_record: "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/candidates/v004_design_reference/generation_record.md"
+authoritative_for: ["none until explicit review/approval"]
+must_not_define: ["identity", "body", "face", "skin", "hair", "Canon", "downstream pixels"]
+checksum_sha256: "e0ebad3bbfef07190b3c554e48598e6822a8e28d2a7e26e4bee08d6b485309b8"
+created_at: "2026-10-31"

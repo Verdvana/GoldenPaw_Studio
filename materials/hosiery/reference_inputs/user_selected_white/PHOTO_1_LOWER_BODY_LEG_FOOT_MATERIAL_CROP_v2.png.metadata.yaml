@@ -1,0 +1,15 @@
+asset_id: "HOS_USER_WHITE_001_LOWER_BODY_LEG_FOOT_CROP_002"
+asset_level: "L0"
+generated_or_real: "REAL"
+approval_status: "APPROVED"
+approval_scope: "inherits existing user-selected material responsibility only; deterministic derivative, no independent Canon promotion"
+physical_file_role: "UNIQUE_DERIVATIVE"
+file_path: "materials/hosiery/reference_inputs/user_selected_white/PHOTO_1_LOWER_BODY_LEG_FOOT_MATERIAL_CROP_v2.png"
+checksum_sha256: "f0aeb037eba8b1a17075c85fcf3baf11329643cf01023ac8e3b38f04a1635c5b"
+source_asset_id: "L0_HOS_USER_WHITE_001"
+source_path: "materials/hosiery/source_library/raw/user_selected_white/PHOTO_1.jpg"
+source_sha256: "34ccb3f3923b441768f69f2f22ef95eb5bde3f31adf74af8172365bf503528df"
+operation: "Pillow native pixel crop (275,650,705,1190), right/bottom exclusive; 430x540 PNG. No resize/upscale/retouch/recolor/AI."
+authoritative_for: ["inherited HOS_USER_SELECTED_WHITE_STRICT white color/translucency/fiber sheen across curved thigh/knee/calf and continuous leg-to-toe textile"]
+must_not_define: ["face", "identity", "skin", "body/leg/foot geometry", "hands", "pose", "outfit", "shoes", "car", "background", "watermark", "scene lighting", "exact denier"]
+created_at: "2026-10-31"

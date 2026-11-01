@@ -1,0 +1,15 @@
+asset_id: "HOS_USER_WHITE_001_LOWER_LEG_FOOT_CROP_001"
+asset_level: "L0"
+asset_type: "material"
+canon_version: null
+file_path: "materials/hosiery/reference_inputs/user_selected_white/PHOTO_1_LOWER_LEG_FOOT_MATERIAL_CROP.png"
+physical_file_role: "UNIQUE_DERIVATIVE"
+source_images: [{"asset_id": "L0_HOS_USER_WHITE_001", "path": "materials/hosiery/source_library/raw/user_selected_white/PHOTO_1.jpg", "sha256": "34ccb3f3923b441768f69f2f22ef95eb5bde3f31adf74af8172365bf503528df"}]
+generated_or_real: "REAL"
+approval_status: "APPROVED"
+approval_record: "materials/hosiery/reference_inputs/user_selected_white/MATERIAL_REFERENCE.md"
+authoritative_for: ["white hosiery color impression", "visible translucency and coverage", "textile sheen and highlight behavior", "visible knee-calf-ankle-instep-toe textile continuity"]
+must_not_define: ["person identity", "face", "hair", "body or foot anatomy and proportions", "skin pigmentation", "nail color", "pose", "clothing", "shoe design", "car", "background", "watermark", "scene lighting", "unseen waistband/gusset/sole construction", "exact denier"]
+checksum_sha256: "ce3b4fe1aafebe2818baae37dd3a76ca712820b1232d2ed15e06adf55002095d"
+created_at: "2026-10-31"
+notes: "User-approved material-reference selection only; not an L1 Canon promotion. Deterministic crop is not AI-generated."

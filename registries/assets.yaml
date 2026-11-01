@@ -47,5 +47,91 @@ assets:
     current_canon_version: null
     status: APPROVED
     approved_design_reference: outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/approved/design_reference/OWNER_DATE_SUMMER_01_DESIGN_REFERENCE_v003.png
-    approved_worn_front: outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/approved/worn_front/OWNER_DATE_SUMMER_01_WORN_FRONT_v005.png
-    approval_date: 2026-10-30
+    approved_worn_front: outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/approved/worn_front/OWNER_DATE_SUMMER_01_WORN_FRONT_v015.png
+    approval_date: 2026-10-31
+    hosiery_appearance_method: outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/HOSIERY_APPEARANCE_METHOD_v015.md
+    hosiery_appearance_reference_set: OWNER_DATE_SUMMER_01_HOSIERY_APPEARANCE_APPROVED_V015
+
+  - asset_id: OWNER_DATE_SUMMER_01_FOOT_MATERIAL_DETAIL_v002
+    type: scoped_reference
+    asset_level: L2
+    path: outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/approved/foot_material_detail/OWNER_DATE_SUMMER_01_FOOT_MATERIAL_DETAIL_v002.png
+    current_canon_version: null
+    status: APPROVED
+    approval_date: 2026-10-31
+    checksum_sha256: 02718418b7a55bd1fc44023ca5059b88b4dc5a42738f8c918458ce4a48178897
+    approval_record: outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/approved/foot_material_detail/APPROVAL_v002.md
+
+  - asset_id: OWNER_DATE_SUMMER_01_WORN_FRONT_v015
+    type: scoped_reference
+    asset_level: L2
+    path: outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/approved/worn_front/OWNER_DATE_SUMMER_01_WORN_FRONT_v015.png
+    current_canon_version: null
+    status: APPROVED
+    approval_date: 2026-10-31
+    checksum_sha256: e9d59c10a5a269c5aeeab777bc19f65fc041d9dab54642c8a175b34cdc199b25
+    approval_record: outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/approved/worn_front/APPROVAL_v015.md
+
+  - asset_id: SOC_DATE_001_IMG_01_CAND_08
+    type: social_still
+    level: L3
+    status: REJECTED_BY_USER
+    path: "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_08/SOC_DATE_001_IMG_01_CAND_08.png"
+    sha256: "5b16f0b71283e6322c7aceb08c66e2e512cd8ae937bf7c40f2d3bb5295a8dcba"
+    qa_status: FAIL_FACE_HAIR_DRIFT
+
+  - asset_id: SOC_DATE_001_IMG_02_CAND_04
+    type: social_still
+    level: L3
+    status: REJECTED_BY_USER
+    path: "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_02/candidates/SOC_DATE_001_IMG_02_CAND_04/SOC_DATE_001_IMG_02_CAND_04.png"
+    sha256: "7ae9e4c2a92aee68386ff804aa985102c0cb9dc40f96791a596a04b53f486046"
+    qa_status: REJECTED_BY_USER_IDENTITY_MATERIAL_CHECK
+
+  - asset_id: SOC_DATE_001_IMG_04_CAND_04
+    type: social_still
+    level: L3
+    status: REJECTED_BY_USER
+    path: "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_04/candidates/SOC_DATE_001_IMG_04_CAND_04/SOC_DATE_001_IMG_04_CAND_04.png"
+    sha256: "609dacde918a98e8124cfb554cfe3e5673b17b8aabd0c51cb6c079b78d571f88"
+    qa_status: REJECTED_BY_USER_IDENTITY_HOSIERY_HEEL_CHECK
+
+  - asset_id: SOC_DATE_001_IMG_01_CAND_09
+    type: social_still
+    level: L3
+    status: REVIEW_REQUIRED
+    path: "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_09/SOC_DATE_001_IMG_01_CAND_09.png"
+    sha256: "7afc582f0ec88d22c4297441229205e8a991ac1e066b265f00434d8b302a87e1"
+    qa_status: FAIL_INITIAL_CALF_HAIR_ALIGNMENT_REVIEW_REQUIRED
+
+  - asset_id: SOC_DATE_001_IMG_01_CAND_10
+    type: social_still
+    level: L3
+    status: REVIEW_REQUIRED
+    path: "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_10/SOC_DATE_001_IMG_01_CAND_10.png"
+    sha256: "aedf94d437d07c981a46daddf9f655bdca0d519e9e970b5a9d7664f9b5071361"
+    qa_status: FAIL_SHOE_DIAGONALS_NOT_MIRRORED
+
+  - asset_id: SOC_DATE_001_IMG_01_CAND_11
+    type: social_still
+    level: L3
+    status: REVIEW_REQUIRED
+    path: "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_11/SOC_DATE_001_IMG_01_CAND_11.png"
+    sha256: "80d31bdf26e5e246592eacdfe9da9d09924f86547bda06410fcb4a1fb8cf4c1a"
+    qa_status: FAIL_USER_STRAP_DIRECTION_REVERSED_HOSIERY_ACCEPTED
+
+  - asset_id: SOC_DATE_001_IMG_01_CAND_12
+    type: social_still
+    level: L3
+    status: REVIEW_REQUIRED
+    path: "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_12/SOC_DATE_001_IMG_01_CAND_12.png"
+    sha256: "c52b5445d486cc732dc8809e36a0bdc08faab33f6119ab46c1ec282d8d01d260"
+    qa_status: PASS_INITIAL_INNER_HIGH_OUTER_LOW_USER_REVIEW_REQUIRED
+
+  - asset_id: SOC_DATE_001_IMG_01_CAND_13
+    type: social_still
+    level: L3
+    status: REVIEW_REQUIRED
+    path: "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_13/SOC_DATE_001_IMG_01_CAND_13.png"
+    sha256: "db4a54d3262cc1204bfc56b139615412e8b974fe12426dfc0a34256b66f1b817"
+    qa_status: REVIEW_REQUIRED_CALF_RIM_IMPROVED_PHOTO_REALISM_INSUFFICIENT

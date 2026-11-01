@@ -1,0 +1,13 @@
+{
+  "asset_id": "SOC_DATE_001_IMG_01_CAND_10",
+  "asset_level": "L3",
+  "approval_status": "REVIEW_REQUIRED",
+  "file_path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_10/SOC_DATE_001_IMG_01_CAND_10.png",
+  "sha256": "aedf94d437d07c981a46daddf9f655bdca0d519e9e970b5a9d7664f9b5071361",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "qa_status": "FAIL_SHOE_DIAGONALS_NOT_MIRRORED",
+  "generation_record": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_10/GENERATION_RECORD.json"
+}

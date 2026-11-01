@@ -1,0 +1,13 @@
+{
+  "asset_id": "SOC_DATE_001_IMG_01_CAND_13",
+  "asset_level": "L3",
+  "approval_status": "REVIEW_REQUIRED",
+  "file_path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_13/SOC_DATE_001_IMG_01_CAND_13.png",
+  "sha256": "db4a54d3262cc1204bfc56b139615412e8b974fe12426dfc0a34256b66f1b817",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "qa_status": "REVIEW_REQUIRED_CALF_RIM_IMPROVED_PHOTO_REALISM_INSUFFICIENT",
+  "generation_record": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_13/GENERATION_RECORD.json"
+}

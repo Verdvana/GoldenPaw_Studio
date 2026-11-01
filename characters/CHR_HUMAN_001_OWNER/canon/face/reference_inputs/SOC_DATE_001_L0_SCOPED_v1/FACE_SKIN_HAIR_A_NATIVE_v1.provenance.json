@@ -1,0 +1,22 @@
+{
+  "asset_id": "FACE_SKIN_HAIR_A_NATIVE_v1",
+  "version": "v1",
+  "path": "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/SOC_DATE_001_L0_SCOPED_v1/FACE_SKIN_HAIR_A_NATIVE_v1.png",
+  "sha256": "7898e2d44bf08a8d93adc32b9bb5b0e2043ddb9615a03d2fb4545a1f2e73730c",
+  "sources": [
+    {
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/L0_FACE_SOURCE_DERIVATIVES_V1/FACE_L0_013_GEOMETRY_012_SKIN_NATIVE_BOARD_001.png",
+      "sha256": "c2fccf2229c42206947edc41e9cacc04a0a702e9ca94f2a866b96f14d1f0ade0"
+    },
+    {
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/DSC00847_HAIR_ONLY_MASKED.png",
+      "sha256": "6eb98bb5c0ac728d66fd551b249fa2002e08aa60b52633a081717c4534c3a2cd"
+    }
+  ],
+  "operation": "Native-pixel paste face board (0,0), hair (942,0); no scaling/AI/retouch.",
+  "responsibility": "left large face: L0 geometry only; left small face: L0 natural skin only; middle masked source: Hair A only; optional right profile: facial silhouette only",
+  "must_not_define": "generated faces; source makeup/retouch/necklace/hair except Hair A/lighting/pose/clothing/gray masks",
+  "generated": false,
+  "approval": "derivative inherits source scopes; no new visual approval",
+  "date": "2026-10-31"
+}

@@ -1,0 +1,36 @@
+{
+  "asset_id": "OWNER_REGISTERED_B_FACE_AND_L0_HAIR_NATIVE_BOARD_001",
+  "asset_level": "L2",
+  "generated_or_real": "DOCUMENT",
+  "approval_status": "REVIEW_REQUIRED",
+  "file_path": "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/B_FACE_AND_L0_HAIR_NATIVE_BOARD_001.png",
+  "physical_file_role": "UNIQUE_DERIVATIVE",
+  "checksum_sha256": "f35a31a2211bc46669717c15380f6e04542687055b1c32c6f622b47a47c14ac4",
+  "source_images": [
+    {
+      "asset_id": "OWNER_FACE_SKIN_CONTEXT_NO_CROWN_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/B_FACE_SKIN_CONTEXT_NO_CROWN.png",
+      "sha256": "d98019128bfa974a102813da52b4a2905ec4aa7c95eb5222a163e419f287e74d"
+    },
+    {
+      "asset_id": "OWNER_HAIRSTYLE_A_FACE_MASKED_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/DSC00847_HAIR_ONLY_MASKED.png",
+      "sha256": "6eb98bb5c0ac728d66fd551b249fa2002e08aa60b52633a081717c4534c3a2cd"
+    }
+  ],
+  "operation": "Pillow RGB native paste of 900x1000 B face at(0,0) and 769x1080 L0 masked Hair-A at(900,0) onto1669x1080 gray. No resize/AI/recolor/retouch.",
+  "authoritative_for": [
+    "LEFT face/skin original registered B recipe only; RIGHT L0 Hair-A only"
+  ],
+  "must_not_define": [
+    "panel layout",
+    "gray padding/mask",
+    "B hair",
+    "cross-panel identity transfer",
+    "body",
+    "garments",
+    "hosiery",
+    "source light/background"
+  ],
+  "created_at": "2026-10-31"
+}

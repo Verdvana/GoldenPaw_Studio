@@ -1,0 +1,100 @@
+{
+  "post_id": "SOC_DATE_001",
+  "image_asset_id": "SOC_DATE_001_IMG_01",
+  "candidate_id": "SOC_DATE_001_IMG_01_CAND_09",
+  "asset_level": "L3",
+  "status": "REVIEW_REQUIRED",
+  "approval_status": "REVIEW_REQUIRED",
+  "authorization": "2026-10-31 user: 都不合格，一张张来。先来第一张，注意参考的鞋脚脖子处没有带，脚背的带是斜的，参考正脸资产生产方式，参考白色丝袜参考。小腿要笔直",
+  "generation_inputs": [
+    {
+      "asset_id": "B_FACE_AND_L0_HAIR_NATIVE_BOARD_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/FACE_01_FRONT_NEUTRAL_METHOD_v1/B_FACE_AND_L0_HAIR_NATIVE_BOARD_001.png",
+      "sha256": "f35a31a2211bc46669717c15380f6e04542687055b1c32c6f622b47a47c14ac4",
+      "version": "registered current derivative",
+      "responsibility": "left original registered B face/skin exact feature relationships; right L0 masked Hair A only",
+      "must_not_define": "B hairstyle/crown/source projection; body/clothing/scene/light; gray mask"
+    },
+    {
+      "asset_id": "BODY_01_TORSO_UPPER_LEGS_NO_CALVES_CROP_v1",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/body/reference_inputs/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v7/BODY_01_TORSO_UPPER_LEGS_NO_CALVES_CROP_v1.png",
+      "sha256": "e169af72c55c5801d9932f832ed72e080d1c4ccb4b2f14a76757b19ee4c0b5bd",
+      "version": "registered current derivative",
+      "responsibility": "neck-below torso/hip/upper-thigh volume only; lower legs absent",
+      "must_not_define": "face/skin/hair/identity/clothes/hosiery/pose/calves/ankles/feet/light/background"
+    },
+    {
+      "asset_id": "GARMENTS_AND_SELECTED_SHOES_NATIVE_v1",
+      "path": "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/reference_inputs/user_selected_shoes_20261031/GARMENTS_AND_SELECTED_SHOES_NATIVE_v1.png",
+      "sha256": "ff91eefbf687cb7d24d2018f6bfc9fdea4340757426343b9414ad600505bf8a3",
+      "version": "registered current derivative",
+      "responsibility": "upper: approved v003 blouse/shorts/true upper waistband; bottom: user-selected real shoes with DIAGONAL instep strap and NO ankle ring",
+      "must_not_define": "identity/face/body/skin/hair/hosiery material/pose/scene/light/gray mask"
+    },
+    {
+      "asset_id": "PHOTO_1_LOWER_BODY_LEG_FOOT_MATERIAL_CROP_v2",
+      "path": "materials/hosiery/reference_inputs/user_selected_white/PHOTO_1_LOWER_BODY_LEG_FOOT_MATERIAL_CROP_v2.png",
+      "sha256": "f0aeb037eba8b1a17075c85fcf3baf11329643cf01023ac8e3b38f04a1635c5b",
+      "version": "registered current derivative",
+      "responsibility": "mandatory HOS_USER_SELECTED_WHITE_STRICT original-source white/translucency/textile sheen/visible coverage",
+      "must_not_define": "identity/skin pigment/anatomy/pose/shoes/clothes/flash/scene/exact denier"
+    },
+    {
+      "asset_id": "WORN_FRONT_v015_WAIST_TO_FEET_MATERIAL_CROP",
+      "path": "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/reference_inputs/hosiery_v015/WORN_FRONT_v015_WAIST_TO_FEET_MATERIAL_CROP.png",
+      "sha256": "3e77cd2c9e272ed869c1f5094326ba287add1bc23856412e3cd88436eeecc7a0",
+      "version": "registered current derivative",
+      "responsibility": "approved v015 hosiery appearance ONLY for this outfit",
+      "must_not_define": "face/identity/skin/body/calf/foot anatomy/hair/pose/clothes/old sandals/camera/light/background"
+    }
+  ],
+  "qa_comparison_only": [
+    {
+      "asset_id": "OWNER_FACE_01_FRONT_NEUTRAL_CANON_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg",
+      "sha256": "4d657954098490fc39da6ae257a47d8275b6237962af6d98e3c8a715ac690fc4",
+      "responsibility": "post-generation identity/face contamination/projection QA only; never input"
+    }
+  ],
+  "reference_budget": {
+    "limit": 5,
+    "used": 5,
+    "packing": "native deterministic face/hair and garment/shoe boards"
+  },
+  "face_method": "Original registered FACE_01 v011 method B_FACE_SKIN_CONTEXT_NO_CROWN + masked L0 Hair A, requested again by current user; B is GENERATED origin, never mislabeled L0. Candidate-scoped explicit method selection, consistent with prior user-directed successful recipe; no global L0-only policy rewrite or approved Face Canon input.",
+  "selected_reference_sets": [
+    "OWNER_FACE_FRONT_NEUTRAL_RECOVERY_V1",
+    "OWNER_HAIRSTYLE_A_L0_SCOPED_DERIVATIVE",
+    "HOS_USER_SELECTED_WHITE_STRICT_WIDE_CROP_V2",
+    "OWNER_DATE_SUMMER_01_HOSIERY_APPEARANCE_APPROVED_V015",
+    "SOC_DATE_001_SELECTED_SHOES_20261031"
+  ],
+  "body_input_note": "torso/upper thigh-only crop excludes prior calf curvature; natural straight lower legs from explicit shot spec",
+  "prompt_assembly": "PROMPT.txt",
+  "seed": "unavailable",
+  "settings": {
+    "tool": "built-in image_gen",
+    "transparent_background": false,
+    "aspect_ratio": "4:5",
+    "resolution": "native"
+  },
+  "output_path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_09/SOC_DATE_001_IMG_01_CAND_09.png",
+  "qa_status": "FAIL_INITIAL_CALF_HAIR_ALIGNMENT_REVIEW_REQUIRED",
+  "previous_candidate_pixels_used": false,
+  "date": "2026-10-31",
+  "output_checksum": "7afc582f0ec88d22c4297441229205e8a991ac1e066b265f00434d8b302a87e1",
+  "actual_dimensions": [
+    1122,
+    1402
+  ],
+  "generated_at": "2026-10-31",
+  "eligible_for_publishing": false,
+  "eligible_as_continuity_reference": false,
+  "scoped_user_acceptance": {
+    "date": "2026-10-31",
+    "evidence": "鞋子不对称哦，丝袜质感也不对，请参考夏季约会穿搭资产。别的OK",
+    "accepted": "all non-shoe/non-hosiery attributes of this exact photograph, including face/hair/body/leg geometry/pose/scene",
+    "rejected": "shoe pair asymmetry and hosiery appearance",
+    "scope": "same-photograph local correction only; no complete L3 approval or identity lineage"
+  }
+}

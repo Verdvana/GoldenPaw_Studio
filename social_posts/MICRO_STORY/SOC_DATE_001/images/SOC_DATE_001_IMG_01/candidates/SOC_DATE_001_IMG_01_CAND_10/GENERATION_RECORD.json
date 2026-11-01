@@ -1,0 +1,94 @@
+{
+  "post_id": "SOC_DATE_001",
+  "image_asset_id": "SOC_DATE_001_IMG_01",
+  "candidate_id": "SOC_DATE_001_IMG_01_CAND_10",
+  "asset_level": "L3",
+  "status": "REVIEW_REQUIRED",
+  "approval_status": "REVIEW_REQUIRED",
+  "authorization": "鞋子不对称哦，丝袜质感也不对，请参考夏季约会穿搭资产。别的OK",
+  "edit_scope": "same-photo shoe pair symmetry and hosiery appearance ONLY; preserve all user-accepted remainder",
+  "generation_inputs": [
+    {
+      "asset_id": "SOC_DATE_001_IMG_01_CAND_09",
+      "path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_09/SOC_DATE_001_IMG_01_CAND_09.png",
+      "sha256": "7afc582f0ec88d22c4297441229205e8a991ac1e066b265f00434d8b302a87e1",
+      "version": "current registered source",
+      "role": "local_edit_target",
+      "responsibility": "same-photo LOCAL EDIT TARGET, preserve user-accepted pixels outside shoes/hosiery appearance",
+      "must_not_define": "new face/body/identity generation, downstream shot or Canon authority"
+    },
+    {
+      "asset_id": "SHOE_TWO_VIEW_NATIVE_BOARD_v1",
+      "path": "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/reference_inputs/user_selected_shoes_20261031/SHOE_TWO_VIEW_NATIVE_BOARD_v1.png",
+      "sha256": "62c3a29e3228f69930c54819108c3991dc8bbc594522ba807753d6f6a5c08709",
+      "version": "current registered source",
+      "role": "scoped_reference",
+      "responsibility": "real selected shoe structure/color, corresponding LEFT/RIGHT paired construction with mirrored diagonal instep straps, no ankle loop",
+      "must_not_define": "face/body/skin/hair/hosiery/pose/light/scene"
+    },
+    {
+      "asset_id": "WORN_FRONT_v015_WAIST_TO_FEET_MATERIAL_CROP",
+      "path": "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/reference_inputs/hosiery_v015/WORN_FRONT_v015_WAIST_TO_FEET_MATERIAL_CROP.png",
+      "sha256": "3e77cd2c9e272ed869c1f5094326ba287add1bc23856412e3cd88436eeecc7a0",
+      "version": "current registered source",
+      "role": "scoped_reference",
+      "responsibility": "approved summer outfit v015 HOSIERY APPEARANCE only: white hue/translucency/soft textile sheen/coverage",
+      "must_not_define": "identity/face/body/calf or foot anatomy/skin/hair/pose/clothes/old silver sandals/light/background"
+    },
+    {
+      "asset_id": "PHOTO_1_LOWER_BODY_LEG_FOOT_MATERIAL_CROP_v2",
+      "path": "materials/hosiery/reference_inputs/user_selected_white/PHOTO_1_LOWER_BODY_LEG_FOOT_MATERIAL_CROP_v2.png",
+      "sha256": "f0aeb037eba8b1a17075c85fcf3baf11329643cf01023ac8e3b38f04a1635c5b",
+      "version": "current registered source",
+      "role": "scoped_reference",
+      "responsibility": "mandatory original L0 white source: white/translucency/fiber sheen/visible coverage",
+      "must_not_define": "identity/face/skin pigment/anatomy/pose/shoes/clothes/car/scene light/background/exact denier"
+    },
+    {
+      "asset_id": "OWNER_DATE_SUMMER_01_FOOT_MATERIAL_DETAIL_v002",
+      "path": "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/approved/foot_material_detail/OWNER_DATE_SUMMER_01_FOOT_MATERIAL_DETAIL_v002.png",
+      "sha256": "02718418b7a55bd1fc44023ca5059b88b4dc5a42738f8c918458ce4a48178897",
+      "version": "current registered source",
+      "role": "scoped_reference",
+      "responsibility": "approved Foot v002: exposed instep/heel fabric veil/fine grain/smooth ankle drape only; justified by user material failure",
+      "must_not_define": "anatomy/pose/toes outside closed shoes/old silver sandals/new color/denier/face/identity/light/background"
+    }
+  ],
+  "qa_comparison_only": [
+    {
+      "asset_id": "OWNER_FACE_01_FRONT_NEUTRAL_CANON_001",
+      "path": "characters/CHR_HUMAN_001_OWNER/canon/face/approved/FACE_01_FRONT_NEUTRAL/OWNER_FACE_01_FRONT_NEUTRAL_CANON_001.jpg",
+      "sha256": "4d657954098490fc39da6ae257a47d8275b6237962af6d98e3c8a715ac690fc4",
+      "responsibility": "post-edit contamination and unwanted identity change comparison only, never generation input"
+    }
+  ],
+  "reference_budget": {
+    "limit": 5,
+    "used": 5,
+    "reason": "same-photo target + real shoe + v015 appearance + mandatory L0 white + approved foot textile; no face/body generation refs needed"
+  },
+  "face_generation_rule": "NO NEW FACE GENERATION; user explicitly accepts existing face and all non-shoe/non-hosiery content, target only for local same-photo edit, not downstream identity lineage",
+  "selected_reference_sets": [
+    "SOC_DATE_001_SELECTED_SHOES_20261031",
+    "OWNER_DATE_SUMMER_01_HOSIERY_APPEARANCE_APPROVED_V015",
+    "HOS_USER_SELECTED_WHITE_STRICT_WIDE_CROP_V2",
+    "OWNER_DATE_SUMMER_01_FOOT_MATERIAL_DETAIL_APPROVED_V002"
+  ],
+  "prompt_assembly": "PROMPT.txt",
+  "seed": "unavailable",
+  "settings": {
+    "tool": "built-in image_gen",
+    "transparent_background": false,
+    "aspect_ratio": "preserve target 1122x1402 near4:5",
+    "resolution": "native"
+  },
+  "output_path": "social_posts/MICRO_STORY/SOC_DATE_001/images/SOC_DATE_001_IMG_01/candidates/SOC_DATE_001_IMG_01_CAND_10/SOC_DATE_001_IMG_01_CAND_10.png",
+  "qa_status": "FAIL_SHOE_DIAGONALS_NOT_MIRRORED",
+  "date": "2026-10-31",
+  "output_checksum": "aedf94d437d07c981a46daddf9f655bdca0d519e9e970b5a9d7664f9b5071361",
+  "actual_dimensions": [
+    1122,
+    1402
+  ],
+  "generated_at": "2026-10-31"
+}

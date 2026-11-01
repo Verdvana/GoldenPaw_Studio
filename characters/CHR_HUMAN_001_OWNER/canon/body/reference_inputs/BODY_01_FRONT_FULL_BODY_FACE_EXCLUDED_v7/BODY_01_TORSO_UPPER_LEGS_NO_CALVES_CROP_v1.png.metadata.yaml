@@ -1,0 +1,13 @@
+asset_id: "OWNER_BODY_TORSO_UPPER_LEGS_NO_CALVES_001"
+asset_level: "L1"
+generated_or_real: "GENERATED"
+approval_status: "REVIEW_REQUIRED"
+file_path: "characters/CHR_HUMAN_001_OWNER/canon/body/reference_inputs/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v7/BODY_01_TORSO_UPPER_LEGS_NO_CALVES_CROP_v1.png"
+physical_file_role: "UNIQUE_DERIVATIVE"
+source_path: "characters/CHR_HUMAN_001_OWNER/canon/body/reference_inputs/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_v7/BODY_01_FRONT_FULL_BODY_FACE_EXCLUDED_CROP.png"
+source_sha256: "59b585718760d9bd528dbc1e864b6fc9f9e271054e092933c9196a3876ae2e0b"
+checksum_sha256: "e169af72c55c5801d9932f832ed72e080d1c4ccb4b2f14a76757b19ee4c0b5bd"
+operation: "Pillow native crop (0,0,1086,680); no resize, color/retouch/AI"
+authoritative_for: ["neck-below torso/hip and upper-leg volume only; no calf/shin/ankle/foot shape"]
+must_not_define: ["face", "identity", "skin", "hair", "masked gray regions", "calf curvature", "toe skin or anatomy", "hosiery appearance", "light", "background"]
+created_at: "2026-10-31"

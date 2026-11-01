@@ -1,5 +1,5 @@
 schema_version: 1
-catalog_version: "2026-09-30"
+catalog_version: "2026-10-31"
 policy: "Select one set by shot need; never concatenate all sets. Locked scoped L1 Canon supersedes these L0 construction sets."
 
 reference_sets:
@@ -597,6 +597,7 @@ reference_sets:
     assets:
       - {asset_id: L0_HOS_15_NSS_002, path: "materials/hosiery/source_library/raw/15d_nude_soft_sheen/IMG_2589.jpg"}
   HOS_15D_WHITE_SOFT_SHEEN_FRONT:
+    material_priority: "supplemental documented missing view only; HOS_USER_SELECTED_WHITE_STRICT is mandatory for future white-hosiery images"
     purpose: "white frontal coverage and soft sheen"
     max_images: 1
     assets:
@@ -607,6 +608,7 @@ reference_sets:
     assets:
       - {asset_id: L0_HOS_USER_001, path: "materials/hosiery/source_library/raw/user_selected_sheer_pale/PHOTO_2.jpg"}
   HOS_15D_WHITE_SOFT_SHEEN_REAR_HEEL:
+    material_priority: "supplemental documented missing view only; HOS_USER_SELECTED_WHITE_STRICT is mandatory for future white-hosiery images"
     purpose: "rear calf/heel/shoe interface"
     max_images: 1
     assets:
@@ -651,3 +653,85 @@ reference_sets:
     must_not_define: [face or likeness as a generation input, hairstyle, body proportions, skin, identity lineage, video keyframe identity]
     assets:
       - {asset_id: OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v015, path: "outfits/CHR_HUMAN_001_OWNER/OWNER_CASUAL_AUTUMN_02/approved/worn_front/OWNER_CASUAL_AUTUMN_02_WORN_FRONT_v015.png"}
+
+  HOS_USER_SELECTED_WHITE_STRICT:
+    purpose: "mandatory user-selected white hosiery material appearance for every future AI image depicting white hosiery; overrides earlier white material references and AI outfit hosiery, with supplemental sources limited to documented view gaps"
+    version: "source_v1/crop_v1"
+    max_images: 1
+    approval_status: "APPROVED"
+    approval_scope: "L0 material-reference selection only; no L1 promotion"
+    approval_date: "2026-10-31"
+    usable_for_generation: true
+    required_when: "white hosiery is depicted in any future AI-generated image, including L1/L2/L3"
+    responsibilities: [white color impression, translucency and coverage, textile sheen and highlights, visible knee-calf-ankle-instep-toe continuity]
+    must_not_define: [identity, face, hair, body and foot anatomy, skin pigmentation, nail color, pose, clothing, shoes, lighting, car, background, watermark, exact denier, unseen construction]
+    source_asset_id: L0_HOS_USER_WHITE_001
+    source_path: "materials/hosiery/source_library/raw/user_selected_white/PHOTO_1.jpg"
+    source_sha256: "34ccb3f3923b441768f69f2f22ef95eb5bde3f31adf74af8172365bf503528df"
+    material_contract: "materials/hosiery/reference_inputs/user_selected_white/MATERIAL_REFERENCE.md"
+    assets:
+      - asset_id: HOS_USER_WHITE_001_LOWER_LEG_FOOT_CROP_001
+        path: "materials/hosiery/reference_inputs/user_selected_white/PHOTO_1_LOWER_LEG_FOOT_MATERIAL_CROP.png"
+        sha256: "ce3b4fe1aafebe2818baae37dd3a76ca712820b1232d2ed15e06adf55002095d"
+
+  OWNER_L0_FACE_013_GEOMETRY_012_SKIN_NATIVE_BOARD_V1:
+    purpose: "deterministic native-pixel board for maximum-five-input tools: large left L0_OWNER_013 geometry only, small upper-right L0_OWNER_012 natural skin only; no averaging, AI face input, hair, body, makeup, clothing or lighting authority"
+    max_images: 1
+    provenance: "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/L0_FACE_SOURCE_DERIVATIVES_V1/FACE_L0_013_GEOMETRY_012_SKIN_NATIVE_BOARD_001_PROVENANCE.md"
+    assets:
+      - asset_id: OWNER_FACE_L0_013_GEOMETRY_012_SKIN_NATIVE_BOARD_001
+        path: "characters/CHR_HUMAN_001_OWNER/canon/face/reference_inputs/L0_FACE_SOURCE_DERIVATIVES_V1/FACE_L0_013_GEOMETRY_012_SKIN_NATIVE_BOARD_001.png"
+        sha256: "c2fccf2229c42206947edc41e9cacc04a0a702e9ca94f2a866b96f14d1f0ade0"
+
+  HOS_USER_SELECTED_WHITE_STRICT_WIDE_CROP_V2:
+    purpose: "optional broader deterministic crop of the same mandatory user-selected white source: curved thigh/knee/calf and visible feet for silk-like translucency/sheen/continuous coverage only; no identity, skin, anatomy, hand, pose, clothes, shoe, car, scene light or denier authority"
+    inherits: HOS_USER_SELECTED_WHITE_STRICT
+    max_images: 1
+    version: "source_v1/crop_v2"
+    assets:
+      - asset_id: HOS_USER_WHITE_001_LOWER_BODY_LEG_FOOT_CROP_002
+        path: "materials/hosiery/reference_inputs/user_selected_white/PHOTO_1_LOWER_BODY_LEG_FOOT_MATERIAL_CROP_v2.png"
+        sha256: "f0aeb037eba8b1a17075c85fcf3baf11329643cf01023ac8e3b38f04a1635c5b"
+
+  OWNER_DATE_SUMMER_01_FOOT_MATERIAL_DETAIL_APPROVED_V002:
+    purpose: "approved L2 foot textile detail: continuous fine knit over all toes/nails, intertoe fabric tension, smooth wrinkle-free ankles; not identity, anatomy, pose, new hosiery color/denier or scene authority"
+    approval_status: "APPROVED"
+    approval_date: "2026-10-31"
+    usable_for_generation: true
+    max_images: 1
+    must_not_define: [face, identity, skin, body or foot anatomy, pose, Canon, camera, lighting, background]
+    assets:
+      - asset_id: OWNER_DATE_SUMMER_01_FOOT_MATERIAL_DETAIL_v002
+        path: "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/approved/foot_material_detail/OWNER_DATE_SUMMER_01_FOOT_MATERIAL_DETAIL_v002.png"
+        sha256: "02718418b7a55bd1fc44023ca5059b88b4dc5a42738f8c918458ce4a48178897"
+
+  OWNER_DATE_SUMMER_01_HOSIERY_APPEARANCE_APPROVED_V015:
+    purpose: "user-approved v015 hosiery appearance target for all later OWNER_DATE_SUMMER_01 uses; deterministic face-excluded material-only crop, no identity/body/pose authority"
+    approval_status: "APPROVED"
+    approval_date: "2026-10-31"
+    usable_for_generation: true
+    max_images: 1
+    applicable_outfit: OWNER_DATE_SUMMER_01
+    method: "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/HOSIERY_APPEARANCE_METHOD_v015.md"
+    source_asset_id: OWNER_DATE_SUMMER_01_WORN_FRONT_v015
+    source_path: "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/approved/worn_front/OWNER_DATE_SUMMER_01_WORN_FRONT_v015.png"
+    source_sha256: "e9d59c10a5a269c5aeeab777bc19f65fc041d9dab54642c8a175b34cdc199b25"
+    responsibilities: [outfit-scoped white hosiery color impression, translucency, textile sheen, visible waist-to-toe coverage]
+    must_not_define: [face, identity, body or foot anatomy, skin, hair, calf shape, pose, clothing, shoes, nail color, camera, light, background, other outfits, denier]
+    assets:
+      - asset_id: OWNER_DATE_SUMMER_01_HOSIERY_v015_FACE_EXCLUDED_CROP_001
+        path: "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/reference_inputs/hosiery_v015/WORN_FRONT_v015_WAIST_TO_FEET_MATERIAL_CROP.png"
+        sha256: "3e77cd2c9e272ed869c1f5094326ba287add1bc23856412e3cd88436eeecc7a0"
+
+  SOC_DATE_001_SELECTED_SHOES_20261031:
+    purpose: "User-selected real shoe design for four SOC_DATE_001 replacements only"
+    approval_scope: "reference selection only; new L3 outputs require review"
+    max_images: 1
+    responsibilities: [shoe design, pale blue-gray pointed closed toe, open heel, slim heel, diagonal studded instep strap]
+    shoe_geometry_user_correction: "2026-10-31: NO ankle-encircling strap; decorated band descends from MEDIAL INNER HIGH to LATERAL OUTER LOW"
+    must_not_define: [face, identity, body, skin, hair, hosiery, pose, clothing, lighting, background]
+    provenance: "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/reference_inputs/user_selected_shoes_20261031/SHOE_TWO_VIEW_NATIVE_BOARD_v1.provenance.json"
+    assets:
+      - asset_id: SHOE_TWO_VIEW_NATIVE_BOARD_v1
+        path: "outfits/CHR_HUMAN_001_OWNER/OWNER_DATE_SUMMER_01/reference_inputs/user_selected_shoes_20261031/SHOE_TWO_VIEW_NATIVE_BOARD_v1.png"
+        sha256: "62c3a29e3228f69930c54819108c3991dc8bbc594522ba807753d6f6a5c08709"
